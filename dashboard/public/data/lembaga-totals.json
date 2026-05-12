@@ -1,0 +1,212 @@
+[
+  {
+    "rank": 1,
+    "name": "Kementerian Pertahanan",
+    "total": 53151407122393,
+    "count": 95104,
+    "ownerType": "central"
+  },
+  {
+    "rank": 2,
+    "name": "Kementerian  Pekerjaan Umum",
+    "total": 40458499761473,
+    "count": 3525,
+    "ownerType": "central"
+  },
+  {
+    "rank": 3,
+    "name": "Kementerian Kesehatan",
+    "total": 37509659373251,
+    "count": 13827,
+    "ownerType": "central"
+  },
+  {
+    "rank": 4,
+    "name": "Provinsi DKI Jakarta",
+    "total": 33461960502079,
+    "count": 59043,
+    "ownerType": "provinsi"
+  },
+  {
+    "rank": 5,
+    "name": "Kementerian Pertanian",
+    "total": 24228243811756,
+    "count": 10852,
+    "ownerType": "central"
+  },
+  {
+    "rank": 6,
+    "name": "Badan Pangan Nasional",
+    "total": 21822779790000,
+    "count": 386,
+    "ownerType": "central"
+  },
+  {
+    "rank": 7,
+    "name": "Kepolisian Negara Republik Indonesia",
+    "total": 16255432919350,
+    "count": 22449,
+    "ownerType": "central"
+  },
+  {
+    "rank": 8,
+    "name": "Kementerian Perhubungan",
+    "total": 15055228772119,
+    "count": 22318,
+    "ownerType": "central"
+  },
+  {
+    "rank": 9,
+    "name": "Kementerian Kelautan Dan Perikanan",
+    "total": 10272232198204,
+    "count": 10654,
+    "ownerType": "central"
+  },
+  {
+    "rank": 10,
+    "name": "Kementerian Keuangan",
+    "total": 9681700637223,
+    "count": 33258,
+    "ownerType": "central"
+  },
+  {
+    "rank": 11,
+    "name": "Provinsi Jawa Barat",
+    "total": 9259157231027,
+    "count": 12482,
+    "ownerType": "provinsi"
+  },
+  {
+    "rank": 12,
+    "name": "Kementerian Imigrasi dan Pemasyarakatan",
+    "total": 8451726074279,
+    "count": 37145,
+    "ownerType": "central"
+  },
+  {
+    "rank": 13,
+    "name": "Kementerian Pendidikan Tinggi, Sains, dan Teknologi",
+    "total": 7489609501049,
+    "count": 11555,
+    "ownerType": "central"
+  },
+  {
+    "rank": 14,
+    "name": "Kementerian Energi Dan Sumber Daya Mineral",
+    "total": 6869353033279,
+    "count": 4695,
+    "ownerType": "central"
+  },
+  {
+    "rank": 15,
+    "name": "Provinsi Kalimantan Selatan",
+    "total": 6569781717117,
+    "count": 20560,
+    "ownerType": "provinsi"
+  },
+  {
+    "rank": 16,
+    "name": "Kementerian Pendidikan Dasar dan Menengah",
+    "total": 6393501882912,
+    "count": 15149,
+    "ownerType": "central"
+  },
+  {
+    "rank": 17,
+    "name": "Kementerian Komunikasi dan Digital",
+    "total": 6367942885754,
+    "count": 3265,
+    "ownerType": "central"
+  },
+  {
+    "rank": 18,
+    "name": "Kota Surabaya",
+    "total": 6340622810179,
+    "count": 17072,
+    "ownerType": "kabkota"
+  },
+  {
+    "rank": 19,
+    "name": "Provinsi Jawa Timur",
+    "total": 6220945013096,
+    "count": 27478,
+    "ownerType": "provinsi"
+  },
+  {
+    "rank": 20,
+    "name": "Otorita Ibu Kota Nusantara (OIKN)",
+    "total": 5700968790280,
+    "count": 258,
+    "ownerType": "central"
+  },
+  {
+    "rank": 21,
+    "name": "Kota Medan",
+    "total": 5152264083207,
+    "count": 7323,
+    "ownerType": "kabkota"
+  },
+  {
+    "rank": 22,
+    "name": "Badan Informasi Geospasial",
+    "total": 4590464762930,
+    "count": 1583,
+    "ownerType": "central"
+  },
+  {
+    "rank": 23,
+    "name": "Badan Riset dan Inovasi Nasional",
+    "total": 4127128429611,
+    "count": 585,
+    "ownerType": "central"
+  },
+  {
+    "rank": 24,
+    "name": "Provinsi Jawa Tengah",
+    "total": 4111252449994,
+    "count": 19242,
+    "ownerType": "provinsi"
+  },
+  {
+    "rank": 25,
+    "name": "Kementerian Dalam Negeri",
+    "total": 4082662828572,
+    "count": 3518,
+    "ownerType": "central"
+  },
+  {
+    "rank": 26,
+    "name": "Kementerian Agama",
+    "total": 3901861261622,
+    "count": 27963,
+    "ownerType": "central"
+  },
+  {
+    "rank": 27,
+    "name": "Kab. Badung",
+    "total": 3888301499242,
+    "count": 9562,
+    "ownerType": "kabkota"
+  },
+  {
+    "rank": 28,
+    "name": "Provinsi Sulawesi Selatan",
+    "total": 3852283158143,
+    "count": 5603,
+    "ownerType": "provinsi"
+  },
+  {
+    "rank": 29,
+    "name": "Kementerian Agraria dan Tata Ruang/BPN",
+    "total": 3249042487541,
+    "count": 58901,
+    "ownerType": "central"
+  },
+  {
+    "rank": 30,
+    "name": "Kementerian Luar Negeri",
+    "total": 2984401992980,
+    "count": 14488,
+    "ownerType": "central"
+  }
+]
