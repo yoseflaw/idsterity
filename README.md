@@ -1,4 +1,4 @@
-# Nemesis
+# idsterity
 
 A visualization dashboard for Indonesian government procurement data (SIRUP 2026). Built to explore and surface patterns in public spending — waste potential, institutional rankings, procurement methods.
 
@@ -70,7 +70,7 @@ This re-writes `dashboard/public/data/lembaga-totals.json`.
 ## Project Structure
 
 ```
-nemesis/
+idsterity/
 ├── dashboard/                  # Vite + Svelte visualization app
 │   ├── public/data/            # Pre-aggregated JSON (committed)
 │   ├── scripts/
