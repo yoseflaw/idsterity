@@ -1,8 +1,10 @@
 # idsterity
 
-A visualization dashboard for Indonesian government procurement data (SIRUP 2026). Built to explore and surface patterns in public spending — waste potential, institutional rankings, procurement methods.
+A scrollytelling visualization for Indonesian government procurement data (SIRUP 2026). Built to surface patterns in public spending — waste potential, institutional rankings, and flagged procurement.
 
-> Inspired by [assai-id/nemesis](https://github.com/assai-id/nemesis). This repo focuses on the storytelling layer: interactive charts over the same dataset.
+> Visual direction and UX inspired by [The Pudding](https://pudding.cool/2023/07/songwriters/) — narrative-first, scroll-driven data stories with sticky visualizations that evolve as you read.
+>
+> Dataset sourced from [assai-id/nemesis](https://github.com/assai-id/nemesis).
 
 ---
 

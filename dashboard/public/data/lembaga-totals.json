@@ -4,209 +4,329 @@
     "name": "Kementerian Pertahanan",
     "total": 53151407122393,
     "count": 95104,
-    "ownerType": "central"
+    "ownerType": "central",
+    "flaggedCount": 6731,
+    "flaggedPagu": 3960014390493,
+    "highCount": 669,
+    "medCount": 6062
   },
   {
     "rank": 2,
     "name": "Kementerian  Pekerjaan Umum",
     "total": 40458499761473,
     "count": 3525,
-    "ownerType": "central"
+    "ownerType": "central",
+    "flaggedCount": 159,
+    "flaggedPagu": 1771302973644,
+    "highCount": 7,
+    "medCount": 152
   },
   {
     "rank": 3,
     "name": "Kementerian Kesehatan",
     "total": 37509659373251,
     "count": 13827,
-    "ownerType": "central"
+    "ownerType": "central",
+    "flaggedCount": 712,
+    "flaggedPagu": 1060768310852,
+    "highCount": 108,
+    "medCount": 604
   },
   {
     "rank": 4,
     "name": "Provinsi DKI Jakarta",
     "total": 33461960502079,
     "count": 59043,
-    "ownerType": "provinsi"
+    "ownerType": "provinsi",
+    "flaggedCount": 2193,
+    "flaggedPagu": 2399283952988,
+    "highCount": 263,
+    "medCount": 1930
   },
   {
     "rank": 5,
     "name": "Kementerian Pertanian",
     "total": 24228243811756,
     "count": 10852,
-    "ownerType": "central"
+    "ownerType": "central",
+    "flaggedCount": 635,
+    "flaggedPagu": 4316983510000,
+    "highCount": 81,
+    "medCount": 554
   },
   {
     "rank": 6,
     "name": "Badan Pangan Nasional",
     "total": 21822779790000,
     "count": 386,
-    "ownerType": "central"
+    "ownerType": "central",
+    "flaggedCount": 21,
+    "flaggedPagu": 1904959000,
+    "highCount": 2,
+    "medCount": 19
   },
   {
     "rank": 7,
     "name": "Kepolisian Negara Republik Indonesia",
     "total": 16255432919350,
     "count": 22449,
-    "ownerType": "central"
+    "ownerType": "central",
+    "flaggedCount": 688,
+    "flaggedPagu": 6545646965482,
+    "highCount": 70,
+    "medCount": 618
   },
   {
     "rank": 8,
     "name": "Kementerian Perhubungan",
     "total": 15055228772119,
     "count": 22318,
-    "ownerType": "central"
+    "ownerType": "central",
+    "flaggedCount": 1540,
+    "flaggedPagu": 824263671278,
+    "highCount": 188,
+    "medCount": 1352
   },
   {
     "rank": 9,
     "name": "Kementerian Kelautan Dan Perikanan",
     "total": 10272232198204,
     "count": 10654,
-    "ownerType": "central"
+    "ownerType": "central",
+    "flaggedCount": 854,
+    "flaggedPagu": 4746493080877,
+    "highCount": 85,
+    "medCount": 769
   },
   {
     "rank": 10,
     "name": "Kementerian Keuangan",
     "total": 9681700637223,
     "count": 33258,
-    "ownerType": "central"
+    "ownerType": "central",
+    "flaggedCount": 1761,
+    "flaggedPagu": 817636331051,
+    "highCount": 268,
+    "medCount": 1493
   },
   {
     "rank": 11,
     "name": "Provinsi Jawa Barat",
     "total": 9259157231027,
     "count": 12482,
-    "ownerType": "provinsi"
+    "ownerType": "provinsi",
+    "flaggedCount": 832,
+    "flaggedPagu": 1446846089294,
+    "highCount": 136,
+    "medCount": 696
   },
   {
     "rank": 12,
     "name": "Kementerian Imigrasi dan Pemasyarakatan",
     "total": 8451726074279,
     "count": 37145,
-    "ownerType": "central"
+    "ownerType": "central",
+    "flaggedCount": 2636,
+    "flaggedPagu": 769911727858,
+    "highCount": 374,
+    "medCount": 2262
   },
   {
     "rank": 13,
     "name": "Kementerian Pendidikan Tinggi, Sains, dan Teknologi",
     "total": 7489609501049,
     "count": 11555,
-    "ownerType": "central"
+    "ownerType": "central",
+    "flaggedCount": 609,
+    "flaggedPagu": 877209805223,
+    "highCount": 82,
+    "medCount": 527
   },
   {
     "rank": 14,
     "name": "Kementerian Energi Dan Sumber Daya Mineral",
     "total": 6869353033279,
     "count": 4695,
-    "ownerType": "central"
+    "ownerType": "central",
+    "flaggedCount": 531,
+    "flaggedPagu": 235684329081,
+    "highCount": 67,
+    "medCount": 464
   },
   {
     "rank": 15,
     "name": "Provinsi Kalimantan Selatan",
     "total": 6569781717117,
     "count": 20560,
-    "ownerType": "provinsi"
+    "ownerType": "provinsi",
+    "flaggedCount": 845,
+    "flaggedPagu": 2045823109654,
+    "highCount": 90,
+    "medCount": 755
   },
   {
     "rank": 16,
     "name": "Kementerian Pendidikan Dasar dan Menengah",
     "total": 6393501882912,
     "count": 15149,
-    "ownerType": "central"
+    "ownerType": "central",
+    "flaggedCount": 1469,
+    "flaggedPagu": 2871694545768,
+    "highCount": 144,
+    "medCount": 1325
   },
   {
     "rank": 17,
     "name": "Kementerian Komunikasi dan Digital",
     "total": 6367942885754,
     "count": 3265,
-    "ownerType": "central"
+    "ownerType": "central",
+    "flaggedCount": 423,
+    "flaggedPagu": 626604785305,
+    "highCount": 54,
+    "medCount": 369
   },
   {
     "rank": 18,
     "name": "Kota Surabaya",
     "total": 6340622810179,
     "count": 17072,
-    "ownerType": "kabkota"
+    "ownerType": "kabkota",
+    "flaggedCount": 588,
+    "flaggedPagu": 281107924904,
+    "highCount": 78,
+    "medCount": 510
   },
   {
     "rank": 19,
     "name": "Provinsi Jawa Timur",
     "total": 6220945013096,
     "count": 27478,
-    "ownerType": "provinsi"
+    "ownerType": "provinsi",
+    "flaggedCount": 1477,
+    "flaggedPagu": 591375303076,
+    "highCount": 235,
+    "medCount": 1242
   },
   {
     "rank": 20,
     "name": "Otorita Ibu Kota Nusantara (OIKN)",
     "total": 5700968790280,
     "count": 258,
-    "ownerType": "central"
+    "ownerType": "central",
+    "flaggedCount": 26,
+    "flaggedPagu": 98665372410,
+    "highCount": 1,
+    "medCount": 25
   },
   {
     "rank": 21,
     "name": "Kota Medan",
     "total": 5152264083207,
     "count": 7323,
-    "ownerType": "kabkota"
+    "ownerType": "kabkota",
+    "flaggedCount": 832,
+    "flaggedPagu": 3806837673181,
+    "highCount": 121,
+    "medCount": 711
   },
   {
     "rank": 22,
     "name": "Badan Informasi Geospasial",
     "total": 4590464762930,
     "count": 1583,
-    "ownerType": "central"
+    "ownerType": "central",
+    "flaggedCount": 46,
+    "flaggedPagu": 7869887000,
+    "highCount": 5,
+    "medCount": 41
   },
   {
     "rank": 23,
     "name": "Badan Riset dan Inovasi Nasional",
     "total": 4127128429611,
     "count": 585,
-    "ownerType": "central"
+    "ownerType": "central",
+    "flaggedCount": 84,
+    "flaggedPagu": 563507787000,
+    "highCount": 10,
+    "medCount": 74
   },
   {
     "rank": 24,
     "name": "Provinsi Jawa Tengah",
     "total": 4111252449994,
     "count": 19242,
-    "ownerType": "provinsi"
+    "ownerType": "provinsi",
+    "flaggedCount": 713,
+    "flaggedPagu": 326408435410,
+    "highCount": 112,
+    "medCount": 601
   },
   {
     "rank": 25,
     "name": "Kementerian Dalam Negeri",
     "total": 4082662828572,
     "count": 3518,
-    "ownerType": "central"
+    "ownerType": "central",
+    "flaggedCount": 400,
+    "flaggedPagu": 738312747800,
+    "highCount": 35,
+    "medCount": 365
   },
   {
     "rank": 26,
     "name": "Kementerian Agama",
     "total": 3901861261622,
     "count": 27963,
-    "ownerType": "central"
+    "ownerType": "central",
+    "flaggedCount": 1449,
+    "flaggedPagu": 432969669886,
+    "highCount": 131,
+    "medCount": 1318
   },
   {
     "rank": 27,
     "name": "Kab. Badung",
     "total": 3888301499242,
     "count": 9562,
-    "ownerType": "kabkota"
+    "ownerType": "kabkota",
+    "flaggedCount": 556,
+    "flaggedPagu": 355127083246,
+    "highCount": 122,
+    "medCount": 434
   },
   {
     "rank": 28,
     "name": "Provinsi Sulawesi Selatan",
     "total": 3852283158143,
     "count": 5603,
-    "ownerType": "provinsi"
+    "ownerType": "provinsi",
+    "flaggedCount": 441,
+    "flaggedPagu": 956777956806,
+    "highCount": 68,
+    "medCount": 373
   },
   {
     "rank": 29,
     "name": "Kementerian Agraria dan Tata Ruang/BPN",
     "total": 3249042487541,
     "count": 58901,
-    "ownerType": "central"
+    "ownerType": "central",
+    "flaggedCount": 1937,
+    "flaggedPagu": 241807533900,
+    "highCount": 167,
+    "medCount": 1770
   },
   {
     "rank": 30,
     "name": "Kementerian Luar Negeri",
     "total": 2984401992980,
     "count": 14488,
-    "ownerType": "central"
+    "ownerType": "central",
+    "flaggedCount": 1114,
+    "flaggedPagu": 705123647480,
+    "highCount": 198,
+    "medCount": 916
   }
 ]
