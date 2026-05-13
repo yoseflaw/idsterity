@@ -3,15 +3,15 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: ready_to_plan
-stopped_at: Phase 1 planning complete — 3 plans in 3 waves
-last_updated: "2026-05-13T11:33:37.167Z"
+stopped_at: Phase 1 complete — /gsd-plan-phase 2 is next
+last_updated: "2026-05-13T11:42:00.000Z"
 last_activity: 2026-05-13
 progress:
   total_phases: 4
-  completed_phases: 2
+  completed_phases: 1
   total_plans: 3
   completed_plans: 3
-  percent: 50
+  percent: 25
 ---
 
 # Project State
@@ -21,7 +21,7 @@ progress:
 See: .planning/PROJECT.md (updated 2026-05-13)
 
 **Core value:** Every visitor who reaches the end should feel the irony viscerally and want to share it.
-**Current focus:** Phase 01 — foundation-data-pipeline
+**Current focus:** Phase 02 — core-narrative-(s1–s6)
 
 ## Current Position
 
@@ -30,7 +30,7 @@ Plan: Not started
 Status: Ready to plan
 Last activity: 2026-05-13
 
-Progress: [██████████] 100%
+Progress: [██░░░░░░░░] 25%
 
 ## Performance Metrics
 
@@ -89,15 +89,29 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-05-13T11:33:37.164Z
-Stopped at: Phase 1 planning complete — 3 plans in 3 waves
-Resume file: None
+Last session: 2026-05-13T11:42:00.000Z
+Stopped at: Phase 1 complete — /gsd-plan-phase 2 is next
+Resume file: .planning/phases/01-foundation-data-pipeline/01-VERIFICATION.md
+
+### What was built in Phase 1
+
+- `dashboard/public/data/constants.json` — APBN deficit 3-point series + BPS GDP 5-quarter series
+- `dashboard/scripts/prepare-data.py` — extended with S4 aggregates (jenisCounts, metodeCounts, paguByMonth per institution)
+- `dashboard/scripts/word-cloud.py` — nlp-id lemmatization, high-flag filter, 4 wordcloud JSON outputs
+- `dashboard/src/i18n.js` — bilingual store (id/en), all 10 keys including stepCounter function
+- `dashboard/src/App.svelte` — Walking Skeleton: hero + 4 scrolly stubs, full CSS token system, scrollama wired, language toggle with scroll preservation
+- `dashboard/src/main.js` — 5 @fontsource imports, Google CDN removed
+
+### Open Issues (from code review 01-REVIEW.md)
+
+- **CR-01** (Critical): `constants.json` fetch in `Promise.all` — file exists but result is unused; dead fetch should be removed or wired to template
+- **CR-02** (Critical): No `.catch()` on `Promise.all` — HTTP errors silently stall the app
+- **CR-03** (Critical): `label_pagu["unflagged"]` can go negative in `prepare-data.py`
+- **WR-05** (Warning): Missing Source Serif 4 weight 300 and 600 @fontsource imports in `main.js`
 
 ### Next Steps (in order)
 
-1. `/gsd-execute-phase 1` — Execute all 3 Phase 1 plans (Walking Skeleton, MVP mode).
-   - Wave 1: 01-03 — data pipeline (constants.json, prepare-data.py, word-cloud.py)
-   - Wave 2: 01-01 — scaffold + i18n + fonts + tokens
-   - Wave 3: 01-02 — scrollama wiring + language toggle *(human checkpoint)*
+1. `/gsd-plan-phase 2` — Plan Phase 2 (Core Narrative S1–S6); CONTEXT.md already present, skip discuss
+2. Fix CR-01/CR-02/CR-03/WR-05 during Phase 2 planning or as a quick fix before planning
 
-When the user says "continue", start immediately with `/gsd-execute-phase 1`.
+When the user says "continue", start immediately with `/gsd-plan-phase 2`.
