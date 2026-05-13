@@ -3,5 +3,18 @@
   "totalRecords": 3009760,
   "flaggedCount": 165467,
   "flaggedPagu": 88749284955521,
-  "uniqueLembaga": 663
+  "uniqueLembaga": 663,
+  "labelPagu": {
+    "low": 3722702663263,
+    "med": 74297357749965,
+    "high": 10729224542293,
+    "unflagged": 553402491993874
+  },
+  "labelCounts": {
+    "low": 5636,
+    "med": 134833,
+    "high": 24998,
+    "unflagged": 2844293
+  },
+  "unflaggedPagu": 553402491993874
 }

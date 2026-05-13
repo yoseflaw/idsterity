@@ -8,7 +8,53 @@
     "flaggedCount": 6731,
     "flaggedPagu": 3960014390493,
     "highCount": 669,
-    "medCount": 6062
+    "medCount": 5874,
+    "jenisCounts": {
+      "Barang": 88658,
+      "Jasa Lainnya": 5346,
+      "Jasa Konsultansi": 278,
+      "Pekerjaan Konstruksi": 817,
+      "Unknown": 4,
+      "Barang, Jasa Lainnya": 1
+    },
+    "metodeCounts": {
+      "Pengadaan Langsung": 10129,
+      "Dikecualikan": 903,
+      "Tender": 980,
+      "Penunjukan Langsung": 1294,
+      "E-Purchasing": 81771,
+      "Seleksi": 25,
+      "Tender Cepat": 2
+    },
+    "paguByMonth": {
+      "January 2026": 35834405566482,
+      "December 2025": 13119166275605,
+      "February 2026": 1619401258214,
+      "July 2026": 21921690180,
+      "November 2025": 17686225450,
+      "March 2026": 1812337567652,
+      "October 2025": 9522967000,
+      "October 2026": 17387249825,
+      "April 2026": 65531571220,
+      "January 2025": 31058816740,
+      "May 2026": 36169594025,
+      "February 2022": 1345077000,
+      "June 2026": 284821547100,
+      "August 2026": 10683085850,
+      "September 2026": 9106338250,
+      "November 2026": 5259533050,
+      "August 2025": 245788738000,
+      "December 2026": 7323992750,
+      "April 2025": 84200000,
+      "June 2025": 141500000,
+      "March 2025": 8060000,
+      "February 2025": 7000000,
+      "July 2025": 13738000,
+      "January 2021": 2006296000,
+      "May 2025": 40020000,
+      "March 2023": 175539000,
+      "April 2024": 13675000
+    }
   },
   {
     "rank": 2,
@@ -19,7 +65,40 @@
     "flaggedCount": 159,
     "flaggedPagu": 1771302973644,
     "highCount": 7,
-    "medCount": 152
+    "medCount": 150,
+    "jenisCounts": {
+      "Pekerjaan Konstruksi": 1358,
+      "Jasa Konsultansi": 1186,
+      "Barang": 471,
+      "Jasa Lainnya": 510
+    },
+    "metodeCounts": {
+      "E-Purchasing": 1874,
+      "Penunjukan Langsung": 371,
+      "Seleksi": 632,
+      "Tender": 309,
+      "Tender Cepat": 10,
+      "Pengadaan Langsung": 328,
+      "Dikecualikan": 1
+    },
+    "paguByMonth": {
+      "December 2025": 8895867297625,
+      "November 2025": 165045708000,
+      "January 2026": 11218502510636,
+      "February 2026": 6714816706945,
+      "March 2026": 9238745984590,
+      "January 2025": 3203961000,
+      "December 2026": 10799965000,
+      "April 2026": 3564512065677,
+      "June 2026": 63751590000,
+      "January 2016": 1430811000,
+      "February 2025": 69800200000,
+      "October 2026": 18222735000,
+      "October 2019": 28110247000,
+      "December 2015": 42602063000,
+      "May 2026": 265587916000,
+      "July 2026": 157500000000
+    }
   },
   {
     "rank": 3,
@@ -30,7 +109,64 @@
     "flaggedCount": 712,
     "flaggedPagu": 1060768310852,
     "highCount": 108,
-    "medCount": 604
+    "medCount": 498,
+    "jenisCounts": {
+      "Barang": 8483,
+      "Jasa Lainnya": 4877,
+      "Pekerjaan Konstruksi": 286,
+      "Jasa Konsultansi": 180,
+      "Unknown": 1
+    },
+    "metodeCounts": {
+      "Tender": 276,
+      "Pengadaan Langsung": 6121,
+      "E-Purchasing": 6241,
+      "Penunjukan Langsung": 648,
+      "Dikecualikan": 463,
+      "Seleksi": 52,
+      "Pembayaran untuk Kontrak Tahun Jamak": 24,
+      "Tender Cepat": 2
+    },
+    "paguByMonth": {
+      "November 2025": 1567480543356,
+      "January 2026": 14829796121438,
+      "December 2025": 4021391108190,
+      "January 2025": 36608620601,
+      "May 2026": 74186353749,
+      "February 2026": 5257617731401,
+      "October 2026": 138715432338,
+      "March 2026": 2982229982630,
+      "July 2026": 49269337072,
+      "April 2026": 1583518373346,
+      "November 2026": 1031331000,
+      "August 2026": 18910122000,
+      "June 2026": 2706702545648,
+      "December 2026": 222555000,
+      "September 2026": 146749225250,
+      "October 2025": 637308000,
+      "May 2025": 8127107000,
+      "February 2022": 1350225250,
+      "January 2022": 46960000,
+      "April 2025": 185708320,
+      "September 2025": 447003274000,
+      "February 2025": 64881749716,
+      "December 2024": 107730447000,
+      "January 2024": 673728000,
+      "January 2023": 63000000,
+      "August 2025": 416196963000,
+      "October 2024": 1668100686000,
+      "July 2025": 25113600000,
+      "March 2023": 407853000,
+      "March 2025": 169035217939,
+      "August 2022": 29050000,
+      "September 2029": 3000000,
+      "February 2024": 657906755000,
+      "July 2024": 109754791000,
+      "August 2024": 283768078000,
+      "March 2024": 131835923000,
+      "March 2022": 168300000,
+      "January 2021": 2210266007
+    }
   },
   {
     "rank": 4,
@@ -41,7 +177,60 @@
     "flaggedCount": 2193,
     "flaggedPagu": 2399283952988,
     "highCount": 263,
-    "medCount": 1930
+    "medCount": 1848,
+    "jenisCounts": {
+      "Barang": 31624,
+      "Jasa Lainnya": 21855,
+      "Jasa Konsultansi": 4388,
+      "Pekerjaan Konstruksi": 1176
+    },
+    "metodeCounts": {
+      "E-Purchasing": 36141,
+      "Pengadaan Langsung": 14881,
+      "Dikecualikan": 6188,
+      "Seleksi": 555,
+      "Penunjukan Langsung": 1114,
+      "Tender": 98,
+      "Tender Cepat": 2,
+      "Pembayaran untuk Kontrak Tahun Jamak": 64
+    },
+    "paguByMonth": {
+      "January 2026": 12019973529233,
+      "December 2025": 7438794433923,
+      "March 2026": 1851436874956,
+      "February 2026": 2525619254171,
+      "November 2025": 1570884375875,
+      "August 2026": 294827028883,
+      "July 2026": 437928642260,
+      "June 2026": 1069185209587,
+      "May 2025": 3459931583,
+      "May 2026": 1392119019469,
+      "April 2026": 1616767932283,
+      "October 2025": 492084849406,
+      "January 2025": 6230565193,
+      "October 2026": 39991146155,
+      "November 2026": 28702335670,
+      "September 2026": 121739720614,
+      "December 2026": 4779913062,
+      "February 2025": 90646543432,
+      "March 2025": 589682195,
+      "March 2023": 1918073001,
+      "December 2024": 20186372688,
+      "June 2025": 604738929521,
+      "April 2025": 2457566800,
+      "April 2024": 676575424,
+      "January 2022": 68032194,
+      "January 2021": 777536672,
+      "July 2025": 593894131940,
+      "February 2022": 11356427808,
+      "January 2024": 132105165,
+      "August 2025": 145962998650,
+      "September 2025": 1052365566426,
+      "May 2024": 9400000,
+      "November 2024": 21361650000,
+      "April 2022": 195603520,
+      "March 2022": 98544320
+    }
   },
   {
     "rank": 5,
@@ -52,7 +241,49 @@
     "flaggedCount": 635,
     "flaggedPagu": 4316983510000,
     "highCount": 81,
-    "medCount": 554
+    "medCount": 508,
+    "jenisCounts": {
+      "Jasa Konsultansi": 275,
+      "Barang": 6491,
+      "Jasa Lainnya": 3664,
+      "Pekerjaan Konstruksi": 422
+    },
+    "metodeCounts": {
+      "Pengadaan Langsung": 6624,
+      "E-Purchasing": 3611,
+      "Penunjukan Langsung": 163,
+      "Tender": 60,
+      "Dikecualikan": 352,
+      "Seleksi": 40,
+      "Tender Cepat": 2
+    },
+    "paguByMonth": {
+      "January 2026": 11324202532706,
+      "March 2026": 9527350921410,
+      "June 2026": 65833860000,
+      "December 2025": 30460202000,
+      "November 2025": 25565239000,
+      "July 2026": 13632747000,
+      "January 2021": 604503000,
+      "August 2026": 1837791000,
+      "January 2025": 487164814000,
+      "February 2026": 1002774465640,
+      "November 2026": 269065146000,
+      "September 2026": 4794819000,
+      "February 2025": 11880000000,
+      "May 2026": 294750906000,
+      "February 2022": 1525000000,
+      "October 2026": 1115030000,
+      "April 2026": 1154992978000,
+      "May 2025": 8543000,
+      "December 2026": 593830000,
+      "March 2025": 107304000,
+      "March 2023": 123000000,
+      "June 2021": 8700000000,
+      "March 2021": 1100000000,
+      "June 2025": 58630000,
+      "April 2025": 1550000
+    }
   },
   {
     "rank": 6,
@@ -63,7 +294,33 @@
     "flaggedCount": 21,
     "flaggedPagu": 1904959000,
     "highCount": 2,
-    "medCount": 19
+    "medCount": 17,
+    "jenisCounts": {
+      "Jasa Lainnya": 142,
+      "Barang": 244
+    },
+    "metodeCounts": {
+      "Penunjukan Langsung": 16,
+      "E-Purchasing": 274,
+      "Pengadaan Langsung": 94,
+      "Dikecualikan": 1,
+      "Tender": 1
+    },
+    "paguByMonth": {
+      "January 2026": 6872296664000,
+      "April 2026": 2338301000,
+      "July 2026": 54458000,
+      "March 2026": 4730716000,
+      "February 2026": 14082154793000,
+      "June 2026": 602156000,
+      "May 2026": 459436000,
+      "September 2026": 176000000,
+      "December 2025": 6298000000,
+      "November 2026": 5750000,
+      "August 2026": 10700000,
+      "May 2025": 750000,
+      "July 2024": 853652066000
+    }
   },
   {
     "rank": 7,
@@ -74,7 +331,50 @@
     "flaggedCount": 688,
     "flaggedPagu": 6545646965482,
     "highCount": 70,
-    "medCount": 618
+    "medCount": 606,
+    "jenisCounts": {
+      "Pekerjaan Konstruksi": 1140,
+      "Jasa Lainnya": 13018,
+      "Barang": 7736,
+      "Jasa Konsultansi": 549,
+      "Barang, Jasa Lainnya": 6
+    },
+    "metodeCounts": {
+      "Tender": 1262,
+      "E-Purchasing": 7626,
+      "Pengadaan Langsung": 11675,
+      "Penunjukan Langsung": 1708,
+      "Seleksi": 174,
+      "Tender Cepat": 4
+    },
+    "paguByMonth": {
+      "January 2026": 3499340631160,
+      "December 2025": 3395055264704,
+      "November 2025": 518558910200,
+      "March 2026": 911441090606,
+      "February 2026": 7382850416674,
+      "May 2026": 57981706000,
+      "November 2026": 2008866500,
+      "October 2026": 4673551500,
+      "June 2026": 80687210668,
+      "August 2026": 28808143500,
+      "April 2026": 304806837388,
+      "October 2025": 12646163000,
+      "July 2026": 10489536000,
+      "September 2026": 3071042350,
+      "January 2025": 29919617000,
+      "March 2025": 6416751000,
+      "November 2024": 963600000,
+      "July 2025": 578800000,
+      "December 2026": 1862428100,
+      "June 2025": 471986000,
+      "December 2024": 53280000,
+      "May 2025": 367421000,
+      "April 2025": 503088000,
+      "February 2025": 989090000,
+      "September 2025": 374900000,
+      "August 2025": 512588000
+    }
   },
   {
     "rank": 8,
@@ -85,7 +385,57 @@
     "flaggedCount": 1540,
     "flaggedPagu": 824263671278,
     "highCount": 188,
-    "medCount": 1352
+    "medCount": 1301,
+    "jenisCounts": {
+      "Pekerjaan Konstruksi": 1824,
+      "Jasa Lainnya": 8119,
+      "Barang": 11433,
+      "Jasa Konsultansi": 942
+    },
+    "metodeCounts": {
+      "Tender": 163,
+      "Pengadaan Langsung": 14214,
+      "E-Purchasing": 4170,
+      "Penunjukan Langsung": 1463,
+      "Dikecualikan": 2047,
+      "Seleksi": 251,
+      "Tender Cepat": 3,
+      "Pembayaran untuk Kontrak Tahun Jamak": 7
+    },
+    "paguByMonth": {
+      "November 2025": 823556867400,
+      "January 2026": 4025124983491,
+      "March 2026": 1451086733407,
+      "May 2026": 220347781000,
+      "December 2025": 4052522685997,
+      "July 2026": 46765045000,
+      "September 2026": 14145829000,
+      "October 2026": 13932659000,
+      "April 2026": 1011374688321,
+      "August 2026": 34946471420,
+      "February 2026": 1664120055435,
+      "June 2026": 83275908000,
+      "March 2025": 3055224000,
+      "October 2025": 1824015048,
+      "November 2026": 7281393600,
+      "May 2025": 2983340000,
+      "April 2024": 248630000,
+      "January 2025": 30900511000,
+      "December 2026": 8429456000,
+      "March 2023": 622474000,
+      "April 2023": 116160000,
+      "January 2021": 1356210000,
+      "February 2025": 439351000,
+      "February 2022": 2355990000,
+      "April 2025": 53500000,
+      "January 2022": 843938000,
+      "November 2021": 755410602000,
+      "January 2023": 505057902000,
+      "October 2024": 140000000000,
+      "December 2024": 117306568000,
+      "August 2025": 35000000000,
+      "May 2024": 743800000
+    }
   },
   {
     "rank": 9,
@@ -96,7 +446,58 @@
     "flaggedCount": 854,
     "flaggedPagu": 4746493080877,
     "highCount": 85,
-    "medCount": 769
+    "medCount": 700,
+    "jenisCounts": {
+      "Jasa Lainnya": 3299,
+      "Pekerjaan Konstruksi": 384,
+      "Barang": 6669,
+      "Jasa Konsultansi": 302
+    },
+    "metodeCounts": {
+      "Pengadaan Langsung": 8967,
+      "E-Purchasing": 807,
+      "Dikecualikan": 586,
+      "Tender": 72,
+      "Tender Cepat": 4,
+      "Penunjukan Langsung": 175,
+      "Seleksi": 42,
+      "Pembayaran untuk Kontrak Tahun Jamak": 1
+    },
+    "paguByMonth": {
+      "January 2026": 5345091542770,
+      "July 2026": 209011275000,
+      "February 2026": 2172008454025,
+      "March 2026": 205894253550,
+      "December 2025": 145335023009,
+      "August 2026": 25399319000,
+      "April 2026": 1232149104250,
+      "October 2026": 231544106000,
+      "April 2025": 20110000,
+      "June 2026": 128145862000,
+      "November 2026": 4758286000,
+      "May 2026": 126334909000,
+      "November 2025": 65873300000,
+      "December 2026": 18691295000,
+      "September 2026": 4290474000,
+      "July 2025": 57412601000,
+      "January 2021": 153514000,
+      "January 2025": 2116639600,
+      "February 2025": 77250000,
+      "August 2025": 257731790000,
+      "May 2025": 128230000,
+      "June 2025": 28580000,
+      "September 2025": 100000000,
+      "February 2022": 5000000,
+      "October 2023": 8454120000,
+      "August 2023": 6393470000,
+      "March 2024": 405000000,
+      "September 2023": 12844741000,
+      "October 2024": 9216528000,
+      "January 0002": 9120000,
+      "April 2024": 1903301000,
+      "March 2023": 355000000,
+      "March 2025": 350000000
+    }
   },
   {
     "rank": 10,
@@ -107,7 +508,44 @@
     "flaggedCount": 1761,
     "flaggedPagu": 817636331051,
     "highCount": 268,
-    "medCount": 1493
+    "medCount": 1479,
+    "jenisCounts": {
+      "Jasa Konsultansi": 512,
+      "Pekerjaan Konstruksi": 691,
+      "Jasa Lainnya": 15653,
+      "Barang": 16402
+    },
+    "metodeCounts": {
+      "Pengadaan Langsung": 26190,
+      "Tender": 266,
+      "Tender Cepat": 2,
+      "E-Purchasing": 1233,
+      "Penunjukan Langsung": 278,
+      "Seleksi": 87,
+      "Dikecualikan": 5202
+    },
+    "paguByMonth": {
+      "January 2026": 4257564155125,
+      "November 2025": 1181563426545,
+      "December 2025": 1006621437681,
+      "March 2026": 564529787004,
+      "April 2026": 604437665790,
+      "October 2025": 78275417301,
+      "February 2026": 401683988000,
+      "January 2025": 7925605000,
+      "June 2026": 32486341444,
+      "December 2026": 15266670964,
+      "December 2024": 2566434000,
+      "August 2026": 240830759944,
+      "September 2026": 6762813670,
+      "July 2026": 146993651354,
+      "March 2025": 15000000,
+      "May 2026": 1112426312857,
+      "October 2026": 15149428230,
+      "April 2025": 320000000,
+      "November 2026": 3207432314,
+      "July 2025": 3074310000
+    }
   },
   {
     "rank": 11,
@@ -118,7 +556,53 @@
     "flaggedCount": 832,
     "flaggedPagu": 1446846089294,
     "highCount": 136,
-    "medCount": 696
+    "medCount": 684,
+    "jenisCounts": {
+      "Jasa Lainnya": 4862,
+      "Barang": 5151,
+      "Jasa Konsultansi": 1316,
+      "Pekerjaan Konstruksi": 1153
+    },
+    "metodeCounts": {
+      "E-Purchasing": 4663,
+      "Pengadaan Langsung": 5702,
+      "Dikecualikan": 1770,
+      "Seleksi": 209,
+      "Penunjukan Langsung": 114,
+      "Tender": 15,
+      "Tender Cepat": 9
+    },
+    "paguByMonth": {
+      "December 2025": 617591760520,
+      "January 2026": 5146088412868,
+      "June 2026": 113888566009,
+      "February 2026": 1285042139143,
+      "April 2026": 837526070123,
+      "December 2026": 19523022592,
+      "September 2026": 97587012667,
+      "May 2026": 364730536836,
+      "November 2026": 3973529298,
+      "March 2026": 594113574628,
+      "January 2025": 21188839190,
+      "July 2026": 63314080163,
+      "August 2026": 38646572509,
+      "October 2026": 4950818291,
+      "November 2025": 18553272974,
+      "February 2025": 1107195541,
+      "March 2025": 2840707755,
+      "October 2025": 1973278438,
+      "March 2023": 204137097,
+      "January 2021": 9779648,
+      "February 2022": 4492064,
+      "April 2025": 212269976,
+      "April 2024": 252875000,
+      "August 2025": 5074256843,
+      "May 2025": 26600000,
+      "January 2023": 1424800,
+      "September 2025": 19309176551,
+      "July 2025": 1410558783,
+      "February 2021": 12270720
+    }
   },
   {
     "rank": 12,
@@ -129,7 +613,51 @@
     "flaggedCount": 2636,
     "flaggedPagu": 769911727858,
     "highCount": 374,
-    "medCount": 2262
+    "medCount": 2075,
+    "jenisCounts": {
+      "Barang": 24339,
+      "Jasa Lainnya": 11647,
+      "Pekerjaan Konstruksi": 936,
+      "Jasa Konsultansi": 220,
+      "Unknown": 3
+    },
+    "metodeCounts": {
+      "Pengadaan Langsung": 27466,
+      "E-Purchasing": 6274,
+      "Penunjukan Langsung": 201,
+      "Dikecualikan": 3013,
+      "Tender": 98,
+      "Seleksi": 93
+    },
+    "paguByMonth": {
+      "April 2026": 53801664840,
+      "January 2026": 3453054169778,
+      "December 2025": 2277946890459,
+      "February 2026": 439611280407,
+      "March 2026": 236104601309,
+      "June 2026": 102273384938,
+      "February 2025": 26046000,
+      "May 2026": 170691514500,
+      "November 2025": 216713064000,
+      "January 2025": 1412675982000,
+      "July 2026": 79453029500,
+      "December 2026": 689009500,
+      "August 2026": 2001283500,
+      "October 2026": 1220657500,
+      "January 2022": 913206048,
+      "November 2026": 472725500,
+      "December 2024": 440856000,
+      "April 2025": 4347000,
+      "February 2022": 139478000,
+      "September 2026": 622129500,
+      "January 2021": 220764000,
+      "March 2023": 187560000,
+      "October 2025": 2135510000,
+      "March 2022": 27000000,
+      "May 2025": 10050000,
+      "March 2025": 240870000,
+      "April 2024": 49000000
+    }
   },
   {
     "rank": 13,
@@ -140,7 +668,52 @@
     "flaggedCount": 609,
     "flaggedPagu": 877209805223,
     "highCount": 82,
-    "medCount": 527
+    "medCount": 510,
+    "jenisCounts": {
+      "Barang": 5388,
+      "Pekerjaan Konstruksi": 1177,
+      "Jasa Lainnya": 4478,
+      "Jasa Konsultansi": 512
+    },
+    "metodeCounts": {
+      "E-Purchasing": 3086,
+      "Tender": 138,
+      "Pengadaan Langsung": 6204,
+      "Seleksi": 77,
+      "Penunjukan Langsung": 37,
+      "Dikecualikan": 1985,
+      "Pembayaran untuk Kontrak Tahun Jamak": 28
+    },
+    "paguByMonth": {
+      "November 2025": 549238527000,
+      "December 2025": 786566805131,
+      "January 2026": 2063143570559,
+      "May 2026": 187286464576,
+      "September 2026": 46302637400,
+      "June 2026": 228545021482,
+      "February 2026": 1170984812128,
+      "March 2026": 1269806397051,
+      "April 2026": 454823889785,
+      "July 2026": 172471534642,
+      "October 2026": 18948529000,
+      "August 2025": 34910757000,
+      "November 2026": 4460070000,
+      "August 2026": 86411053865,
+      "January 2025": 38460637000,
+      "May 2025": 1247679000,
+      "April 2023": 124939000,
+      "December 2026": 508830000,
+      "January 2021": 500000,
+      "February 2025": 23268987000,
+      "June 2025": 923520000,
+      "April 2024": 250000000,
+      "February 2022": 120512500,
+      "July 2022": 39000000,
+      "March 2024": 247000000,
+      "March 2014": 160244916000,
+      "March 2025": 407921930,
+      "October 2025": 189864989000
+    }
   },
   {
     "rank": 14,
@@ -151,7 +724,46 @@
     "flaggedCount": 531,
     "flaggedPagu": 235684329081,
     "highCount": 67,
-    "medCount": 464
+    "medCount": 433,
+    "jenisCounts": {
+      "Barang": 2731,
+      "Jasa Lainnya": 1762,
+      "Jasa Konsultansi": 105,
+      "Pekerjaan Konstruksi": 97
+    },
+    "metodeCounts": {
+      "E-Purchasing": 845,
+      "Tender": 47,
+      "Pengadaan Langsung": 3081,
+      "Penunjukan Langsung": 167,
+      "Seleksi": 27,
+      "Dikecualikan": 512,
+      "Tender Cepat": 2,
+      "Pembayaran untuk Kontrak Tahun Jamak": 14
+    },
+    "paguByMonth": {
+      "December 2025": 484906417615,
+      "November 2025": 86452353491,
+      "January 2026": 1030209028233,
+      "June 2026": 397776772000,
+      "March 2026": 474151288322,
+      "April 2026": 585308933000,
+      "May 2026": 47956576000,
+      "February 2026": 1151745663618,
+      "August 2026": 5982168000,
+      "November 2026": 3832509000,
+      "July 2026": 9872110000,
+      "September 2026": 2973406000,
+      "December 2026": 73237000,
+      "October 2026": 1418635000,
+      "February 2024": 17776200000,
+      "January 2021": 24826000,
+      "February 2022": 88868000,
+      "February 2023": 785970000,
+      "January 2025": 2584000,
+      "August 2025": 2501228110000,
+      "July 2025": 66787378000
+    }
   },
   {
     "rank": 15,
@@ -162,7 +774,46 @@
     "flaggedCount": 845,
     "flaggedPagu": 2045823109654,
     "highCount": 90,
-    "medCount": 755
+    "medCount": 743,
+    "jenisCounts": {
+      "Jasa Lainnya": 8711,
+      "Barang": 9938,
+      "Jasa Konsultansi": 1208,
+      "Pekerjaan Konstruksi": 703
+    },
+    "metodeCounts": {
+      "E-Purchasing": 14438,
+      "Dikecualikan": 3266,
+      "Pengadaan Langsung": 2563,
+      "Penunjukan Langsung": 107,
+      "Seleksi": 111,
+      "Tender": 75
+    },
+    "paguByMonth": {
+      "December 2025": 2468252166292,
+      "January 2026": 2431555194680,
+      "June 2026": 8629592880,
+      "February 2026": 1270559310481,
+      "April 2026": 24384871690,
+      "March 2026": 302540340684,
+      "May 2026": 9596308240,
+      "September 2026": 2244892870,
+      "August 2026": 1974384350,
+      "July 2026": 6493336900,
+      "October 2026": 2749730350,
+      "November 2026": 1486530700,
+      "November 2025": 122400000,
+      "January 2025": 32523208600,
+      "February 2022": 280035000,
+      "March 2025": 670400000,
+      "December 2026": 213272900,
+      "April 2024": 3632500,
+      "January 2021": 6808000,
+      "May 2025": 29300000,
+      "January 2022": 16000000,
+      "April 2025": 150000000,
+      "February 2025": 5300000000
+    }
   },
   {
     "rank": 16,
@@ -173,7 +824,40 @@
     "flaggedCount": 1469,
     "flaggedPagu": 2871694545768,
     "highCount": 144,
-    "medCount": 1325
+    "medCount": 1313,
+    "jenisCounts": {
+      "Jasa Lainnya": 4404,
+      "Barang": 10406,
+      "Pekerjaan Konstruksi": 274,
+      "Jasa Konsultansi": 54,
+      "Unknown": 11
+    },
+    "metodeCounts": {
+      "Pengadaan Langsung": 7123,
+      "Dikecualikan": 4790,
+      "E-Purchasing": 2839,
+      "Penunjukan Langsung": 362,
+      "Tender Cepat": 3,
+      "Seleksi": 17,
+      "Tender": 15
+    },
+    "paguByMonth": {
+      "January 2026": 5002700869763,
+      "November 2026": 11045184683,
+      "August 2026": 30714947350,
+      "February 2026": 285908539118,
+      "June 2026": 71470406850,
+      "July 2026": 80549608433,
+      "March 2026": 263453316044,
+      "October 2026": 24922624350,
+      "September 2026": 25787243333,
+      "April 2026": 167872535653,
+      "May 2026": 123607510483,
+      "December 2026": 10736596000,
+      "December 2025": 39576621852,
+      "November 2025": 254980219000,
+      "January 2025": 175660000
+    }
   },
   {
     "rank": 17,
@@ -184,7 +868,45 @@
     "flaggedCount": 423,
     "flaggedPagu": 626604785305,
     "highCount": 54,
-    "medCount": 369
+    "medCount": 349,
+    "jenisCounts": {
+      "Jasa Lainnya": 1661,
+      "Barang": 1335,
+      "Jasa Konsultansi": 226,
+      "Pekerjaan Konstruksi": 43
+    },
+    "metodeCounts": {
+      "E-Purchasing": 768,
+      "Pengadaan Langsung": 1665,
+      "Dikecualikan": 724,
+      "Penunjukan Langsung": 56,
+      "Seleksi": 27,
+      "Tender": 25
+    },
+    "paguByMonth": {
+      "May 2026": 195682003000,
+      "March 2026": 245419961129,
+      "December 2025": 1856836764451,
+      "January 2026": 3580526100102,
+      "November 2025": 47520324000,
+      "June 2026": 91314740000,
+      "April 2026": 80541126572,
+      "February 2026": 223027174000,
+      "September 2026": 6217577000,
+      "January 2025": 11730000,
+      "July 2026": 20896920500,
+      "October 2026": 1293480000,
+      "August 2025": 118996000,
+      "August 2026": 12520025000,
+      "February 2025": 75000000,
+      "January 2021": 4397429000,
+      "March 2025": 140000000,
+      "November 2026": 840335000,
+      "December 2026": 36650000,
+      "January 2024": 480000000,
+      "May 2025": 35000000,
+      "February 2022": 11550000
+    }
   },
   {
     "rank": 18,
@@ -195,7 +917,47 @@
     "flaggedCount": 588,
     "flaggedPagu": 281107924904,
     "highCount": 78,
-    "medCount": 510
+    "medCount": 458,
+    "jenisCounts": {
+      "Jasa Lainnya": 4666,
+      "Barang": 9086,
+      "Jasa Konsultansi": 1442,
+      "Pekerjaan Konstruksi": 1878
+    },
+    "metodeCounts": {
+      "E-Purchasing": 10832,
+      "Pengadaan Langsung": 5158,
+      "Penunjukan Langsung": 17,
+      "Seleksi": 50,
+      "Dikecualikan": 958,
+      "Tender": 57
+    },
+    "paguByMonth": {
+      "December 2025": 557711856379,
+      "February 2026": 1380501108264,
+      "January 2026": 2558513580606,
+      "November 2026": 205292876163,
+      "March 2026": 468559673555,
+      "June 2026": 232619502858,
+      "November 2025": 7020768346,
+      "August 2026": 115893543722,
+      "May 2026": 201457028334,
+      "July 2026": 131930077365,
+      "April 2026": 337105575612,
+      "October 2026": 34172579666,
+      "December 2026": 1991907035,
+      "October 2025": 111507650,
+      "September 2026": 101756870371,
+      "February 2025": 127221176,
+      "April 2025": 55553946,
+      "January 2025": 4859095060,
+      "March 2025": 167638093,
+      "August 2025": 38816448,
+      "May 2025": 180041001,
+      "September 2025": 198015741,
+      "June 2025": 218458389,
+      "July 2025": 139514399
+    }
   },
   {
     "rank": 19,
@@ -206,7 +968,53 @@
     "flaggedCount": 1477,
     "flaggedPagu": 591375303076,
     "highCount": 235,
-    "medCount": 1242
+    "medCount": 1208,
+    "jenisCounts": {
+      "Jasa Lainnya": 8734,
+      "Barang": 16854,
+      "Jasa Konsultansi": 1112,
+      "Pekerjaan Konstruksi": 778
+    },
+    "metodeCounts": {
+      "E-Purchasing": 19127,
+      "Pengadaan Langsung": 6779,
+      "Dikecualikan": 1220,
+      "Penunjukan Langsung": 288,
+      "Seleksi": 41,
+      "Tender": 23
+    },
+    "paguByMonth": {
+      "December 2025": 630715227274,
+      "January 2026": 3479568033992,
+      "March 2026": 530743624481,
+      "April 2026": 305917521245,
+      "February 2026": 513634721803,
+      "September 2026": 20706198055,
+      "August 2026": 24239777733,
+      "October 2026": 47323025718,
+      "June 2026": 62686795642,
+      "November 2026": 6441034534,
+      "May 2026": 258041952987,
+      "July 2026": 265017942231,
+      "January 2025": 29135855332,
+      "December 2026": 33935136377,
+      "January 2021": 223028530,
+      "February 2025": 3345562973,
+      "February 2022": 134641950,
+      "March 2025": 2492214320,
+      "April 2025": 1667612620,
+      "July 2025": 33000000,
+      "May 2025": 389590100,
+      "April 2024": 2150472370,
+      "June 2025": 9000000,
+      "November 2025": 1543939049,
+      "January 2022": 12950000,
+      "March 2023": 454741180,
+      "February 2023": 8284000,
+      "March 2022": 185000000,
+      "April 2023": 31324000,
+      "March 2024": 156804600
+    }
   },
   {
     "rank": 20,
@@ -217,7 +1025,28 @@
     "flaggedCount": 26,
     "flaggedPagu": 98665372410,
     "highCount": 1,
-    "medCount": 25
+    "medCount": 24,
+    "jenisCounts": {
+      "Jasa Lainnya": 178,
+      "Barang": 22,
+      "Jasa Konsultansi": 49,
+      "Pekerjaan Konstruksi": 9
+    },
+    "metodeCounts": {
+      "E-Purchasing": 130,
+      "Pengadaan Langsung": 100,
+      "Penunjukan Langsung": 3,
+      "Seleksi": 16,
+      "Tender": 9
+    },
+    "paguByMonth": {
+      "January 2026": 340839139854,
+      "February 2026": 3251044950397,
+      "March 2026": 248956379029,
+      "April 2026": 1502909131000,
+      "May 2026": 355019190000,
+      "June 2026": 2200000000
+    }
   },
   {
     "rank": 21,
@@ -228,7 +1057,43 @@
     "flaggedCount": 832,
     "flaggedPagu": 3806837673181,
     "highCount": 121,
-    "medCount": 711
+    "medCount": 688,
+    "jenisCounts": {
+      "Jasa Lainnya": 1572,
+      "Barang": 5510,
+      "Jasa Konsultansi": 101,
+      "Pekerjaan Konstruksi": 140
+    },
+    "metodeCounts": {
+      "E-Purchasing": 5097,
+      "Pengadaan Langsung": 1797,
+      "Dikecualikan": 327,
+      "Penunjukan Langsung": 67,
+      "Tender": 11,
+      "Seleksi": 24
+    },
+    "paguByMonth": {
+      "January 2026": 4531854013117,
+      "February 2026": 127246241393,
+      "April 2026": 103364901183,
+      "March 2026": 194620254233,
+      "December 2025": 124272753380,
+      "July 2026": 22216263372,
+      "May 2026": 17893455851,
+      "October 2026": 3779962189,
+      "June 2026": 13962202114,
+      "September 2026": 3494826995,
+      "August 2026": 6283333649,
+      "January 2025": 158324145,
+      "December 2026": 32342675,
+      "November 2026": 1793447619,
+      "January 2021": 233757866,
+      "April 2024": 9917686,
+      "January 2022": 234730663,
+      "February 2025": 22019077,
+      "May 2025": 11336000,
+      "March 2024": 780000000
+    }
   },
   {
     "rank": 22,
@@ -239,7 +1104,38 @@
     "flaggedCount": 46,
     "flaggedPagu": 7869887000,
     "highCount": 5,
-    "medCount": 41
+    "medCount": 40,
+    "jenisCounts": {
+      "Barang": 94,
+      "Jasa Lainnya": 1455,
+      "Pekerjaan Konstruksi": 4,
+      "Jasa Konsultansi": 30
+    },
+    "metodeCounts": {
+      "Penunjukan Langsung": 22,
+      "Dikecualikan": 1274,
+      "E-Purchasing": 30,
+      "Pengadaan Langsung": 143,
+      "Seleksi": 15,
+      "Tender": 93,
+      "Pembayaran untuk Kontrak Tahun Jamak": 6
+    },
+    "paguByMonth": {
+      "January 2026": 324999613000,
+      "December 2025": 109235111000,
+      "July 2026": 839069000,
+      "March 2026": 1602584000,
+      "May 2026": 166266000,
+      "April 2026": 8190291000,
+      "August 2025": 4001251489073,
+      "February 2026": 62907114000,
+      "October 2026": 662612000,
+      "August 2026": 500000000,
+      "November 2026": 10000000,
+      "September 2026": 195500000,
+      "June 2026": 2220000,
+      "September 2025": 79902893857
+    }
   },
   {
     "rank": 23,
@@ -250,7 +1146,39 @@
     "flaggedCount": 84,
     "flaggedPagu": 563507787000,
     "highCount": 10,
-    "medCount": 74
+    "medCount": 74,
+    "jenisCounts": {
+      "Jasa Lainnya": 189,
+      "Barang": 337,
+      "Pekerjaan Konstruksi": 49,
+      "Jasa Konsultansi": 10
+    },
+    "metodeCounts": {
+      "E-Purchasing": 224,
+      "Pengadaan Langsung": 263,
+      "Dikecualikan": 84,
+      "Tender": 12,
+      "Penunjukan Langsung": 1,
+      "Seleksi": 1
+    },
+    "paguByMonth": {
+      "December 2025": 186000000000,
+      "November 2025": 129900000000,
+      "January 2026": 2016456738880,
+      "February 2026": 135107183000,
+      "March 2026": 650030737820,
+      "April 2026": 930871256283,
+      "May 2026": 9558507750,
+      "July 2026": 15684857000,
+      "June 2026": 5874624000,
+      "August 2026": 38390062000,
+      "September 2026": 777151000,
+      "December 2026": 73339000,
+      "October 2026": 4593641000,
+      "November 2026": 2501387000,
+      "March 2023": 70000000,
+      "March 2025": 1238944878
+    }
   },
   {
     "rank": 24,
@@ -261,7 +1189,48 @@
     "flaggedCount": 713,
     "flaggedPagu": 326408435410,
     "highCount": 112,
-    "medCount": 601
+    "medCount": 584,
+    "jenisCounts": {
+      "Jasa Lainnya": 7993,
+      "Pekerjaan Konstruksi": 1137,
+      "Barang": 9395,
+      "Jasa Konsultansi": 716,
+      "Barang, Jasa Lainnya": 1
+    },
+    "metodeCounts": {
+      "Dikecualikan": 2283,
+      "Pengadaan Langsung": 5846,
+      "E-Purchasing": 10970,
+      "Tender": 47,
+      "Penunjukan Langsung": 78,
+      "Seleksi": 18
+    },
+    "paguByMonth": {
+      "May 2026": 138019690980,
+      "January 2026": 2517282591330,
+      "December 2025": 406109818991,
+      "June 2026": 46730531880,
+      "February 2026": 555993861931,
+      "July 2026": 66657658284,
+      "April 2026": 102845437900,
+      "March 2026": 225390571410,
+      "August 2026": 21442758700,
+      "September 2026": 13195854088,
+      "October 2026": 5731992300,
+      "January 2025": 1634253400,
+      "November 2026": 3700527600,
+      "November 2025": 3363150000,
+      "June 2025": 323000000,
+      "May 2025": 539243000,
+      "December 2026": 1133563200,
+      "September 2025": 1164000,
+      "August 2027": 30000000,
+      "August 2025": 45000000,
+      "February 2025": 1275000,
+      "March 2025": 980098000,
+      "May 2023": 97908000,
+      "October 2025": 2500000
+    }
   },
   {
     "rank": 25,
@@ -272,7 +1241,54 @@
     "flaggedCount": 400,
     "flaggedPagu": 738312747800,
     "highCount": 35,
-    "medCount": 365
+    "medCount": 345,
+    "jenisCounts": {
+      "Jasa Lainnya": 1743,
+      "Jasa Konsultansi": 454,
+      "Barang": 1130,
+      "Pekerjaan Konstruksi": 190,
+      "Unknown": 1
+    },
+    "metodeCounts": {
+      "E-Purchasing": 1159,
+      "Pengadaan Langsung": 1656,
+      "Seleksi": 128,
+      "Tender": 94,
+      "Penunjukan Langsung": 127,
+      "Dikecualikan": 347,
+      "Unknown": 1,
+      "Tender Cepat": 5,
+      "Pembayaran untuk Kontrak Tahun Jamak": 1
+    },
+    "paguByMonth": {
+      "December 2025": 581804565100,
+      "January 2026": 988655670468,
+      "November 2025": 6702925352,
+      "February 2026": 370975787652,
+      "March 2026": 811630182570,
+      "July 2026": 19544079500,
+      "April 2026": 346485162300,
+      "May 2026": 105309900550,
+      "September 2026": 660232778250,
+      "June 2026": 51448989510,
+      "October 2026": 5638756220,
+      "August 2026": 22131940100,
+      "January 2021": 500231000,
+      "November 2026": 3276787000,
+      "February 2022": 750427000,
+      "April 2024": 100000000,
+      "August 2025": 75000000,
+      "September 2025": 364784000,
+      "December 2026": 1184122000,
+      "Unknown": 0,
+      "June 2006": 4549852000,
+      "April 2025": 7850000,
+      "May 2025": 33327800000,
+      "March 2025": 237200000,
+      "March 2023": 15114425000,
+      "June 2024": 8185486000,
+      "January 2025": 44428127000
+    }
   },
   {
     "rank": 26,
@@ -283,7 +1299,53 @@
     "flaggedCount": 1449,
     "flaggedPagu": 432969669886,
     "highCount": 131,
-    "medCount": 1318
+    "medCount": 1238,
+    "jenisCounts": {
+      "Pekerjaan Konstruksi": 1549,
+      "Jasa Lainnya": 6555,
+      "Barang": 19228,
+      "Jasa Konsultansi": 630,
+      "Unknown": 1
+    },
+    "metodeCounts": {
+      "Pengadaan Langsung": 19159,
+      "E-Purchasing": 6334,
+      "Seleksi": 56,
+      "Tender": 185,
+      "Penunjukan Langsung": 1344,
+      "Dikecualikan": 882,
+      "Tender Cepat": 3
+    },
+    "paguByMonth": {
+      "March 2026": 610824527636,
+      "January 2026": 1339486379886,
+      "November 2025": 74891702000,
+      "April 2026": 308214846000,
+      "July 2026": 32606402500,
+      "February 2026": 600592979100,
+      "December 2025": 551284863000,
+      "June 2026": 93675997000,
+      "May 2026": 111166046500,
+      "November 2024": 3028024000,
+      "August 2026": 15259635000,
+      "September 2026": 19982242000,
+      "October 2026": 11807981000,
+      "February 2022": 135850000,
+      "January 2025": 32115229000,
+      "December 2026": 3036422000,
+      "July 2025": 61414108000,
+      "November 2026": 5623236000,
+      "April 2024": 591099000,
+      "August 2025": 874146000,
+      "February 2025": 412400000,
+      "January 2021": 3790933000,
+      "May 2025": 310171000,
+      "March 2023": 233248000,
+      "September 2025": 1386482000,
+      "January 2022": 19000000,
+      "March 2025": 19067312000,
+      "April 2025": 30000000
+    }
   },
   {
     "rank": 27,
@@ -294,7 +1356,51 @@
     "flaggedCount": 556,
     "flaggedPagu": 355127083246,
     "highCount": 122,
-    "medCount": 434
+    "medCount": 415,
+    "jenisCounts": {
+      "Barang": 7790,
+      "Jasa Lainnya": 1081,
+      "Pekerjaan Konstruksi": 250,
+      "Jasa Konsultansi": 441
+    },
+    "metodeCounts": {
+      "E-Purchasing": 7427,
+      "Pengadaan Langsung": 1057,
+      "Dikecualikan": 790,
+      "Penunjukan Langsung": 38,
+      "Tender": 188,
+      "Seleksi": 60,
+      "Tender Cepat": 2
+    },
+    "paguByMonth": {
+      "March 2026": 868015070291,
+      "April 2026": 469688788501,
+      "January 2026": 950538104896,
+      "November 2026": 9679648285,
+      "February 2026": 1113945492344,
+      "October 2026": 20656481309,
+      "December 2025": 196267132588,
+      "January 2025": 55924200,
+      "July 2026": 33034535107,
+      "August 2026": 10041622345,
+      "September 2026": 41118409022,
+      "June 2026": 46020340685,
+      "May 2026": 123491922707,
+      "April 2025": 333000,
+      "December 2026": 3047380296,
+      "February 2022": 77942900,
+      "April 2022": 572800,
+      "March 2023": 79469100,
+      "April 2024": 200156756,
+      "February 2025": 12696600,
+      "November 2025": 419856060,
+      "August 2025": 74760900,
+      "June 2025": 246200000,
+      "May 2025": 498948700,
+      "March 2024": 32012000,
+      "January 2021": 3127450,
+      "March 2025": 1054570400
+    }
   },
   {
     "rank": 28,
@@ -305,7 +1411,49 @@
     "flaggedCount": 441,
     "flaggedPagu": 956777956806,
     "highCount": 68,
-    "medCount": 373
+    "medCount": 295,
+    "jenisCounts": {
+      "Barang": 4193,
+      "Jasa Lainnya": 884,
+      "Jasa Konsultansi": 304,
+      "Pekerjaan Konstruksi": 222
+    },
+    "metodeCounts": {
+      "E-Purchasing": 4680,
+      "Pengadaan Langsung": 649,
+      "Penunjukan Langsung": 14,
+      "Dikecualikan": 136,
+      "Seleksi": 86,
+      "Tender": 17,
+      "Pembayaran untuk Kontrak Tahun Jamak": 21
+    },
+    "paguByMonth": {
+      "January 2026": 1411824466192,
+      "December 2025": 31002418645,
+      "February 2026": 643561262492,
+      "August 2026": 1416953300,
+      "July 2026": 5323998342,
+      "October 2026": 103731800,
+      "April 2026": 39390613277,
+      "May 2026": 19444860066,
+      "March 2026": 46505417876,
+      "June 2026": 49562727195,
+      "September 2026": 1878821912,
+      "April 2025": 15196759853,
+      "May 2025": 26585389493,
+      "June 2025": 999680408800,
+      "January 2022": 126000000,
+      "March 2023": 80418000,
+      "February 2023": 61412000,
+      "February 2022": 7811600,
+      "March 2024": 68472000,
+      "November 2026": 19935000,
+      "August 2025": 362353554000,
+      "September 2025": 197861600000,
+      "March 2025": 190350000,
+      "January 2025": 35500000,
+      "January 2021": 276300
+    }
   },
   {
     "rank": 29,
@@ -316,7 +1464,53 @@
     "flaggedCount": 1937,
     "flaggedPagu": 241807533900,
     "highCount": 167,
-    "medCount": 1770
+    "medCount": 1647,
+    "jenisCounts": {
+      "Barang": 46962,
+      "Jasa Lainnya": 11295,
+      "Pekerjaan Konstruksi": 100,
+      "Jasa Konsultansi": 544
+    },
+    "metodeCounts": {
+      "E-Purchasing": 11477,
+      "Pengadaan Langsung": 44445,
+      "Tender": 127,
+      "Penunjukan Langsung": 2437,
+      "Seleksi": 152,
+      "Dikecualikan": 262,
+      "Tender Cepat": 1
+    },
+    "paguByMonth": {
+      "January 2026": 1594045113645,
+      "March 2026": 266912092882,
+      "August 2026": 4478242000,
+      "February 2026": 892091048064,
+      "May 2026": 25423404000,
+      "December 2025": 193353231800,
+      "April 2026": 67415225200,
+      "June 2026": 74515940950,
+      "March 2025": 87918000,
+      "July 2026": 10157225000,
+      "November 2025": 67490371000,
+      "September 2026": 4270810000,
+      "November 2026": 3080578000,
+      "October 2026": 7625580000,
+      "December 2026": 12262949000,
+      "January 2021": 186618000,
+      "January 2025": 16456302000,
+      "October 2025": 4034974000,
+      "April 2024": 2500000,
+      "March 2023": 129140000,
+      "January 2022": 750000,
+      "May 2025": 1987000,
+      "February 2022": 159723000,
+      "February 2025": 3353000,
+      "June 2025": 74000000,
+      "December 2015": 27000000,
+      "September 2025": 827956000,
+      "August 2025": 3798455000,
+      "March 2001": 130000000
+    }
   },
   {
     "rank": 30,
@@ -327,6 +1521,44 @@
     "flaggedCount": 1114,
     "flaggedPagu": 705123647480,
     "highCount": 198,
-    "medCount": 916
+    "medCount": 816,
+    "jenisCounts": {
+      "Jasa Lainnya": 8926,
+      "Barang": 5385,
+      "Jasa Konsultansi": 153,
+      "Pekerjaan Konstruksi": 24
+    },
+    "metodeCounts": {
+      "Dikecualikan": 5588,
+      "Pengadaan Langsung": 8313,
+      "E-Purchasing": 80,
+      "Penunjukan Langsung": 489,
+      "Seleksi": 9,
+      "Tender": 9
+    },
+    "paguByMonth": {
+      "January 2026": 2239191589000,
+      "June 2026": 15058312000,
+      "March 2026": 91722493640,
+      "February 2025": 28598000,
+      "October 2026": 37811750000,
+      "November 2026": 2858282000,
+      "August 2026": 3692771000,
+      "February 2026": 216653703000,
+      "July 2026": 8742682000,
+      "April 2026": 301759241480,
+      "September 2026": 32271318000,
+      "May 2026": 7528814000,
+      "July 2025": 11700000,
+      "January 2021": 1177898000,
+      "November 2025": 20376061000,
+      "December 2026": 480325000,
+      "September 2025": 1697747860,
+      "February 2022": 156904000,
+      "December 2025": 159000000,
+      "May 2025": 5019000,
+      "January 2025": 2971984000,
+      "January 2022": 45800000
+    }
   }
 ]
