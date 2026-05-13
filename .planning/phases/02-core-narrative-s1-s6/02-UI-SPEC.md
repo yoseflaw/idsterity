@@ -46,7 +46,7 @@ All values inherited from Phase 1. No new spacing tokens.
 | 3xl | `--space-3xl` | 64px | Reserved — large section breathing room if needed |
 | page | `--space-page` | 96px | S4 stats block vertical padding (full-width, no sticky) |
 
-**Touch target exception (MOB-03):** All interactive elements — language toggle, news article links in S1, source attribution links in chart panels — must have a minimum 44×44px tap target. Links in step cards use `display: inline-block; min-height: 44px; padding: 10px 0` to guarantee this without layout disruption.
+**Touch target exception (MOB-03):** All interactive elements — language toggle, news article links in S1, source attribution links in chart panels — must have a minimum 44×44px tap target. Links in step cards use `display: inline-block; min-height: 44px; padding: 8px 0` to guarantee this without layout disruption. The `min-height: 44px` constraint enforces the 44px touch target floor; the padding value only needs to be a multiple of 4.
 
 **Exceptions beyond Phase 1:**
 - S4 safe harbour disclaimer text sits 12px below the last stat item (3px — exempt; it is a visual separator rhythm, not a structural spacing token)
@@ -111,6 +111,8 @@ All values inherited from Phase 1. No new color tokens.
 - 60% — sticky panels, page background, S4 full-width block background (`--bg`, `--bg-alt`)
 - 30% — step cards, S4 inner stat boxes, chart inset surfaces (`--bg-card`, `rgba(255,255,255,0.02)`)
 - 10% — section eyebrow labels, display italic, pip active, S4 stat figures, coin stack highlights (`--gold`)
+
+**`--kabkota` / `--gold` proximity note:** `--kabkota` (#c4a04a) and `--gold` (#c9a84c) are visually proximate values (~5 hex units apart). This proximity is intentional. The two tokens serve distinct roles at different opacities and rendered sizes: `--kabkota` is used exclusively for S5 district/city tier bar segments at full opacity as a data-encoding color, while `--gold` accent labels (eyebrow text, value axis ticks) render at 0.6 opacity in SVG context and at a significantly smaller font size (10–11px). At rendered sizes, the opacity and size difference provides sufficient visual separation. No additional differentiation token is required.
 
 **Source:** Phase 1 UI-SPEC.md Color section + App.svelte `:global(:root)` confirmed.
 
@@ -250,7 +252,7 @@ Each section uses the two-column layout established in Phase 1:
 - Sticky panel: large display text block — two-line heading using Display font size. No chart component.
 - Step card: single `data-step="0"` card. Contains a `<ul>` of 3–5 `<li>` items, each an `<a>` link to a news article.
 - News links style: `color: var(--text); text-decoration: underline; text-decoration-color: var(--border); text-underline-offset: 3px`. On hover: `text-decoration-color: var(--gold)`. 150ms transition.
-- Each `<li>` has `padding: 10px 0` to guarantee 44px touch target height.
+- Each `<li>` has `padding: 8px 0` to provide on-grid spacing; `min-height: 44px` on the `<a>` element guarantees the 44px touch target height.
 - Links open in new tab: `target="_blank" rel="noopener noreferrer"`.
 - No pip indicator for S1 (single step — pip row not rendered).
 
@@ -333,7 +335,7 @@ Phase 2 extends the single-scroller pattern from Phase 1 to multiple per-section
 - `<a>` elements with `target="_blank" rel="noopener noreferrer"`.
 - No JavaScript click handlers — plain anchor navigation.
 - Underline affordance: `text-decoration: underline; text-decoration-color: var(--border); text-underline-offset: 3px`. Hover: `text-decoration-color: var(--gold)`.
-- Minimum 44×44px touch target via `padding: 10px 0`.
+- Minimum 44×44px touch target via `min-height: 44px` on the `<a>` element; `<li>` padding is `padding: 8px 0`.
 
 ### Source Citation Links (S2, S3)
 
