@@ -68,5 +68,13 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-05-13
-Stopped at: Roadmap and STATE.md created; REQUIREMENTS.md traceability updated. Ready for `/gsd-plan-phase 1`.
+Stopped at: Project fully initialized (PROJECT.md, config.json, research, REQUIREMENTS.md, ROADMAP.md). Ready to begin Phase 1.
 Resume file: None
+
+### Next Steps (in order)
+
+1. `/gsd-ui-phase 1` — Generate UI design contract for Phase 1 (Pudding.cool-style tokens, typography, color palette, scroll skeleton). Do this first — Phase 1 has a UI hint and the design system must be spec'd before building.
+2. `/gsd-discuss-phase 1` — Gather Phase 1 context and clarify approach before planning.
+3. `/gsd-plan-phase 1` — Create the execution plan.
+
+When the user says "continue", start immediately with `/gsd-ui-phase 1`.
