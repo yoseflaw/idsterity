@@ -6,7 +6,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "prepare-data": "python3 scripts/prepare-data.py"
+    "prepare-data": "uv run scripts/prepare-data.py && uv run scripts/word-cloud.py"
   },
   "dependencies": {
     "d3": "^7",
