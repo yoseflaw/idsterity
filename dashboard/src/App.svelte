@@ -38,9 +38,17 @@
 
   const fmtT   = v => (v / 1e12).toFixed(1)
   const fmtNum = v => v.toLocaleString('id-ID')
+
+  function toggleLang() {
+    const y = window.scrollY
+    lang = lang === 'id' ? 'en' : 'id'
+    requestAnimationFrame(() => window.scrollTo(0, y))
+  }
 </script>
 
 <div class="site">
+
+  <button class="lang-toggle" onclick={toggleLang}>{t[lang].toggleLabel}</button>
 
   <!-- ━━━ HERO ━━━ -->
   <section class="hero">
@@ -55,7 +63,7 @@
         <div class="hero-stat">
           <div class="hero-number">Rp {fmtT(stats.totalPagu)} T</div>
           <div class="hero-sublabel">
-            dialokasikan dalam {fmtNum(stats.totalRecords)} paket
+            {t[lang].heroPaketLabel} {fmtNum(stats.totalRecords)}<br>{t[lang].heroPaketSuffix}
           </div>
         </div>
       {:else}
@@ -256,6 +264,28 @@
     0%,100% { transform: translateY(0); }
     50%      { transform: translateY(7px); }
   }
+
+  /* ── Language Toggle ── */
+  .lang-toggle {
+    position: fixed;
+    top: 16px;
+    right: 16px;
+    z-index: 100;
+    min-width: 44px;
+    min-height: 44px;
+    padding: 0 14px;
+    border: 1px solid var(--border);
+    background: var(--bg-card);
+    border-radius: 9999px;
+    color: var(--gold);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+    cursor: pointer;
+    transition: opacity 0.15s ease, color 0.2s ease;
+  }
+  .lang-toggle:hover { opacity: 0.85; }
 
   /* ── Scrollytelling ── */
   .scrolly {
