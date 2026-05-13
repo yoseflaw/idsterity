@@ -79,7 +79,9 @@ Inspired by [nemesis.assai.id](https://nemesis.assai.id/) — which is descripti
 | Pre-build word cloud offline | Avoid runtime NLP; keeps page fast; cap at top 15–20 if needed | Decided |
 | Research & hardcode APBN/GDP figures | No live API calls; sources are stable government publications | Decided |
 | Replace POC entirely | POC proved the scroll mechanism; real implementation needs proper story structure | Decided |
-| Static-only deploy | Matches hosting capability; no Node server needed on jagoanhosting | Decided |
+| Static-only deploy | Matches hosting capability; no Node server on shared hosting | Decided |
+| Visual style: Pudding.cool | Reference: pudding.cool/2017/03/punk/ — bold type, step-driven reveals, minimal chrome | Decided |
+| NLP: nlp-id for lemmatization | Proper Indonesian lemmatization without NLTK/spaCy overhead; nlp-id is purpose-built for Bahasa Indonesia | Decided |
 
 ## Evolution
 
