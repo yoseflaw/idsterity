@@ -3,8 +3,8 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Phase 1 context gathered
-last_updated: "2026-05-13T10:43:23.314Z"
+stopped_at: Phase 1 planning complete
+last_updated: "2026-05-13T11:30:00.000Z"
 last_activity: 2026-05-13 -- Phase 01 planning complete
 progress:
   total_phases: 4
@@ -26,7 +26,7 @@ See: .planning/PROJECT.md (updated 2026-05-13)
 ## Current Position
 
 Phase: 1 of 4 (Foundation & Data Pipeline)
-Plan: 0 of TBD in current phase
+Plan: 0 of 3 in current phase
 Status: Ready to execute
 Last activity: 2026-05-13 -- Phase 01 planning complete
 
@@ -72,7 +72,7 @@ None yet.
 
 ### Blockers/Concerns
 
-- DATA-01 / DATA-02: APBN Q1 2026 and BPS GDP figures must be manually researched before Phase 2 charts can be wired up. Plan-phase should schedule this research task early in Phase 1.
+- DATA-01 / DATA-02: APBN Q1 2026 and BPS GDP figures must be manually researched and hand-authored into `constants.json` during Phase 1 execution (Plan 01-03, Task 1). This is now planned — executor will prompt if figures can't be sourced.
 
 ## Deferred Items
 
@@ -85,14 +85,15 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-05-13T10:24:41.513Z
-Stopped at: Phase 1 context gathered
-Resume file: .planning/phases/01-foundation-data-pipeline/01-CONTEXT.md
+Last session: 2026-05-13T11:30:00.000Z
+Stopped at: Phase 1 planning complete — 3 plans in 3 waves
+Resume file: .planning/phases/01-foundation-data-pipeline/
 
 ### Next Steps (in order)
 
-1. `/gsd-ui-phase 1` — Generate UI design contract for Phase 1 (Pudding.cool-style tokens, typography, color palette, scroll skeleton). Do this first — Phase 1 has a UI hint and the design system must be spec'd before building.
-2. `/gsd-discuss-phase 1` — Gather Phase 1 context and clarify approach before planning.
-3. `/gsd-plan-phase 1` — Create the execution plan.
+1. `/gsd-execute-phase 1` — Execute all 3 Phase 1 plans (Walking Skeleton, MVP mode).
+   - Wave 1: 01-03 — data pipeline (constants.json, prepare-data.py, word-cloud.py)
+   - Wave 2: 01-01 — scaffold + i18n + fonts + tokens
+   - Wave 3: 01-02 — scrollama wiring + language toggle *(human checkpoint)*
 
-When the user says "continue", start immediately with `/gsd-ui-phase 1`.
+When the user says "continue", start immediately with `/gsd-execute-phase 1`.
