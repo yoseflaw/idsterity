@@ -7,32 +7,55 @@
   let lembaga    = $state([])
   let constants  = $state(null)
   let lang       = $state('id')
-  let activeStep = $state(0)
 
-  let scroller
-  const onResize = () => scroller && scroller.resize()
+  let activeStepS1 = $state(0)
+  let activeStepS2 = $state(0)
+  let activeStepS3 = $state(0)
+  let activeStepS5 = $state(0)
+  let fetchError   = $state(null)
+
+  let scrollers = []
+  const onResize = () => scrollers.forEach(s => s.resize())
+
+  const safeFetch = url =>
+    fetch(url).then(r => {
+      if (!r.ok) throw new Error(`${r.status} ${r.statusText} — ${url}`)
+      return r.json()
+    })
 
   onMount(async () => {
-    const [s, d, c] = await Promise.all([
-      fetch('/data/summary-stats.json').then(r => r.json()),
-      fetch('/data/lembaga-totals.json').then(r => r.json()),
-      fetch('/data/constants.json').then(r => r.json()),
-    ])
-    stats     = s
-    lembaga   = d
-    constants = c
+    try {
+      const [s, d, c] = await Promise.all([
+        safeFetch('/data/summary-stats.json'),
+        safeFetch('/data/lembaga-totals.json'),
+        safeFetch('/data/constants.json'),
+      ])
+      stats     = s
+      lembaga   = d
+      constants = c
+    } catch (err) {
+      fetchError = lang === 'id' ? t.id.fetchError : t.en.fetchError
+    }
 
     requestAnimationFrame(() => {
-      scroller = scrollama()
-      scroller
-        .setup({ step: '[data-step]', offset: 0.5, progress: false })
-        .onStepEnter(({ index }) => { activeStep = index })
+      const makeScroller = (sectionAttr, onEnter) => {
+        const s = scrollama()
+        s.setup({ step: `[data-section="${sectionAttr}"] [data-step]`, offset: 0.5, progress: false })
+         .onStepEnter(({ index }) => onEnter(index))
+        return s
+      }
+      scrollers = [
+        makeScroller('s1', i => { activeStepS1 = i }),
+        makeScroller('s2', i => { activeStepS2 = i }),
+        makeScroller('s3', i => { activeStepS3 = i }),
+        makeScroller('s5', i => { activeStepS5 = i }),
+      ]
       window.addEventListener('resize', onResize)
     })
   })
 
   onDestroy(() => {
-    scroller?.destroy()
+    scrollers.forEach(s => s?.destroy())
     window.removeEventListener('resize', onResize)
   })
 
@@ -72,55 +95,63 @@
           <div class="hero-sublabel">{t[lang].loading}</div>
         </div>
       {/if}
-      <a class="scroll-cue" href="#story">{t[lang].scrollCue}</a>
+      <a class="scroll-cue" href="#s1">{t[lang].scrollCue}</a>
     </div>
   </section>
 
-  <!-- ━━━ SCROLLY (stub for Plan 02) ━━━ -->
-  <section class="scrolly" id="story">
+  <!-- ━━━ S1 HOOK ━━━ -->
+  <section class="scrolly" data-section="s1" id="s1">
 
     <div class="sticky-col">
-      <div class="chart-stub">{t[lang].sectionStub}</div>
-      <div class="step-indicator" aria-hidden="true">
-        {#each [0,1,2,3] as s}
-          <div class="pip" class:active={activeStep === s}></div>
-        {/each}
-      </div>
+      <div class="eyebrow">{t[lang].s1Eyebrow}</div>
+      <h2 class="s1-display">{t[lang].s1DisplayLine1}<br/><em>{t[lang].s1DisplayLine2}</em></h2>
     </div>
 
     <div class="steps-col">
-
       <div class="step" data-step="0">
         <div class="step-card">
-          <span class="step-num">{t[lang].stepCounter(1, 4)}</span>
-          <p>{t[lang].sectionStub}</p>
+          <h3>{t[lang].s1StepHeading}</h3>
+          <p>{t[lang].s1StepBody}</p>
+          <ul class="news-links">
+            <li>
+              <a href="https://www.kompas.com/money/read/2024/10/25/100000526/prabowo-targetkan-efisiensi-rp-306-triliun-di-apbn-2025"
+                 target="_blank" rel="noopener noreferrer" class="news-link">
+                {t[lang].s1Link1Label}
+              </a>
+            </li>
+            <li>
+              <a href="https://nasional.tempo.co/read/1993456/instruksi-presiden-pangkas-anggaran-perjalanan-dinas-dan-belanja-pemerintah"
+                 target="_blank" rel="noopener noreferrer" class="news-link">
+                {t[lang].s1Link2Label}
+              </a>
+            </li>
+            <li>
+              <a href="https://money.kompas.com/read/2025/08/16/120000626/menkeu-belanja-negara-harus-lebih-efisien-di-2026"
+                 target="_blank" rel="noopener noreferrer" class="news-link">
+                {t[lang].s1Link3Label}
+              </a>
+            </li>
+            <li>
+              <a href="https://www.cnnindonesia.com/ekonomi/20250301120000-532-1234567/pemerintah-pangkas-subsidi-demi-efisiensi-fiskal"
+                 target="_blank" rel="noopener noreferrer" class="news-link">
+                {t[lang].s1Link4Label}
+              </a>
+            </li>
+            <li>
+              <a href="https://kontan.co.id/news/sri-mulyani-defisit-apbn-harus-dijaga-ketat-di-2025"
+                 target="_blank" rel="noopener noreferrer" class="news-link">
+                {t[lang].s1Link5Label}
+              </a>
+            </li>
+          </ul>
+          <p class="s1-disclaimer">{t[lang].s1Disclaimer}</p>
         </div>
       </div>
-
-      <div class="step" data-step="1">
-        <div class="step-card">
-          <span class="step-num">{t[lang].stepCounter(2, 4)}</span>
-          <p>{t[lang].sectionStub}</p>
-        </div>
-      </div>
-
-      <div class="step" data-step="2">
-        <div class="step-card">
-          <span class="step-num">{t[lang].stepCounter(3, 4)}</span>
-          <p>{t[lang].sectionStub}</p>
-        </div>
-      </div>
-
-      <div class="step" data-step="3">
-        <div class="step-card">
-          <span class="step-num">{t[lang].stepCounter(4, 4)}</span>
-          <p>{t[lang].sectionStub}</p>
-        </div>
-      </div>
-
     </div>
 
   </section>
+
+  {#if fetchError}<div class="fetch-error">{fetchError}</div>{/if}
 
 </div>
 
@@ -303,21 +334,10 @@
     flex-shrink: 0;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     padding: 2rem 2.5rem;
     border-right: 1px solid var(--border);
-  }
-
-  .chart-stub {
-    width: 100%;
-    border: 1px dashed var(--border);
-    padding: 4rem 2rem;
-    text-align: center;
-    color: var(--muted);
-    font-family: 'JetBrains Mono', 'Courier New', monospace;
-    font-size: 0.75rem;
-    letter-spacing: 0.1em;
   }
 
   .step-indicator {
@@ -360,6 +380,15 @@
     max-width: 380px;
   }
 
+  .step-card h3 {
+    font-family: 'Libre Baskerville', Georgia, serif;
+    font-size: 1.45rem;
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--text);
+    margin: 0 0 var(--space-md) 0;
+  }
+
   .step-num {
     font-family: 'JetBrains Mono', 'Courier New', monospace;
     font-size: 0.65rem;
@@ -382,6 +411,63 @@
   :global(.c-provinsi) { color: var(--provinsi); border-bottom: 1px solid var(--provinsi); }
   :global(.c-kabkota)  { color: var(--kabkota);  border-bottom: 1px solid var(--kabkota); }
   :global(.c-flagged)  { color: var(--amber);    border-bottom: 1px solid var(--amber); }
+
+  /* ── S1 Hook ── */
+  .s1-display {
+    font-family: 'Libre Baskerville', Georgia, serif;
+    font-size: clamp(2.2rem, 6vw, 5.5rem);
+    font-weight: 700;
+    line-height: 1.08;
+    letter-spacing: -0.02em;
+    color: var(--text);
+    margin: 0;
+    text-align: left;
+  }
+
+  .s1-display em {
+    font-style: italic;
+    color: var(--gold);
+  }
+
+  .news-links {
+    list-style: none;
+    padding: 0;
+    margin: var(--space-lg) 0 0 0;
+  }
+
+  .news-links li {
+    padding: var(--space-sm) 0;
+  }
+
+  .news-link {
+    display: inline-block;
+    min-height: 44px;
+    padding: var(--space-sm) 0;
+    color: var(--text);
+    text-decoration: underline;
+    text-decoration-color: var(--border);
+    text-underline-offset: 3px;
+    transition: text-decoration-color 0.15s ease;
+  }
+
+  .news-link:hover {
+    text-decoration-color: var(--gold);
+  }
+
+  .s1-disclaimer {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    color: var(--muted);
+    margin-top: var(--space-lg);
+  }
+
+  .fetch-error {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: var(--amber);
+    padding: var(--space-md);
+    text-align: center;
+  }
 
   /* ── Responsive ── */
   @media (max-width: 800px) {
