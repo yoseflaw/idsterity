@@ -1,5 +1,6 @@
 <script>
-  import { onMount } from 'svelte'
+  import { onMount, onDestroy } from 'svelte'
+  import scrollama from 'scrollama'
   import { t } from './i18n.js'
 
   let stats      = $state(null)
@@ -7,6 +8,9 @@
   let constants  = $state(null)
   let lang       = $state('id')
   let activeStep = $state(0)
+
+  let scroller
+  const onResize = () => scroller && scroller.resize()
 
   onMount(async () => {
     const [s, d, c] = await Promise.all([
@@ -17,6 +21,19 @@
     stats     = s
     lembaga   = d
     constants = c
+
+    requestAnimationFrame(() => {
+      scroller = scrollama()
+      scroller
+        .setup({ step: '[data-step]', offset: 0.5, progress: false })
+        .onStepEnter(({ index }) => { activeStep = index })
+      window.addEventListener('resize', onResize)
+    })
+  })
+
+  onDestroy(() => {
+    scroller?.destroy()
+    window.removeEventListener('resize', onResize)
   })
 
   const fmtT   = v => (v / 1e12).toFixed(1)
