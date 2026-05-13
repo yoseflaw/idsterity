@@ -252,8 +252,9 @@
   }
 
   .hero-stat {
-    display: inline-block;
-    margin-bottom: 3rem;
+    display: block;
+    width: fit-content;
+    margin: 0 auto 3rem;
     padding: 1.5rem 2.5rem;
     border: 1px solid var(--border);
     border-radius: 3px;
