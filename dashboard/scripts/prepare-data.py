@@ -39,6 +39,9 @@ flagged_count = collections.defaultdict(int)
 flagged_pagu  = collections.defaultdict(int)
 high_count    = collections.defaultdict(int)
 med_count     = collections.defaultdict(int)
+high_pagu     = collections.defaultdict(int)
+med_pagu      = collections.defaultdict(int)
+low_pagu      = collections.defaultdict(int)
 total_flagged_count, total_flagged_pagu = 0, 0
 label_pagu   = {"low": 0, "med": 0, "high": 0}
 label_counts = {"low": 0, "med": 0, "high": 0}
@@ -54,18 +57,29 @@ for path in sorted(DATA_DIR.glob("*_priority.json")):
         total_flagged_pagu  += pagu
         if level == "high":
             high_count[name]     += 1
+            high_pagu[name]      += pagu
             label_pagu["high"]   += pagu
             label_counts["high"] += 1
         elif level == "med":
             med_count[name]     += 1
+            med_pagu[name]      += pagu
             label_pagu["med"]   += pagu
             label_counts["med"] += 1
         else:
+            low_pagu[name]      += pagu
             label_pagu["low"]   += pagu
             label_counts["low"] += 1
 
-label_pagu["unflagged"]   = total_pagu   - sum(label_pagu.values())
-label_counts["unflagged"] = total_records - sum(label_counts.values())
+unflagged_pagu   = total_pagu   - sum(label_pagu.values())
+unflagged_counts = total_records - sum(label_counts.values())
+
+if unflagged_pagu < 0:
+    print(f"WARNING: unflagged_pagu is negative ({unflagged_pagu}); check shard consistency")
+if unflagged_counts < 0:
+    print(f"WARNING: unflagged_counts is negative ({unflagged_counts}); check shard consistency")
+
+label_pagu["unflagged"]   = max(unflagged_pagu, 0)
+label_counts["unflagged"] = max(unflagged_counts, 0)
 
 ranked = sorted(totals.items(), key=lambda x: x[1], reverse=True)[:TOP_N]
 
@@ -80,6 +94,9 @@ lembaga_totals = [
         "flaggedPagu":  flagged_pagu.get(name, 0),
         "highCount":    high_count.get(name, 0),
         "medCount":     med_count.get(name, 0),
+        "highPagu":     high_pagu.get(name, 0),
+        "medPagu":      med_pagu.get(name, 0),
+        "lowPagu":      low_pagu.get(name, 0),
         "jenisCounts":  dict(jenis_counts[name]),
         "metodeCounts": dict(metode_counts[name]),
         "paguByMonth":  dict(pagu_by_month[name]),
