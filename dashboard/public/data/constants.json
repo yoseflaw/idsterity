@@ -1,0 +1,72 @@
+{
+  "apbn": {
+    "deficit": {
+      "oct2024": -309200000000000,
+      "fy2025": -507800000000000,
+      "q1_2026": -104200000000000
+    },
+    "unit": "IDR"
+  },
+  "gdp": {
+    "konsumsi_pemerintah": {
+      "q1_2025": -3.24,
+      "q2_2025": 10.93,
+      "q3_2025": 5.08,
+      "q4_2025": 4.41,
+      "q1_2026": 7.21
+    },
+    "unit": "percent_contribution_yoy"
+  },
+  "sources": [
+    {
+      "field": "apbn.deficit.oct2024",
+      "url": "https://www.kemenkeu.go.id/media/27541/apbn-kita-oktober-2024.pdf",
+      "label": "APBN KiTa Oktober 2024 — Kementerian Keuangan RI",
+      "accessed": "2026-05-13"
+    },
+    {
+      "field": "apbn.deficit.fy2025",
+      "url": "https://www.kemenkeu.go.id/media/apbn-kita-desember-2025",
+      "label": "APBN KiTa Desember 2025 — Realisasi APBN 2025, Kementerian Keuangan RI",
+      "accessed": "2026-05-13"
+    },
+    {
+      "field": "apbn.deficit.q1_2026",
+      "url": "https://www.kemenkeu.go.id/media/apbn-kita-maret-2026",
+      "label": "APBN KiTa Maret 2026 — Realisasi APBN Triwulan I 2026, Kementerian Keuangan RI",
+      "accessed": "2026-05-13",
+      "provisional": true
+    },
+    {
+      "field": "gdp.konsumsi_pemerintah.q1_2025",
+      "url": "https://www.bps.go.id/pressrelease/2025/05/05/2268/pertumbuhan-ekonomi-indonesia-triwulan-i-2025.html",
+      "label": "Pertumbuhan Ekonomi Indonesia Triwulan I 2025 — BPS",
+      "accessed": "2026-05-13"
+    },
+    {
+      "field": "gdp.konsumsi_pemerintah.q2_2025",
+      "url": "https://www.bps.go.id/pressrelease/2025/08/05/pertumbuhan-ekonomi-indonesia-triwulan-ii-2025.html",
+      "label": "Pertumbuhan Ekonomi Indonesia Triwulan II 2025 — BPS",
+      "accessed": "2026-05-13"
+    },
+    {
+      "field": "gdp.konsumsi_pemerintah.q3_2025",
+      "url": "https://www.bps.go.id/pressrelease/2025/11/05/pertumbuhan-ekonomi-indonesia-triwulan-iii-2025.html",
+      "label": "Pertumbuhan Ekonomi Indonesia Triwulan III 2025 — BPS",
+      "accessed": "2026-05-13"
+    },
+    {
+      "field": "gdp.konsumsi_pemerintah.q4_2025",
+      "url": "https://www.bps.go.id/pressrelease/2026/02/05/pertumbuhan-ekonomi-indonesia-triwulan-iv-2025.html",
+      "label": "Pertumbuhan Ekonomi Indonesia Triwulan IV 2025 — BPS",
+      "accessed": "2026-05-13"
+    },
+    {
+      "field": "gdp.konsumsi_pemerintah.q1_2026",
+      "url": "https://www.bps.go.id/pressrelease/2026/05/05/pertumbuhan-ekonomi-indonesia-triwulan-i-2026.html",
+      "label": "Pertumbuhan Ekonomi Indonesia Triwulan I 2026 — BPS",
+      "accessed": "2026-05-13",
+      "provisional": true
+    }
+  ]
+}
