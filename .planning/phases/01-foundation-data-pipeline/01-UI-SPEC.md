@@ -28,6 +28,8 @@ created: 2026-05-13
 
 **Self-hosting requirement (FOUND-06):** Google Fonts CDN links in `index.html` must be replaced with `@fontsource/*` npm packages imported in `main.js`. Phase 1 ships this change.
 
+**Primary visual anchor:** hero h1 + hero stat box (Display type, top of viewport).
+
 ---
 
 ## Spacing Scale
@@ -58,30 +60,32 @@ Exceptions:
 
 **Fonts (all three must be self-hosted via `@fontsource/*` after Phase 1):**
 - `Libre Baskerville` — serif, 400 / 700 / 400 italic — headlines and display numbers
-- `Source Serif 4` — serif, 300 / 400 / 600, optical size 8–60pt — body and labels
-- `JetBrains Mono` — monospace, 400 / 600 — eyebrow, axis labels, source lines
+- `Source Serif 4` — serif, 400 only, optical size 8–60pt — body and labels
+- `JetBrains Mono` — monospace, 400 only — eyebrow, axis labels, source lines
 
-**Typography scale (4 sizes, 2 primary weights):**
+**Typography scale (4 sizes, 2 weights):**
 
 | Role | Font | Size | Weight | Line Height | CSS Variable | Usage |
 |------|------|------|--------|-------------|-------------|-------|
 | Eyebrow | JetBrains Mono | 11px (0.7rem) | 400 | 1.5 | `--text-eyebrow` | Section labels, step counters, axis ticks, source lines |
-| Body | Source Serif 4 | 16px (1rem) | 400 | 1.78 | `--text-body` | Prose paragraphs, step card body, callout text |
-| Lead | Source Serif 4 | 19px (1.2rem) | 300 | 1.78 | `--text-lead` | Opening paragraph of prose sections |
+| Body | Source Serif 4 | 16px (1rem) | 400 | 1.78 | `--text-body` | Prose paragraphs, step card body, callout text, opening paragraph copy |
 | Heading | Libre Baskerville | 23px (1.45rem) | 700 | 1.2 | `--text-heading` | Step card h3, section headings (h2) |
-| Display | Libre Baskerville | fluid clamp(2.8rem, 6vw, 5.5rem) | 700 | 1.08 | `--text-display` | Hero h1 only |
-| Stat | Libre Baskerville | fluid clamp(2.2rem, 5vw, 3.8rem) | 700 | 1.0 | `--text-stat` | Hero number, callout figures |
+| Display | Libre Baskerville | fluid clamp(2.2rem, 6vw, 5.5rem) | 700 | 1.08 | `--text-display` | Hero h1, hero stat number, callout figures |
+
+**Notes on collapsed roles:**
+- Lead (19px) is removed. Opening paragraph copy renders at Body size (16px, weight 400). The narrative context and section positioning provide sufficient visual distinction without a separate size.
+- Stat is merged into Display. Hero h1 and large callout figures share the same fluid clamp `clamp(2.2rem, 6vw, 5.5rem)`. The minimum end (2.2rem) keeps stat numbers readable on small screens; the maximum end (5.5rem) gives the hero h1 full impact on large screens. No separate fluid range is needed.
 
 **Pre-populated from:** Existing App.svelte and BarChart.svelte — values are extracted from the POC code and promoted to named tokens.
 
 Letter-spacing conventions:
 - Eyebrow / JetBrains Mono labels: `letter-spacing: 0.15–0.2em` (retain existing values)
 - Headings: `letter-spacing: -0.02em` (retain existing)
-- Body / Lead: default (no letter-spacing)
+- Body: default (no letter-spacing)
 
 Chart-specific typography (within SVG — not tokenized as CSS vars, declared here for D3 usage):
 - Axis tick labels: 10px, JetBrains Mono, `rgba(237,232,220,0.3)`
-- Institution name labels: 11.5px, Source Serif 4, `rgba(237,232,220,0.82)`
+- Institution name labels: 12px, Source Serif 4, `rgba(237,232,220,0.82)`
 - Value labels: 10px, JetBrains Mono, `rgba(201,168,76,0.6)`
 - Legend labels: 10px, Source Serif 4, `rgba(237,232,220,0.45)`
 
@@ -158,7 +162,7 @@ Phase 1 does not introduce final story copy — that is Phase 2 (S1–S6 section
 - **Placement:** Fixed position, top-right corner, `position: fixed; top: 16px; right: 16px; z-index: 100`
 - **Size:** Minimum 44×44px touch target (MOB-03 — enforced now on the one interactive element Phase 1 ships)
 - **Visual:** Pill shape, 1px solid border using `var(--border)`, background `var(--bg-card)`, text in JetBrains Mono 11px
-- **Active language indicator:** Current language label rendered with `font-weight: 600` and `color: var(--gold)`. Inactive language dimmed to `var(--muted)`.
+- **Active language indicator:** Current language label rendered with `font-weight: 700` and `color: var(--gold)`. Inactive language dimmed to `var(--muted)`.
 - **Label content:** Two-state text — when ID is active, button reads "English"; when EN is active, button reads "Indonesia". (User reads the target language, not the current one — standard convention.)
 - **On click:** `setLocale()` call switches language. Scroll position preserved via `window.scrollY` read before and `requestAnimationFrame` restore after re-render.
 - **Transition:** 150ms crossfade on the label text (`transition: opacity 0.15s ease`)
@@ -178,8 +182,9 @@ Phase 1 wires up Scrollama 3.2 against section stubs. Each section stub:
 - 4 pips (matching 4 scroll steps in the existing POC — Phase 1 inherits this, later phases may extend)
 - Inactive: 20×3px rectangle, `border-radius: 2px`, fill `var(--border)`
 - Active: 32×3px rectangle, fill `var(--gold)`, transition `width 0.4s ease, background 0.4s ease`
-- Gap between pips: 6px
+- Gap between pips: 8px (`--space-sm`)
 - Visible on desktop only — hide below 800px breakpoint (matches existing responsive rule)
+- Pip container must carry `aria-hidden="true"` — the indicator is decorative and non-interactive; screen readers should not announce it
 
 ### Scroll Cue Animation
 
@@ -261,11 +266,8 @@ Phase 1 replaces the three `<link>` tags in `index.html` with `@fontsource` impo
 import '@fontsource/libre-baskerville/400.css';
 import '@fontsource/libre-baskerville/700.css';
 import '@fontsource/libre-baskerville/400-italic.css';
-import '@fontsource/source-serif-4/300.css';
 import '@fontsource/source-serif-4/400.css';
-import '@fontsource/source-serif-4/600.css';
 import '@fontsource/jetbrains-mono/400.css';
-import '@fontsource/jetbrains-mono/600.css';
 ```
 
 CSS font declarations must include `font-display: swap` (the `@fontsource` packages set this by default).
