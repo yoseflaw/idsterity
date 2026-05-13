@@ -2,16 +2,16 @@
 gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
-status: planning
-stopped_at: Phase 2 context gathered
-last_updated: "2026-05-13T12:34:49.485Z"
+status: planned
+stopped_at: Phase 2 planned — 5 plans across 4 waves
+last_updated: "2026-05-13T14:00:00.000Z"
 last_activity: 2026-05-13
 progress:
   total_phases: 4
   completed_phases: 1
-  total_plans: 3
+  total_plans: 8
   completed_plans: 3
-  percent: 100
+  percent: 38
 ---
 
 # Project State
@@ -26,11 +26,11 @@ See: .planning/PROJECT.md (updated 2026-05-13)
 ## Current Position
 
 Phase: 2
-Plan: Not started
-Status: Ready to plan
+Plan: Ready to execute (5 plans — 02-01 through 02-05)
+Status: Ready to execute
 Last activity: 2026-05-13
 
-Progress: [██░░░░░░░░] 25%
+Progress: [███░░░░░░░] 38%
 
 ## Performance Metrics
 
@@ -91,7 +91,7 @@ None yet.
 
 Last session: 2026-05-13T12:34:49.481Z
 Stopped at: Phase 2 context gathered
-Resume file: .planning/phases/02-core-narrative-s1-s6/02-CONTEXT.md
+Resume file: .planning/phases/02-core-narrative-s1-s6/02-01-PLAN.md
 
 ### What was built in Phase 1
 
@@ -109,9 +109,16 @@ Resume file: .planning/phases/02-core-narrative-s1-s6/02-CONTEXT.md
 - **CR-03** (Critical): `label_pagu["unflagged"]` can go negative in `prepare-data.py`
 - **WR-05** (Warning): Missing Source Serif 4 weight 300 and 600 @fontsource imports in `main.js`
 
+### Phase 2 Plans (5 plans, 4 waves)
+
+- **02-01** (Wave 1): Foundation fixes + i18n S1–S6 + multi-scroller + S1 Hook + CR-01/CR-02/WR-05
+- **02-02** (Wave 1, parallel): Data pipeline — per-label pagu extension + CR-03 guard
+- **02-03** (Wave 2): DeficitChart + GDPChart isometric coin stacks + S2/S3 sections
+- **02-04** (Wave 3): S4 Dataset Overview stats block
+- **02-05** (Wave 4): InstitutionsChart D3 animated re-sort + S5/S6
+
 ### Next Steps (in order)
 
-1. `/gsd-plan-phase 2` — Plan Phase 2 (Core Narrative S1–S6); CONTEXT.md already present, skip discuss
-2. Fix CR-01/CR-02/CR-03/WR-05 during Phase 2 planning or as a quick fix before planning
+1. `/gsd-execute-phase 2` — Execute Phase 2 (all 5 plans)
 
-When the user says "continue", start immediately with `/gsd-plan-phase 2`.
+When the user says "continue", start immediately with `/gsd-execute-phase 2`.
