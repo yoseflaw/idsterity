@@ -15,10 +15,10 @@
 
 ### Data Pipeline (DATA)
 
-- [ ] **DATA-01**: APBN Q1 2026 deficit figure (Rp T) and historical series (Oct 2024, Full-year 2025) researched and hardcoded in `constants.json`
-- [ ] **DATA-02**: BPS GDP government consumption component (konsumsi pemerintah) for Q1 2025–Q1 2026 researched and hardcoded in `constants.json`
-- [ ] **DATA-03**: `prepare-data.py` extended to produce S4 aggregates (total pagu by AI label, record counts)
-- [ ] **DATA-04**: `word-cloud.py` script runs offline: tokenizes high-inappropriate `paket` names using `nlp-id` for Indonesian lemmatization, applies domain stopwords (procurement boilerplate: pengadaan, jasa, barang, pekerjaan, etc.), pre-computes d3-cloud positions, outputs per-filter JSON files (all / central / district / per-lembaga), capped at top 20 words per filter
+- [x] **DATA-01**: APBN Q1 2026 deficit figure (Rp T) and historical series (Oct 2024, Full-year 2025) researched and hardcoded in `constants.json`
+- [x] **DATA-02**: BPS GDP government consumption component (konsumsi pemerintah) for Q1 2025–Q1 2026 researched and hardcoded in `constants.json`
+- [x] **DATA-03**: `prepare-data.py` extended to produce S4 aggregates (total pagu by AI label, record counts)
+- [x] **DATA-04**: `word-cloud.py` script runs offline: tokenizes high-inappropriate `paket` names using `nlp-id` for Indonesian lemmatization, applies domain stopwords (procurement boilerplate: pengadaan, jasa, barang, pekerjaan, etc.), pre-computes d3-cloud positions, outputs per-filter JSON files (all / central / district / per-lembaga), capped at top 20 words per filter
 
 ### Sharing (SHARE)
 
@@ -77,10 +77,10 @@
 | FOUND-04 | Phase 1 | Pending |
 | FOUND-05 | Phase 4 | Pending |
 | FOUND-06 | Phase 1 | Pending |
-| DATA-01 | Phase 1 | Pending |
-| DATA-02 | Phase 1 | Pending |
-| DATA-03 | Phase 1 | Pending |
-| DATA-04 | Phase 1 | Pending |
+| DATA-01 | Phase 1 | Complete |
+| DATA-02 | Phase 1 | Complete |
+| DATA-03 | Phase 1 | Complete |
+| DATA-04 | Phase 1 | Complete |
 | SHARE-01 | Phase 4 | Pending |
 | SHARE-02 | Phase 4 | Pending |
 | SEC-01 | Phase 2 | Pending |
