@@ -9,7 +9,11 @@
     "prepare-data": "uv run scripts/prepare-data.py && uv run scripts/word-cloud.py"
   },
   "dependencies": {
+    "@fontsource/jetbrains-mono": "^5.2.8",
+    "@fontsource/libre-baskerville": "^5.2.10",
+    "@fontsource/source-serif-4": "^5.2.9",
     "d3": "^7",
+    "scrollama": "^3.2.0",
     "svelte": "^5"
   },
   "devDependencies": {
