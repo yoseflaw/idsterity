@@ -12,7 +12,7 @@ Four phases take the project from blank repo to a shareable scrollytelling story
 
 Decimal phases appear between their surrounding integers in numeric order.
 
-- [ ] **Phase 1: Foundation & Data Pipeline** - Project scaffold, i18n store, design tokens, Scrollama, and all offline data scripts
+- [x] **Phase 1: Foundation & Data Pipeline** - Project scaffold, i18n store, design tokens, Scrollama, and all offline data scripts (completed 2026-05-13)
 - [ ] **Phase 2: Core Narrative (S1–S6)** - Hook through Institutions — the emotionally critical sections that drive shares
 - [ ] **Phase 3: Interactive Back Half (S7–S9)** - Anchor animations, word cloud, and explore table complete the story
 - [ ] **Phase 4: Polish, Share & Deploy** - OG image, `.htaccess`, Lighthouse pass, and deploy pipeline
@@ -34,7 +34,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 
 Plans:
 - [x] 01-01-PLAN.md — Skeleton scaffold (delete POC, @fontsource self-host, design tokens, i18n.js, hero with fetched data)
-- [ ] 01-02-PLAN.md — Bilingual toggle + Scrollama step driver (fire-once-per-step, scroll-preserving toggle)
+- [x] 01-02-PLAN.md — Bilingual toggle + Scrollama step driver (fire-once-per-step, scroll-preserving toggle)
 - [x] 01-03-PLAN.md — Data pipeline (constants.json, S4 aggregates in prepare-data.py, word-cloud.py with 4 outputs)
 **UI hint**: yes
 
@@ -85,7 +85,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation & Data Pipeline | 2/3 | In Progress|  |
+| 1. Foundation & Data Pipeline | 3/3 | Complete   | 2026-05-13 |
 | 2. Core Narrative (S1–S6) | 0/TBD | Not started | - |
 | 3. Interactive Back Half (S7–S9) | 0/TBD | Not started | - |
 | 4. Polish, Share & Deploy | 0/TBD | Not started | - |

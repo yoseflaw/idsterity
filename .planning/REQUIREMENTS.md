@@ -7,8 +7,8 @@
 ### Foundation (FOUND)
 
 - [x] **FOUND-01**: User can load the site in under 3 seconds on a mobile connection (lightweight static build, self-hosted fonts)
-- [ ] **FOUND-02**: Scroll-step triggering via Scrollama 3.2 — each scroll step fires exactly once on enter, with no double-fire on page load or HMR
-- [ ] **FOUND-03**: User can toggle between Indonesian and English via a fixed top-right button — scroll position is preserved, Indonesian is default
+- [x] **FOUND-02**: Scroll-step triggering via Scrollama 3.2 — each scroll step fires exactly once on enter, with no double-fire on page load or HMR
+- [x] **FOUND-03**: User can toggle between Indonesian and English via a fixed top-right button — scroll position is preserved, Indonesian is default
 - [x] **FOUND-04**: Visual design follows Pudding.cool-style tokens — bold typography, step-driven reveals, minimal chrome
 - [ ] **FOUND-05**: Shared links resolve correctly on Apache shared hosting (`.htaccess` SPA fallback — no 404 on direct URL)
 - [x] **FOUND-06**: Fonts are self-hosted via `@fontsource/*` — no Google CDN dependency (Indonesian proxy resilience)
@@ -72,8 +72,8 @@
 | Requirement | Phase | Status |
 |-------------|-------|--------|
 | FOUND-01 | Phase 1 | Complete |
-| FOUND-02 | Phase 1 | Pending |
-| FOUND-03 | Phase 1 | Pending |
+| FOUND-02 | Phase 1 | Complete |
+| FOUND-03 | Phase 1 | Complete |
 | FOUND-04 | Phase 1 | Complete |
 | FOUND-05 | Phase 4 | Pending |
 | FOUND-06 | Phase 1 | Complete |
