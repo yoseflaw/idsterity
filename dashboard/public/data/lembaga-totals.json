@@ -9,6 +9,9 @@
     "flaggedPagu": 3960014390493,
     "highCount": 669,
     "medCount": 5874,
+    "highPagu": 293994958800,
+    "medPagu": 3287841216693,
+    "lowPagu": 378178215000,
     "jenisCounts": {
       "Barang": 88658,
       "Jasa Lainnya": 5346,
@@ -66,6 +69,9 @@
     "flaggedPagu": 1771302973644,
     "highCount": 7,
     "medCount": 150,
+    "highPagu": 129482790000,
+    "medPagu": 1641243668070,
+    "lowPagu": 576515574,
     "jenisCounts": {
       "Pekerjaan Konstruksi": 1358,
       "Jasa Konsultansi": 1186,
@@ -110,6 +116,9 @@
     "flaggedPagu": 1060768310852,
     "highCount": 108,
     "medCount": 498,
+    "highPagu": 66872038195,
+    "medPagu": 849351671657,
+    "lowPagu": 144544601000,
     "jenisCounts": {
       "Barang": 8483,
       "Jasa Lainnya": 4877,
@@ -178,6 +187,9 @@
     "flaggedPagu": 2399283952988,
     "highCount": 263,
     "medCount": 1848,
+    "highPagu": 114928586283,
+    "medPagu": 2246968549091,
+    "lowPagu": 37386817614,
     "jenisCounts": {
       "Barang": 31624,
       "Jasa Lainnya": 21855,
@@ -242,6 +254,9 @@
     "flaggedPagu": 4316983510000,
     "highCount": 81,
     "medCount": 508,
+    "highPagu": 21053779000,
+    "medPagu": 4237986057000,
+    "lowPagu": 57943674000,
     "jenisCounts": {
       "Jasa Konsultansi": 275,
       "Barang": 6491,
@@ -295,6 +310,9 @@
     "flaggedPagu": 1904959000,
     "highCount": 2,
     "medCount": 17,
+    "highPagu": 71750000,
+    "medPagu": 1588209000,
+    "lowPagu": 245000000,
     "jenisCounts": {
       "Jasa Lainnya": 142,
       "Barang": 244
@@ -332,6 +350,9 @@
     "flaggedPagu": 6545646965482,
     "highCount": 70,
     "medCount": 606,
+    "highPagu": 72258069658,
+    "medPagu": 6448035282824,
+    "lowPagu": 25353613000,
     "jenisCounts": {
       "Pekerjaan Konstruksi": 1140,
       "Jasa Lainnya": 13018,
@@ -386,6 +407,9 @@
     "flaggedPagu": 824263671278,
     "highCount": 188,
     "medCount": 1301,
+    "highPagu": 157857772334,
+    "medPagu": 646868085944,
+    "lowPagu": 19537813000,
     "jenisCounts": {
       "Pekerjaan Konstruksi": 1824,
       "Jasa Lainnya": 8119,
@@ -447,6 +471,9 @@
     "flaggedPagu": 4746493080877,
     "highCount": 85,
     "medCount": 700,
+    "highPagu": 53951195000,
+    "medPagu": 4680520578877,
+    "lowPagu": 12021307000,
     "jenisCounts": {
       "Jasa Lainnya": 3299,
       "Pekerjaan Konstruksi": 384,
@@ -509,6 +536,9 @@
     "flaggedPagu": 817636331051,
     "highCount": 268,
     "medCount": 1479,
+    "highPagu": 36288513840,
+    "medPagu": 773532333211,
+    "lowPagu": 7815484000,
     "jenisCounts": {
       "Jasa Konsultansi": 512,
       "Pekerjaan Konstruksi": 691,
@@ -557,6 +587,9 @@
     "flaggedPagu": 1446846089294,
     "highCount": 136,
     "medCount": 684,
+    "highPagu": 136732321304,
+    "medPagu": 1290466749098,
+    "lowPagu": 19647018892,
     "jenisCounts": {
       "Jasa Lainnya": 4862,
       "Barang": 5151,
@@ -614,6 +647,9 @@
     "flaggedPagu": 769911727858,
     "highCount": 374,
     "medCount": 2075,
+    "highPagu": 183784581800,
+    "medPagu": 552054178058,
+    "lowPagu": 34072968000,
     "jenisCounts": {
       "Barang": 24339,
       "Jasa Lainnya": 11647,
@@ -669,6 +705,9 @@
     "flaggedPagu": 877209805223,
     "highCount": 82,
     "medCount": 510,
+    "highPagu": 55634882850,
+    "medPagu": 810986677373,
+    "lowPagu": 10588245000,
     "jenisCounts": {
       "Barang": 5388,
       "Pekerjaan Konstruksi": 1177,
@@ -725,6 +764,9 @@
     "flaggedPagu": 235684329081,
     "highCount": 67,
     "medCount": 433,
+    "highPagu": 34430351080,
+    "medPagu": 183984937021,
+    "lowPagu": 17269040980,
     "jenisCounts": {
       "Barang": 2731,
       "Jasa Lainnya": 1762,
@@ -775,6 +817,9 @@
     "flaggedPagu": 2045823109654,
     "highCount": 90,
     "medCount": 743,
+    "highPagu": 17382828800,
+    "medPagu": 2005169240854,
+    "lowPagu": 23271040000,
     "jenisCounts": {
       "Jasa Lainnya": 8711,
       "Barang": 9938,
@@ -825,6 +870,9 @@
     "flaggedPagu": 2871694545768,
     "highCount": 144,
     "medCount": 1313,
+    "highPagu": 116078063768,
+    "medPagu": 2696740928000,
+    "lowPagu": 58875554000,
     "jenisCounts": {
       "Jasa Lainnya": 4404,
       "Barang": 10406,
@@ -869,6 +917,9 @@
     "flaggedPagu": 626604785305,
     "highCount": 54,
     "medCount": 349,
+    "highPagu": 22821847907,
+    "medPagu": 587048900528,
+    "lowPagu": 16734036870,
     "jenisCounts": {
       "Jasa Lainnya": 1661,
       "Barang": 1335,
@@ -918,6 +969,9 @@
     "flaggedPagu": 281107924904,
     "highCount": 78,
     "medCount": 458,
+    "highPagu": 54639807734,
+    "medPagu": 197299307568,
+    "lowPagu": 29168809602,
     "jenisCounts": {
       "Jasa Lainnya": 4666,
       "Barang": 9086,
@@ -969,6 +1023,9 @@
     "flaggedPagu": 591375303076,
     "highCount": 235,
     "medCount": 1208,
+    "highPagu": 72161978161,
+    "medPagu": 469824488295,
+    "lowPagu": 49388836620,
     "jenisCounts": {
       "Jasa Lainnya": 8734,
       "Barang": 16854,
@@ -1026,6 +1083,9 @@
     "flaggedPagu": 98665372410,
     "highCount": 1,
     "medCount": 24,
+    "highPagu": 4900000000,
+    "medPagu": 86260818280,
+    "lowPagu": 7504554130,
     "jenisCounts": {
       "Jasa Lainnya": 178,
       "Barang": 22,
@@ -1058,6 +1118,9 @@
     "flaggedPagu": 3806837673181,
     "highCount": 121,
     "medCount": 688,
+    "highPagu": 3623452016868,
+    "medPagu": 133550499338,
+    "lowPagu": 49835156975,
     "jenisCounts": {
       "Jasa Lainnya": 1572,
       "Barang": 5510,
@@ -1105,6 +1168,9 @@
     "flaggedPagu": 7869887000,
     "highCount": 5,
     "medCount": 40,
+    "highPagu": 112781000,
+    "medPagu": 7745523000,
+    "lowPagu": 11583000,
     "jenisCounts": {
       "Barang": 94,
       "Jasa Lainnya": 1455,
@@ -1147,6 +1213,9 @@
     "flaggedPagu": 563507787000,
     "highCount": 10,
     "medCount": 74,
+    "highPagu": 53690971000,
+    "medPagu": 509816816000,
+    "lowPagu": 0,
     "jenisCounts": {
       "Jasa Lainnya": 189,
       "Barang": 337,
@@ -1190,6 +1259,9 @@
     "flaggedPagu": 326408435410,
     "highCount": 112,
     "medCount": 584,
+    "highPagu": 10001656780,
+    "medPagu": 276183411630,
+    "lowPagu": 40223367000,
     "jenisCounts": {
       "Jasa Lainnya": 7993,
       "Pekerjaan Konstruksi": 1137,
@@ -1242,6 +1314,9 @@
     "flaggedPagu": 738312747800,
     "highCount": 35,
     "medCount": 345,
+    "highPagu": 57384651000,
+    "medPagu": 663083084700,
+    "lowPagu": 17845012100,
     "jenisCounts": {
       "Jasa Lainnya": 1743,
       "Jasa Konsultansi": 454,
@@ -1300,6 +1375,9 @@
     "flaggedPagu": 432969669886,
     "highCount": 131,
     "medCount": 1238,
+    "highPagu": 53256470886,
+    "medPagu": 352345004000,
+    "lowPagu": 27368195000,
     "jenisCounts": {
       "Pekerjaan Konstruksi": 1549,
       "Jasa Lainnya": 6555,
@@ -1357,6 +1435,9 @@
     "flaggedPagu": 355127083246,
     "highCount": 122,
     "medCount": 415,
+    "highPagu": 19559200720,
+    "medPagu": 289965985622,
+    "lowPagu": 45601896904,
     "jenisCounts": {
       "Barang": 7790,
       "Jasa Lainnya": 1081,
@@ -1412,6 +1493,9 @@
     "flaggedPagu": 956777956806,
     "highCount": 68,
     "medCount": 295,
+    "highPagu": 37220769043,
+    "medPagu": 836298363910,
+    "lowPagu": 83258823853,
     "jenisCounts": {
       "Barang": 4193,
       "Jasa Lainnya": 884,
@@ -1465,6 +1549,9 @@
     "flaggedPagu": 241807533900,
     "highCount": 167,
     "medCount": 1647,
+    "highPagu": 14915318900,
+    "medPagu": 211457138000,
+    "lowPagu": 15435077000,
     "jenisCounts": {
       "Barang": 46962,
       "Jasa Lainnya": 11295,
@@ -1522,6 +1609,9 @@
     "flaggedPagu": 705123647480,
     "highCount": 198,
     "medCount": 816,
+    "highPagu": 40578420000,
+    "medPagu": 643243744480,
+    "lowPagu": 21301483000,
     "jenisCounts": {
       "Jasa Lainnya": 8926,
       "Barang": 5385,
