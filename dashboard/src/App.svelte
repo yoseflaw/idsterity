@@ -1,34 +1,25 @@
 <script>
   import { onMount } from 'svelte'
-  import BarChart from './BarChart.svelte'
+  import { t } from './i18n.js'
 
-  let data       = $state([])
   let stats      = $state(null)
+  let lembaga    = $state([])
+  let constants  = $state(null)
+  let lang       = $state('id')
   let activeStep = $state(0)
 
   onMount(async () => {
-    const [d, s] = await Promise.all([
-      fetch('/data/lembaga-totals.json').then(r => r.json()),
+    const [s, d, c] = await Promise.all([
       fetch('/data/summary-stats.json').then(r => r.json()),
+      fetch('/data/lembaga-totals.json').then(r => r.json()),
+      fetch('/data/constants.json').then(r => r.json()),
     ])
-    data  = d
-    stats = s
-
-    requestAnimationFrame(() => {
-      const stepEls = document.querySelectorAll('[data-step]')
-      const observer = new IntersectionObserver(entries => {
-        entries.forEach(entry => {
-          if (entry.isIntersecting) {
-            activeStep = Number(entry.target.dataset.step)
-          }
-        })
-      }, { rootMargin: '-38% 0px -38% 0px', threshold: 0 })
-      stepEls.forEach(el => observer.observe(el))
-    })
+    stats     = s
+    lembaga   = d
+    constants = c
   })
 
   const fmtT   = v => (v / 1e12).toFixed(1)
-  const fmtPct = (a, b) => ((a / b) * 100).toFixed(1)
   const fmtNum = v => v.toLocaleString('id-ID')
 </script>
 
@@ -38,150 +29,72 @@
   <section class="hero">
     <div class="grain"></div>
     <div class="hero-inner">
-      <div class="eyebrow">idsterity &nbsp;·&nbsp; Analisis Pengadaan Indonesia 2026</div>
+      <div class="eyebrow">{t[lang].eyebrow}</div>
       <h1>
-        Ke mana perginya<br>
-        <em>uang rakyat?</em>
+        {t[lang].heroLine1}<br>
+        <em>{t[lang].heroLine2}</em>
       </h1>
       {#if stats}
         <div class="hero-stat">
           <div class="hero-number">Rp {fmtT(stats.totalPagu)} T</div>
           <div class="hero-sublabel">
-            dialokasikan dalam {fmtNum(stats.totalRecords)} paket<br>pengadaan pemerintah Indonesia
+            dialokasikan dalam {fmtNum(stats.totalRecords)} paket
           </div>
         </div>
       {:else}
         <div class="hero-stat loading-pulse">
           <div class="hero-number">Rp — T</div>
-          <div class="hero-sublabel">memuat data…</div>
+          <div class="hero-sublabel">{t[lang].loading}</div>
         </div>
       {/if}
-      <a class="scroll-cue" href="#story">gulir untuk menjelajahi ↓</a>
+      <a class="scroll-cue" href="#story">{t[lang].scrollCue}</a>
     </div>
   </section>
 
-  <!-- ━━━ INTRO PROSE ━━━ -->
-  <section class="prose-section" id="story">
-    <div class="prose-inner">
-      <p class="lead">
-        Setiap tahun, pemerintah Indonesia mengalokasikan ratusan triliun rupiah melalui
-        sistem SIRUP/LPSE untuk pengadaan barang dan jasa publik. Sebagian besar berjalan
-        sesuai prosedur. Namun sebagian lainnya — ditandai oleh model AI kami —
-        menunjukkan tanda-tanda potensi pemborosan atau ketidakwajaran.
-      </p>
+  <!-- ━━━ SCROLLY (stub for Plan 02) ━━━ -->
+  <section class="scrolly" id="story">
 
-      {#if stats}
-        <div class="callout-box">
-          <div class="callout-figure">{fmtPct(stats.flaggedCount, stats.totalRecords)}%</div>
-          <div class="callout-text">
-            dari total pengadaan — atau <strong>{fmtNum(stats.flaggedCount)} paket</strong>
-            senilai <strong>Rp {fmtT(stats.flaggedPagu)} triliun</strong> —
-            ditandai berpotensi bermasalah.
-          </div>
-        </div>
-      {/if}
-
-      <p>
-        Berikut adalah cerita tentang 15 institusi pemerintah dengan anggaran terbesar
-        dan berapa dari anggaran mereka yang menarik perhatian sistem.
-      </p>
-    </div>
-  </section>
-
-  <!-- ━━━ SCROLLYTELLING ━━━ -->
-  {#if data.length}
-    <section class="scrolly">
-
-      <!-- Sticky chart panel -->
-      <div class="sticky-col">
-        <div class="chart-wrap">
-          <BarChart {data} step={activeStep} />
-        </div>
-        <div class="step-indicator">
-          {#each [0,1,2,3] as s}
-            <div class="pip" class:active={activeStep === s}></div>
-          {/each}
-        </div>
-      </div>
-
-      <!-- Scrolling text steps -->
-      <div class="steps-col">
-
-        <div class="step" data-step="0">
-          <div class="step-card">
-            <span class="step-num">01 / 04</span>
-            <h3>15 Institusi Terbesar</h3>
-            <p>
-              Inilah 15 kementerian dan lembaga pemerintah dengan total nilai anggaran
-              pengadaan terbesar di tahun 2026. Kementerian Pekerjaan Umum berdiri jauh
-              di atas yang lain, mencerminkan dominasi belanja infrastruktur nasional.
-            </p>
-          </div>
-        </div>
-
-        <div class="step" data-step="1">
-          <div class="step-card">
-            <span class="step-num">02 / 04</span>
-            <h3>Dari Mana Mereka?</h3>
-            <p>
-              Anggaran terbesar didominasi oleh
-              <mark class="c-central">pemerintah pusat</mark>.
-              Namun
-              <mark class="c-kabkota">pemerintah kabupaten/kota</mark>
-              juga muncul — ini yang perlu diperhatikan, karena pengawasan di daerah
-              umumnya lebih lemah.
-            </p>
-          </div>
-        </div>
-
-        <div class="step" data-step="2">
-          <div class="step-card">
-            <span class="step-num">03 / 04</span>
-            <h3>Yang Bermasalah</h3>
-            <p>
-              Bagian <mark class="c-flagged">berwarna merah-oranye</mark> pada setiap
-              batang menunjukkan nilai pengadaan yang ditandai berpotensi tidak wajar.
-              Beberapa institusi memiliki proporsi yang mengkhawatirkan dibanding total
-              anggarannya.
-            </p>
-          </div>
-        </div>
-
-        <div class="step" data-step="3">
-          <div class="step-card">
-            <span class="step-num">04 / 04</span>
-            <h3>Intensitas Masalah</h3>
-            <p>
-              Institusi tanpa paket bermasalah memudar ke latar belakang. Yang tersisa
-              adalah mereka yang paling banyak menarik perhatian — bukan selalu yang
-              terbesar, melainkan yang paling perlu diawasi.
-            </p>
-          </div>
-        </div>
-
-      </div>
-    </section>
-  {/if}
-
-  <!-- ━━━ CLOSING ━━━ -->
-  <section class="prose-section closing">
-    <div class="prose-inner">
-      <h2>Transparansi adalah kuncinya</h2>
-      <p>
-        Data ini bersumber dari LPSE/SIRUP, sistem pengadaan publik Indonesia yang dapat
-        diakses oleh siapapun. Analisis dilakukan menggunakan model AI untuk mendeteksi
-        potensi ketidakwajaran berdasarkan nama paket, nilai, dan konteks institusi.
-      </p>
-      <p>
-        Tidak semua yang ditandai pasti bermasalah — namun semuanya layak mendapat
-        perhatian lebih dari publik, lembaga pengawas, dan pers.
-      </p>
-      <div class="source-line">
-        Sumber data: SIRUP 2026 &nbsp;·&nbsp; Analisis: idsterity &nbsp;·&nbsp;
-        github.com/yoseflaw/idsterity &nbsp;·&nbsp;
-        Terinspirasi oleh <a href="https://pudding.cool/2023/07/songwriters/" target="_blank" rel="noopener">The Pudding</a>
+    <div class="sticky-col">
+      <div class="chart-stub">{t[lang].sectionStub}</div>
+      <div class="step-indicator" aria-hidden="true">
+        {#each [0,1,2,3] as s}
+          <div class="pip" class:active={activeStep === s}></div>
+        {/each}
       </div>
     </div>
+
+    <div class="steps-col">
+
+      <div class="step" data-step="0">
+        <div class="step-card">
+          <span class="step-num">{t[lang].stepCounter(1, 4)}</span>
+          <p>{t[lang].sectionStub}</p>
+        </div>
+      </div>
+
+      <div class="step" data-step="1">
+        <div class="step-card">
+          <span class="step-num">{t[lang].stepCounter(2, 4)}</span>
+          <p>{t[lang].sectionStub}</p>
+        </div>
+      </div>
+
+      <div class="step" data-step="2">
+        <div class="step-card">
+          <span class="step-num">{t[lang].stepCounter(3, 4)}</span>
+          <p>{t[lang].sectionStub}</p>
+        </div>
+      </div>
+
+      <div class="step" data-step="3">
+        <div class="step-card">
+          <span class="step-num">{t[lang].stepCounter(4, 4)}</span>
+          <p>{t[lang].sectionStub}</p>
+        </div>
+      </div>
+
+    </div>
+
   </section>
 
 </div>
@@ -189,18 +102,38 @@
 <style>
   /* ── Variables ── */
   :global(:root) {
-    --bg:       #0e0d0c;
-    --bg-alt:   #141210;
-    --bg-card:  #1a1714;
-    --text:     #ede8dc;
-    --muted:    #6a6055;
-    --gold:     #c9a84c;
-    --red:      #c44242;
-    --amber:    #c4823a;
-    --central:  #5b8ed4;
-    --provinsi: #5ba882;
-    --kabkota:  #c4a04a;
-    --border:   rgba(237,232,220,0.08);
+    /* Surfaces */
+    --bg:          #0e0d0c;
+    --bg-alt:      #141210;
+    --bg-card:     #1a1714;
+
+    /* Text */
+    --text:        #ede8dc;
+    --muted:       #6a6055;
+
+    /* Accent */
+    --gold:        #c9a84c;
+
+    /* Data signals */
+    --red:         #c44242;
+    --amber:       #c4823a;
+    --central:     #5b8ed4;
+    --provinsi:    #5ba882;
+    --kabkota:     #c4a04a;
+    --clean:       #3a6b52;
+
+    /* Structure */
+    --border:      rgba(237,232,220,0.08);
+
+    /* Spacing */
+    --space-xs:    4px;
+    --space-sm:    8px;
+    --space-md:    16px;
+    --space-lg:    24px;
+    --space-xl:    32px;
+    --space-2xl:   48px;
+    --space-3xl:   64px;
+    --space-page:  96px;
   }
 
   /* ── Layout ── */
@@ -211,7 +144,7 @@
 
   /* ── Hero ── */
   .hero {
-    min-height: 100vh;
+    min-height: 100dvh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -238,7 +171,7 @@
   }
 
   .eyebrow {
-    font-family: 'JetBrains Mono', monospace;
+    font-family: 'JetBrains Mono', 'Courier New', monospace;
     font-size: 0.7rem;
     letter-spacing: 0.2em;
     text-transform: uppercase;
@@ -248,7 +181,7 @@
   }
 
   .hero h1 {
-    font-family: 'Libre Baskerville', Georgia, serif;
+    font-family: 'Libre Baskerville', Georgia, 'Times New Roman', serif;
     font-size: clamp(2.8rem, 6vw, 5.5rem);
     font-weight: 700;
     line-height: 1.08;
@@ -272,7 +205,7 @@
   }
 
   .hero-number {
-    font-family: 'Libre Baskerville', Georgia, serif;
+    font-family: 'Libre Baskerville', Georgia, 'Times New Roman', serif;
     font-size: clamp(2.2rem, 5vw, 3.8rem);
     font-weight: 700;
     color: var(--gold);
@@ -293,7 +226,7 @@
 
   .scroll-cue {
     display: inline-block;
-    font-family: 'JetBrains Mono', monospace;
+    font-family: 'JetBrains Mono', 'Courier New', monospace;
     font-size: 0.7rem;
     letter-spacing: 0.15em;
     color: var(--muted);
@@ -307,60 +240,6 @@
     50%      { transform: translateY(7px); }
   }
 
-  /* ── Prose sections ── */
-  .prose-section {
-    padding: 6rem 2rem;
-    border-bottom: 1px solid var(--border);
-  }
-
-  .prose-inner {
-    max-width: 640px;
-    margin: 0 auto;
-  }
-
-  .lead {
-    font-size: 1.2rem;
-    line-height: 1.78;
-    color: var(--text);
-    margin-bottom: 2.5rem;
-    font-weight: 300;
-  }
-
-  .prose-inner p {
-    font-size: 1rem;
-    line-height: 1.78;
-    color: rgba(237,232,220,0.7);
-    margin-bottom: 1.5rem;
-  }
-
-  .callout-box {
-    display: flex;
-    align-items: center;
-    gap: 1.5rem;
-    border-left: 3px solid var(--red);
-    padding: 1.25rem 1.5rem;
-    background: rgba(196,66,66,0.06);
-    border-radius: 0 3px 3px 0;
-    margin-bottom: 2.5rem;
-  }
-
-  .callout-figure {
-    font-family: 'Libre Baskerville', serif;
-    font-size: 2.8rem;
-    font-weight: 700;
-    color: var(--red);
-    line-height: 1;
-    flex-shrink: 0;
-  }
-
-  .callout-text {
-    font-size: 1rem;
-    line-height: 1.6;
-    color: var(--text);
-  }
-
-  .callout-text strong { color: var(--red); }
-
   /* ── Scrollytelling ── */
   .scrolly {
     display: flex;
@@ -372,7 +251,7 @@
   .sticky-col {
     position: sticky;
     top: 0;
-    height: 100vh;
+    height: 100dvh;
     width: 60%;
     flex-shrink: 0;
     display: flex;
@@ -383,7 +262,16 @@
     border-right: 1px solid var(--border);
   }
 
-  .chart-wrap { width: 100%; }
+  .chart-stub {
+    width: 100%;
+    border: 1px dashed var(--border);
+    padding: 4rem 2rem;
+    text-align: center;
+    color: var(--muted);
+    font-family: 'JetBrains Mono', 'Courier New', monospace;
+    font-size: 0.75rem;
+    letter-spacing: 0.1em;
+  }
 
   .step-indicator {
     display: flex;
@@ -426,7 +314,7 @@
   }
 
   .step-num {
-    font-family: 'JetBrains Mono', monospace;
+    font-family: 'JetBrains Mono', 'Courier New', monospace;
     font-size: 0.65rem;
     letter-spacing: 0.15em;
     color: var(--gold);
@@ -435,61 +323,18 @@
     opacity: 0.8;
   }
 
-  .step-card h3 {
-    font-family: 'Libre Baskerville', Georgia, serif;
-    font-size: 1.45rem;
-    font-weight: 700;
-    color: var(--text);
-    margin-bottom: 0.85rem;
-    line-height: 1.2;
-  }
-
   .step-card p {
     font-size: 0.95rem;
     line-height: 1.72;
-    color: rgba(237,232,220,0.65);
+    color: var(--muted);
   }
 
-  /* inline marks */
-  :global(mark)        { background: transparent; padding: 0 1px; }
+  /* inline marks — keep for Phase 2 */
+  :global(mark)         { background: transparent; padding: 0 1px; }
   :global(.c-central)  { color: var(--central);  border-bottom: 1px solid var(--central); }
   :global(.c-provinsi) { color: var(--provinsi); border-bottom: 1px solid var(--provinsi); }
   :global(.c-kabkota)  { color: var(--kabkota);  border-bottom: 1px solid var(--kabkota); }
   :global(.c-flagged)  { color: var(--amber);    border-bottom: 1px solid var(--amber); }
-
-  /* ── Closing ── */
-  .closing {
-    border-bottom: none;
-    padding-bottom: 8rem;
-  }
-
-  .closing h2 {
-    font-family: 'Libre Baskerville', Georgia, serif;
-    font-size: 2rem;
-    font-weight: 700;
-    color: var(--text);
-    margin-bottom: 1.5rem;
-    letter-spacing: -0.02em;
-  }
-
-  .source-line {
-    font-family: 'JetBrains Mono', monospace;
-    font-size: 0.68rem;
-    color: var(--muted);
-    letter-spacing: 0.05em;
-    margin-top: 2.5rem;
-    padding-top: 2rem;
-    border-top: 1px solid var(--border);
-    line-height: 1.8;
-  }
-
-  .source-line a {
-    color: var(--gold);
-    text-decoration: none;
-    opacity: 0.85;
-    transition: opacity 0.2s;
-  }
-  .source-line a:hover { opacity: 1; }
 
   /* ── Responsive ── */
   @media (max-width: 800px) {
@@ -503,5 +348,6 @@
       border-bottom: 1px solid var(--border);
     }
     .steps-col { width: 100%; padding: 0 1.5rem; }
+    .step-indicator { display: none; }
   }
 </style>
