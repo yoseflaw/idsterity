@@ -69,8 +69,32 @@
 
 ## Traceability
 
-*(Filled by roadmapper)*
-
-| Phase | Requirements |
-|-------|-------------|
-| — | — |
+| Requirement | Phase | Status |
+|-------------|-------|--------|
+| FOUND-01 | Phase 1 | Pending |
+| FOUND-02 | Phase 1 | Pending |
+| FOUND-03 | Phase 1 | Pending |
+| FOUND-04 | Phase 1 | Pending |
+| FOUND-05 | Phase 4 | Pending |
+| FOUND-06 | Phase 1 | Pending |
+| DATA-01 | Phase 1 | Pending |
+| DATA-02 | Phase 1 | Pending |
+| DATA-03 | Phase 1 | Pending |
+| DATA-04 | Phase 1 | Pending |
+| SHARE-01 | Phase 4 | Pending |
+| SHARE-02 | Phase 4 | Pending |
+| SEC-01 | Phase 2 | Pending |
+| SEC-02 | Phase 2 | Pending |
+| SEC-03 | Phase 2 | Pending |
+| SEC-04 | Phase 2 | Pending |
+| SEC-05 | Phase 2 | Pending |
+| SEC-06 | Phase 2 | Pending |
+| SEC-07 | Phase 3 | Pending |
+| SEC-08 | Phase 3 | Pending |
+| SEC-09 | Phase 3 | Pending |
+| MOB-01 | Phase 2 | Pending |
+| MOB-02 | Phase 3 | Pending |
+| MOB-03 | Phase 2 | Pending |
+| DEPL-01 | Phase 4 | Pending |
+| DEPL-02 | Phase 4 | Pending |
+| DEPL-03 | Phase 4 | Pending |
