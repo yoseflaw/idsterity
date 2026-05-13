@@ -2,6 +2,8 @@
   import { onMount, onDestroy } from 'svelte'
   import scrollama from 'scrollama'
   import { t } from './i18n.js'
+  import DeficitChart from './DeficitChart.svelte'
+  import GDPChart from './GDPChart.svelte'
 
   let stats      = $state(null)
   let lembaga    = $state([])
@@ -147,6 +149,121 @@
           <p class="s1-disclaimer">{t[lang].s1Disclaimer}</p>
         </div>
       </div>
+    </div>
+
+  </section>
+
+  <!-- ━━━ S2 APBN DEFICIT ━━━ -->
+  <section class="scrolly" data-section="s2" id="s2">
+
+    <div class="sticky-col">
+      <div class="eyebrow">{t[lang].s2Eyebrow}</div>
+      <DeficitChart data={constants?.apbn?.deficit} step={activeStepS2} lang={lang} />
+      <div class="step-indicator" aria-hidden="true">
+        {#each [0,1,2] as s}
+          <div class="pip" class:active={activeStepS2 === s}></div>
+        {/each}
+      </div>
+    </div>
+
+    <div class="steps-col">
+
+      <div class="step" data-step="0">
+        <div class="step-card">
+          <span class="step-num">{t[lang].stepCounter(1, 3)}</span>
+          <h3>{t[lang].s2Step1Heading}</h3>
+          <p>{t[lang].s2Step1Body}</p>
+          <a class="source-link"
+             href={constants?.sources?.find(s => s.field === 'apbn.deficit.fy2025')?.url ?? '#'}
+             target="_blank" rel="noopener noreferrer">{t[lang].s2SourceLabel}</a>
+        </div>
+      </div>
+
+      <div class="step" data-step="1">
+        <div class="step-card">
+          <span class="step-num">{t[lang].stepCounter(2, 3)}</span>
+          <h3>{t[lang].s2Step2Heading}</h3>
+          <p>{t[lang].s2Step2Body}</p>
+          <a class="source-link"
+             href={constants?.sources?.find(s => s.field === 'apbn.deficit.fy2025')?.url ?? '#'}
+             target="_blank" rel="noopener noreferrer">{t[lang].s2SourceLabel}</a>
+        </div>
+      </div>
+
+      <div class="step" data-step="2">
+        <div class="step-card">
+          <span class="step-num">{t[lang].stepCounter(3, 3)}</span>
+          <h3>{t[lang].s2Step3Heading}</h3>
+          <p>{t[lang].s2Step3Body}</p>
+          <a class="source-link"
+             href={constants?.sources?.find(s => s.field === 'apbn.deficit.fy2025')?.url ?? '#'}
+             target="_blank" rel="noopener noreferrer">{t[lang].s2SourceLabel}</a>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- ━━━ S3 GDP CONSUMPTION ━━━ -->
+  <section class="scrolly" data-section="s3" id="s3">
+
+    <div class="sticky-col">
+      <div class="eyebrow">{t[lang].s3Eyebrow}</div>
+      <GDPChart data={constants?.gdp?.konsumsi_pemerintah} step={activeStepS3} lang={lang} />
+      <div class="step-indicator" aria-hidden="true">
+        {#each [0,1,2,3] as s}
+          <div class="pip" class:active={activeStepS3 === s}></div>
+        {/each}
+      </div>
+    </div>
+
+    <div class="steps-col">
+
+      <div class="step" data-step="0">
+        <div class="step-card">
+          <span class="step-num">{t[lang].stepCounter(1, 4)}</span>
+          <h3>{t[lang].s3Step1Heading}</h3>
+          <p>{t[lang].s3Step1Body}</p>
+          <a class="source-link"
+             href={constants?.sources?.find(s => s.field === 'gdp.konsumsi_pemerintah.q2_2025')?.url ?? '#'}
+             target="_blank" rel="noopener noreferrer">{t[lang].s3SourceLabel}</a>
+        </div>
+      </div>
+
+      <div class="step" data-step="1">
+        <div class="step-card">
+          <span class="step-num">{t[lang].stepCounter(2, 4)}</span>
+          <h3>{t[lang].s3Step2Heading}</h3>
+          <p>{t[lang].s3Step2Body}</p>
+          <a class="source-link"
+             href={constants?.sources?.find(s => s.field === 'gdp.konsumsi_pemerintah.q2_2025')?.url ?? '#'}
+             target="_blank" rel="noopener noreferrer">{t[lang].s3SourceLabel}</a>
+        </div>
+      </div>
+
+      <div class="step" data-step="2">
+        <div class="step-card">
+          <span class="step-num">{t[lang].stepCounter(3, 4)}</span>
+          <h3>{t[lang].s3Step3Heading}</h3>
+          <p>{t[lang].s3Step3Body}</p>
+          <a class="source-link"
+             href={constants?.sources?.find(s => s.field === 'gdp.konsumsi_pemerintah.q2_2025')?.url ?? '#'}
+             target="_blank" rel="noopener noreferrer">{t[lang].s3SourceLabel}</a>
+        </div>
+      </div>
+
+      <div class="step" data-step="3">
+        <div class="step-card">
+          <span class="step-num">{t[lang].stepCounter(4, 4)}</span>
+          <h3>{t[lang].s3Step4Heading}</h3>
+          <p>{t[lang].s3Step4Body}</p>
+          <a class="source-link"
+             href={constants?.sources?.find(s => s.field === 'gdp.konsumsi_pemerintah.q2_2025')?.url ?? '#'}
+             target="_blank" rel="noopener noreferrer">{t[lang].s3SourceLabel}</a>
+        </div>
+      </div>
+
     </div>
 
   </section>
@@ -461,6 +578,25 @@
     color: var(--muted);
     margin-top: var(--space-lg);
   }
+
+  /* -- S2 Deficit -- */
+  /* -- S3 GDP -- */
+
+  .source-link {
+    display: inline-block;
+    margin-top: var(--space-md);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    color: var(--muted);
+    text-decoration: underline;
+    text-decoration-color: var(--border);
+    text-underline-offset: 3px;
+    min-height: 44px;
+    padding: 8px 0;
+    transition: color 0.15s ease;
+  }
+
+  .source-link:hover { color: var(--text); }
 
   .fetch-error {
     font-family: 'JetBrains Mono', monospace;
