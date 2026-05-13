@@ -1,0 +1,22 @@
+export const t = {
+  id: {
+    toggleLabel:  'English',
+    scrollCue:    'gulir untuk menjelajahi ↓',
+    loading:      'memuat data…',
+    eyebrow:      'idsterity · Analisis Pengadaan Indonesia 2026',
+    heroLine1:    'Ke mana perginya',
+    heroLine2:    'uang rakyat?',
+    sectionStub:  '[bagian sedang disiapkan]',
+    stepCounter:  (n, total) => `${n} / ${total}`,
+  },
+  en: {
+    toggleLabel:  'Indonesia',
+    scrollCue:    'scroll to explore ↓',
+    loading:      'loading data…',
+    eyebrow:      'idsterity · Indonesia 2026 Procurement Analysis',
+    heroLine1:    'Where did the',
+    heroLine2:    "people's money go?",
+    sectionStub:  '[section in preparation]',
+    stepCounter:  (n, total) => `${n} / ${total}`,
+  },
+}
