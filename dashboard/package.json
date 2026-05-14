@@ -6,7 +6,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "prepare-data": "uv run scripts/prepare-data.py && uv run scripts/word-cloud.py"
+    "prepare-data": "uv run scripts/word-cloud.py && uv run scripts/prepare-data.py"
   },
   "dependencies": {
     "@fontsource/jetbrains-mono": "^5.2.8",
