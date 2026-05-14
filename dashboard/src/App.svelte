@@ -25,6 +25,61 @@
   let s7ShowTransition = $state(false)
   let s7Timers         = []
 
+  let activeStepS8       = $state(0)
+  let cloudWords         = $state([])
+  let lembagaIndex       = $state({})
+  let activeFilter       = $state('all')
+  let activeLembaga      = $state(null)
+  let lembagaSearch      = $state('')
+  let selectedWord       = $state(null)
+  let wordRecords        = $state([])
+  let wordRecordsLoading = $state(false)
+  let wordRecordsError   = $state(null)
+  let isNarrow           = $state(false)
+  let mqNarrow
+  let wordCache = new Map()
+
+  let cloudMin = $derived(cloudWords.length ? Math.min(...cloudWords.map(w => w.count)) : 0)
+  let cloudMax = $derived(cloudWords.length ? Math.max(...cloudWords.map(w => w.count)) : 0)
+
+  let filteredInstitutions = $derived(
+    lembagaSearch.length === 0
+      ? []
+      : Object.keys(lembagaIndex).filter(name => name.toLowerCase().includes(lembagaSearch.toLowerCase())).slice(0, 50)
+  )
+
+  function scaleFont(count, min, max) {
+    if (max === min) return 1.375
+    const size = 0.75 + ((count - min) / (max - min)) * 1.25
+    return Math.min(2.0, Math.max(0.75, size))
+  }
+
+  async function setFilter(filter, lembagaName = null) {
+    selectedWord = null
+    activeFilter = filter
+    activeLembaga = lembagaName
+    try {
+      if (filter === 'all') {
+        cloudWords = await safeFetch('/data/wordcloud-all.json')
+      } else if (filter === 'central') {
+        cloudWords = await safeFetch('/data/wordcloud-central.json')
+      } else if (filter === 'district') {
+        cloudWords = await safeFetch('/data/wordcloud-district.json')
+      } else if (filter === 'lembaga') {
+        cloudWords = lembagaIndex[lembagaName] ?? []
+        lembagaSearch = ''
+      }
+    } catch (err) {
+      fetchError = t[lang].fetchError
+    }
+  }
+
+  async function selectWord(word) {
+    selectedWord = word
+  }
+
+  let onNarrowChange
+
   let scrollers = []
   const onResize = () => scrollers.forEach(s => s.resize())
 
@@ -36,14 +91,18 @@
 
   onMount(async () => {
     try {
-      const [s, d, c] = await Promise.all([
+      const [s, d, c, w, l] = await Promise.all([
         safeFetch('/data/summary-stats.json'),
         safeFetch('/data/lembaga-totals.json'),
         safeFetch('/data/constants.json'),
+        safeFetch('/data/wordcloud-all.json'),
+        safeFetch('/data/wordcloud-lembaga.json'),
       ])
-      stats     = s
-      lembaga   = d
-      constants = c
+      stats         = s
+      lembaga       = d
+      constants     = c
+      cloudWords    = w
+      lembagaIndex  = l
     } catch (err) {
       fetchError = lang === 'id' ? t.id.fetchError : t.en.fetchError
     }
@@ -68,7 +127,14 @@
         makeScroller('s3', i => { activeStepS3 = i }),
         makeScroller('s5', i => { activeStepS5 = i }),
         makeScroller('s7', i => { activeStepS7 = i }),
+        makeScroller('s8', i => { activeStepS8 = i }),
       ]
+
+      mqNarrow = window.matchMedia('(max-width: 480px)')
+      isNarrow = mqNarrow.matches
+      onNarrowChange = e => { isNarrow = e.matches }
+      mqNarrow.addEventListener('change', onNarrowChange)
+
       window.addEventListener('resize', onResize)
     })
   })
@@ -77,6 +143,7 @@
     scrollers.forEach(s => s?.destroy())
     window.removeEventListener('resize', onResize)
     s7Timers.forEach(clearTimeout)
+    mqNarrow?.removeEventListener('change', onNarrowChange)
   })
 
   $effect(() => {
@@ -106,6 +173,14 @@
   const fmtT   = v => (v / 1e12).toFixed(1)
   const fmtNum = v => v.toLocaleString('id-ID')
   const fmtCount = (v, l) => v.toLocaleString(l === 'id' ? 'id-ID' : 'en-US')
+
+  function fmtPaguShort(v, l) {
+    const sep = l === 'id' ? ',' : '.'
+    if (v >= 1e12) return `Rp ${(v / 1e12).toFixed(1).replace('.', sep)} T`
+    if (v >= 1e9)  return `Rp ${(v / 1e9).toFixed(1).replace('.', sep)} M`
+    if (l === 'id') return `Rp ${(v / 1e6).toFixed(0)} jt`
+    return `Rp ${(v / 1e6).toFixed(0)} M`
+  }
 
   function countUp(target, duration, onUpdate, onDone) {
     const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches
@@ -513,6 +588,72 @@
         </div>
       </div>
 
+    </div>
+
+  </section>
+
+  <!-- ━━━ S8 WORD CLOUD ━━━ -->
+  <section class="scrolly" data-section="s8" id="s8">
+
+    <div class="sticky-col">
+      <div class="s8-sticky-panel" onclick={() => {}}>
+        <div class="eyebrow">{t[lang].s8Eyebrow}</div>
+        <h2 class="s8-sticky-heading">{t[lang].s8StickyHeading}</h2>
+
+        <div class="s8-filter-bar">
+          <button type="button" class="s8-filter-pill" class:is-active={activeFilter === 'all'}      onclick={() => setFilter('all')}>{t[lang].s8FilterAll}</button>
+          <button type="button" class="s8-filter-pill" class:is-active={activeFilter === 'central'}  onclick={() => setFilter('central')}>{t[lang].s8FilterCentral}</button>
+          <button type="button" class="s8-filter-pill" class:is-active={activeFilter === 'district'} onclick={() => setFilter('district')}>{t[lang].s8FilterDistrict}</button>
+
+          <div class="s8-search-wrap">
+            <input type="text" class="s8-search-input" bind:value={lembagaSearch} placeholder={t[lang].s8FilterInstitution} />
+            {#if filteredInstitutions.length > 0}
+              <div class="s8-search-dropdown">
+                {#each filteredInstitutions as name}
+                  <button type="button" class="s8-search-item" onclick={() => setFilter('lembaga', name)}>{name}</button>
+                {/each}
+              </div>
+            {/if}
+          </div>
+
+          {#if activeFilter !== 'all' || activeLembaga}
+            <button type="button" class="s8-filter-reset" onclick={() => setFilter('all')}>{t[lang].s8FilterReset}</button>
+          {/if}
+        </div>
+
+        {#if isNarrow}
+          <div class="s8-mobile-fallback-note">{t[lang].s8MobileFallbackNote}</div>
+        {/if}
+
+        {#if selectedWord}
+          <!-- S9 overlay markup added in Task 3 -->
+        {:else if cloudWords.length === 0}
+          <div class="s8-empty">{t[lang].s8NoResults}</div>
+        {:else}
+          <div class="s8-cloud" class:is-narrow={isNarrow}>
+            {#each cloudWords as w (w.word)}
+              <button
+                type="button"
+                class="s8-cloud-word"
+                class:is-selected={selectedWord === w.word}
+                aria-pressed={selectedWord === w.word}
+                style={isNarrow ? '' : `font-size: ${scaleFont(w.count, cloudMin, cloudMax)}rem`}
+                onclick={() => selectWord(w.word)}
+              >{w.word}</button>
+            {/each}
+          </div>
+        {/if}
+      </div>
+    </div>
+
+    <div class="steps-col">
+      <div class="step" data-step="0">
+        <div class="step-card">
+          <span class="step-num">{t[lang].stepCounter(1, 1)}</span>
+          <h3>{t[lang].s8Step0Heading}</h3>
+          <p>{t[lang].s8Step0Body}</p>
+        </div>
+      </div>
     </div>
 
   </section>
@@ -938,6 +1079,187 @@
     font-size: 0.7rem;
     color: var(--muted);
     line-height: 1.5;
+  }
+
+  /* -- S8 Word Cloud -- */
+  .s8-sticky-panel {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    padding: var(--space-lg);
+  }
+
+  .s8-sticky-heading {
+    font-family: 'Libre Baskerville', Georgia, serif;
+    font-size: clamp(1.4rem, 3vw, 2rem);
+    font-weight: 700;
+    color: var(--text);
+    margin: 0 0 var(--space-md) 0;
+    line-height: 1.2;
+  }
+
+  .s8-filter-bar {
+    display: flex;
+    gap: var(--space-sm);
+    flex-wrap: wrap;
+    align-items: center;
+    padding: var(--space-md);
+    border-bottom: 1px solid var(--border);
+    background: var(--bg-alt);
+    border-radius: 4px;
+    margin-bottom: var(--space-md);
+    position: relative;
+  }
+
+  .s8-filter-pill {
+    border: 1px solid var(--border);
+    color: var(--muted);
+    background: transparent;
+    border-radius: 20px;
+    min-height: 44px;
+    padding: var(--space-sm) var(--space-md);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    cursor: pointer;
+    transition: color 0.12s ease, border-color 0.12s ease;
+  }
+
+  .s8-filter-pill.is-active {
+    border-color: var(--gold);
+    color: var(--gold);
+  }
+
+  .s8-filter-pill:hover { color: var(--text); }
+
+  .s8-search-wrap {
+    position: relative;
+    flex: 1;
+    min-width: 180px;
+  }
+
+  .s8-search-input {
+    width: 100%;
+    border: 1px solid var(--border);
+    background: var(--bg-card);
+    color: var(--text);
+    border-radius: 4px;
+    padding: var(--space-sm) var(--space-md);
+    min-height: 44px;
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 0.9rem;
+    box-sizing: border-box;
+  }
+
+  .s8-search-input::placeholder { color: var(--muted); }
+
+  .s8-search-dropdown {
+    position: absolute;
+    top: calc(100% + 4px);
+    left: 0;
+    right: 0;
+    max-height: 200px;
+    overflow-y: auto;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .s8-search-item {
+    min-height: 44px;
+    padding: var(--space-sm) var(--space-md);
+    cursor: pointer;
+    color: var(--text);
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 0.9rem;
+    background: none;
+    border: none;
+    text-align: left;
+    width: 100%;
+    display: block;
+  }
+
+  .s8-search-item:hover { background: rgba(237,232,220,0.05); }
+
+  .s8-filter-reset {
+    color: var(--muted);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    min-height: 44px;
+    padding: var(--space-sm) var(--space-md);
+  }
+
+  .s8-filter-reset:hover { color: var(--text); }
+
+  .s8-mobile-fallback-note {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    color: var(--muted);
+    margin-bottom: var(--space-sm);
+  }
+
+  .s8-cloud {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-sm);
+    padding: var(--space-lg);
+    align-content: flex-start;
+    overflow-y: auto;
+    flex: 1;
+  }
+
+  .s8-cloud.is-narrow {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: var(--space-md);
+  }
+
+  .s8-cloud-word {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: var(--space-sm) var(--space-md);
+    min-height: 44px;
+    font-family: 'Source Serif 4', Georgia, serif;
+    letter-spacing: 0.02em;
+    color: var(--text);
+    opacity: 0.85;
+    transition: color 0.12s ease, opacity 0.12s ease;
+    flex-shrink: 0;
+  }
+
+  .s8-cloud-word:hover {
+    opacity: 1.0;
+    text-decoration: underline;
+    text-decoration-color: var(--border);
+  }
+
+  .s8-cloud-word.is-selected {
+    color: var(--gold);
+    font-weight: 700;
+    opacity: 1.0;
+    text-decoration: none;
+  }
+
+  .s8-cloud.is-narrow .s8-cloud-word {
+    font-size: 0.9rem !important;
+    padding: var(--space-xs) var(--space-sm);
+  }
+
+  .s8-empty {
+    padding: var(--space-lg);
+    color: var(--muted);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    font-style: italic;
   }
 
   /* ── Responsive ── */
