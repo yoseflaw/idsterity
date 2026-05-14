@@ -68,5 +68,35 @@
       "accessed": "2026-05-13",
       "provisional": true
     }
-  ]
+  ],
+  "anchors": {
+    "kopi": {
+      "price": 8000,
+      "label_id": "cangkir kopi jago",
+      "label_en": "cups of kopi jago",
+      "source": "https://hargamenu.net/daftar-harga-menu-kopi-jago-nikmati-kopi-kualitas-kaf/",
+      "sourceLabel": "Harga Menu Kopi Jago 2025 — hargamenu.net"
+    },
+    "seblak": {
+      "price": 15000,
+      "label_id": "porsi seblak",
+      "label_en": "portions of seblak",
+      "source": "https://food.detik.com/info-kuliner/d-7083649/harga-seblak-lebih-dari-rp-40-ribu-disebut-mahal-berapa-kisarannya",
+      "sourceLabel": "Harga Seblak — Detik Food"
+    },
+    "sd": {
+      "price": 4500000000,
+      "label_id": "sekolah dasar baru",
+      "label_en": "new elementary schools",
+      "source": "https://ekonomi.bisnis.com/read/20220829/9/1571641/total-anggaran-ikn-bisa-dipakai-bangun-ribuan-puskesmas-dan-sekolah-dasar-ini-perhitungannya",
+      "sourceLabel": "Estimasi biaya pembangunan SD — Bisnis.com"
+    },
+    "puskesmas": {
+      "price": 8000000000,
+      "label_id": "puskesmas baru",
+      "label_en": "new primary health clinics",
+      "source": "https://mataram.antaranews.com/berita/553549/kemenkes-gelontorkan-rp13-miliar-untuk-puskesmas-di-dompu",
+      "sourceLabel": "Kemenkes alokasi Rp13M untuk puskesmas — Antara News"
+    }
+  }
 }

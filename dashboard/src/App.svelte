@@ -17,6 +17,14 @@
   let activeStepS5 = $state(0)
   let fetchError   = $state(null)
 
+  let activeStepS7     = $state(0)
+  let kopiCount        = $state(0)
+  let seblakCount      = $state(0)
+  let sdCount          = $state(0)
+  let puskesmasCount   = $state(0)
+  let s7ShowTransition = $state(false)
+  let s7Timers         = []
+
   let scrollers = []
   const onResize = () => scrollers.forEach(s => s.resize())
 
@@ -59,6 +67,7 @@
         makeScroller('s2', i => { activeStepS2 = i }),
         makeScroller('s3', i => { activeStepS3 = i }),
         makeScroller('s5', i => { activeStepS5 = i }),
+        makeScroller('s7', i => { activeStepS7 = i }),
       ]
       window.addEventListener('resize', onResize)
     })
@@ -67,10 +76,50 @@
   onDestroy(() => {
     scrollers.forEach(s => s?.destroy())
     window.removeEventListener('resize', onResize)
+    s7Timers.forEach(clearTimeout)
+  })
+
+  $effect(() => {
+    if (!stats || !constants?.anchors) return
+    s7Timers.forEach(clearTimeout)
+    s7Timers = []
+    const high = stats.labelPagu.high ?? 0
+    if (activeStepS7 === 0) {
+      s7ShowTransition = false
+      sdCount = 0
+      puskesmasCount = 0
+      countUp(Math.floor(high / constants.anchors.kopi.price), 1800, v => { kopiCount = v })
+      countUp(Math.floor(high / constants.anchors.seblak.price), 1800, v => { seblakCount = v })
+    } else if (activeStepS7 === 1) {
+      s7ShowTransition = true
+      sdCount = 0
+      puskesmasCount = 0
+      s7Timers.push(setTimeout(() => {
+        countUp(Math.floor(high / constants.anchors.sd.price), 1800, v => { sdCount = v })
+      }, 300))
+      s7Timers.push(setTimeout(() => {
+        countUp(Math.floor(high / constants.anchors.puskesmas.price), 1800, v => { puskesmasCount = v })
+      }, 450))
+    }
   })
 
   const fmtT   = v => (v / 1e12).toFixed(1)
   const fmtNum = v => v.toLocaleString('id-ID')
+  const fmtCount = (v, l) => v.toLocaleString(l === 'id' ? 'id-ID' : 'en-US')
+
+  function countUp(target, duration, onUpdate, onDone) {
+    const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches
+    if (prefersReduced) { onUpdate(target); onDone?.(); return }
+    const start = performance.now()
+    function frame(now) {
+      const t = Math.min((now - start) / duration, 1)
+      const eased = 1 - Math.pow(1 - t, 3)
+      onUpdate(Math.floor(eased * target))
+      if (t < 1) requestAnimationFrame(frame)
+      else { onUpdate(target); onDone?.() }
+    }
+    requestAnimationFrame(frame)
+  }
 
   function toggleLang() {
     const y = window.scrollY
@@ -369,6 +418,98 @@
           <span class="s6-transition-label" aria-live="polite">
             {activeStepS5 >= 2 ? t[lang].s6TransitionLabel : ''}
           </span>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- ━━━ S7 ANCHOR COUNT-UP ━━━ -->
+  <section class="scrolly" data-section="s7" id="s7">
+
+    <div class="sticky-col">
+      <div class="eyebrow">{t[lang].s7Eyebrow}</div>
+      <h2 class="s7-sticky-heading">{t[lang].s7StickyHeading}</h2>
+
+      <span class="s7-transition-label" aria-live="polite">{s7ShowTransition ? t[lang].s7TransitionLabel : ''}</span>
+
+      <div class="s7-anchor-pair">
+        {#if activeStepS7 === 0}
+          <div class="s7-anchor">
+            {#if stats && constants}
+              <span class="s7-anchor-figure is-gold">{fmtCount(kopiCount, lang)}</span>
+            {:else}
+              <span class="s7-anchor-figure is-gold loading-pulse">—</span>
+            {/if}
+            <span class="s7-anchor-label">{t[lang].s7KopiLabel}</span>
+            <span class="s7-anchor-citation">{t[lang].s7SourcePrefix}Rp {fmtNum(constants?.anchors?.kopi?.price ?? 0)} — {constants?.anchors?.kopi?.sourceLabel ?? ''}</span>
+          </div>
+          <div class="s7-anchor">
+            {#if stats && constants}
+              <span class="s7-anchor-figure is-gold">{fmtCount(seblakCount, lang)}</span>
+            {:else}
+              <span class="s7-anchor-figure is-gold loading-pulse">—</span>
+            {/if}
+            <span class="s7-anchor-label">{t[lang].s7SeblakLabel}</span>
+            <span class="s7-anchor-citation">{t[lang].s7SourcePrefix}Rp {fmtNum(constants?.anchors?.seblak?.price ?? 0)} — {constants?.anchors?.seblak?.sourceLabel ?? ''}</span>
+          </div>
+        {:else}
+          <div class="s7-anchor">
+            {#if stats && constants}
+              <span class="s7-anchor-figure is-red">{fmtCount(sdCount, lang)}</span>
+            {:else}
+              <span class="s7-anchor-figure is-red loading-pulse">—</span>
+            {/if}
+            <span class="s7-anchor-label">{t[lang].s7SDLabel}</span>
+            <span class="s7-anchor-citation">{t[lang].s7SourcePrefix}Rp {fmtNum(constants?.anchors?.sd?.price ?? 0)} — {constants?.anchors?.sd?.sourceLabel ?? ''}</span>
+          </div>
+          <div class="s7-anchor">
+            {#if stats && constants}
+              <span class="s7-anchor-figure is-red">{fmtCount(puskesmasCount, lang)}</span>
+            {:else}
+              <span class="s7-anchor-figure is-red loading-pulse">—</span>
+            {/if}
+            <span class="s7-anchor-label">{t[lang].s7PuskesmasLabel}</span>
+            <span class="s7-anchor-citation">{t[lang].s7SourcePrefix}Rp {fmtNum(constants?.anchors?.puskesmas?.price ?? 0)} — {constants?.anchors?.puskesmas?.sourceLabel ?? ''}</span>
+          </div>
+        {/if}
+      </div>
+
+      <div class="step-indicator" aria-hidden="true">
+        {#each [0,1] as s}
+          <div class="pip" class:active={activeStepS7 === s}></div>
+        {/each}
+      </div>
+    </div>
+
+    <div class="steps-col">
+
+      <div class="step" data-step="0">
+        <div class="step-card">
+          <span class="step-num">{t[lang].stepCounter(1, 2)}</span>
+          <h3>{t[lang].s7Step0Heading}</h3>
+          <p>{t[lang].s7Step0Body}</p>
+          <a class="source-link"
+             href={constants?.anchors?.kopi?.source ?? '#'}
+             target="_blank" rel="noopener noreferrer">{constants?.anchors?.kopi?.sourceLabel ?? t[lang].s7KopiLabel}</a>
+          <a class="source-link"
+             href={constants?.anchors?.seblak?.source ?? '#'}
+             target="_blank" rel="noopener noreferrer">{constants?.anchors?.seblak?.sourceLabel ?? t[lang].s7SeblakLabel}</a>
+        </div>
+      </div>
+
+      <div class="step" data-step="1">
+        <div class="step-card">
+          <span class="step-num">{t[lang].stepCounter(2, 2)}</span>
+          <h3>{t[lang].s7Step1Heading}</h3>
+          <p>{t[lang].s7Step1Body}</p>
+          <a class="source-link"
+             href={constants?.anchors?.sd?.source ?? '#'}
+             target="_blank" rel="noopener noreferrer">{constants?.anchors?.sd?.sourceLabel ?? t[lang].s7SDLabel}</a>
+          <a class="source-link"
+             href={constants?.anchors?.puskesmas?.source ?? '#'}
+             target="_blank" rel="noopener noreferrer">{constants?.anchors?.puskesmas?.sourceLabel ?? t[lang].s7PuskesmasLabel}</a>
         </div>
       </div>
 
@@ -739,6 +880,64 @@
     color: var(--amber);
     padding: var(--space-md);
     text-align: center;
+  }
+
+  /* -- S7 Anchor Count-Up -- */
+  .s7-sticky-heading {
+    font-family: 'Libre Baskerville', Georgia, serif;
+    font-size: clamp(1.4rem, 3vw, 2rem);
+    font-weight: 700;
+    color: var(--text);
+    margin: 0 0 var(--space-lg) 0;
+    line-height: 1.2;
+  }
+
+  .s7-transition-label {
+    display: block;
+    min-height: 1.2em;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    font-style: italic;
+    color: var(--muted);
+    margin-bottom: var(--space-md);
+  }
+
+  .s7-anchor-pair {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xl);
+    margin-top: var(--space-xl);
+  }
+
+  .s7-anchor {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+  }
+
+  .s7-anchor-figure {
+    font-family: 'Libre Baskerville', Georgia, serif;
+    font-size: clamp(2.2rem, 5vw, 3.8rem);
+    font-weight: 700;
+    line-height: 1.08;
+    letter-spacing: -0.02em;
+  }
+
+  .s7-anchor-figure.is-gold { color: var(--gold); }
+  .s7-anchor-figure.is-red  { color: var(--red); }
+
+  .s7-anchor-label {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 0.9rem;
+    color: var(--muted);
+    line-height: 1.4;
+  }
+
+  .s7-anchor-citation {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    color: var(--muted);
+    line-height: 1.5;
   }
 
   /* ── Responsive ── */

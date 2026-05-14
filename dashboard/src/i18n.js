@@ -76,6 +76,20 @@ export const t = {
     s6Step1Body:      'Jika kita urutkan ulang hanya berdasarkan pagu yang dinilai bermasalah — siapa yang benar-benar paling menonjol?',
     s6TransitionLabel:'Mengurutkan ulang…',
 
+    // S7 — Anchor Count-Up
+    s7Eyebrow:          'S7 · ANGKA NYATA',
+    s7StickyHeading:    'Rp 10,7 triliun untuk pengadaan bermasalah',
+    s7Step0Heading:     'Bayangkan ini…',
+    s7Step0Body:        'Rp 10,7 triliun — total anggaran yang dinilai AI bermasalah. Angka itu besar. Tapi seberapa besar?',
+    s7KopiLabel:        'cangkir kopi jago',
+    s7SeblakLabel:      'porsi seblak',
+    s7TransitionLabel:  'Atau, lebih seriusnya…',
+    s7Step1Heading:     'Atau, bangun ini.',
+    s7Step1Body:        'Dana yang sama bisa membangun ribuan sekolah dasar baru — atau lebih dari seribu puskesmas. Tapi tidak digunakan untuk itu.',
+    s7SDLabel:          'sekolah dasar baru',
+    s7PuskesmasLabel:   'puskesmas baru',
+    s7SourcePrefix:     'Harga satuan: ',
+
     // Errors
     fetchError: 'Gagal memuat data. Coba muat ulang halaman.',
   },
@@ -155,6 +169,20 @@ export const t = {
     s6Step1Heading:   'Now, rank by the most inappropriate.',
     s6Step1Body:      'If we re-rank using only the inappropriately flagged budget — who actually stands out the most?',
     s6TransitionLabel:'Re-ranking…',
+
+    // S7 — Anchor Count-Up
+    s7Eyebrow:          'S7 · REAL NUMBERS',
+    s7StickyHeading:    'Rp 10.7 trillion for inappropriate procurement',
+    s7Step0Heading:     'Imagine this…',
+    s7Step0Body:        "Rp 10.7 trillion — the total budget flagged by AI as inappropriate. That's a large number. But how large?",
+    s7KopiLabel:        'cups of kopi jago',
+    s7SeblakLabel:      'portions of seblak',
+    s7TransitionLabel:  'Or, on a more serious note…',
+    s7Step1Heading:     'Or, build this instead.',
+    s7Step1Body:        "The same funds could build thousands of new elementary schools — or over a thousand primary health clinics. But they weren't used for that.",
+    s7SDLabel:          'new elementary schools',
+    s7PuskesmasLabel:   'new primary health clinics',
+    s7SourcePrefix:     'Unit price: ',
 
     // Errors
     fetchError: 'Failed to load data. Try refreshing the page.',
