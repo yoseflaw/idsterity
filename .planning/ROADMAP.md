@@ -56,8 +56,8 @@ Plans:
 - [x] 02-01-PLAN.md — Foundation fixes + i18n keys (S1–S6) + multi-scroller App.svelte refactor + S1 Hook vertical slice (CR-01, CR-02, WR-05)
 - [x] 02-02-PLAN.md — Data pipeline extension (CR-03 fix + per-label pagu in lembaga-totals.json)
 - [x] 02-03-PLAN.md — S2 + S3 isometric coin-stack charts (DeficitChart, GDPChart) wired into App.svelte
-- [ ] 02-04-PLAN.md — S4 Dataset Overview block (full-width stats + AI-label breakdown + safe-harbour disclaimer)
-- [ ] 02-05-PLAN.md — S5 + S6 InstitutionsChart with D3 animated re-sort
+- [x] 02-04-PLAN.md — S4 Dataset Overview block (full-width stats + AI-label breakdown + safe-harbour disclaimer)
+- [x] 02-05-PLAN.md — S5 + S6 InstitutionsChart with D3 animated re-sort
 **UI hint**: yes
 
 ### Phase 3: Interactive Back Half (S7–S9)
