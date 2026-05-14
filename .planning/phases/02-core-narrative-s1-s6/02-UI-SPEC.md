@@ -1,7 +1,8 @@
 ---
 phase: 2
 slug: core-narrative-s1-s6
-status: draft
+status: approved
+reviewed_at: 2026-05-14T00:00:00Z
 shadcn_initialized: false
 preset: none
 created: 2026-05-13
