@@ -90,6 +90,32 @@ export const t = {
     s7PuskesmasLabel:   'puskesmas baru',
     s7SourcePrefix:     'Harga satuan: ',
 
+    // S8 — Word Cloud
+    s8Eyebrow:            'S8 · KATA KUNCI',
+    s8StickyHeading:      'Apa yang mereka cari?',
+    s8Step0Heading:       'Kata-kata pengadaan bermasalah',
+    s8Step0Body:          'Ini adalah kata kunci paling sering muncul dalam nama paket yang dinilai AI bermasalah. Klik kata untuk melihat paket-paket tersebut.',
+    s8FilterAll:          'Semua',
+    s8FilterCentral:      'Pemerintah Pusat',
+    s8FilterDistrict:     'Pemerintah Daerah',
+    s8FilterInstitution:  'Cari lembaga…',
+    s8FilterReset:        'Reset',
+    s8NoResults:          'Tidak ada kata ditemukan.',
+    s8MobileFallbackNote: 'Geser untuk melihat semua kata',
+
+    // S9 — Record Table
+    s9ColLembaga:   'Lembaga',
+    s9ColSatker:    'Satker',
+    s9ColPagu:      'Pagu',
+    s9ColPaket:     'Nama Paket',
+    s9ColReason:    'Alasan AI',
+    s9TableHeader:  (word) => `Paket dengan kata "${word}"`,
+    s9RecordCount:  (n) => `${n} paket teratas (berdasarkan pagu)`,
+    s9FallbackNote: 'Menampilkan semua lembaga — filter lembaga hanya berlaku pada kata kunci.',
+    s9Close:        'Tutup',
+    s9Loading:      'memuat paket…',
+    s9Error:        'Gagal memuat data paket. Coba lagi.',
+
     // Errors
     fetchError: 'Gagal memuat data. Coba muat ulang halaman.',
   },
@@ -183,6 +209,32 @@ export const t = {
     s7SDLabel:          'new elementary schools',
     s7PuskesmasLabel:   'new primary health clinics',
     s7SourcePrefix:     'Unit price: ',
+
+    // S8 — Word Cloud
+    s8Eyebrow:            'S8 · KEYWORDS',
+    s8StickyHeading:      'What were they procuring?',
+    s8Step0Heading:       'Words from inappropriate procurement',
+    s8Step0Body:          'These are the most frequent words from package names flagged as inappropriate by AI. Click a word to see the matching records.',
+    s8FilterAll:          'All',
+    s8FilterCentral:      'Central Gov',
+    s8FilterDistrict:     'District Gov',
+    s8FilterInstitution:  'Search institution…',
+    s8FilterReset:        'Reset',
+    s8NoResults:          'No words found.',
+    s8MobileFallbackNote: 'Swipe to see all words',
+
+    // S9 — Record Table
+    s9ColLembaga:   'Institution',
+    s9ColSatker:    'Work Unit',
+    s9ColPagu:      'Budget',
+    s9ColPaket:     'Package Name',
+    s9ColReason:    'AI Reason',
+    s9TableHeader:  (word) => `Packages containing "${word}"`,
+    s9RecordCount:  (n) => `Top ${n} records (by budget)`,
+    s9FallbackNote: 'Showing all institutions — institution filter applies to cloud only.',
+    s9Close:        'Close',
+    s9Loading:      'loading records…',
+    s9Error:        'Failed to load records. Please try again.',
 
     // Errors
     fetchError: 'Failed to load data. Try refreshing the page.',
