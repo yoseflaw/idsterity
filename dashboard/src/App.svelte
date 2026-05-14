@@ -643,5 +643,11 @@
       padding: 0 1.5rem;
     }
     .step-indicator { display: none; }
+
+    /* S1 has no chart — let it scroll naturally, no sticky needed */
+    [data-section="s1"] .sticky-col {
+      position: relative;
+      height: auto;
+    }
   }
 </style>
