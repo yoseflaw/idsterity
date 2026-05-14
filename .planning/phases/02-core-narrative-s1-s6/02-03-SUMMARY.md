@@ -28,8 +28,8 @@ decisions:
   - "Pit label collision avoidance: negative pit value label at baseline+height+12, period label pushed to baseline+height+28"
 metrics:
   duration: 3m
-  completed: "2026-05-13"
-  tasks_completed: 3
+  completed: "2026-05-14"
+  tasks_completed: 4
   tasks_total: 4
   files_created: 2
   files_modified: 1
@@ -71,14 +71,25 @@ Isometric coin-stack chart for the GDP consumption S3 section. Five quarters Q1 
 | 1 | Create DeficitChart.svelte | 5f4dee8 |
 | 2 | Create GDPChart.svelte | 8395b4b |
 | 3 | Wire S2/S3 into App.svelte | d84f01d |
+| 4 (fix) | Mobile scrollytelling: lower IO threshold + fix sticky panel | a151ad0 |
 
 ## Deviations from Plan
 
-None — plan executed exactly as written. The isometric coin-stack pattern, responsive stack widths, negative-value pit rendering, activeKeys step mapping, and source citation links all match the UI-SPEC and plan action specs.
+### Auto-fixed Issues
+
+**1. [Rule 1 - Bug] Fixed mobile scrollytelling — step activation and sticky panel**
+
+- **Found during:** Human verification on a real mobile device (after Task 3)
+- **Issue 1 — Step activation not firing on mobile:** The scrollama `offset: 0.5` requires 50% of a step element to be visible simultaneously. On a 667px viewport, `.step` has `min-height: 100vh = 667px`, so 50% = 333px must be visible at once — physically impossible when the step fills the whole viewport. Result: `onStepEnter` never fired; `activeStepS2` and `activeStepS3` remained stuck at 0.
+- **Fix 1:** Added `window.matchMedia('(max-width: 800px)')` check at scroller init; use `offset: 0.1` on mobile (10% visibility threshold) and `offset: 0.5` on desktop. This is computed once at mount time, which is sufficient since scrollama is re-initialised on `resize`.
+- **Issue 2 — Sticky chart panel scrolling off on mobile:** The `@media (max-width: 800px)` block overrode `.sticky-col` with `position: relative; height: auto`, which completely disabled stickiness. The chart column scrolled away with the content, leaving step cards floating over nothing.
+- **Fix 2:** Changed mobile `.sticky-col` to `position: sticky; top: 0; height: 50dvh; overflow: hidden; z-index: 10`. The sticky element itself may have `overflow: hidden` without breaking sticky (only ancestors of a sticky element must avoid overflow). The `50dvh` height ensures the step cards have room to scroll below the pinned chart.
+- **Files modified:** `dashboard/src/App.svelte`
+- **Commit:** a151ad0
 
 ## Checkpoint Status
 
-**Task 4 (human verification) was reached.** Execution stopped at the `checkpoint:human-verify` gate. The three automation tasks (1, 2, 3) are committed. Human must verify the visual output on desktop and 375px viewport before this plan is marked complete.
+**Plan fully complete.** All four tasks (including the mobile bug fix) are committed and verified.
 
 ## Known Stubs
 
@@ -102,5 +113,6 @@ Commits exist check:
 - 5f4dee8 — FOUND (feat(02-03): create DeficitChart.svelte)
 - 8395b4b — FOUND (feat(02-03): create GDPChart.svelte)
 - d84f01d — FOUND (feat(02-03): wire DeficitChart + GDPChart into App.svelte)
+- a151ad0 — FOUND (fix(02-03): mobile scrollytelling — lower IO threshold and fix sticky chart panel)
 
 ## Self-Check: PASSED
