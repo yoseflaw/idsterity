@@ -121,3 +121,53 @@ OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 print(f"lembaga-totals.json → {len(lembaga_totals)} records")
 print(f"summary-stats.json  → {summary}")
+
+# ── Per-word record bucketing (SEC-09 data layer) ────────────────────────────
+# Read the three wordcloud files to discover the union of indexed words.
+_wc_all      = OUT_DIR / "wordcloud-all.json"
+_wc_central  = OUT_DIR / "wordcloud-central.json"
+_wc_district = OUT_DIR / "wordcloud-district.json"
+for _wc_path in (_wc_all, _wc_central, _wc_district):
+    if not _wc_path.exists():
+        raise FileNotFoundError(
+            f"Required wordcloud file not found: {_wc_path}. "
+            "Run word-cloud.py first or ensure the wordcloud JSON files are committed."
+        )
+
+ALL_WORDS = sorted({
+    entry["word"]
+    for _wc_path in (_wc_all, _wc_central, _wc_district)
+    for entry in json.loads(_wc_path.read_text())
+})
+
+PER_WORD_TOP = 20
+
+records_by_word_filter = {w: {"all": [], "central": [], "district": []} for w in ALL_WORDS}
+
+for path in sorted(DATA_DIR.glob("*_priority.json")):
+    for r in json.load(path.open()):
+        if r.get("tags", {}).get("isInappropriate") != "high":
+            continue
+        paket_lower = (r.get("paket") or "").lower()
+        owner       = r.get("ownerType") or "unknown"
+        rec = {
+            "lembaga":             r.get("lembaga") or "Unknown",
+            "satker":              r.get("satker") or "",
+            "pagu":                r.get("pagu") or 0,
+            "paket":               r.get("paket") or "",
+            "inappropriateReason": r.get("tags", {}).get("inappropriateReason") or "",
+        }
+        for w in ALL_WORDS:
+            if w in paket_lower:
+                records_by_word_filter[w]["all"].append(rec)
+                if owner == "central":
+                    records_by_word_filter[w]["central"].append(rec)
+                elif owner in ("provinsi", "kabkota"):
+                    records_by_word_filter[w]["district"].append(rec)
+
+for w in ALL_WORDS:
+    for filt in ("all", "central", "district"):
+        top = sorted(records_by_word_filter[w][filt], key=lambda x: x["pagu"], reverse=True)[:PER_WORD_TOP]
+        (OUT_DIR / f"word-{w}-{filt}.json").write_text(json.dumps(top, ensure_ascii=False, indent=2))
+
+print(f"word-*-*.json → {len(ALL_WORDS)} words × 3 filters = {len(ALL_WORDS) * 3} files")
