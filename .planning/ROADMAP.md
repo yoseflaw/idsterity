@@ -88,7 +88,13 @@ Plans:
   3. Deploying `dist/` to Apache shared hosting and navigating to a direct URL (not root) returns the page, not a 404 — `.htaccess` SPA fallback is in place
   4. All data fetches use `import.meta.env.BASE_URL` (not hardcoded `/data/`) and the deploy path is configurable in `vite.config.js`
   5. The site loads in under 3 seconds on a simulated mobile connection (Lighthouse Performance score acceptable)
-**Plans**: TBD
+**Plans**: 3 plans
+
+Plans:
+- [ ] 04-01-PLAN.md — OG meta tags in index.html + user creates og-image.jpg (SHARE-01, SHARE-02)
+- [ ] 04-02-PLAN.md — Vite base path config + BASE_URL fetch fix across 9 call sites + build verify (DEPL-01, DEPL-02, DEPL-03)
+- [ ] 04-03-PLAN.md — Apache .htaccess SPA fallback + pre-deploy checklist + FTP deploy checkpoint (FOUND-05)
+**UI hint**: no
 
 ## Progress
 
@@ -100,4 +106,4 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 | 1. Foundation & Data Pipeline | 3/3 | Complete   | 2026-05-13 |
 | 2. Core Narrative (S1–S6) | 5/5 | Complete | 2026-05-14 |
 | 3. Interactive Back Half (S7–S9) | 3/3 | Complete | 2026-05-14 |
-| 4. Polish, Share & Deploy | 0/TBD | Not started | - |
+| 4. Polish, Share & Deploy | 0/3 | Not started | - |
