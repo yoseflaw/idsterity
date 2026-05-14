@@ -2,6 +2,8 @@
   import { onMount, onDestroy } from 'svelte'
   import scrollama from 'scrollama'
   import { t } from './i18n.js'
+  import DeficitChart from './DeficitChart.svelte'
+  import GDPChart from './GDPChart.svelte'
 
   let stats      = $state(null)
   let lembaga    = $state([])
@@ -38,9 +40,16 @@
     }
 
     requestAnimationFrame(() => {
+      // Use a lower offset on narrow viewports so step cards that fill the
+      // entire screen (min-height: 100vh) still trigger the IntersectionObserver.
+      // offset: 0.5 means 50% of the step must be visible — impossible when the
+      // step fills the full viewport height on a small mobile screen.
+      const isMobile = window.matchMedia('(max-width: 800px)').matches
+      const offset   = isMobile ? 0.1 : 0.5
+
       const makeScroller = (sectionAttr, onEnter) => {
         const s = scrollama()
-        s.setup({ step: `[data-section="${sectionAttr}"] [data-step]`, offset: 0.5, progress: false })
+        s.setup({ step: `[data-section="${sectionAttr}"] [data-step]`, offset, progress: false })
          .onStepEnter(({ index }) => onEnter(index))
         return s
       }
@@ -147,6 +156,121 @@
           <p class="s1-disclaimer">{t[lang].s1Disclaimer}</p>
         </div>
       </div>
+    </div>
+
+  </section>
+
+  <!-- ━━━ S2 APBN DEFICIT ━━━ -->
+  <section class="scrolly" data-section="s2" id="s2">
+
+    <div class="sticky-col">
+      <div class="eyebrow">{t[lang].s2Eyebrow}</div>
+      <DeficitChart data={constants?.apbn?.deficit} step={activeStepS2} lang={lang} />
+      <div class="step-indicator" aria-hidden="true">
+        {#each [0,1,2] as s}
+          <div class="pip" class:active={activeStepS2 === s}></div>
+        {/each}
+      </div>
+    </div>
+
+    <div class="steps-col">
+
+      <div class="step" data-step="0">
+        <div class="step-card">
+          <span class="step-num">{t[lang].stepCounter(1, 3)}</span>
+          <h3>{t[lang].s2Step1Heading}</h3>
+          <p>{t[lang].s2Step1Body}</p>
+          <a class="source-link"
+             href={constants?.sources?.find(s => s.field === 'apbn.deficit.fy2025')?.url ?? '#'}
+             target="_blank" rel="noopener noreferrer">{t[lang].s2SourceLabel}</a>
+        </div>
+      </div>
+
+      <div class="step" data-step="1">
+        <div class="step-card">
+          <span class="step-num">{t[lang].stepCounter(2, 3)}</span>
+          <h3>{t[lang].s2Step2Heading}</h3>
+          <p>{t[lang].s2Step2Body}</p>
+          <a class="source-link"
+             href={constants?.sources?.find(s => s.field === 'apbn.deficit.fy2025')?.url ?? '#'}
+             target="_blank" rel="noopener noreferrer">{t[lang].s2SourceLabel}</a>
+        </div>
+      </div>
+
+      <div class="step" data-step="2">
+        <div class="step-card">
+          <span class="step-num">{t[lang].stepCounter(3, 3)}</span>
+          <h3>{t[lang].s2Step3Heading}</h3>
+          <p>{t[lang].s2Step3Body}</p>
+          <a class="source-link"
+             href={constants?.sources?.find(s => s.field === 'apbn.deficit.fy2025')?.url ?? '#'}
+             target="_blank" rel="noopener noreferrer">{t[lang].s2SourceLabel}</a>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- ━━━ S3 GDP CONSUMPTION ━━━ -->
+  <section class="scrolly" data-section="s3" id="s3">
+
+    <div class="sticky-col">
+      <div class="eyebrow">{t[lang].s3Eyebrow}</div>
+      <GDPChart data={constants?.gdp?.konsumsi_pemerintah} step={activeStepS3} lang={lang} />
+      <div class="step-indicator" aria-hidden="true">
+        {#each [0,1,2,3] as s}
+          <div class="pip" class:active={activeStepS3 === s}></div>
+        {/each}
+      </div>
+    </div>
+
+    <div class="steps-col">
+
+      <div class="step" data-step="0">
+        <div class="step-card">
+          <span class="step-num">{t[lang].stepCounter(1, 4)}</span>
+          <h3>{t[lang].s3Step1Heading}</h3>
+          <p>{t[lang].s3Step1Body}</p>
+          <a class="source-link"
+             href={constants?.sources?.find(s => s.field === 'gdp.konsumsi_pemerintah.q2_2025')?.url ?? '#'}
+             target="_blank" rel="noopener noreferrer">{t[lang].s3SourceLabel}</a>
+        </div>
+      </div>
+
+      <div class="step" data-step="1">
+        <div class="step-card">
+          <span class="step-num">{t[lang].stepCounter(2, 4)}</span>
+          <h3>{t[lang].s3Step2Heading}</h3>
+          <p>{t[lang].s3Step2Body}</p>
+          <a class="source-link"
+             href={constants?.sources?.find(s => s.field === 'gdp.konsumsi_pemerintah.q2_2025')?.url ?? '#'}
+             target="_blank" rel="noopener noreferrer">{t[lang].s3SourceLabel}</a>
+        </div>
+      </div>
+
+      <div class="step" data-step="2">
+        <div class="step-card">
+          <span class="step-num">{t[lang].stepCounter(3, 4)}</span>
+          <h3>{t[lang].s3Step3Heading}</h3>
+          <p>{t[lang].s3Step3Body}</p>
+          <a class="source-link"
+             href={constants?.sources?.find(s => s.field === 'gdp.konsumsi_pemerintah.q2_2025')?.url ?? '#'}
+             target="_blank" rel="noopener noreferrer">{t[lang].s3SourceLabel}</a>
+        </div>
+      </div>
+
+      <div class="step" data-step="3">
+        <div class="step-card">
+          <span class="step-num">{t[lang].stepCounter(4, 4)}</span>
+          <h3>{t[lang].s3Step4Heading}</h3>
+          <p>{t[lang].s3Step4Body}</p>
+          <a class="source-link"
+             href={constants?.sources?.find(s => s.field === 'gdp.konsumsi_pemerintah.q2_2025')?.url ?? '#'}
+             target="_blank" rel="noopener noreferrer">{t[lang].s3SourceLabel}</a>
+        </div>
+      </div>
+
     </div>
 
   </section>
@@ -462,6 +586,25 @@
     margin-top: var(--space-lg);
   }
 
+  /* -- S2 Deficit -- */
+  /* -- S3 GDP -- */
+
+  .source-link {
+    display: inline-block;
+    margin-top: var(--space-md);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    color: var(--muted);
+    text-decoration: underline;
+    text-decoration-color: var(--border);
+    text-underline-offset: 3px;
+    min-height: 44px;
+    padding: 8px 0;
+    transition: color 0.15s ease;
+  }
+
+  .source-link:hover { color: var(--text); }
+
   .fetch-error {
     font-family: 'JetBrains Mono', monospace;
     font-size: 11px;
@@ -472,16 +615,39 @@
 
   /* ── Responsive ── */
   @media (max-width: 800px) {
-    .scrolly { flex-direction: column; }
+    /* Stack chart above steps. The chart column stays sticky so it remains
+       pinned at the top of the viewport while step cards scroll beneath it.
+       Using position:relative here would break sticky and cause the chart to
+       scroll off-screen — the most common mobile scrollytelling failure mode. */
+    .scrolly {
+      flex-direction: column;
+      align-items: stretch;
+    }
     .sticky-col {
-      position: relative;
+      position: sticky;
+      top: 0;
       width: 100%;
-      height: auto;
-      min-height: 60vh;
+      height: 50dvh;
+      min-height: unset;
       border-right: none;
       border-bottom: 1px solid var(--border);
+      /* Ensure no overflow on the sticky container or its content clips
+         correctly; overflow:hidden is safe on the sticky element itself. */
+      overflow: hidden;
+      z-index: 10;
+      padding: 1rem 1.5rem;
+      justify-content: flex-start;
     }
-    .steps-col { width: 100%; padding: 0 1.5rem; }
+    .steps-col {
+      width: 100%;
+      padding: 0 1.5rem;
+    }
     .step-indicator { display: none; }
+
+    /* S1 has no chart — let it scroll naturally, no sticky needed */
+    [data-section="s1"] .sticky-col {
+      position: relative;
+      height: auto;
+    }
   }
 </style>
