@@ -169,24 +169,26 @@
     if (!stats || !constants?.anchors) return
     s7Timers.forEach(clearTimeout)
     s7Timers = []
+    const cancels = []
     const high = stats.labelPagu.high ?? 0
     if (activeStepS7 === 0) {
       s7ShowTransition = false
       sdCount = 0
       puskesmasCount = 0
-      countUp(Math.floor(high / constants.anchors.kopi.price), 1800, v => { kopiCount = v })
-      countUp(Math.floor(high / constants.anchors.seblak.price), 1800, v => { seblakCount = v })
+      cancels.push(countUp(Math.floor(high / constants.anchors.kopi.price),   1800, v => { kopiCount = v }))
+      cancels.push(countUp(Math.floor(high / constants.anchors.seblak.price), 1800, v => { seblakCount = v }))
     } else if (activeStepS7 === 1) {
       s7ShowTransition = true
       sdCount = 0
       puskesmasCount = 0
       s7Timers.push(setTimeout(() => {
-        countUp(Math.floor(high / constants.anchors.sd.price), 1800, v => { sdCount = v })
+        cancels.push(countUp(Math.floor(high / constants.anchors.sd.price),       1800, v => { sdCount = v }))
       }, 300))
       s7Timers.push(setTimeout(() => {
-        countUp(Math.floor(high / constants.anchors.puskesmas.price), 1800, v => { puskesmasCount = v })
+        cancels.push(countUp(Math.floor(high / constants.anchors.puskesmas.price), 1800, v => { puskesmasCount = v }))
       }, 450))
     }
+    return () => { cancels.forEach(c => c?.()); s7Timers.forEach(clearTimeout); s7Timers = [] }
   })
 
   const fmtT   = v => (v / 1e12).toFixed(1)
@@ -203,16 +205,20 @@
 
   function countUp(target, duration, onUpdate, onDone) {
     const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches
-    if (prefersReduced) { onUpdate(target); onDone?.(); return }
+    if (prefersReduced) { onUpdate(target); onDone?.(); return () => {} }
+    let rafId
+    let cancelled = false
     const start = performance.now()
     function frame(now) {
-      const t = Math.min((now - start) / duration, 1)
-      const eased = 1 - Math.pow(1 - t, 3)
+      if (cancelled) return
+      const progress = Math.min((now - start) / duration, 1)
+      const eased = 1 - Math.pow(1 - progress, 3)
       onUpdate(Math.floor(eased * target))
-      if (t < 1) requestAnimationFrame(frame)
+      if (progress < 1) rafId = requestAnimationFrame(frame)
       else { onUpdate(target); onDone?.() }
     }
-    requestAnimationFrame(frame)
+    rafId = requestAnimationFrame(frame)
+    return () => { cancelled = true; cancelAnimationFrame(rafId) }
   }
 
   function toggleLang() {
