@@ -72,6 +72,7 @@ Isometric coin-stack chart for the GDP consumption S3 section. Five quarters Q1 
 | 2 | Create GDPChart.svelte | 8395b4b |
 | 3 | Wire S2/S3 into App.svelte | d84f01d |
 | 4 (fix) | Mobile scrollytelling: lower IO threshold + fix sticky panel | a151ad0 |
+| 4b (fix) | S1 sticky-col scrolls naturally on mobile — no chart anchor needed | e88bf0b |
 
 ## Deviations from Plan
 
