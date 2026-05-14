@@ -46,8 +46,10 @@ total_flagged_count, total_flagged_pagu = 0, 0
 label_pagu   = {"low": 0, "med": 0, "high": 0}
 label_counts = {"low": 0, "med": 0, "high": 0}
 
+priority_records = []
 for path in sorted(DATA_DIR.glob("*_priority.json")):
-    for r in json.load(path.open()):
+    records = json.load(path.open())
+    for r in records:
         name  = r.get("lembaga") or "Unknown"
         pagu  = r.get("pagu") or 0
         level = r.get("tags", {}).get("isInappropriate", "")
@@ -69,6 +71,7 @@ for path in sorted(DATA_DIR.glob("*_priority.json")):
             low_pagu[name]      += pagu
             label_pagu["low"]   += pagu
             label_counts["low"] += 1
+    priority_records.extend(records)
 
 unflagged_pagu   = total_pagu   - sum(label_pagu.values())
 unflagged_counts = total_records - sum(label_counts.values())
@@ -144,26 +147,25 @@ PER_WORD_TOP = 20
 
 records_by_word_filter = {w: {"all": [], "central": [], "district": []} for w in ALL_WORDS}
 
-for path in sorted(DATA_DIR.glob("*_priority.json")):
-    for r in json.load(path.open()):
-        if r.get("tags", {}).get("isInappropriate") != "high":
-            continue
-        paket_lower = (r.get("paket") or "").lower()
-        owner       = r.get("ownerType") or "unknown"
-        rec = {
-            "lembaga":             r.get("lembaga") or "Unknown",
-            "satker":              r.get("satker") or "",
-            "pagu":                r.get("pagu") or 0,
-            "paket":               r.get("paket") or "",
-            "inappropriateReason": r.get("tags", {}).get("inappropriateReason") or "",
-        }
-        for w in ALL_WORDS:
-            if w in paket_lower:
-                records_by_word_filter[w]["all"].append(rec)
-                if owner == "central":
-                    records_by_word_filter[w]["central"].append(rec)
-                elif owner in ("provinsi", "kabkota"):
-                    records_by_word_filter[w]["district"].append(rec)
+for r in priority_records:
+    if r.get("tags", {}).get("isInappropriate") != "high":
+        continue
+    paket_lower = (r.get("paket") or "").lower()
+    owner       = r.get("ownerType") or "unknown"
+    rec = {
+        "lembaga":             r.get("lembaga") or "Unknown",
+        "satker":              r.get("satker") or "",
+        "pagu":                r.get("pagu") or 0,
+        "paket":               r.get("paket") or "",
+        "inappropriateReason": r.get("tags", {}).get("inappropriateReason") or "",
+    }
+    for w in ALL_WORDS:
+        if w in paket_lower:
+            records_by_word_filter[w]["all"].append(rec)
+            if owner == "central":
+                records_by_word_filter[w]["central"].append(rec)
+            elif owner in ("provinsi", "kabkota"):
+                records_by_word_filter[w]["district"].append(rec)
 
 for w in ALL_WORDS:
     for filt in ("all", "central", "district"):
