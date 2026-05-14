@@ -3,15 +3,15 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Phase 2 context gathered
-last_updated: "2026-05-13T21:34:00.150Z"
-last_activity: 2026-05-13 -- Phase 02 execution started
+stopped_at: Phase 2 Wave 3 — plan 02-04 at human-verify checkpoint (Task 1 done)
+last_updated: "2026-05-14T00:10:00.000Z"
+last_activity: 2026-05-14 -- Phase 02 waves 1-3 in progress (02-01/02/03 done, 02-04 at checkpoint)
 progress:
   total_phases: 4
   completed_phases: 1
   total_plans: 8
-  completed_plans: 3
-  percent: 38
+  completed_plans: 6
+  percent: 56
 ---
 
 # Project State
@@ -89,36 +89,49 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-05-13T12:34:49.481Z
-Stopped at: Phase 2 context gathered
-Resume file: .planning/phases/02-core-narrative-s1-s6/02-01-PLAN.md
+Last session: 2026-05-14T00:10:00.000Z
+Stopped at: Wave 3 — plan 02-04 at human-verify checkpoint
 
-### What was built in Phase 1
+### Phase 2 progress (as of this session)
 
-- `dashboard/public/data/constants.json` — APBN deficit 3-point series + BPS GDP 5-quarter series
-- `dashboard/scripts/prepare-data.py` — extended with S4 aggregates (jenisCounts, metodeCounts, paguByMonth per institution)
-- `dashboard/scripts/word-cloud.py` — nlp-id lemmatization, high-flag filter, 4 wordcloud JSON outputs
-- `dashboard/src/i18n.js` — bilingual store (id/en), all 10 keys including stepCounter function
-- `dashboard/src/App.svelte` — Walking Skeleton: hero + 4 scrolly stubs, full CSS token system, scrollama wired, language toggle with scroll preservation
-- `dashboard/src/main.js` — 5 @fontsource imports, Google CDN removed
+| Plan | Wave | Status | Key output |
+|------|------|--------|------------|
+| 02-01 | 1 | ✓ Complete | i18n S1–S6, multi-section scrollama, safeFetch, S1 Hook section |
+| 02-02 | 1 | ✓ Complete | prepare-data.py: lowPagu/medPagu/highPagu per institution + CR-03 guard |
+| 02-03 | 2 | ✓ Complete | DeficitChart.svelte, GDPChart.svelte, S2/S3 sections, mobile scrollytelling fix |
+| 02-04 | 3 | ⚑ Checkpoint | S4 stats block built (Task 1 done); awaiting human verify on dev server |
+| 02-05 | 4 | — Not started | InstitutionsChart D3 animated re-sort + S5/S6 |
 
-### Open Issues (from code review 01-REVIEW.md)
+### 02-04 checkpoint details
 
-- **CR-01** (Critical): `constants.json` fetch in `Promise.all` — file exists but result is unused; dead fetch should be removed or wired to template
-- **CR-02** (Critical): No `.catch()` on `Promise.all` — HTTP errors silently stall the app
-- **CR-03** (Critical): `label_pagu["unflagged"]` can go negative in `prepare-data.py`
-- **WR-05** (Warning): Missing Source Serif 4 weight 300 and 600 @fontsource imports in `main.js`
+- **Task 1 done** — commit `dce0e3c`: S4 block added to App.svelte (full-width stats block after S3)
+- **Task 2 pending** — human verify: scroll to S4, check stat cells, breakdown rows, disclaimer, mobile layout
+- **Worktree active** — branch `worktree-agent-aa81b72c4fb11395c` at `.claude/worktrees/agent-aa81b72c4fb11395c`
+- **To resume** — start the dev server from the worktree:
+  ```bash
+  cd .claude/worktrees/agent-aa81b72c4fb11395c/dashboard && npm run dev -- --host
+  ```
+  Verify S4 section, then reply "approved" to the continuation agent
 
-### Phase 2 Plans (5 plans, 4 waves)
+### S4 verification checklist
 
-- **02-01** (Wave 1): Foundation fixes + i18n S1–S6 + multi-scroller + S1 Hook + CR-01/CR-02/WR-05
-- **02-02** (Wave 1, parallel): Data pipeline — per-label pagu extension + CR-03 guard
-- **02-03** (Wave 2): DeficitChart + GDPChart isometric coin stacks + S2/S3 sections
-- **02-04** (Wave 3): S4 Dataset Overview stats block
-- **02-05** (Wave 4): InstitutionsChart D3 animated re-sort + S5/S6
+1. Eyebrow "S4 · DATASET 2026" in gold; heading in Libre Baskerville
+2. Two stat cells: **Rp 642.2 T** (gold) · **3.009.760** records
+3. Three rows: Bermasalah (red, 24.998 paket, Rp 10.7 T) / Perlu dicermati (amber, 134.833 paket, Rp 74.3 T) / Wajar (muted, 5.636 paket, Rp 3.7 T)
+4. Disclaimer in JetBrains Mono italic
+5. Language toggle works; 375px single-column layout
+
+### Mobile scrollytelling fix (applied in 02-03, carries forward)
+
+- IO offset is `0.1` on mobile (`matchMedia ≤800px`), `0.5` on desktop
+- `.sticky-col` is `position: sticky; height: 50dvh` on mobile for chart sections
+- Text-only sections (S1) use `position: relative; height: auto` on mobile — no sticky
 
 ### Next Steps (in order)
 
-1. `/gsd-execute-phase 2` — Execute Phase 2 (all 5 plans)
+1. Verify S4 on dev server → "approved" → continuation agent writes SUMMARY.md
+2. Merge 02-04 worktree → update ROADMAP
+3. Wave 4: spawn 02-05 (InstitutionsChart + S5/S6)
+4. `/gsd-execute-phase 2` — resumes automatically from Wave 4
 
-When the user says "continue", start immediately with `/gsd-execute-phase 2`.
+When the user says "continue", resume from the 02-04 checkpoint: start dev server from worktree, ask user to verify S4, then proceed.
