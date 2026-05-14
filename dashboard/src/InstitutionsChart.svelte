@@ -7,13 +7,15 @@
   // S5 has 2 steps (indices 0 and 1); S6 starts at index 2
   const S6_STEP_INDEX = 2
 
-  const BAR_HEIGHT          = 18
-  const BAR_GAP             = 8
-  const LABEL_WIDTH_DESKTOP = 220
-  const LABEL_WIDTH_MOBILE  = 110
-  const MARGIN              = { top: 10, right: 24, bottom: 60, left: 12 }
-  const NAME_MAX_DESKTOP    = 36
-  const NAME_MAX_MOBILE     = 18
+  const BAR_HEIGHT_DESKTOP   = 18
+  const BAR_HEIGHT_MOBILE    = 14
+  const BAR_GAP              = 8
+  const LABEL_WIDTH_DESKTOP  = 220
+  const LABEL_WIDTH_MOBILE   = 130
+  const MARGIN               = { top: 10, right: 24, bottom: 60, left: 12 }
+  const NAME_MAX_DESKTOP     = 36
+  const NAME_MAX_MOBILE      = 18
+  const MOBILE_SHOW          = 15
 
   let svgEl    = $state(null)
   let isMobile = $state(false)
@@ -27,11 +29,11 @@
     onDestroy(() => mq.removeEventListener('change', onChange))
   })
 
-  let labelWidth   = $derived(isMobile ? LABEL_WIDTH_MOBILE  : LABEL_WIDTH_DESKTOP)
-  let nameMax      = $derived(isMobile ? NAME_MAX_MOBILE      : NAME_MAX_DESKTOP)
-  let chartHeight  = $derived(MARGIN.top + data.length * (BAR_HEIGHT + BAR_GAP) - BAR_GAP + MARGIN.bottom)
+  let barHeight    = $derived(isMobile ? BAR_HEIGHT_MOBILE    : BAR_HEIGHT_DESKTOP)
+  let labelWidth   = $derived(isMobile ? LABEL_WIDTH_MOBILE   : LABEL_WIDTH_DESKTOP)
+  let nameMax      = $derived(isMobile ? NAME_MAX_MOBILE       : NAME_MAX_DESKTOP)
   let maxValue     = $derived(Math.max(...data.map(d => d.total), 1))
-  let barInnerWidth  = $derived(isMobile ? 240 : 480)
+  let barInnerWidth  = $derived(isMobile ? 200 : 480)
   let totalSvgWidth  = $derived(labelWidth + MARGIN.left + barInnerWidth + MARGIN.right)
 
   let sortedData = $derived(
@@ -39,6 +41,10 @@
       ? [...data].sort((a, b) => b.highPagu - a.highPagu)
       : [...data].sort((a, b) => b.total - a.total)
   )
+
+  // On mobile, only show the top 15 institutions to prevent overflow
+  let displayData  = $derived(isMobile ? sortedData.slice(0, MOBILE_SHOW) : sortedData)
+  let chartHeight  = $derived(MARGIN.top + displayData.length * (barHeight + BAR_GAP) - BAR_GAP + MARGIN.bottom)
 
   let xScale = $derived(
     scaleLinear().domain([0, maxValue]).range([0, barInnerWidth])
@@ -48,17 +54,23 @@
     name.length > max ? name.slice(0, max - 1) + '...' : name
 
   $effect(() => {
-    if (!svgEl || sortedData.length === 0) return
-    const svg    = select(svgEl)
-    const groups = svg.selectAll('g.bar-group').data(sortedData, d => d.name)
+    if (!svgEl || displayData.length === 0) return
+    const svg = select(svgEl)
 
-    groups
+    // Build a name→rank lookup from the current display order
+    const rankMap = new Map(displayData.map((d, i) => [d.name, i]))
+
+    // Transition each bar-group to its new vertical position.
+    // We cannot use a D3 data join (Svelte owns the DOM), so we read the
+    // data-name attribute we stamped on each group and look up its new rank.
+    svg.selectAll('g.bar-group')
       .transition()
       .duration(600)
       .ease(easeCubicInOut)
-      .attr('transform', d => {
-        const idx = sortedData.findIndex(x => x.name === d.name)
-        return 'translate(' + (labelWidth + MARGIN.left) + ', ' + (MARGIN.top + idx * (BAR_HEIGHT + BAR_GAP)) + ')'
+      .attr('transform', function() {
+        const name = this.getAttribute('data-name')
+        const idx  = rankMap.has(name) ? rankMap.get(name) : 0
+        return 'translate(' + (labelWidth + MARGIN.left) + ', ' + (MARGIN.top + idx * (barHeight + BAR_GAP)) + ')'
       })
 
     const dimOpacity = step >= S6_STEP_INDEX ? 0.2 : 1
@@ -72,10 +84,14 @@
       .duration(400)
       .attr('opacity', step >= S6_STEP_INDEX ? 0.5 : 1)
 
+    // For bar labels, read data-high-pagu to decide dim opacity
     svg.selectAll('text.bar-label')
       .transition()
       .duration(400)
-      .attr('opacity', d => step >= S6_STEP_INDEX && d.highPagu === 0 ? 0.3 : 1)
+      .attr('opacity', function() {
+        const highPagu = parseFloat(this.getAttribute('data-high-pagu') || '0')
+        return step >= S6_STEP_INDEX && highPagu === 0 ? 0.3 : 1
+      })
   })
 </script>
 
@@ -92,21 +108,23 @@
        width="100%"
        height={chartHeight}
        viewBox="0 0 {totalSvgWidth} {chartHeight}"
-       preserveAspectRatio="xMidYMin meet">
+       preserveAspectRatio="xMidYMin meet"
+       style="overflow-x: hidden; display: block;">
 
     <!-- bars -->
-    {#each data as d (d.name)}
+    {#each displayData as d (d.name)}
       {@const cleanPagu = d.total - d.flaggedPagu}
-      {@const idx = sortedData.findIndex(x => x.name === d.name)}
+      {@const idx = displayData.findIndex(x => x.name === d.name)}
       <g class="bar-group"
-         transform="translate({labelWidth + MARGIN.left}, {MARGIN.top + idx * (BAR_HEIGHT + BAR_GAP)})">
+         data-name={d.name}
+         transform="translate({labelWidth + MARGIN.left}, {MARGIN.top + idx * (barHeight + BAR_GAP)})">
 
         <!-- clean segment -->
         <rect class="seg-clean"
               x={0}
               y={0}
               width={xScale(cleanPagu)}
-              height={BAR_HEIGHT}
+              height={barHeight}
               fill="var(--clean)"/>
 
         <!-- low segment -->
@@ -114,7 +132,7 @@
               x={xScale(cleanPagu)}
               y={0}
               width={xScale(d.lowPagu)}
-              height={BAR_HEIGHT}
+              height={barHeight}
               fill="rgba(237,232,220,0.2)"/>
 
         <!-- med segment -->
@@ -122,7 +140,7 @@
               x={xScale(cleanPagu + d.lowPagu)}
               y={0}
               width={xScale(d.medPagu)}
-              height={BAR_HEIGHT}
+              height={barHeight}
               fill="var(--amber)"/>
 
         <!-- high segment -->
@@ -130,13 +148,14 @@
               x={xScale(cleanPagu + d.lowPagu + d.medPagu)}
               y={0}
               width={xScale(d.highPagu)}
-              height={BAR_HEIGHT}
+              height={barHeight}
               fill="var(--red)"/>
 
         <!-- institution name label -->
         <text class="bar-label"
+              data-high-pagu={d.highPagu}
               x={-12}
-              y={BAR_HEIGHT / 2}
+              y={barHeight / 2}
               text-anchor="end"
               dominant-baseline="middle"
               font-family="Source Serif 4, serif"
@@ -173,6 +192,7 @@
     width: 100%;
     height: auto;
     display: block;
+    overflow: hidden;
   }
 
   .legend {

@@ -76,11 +76,10 @@
 
     <!-- coin stacks -->
     {#each points as p (p.key)}
-      {@const isActive = activeKeys.includes(p.key)}
       <g class="coin-stack"
-         opacity={isActive ? 1 : 0.4}
+         opacity={activeKeys.includes(p.key) ? 1 : 0.4}
          style="transform-origin: {p.xCenter}px {baseline}px;
-                transform: scaleY({isActive ? 1.02 : 1});
+                transform: scaleY({activeKeys.includes(p.key) ? 1.02 : 1});
                 transition: opacity 0.3s ease, transform 0.3s ease">
 
         {#if p.isNegative}
