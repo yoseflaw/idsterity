@@ -69,7 +69,12 @@ Plans:
   1. S7 animates the total "absurd" spending as count-up reveals, one anchor at a time (kopi jago cups, seblak portions, elementary schools, puskesmas) — both languages, with cited unit prices
   2. S8 renders the pre-built word cloud (top 20 words) with two working filters: Central Gov vs. District Gov, and institution-name picker — both languages; on screens below 480px the cloud degrades to a scrollable tag-chip list
   3. S9 shows a filtered record table (lembaga, satker, pagu, paket, inappropriateReason) when the user clicks any word in the cloud — both languages
-**Plans**: TBD
+**Plans**: 3 plans
+
+Plans:
+- [ ] 03-01-PLAN.md — S7 Anchor Count-Up vertical slice (constants.anchors + S7 i18n + S7 section with countUp RAF utility, 2 scroll steps, gold→red transition)
+- [ ] 03-02-PLAN.md — Per-word data pipeline (extend prepare-data.py to emit ~60 word-{word}-{filter}.json files for S9)
+- [ ] 03-03-PLAN.md — S8 word cloud + S9 record-table overlay vertical slice (filter bar, institution search, flex-wrap cloud with per-dataset font scaling, S9 overlay with lazy fetch + wordCache, mobile <480px chip strip)
 **UI hint**: yes
 
 ### Phase 4: Polish, Share & Deploy
@@ -94,5 +99,5 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 |-------|----------------|--------|-----------|
 | 1. Foundation & Data Pipeline | 3/3 | Complete   | 2026-05-13 |
 | 2. Core Narrative (S1–S6) | 0/5 | Not started | - |
-| 3. Interactive Back Half (S7–S9) | 0/TBD | Not started | - |
+| 3. Interactive Back Half (S7–S9) | 0/3 | Not started | - |
 | 4. Polish, Share & Deploy | 0/TBD | Not started | - |
