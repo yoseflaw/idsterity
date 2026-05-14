@@ -2,41 +2,41 @@
 gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
-status: executing
-stopped_at: Phase 3 UI-SPEC approved
-last_updated: "2026-05-14T12:29:24.531Z"
-last_activity: 2026-05-14 -- Phase 03 execution started
+status: ready_to_plan
+stopped_at: Phase 3 complete, ready to plan Phase 4
+last_updated: "2026-05-14T14:00:00.000Z"
+last_activity: 2026-05-14 -- Phase 03 UAT complete, phase verified
 progress:
   total_phases: 4
-  completed_phases: 2
+  completed_phases: 3
   total_plans: 11
-  completed_plans: 8
-  percent: 73
+  completed_plans: 11
+  percent: 100
 ---
 
 # Project State
 
 ## Project Reference
 
-See: .planning/PROJECT.md (updated 2026-05-13)
+See: .planning/PROJECT.md (updated 2026-05-14)
 
 **Core value:** Every visitor who reaches the end should feel the irony viscerally and want to share it.
-**Current focus:** Phase 03 — interactive-back-half-s7-s9
+**Current focus:** Phase 04 — Polish, Share & Deploy
 
 ## Current Position
 
-Phase: 03 (interactive-back-half-s7-s9) — EXECUTING
-Plan: 1 of 3
-Status: Executing Phase 03
-Last activity: 2026-05-14 -- Phase 03 execution started
+Phase: 4
+Plan: Not started
+Status: Ready to plan
+Last activity: 2026-05-14 -- Phase 03 complete, UAT 11/11 passed
 
-Progress: [███░░░░░░░] 38%
+Progress: [████████████████████] 11/11 plans (100% of Phases 1–3)
 
 ## Performance Metrics
 
 **Velocity:**
 
-- Total plans completed: 3
+- Total plans completed: 11
 - Average duration: —
 - Total execution time: 0 hours
 
@@ -45,6 +45,8 @@ Progress: [███░░░░░░░] 38%
 | Phase | Plans | Total | Avg/Plan |
 |-------|-------|-------|----------|
 | 01 | 3 | - | - |
+| 02 | 5 | - | - |
+| 03 | 3 | - | - |
 
 **Recent Trend:**
 
@@ -52,9 +54,6 @@ Progress: [███░░░░░░░] 38%
 - Trend: —
 
 *Updated after each plan completion*
-| Phase 01 P03 | 15m | 3 tasks | 10 files |
-| Phase 01-foundation-data-pipeline P01 | 10m | 3 tasks | 6 files |
-| Phase 01 P02 | 20m | 3 tasks | 2 files |
 
 ## Accumulated Context
 
@@ -63,20 +62,18 @@ Progress: [███░░░░░░░] 38%
 Decisions are logged in PROJECT.md Key Decisions table.
 Recent decisions affecting current work:
 
-- Init: Language toggle (not two URLs) — one shareable link, scroll position preserved
-- Init: Pre-build word cloud offline (nlp-id) — keeps page fast, avoids browser NLP
-- Init: Research & hardcode APBN/GDP figures — no live API; sources are stable
-- Init: Replace POC entirely — real implementation needs proper story structure
-- Init: Static-only deploy — no Node server on Apache shared hosting
-- [Phase ?]: Consistent with existing JSON convention, camelCase elsewhere
+- Phase 3: wordCache in-memory Map for S9 lazy-fetch deduplication
+- Phase 3: selectedWord sourced from cloudWords only (XSS guard)
+- Phase 3: S9 gold title word via inline conditional, not {@html}
+- Phase 3: 37 unique word-cloud words (union of all 3 filter sets), not 20
 
 ### Pending Todos
 
-None yet.
+None.
 
 ### Blockers/Concerns
 
-- DATA-01 / DATA-02: APBN Q1 2026 and BPS GDP figures must be manually researched and hand-authored into `constants.json` during Phase 1 execution (Plan 01-03, Task 1). This is now planned — executor will prompt if figures can't be sourced.
+None. DATA-01/DATA-02 (APBN/BPS figures) resolved in Phase 1.
 
 ## Deferred Items
 
@@ -89,49 +86,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-05-14T11:22:25.221Z
-Stopped at: Phase 3 UI-SPEC approved
-
-### Phase 2 progress (as of this session)
-
-| Plan | Wave | Status | Key output |
-|------|------|--------|------------|
-| 02-01 | 1 | ✓ Complete | i18n S1–S6, multi-section scrollama, safeFetch, S1 Hook section |
-| 02-02 | 1 | ✓ Complete | prepare-data.py: lowPagu/medPagu/highPagu per institution + CR-03 guard |
-| 02-03 | 2 | ✓ Complete | DeficitChart.svelte, GDPChart.svelte, S2/S3 sections, mobile scrollytelling fix |
-| 02-04 | 3 | ⚑ Checkpoint | S4 stats block built (Task 1 done); awaiting human verify on dev server |
-| 02-05 | 4 | — Not started | InstitutionsChart D3 animated re-sort + S5/S6 |
-
-### 02-04 checkpoint details
-
-- **Task 1 done** — commit `dce0e3c`: S4 block added to App.svelte (full-width stats block after S3)
-- **Task 2 pending** — human verify: scroll to S4, check stat cells, breakdown rows, disclaimer, mobile layout
-- **Worktree active** — branch `worktree-agent-aa81b72c4fb11395c` at `.claude/worktrees/agent-aa81b72c4fb11395c`
-- **To resume** — start the dev server from the worktree:
-  ```bash
-  cd .claude/worktrees/agent-aa81b72c4fb11395c/dashboard && npm run dev -- --host
-  ```
-  Verify S4 section, then reply "approved" to the continuation agent
-
-### S4 verification checklist
-
-1. Eyebrow "S4 · DATASET 2026" in gold; heading in Libre Baskerville
-2. Two stat cells: **Rp 642.2 T** (gold) · **3.009.760** records
-3. Three rows: Bermasalah (red, 24.998 paket, Rp 10.7 T) / Perlu dicermati (amber, 134.833 paket, Rp 74.3 T) / Wajar (muted, 5.636 paket, Rp 3.7 T)
-4. Disclaimer in JetBrains Mono italic
-5. Language toggle works; 375px single-column layout
-
-### Mobile scrollytelling fix (applied in 02-03, carries forward)
-
-- IO offset is `0.1` on mobile (`matchMedia ≤800px`), `0.5` on desktop
-- `.sticky-col` is `position: sticky; height: 50dvh` on mobile for chart sections
-- Text-only sections (S1) use `position: relative; height: auto` on mobile — no sticky
-
-### Next Steps (in order)
-
-1. Verify S4 on dev server → "approved" → continuation agent writes SUMMARY.md
-2. Merge 02-04 worktree → update ROADMAP
-3. Wave 4: spawn 02-05 (InstitutionsChart + S5/S6)
-4. `/gsd-execute-phase 2` — resumes automatically from Wave 4
-
-When the user says "continue", resume from the 02-04 checkpoint: start dev server from worktree, ask user to verify S4, then proceed.
+Last session: 2026-05-14
+Stopped at: Phase 3 complete, ready to plan Phase 4
+Resume file: None

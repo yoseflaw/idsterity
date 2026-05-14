@@ -13,8 +13,8 @@ Four phases take the project from blank repo to a shareable scrollytelling story
 Decimal phases appear between their surrounding integers in numeric order.
 
 - [x] **Phase 1: Foundation & Data Pipeline** - Project scaffold, i18n store, design tokens, Scrollama, and all offline data scripts (completed 2026-05-13)
-- [ ] **Phase 2: Core Narrative (S1–S6)** - Hook through Institutions — the emotionally critical sections that drive shares
-- [ ] **Phase 3: Interactive Back Half (S7–S9)** - Anchor animations, word cloud, and explore table complete the story
+- [x] **Phase 2: Core Narrative (S1–S6)** - Hook through Institutions — the emotionally critical sections that drive shares (completed 2026-05-14)
+- [x] **Phase 3: Interactive Back Half (S7–S9)** - Anchor animations, word cloud, and explore table complete the story (completed 2026-05-14)
 - [ ] **Phase 4: Polish, Share & Deploy** - OG image, `.htaccess`, Lighthouse pass, and deploy pipeline
 
 ## Phase Details
@@ -98,6 +98,6 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation & Data Pipeline | 3/3 | Complete   | 2026-05-13 |
-| 2. Core Narrative (S1–S6) | 0/5 | Not started | - |
-| 3. Interactive Back Half (S7–S9) | 0/3 | Not started | - |
+| 2. Core Narrative (S1–S6) | 5/5 | Complete | 2026-05-14 |
+| 3. Interactive Back Half (S7–S9) | 3/3 | Complete | 2026-05-14 |
 | 4. Polish, Share & Deploy | 0/TBD | Not started | - |

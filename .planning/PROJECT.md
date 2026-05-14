@@ -44,24 +44,26 @@ Inspired by [nemesis.assai.id](https://nemesis.assai.id/) — which is descripti
 - ✓ Scrollytelling scroll-step mechanism — existing (POC)
 - ✓ Offline Python data pipeline — existing
 - ✓ Pre-aggregated JSON data files — existing
+- ✓ Replace POC with proper story-driven implementation (all 9 sections) — Phase 1–3
+- ✓ Language toggle (Indonesian / English) — single URL, client-side switch — Phase 1
+- ✓ All UI copy available in both ID and EN — Phase 1–3
+- ✓ Section 1: Quotes section with publication links — Phase 2
+- ✓ Section 2: APBN deficit data researched, hardcoded, visualized — Phase 2
+- ✓ Section 3: GDP government consumption component data researched, hardcoded, visualized — Phase 2
+- ✓ Section 4: Dataset overview — totals, AI label breakdown, safe harbour disclaimer — Phase 2
+- ✓ Section 5: Top institutions by pagu, stacked bar chart by appropriateness label — Phase 2
+- ✓ Section 6: High-inappropriate only, re-ranked institutions — Phase 2
+- ✓ Section 7: Anchor animations (kopi jago, seblak, schools, puskesmas) — Phase 3
+- ✓ Section 8: Pre-built word cloud with ownerType filter and institution-name filter, 37 words — Phase 3
+- ✓ Section 9: Explore table driven by word cloud selection — Phase 3
+- ✓ Python NLP script for word frequency (offline, output baked into static build) — Phase 3
 
 ### Active
 
-- [ ] Replace POC with proper story-driven implementation (all 9 sections)
-- [ ] Language toggle (Indonesian / English) — single URL, client-side switch
-- [ ] All UI copy available in both ID and EN
-- [ ] Section 1: Quotes section with publication links
-- [ ] Section 2: APBN deficit data researched, hardcoded, visualized
-- [ ] Section 3: GDP government consumption component data researched, hardcoded, visualized
-- [ ] Section 4: Dataset overview — totals, AI label breakdown, safe harbour disclaimer
-- [ ] Section 5: Top institutions by pagu, stacked bar chart by appropriateness label
-- [ ] Section 6: High-inappropriate only, re-ranked institutions
-- [ ] Section 7: Anchor animations (kopi jago, seblak, schools, puskesmas)
-- [ ] Section 8: Pre-built word cloud with ownerType filter and institution-name filter, top 15–20 words
-- [ ] Section 9: Explore table driven by word cloud selection
-- [ ] Python NLP script for word frequency (offline, output baked into static build)
 - [ ] Static build deployable to any shared hosting (no server-side code)
+- [ ] LinkedIn OG share card (og:title, og:description, og:image 1200×627 JPG <200KB)
 - [ ] Lighthouse score acceptable (lightweight, snappy)
+- [ ] All data fetches use `import.meta.env.BASE_URL` (not hardcoded `/data/`)
 
 ### Out of Scope
 
@@ -82,6 +84,11 @@ Inspired by [nemesis.assai.id](https://nemesis.assai.id/) — which is descripti
 | Static-only deploy | Matches hosting capability; no Node server on shared hosting | Decided |
 | Visual style: Pudding.cool | Reference: pudding.cool/2017/03/punk/ — bold type, step-driven reveals, minimal chrome | Decided |
 | NLP: nlp-id for lemmatization | Proper Indonesian lemmatization without NLTK/spaCy overhead; nlp-id is purpose-built for Bahasa Indonesia | Decided |
+| Per-word JSON files: 37 words × 3 filters | Union across all three wordcloud files yields 37 unique words (not 20 estimated); plan accepted dynamic discovery | Phase 3 |
+| wordCache in-memory Map | Deduplicates S9 lazy fetches — same word+filter re-clicked never hits network twice | Phase 3 |
+| selectedWord from cloudWords only | Never from free-text search input — prevents XSS via URL-like word injection | Phase 3 |
+| S9 gold title word: inline conditional, not {@html} | Preserves Svelte HTML-escaping; `{@html}` would bypass XSS protection | Phase 3 |
+| fmtPaguShort: 'jt'/'M' suffix | Sub-billion amounts formatted as "jt" (Indonesian) or "M" (English) for table readability | Phase 3 |
 
 ## Evolution
 
@@ -101,4 +108,4 @@ This document evolves at phase transitions and milestone boundaries.
 4. Update Context with current state
 
 ---
-*Last updated: 2026-05-13 after initialization*
+*Last updated: 2026-05-14 after Phase 3*
