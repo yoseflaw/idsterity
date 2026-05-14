@@ -334,7 +334,7 @@
           <h3>{t[lang].s2Step1Heading}</h3>
           <p>{t[lang].s2Step1Body}</p>
           <a class="source-link"
-             href={constants?.sources?.find(s => s.field === 'apbn.deficit.fy2025')?.url ?? '#'}
+             href={constants?.sources?.find(s => s.field === 'apbn.deficit.oct2024')?.url ?? '#'}
              target="_blank" rel="noopener noreferrer">{t[lang].s2SourceLabel}</a>
         </div>
       </div>
@@ -356,7 +356,7 @@
           <h3>{t[lang].s2Step3Heading}</h3>
           <p>{t[lang].s2Step3Body}</p>
           <a class="source-link"
-             href={constants?.sources?.find(s => s.field === 'apbn.deficit.fy2025')?.url ?? '#'}
+             href={constants?.sources?.find(s => s.field === 'apbn.deficit.q1_2026')?.url ?? '#'}
              target="_blank" rel="noopener noreferrer">{t[lang].s2SourceLabel}</a>
         </div>
       </div>
@@ -386,7 +386,7 @@
           <h3>{t[lang].s3Step1Heading}</h3>
           <p>{t[lang].s3Step1Body}</p>
           <a class="source-link"
-             href={constants?.sources?.find(s => s.field === 'gdp.konsumsi_pemerintah.q2_2025')?.url ?? '#'}
+             href={constants?.sources?.find(s => s.field === 'gdp.konsumsi_pemerintah.q1_2025')?.url ?? '#'}
              target="_blank" rel="noopener noreferrer">{t[lang].s3SourceLabel}</a>
         </div>
       </div>
@@ -408,7 +408,7 @@
           <h3>{t[lang].s3Step3Heading}</h3>
           <p>{t[lang].s3Step3Body}</p>
           <a class="source-link"
-             href={constants?.sources?.find(s => s.field === 'gdp.konsumsi_pemerintah.q2_2025')?.url ?? '#'}
+             href={constants?.sources?.find(s => s.field === 'gdp.konsumsi_pemerintah.q3_2025')?.url ?? '#'}
              target="_blank" rel="noopener noreferrer">{t[lang].s3SourceLabel}</a>
         </div>
       </div>
@@ -419,7 +419,7 @@
           <h3>{t[lang].s3Step4Heading}</h3>
           <p>{t[lang].s3Step4Body}</p>
           <a class="source-link"
-             href={constants?.sources?.find(s => s.field === 'gdp.konsumsi_pemerintah.q2_2025')?.url ?? '#'}
+             href={constants?.sources?.find(s => s.field === 'gdp.konsumsi_pemerintah.q1_2026')?.url ?? '#'}
              target="_blank" rel="noopener noreferrer">{t[lang].s3SourceLabel}</a>
         </div>
       </div>
