@@ -4,6 +4,7 @@
   import { t } from './i18n.js'
   import DeficitChart from './DeficitChart.svelte'
   import GDPChart from './GDPChart.svelte'
+  import InstitutionsChart from './InstitutionsChart.svelte'
 
   let stats      = $state(null)
   let lembaga    = $state([])
@@ -329,6 +330,52 @@
     </div>
   </section>
 
+  <!-- ━━━ S5+S6 INSTITUTIONS ━━━ -->
+  <section class="scrolly" data-section="s5" id="s5">
+
+    <div class="sticky-col">
+      <div class="eyebrow">{t[lang].s5Eyebrow}</div>
+      <InstitutionsChart data={lembaga} step={activeStepS5} lang={lang} />
+      <div class="step-indicator" aria-hidden="true">
+        {#each [0,1,2] as s}
+          <div class="pip" class:active={activeStepS5 === s}></div>
+        {/each}
+      </div>
+    </div>
+
+    <div class="steps-col">
+
+      <div class="step" data-step="0">
+        <div class="step-card">
+          <span class="step-num">{t[lang].stepCounter(1, 3)}</span>
+          <h3>{t[lang].s5Step1Heading}</h3>
+          <p>{t[lang].s5Step1Body}</p>
+        </div>
+      </div>
+
+      <div class="step" data-step="1">
+        <div class="step-card">
+          <span class="step-num">{t[lang].stepCounter(2, 3)}</span>
+          <h3>{t[lang].s5Step2Heading}</h3>
+          <p>{t[lang].s5Step2Body}</p>
+        </div>
+      </div>
+
+      <div class="step" data-step="2">
+        <div class="step-card">
+          <span class="step-num">{t[lang].stepCounter(3, 3)}</span>
+          <h3>{t[lang].s6Step1Heading}</h3>
+          <p>{t[lang].s6Step1Body}</p>
+          <span class="s6-transition-label" aria-live="polite">
+            {activeStepS5 >= 2 ? t[lang].s6TransitionLabel : ''}
+          </span>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
   {#if fetchError}<div class="fetch-error">{fetchError}</div>{/if}
 
 </div>
@@ -645,6 +692,16 @@
 
   /* -- S4 Dataset -- */
   .s4 { background: var(--bg-alt); padding: var(--space-page) var(--space-xl); border-bottom: 1px solid var(--border); }
+
+  /* -- S5+S6 Institutions -- */
+  .s6-transition-label {
+    display: inline-block;
+    margin-top: var(--space-sm);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.65rem;
+    color: var(--muted);
+    font-style: italic;
+  }
   .s4-inner { max-width: 800px; margin: 0 auto; }
   .s4-heading { font-family: 'Libre Baskerville', Georgia, serif; font-size: clamp(1.8rem, 4vw, 2.6rem); font-weight: 700; line-height: 1.2; color: var(--text); margin: 0 0 var(--space-2xl) 0; letter-spacing: -0.01em; }
   .s4-stats-grid { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-xl); margin-bottom: var(--space-3xl); }
