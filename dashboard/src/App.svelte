@@ -40,9 +40,16 @@
     }
 
     requestAnimationFrame(() => {
+      // Use a lower offset on narrow viewports so step cards that fill the
+      // entire screen (min-height: 100vh) still trigger the IntersectionObserver.
+      // offset: 0.5 means 50% of the step must be visible — impossible when the
+      // step fills the full viewport height on a small mobile screen.
+      const isMobile = window.matchMedia('(max-width: 800px)').matches
+      const offset   = isMobile ? 0.1 : 0.5
+
       const makeScroller = (sectionAttr, onEnter) => {
         const s = scrollama()
-        s.setup({ step: `[data-section="${sectionAttr}"] [data-step]`, offset: 0.5, progress: false })
+        s.setup({ step: `[data-section="${sectionAttr}"] [data-step]`, offset, progress: false })
          .onStepEnter(({ index }) => onEnter(index))
         return s
       }
@@ -608,16 +615,33 @@
 
   /* ── Responsive ── */
   @media (max-width: 800px) {
-    .scrolly { flex-direction: column; }
+    /* Stack chart above steps. The chart column stays sticky so it remains
+       pinned at the top of the viewport while step cards scroll beneath it.
+       Using position:relative here would break sticky and cause the chart to
+       scroll off-screen — the most common mobile scrollytelling failure mode. */
+    .scrolly {
+      flex-direction: column;
+      align-items: stretch;
+    }
     .sticky-col {
-      position: relative;
+      position: sticky;
+      top: 0;
       width: 100%;
-      height: auto;
-      min-height: 60vh;
+      height: 50dvh;
+      min-height: unset;
       border-right: none;
       border-bottom: 1px solid var(--border);
+      /* Ensure no overflow on the sticky container or its content clips
+         correctly; overflow:hidden is safe on the sticky element itself. */
+      overflow: hidden;
+      z-index: 10;
+      padding: 1rem 1.5rem;
+      justify-content: flex-start;
     }
-    .steps-col { width: 100%; padding: 0 1.5rem; }
+    .steps-col {
+      width: 100%;
+      padding: 0 1.5rem;
+    }
     .step-indicator { display: none; }
   }
 </style>
