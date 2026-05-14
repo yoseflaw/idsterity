@@ -72,8 +72,8 @@ Plans:
 **Plans**: 3 plans
 
 Plans:
-- [ ] 03-01-PLAN.md — S7 Anchor Count-Up vertical slice (constants.anchors + S7 i18n + S7 section with countUp RAF utility, 2 scroll steps, gold→red transition)
-- [ ] 03-02-PLAN.md — Per-word data pipeline (extend prepare-data.py to emit ~60 word-{word}-{filter}.json files for S9)
+- [x] 03-01-PLAN.md — S7 Anchor Count-Up vertical slice (constants.anchors + S7 i18n + S7 section with countUp RAF utility, 2 scroll steps, gold→red transition)
+- [x] 03-02-PLAN.md — Per-word data pipeline (extend prepare-data.py to emit ~60 word-{word}-{filter}.json files for S9)
 - [ ] 03-03-PLAN.md — S8 word cloud + S9 record-table overlay vertical slice (filter bar, institution search, flex-wrap cloud with per-dataset font scaling, S9 overlay with lazy fetch + wordCache, mobile <480px chip strip)
 **UI hint**: yes
 
