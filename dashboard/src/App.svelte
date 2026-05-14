@@ -35,6 +35,7 @@
   let wordRecords        = $state([])
   let wordRecordsLoading = $state(false)
   let wordRecordsError   = $state(null)
+  let filterError        = $state(null)
   let isNarrow           = $state(false)
   let mqNarrow
   let wordCache = new Map()
@@ -58,6 +59,7 @@
     selectedWord = null
     activeFilter = filter
     activeLembaga = lembagaName
+    filterError = null
     try {
       if (filter === 'all') {
         cloudWords = await safeFetch('/data/wordcloud-all.json')
@@ -70,7 +72,7 @@
         lembagaSearch = ''
       }
     } catch (err) {
-      fetchError = t[lang].fetchError
+      filterError = t[lang].fetchError
     }
   }
 
@@ -654,6 +656,9 @@
 
           {#if activeFilter !== 'all' || activeLembaga}
             <button type="button" class="s8-filter-reset" onclick={() => setFilter('all')}>{t[lang].s8FilterReset}</button>
+          {/if}
+          {#if filterError}
+            <div class="s8-filter-error">{filterError}</div>
           {/if}
         </div>
 
@@ -1279,6 +1284,14 @@
   }
 
   .s8-filter-reset:hover { color: var(--text); }
+
+  .s8-filter-error {
+    width: 100%;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    color: var(--amber);
+    padding: var(--space-sm) 0;
+  }
 
   .s8-mobile-fallback-note {
     font-family: 'JetBrains Mono', monospace;
