@@ -86,14 +86,17 @@
       return
     }
     wordRecordsLoading = true
+    const requestedWord = word   // capture before any await
     try {
       const data = await safeFetch(`/data/word-${word}-${filterKey}.json`)
+      if (selectedWord !== requestedWord) return  // superseded — discard
       wordCache.set(cacheKey, data)
       wordRecords = data
     } catch (err) {
+      if (selectedWord !== requestedWord) return
       wordRecordsError = t[lang].s9Error
     } finally {
-      wordRecordsLoading = false
+      if (selectedWord === requestedWord) wordRecordsLoading = false
     }
   }
 
