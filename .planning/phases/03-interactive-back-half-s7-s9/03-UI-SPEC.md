@@ -1,7 +1,8 @@
 ---
 phase: 3
 slug: interactive-back-half-s7-s9
-status: draft
+status: approved
+reviewed_at: 2026-05-14
 shadcn_initialized: false
 preset: none
 created: 2026-05-14
