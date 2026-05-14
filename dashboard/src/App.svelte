@@ -75,7 +75,26 @@
   }
 
   async function selectWord(word) {
+    if (selectedWord === word) { selectedWord = null; return }
     selectedWord = word
+    wordRecords = []
+    wordRecordsError = null
+    const filterKey = activeFilter === 'lembaga' ? 'all' : activeFilter
+    const cacheKey = `${word}-${filterKey}`
+    if (wordCache.has(cacheKey)) {
+      wordRecords = wordCache.get(cacheKey)
+      return
+    }
+    wordRecordsLoading = true
+    try {
+      const data = await safeFetch(`/data/word-${word}-${filterKey}.json`)
+      wordCache.set(cacheKey, data)
+      wordRecords = data
+    } catch (err) {
+      wordRecordsError = t[lang].s9Error
+    } finally {
+      wordRecordsLoading = false
+    }
   }
 
   let onNarrowChange
@@ -596,7 +615,7 @@
   <section class="scrolly" data-section="s8" id="s8">
 
     <div class="sticky-col">
-      <div class="s8-sticky-panel" onclick={() => {}}>
+      <div class="s8-sticky-panel" onclick={(e) => { if (selectedWord && !e.target.closest('.s9-overlay') && !e.target.closest('.s8-cloud-word') && !e.target.closest('.s8-filter-bar')) { selectedWord = null } }}>
         <div class="eyebrow">{t[lang].s8Eyebrow}</div>
         <h2 class="s8-sticky-heading">{t[lang].s8StickyHeading}</h2>
 
@@ -626,7 +645,53 @@
         {/if}
 
         {#if selectedWord}
-          <!-- S9 overlay markup added in Task 3 -->
+          <div class="s9-overlay">
+            <div class="s9-table-header">
+              <div class="s9-title-row">
+                <h3 class="s9-title">
+                  {#if lang === 'id'}Paket dengan kata <span class="s9-title-word">"{selectedWord}"</span>{:else}Packages containing <span class="s9-title-word">"{selectedWord}"</span>{/if}
+                </h3>
+                <button type="button" class="s9-close" aria-label={t[lang].s9Close} onclick={() => selectedWord = null}>&#x2715;</button>
+              </div>
+              <div class="s9-count">{t[lang].s9RecordCount(wordRecords.length)}</div>
+              {#if activeFilter === 'lembaga'}
+                <div class="s9-fallback-note">{t[lang].s9FallbackNote}</div>
+              {/if}
+            </div>
+
+            <div class="s9-table-body">
+              <table>
+                <thead>
+                  <tr>
+                    <th>{t[lang].s9ColLembaga}</th>
+                    <th>{t[lang].s9ColSatker}</th>
+                    <th class="s9-th-pagu">{t[lang].s9ColPagu}</th>
+                    <th>{t[lang].s9ColPaket}</th>
+                    <th>{t[lang].s9ColReason}</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {#if wordRecordsLoading}
+                    <tr><td colspan="5" class="s9-loading loading-pulse">{t[lang].s9Loading}</td></tr>
+                  {:else if wordRecordsError}
+                    <tr><td colspan="5" class="s9-error">{wordRecordsError}</td></tr>
+                  {:else if wordRecords.length === 0}
+                    <tr><td colspan="5" class="s9-empty">{t[lang].s8NoResults}</td></tr>
+                  {:else}
+                    {#each wordRecords as r}
+                      <tr>
+                        <td>{r.lembaga}</td>
+                        <td>{r.satker}</td>
+                        <td class="s9-td-pagu">{fmtPaguShort(r.pagu, lang)}</td>
+                        <td>{r.paket}</td>
+                        <td>{r.inappropriateReason}</td>
+                      </tr>
+                    {/each}
+                  {/if}
+                </tbody>
+              </table>
+            </div>
+          </div>
         {:else if cloudWords.length === 0}
           <div class="s8-empty">{t[lang].s8NoResults}</div>
         {:else}
@@ -1262,6 +1327,141 @@
     font-style: italic;
   }
 
+  /* -- S9 Record Table Overlay -- */
+  .s9-overlay {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-height: 0;
+    background: var(--bg-card);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+
+  .s9-table-header {
+    border-bottom: 1px solid var(--border);
+    padding: var(--space-lg);
+    background: var(--bg-card);
+    flex-shrink: 0;
+  }
+
+  .s9-title-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: var(--space-md);
+    margin-bottom: var(--space-sm);
+  }
+
+  .s9-title {
+    font-family: 'Libre Baskerville', Georgia, serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--text);
+    margin: 0;
+    line-height: 1.3;
+  }
+
+  .s9-title-word { color: var(--gold); }
+
+  .s9-count {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    color: var(--muted);
+  }
+
+  .s9-fallback-note {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    font-style: italic;
+    color: var(--muted);
+    margin-top: var(--space-sm);
+  }
+
+  .s9-close {
+    min-width: 44px;
+    min-height: 44px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--muted);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    transition: color 0.12s ease;
+    flex-shrink: 0;
+  }
+
+  .s9-close:hover { color: var(--text); }
+
+  .s9-table-body {
+    overflow: auto;
+    flex: 1;
+    min-height: 0;
+  }
+
+  .s9-table-body table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .s9-table-body thead {
+    position: sticky;
+    top: 0;
+    background: var(--bg-card);
+    z-index: 1;
+  }
+
+  .s9-table-body th {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding: var(--space-sm) var(--space-md);
+    text-align: left;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .s9-table-body th.s9-th-pagu { text-align: right; }
+
+  .s9-table-body td {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 0.9rem;
+    color: var(--text);
+    padding: var(--space-sm) var(--space-md);
+    vertical-align: top;
+    border-bottom: 1px solid var(--border);
+    line-height: 1.5;
+  }
+
+  .s9-table-body td.s9-td-pagu {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    text-align: right;
+    white-space: nowrap;
+  }
+
+  .s9-table-body tr:hover td { background: rgba(237,232,220,0.03); }
+
+  .s9-loading, .s9-empty {
+    color: var(--muted);
+    text-align: center;
+    padding: var(--space-lg);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    font-style: italic;
+  }
+
+  .s9-error {
+    color: var(--amber);
+    text-align: center;
+    padding: var(--space-md);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+  }
+
   /* ── Responsive ── */
   @media (max-width: 800px) {
     /* Stack chart above steps. The chart column stays sticky so it remains
@@ -1302,5 +1502,8 @@
     /* S4 mobile — collapse stats grid to single column */
     .s4-stats-grid { grid-template-columns: 1fr; }
     .s4 { padding: var(--space-2xl) var(--space-lg); }
+
+    /* S9 mobile — table scrolls horizontally */
+    .s9-table-body { overflow-x: auto; }
   }
 </style>
