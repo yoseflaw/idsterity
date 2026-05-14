@@ -275,6 +275,60 @@
 
   </section>
 
+  <!-- ━━━ S4 DATASET OVERVIEW ━━━ -->
+  <section class="s4" data-section="s4" id="s4">
+    <div class="s4-inner">
+      <div class="eyebrow">{t[lang].s4Eyebrow}</div>
+      <h2 class="s4-heading">{t[lang].s4Heading}</h2>
+
+      <div class="s4-stats-grid">
+        <div class="s4-stat-cell">
+          {#if stats}
+            <div class="s4-stat-number">Rp {fmtT(stats.totalPagu)} T</div>
+            <div class="s4-stat-label">{t[lang].s4TotalPaguLabel}</div>
+          {:else}
+            <div class="s4-stat-number loading-pulse">--</div>
+            <div class="s4-stat-label">{t[lang].loading}</div>
+          {/if}
+        </div>
+        <div class="s4-stat-cell">
+          {#if stats}
+            <div class="s4-stat-number">{fmtNum(stats.totalRecords)}</div>
+            <div class="s4-stat-label">{t[lang].s4RecordCountLabel}</div>
+          {:else}
+            <div class="s4-stat-number loading-pulse">--</div>
+            <div class="s4-stat-label">{t[lang].loading}</div>
+          {/if}
+        </div>
+      </div>
+
+      <h3 class="s4-breakdown-heading">{t[lang].s4LabelBreakdownHeading}</h3>
+
+      <ul class="s4-breakdown">
+        <li class="s4-row">
+          <span class="s4-dot" style="background: var(--red)"></span>
+          <span class="s4-row-label">{t[lang].s4LabelHigh}</span>
+          <span class="s4-row-count">{stats ? fmtNum(stats.labelCounts.high) : '--'} {lang === 'id' ? 'paket' : 'packages'}</span>
+          <span class="s4-row-pagu">Rp {stats ? fmtT(stats.labelPagu.high) : '--'} T</span>
+        </li>
+        <li class="s4-row">
+          <span class="s4-dot" style="background: var(--amber)"></span>
+          <span class="s4-row-label">{t[lang].s4LabelMed}</span>
+          <span class="s4-row-count">{stats ? fmtNum(stats.labelCounts.med) : '--'} {lang === 'id' ? 'paket' : 'packages'}</span>
+          <span class="s4-row-pagu">Rp {stats ? fmtT(stats.labelPagu.med) : '--'} T</span>
+        </li>
+        <li class="s4-row">
+          <span class="s4-dot" style="background: rgba(237,232,220,0.3)"></span>
+          <span class="s4-row-label">{t[lang].s4LabelLow}</span>
+          <span class="s4-row-count">{stats ? fmtNum(stats.labelCounts.low) : '--'} {lang === 'id' ? 'paket' : 'packages'}</span>
+          <span class="s4-row-pagu">Rp {stats ? fmtT(stats.labelPagu.low) : '--'} T</span>
+        </li>
+      </ul>
+
+      <p class="s4-disclaimer">{t[lang].s4Disclaimer}</p>
+    </div>
+  </section>
+
   {#if fetchError}<div class="fetch-error">{fetchError}</div>{/if}
 
 </div>
@@ -589,6 +643,23 @@
   /* -- S2 Deficit -- */
   /* -- S3 GDP -- */
 
+  /* -- S4 Dataset -- */
+  .s4 { background: var(--bg-alt); padding: var(--space-page) var(--space-xl); border-bottom: 1px solid var(--border); }
+  .s4-inner { max-width: 800px; margin: 0 auto; }
+  .s4-heading { font-family: 'Libre Baskerville', Georgia, serif; font-size: clamp(1.8rem, 4vw, 2.6rem); font-weight: 700; line-height: 1.2; color: var(--text); margin: 0 0 var(--space-2xl) 0; letter-spacing: -0.01em; }
+  .s4-stats-grid { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-xl); margin-bottom: var(--space-3xl); }
+  .s4-stat-cell { padding: var(--space-lg); border: 1px solid var(--border); border-radius: 3px; background: rgba(255,255,255,0.02); }
+  .s4-stat-number { font-family: 'Libre Baskerville', Georgia, serif; font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 700; color: var(--gold); line-height: 1; margin-bottom: var(--space-sm); letter-spacing: -0.02em; }
+  .s4-stat-label { font-size: 0.88rem; color: var(--muted); font-style: italic; line-height: 1.5; }
+  .s4-breakdown-heading { font-family: 'Libre Baskerville', Georgia, serif; font-size: 1.45rem; font-weight: 700; color: var(--text); margin: 0 0 var(--space-md) 0; }
+  .s4-breakdown { list-style: none; padding: 0; margin: 0 0 var(--space-lg) 0; }
+  .s4-row { display: flex; align-items: center; gap: var(--space-md); padding: var(--space-sm) 0; border-bottom: 1px solid var(--border); }
+  .s4-row:last-child { border-bottom: none; }
+  .s4-dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
+  .s4-row-label { flex: 1; color: var(--text); font-size: 1rem; }
+  .s4-row-count, .s4-row-pagu { font-family: 'JetBrains Mono', monospace; font-size: 0.8rem; color: var(--muted); }
+  .s4-disclaimer { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; color: var(--muted); font-style: italic; max-width: 520px; margin: var(--space-md) 0 0 0; padding-top: var(--space-md); border-top: 1px solid var(--border); line-height: 1.6; }
+
   .source-link {
     display: inline-block;
     margin-top: var(--space-md);
@@ -649,5 +720,9 @@
       position: relative;
       height: auto;
     }
+
+    /* S4 mobile — collapse stats grid to single column */
+    .s4-stats-grid { grid-template-columns: 1fr; }
+    .s4 { padding: var(--space-2xl) var(--space-lg); }
   }
 </style>
