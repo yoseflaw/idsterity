@@ -533,7 +533,15 @@
 
     <div class="sticky-col">
       <div class="eyebrow">{t[lang].s7Eyebrow}</div>
-      <h2 class="s7-sticky-heading">{t[lang].s7StickyHeading}</h2>
+      <h2 class="s7-sticky-heading">
+        {#if stats}
+          {lang === 'id'
+            ? `Rp ${fmtT(stats.labelPagu.high)} T untuk pengadaan bermasalah`
+            : `Rp ${fmtT(stats.labelPagu.high)} T for inappropriate procurement`}
+        {:else}
+          {t[lang].s7StickyHeading}
+        {/if}
+      </h2>
 
       <span class="s7-transition-label" aria-live="polite">{s7ShowTransition ? t[lang].s7TransitionLabel : ''}</span>
 

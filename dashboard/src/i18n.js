@@ -78,6 +78,8 @@ export const t = {
 
     // S7 — Anchor Count-Up
     s7Eyebrow:          'S7 · ANGKA NYATA',
+    // s7StickyHeading is used only as a loading fallback; heading text is derived
+    // dynamically from stats.labelPagu.high in App.svelte. Must match constants.json:s7TotalPagu.
     s7StickyHeading:    'Rp 10,7 triliun untuk pengadaan bermasalah',
     s7Step0Heading:     'Bayangkan ini…',
     s7Step0Body:        'Rp 10,7 triliun — total anggaran yang dinilai AI bermasalah. Angka itu besar. Tapi seberapa besar?',
@@ -198,6 +200,8 @@ export const t = {
 
     // S7 — Anchor Count-Up
     s7Eyebrow:          'S7 · REAL NUMBERS',
+    // s7StickyHeading is used only as a loading fallback; heading text is derived
+    // dynamically from stats.labelPagu.high in App.svelte. Must match constants.json:s7TotalPagu.
     s7StickyHeading:    'Rp 10.7 trillion for inappropriate procurement',
     s7Step0Heading:     'Imagine this…',
     s7Step0Body:        "Rp 10.7 trillion — the total budget flagged by AI as inappropriate. That's a large number. But how large?",
