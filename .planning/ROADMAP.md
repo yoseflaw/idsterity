@@ -61,7 +61,7 @@ Plans:
 **UI hint**: yes
 
 ### Phase 3: Interactive Back Half (S7–S9)
-**Goal**: The story concludes with visceral anchor animations, a filterable word cloud, and an explore table — completing the emotional arc from irony to discovery.
+**Goal**: As a first-time visitor, I want to scroll through the story's conclusion — animated spending anchors, a filterable word cloud, and a record explorer — so that I feel the absurdity of procurement waste viscerally and want to share it.
 **Mode:** mvp
 **Depends on**: Phase 2
 **Requirements**: SEC-07, SEC-08, SEC-09
