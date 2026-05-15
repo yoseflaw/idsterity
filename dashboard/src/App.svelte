@@ -57,6 +57,14 @@
                   .slice(0, 50),
     );
 
+    // Mobile: dim sticky chart when a text step card is scrolled over it
+    let s1ChartDimmed = $derived(activeStepS1 > 0);
+    let s2ChartDimmed = $derived(activeStepS2 > 0);
+    let s3ChartDimmed = $derived(activeStepS3 > 0);
+    let s5ChartDimmed = $derived(activeStepS5 > 0);
+    let s7ChartDimmed = $derived(activeStepS7 > 0);
+    let s8ChartDimmed = $derived(activeStepS8 > 0);
+
     function scaleFont(count, min, max) {
         if (max === min) return 1.375;
         const size = 0.75 + ((count - min) / (max - min)) * 1.25;
@@ -351,7 +359,7 @@
 
     <!-- ━━━ S1 HOOK ━━━ -->
     <section class="scrolly" data-section="s1" id="s1">
-        <div class="sticky-col">
+        <div class="sticky-col" class:chart--dimmed={s1ChartDimmed}>
             <div class="eyebrow">{t[lang].s1Eyebrow}</div>
             <h2 class="s1-display">
                 {t[lang].s1DisplayLine1}<br /><em>{t[lang].s1DisplayLine2}</em>
@@ -423,7 +431,7 @@
 
     <!-- ━━━ S2 APBN DEFICIT ━━━ -->
     <section class="scrolly" data-section="s2" id="s2">
-        <div class="sticky-col">
+        <div class="sticky-col" class:chart--dimmed={s2ChartDimmed}>
             <div class="eyebrow">{t[lang].s2Eyebrow}</div>
             <DeficitChart
                 data={constants?.apbn?.deficit}
@@ -490,7 +498,7 @@
 
     <!-- ━━━ S3 GDP CONSUMPTION ━━━ -->
     <section class="scrolly" data-section="s3" id="s3">
-        <div class="sticky-col">
+        <div class="sticky-col" class:chart--dimmed={s3ChartDimmed}>
             <div class="eyebrow">{t[lang].s3Eyebrow}</div>
             <GDPChart
                 data={constants?.gdp?.konsumsi_pemerintah}
@@ -678,7 +686,7 @@
 
     <!-- ━━━ S5+S6 INSTITUTIONS ━━━ -->
     <section class="scrolly" data-section="s5" id="s5">
-        <div class="sticky-col">
+        <div class="sticky-col" class:chart--dimmed={s5ChartDimmed}>
             <div class="eyebrow">{t[lang].s5Eyebrow}</div>
             <h2 class="s5-sticky-heading">{t[lang].s5StickyHeading}</h2>
             <InstitutionsChart data={lembaga} step={activeStepS5} {lang} />
@@ -721,7 +729,7 @@
 
     <!-- ━━━ S7 ANCHOR COUNT-UP ━━━ -->
     <section class="scrolly" data-section="s7" id="s7">
-        <div class="sticky-col">
+        <div class="sticky-col" class:chart--dimmed={s7ChartDimmed}>
             <div class="eyebrow">{t[lang].s7Eyebrow}</div>
             <h2 class="s7-sticky-heading">
                 {#if stats}
@@ -881,7 +889,7 @@
 
     <!-- ━━━ S8 WORD CLOUD ━━━ -->
     <section class="scrolly" data-section="s8" id="s8">
-        <div class="sticky-col">
+        <div class="sticky-col" class:chart--dimmed={s8ChartDimmed}>
             <div
                 class="s8-sticky-panel"
                 onclick={(e) => {
@@ -1259,6 +1267,7 @@
         flex-shrink: 0;
         display: flex;
         flex-direction: column;
+        transition: filter 0.3s ease;
         align-items: flex-start;
         justify-content: center;
         padding: 2rem 2.5rem;
@@ -1984,6 +1993,11 @@
         [data-section="s1"] .sticky-col {
             position: relative;
             height: auto;
+        }
+
+        /* Dim and blur the sticky chart when a text step card overlaps it */
+        .chart--dimmed {
+            filter: blur(3px) brightness(0.35);
         }
 
         /* S4 mobile — collapse stats grid to single column */
