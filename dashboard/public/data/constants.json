@@ -2,71 +2,71 @@
   "apbn": {
     "deficit": {
       "oct2024": -309200000000000,
-      "fy2025": -507800000000000,
-      "q1_2026": -104200000000000
+      "fy2025": -695100000000000,
+      "q1_2026": -240100000000000
     },
     "unit": "IDR"
   },
   "gdp": {
     "konsumsi_pemerintah": {
-      "q1_2025": -3.24,
-      "q2_2025": 10.93,
-      "q3_2025": 5.08,
-      "q4_2025": 4.41,
-      "q1_2026": 7.21
+      "q1_2025": -1.38,
+      "q2_2025": 21.05,
+      "q3_2025": 5.49,
+      "q4_2025": 4.55,
+      "q1_2026": 21.81
     },
-    "unit": "percent_contribution_yoy"
+    "unit": "percent_growth_yoy"
   },
   "sources": [
     {
       "field": "apbn.deficit.oct2024",
       "url": "https://www.kemenkeu.go.id/media/27541/apbn-kita-oktober-2024.pdf",
       "label": "APBN KiTa Oktober 2024 — Kementerian Keuangan RI",
-      "accessed": "2026-05-13"
+      "accessed": "2026-05-15"
     },
     {
       "field": "apbn.deficit.fy2025",
-      "url": "https://www.kemenkeu.go.id/media/apbn-kita-desember-2025",
-      "label": "APBN KiTa Desember 2025 — Realisasi APBN 2025, Kementerian Keuangan RI",
-      "accessed": "2026-05-13"
+      "url": "https://www.kemenkeu.go.id/informasi-publik/publikasi/berita-utama/Realisasi-Sementara-APBN-2025",
+      "label": "Realisasi Sementara APBN 2025 — Kementerian Keuangan RI (defisit Rp695,1T / 2,92% PDB)",
+      "accessed": "2026-05-15"
     },
     {
       "field": "apbn.deficit.q1_2026",
-      "url": "https://www.kemenkeu.go.id/media/apbn-kita-maret-2026",
-      "label": "APBN KiTa Maret 2026 — Realisasi APBN Triwulan I 2026, Kementerian Keuangan RI",
-      "accessed": "2026-05-13",
+      "url": "https://www.kemenkeu.go.id/informasi-publik/publikasi/berita-utama/Menkeu-Sampaikan-Realisasi-APBN-Hingga-31-Maret",
+      "label": "APBN KiTa Maret 2026 — Realisasi APBN Triwulan I 2026 (defisit Rp240,1T / 0,93% PDB), Kementerian Keuangan RI",
+      "accessed": "2026-05-15",
       "provisional": true
     },
     {
       "field": "gdp.konsumsi_pemerintah.q1_2025",
-      "url": "https://www.bps.go.id/pressrelease/2025/05/05/2268/pertumbuhan-ekonomi-indonesia-triwulan-i-2025.html",
-      "label": "Pertumbuhan Ekonomi Indonesia Triwulan I 2025 — BPS",
-      "accessed": "2026-05-13"
+      "url": "https://www.bps.go.id/en/pressrelease/2025/05/05/2431/ekonomi-indonesia-triwulan-i-2025-tumbuh-4-87-persen--y-on-y---ekonomi-indonesia-triwulan-i-2025-terkontraksi-0-98-persen--q-to-q--.html",
+      "label": "Pertumbuhan Ekonomi Indonesia Triwulan I 2025 — BPS (konsumsi pemerintah -1,38% YoY)",
+      "accessed": "2026-05-15"
     },
     {
       "field": "gdp.konsumsi_pemerintah.q2_2025",
-      "url": "https://www.bps.go.id/pressrelease/2025/08/05/pertumbuhan-ekonomi-indonesia-triwulan-ii-2025.html",
-      "label": "Pertumbuhan Ekonomi Indonesia Triwulan II 2025 — BPS",
-      "accessed": "2026-05-13"
+      "url": "https://www.bps.go.id/en/pressrelease/2025/08/05/2455/ekonomi-indonesia-triwulan-ii-2025-tumbuh-4-04-persen--q-to-q---5-12-persen--y-on-y---semester-i-2025-tumbuh-4-99-persen--c-to-c--.html",
+      "label": "Pertumbuhan Ekonomi Indonesia Triwulan II 2025 — BPS (konsumsi pemerintah +21,05% YoY, tertinggi)",
+      "accessed": "2026-05-15"
     },
     {
       "field": "gdp.konsumsi_pemerintah.q3_2025",
-      "url": "https://www.bps.go.id/pressrelease/2025/11/05/pertumbuhan-ekonomi-indonesia-triwulan-iii-2025.html",
-      "label": "Pertumbuhan Ekonomi Indonesia Triwulan III 2025 — BPS",
-      "accessed": "2026-05-13"
+      "url": "https://www.bps.go.id/en/pressrelease/2025/11/05/2478/ekonomi-indonesia-triwulan-iii-2025-tumbuh-5-04-persen--y-on-y-.html",
+      "label": "Pertumbuhan Ekonomi Indonesia Triwulan III 2025 — BPS (konsumsi pemerintah +5,49% YoY)",
+      "accessed": "2026-05-15"
     },
     {
       "field": "gdp.konsumsi_pemerintah.q4_2025",
-      "url": "https://www.bps.go.id/pressrelease/2026/02/05/pertumbuhan-ekonomi-indonesia-triwulan-iv-2025.html",
-      "label": "Pertumbuhan Ekonomi Indonesia Triwulan IV 2025 — BPS",
-      "accessed": "2026-05-13"
+      "url": "https://www.bps.go.id/id/pressrelease/2026/02/05/2546/ekonomi-indonesia-tahun-2025-tumbuh-5-11-persen.html",
+      "label": "Pertumbuhan Ekonomi Indonesia Triwulan IV 2025 — BPS (konsumsi pemerintah +4,55% YoY)",
+      "accessed": "2026-05-15"
     },
     {
       "field": "gdp.konsumsi_pemerintah.q1_2026",
-      "url": "https://www.bps.go.id/pressrelease/2026/05/05/pertumbuhan-ekonomi-indonesia-triwulan-i-2026.html",
-      "label": "Pertumbuhan Ekonomi Indonesia Triwulan I 2026 — BPS",
-      "accessed": "2026-05-13",
-      "provisional": true
+      "url": "https://www.bps.go.id/id/pressrelease/2026/05/05/2575/ekonomi-indonesia-triwulan-i-2026-tumbuh-5-61-persen--y-on-y-.html",
+      "label": "Pertumbuhan Ekonomi Indonesia Triwulan I 2026 — BPS (konsumsi pemerintah +21,81% YoY, kontribusi 1,26pp)",
+      "accessed": "2026-05-15",
+      "provisional": false
     }
   ],
   "anchors": {
