@@ -1,6 +1,6 @@
 # /// script
 # requires-python = ">=3.11"
-# dependencies = []
+# dependencies = ["nlp-id"]
 # ///
 """
 Produces two data files for the dashboard:
@@ -8,7 +8,30 @@ Produces two data files for the dashboard:
   public/data/summary-stats.json   — overall dataset statistics
 Run: uv run scripts/prepare-data.py
 """
-import json, pathlib, collections
+import json, pathlib, collections, re
+from nlp_id.lemmatizer import Lemmatizer
+
+_lemmatizer = Lemmatizer()
+
+STOPWORDS = frozenset({
+    "pengadaan", "jasa", "barang", "pekerjaan", "konstruksi",
+    "kegiatan", "tahun", "paket", "dll", "dan", "yang", "untuk",
+    "di", "ke", "dari", "dalam", "dengan", "atau", "adalah", "pada",
+    "anggaran", "provinsi", "kabupaten", "kota", "kementerian",
+    "belanja", "bahan", "alat", "the", "of", "and", "in", "to",
+    "a", "an", "it", "is", "be", "as", "at", "so", "we", "he",
+    "but", "are", "by", "not", "this", "had", "his", "how",
+    "i", "ii", "iii", "iv", "v", "vi", "vii", "viii", "ix", "x",
+    "no", "nomor", "serta", "juga", "atas", "per", "bagi", "agar",
+    "lain", "oleh", "akan", "dapat", "hal", "melaksanakan",
+    "pelaksanaan", "pelayanan", "pengelolaan", "penyediaan", "kantor",
+})
+
+def _tokenize(paket: str) -> set[str]:
+    tokens = re.findall(r"[a-z]+", paket.lower())
+    tokens = [t for t in tokens if len(t) >= 3 and t not in STOPWORDS]
+    tokens = [_lemmatizer.lemmatize(t) for t in tokens]
+    return {t for t in tokens if len(t) >= 3 and t not in STOPWORDS}
 
 DATA_DIR = pathlib.Path(__file__).parent.parent.parent / "inaproc-ds" / "outputs"
 OUT_DIR  = pathlib.Path(__file__).parent.parent / "public" / "data"
@@ -159,8 +182,8 @@ records_by_word_filter = {w: {"all": [], "central": [], "district": []} for w in
 for r in priority_records:
     if r.get("tags", {}).get("isInappropriate") not in {"high", "absurd"}:
         continue
-    paket_lower = (r.get("paket") or "").lower()
-    owner       = r.get("ownerType") or "unknown"
+    paket_tokens = _tokenize(r.get("paket") or "")
+    owner        = r.get("ownerType") or "unknown"
     rec = {
         "lembaga":             r.get("lembaga") or "Unknown",
         "satker":              r.get("satker") or "",
@@ -169,7 +192,7 @@ for r in priority_records:
         "inappropriateReason": r.get("tags", {}).get("inappropriateReason") or "",
     }
     for w in ALL_WORDS:
-        if w in paket_lower:
+        if w in paket_tokens:
             records_by_word_filter[w]["all"].append(rec)
             if owner == "central":
                 records_by_word_filter[w]["central"].append(rec)
