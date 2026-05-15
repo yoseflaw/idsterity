@@ -190,6 +190,9 @@
                 }),
                 makeScroller("s8", (i) => {
                     activeStepS8 = i;
+                    if (i === 0 && !selectedWord && cloudWords.length > 0) {
+                        selectWord(cloudWords[0].word);
+                    }
                 }),
             ];
 
