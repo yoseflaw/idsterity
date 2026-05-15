@@ -62,11 +62,11 @@
     filterError = null
     try {
       if (filter === 'all') {
-        cloudWords = await safeFetch('/data/wordcloud-all.json')
+        cloudWords = await safeFetch(import.meta.env.BASE_URL + 'data/wordcloud-all.json')
       } else if (filter === 'central') {
-        cloudWords = await safeFetch('/data/wordcloud-central.json')
+        cloudWords = await safeFetch(import.meta.env.BASE_URL + 'data/wordcloud-central.json')
       } else if (filter === 'district') {
-        cloudWords = await safeFetch('/data/wordcloud-district.json')
+        cloudWords = await safeFetch(import.meta.env.BASE_URL + 'data/wordcloud-district.json')
       } else if (filter === 'lembaga') {
         cloudWords = lembagaIndex[lembagaName] ?? []
         lembagaSearch = ''
@@ -90,7 +90,7 @@
     wordRecordsLoading = true
     const requestedWord = word   // capture before any await
     try {
-      const data = await safeFetch(`/data/word-${word}-${filterKey}.json`)
+      const data = await safeFetch(import.meta.env.BASE_URL + `data/word-${word}-${filterKey}.json`)
       if (selectedWord !== requestedWord) return  // superseded — discard
       wordCache.set(cacheKey, data)
       wordRecords = data
@@ -116,11 +116,11 @@
   onMount(async () => {
     try {
       const [s, d, c, w, l] = await Promise.all([
-        safeFetch('/data/summary-stats.json'),
-        safeFetch('/data/lembaga-totals.json'),
-        safeFetch('/data/constants.json'),
-        safeFetch('/data/wordcloud-all.json'),
-        safeFetch('/data/wordcloud-lembaga.json'),
+        safeFetch(import.meta.env.BASE_URL + 'data/summary-stats.json'),
+        safeFetch(import.meta.env.BASE_URL + 'data/lembaga-totals.json'),
+        safeFetch(import.meta.env.BASE_URL + 'data/constants.json'),
+        safeFetch(import.meta.env.BASE_URL + 'data/wordcloud-all.json'),
+        safeFetch(import.meta.env.BASE_URL + 'data/wordcloud-lembaga.json'),
       ])
       stats         = s
       lembaga       = d
