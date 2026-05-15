@@ -8,9 +8,6 @@ export const t = {
     heroLine2: "biar kamu saja.",
     sectionStub: "[dalam pengerjaan]",
     stepCounter: (n, total) => `${n} / ${total}`,
-    heroPaketLabel: "dalam",
-    heroPaketSuffix: "paket pengadaan.",
-
     // S1
     s1Eyebrow: "Bagian 1: Pada awalnya adalah instruksi",
     s1DisplayLine1: "Pemerintah berjanji efisiensi,",
@@ -155,9 +152,6 @@ export const t = {
     heroLine2: "people's money go?",
     sectionStub: "[section in preparation]",
     stepCounter: (n, total) => `${n} / ${total}`,
-    heroPaketLabel: "allocated across",
-    heroPaketSuffix: "Indonesian government procurement packages",
-
     // S1
     s1Eyebrow: "S1 · HOOK",
     s1DisplayLine1: "Follow the money…",

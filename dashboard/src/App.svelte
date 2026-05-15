@@ -342,21 +342,6 @@
                 {t[lang].heroLine1}<br />
                 <em>{t[lang].heroLine2}</em>
             </h1>
-            {#if stats}
-                <div class="hero-stat">
-                    <div class="hero-number">Rp {fmtT(stats.totalPagu)} T</div>
-                    <div class="hero-sublabel">
-                        {t[lang].heroPaketLabel}
-                        {fmtNum(stats.totalRecords)}<br />{t[lang]
-                            .heroPaketSuffix}
-                    </div>
-                </div>
-            {:else}
-                <div class="hero-stat loading-pulse">
-                    <div class="hero-number">Rp — T</div>
-                    <div class="hero-sublabel">{t[lang].loading}</div>
-                </div>
-            {/if}
             <a class="scroll-cue" href="#s1">{t[lang].scrollCue}</a>
         </div>
     </section>
@@ -1191,32 +1176,6 @@
         color: var(--gold);
     }
 
-    .hero-stat {
-        display: block;
-        width: fit-content;
-        margin: 0 auto 3rem;
-        padding: 1.5rem 2.5rem;
-        border: 1px solid var(--border);
-        border-radius: 3px;
-        background: rgba(255, 255, 255, 0.02);
-    }
-
-    .hero-number {
-        font-family: "Libre Baskerville", Georgia, "Times New Roman", serif;
-        font-size: clamp(2.2rem, 5vw, 3.8rem);
-        font-weight: 700;
-        color: var(--gold);
-        line-height: 1;
-        margin-bottom: 0.6rem;
-        letter-spacing: -0.02em;
-    }
-
-    .hero-sublabel {
-        font-size: 0.88rem;
-        color: var(--muted);
-        font-style: italic;
-        line-height: 1.5;
-    }
 
     .loading-pulse {
         animation: pulse 1.8s ease-in-out infinite;
