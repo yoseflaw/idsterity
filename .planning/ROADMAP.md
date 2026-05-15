@@ -15,7 +15,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 - [x] **Phase 1: Foundation & Data Pipeline** - Project scaffold, i18n store, design tokens, Scrollama, and all offline data scripts (completed 2026-05-13)
 - [x] **Phase 2: Core Narrative (S1–S6)** - Hook through Institutions — the emotionally critical sections that drive shares (completed 2026-05-14)
 - [x] **Phase 3: Interactive Back Half (S7–S9)** - Anchor animations, word cloud, and explore table complete the story (completed 2026-05-14)
-- [ ] **Phase 4: Polish, Share & Deploy** - OG image, `.htaccess`, Lighthouse pass, and deploy pipeline
+- [x] **Phase 4: Polish, Share & Deploy** - OG image, `.htaccess`, Lighthouse pass, and deploy pipeline (completed 2026-05-15)
 
 ## Phase Details
 
@@ -91,9 +91,9 @@ Plans:
 **Plans**: 3 plans
 
 Plans:
-- [ ] 04-01-PLAN.md — OG meta tags in index.html + user creates og-image.jpg (SHARE-01, SHARE-02)
+- [x] 04-01-PLAN.md — OG meta tags in index.html + user creates og-image.jpg (SHARE-01, SHARE-02)
 - [x] 04-02-PLAN.md — Vite base path config + BASE_URL fetch fix across 9 call sites + build verify (DEPL-01, DEPL-02, DEPL-03)
-- [ ] 04-03-PLAN.md — Apache .htaccess SPA fallback + pre-deploy checklist + FTP deploy checkpoint (FOUND-05)
+- [x] 04-03-PLAN.md — Apache .htaccess SPA fallback + pre-deploy checklist + FTP deploy checkpoint (FOUND-05)
 **UI hint**: no
 
 ## Progress
@@ -106,4 +106,4 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 | 1. Foundation & Data Pipeline | 3/3 | Complete   | 2026-05-13 |
 | 2. Core Narrative (S1–S6) | 5/5 | Complete | 2026-05-14 |
 | 3. Interactive Back Half (S7–S9) | 3/3 | Complete | 2026-05-14 |
-| 4. Polish, Share & Deploy | 0/3 | Not started | - |
+| 4. Polish, Share & Deploy | 3/3 | Complete   | 2026-05-15 |
