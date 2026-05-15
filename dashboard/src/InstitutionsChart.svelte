@@ -15,7 +15,7 @@
   const MARGIN               = { top: 10, right: 24, bottom: 60, left: 12 }
   const NAME_MAX_DESKTOP     = 36
   const NAME_MAX_MOBILE      = 18
-  const MOBILE_SHOW          = 15
+  const TOP_SHOW              = 5
 
   let svgEl    = $state(null)
   let isMobile = $state(false)
@@ -38,12 +38,11 @@
 
   let sortedData = $derived(
     step >= S6_STEP_INDEX
-      ? [...data].sort((a, b) => b.highPagu - a.highPagu)
+      ? [...data].sort((a, b) => (b.highPagu + (b.absurdPagu ?? 0)) - (a.highPagu + (a.absurdPagu ?? 0)))
       : [...data].sort((a, b) => b.total - a.total)
   )
 
-  // On mobile, only show the top 15 institutions to prevent overflow
-  let displayData  = $derived(isMobile ? sortedData.slice(0, MOBILE_SHOW) : sortedData)
+  let displayData  = $derived(sortedData.slice(0, TOP_SHOW))
   let chartHeight  = $derived(MARGIN.top + displayData.length * (barHeight + BAR_GAP) - BAR_GAP + MARGIN.bottom)
 
   let xScale = $derived(
@@ -73,16 +72,18 @@
         return 'translate(' + (labelWidth + MARGIN.left) + ', ' + (MARGIN.top + idx * (barHeight + BAR_GAP)) + ')'
       })
 
-    const dimOpacity = step >= S6_STEP_INDEX ? 0.2 : 1
+    const colorOpacity = step >= 1 ? 1 : 0
+    const dimOpacity   = step >= S6_STEP_INDEX ? 0.2 : 1
+
+    svg.selectAll('rect.seg-med, rect.seg-high, rect.seg-absurd')
+      .transition()
+      .duration(400)
+      .attr('opacity', colorOpacity)
+
     svg.selectAll('rect.seg-clean, rect.seg-low')
       .transition()
       .duration(400)
       .attr('opacity', dimOpacity)
-
-    svg.selectAll('rect.seg-med')
-      .transition()
-      .duration(400)
-      .attr('opacity', step >= S6_STEP_INDEX ? 0.5 : 1)
 
     // For bar labels, read data-high-pagu to decide dim opacity
     svg.selectAll('text.bar-label')
@@ -112,9 +113,8 @@
        style="overflow-x: hidden; display: block;">
 
     <!-- bars -->
-    {#each displayData as d (d.name)}
+    {#each displayData as d, idx (d.name)}
       {@const cleanPagu = d.total - d.flaggedPagu}
-      {@const idx = displayData.findIndex(x => x.name === d.name)}
       <g class="bar-group"
          data-name={d.name}
          transform="translate({labelWidth + MARGIN.left}, {MARGIN.top + idx * (barHeight + BAR_GAP)})">
@@ -141,7 +141,8 @@
               y={0}
               width={xScale(d.medPagu)}
               height={barHeight}
-              fill="var(--amber)"/>
+              fill="var(--amber)"
+              opacity="0"/>
 
         <!-- high segment -->
         <rect class="seg-high"
@@ -149,7 +150,17 @@
               y={0}
               width={xScale(d.highPagu)}
               height={barHeight}
-              fill="var(--red)"/>
+              fill="var(--red)"
+              opacity="0"/>
+
+        <!-- absurd segment -->
+        <rect class="seg-absurd"
+              x={xScale(cleanPagu + d.lowPagu + d.medPagu + d.highPagu)}
+              y={0}
+              width={xScale(d.absurdPagu ?? 0)}
+              height={barHeight}
+              fill="var(--absurd)"
+              opacity="0"/>
 
         <!-- institution name label -->
         <text class="bar-label"
@@ -161,6 +172,18 @@
               font-family="Source Serif 4, serif"
               font-size="12"
               fill="rgba(237,232,220,0.82)">{shortName(d.name, nameMax)}</text>
+
+        {#if idx < 3}
+          <text
+            class="bar-medal"
+            x={-(labelWidth - 8)}
+            y={barHeight / 2}
+            dominant-baseline="middle"
+            font-size={isMobile ? "12" : "15"}
+            text-anchor="start">
+            {idx === 0 ? '🥇' : idx === 1 ? '🥈' : '🥉'}
+          </text>
+        {/if}
       </g>
     {/each}
 
