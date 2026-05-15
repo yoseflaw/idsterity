@@ -39,12 +39,14 @@ flagged_count = collections.defaultdict(int)
 flagged_pagu  = collections.defaultdict(int)
 high_count    = collections.defaultdict(int)
 med_count     = collections.defaultdict(int)
+absurd_count  = collections.defaultdict(int)
 high_pagu     = collections.defaultdict(int)
 med_pagu      = collections.defaultdict(int)
 low_pagu      = collections.defaultdict(int)
+absurd_pagu   = collections.defaultdict(int)
 total_flagged_count, total_flagged_pagu = 0, 0
-label_pagu   = {"low": 0, "med": 0, "high": 0}
-label_counts = {"low": 0, "med": 0, "high": 0}
+label_pagu   = {"low": 0, "med": 0, "high": 0, "absurd": 0}
+label_counts = {"low": 0, "med": 0, "high": 0, "absurd": 0}
 
 priority_records = []
 for path in sorted(DATA_DIR.glob("*_priority.json")):
@@ -57,7 +59,12 @@ for path in sorted(DATA_DIR.glob("*_priority.json")):
         flagged_pagu[name]  += pagu
         total_flagged_count += 1
         total_flagged_pagu  += pagu
-        if level == "high":
+        if level == "absurd":
+            absurd_count[name]      += 1
+            absurd_pagu[name]       += pagu
+            label_pagu["absurd"]    += pagu
+            label_counts["absurd"]  += 1
+        elif level == "high":
             high_count[name]     += 1
             high_pagu[name]      += pagu
             label_pagu["high"]   += pagu
@@ -97,8 +104,10 @@ lembaga_totals = [
         "flaggedPagu":  flagged_pagu.get(name, 0),
         "highCount":    high_count.get(name, 0),
         "medCount":     med_count.get(name, 0),
+        "absurdCount":  absurd_count.get(name, 0),
         "highPagu":     high_pagu.get(name, 0),
         "medPagu":      med_pagu.get(name, 0),
+        "absurdPagu":   absurd_pagu.get(name, 0),
         "lowPagu":      low_pagu.get(name, 0),
         "jenisCounts":  dict(jenis_counts[name]),
         "metodeCounts": dict(metode_counts[name]),
@@ -148,7 +157,7 @@ PER_WORD_TOP = 20
 records_by_word_filter = {w: {"all": [], "central": [], "district": []} for w in ALL_WORDS}
 
 for r in priority_records:
-    if r.get("tags", {}).get("isInappropriate") != "high":
+    if r.get("tags", {}).get("isInappropriate") not in {"high", "absurd"}:
         continue
     paket_lower = (r.get("paket") or "").lower()
     owner       = r.get("ownerType") or "unknown"
