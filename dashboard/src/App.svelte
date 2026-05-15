@@ -1768,6 +1768,8 @@
         overflow-x: auto;
         overflow-y: hidden;
         padding: var(--space-md);
+        -webkit-overflow-scrolling: touch;
+        scroll-snap-type: x proximity;
     }
 
     .s8-cloud-word {
@@ -1802,6 +1804,13 @@
     .s8-cloud.is-narrow .s8-cloud-word {
         font-size: 0.9rem !important;
         padding: var(--space-xs) var(--space-sm);
+        border: 1px solid rgba(237, 232, 220, 0.2);
+        border-radius: 20px;
+        scroll-snap-align: start;
+    }
+
+    .s8-cloud.is-narrow .s8-cloud-word.is-selected {
+        border-color: var(--gold);
     }
 
     .s8-empty {
