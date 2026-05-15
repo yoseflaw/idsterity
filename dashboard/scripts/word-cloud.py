@@ -12,6 +12,7 @@ Run: uv run scripts/word-cloud.py
 """
 import json, pathlib, collections, re
 from nlp_id.lemmatizer import Lemmatizer
+from nlp_id.postag import PosTag
 
 DATA_DIR = pathlib.Path(__file__).parent.parent.parent / "inaproc-ds" / "outputs"
 OUT_DIR  = pathlib.Path(__file__).parent.parent / "public" / "data"
@@ -29,9 +30,13 @@ STOPWORDS = frozenset({
     "no", "nomor", "serta", "juga", "atas", "per", "bagi", "agar",
     "lain", "oleh", "akan", "dapat", "hal", "melaksanakan",
     "pelaksanaan", "pelayanan", "pengelolaan", "penyediaan",
+    "kantor",
 })
 
 _lemmatizer = Lemmatizer()
+_tagger = PosTag()
+
+NOUN_TAGS = {"NN", "NNP", "NND"}
 
 
 def tokenize(paket: str) -> list[str]:
@@ -40,7 +45,10 @@ def tokenize(paket: str) -> list[str]:
     tokens = [t for t in tokens if t not in STOPWORDS]
     tokens = [_lemmatizer.lemmatize(t) for t in tokens]
     tokens = [t for t in tokens if t not in STOPWORDS and len(t) >= 3]
-    return tokens
+    if not tokens:
+        return []
+    tagged = _tagger.get_pos_tag(" ".join(tokens))
+    return [word for word, tag in tagged if tag in NOUN_TAGS]
 
 
 counts_all      = collections.defaultdict(int)
@@ -50,7 +58,7 @@ counts_by_lembaga = collections.defaultdict(lambda: collections.defaultdict(int)
 
 for path in sorted(DATA_DIR.glob("*_priority.json")):
     for r in json.load(path.open()):
-        if r.get("tags", {}).get("isInappropriate") != "high":
+        if r.get("tags", {}).get("isInappropriate") not in {"high", "absurd"}:
             continue
         lembaga   = r.get("lembaga") or "Unknown"
         owner     = r.get("ownerType") or ""
