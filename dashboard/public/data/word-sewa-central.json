@@ -1,1 +1,142 @@
-[]
+[
+  {
+    "lembaga": "Kementerian Koordinator Bidang Pemberdayaan Masyarakat",
+    "satker": "KEMENTERIAAN KOORDINATOR BIDANG PEMBERDAYAAN MASYARAKAT",
+    "pagu": 29510788000,
+    "paket": "Belanja Sewa",
+    "inappropriateReason": "Nilai sewa mobil sangat besar untuk satu paket dan berisiko tidak proporsional terhadap kebutuhan operasional. Berdasarkan judul dan uraian yang tersedia, pengadaan ini layak dicermati serius karena berpotensi mencerminkan penggunaan anggaran yang berlebihan pada fasilitas transportasi."
+  },
+  {
+    "lembaga": "Kementerian Pendidikan Tinggi, Sains, dan Teknologi",
+    "satker": "SEKRETARIAT JENDERAL",
+    "pagu": 16217592000,
+    "paket": "Belanja Sewa",
+    "inappropriateReason": "Terdapat indikasi pengeluaran kurang wajar pada sewa rumah dinas pimpinan dengan nilai sangat besar dan berulang, yang berpotensi tidak efisien dibandingkan alternatif penyediaan aset/rumah negara. Komponen sewa tanaman hidup dalam jumlah besar juga layak dicermati karena bersifat penunjang dan tidak langsung terkait layanan inti."
+  },
+  {
+    "lembaga": "Kementerian Investasi dan Hilirisasi/BKPM",
+    "satker": "SEKRETARIAT UTAMA BADAN KOORDINASI PENANAMAN MODAL",
+    "pagu": 11605080000,
+    "paket": "Sewa Kendaraan Pimpinan Kementerian Investasi dan Hilirisasi/BKPM TA 2026",
+    "inappropriateReason": "Nilai sewa kendaraan pimpinan sangat besar untuk satu paket dan berpotensi mencerminkan penggunaan fasilitas transportasi yang berlebihan atau bernuansa kemewahan. Dari judul dan nilai anggaran, item ini menimbulkan kesan kuat pembelanjaan yang tidak proporsional untuk kebutuhan kedinasan pimpinan."
+  },
+  {
+    "lembaga": "Kementerian Koordinator Bidang Infrastruktur dan Pembangunan Kewilayahan",
+    "satker": "Kementerian Koordinator Bidang Infrastruktur dan Pembangunan Kewilayahan",
+    "pagu": 7367690000,
+    "paket": "Sewa Kendaraan Operasional Pejabat Eselon I, II, dan Walpri bulan Februari s.d. Desember",
+    "inappropriateReason": "Pengadaan sewa kendaraan operasional untuk pejabat eselon I, II, dan walpri bernilai sangat besar untuk periode kurang dari satu tahun menimbulkan kesan penggunaan anggaran yang berlebihan dan berpotensi memicu kecemburuan sosial. Dari judul pengadaan, belanja ini tergolong sangat tidak pantas untuk dibiayai penuh dengan dana publik tanpa justifikasi rinci yang kuat."
+  },
+  {
+    "lembaga": "Kementerian Koperasi",
+    "satker": "Sekretariat Kementerian",
+    "pagu": 6037708000,
+    "paket": "Belanja Sewa",
+    "inappropriateReason": "Terdapat indikasi penggunaan anggaran yang tidak patut untuk fasilitas non-prioritas dan berpotensi memicu kecemburuan sosial, terutama penyewaan kendaraan bagi pasangan pejabat serta komponen pengharum ruangan rumah dinas. Sejumlah fasilitas kendaraan pejabat juga tampak sangat luas dan berlapis sehingga layak dinilai berlebihan untuk dukungan operasional."
+  },
+  {
+    "lembaga": "Badan Narkotika Nasional",
+    "satker": "SEKRETARIAT UTAMA",
+    "pagu": 6010415000,
+    "paket": "Sewa Apartemen",
+    "inappropriateReason": "Pengadaan sewa apartemen dengan nilai sangat besar untuk kebutuhan kesekretariatan menimbulkan indikasi kuat ketidakpatutan penggunaan dana publik. Dari judul dan spesifikasi yang tersedia, item ini bersifat akomodasi hunian, bukan kebutuhan operasional perkantoran yang lazim, sehingga berpotensi memicu pemborosan dan kecemburuan sosial."
+  },
+  {
+    "lembaga": "Badan Gizi Nasional",
+    "satker": "BADAN GIZI NASIONAL",
+    "pagu": 5790000000,
+    "paket": "Sewa Lisensi Aplikasi Zoom Meeting/ Conference Webinar",
+    "inappropriateReason": "Nilai sewa lisensi rapat/webinar digital sangat besar untuk 1 paket, sehingga terdapat indikasi kuat belanja layanan pendukung administrasi yang berlebihan dibanding kebutuhan wajar. Tanpa rincian jumlah akun, durasi, dan kapasitas lisensi, total anggaran miliaran rupiah patut dinilai berisiko tinggi terhadap pemborosan."
+  },
+  {
+    "lembaga": "Kementerian Komunikasi dan Digital",
+    "satker": "Sekretariat Jenderal Komdigi",
+    "pagu": 5468280000,
+    "paket": "Sewa Kendaraan Pimpinan Sekretariat Jenderal Kementerian Komunikasi dan Digital TA 2026",
+    "inappropriateReason": "Pengadaan sewa kendaraan pimpinan selama 12 bulan dengan nilai sangat besar menimbulkan indikasi kuat pemborosan dan kesan penggunaan anggaran yang tidak patut untuk fasilitas pejabat. Dari judul dan nilai anggaran, item ini berisiko tinggi memicu persepsi kemewahan yang tidak selaras dengan prinsip efisiensi belanja pemerintah."
+  },
+  {
+    "lembaga": "Komisi Yudisial Ri",
+    "satker": "KOMISI YUDISIAL RI",
+    "pagu": 4707600000,
+    "paket": "Biaya Sewa Kendaraan Bagi Anggota Komisi Yudisial Tahun 2026",
+    "inappropriateReason": "Pengadaan sewa kendaraan bagi anggota lembaga negara dengan nilai sangat besar untuk satu paket selama satu tahun menimbulkan indikasi kuat pembiayaan fasilitas kedinasan yang berlebihan dan berpotensi memicu kecemburuan publik. Dari judul dan nilainya, pos ini tampak tidak hemat dan patut dipandang sangat tidak pantas untuk dibiayai penuh dari anggaran publik."
+  },
+  {
+    "lembaga": "Kementerian Kelautan Dan Perikanan",
+    "satker": "BIRO UMUM SETJEN KKP",
+    "pagu": 4465989000,
+    "paket": "Sewa Kendaraan Pimpinan",
+    "inappropriateReason": "Pengadaan sewa kendaraan pimpinan selama 12 bulan dengan nilai sangat besar menimbulkan indikasi kuat penggunaan anggaran yang berlebihan untuk fasilitas pejabat. Dari judul dan nilai anggaran, item ini berisiko tinggi memicu kesan penggunaan dana publik yang tidak patut dan layak dikategorikan sangat tidak pantas untuk dicermati lebih lanjut."
+  },
+  {
+    "lembaga": "Kementerian Badan Usaha Milik Negara",
+    "satker": "KEMENTERIAN BADAN USAHA MILIK NEGARA",
+    "pagu": 4463640000,
+    "paket": "Pengadaan Sewa Kendaraan Jabatan VVIP dan Eselon I/Setara Badan Pengaturan BUMN Tahun 2026",
+    "inappropriateReason": "Sewa kendaraan jabatan VVIP/Eselon I senilai sangat besar untuk satu paket berindikasi kuat sebagai belanja fasilitas pejabat yang mewah dan berisiko tidak proporsional terhadap prinsip efisiensi penggunaan APBN. Dari judul pengadaan, item ini menimbulkan kesan penggunaan dana publik untuk fasilitas elite yang berlebihan."
+  },
+  {
+    "lembaga": "Kementerian Energi Dan Sumber Daya Mineral",
+    "satker": "DITJEN MINERAL DAN BATUBARA",
+    "pagu": 4320000000,
+    "paket": "Sewa Mobil Fungsional Pegawai Penempatan Provinsi",
+    "inappropriateReason": "Nilai sewa mobil fungsional untuk pegawai penempatan provinsi sebesar Rp4,32 miliar dalam 1 paket tampak sangat berlebihan untuk kebutuhan operasional umum. Dari judul dan nilai anggaran, pengadaan ini berisiko tinggi mencerminkan fasilitas kendaraan yang tidak proporsional dan berpotensi memicu persepsi penggunaan dana publik secara tidak patut."
+  },
+  {
+    "lembaga": "Kementerian Imigrasi dan Pemasyarakatan",
+    "satker": "SEKRETARIAT JENDERAL",
+    "pagu": 4197600000,
+    "paket": "Pengadaan Sewa Kendaraan Operasional Ka Kanwil DITJEN Pemasyarakatan Tahun Anggaran 2026",
+    "inappropriateReason": "Nilai sewa kendaraan operasional untuk satu paket bagi jabatan pimpinan wilayah sangat tinggi dan menimbulkan indikasi kuat penggunaan anggaran yang berlebihan untuk fasilitas kendaraan dinas. Dari judul dan nilai anggaran, item ini berisiko memicu kesan kemewahan yang tidak proporsional terhadap kebutuhan operasional pemerintahan."
+  },
+  {
+    "lembaga": "Kementerian Badan Usaha Milik Negara",
+    "satker": "KEMENTERIAN BADAN USAHA MILIK NEGARA",
+    "pagu": 3939840000,
+    "paket": "Pengadaan Sewa Kendaraan Jabatan Eselon II/ Setara Badan Pengaturan BUMN Tahun 2026",
+    "inappropriateReason": "Sewa kendaraan jabatan untuk pejabat eselon II dengan nilai sangat besar menimbulkan indikasi kuat penggunaan anggaran yang berlebihan dan berpotensi tidak proporsional untuk kebutuhan administratif. Dari judul dan nilai anggaran, item ini berkesan mewah serta berisiko memicu kecemburuan sosial, sehingga layak dikategorikan sangat tidak pantas untuk dibiayai dana publik."
+  },
+  {
+    "lembaga": "Kementerian Imigrasi dan Pemasyarakatan",
+    "satker": "DIREKTORAT JENDERAL IMIGRASI",
+    "pagu": 3844970000,
+    "paket": "Pengadaan Belanja Sewa Kegiatan Pengelolaan Rumah Tangga pada Direktorat Jenderal Imigrasi Tahun Anggaran 2026",
+    "inappropriateReason": "Komponen belanja didominasi sewa perlengkapan acara skala besar dan estetika seperti mini garden, videotron, lighting, panggung, tenda, soundsystem, serta tanaman hias tahunan, yang tampak kurang selaras dengan kebutuhan rutin pengelolaan rumah tangga perkantoran. Nilai paket sangat besar untuk pengadaan langsung dan mengindikasikan belanja seremonial/fasilitatif yang berpotensi tidak efisien."
+  },
+  {
+    "lembaga": "Badan Nasional Penanggulangan Terorisme",
+    "satker": "Badan Nasional Penanggulangan Terorisme",
+    "pagu": 3510000000,
+    "paket": "Pekerjaan Sewa Kendaraan Dinas Kepala BNPT dan Pejabat Eselon I",
+    "inappropriateReason": "Pengadaan sewa kendaraan dinas untuk pimpinan dengan spesifikasi sangat premium, termasuk Toyota Land Cruiser VX-R dan beberapa Toyota Camry keluaran baru, menimbulkan indikasi kuat penggunaan anggaran yang berlebihan dan berpotensi memicu kecemburuan sosial. Untuk kebutuhan dinas, pilihan kendaraan mewah seperti ini tampak tidak proporsional terhadap prinsip efisiensi belanja publik."
+  },
+  {
+    "lembaga": "Badan Nasional Penanggulangan Terorisme",
+    "satker": "Badan Nasional Penanggulangan Terorisme",
+    "pagu": 3504000000,
+    "paket": "Pekerjaan Sewa Kendaraan Dinas Kepala BNPT dan Pejabat Eselon I",
+    "inappropriateReason": "Pengadaan sewa kendaraan dinas untuk pimpinan dengan spesifikasi sangat mewah, termasuk 1 unit Toyota Land Cruiser VX-R dan 4 unit Toyota Camry 2.5 V, menimbulkan indikasi kuat penggunaan anggaran yang berlebihan dan berpotensi memicu kecemburuan sosial. Dari judul, spesifikasi, dan nilai anggaran, kebutuhan ini tampak tidak hemat dan tidak proporsional untuk dibiayai melalui dana publik."
+  },
+  {
+    "lembaga": "Kementerian Pemuda Dan Olah Raga",
+    "satker": "BIDANG KESEKRETARIATAN",
+    "pagu": 3369600000,
+    "paket": "Sewa Kendaraan Operasional Pejabat Eselon 1",
+    "inappropriateReason": "Pengadaan sewa kendaraan operasional pejabat eselon 1 dengan spesifikasi mobil listrik berjarak tempuh tinggi dan ultra fast charging berbiaya sangat besar menimbulkan kesan fasilitas pejabat yang mewah dan tidak sensitif terhadap prinsip efisiensi belanja publik. Seluruh nilai paket layak dicermati sebagai potensi pemborosan karena manfaat kedinasan tidak tampak sebanding dengan besaran anggaran dari informasi yang tersedia."
+  },
+  {
+    "lembaga": "Badan Gizi Nasional",
+    "satker": "BADAN GIZI NASIONAL",
+    "pagu": 3240000000,
+    "paket": "Paket Pengadaan Sewa Kendaraan Roda Empat Badan Gizi Nasional Tahun Anggaran 2026",
+    "inappropriateReason": "Penyewaan 5 kendaraan roda empat untuk 4 pimpinan selama 12 bulan dengan total anggaran sangat besar menunjukkan fasilitas yang berlebihan dan berpotensi tidak proporsional untuk dukungan tugas kedinasan. Frasa 'representatif' dan 'standar kenyamanan tinggi' memperkuat indikasi penggunaan anggaran untuk fasilitas pimpinan yang mewah atau berlebihan."
+  },
+  {
+    "lembaga": "Kementerian Sosial",
+    "satker": "PUSAT PENDIDIKAN PELATIHAN DAN PENGEMBANGAN PROFESI",
+    "pagu": 3168000000,
+    "paket": "Pengadaan Sewa Mesin Fotocopy pada Sekolah Rakyat Tahap 1c Tahun 2026",
+    "inappropriateReason": "Nilai sewa mesin fotokopi sangat besar untuk satu paket dan berpotensi tidak ekonomis dibanding kebutuhan riil atau opsi pengadaan yang lebih efisien. Uraian sangat umum tanpa rincian jumlah unit, durasi sewa, dan spesifikasi, sehingga terdapat indikasi kuat perlunya audit kewajaran harga dan kebutuhan."
+  }
+]

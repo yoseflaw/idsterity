@@ -1,1 +1,142 @@
-[]
+[
+  {
+    "lembaga": "Provinsi DKI Jakarta",
+    "satker": "PUSKESMAS KELAPA GADING",
+    "pagu": 11252854318,
+    "paket": "Pemenuhan Kebutuhan Sumber Daya Manusia Kesehatan Sesuai Standar - Tunjangan Kinerja dan Gaji Pegawai Non PNS",
+    "inappropriateReason": "Item berupa pembayaran gaji dan tunjangan kinerja pegawai dimasukkan sebagai pengadaan barang melalui pengadaan langsung. Belanja remunerasi pegawai pada dasarnya bukan objek pengadaan barang/jasa, sehingga klasifikasi ini sangat tidak selaras dan berisiko menimbulkan penggunaan mekanisme anggaran yang tidak tepat."
+  },
+  {
+    "lembaga": "Kab. Nias",
+    "satker": "Dinas Kesehatan, Pengendalian Penduduk dan Keluarga Berencana",
+    "pagu": 7563235719,
+    "paket": "Pemenuhan Kebutuhan Sumber Daya Manusia Kesehatan Sesuai Standar_bahan cetak",
+    "inappropriateReason": "Nilai anggaran sangat besar untuk pengadaan bahan cetak kegiatan kantor dalam 1 paket melalui pengadaan langsung. Dari judul dan spesifikasi yang sangat umum, terdapat indikasi kuat belanja tidak proporsional dan berisiko tidak efisien sehingga layak diaudit lebih lanjut."
+  },
+  {
+    "lembaga": "Kementerian Pertanian",
+    "satker": "SEKRETARIAT BADAN PERAKITAN DAN MODERNISASI PERTANIAN",
+    "pagu": 5581800000,
+    "paket": "Belanja Langganan Daya dan Jasa Lainnya",
+    "inappropriateReason": "Nilai langganan internet bulanan sangat tinggi untuk dua lokasi kantor, sehingga terdapat indikasi kuat pemborosan atau kebutuhan yang tidak proporsional. Selain itu, komponen langganan TV kabel, multimedia, sosial media, dan aplikasi berbayar perlu dicermati karena tidak jelas urgensi operasionalnya dari informasi yang tersedia."
+  },
+  {
+    "lembaga": "Kementerian Hak Asasi Manusia",
+    "satker": "SEKRETARIAT JENDERAL KEMENTERIAN HAM",
+    "pagu": 5009600000,
+    "paket": "Belanja Keperluan Perkantoran , Keperluan Pokok Pegawai , Peralatan dan Bahan Habis Pakai Jasa Alih Daya ,  Pengelolaan Limbah Medis , Plakat Cinderamata Menteri  , Plakat Cinderamata Wakil Menteri , Plakat Cinderamata Sekretaris Jenderal",
+    "inappropriateReason": "Anggaran plakat cinderamata untuk pimpinan sangat besar secara absolut dan sulit dibenarkan sebagai kebutuhan prioritas perkantoran. Alokasi tahunan Rp350 juta, Rp250 juta, dan Rp200 juta untuk plakat cinderamata menimbulkan indikasi kuat penggunaan dana publik yang berlebihan dan berpotensi memicu kecemburuan sosial."
+  },
+  {
+    "lembaga": "Kementerian Komunikasi dan Digital",
+    "satker": "Direktorat Jenderal Pengawasan Ruang Digital",
+    "pagu": 2665400000,
+    "paket": "Penambah Daya Tahan Tubuh (PDTT)",
+    "inappropriateReason": "Pengadaan paket penambah daya tahan tubuh senilai sangat besar untuk unit pengawasan ruang digital tidak tampak selaras dengan fungsi utama kelembagaan dan berisiko menjadi belanja konsumtif yang sulit dibenarkan dari judul item yang tersedia."
+  },
+  {
+    "lembaga": "Kab. Mimika",
+    "satker": "Distrik Mimika Baru",
+    "pagu": 2200000000,
+    "paket": "Sinkronisasi Program Kerja dan Kegiatan Pemberdayaan Masyarakat yang Dilakukan oleh Pemerintah dan Swasta di Wilayah Kerja Kecamatan",
+    "inappropriateReason": "Nilai anggaran sangat besar untuk pengadaan langsung 1 paket dengan spesifikasi yang sangat umum, yaitu operasional kebersihan, sementara judul kegiatan terkait sinkronisasi program pemberdayaan masyarakat. Terdapat indikasi kuat ketidaksesuaian antara tujuan kegiatan dan objek belanja serta risiko pemborosan karena uraian barang/jasa tidak rinci."
+  },
+  {
+    "lembaga": "Kab. Purworejo",
+    "satker": "SEKRETARIAT DPRD",
+    "pagu": 2040000000,
+    "paket": "Belanja Penambah Daya Tahan Tubuh Kegiatan Penyediaan Kebutuhan Rumah Tangga DPRD",
+    "inappropriateReason": "Pengadaan belanja penambah daya tahan tubuh yang dikaitkan dengan kebutuhan rumah tangga DPRD, dengan uraian makan dan minum harian untuk pimpinan DPRD, berindikasi kuat tidak prioritas dan berpotensi menjadi fasilitas konsumtif pejabat. Nilainya sangat besar untuk item yang sifatnya rutin/penunjang sehingga patut dinilai sebagai potensi pemborosan signifikan."
+  },
+  {
+    "lembaga": "Mahkamah Agung",
+    "satker": "PENGADILAN NEGERI PASANGKAYU 01",
+    "pagu": 1994481000,
+    "paket": "Langganan Daya dan Jasa Berupa Langganan Internet",
+    "inappropriateReason": "Terdapat ketidaksesuaian material antara judul/uraian pengadaan yang menyebut langganan internet dan spesifikasi yang justru memuat tenaga kebersihan serta satpam. Indikasi ini menunjukkan objek belanja tidak selaras dan berisiko menyebabkan penggunaan anggaran tidak tepat sasaran. Potensi pemborosan dihitung dari selisih pagu terhadap nilai uraian yang secara eksplisit tercantum."
+  },
+  {
+    "lembaga": "Provinsi DKI Jakarta",
+    "satker": "PUSKESMAS TAMBORA",
+    "pagu": 1885312182,
+    "paket": "Pemenuhan Kebutuhan Sumber Daya Manusia Kesehatan Sesuai Standar (Apresiasi ke-13 Pegawai Non-PNS)",
+    "inappropriateReason": "Pengadaan bertema apresiasi bagi pegawai non-PNS pada fasilitas layanan kesehatan berisiko tidak selaras dengan prioritas layanan publik dan kebutuhan operasional inti. Nilai anggaran sangat besar untuk kegiatan apresiasi, sementara uraian tidak menunjukkan keluaran pelayanan kesehatan yang konkret sehingga patut diduga sebagai belanja yang kurang perlu."
+  },
+  {
+    "lembaga": "Provinsi Jawa Timur",
+    "satker": "BIRO KESEJAHTERAAN RAKYAT",
+    "pagu": 1595117000,
+    "paket": "Belanja Alat/Bahan untuk Kegiatan Kantor- Suvenir/Cendera Mata Untuk Untuk Koordinasi dan Sinkronisasi Kebijakan Kesejahteraan Rakyat Bidang Pemberdayaan Perempuan dan Perlindungan Anak, Pengendalian Penduduk dan Keluarga Berencana, Administrasi Kependudukan dan Pencatatan Sipil, Pemberdayaan Masyarakat dan Desa, Transmigrasi dan Tenaga Kerja",
+    "inappropriateReason": "Pengadaan suvenir/cendera mata dalam skala besar dengan isi paket bahan pokok untuk kegiatan koordinasi kebijakan berisiko tidak proporsional terhadap tujuan rapat/koordinasi. Komposisi barang menunjukkan pemberian paket bingkisan, bukan kebutuhan operasional inti, sehingga terdapat indikasi kuat pemborosan belanja publik."
+  },
+  {
+    "lembaga": "Kab. Yalimo",
+    "satker": "DINAS KOPERASI, USAHA KECIL DAN MENENGAH",
+    "pagu": 1260588709,
+    "paket": "Pemberdayaan Melalui Kemitraan Usaha Mikro",
+    "inappropriateReason": "Terdapat pengadaan barang konsumtif untuk diserahkan kepada masyarakat yang mencantumkan rokok berulang kali dengan merek/spesifikasi tertentu, yang tidak selaras dengan tujuan pemberdayaan usaha mikro dan berisiko menjadi belanja yang tidak prioritas. Komponen sewa kendaraan masih dapat relevan secara operasional, namun porsi barang konsumtif nonesensial terutama rokok menimbulkan indikasi pemborosan yang signifikan."
+  },
+  {
+    "lembaga": "Kab. Tabalong",
+    "satker": "SEKRETARIAT DAERAH",
+    "pagu": 1233180000,
+    "paket": "Belanja Daya Tahan Tubuh - Konsumsi Harian RUmah Tangga KDH",
+    "inappropriateReason": "Pengadaan konsumsi harian rumah tangga KDH dalam volume sangat besar mengindikasikan belanja rutin yang berorientasi pada kebutuhan domestik pejabat, bukan kebutuhan pelayanan publik yang jelas. Dari judul dan spesifikasi, item ini tampak kurang selaras dengan prinsip efisiensi dan kepatutan penggunaan APBD sehingga seluruh nilai patut dicermati sebagai potensi pemborosan."
+  },
+  {
+    "lembaga": "Kab. Cianjur",
+    "satker": "KECAMATAN CIANJUR",
+    "pagu": 1217387000,
+    "paket": "Belanja Barang untuk Dijual/Diserahkan kepada Masyarakat Pemberdayaan Masyarakat Di Kelurahan",
+    "inappropriateReason": "Paket pemberdayaan masyarakat ini memuat campuran belanja konsumsi rapat/jamuan, sewa alat dan gedung, materai, serta barang cetakan dalam jumlah sangat banyak, di samping pekerjaan fisik dan bantuan masyarakat. Komposisi ini menunjukkan paket terlalu heterogen dan sebagian komponen administratif/seremonial tampak tidak selaras sebagai belanja untuk diserahkan kepada masyarakat, sehingga berindikasi kuat tidak efisien dan berpotensi membebani anggaran secara tidak tepat."
+  },
+  {
+    "lembaga": "Komisi Pengawas Persaingan Usaha",
+    "satker": "KOMISI PENGAWAS PERSAINGAN USAHA",
+    "pagu": 1127400000,
+    "paket": "Belanja Langganan Daya dan Jasa Lainnya",
+    "inappropriateReason": "Terdapat indikasi kuat pemborosan pada komponen langganan media sosial/ChatGPT/AI senilai sangat besar untuk 12 bulan dibanding pola kebutuhan umum langganan perangkat lunak perkantoran. Nilai paket didominasi pos digital subscription dengan kewajaran harga yang patut dipertanyakan dan perlu verifikasi jumlah akun, jenis lisensi, serta urgensi operasionalnya."
+  },
+  {
+    "lembaga": "Badan Pemeriksa Keuangan",
+    "satker": "SEKRETARIAT JENDERAL",
+    "pagu": 1095730000,
+    "paket": "Pengadaan Bahan Penambah Daya Tahan Tubuh",
+    "inappropriateReason": "Pengadaan bahan penambah daya tahan tubuh bernilai sangat besar untuk lingkungan perkantoran pemeriksa negara tampak kurang selaras dengan kebutuhan inti organisasi. Dari judul dan spesifikasi yang sangat umum, manfaat operasionalnya tidak terukur dan berisiko menjadi belanja konsumtif nonprioritas."
+  },
+  {
+    "lembaga": "Provinsi Papua Tengah",
+    "satker": "BADAN PENGELOLA PENDAPATAN, KEUANGAN, DAN ASET DAERAH",
+    "pagu": 1090800000,
+    "paket": "Belanja Kawat/Faksimili/Internet/TV Berlangganan Kegiatan Penyediaan Jasa Komunikasi, Sumber Daya Air dan Listrik",
+    "inappropriateReason": "Pengadaan layanan internet dan TV berlangganan 40 Mbps dengan nilai anggaran sangat tinggi untuk satu paket, sehingga terdapat indikasi kuat ketidakwajaran biaya dan komponen layanan yang kurang esensial bagi fungsi administrasi keuangan/aset daerah. Nilai ini layak dicermati sebagai potensi pemborosan belanja operasional."
+  },
+  {
+    "lembaga": "Kab. Badung",
+    "satker": "Kecamatan Kuta",
+    "pagu": 1083296300,
+    "paket": "Belanja Kursus Singkat/Pelatihan (pemberdayaan masyarakat di kelurahan) (kelurahan kuta)",
+    "inappropriateReason": "Item barang sangat tidak lazim untuk paket kursus singkat/pelatihan pemberdayaan masyarakat karena mencampurkan ATK dengan pekerjaan fisik dan barang yang tampak tidak selaras dalam satu paket. Komposisi kebutuhan seperti ini mengindikasikan pengadaan kurang tepat sasaran dan berisiko besar tidak efisien."
+  },
+  {
+    "lembaga": "Kementerian Kesehatan",
+    "satker": "RUMAH SAKIT UMUM DR SARDJITO YOGYAKARTA",
+    "pagu": 1069744000,
+    "paket": "Penambah Daya Tahan Tubuh",
+    "inappropriateReason": "Pengadaan susu low fat sebagai penambah daya tahan tubuh untuk pegawai rumah sakit berindikasi tidak prioritas terhadap fungsi layanan kesehatan dan berpotensi menjadi belanja kesejahteraan pegawai yang kurang tepat dibebankan pada anggaran publik. Nilai anggaran juga sangat besar untuk 1 paket sehingga patut dicermati sebagai potensi pemborosan."
+  },
+  {
+    "lembaga": "Komisi Pemilihan Umum",
+    "satker": "KPU PROVINSI PAPUA BARAT DAYA",
+    "pagu": 1064160000,
+    "paket": "Pengadaan Sewa Kendaraan Dinas Operasional bagi Anggota KPU dan Sekretaris KPU Provinsi Papua Barat Daya Tahun Anggaran 2026",
+    "inappropriateReason": "Pengadaan sewa kendaraan dinas operasional berupa Mobil Fortuner bagi anggota dan sekretaris menunjukkan penggunaan kendaraan kelas menengah atas yang berpotensi berlebihan untuk fungsi administratif lembaga penyelenggara pemilu. Pemilihan tipe kendaraan yang terkesan premium dengan nilai anggaran besar menimbulkan kesan penggunaan dana publik yang tidak hemat dan berpotensi memicu kecemburuan sosial."
+  },
+  {
+    "lembaga": "Kementerian Perhubungan",
+    "satker": "BALAI PENGELOLA TRANSPORTASI DARAT WILAYAH XI PROV JAWA TIMUR",
+    "pagu": 996999000,
+    "paket": "Belanja Penambah Daya Tahan Tubuh Satpel TTA di Lingkungan BPTD Jatim",
+    "inappropriateReason": "Pengadaan belanja penambah daya tahan tubuh untuk periode 1 tahun dengan nilai sangat besar mendekati Rp1 miliar menimbulkan indikasi kuat belanja konsumtif yang kurang proporsional terhadap kebutuhan utama tugas instansi. Uraian juga sangat umum tanpa rincian volume atau spesifikasi terbuka, sehingga kewajaran anggaran layak dipertanyakan."
+  }
+]

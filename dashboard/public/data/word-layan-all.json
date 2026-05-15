@@ -1,1 +1,142 @@
-[]
+[
+  {
+    "lembaga": "Kementerian Pertahanan",
+    "satker": "KODIKDUKUM KODIKLATAL TNI AL",
+    "pagu": 126447721000,
+    "paket": "LAYANAN PERKANTORAN",
+    "inappropriateReason": "Nilai anggaran sangat besar untuk item yang hanya dijelaskan secara umum sebagai layanan perkantoran, tanpa rincian komponen, volume terukur, atau spesifikasi yang memadai. Uraian yang terlalu generik pada pengadaan barang meningkatkan risiko pemborosan dan menyulitkan penilaian kewajaran kebutuhan."
+  },
+  {
+    "lembaga": "Kementerian Pendidikan Dasar dan Menengah",
+    "satker": "PUSAT ASESMEN PENDIDIKAN",
+    "pagu": 22711760000,
+    "paket": "Belanja Perjalanan Dinas Paket Meeting Luar Kota-051 Persiapan Ujian Seleksi-QAA001 Peserta Pengujian Pendidikan yang Terlayani",
+    "inappropriateReason": "Pengadaan perjalanan dinas paket meeting luar kota untuk fungsi persiapan ujian seleksi bernilai sangat besar dan menggunakan jenis pengadaan barang, sehingga terdapat indikasi kuat belanja rapat/perjalanan tidak proporsional terhadap tujuan substantif layanan pendidikan. Pola ini layak dikategorikan tidak pantas dan berpotensi menimbulkan pemborosan anggaran yang signifikan."
+  },
+  {
+    "lembaga": "Kementerian Pertahanan",
+    "satker": "Mabes TNI AD TNI AD",
+    "pagu": 11235544000,
+    "paket": "Biaya Rapat Layanan Pemantauan",
+    "inappropriateReason": "Anggaran sangat besar untuk item yang pada judul dan spesifikasinya hanya berupa biaya rapat/layanan pemantauan, tanpa rincian kebutuhan barang yang memadai. Nilai ini menimbulkan indikasi kuat pemborosan dan ketidakpatutan penggunaan dana publik untuk belanja yang bersifat administratif/rapat."
+  },
+  {
+    "lembaga": "Provinsi DKI Jakarta",
+    "satker": "BADAN PENDAPATAN DAERAH",
+    "pagu": 5205759216,
+    "paket": "Pengelolaan Layanan Sosial Media Bapenda Tahun 2026",
+    "inappropriateReason": "Anggaran jasa pengelolaan layanan media sosial untuk instansi pendapatan daerah bernilai sangat besar dan berisiko tidak proporsional terhadap kebutuhan komunikasi publik. Nilai belanja ini layak dicermati sebagai potensi pemborosan karena manfaat langsung terhadap tugas inti pemungutan pendapatan tidak terlihat kuat dari informasi yang tersedia."
+  },
+  {
+    "lembaga": "Kementerian Pendidikan Dasar dan Menengah",
+    "satker": "INSPEKTORAT JENDERAL",
+    "pagu": 4970680000,
+    "paket": "Kegiatan Layanan Pengawasan SPIP Inspektorat I",
+    "inappropriateReason": "Pengadaan berisi paket rapat/pertemuan full board di luar kantor berikut transport, uang harian, dan penginapan dalam frekuensi tinggi. Untuk fungsi pengawasan internal, pola belanja seperti ini berisiko kuat tidak efisien karena menumpuk komponen perjalanan dan akomodasi yang dapat digantikan atau dikurangi melalui pertemuan di kantor/daring. Nilai anggaran sangat besar sehingga seluruh nilai layak dicermati sebagai potensi pemborosan."
+  },
+  {
+    "lembaga": "Lembaga Penyiaran Radio Republik Indonesia",
+    "satker": "KANTOR PUSAT LPP RRI",
+    "pagu": 3550000000,
+    "paket": "Layanan Aplikasi SMA (Sicial Media Analytic)  Social Media Listener",
+    "inappropriateReason": "Pengadaan layanan social media analytic/social media listener bernilai sangat besar untuk lembaga penyiaran publik memerlukan justifikasi manfaat yang kuat. Dari data yang tersedia, nilai paket tunggal Rp3,55 miliar tampak tinggi untuk layanan aplikasi dan berindikasi tidak proporsional, sehingga layak dikategorikan berisiko tinggi dan berpotensi pemborosan."
+  },
+  {
+    "lembaga": "Kementerian Pendidikan Dasar dan Menengah",
+    "satker": "INSPEKTORAT JENDERAL",
+    "pagu": 2864184000,
+    "paket": "Kegiatan Layanan Pengawasan SPIP Inspektorat II",
+    "inappropriateReason": "Pengadaan berupa paket rapat/pertemuan full board di luar kantor beserta transport dan penginapan berindikasi kuat tidak efisien untuk penggunaan dana publik, karena seluruh anggaran diarahkan pada aktivitas penunjang yang mahal dan dapat berpotensi digantikan dengan rapat di kantor atau format yang lebih hemat. Nilai anggaran sangat besar untuk kegiatan seremonial/koordinatif semacam ini."
+  },
+  {
+    "lembaga": "Kementerian Hukum",
+    "satker": "DIREKTORAT JENDERAL ADMINISTRASI HUKUM UMUM",
+    "pagu": 2614800000,
+    "paket": "Pengadaan Belanja Bahan Kegiatan Forum Komunikasi Masyarakat Terkait Layanan Hukum pada Sekretariat  Direktorat Jenderal Administrasi Hukum Umum Tahun Anggaran 2026",
+    "inappropriateReason": "Nilai anggaran sangat besar untuk paket bahan kegiatan forum yang komponennya dominan bersifat konsumsi rapat, seminar kit, cetak, ATK, dan bahan komputer untuk 67 peserta. Dari uraian yang tersedia, skala dan jenis belanja tidak tampak sebanding dengan pagu, sehingga terdapat indikasi kuat pemborosan/overbudgeting yang perlu ditelaah lebih lanjut."
+  },
+  {
+    "lembaga": "Kab. Kutai Timur",
+    "satker": "Dinas Komunikasi, Informatika, Statistik dan Persandian",
+    "pagu": 2217600000,
+    "paket": "LAYANAN PERANGKAT IOT TVCC UNTUK MENINGKATKAN LITERASI DIGITAL MASYARAKAT KUTAI TIMUR",
+    "inappropriateReason": "Pengadaan layanan siaran TV satelit dan paket konten video selama 12 bulan untuk tujuan peningkatan literasi digital daerah berindikasi kurang proporsional terhadap kebutuhan layanan publik inti. Spesifikasi dedicated channel broadcast satelit dan konten video berdurasi panjang menunjukkan belanja komunikasi yang mahal dan belum jelas urgensi serta efisiensinya dibanding kanal digital yang lebih hemat."
+  },
+  {
+    "lembaga": "Kab. Pangandaran",
+    "satker": "DINAS PARIWISATA DAN KEBUDAYAAN",
+    "pagu": 2112700000,
+    "paket": "Belanja Pembayaran Pelayanan Kesehatan di luar Cakupan Layanan BPJS",
+    "inappropriateReason": "Item berupa jaminan/asuransi kecelakaan bagi pengunjung destinasi dianggarkan oleh perangkat daerah pariwisata, sementara judul paket menyebut pembayaran pelayanan kesehatan di luar cakupan BPJS. Terdapat indikasi kuat ketidaksesuaian antara nomenklatur paket dan spesifikasi pengadaan, sehingga relevansi, dasar kebutuhan, dan kewajaran pembebanan anggaran perlu diuji. Seluruh nilai paket layak dicermati sebagai potensi pemborosan sampai kejelasan ruang lingkup dan dasar hukumnya terverifikasi."
+  },
+  {
+    "lembaga": "Kementerian Hukum",
+    "satker": "25 KANWIL PAPUA SETJEN",
+    "pagu": 1911689000,
+    "paket": "Belanja Modal Peralatan dan Mesin berupa AC Sentral Dll pada kegiatan layanan sarana internal pada Kanwil Kemenhukum Papua, TA, 2026",
+    "inappropriateReason": "Terdapat indikasi kuat ketidakpatutan pada pengadaan video wall bernilai sangat besar dibanding komponen sarana internal lainnya. Untuk konteks layanan sarana internal kantor, kebutuhan ini tampak kurang esensial dan berpotensi menjadi belanja yang tidak proporsional terhadap fungsi utama."
+  },
+  {
+    "lembaga": "Kementerian Pendidikan Dasar dan Menengah",
+    "satker": "INSPEKTORAT JENDERAL",
+    "pagu": 1771278000,
+    "paket": "Kegiatan Layanan Manajemen Keuangan Inspektorat Jenderal",
+    "inappropriateReason": "Pengadaan paket rapat/pertemuan full board di luar kantor untuk fungsi manajemen keuangan pengawasan internal bernilai sangat besar dan berpotensi tidak efisien. Kegiatan administratif semacam ini pada prinsipnya dapat dilaksanakan di kantor atau melalui skema yang lebih hemat, sehingga keseluruhan nilai patut dipandang sebagai pemborosan yang sangat mencolok."
+  },
+  {
+    "lembaga": "Kementerian Pendidikan Dasar dan Menengah",
+    "satker": "INSPEKTORAT JENDERAL",
+    "pagu": 1375974000,
+    "paket": "Kegiatan Layanan pengawasan SPIP Inspektorat III",
+    "inappropriateReason": "Pengadaan berupa paket rapat/pertemuan full board di luar kantor berikut penginapan dan transport untuk fungsi pengawasan internal berindikasi kuat tidak efisien karena bersifat seremonial/perjalanan dan bukan kebutuhan barang inti. Dengan volume berulang, seluruh nilai pengadaan layak dicermati sebagai potensi pemborosan."
+  },
+  {
+    "lembaga": "Kementerian Imigrasi dan Pemasyarakatan",
+    "satker": "Perwakilan Imigrasi KJRI Johor Bahru",
+    "pagu": 1370500000,
+    "paket": "Pengadaan Belanja Modal Peralatan dan Mesin Layanan Keimigrasian di Perwakilan RI di Johor Bahru TA 2026",
+    "inappropriateReason": "Terdapat pengadaan kendaraan senilai sangat dominan dalam paket peralatan layanan keimigrasian. Berdasarkan judul dan rincian item, keberadaan mobil penerangan darat kurang selaras dengan karakter kebutuhan layanan peralatan dan mesin kantor, sehingga berindikasi kuat sebagai belanja yang tidak proporsional dan layak ditelaah lebih lanjut."
+  },
+  {
+    "lembaga": "Kementerian Pendidikan Dasar dan Menengah",
+    "satker": "INSPEKTORAT JENDERAL",
+    "pagu": 1331640000,
+    "paket": "Kegiatan Layanan Pengawasan Dana Transfer Daerah Inspektorat I",
+    "inappropriateReason": "Pengadaan berupa paket rapat/pertemuan full board di luar kantor disertai transport dan penginapan untuk 10 frekuensi berpotensi tidak efisien karena manfaat substantifnya tidak tampak sebagai barang prioritas dan cenderung bersifat belanja penunjang yang mahal. Nilainya besar sehingga layak dicermati sebagai potensi pemborosan anggaran."
+  },
+  {
+    "lembaga": "Kementerian Pendidikan Dasar dan Menengah",
+    "satker": "INSPEKTORAT JENDERAL",
+    "pagu": 1287312000,
+    "paket": "Kegiatan Layanan Pemantauan dan Evaluasi Inspektorat Jenderal",
+    "inappropriateReason": "Pengadaan paket rapat/pertemuan full board di luar kantor sebanyak 14 frekuensi dengan nilai sangat besar menunjukkan penggunaan anggaran yang berpotensi tidak hemat karena fungsi rapat pada umumnya dapat dilakukan di kantor atau secara lebih efisien. Dalam konteks unit pengawasan internal, pola belanja ini menimbulkan kesan pemborosan dan kurang selaras dengan prinsip efisiensi belanja publik."
+  },
+  {
+    "lembaga": "Kementerian Pendidikan Dasar dan Menengah",
+    "satker": "INSPEKTORAT JENDERAL",
+    "pagu": 1237920000,
+    "paket": "Kegiatan Layanan Tindak Lanjut Rekomendasi Laporan Hasil Pemeriksaan Investigasi Inspektorat Investigasi",
+    "inappropriateReason": "Pengadaan berupa rapat/pertemuan full board di luar kantor beserta transport dan penginapan untuk tindak lanjut hasil pemeriksaan investigasi berindikasi kurang efisien karena substansinya pada dasarnya dapat dilaksanakan di kantor atau secara lebih hemat. Komponen perjalanan dan akomodasi berpotensi menjadikan seluruh anggaran sebagai pemborosan yang layak dicermati."
+  },
+  {
+    "lembaga": "Arsip Nasional Republik Indonesia",
+    "satker": "PUSAT DATA INFORMASI DAN JASA TEKNIS KEARSIPAN",
+    "pagu": 1234755000,
+    "paket": "Belanja Bahan Kegiatan Pelaksanaan Layanan Jasa Pemeliharaan dan Perawatan Arsip",
+    "inappropriateReason": "Terdapat komponen yang indikatif tidak selaras dengan kebutuhan bahan pemeliharaan/perawatan arsip, khususnya bahan promosi (gift set) dalam jumlah besar. Selain itu, harga satuan beberapa material konservasi tampak sangat tinggi sehingga layak diaudit kewajaran harganya. Indikasi ini menunjukkan potensi pemborosan signifikan, meski masih memerlukan verifikasi pasar dan kebutuhan riil."
+  },
+  {
+    "lembaga": "Kementerian Pendidikan Dasar dan Menengah",
+    "satker": "INSPEKTORAT JENDERAL",
+    "pagu": 1228162000,
+    "paket": "Kegiatan Layanan Pengawasan Dana Transfer Daerah Inspektorat II",
+    "inappropriateReason": "Pengadaan berupa paket rapat/pertemuan full board di luar kantor beserta penginapan dan transport untuk 15 frekuensi berindikasi kuat tidak efisien karena komponen utamanya adalah kegiatan pendukung administratif, bukan output pengawasan substantif. Nilai anggaran yang sangat besar untuk pola kegiatan tatap muka berulang di luar kantor layak dinilai sebagai potensi pemborosan tinggi."
+  },
+  {
+    "lembaga": "Kementerian Imigrasi dan Pemasyarakatan",
+    "satker": "IM13 KANTOR IMIGRASI KELAS II NON TPI WONOSOBO",
+    "pagu": 1100000000,
+    "paket": "Pengadaan Mobil Unit Penerangan Darat Kegiatan Layanan Sarana Internal Kendaraan Bermotor pada Kantor Imigrasi Kelas II Non TPI Wonosobo Jawa Tengah Tahun Anggaran 2026",
+    "inappropriateReason": "Item berupa mobil unit penerangan darat senilai sangat besar untuk kantor imigrasi kelas II non-TPI menimbulkan indikasi kuat ketidaksesuaian dengan kebutuhan layanan inti. Spesifikasi dan harga per unit juga tampak tidak wajar dibanding pagu yang tersedia, sehingga seluruh nilai pengadaan layak dicermati sebagai potensi pemborosan."
+  }
+]

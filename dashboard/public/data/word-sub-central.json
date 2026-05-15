@@ -1,1 +1,86 @@
-[]
+[
+  {
+    "lembaga": "Kementerian Koordinator Bidang Politik dan Keamanan",
+    "satker": "Kemenko Polkam",
+    "pagu": 5000000000,
+    "paket": "TANPA SUB KOMPONEN",
+    "inappropriateReason": "Pengadaan barang dengan metode dikecualikan untuk belanja perjalanan dinas paket meeting luar kota senilai sangat besar menimbulkan indikasi kuat ketidaktepatan klasifikasi dan potensi pemborosan, karena kegiatan rapat perjalanan dinas bukan kebutuhan barang yang lazim serta nilai anggarannya sangat tinggi untuk satu paket."
+  },
+  {
+    "lembaga": "Kementerian Pendidikan Dasar dan Menengah",
+    "satker": "SEKRETARIAT DITJEN PENDIDIKAN ANAK USIA DINI PENDIDIKAN DASAR DAN PENDIDIKAN MENENGAH",
+    "pagu": 3600000000,
+    "paket": "Pengadaan Jasa Transport Petugas/Tiket Kegiatan Sub Komponen Monev Quick Win Program Prabowo Gibran Makan Bergizi Gratis ke Satuan Pendidikan",
+    "inappropriateReason": "Pengadaan jasa transport petugas senilai sangat besar untuk kegiatan yang dikaitkan dengan program politik tertentu menimbulkan indikasi ketidakselarasan dengan kebutuhan operasional yang lazim. Uraian sangat umum, hanya 1 paket, dan metode dikecualikan membatasi pembenaran kewajaran biaya sehingga layak dikategorikan berisiko tinggi."
+  },
+  {
+    "lembaga": "Kementerian Pendidikan Dasar dan Menengah",
+    "satker": "SEKRETARIAT DITJEN PENDIDIKAN ANAK USIA DINI PENDIDIKAN DASAR DAN PENDIDIKAN MENENGAH",
+    "pagu": 600000000,
+    "paket": "Pemeliharaan Lapangan Tenis Pendukung Kegiatan Sub Komponen Pemeliharaan Gedung Khusus",
+    "inappropriateReason": "Pemeliharaan lapangan tenis pada unit sekretariat pendidikan tampak kurang prioritas dibanding fungsi utama layanan pendidikan. Nilai anggaran juga signifikan untuk pekerjaan pemeliharaan fasilitas olahraga internal, sehingga terdapat indikasi kuat penggunaan dana yang kurang selaras dengan kebutuhan inti dan berpotensi menimbulkan pemborosan."
+  },
+  {
+    "lembaga": "Kementerian Pendidikan Dasar dan Menengah",
+    "satker": "SEKRETARIAT DITJEN PENDIDIKAN ANAK USIA DINI PENDIDIKAN DASAR DAN PENDIDIKAN MENENGAH",
+    "pagu": 600000000,
+    "paket": "Pengadaan Tanaman Hias Pendukung Kegiatan Sub Komponen Keperluan Sehari-hari Perkantoran",
+    "inappropriateReason": "Pengadaan tanaman hias untuk keperluan sehari-hari perkantoran dengan nilai sangat besar menimbulkan indikasi kuat pembelanjaan non-prioritas dan tidak proporsional terhadap fungsi layanan publik. Dari judul, spesifikasi, dan pagu yang tersedia, belanja ini berisiko kuat merupakan pengeluaran yang berlebihan."
+  },
+  {
+    "lembaga": "Kementerian Perdagangan",
+    "satker": "SEKRETARIAT JENDERAL KEMENTERIAN PERDAGANGAN",
+    "pagu": 484421000,
+    "paket": "TANPA SUB KOMPONEN",
+    "inappropriateReason": "Terdapat indikasi kuat pemborosan pada komponen perjalanan dinas, khususnya tiket PP @ Rp26.880.000 untuk 6 orang dan lumpsum @ Rp5.600.000 untuk 48 OH, yang tampak sangat tinggi dibanding komponen lain dalam paket. Paket juga mencampur rapat, ATK, penggandaan, dan perjalanan dinas dalam satu pengadaan barang, sehingga relevansi dan kewajarannya perlu dicermati lebih lanjut."
+  },
+  {
+    "lembaga": "Kementerian Pendidikan Dasar dan Menengah",
+    "satker": "SEKRETARIAT DITJEN PENDIDIKAN ANAK USIA DINI PENDIDIKAN DASAR DAN PENDIDIKAN MENENGAH",
+    "pagu": 300000000,
+    "paket": "Jasa TV Kabel Sub Komponen Langganan Daya dan Jasa",
+    "inappropriateReason": "Pengadaan langganan TV kabel selama 12 bulan pada unit sekretariat kementerian pendidikan tampak tidak esensial terhadap fungsi utama layanan publik dan berisiko menjadi belanja kenyamanan internal. Dengan uraian yang sangat umum tanpa justifikasi kebutuhan operasional yang spesifik, seluruh nilai anggaran layak dicermati sebagai potensi pemborosan."
+  },
+  {
+    "lembaga": "Kementerian Pendidikan Dasar dan Menengah",
+    "satker": "SEKRETARIAT DITJEN PENDIDIKAN ANAK USIA DINI PENDIDIKAN DASAR DAN PENDIDIKAN MENENGAH",
+    "pagu": 90000000,
+    "paket": "Pengadaan Jasa Kata AI Pendukung Kegiatan Sub Komponen Manajemen Operasional Penunjang Tusi dan Ouput Publikasi dan Layanan Publik",
+    "inappropriateReason": "Pengadaan jasa bertajuk 'Kata AI' dengan uraian dan spesifikasi yang sangat minimal tidak menunjukkan keluaran, kebutuhan, maupun ruang lingkup yang terukur. Nilai anggaran penuh berindikasi berisiko tidak efisien karena objek belanja tidak jelas untuk diverifikasi manfaatnya dalam dukungan operasional dan layanan publik."
+  },
+  {
+    "lembaga": "Kementerian Perhubungan",
+    "satker": "BALAI PENGELOLA TRANSPORTASI DARAT KELAS II SULAWESI TENGGARA",
+    "pagu": 80000000,
+    "paket": "Sewa Bangunan Untuk Rumah Dinas Kepala Sub Bagian Tata Usaha",
+    "inappropriateReason": "Pengadaan sewa bangunan untuk rumah dinas jabatan administrasi setingkat kepala subbagian menimbulkan indikasi penggunaan anggaran yang kurang proporsional terhadap kebutuhan kedinasan. Dari judul dan spesifikasi, manfaat publik langsung tidak terlihat dan seluruh nilai pengadaan patut dicermati sebagai potensi pemborosan."
+  },
+  {
+    "lembaga": "Kementerian Kependudukan dan Pembangunan Keluarga/BKKBN",
+    "satker": "Deputi Bidang Penggerakan dan Peran Serta Masyarakat",
+    "pagu": 72938000,
+    "paket": "Belanja Penambah Daya Tahan Tubuh TANPA SUB KOMPONEN",
+    "inappropriateReason": "Pengadaan bertajuk penambah daya tahan tubuh senilai besar dalam satu paket, tanpa rincian komponen dan spesifikasi substantif, berisiko tidak tepat guna serta sulit diuji kewajaran kebutuhannya. Dalam konteks belanja pemerintah, item seperti ini lebih menyerupai konsumsi/suplemen yang perlu justifikasi sangat kuat agar tidak menjadi pengeluaran yang tidak esensial."
+  },
+  {
+    "lembaga": "Kementerian  Kehutanan",
+    "satker": "693723 BALAI PENGENDALIAN KEBAKARAN HUTAN WILAYAH SULAWESI",
+    "pagu": 29000000,
+    "paket": "Sewa Rumah untuk Rumah pejabat Struktural Eselon IV Kepala Sub Bagian Tata Usaha",
+    "inappropriateReason": "Pengadaan sewa rumah jabatan untuk pejabat struktural eselon IV/subbagian tata usaha terindikasi kurang selaras dengan prinsip efisiensi belanja dan berisiko menjadi fasilitas nonprioritas. Dari judul dan spesifikasi, manfaatnya bersifat personal bagi jabatan administratif, sehingga patut dinilai sebagai pengeluaran yang tidak mendesak."
+  },
+  {
+    "lembaga": "Kementerian Agama",
+    "satker": "KANTOR KEMENTERIAN AGAMA KAB KENDAL 417037",
+    "pagu": 24350000,
+    "paket": "Beautifikasi Ruang Kepala dan Ruang Sub Bag TU",
+    "inappropriateReason": "Pengadaan beautifikasi ruang pimpinan dan ruang layanan/administrasi bersifat kosmetik dan tidak menunjukkan urgensi layanan publik yang kuat. Fokus pada penataan estetika ruang kepala menimbulkan indikasi penggunaan anggaran yang kurang prioritas dibanding kebutuhan operasional esensial."
+  },
+  {
+    "lembaga": "Kementerian Dalam Negeri",
+    "satker": "DIREKTORAT JENDERAL BINA ADMINISTRASI KEWILAYAHAN",
+    "pagu": 3500000,
+    "paket": "BELANJA HONOR OUTPUT KEGIATAN BIMBINGAN VALIDASI CAPAIAN PENERAPAN SPM SUB URUSAN KEBAKARAN DI DAERAH",
+    "inappropriateReason": "Item diklasifikasikan sebagai pengadaan barang, namun judul menunjukkan belanja honor untuk kegiatan bimbingan/validasi. Ketidaksesuaian antara jenis pengadaan dan substansi belanja merupakan indikasi kuat penggunaan mekanisme pengadaan yang tidak tepat dan berpotensi menimbulkan pemborosan sebesar nilai anggaran yang tercantum."
+  }
+]

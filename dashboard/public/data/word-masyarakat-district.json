@@ -1,1 +1,142 @@
-[]
+[
+  {
+    "lembaga": "Provinsi Lampung",
+    "satker": "Sekretariat DPRD",
+    "pagu": 30960700000,
+    "paket": "Belanja Jasa Iklan/Reklame, Film, dan Pemotretan Sub Kegiatan Hubungan Masyarakat",
+    "inappropriateReason": "Anggaran jasa iklan, advertorial, media online, dan billboard/baleho dengan nilai sangat besar untuk fungsi kehumasan Sekretariat DPRD menimbulkan indikasi kuat pemborosan dan ketidakpatutan penggunaan dana publik. Dari judul dan uraian, pengeluaran promosi/publikasi ini tampak berlebihan serta berpotensi memicu kecemburuan sosial."
+  },
+  {
+    "lembaga": "Kab. Aceh Utara",
+    "satker": "Dinas Syariat Islam",
+    "pagu": 17892000000,
+    "paket": "Belanja Hibah Barang kepada Badan dan Lembaga Nirlaba, Sukarela Bersifat Sosial Kemasyarakatan",
+    "inappropriateReason": "Pengadaan hibah barang berupa kendaraan roda dua dalam jumlah paket besar untuk lembaga sosial kemasyarakatan menimbulkan indikasi ketidakselarasan fungsi dan manfaat publik yang perlu diuji ketat. Dari informasi yang tersedia, relevansi, dasar kebutuhan, penerima manfaat, dan proporsionalitas anggaran sangat lemah sehingga seluruh nilai patut dicermati sebagai potensi pemborosan."
+  },
+  {
+    "lembaga": "Provinsi Jawa Tengah",
+    "satker": "SEKRETARIAT DEWAN PERWAKILAN RAKYAT DAERAH",
+    "pagu": 10125000000,
+    "paket": "Belanja Jasa Iklan/Reklame, Film, dan Pemotretan (Penyelenggaraan Hubungan Masyarakat)",
+    "inappropriateReason": "Anggaran jasa iklan/reklame, film, dan pemotretan untuk fungsi hubungan masyarakat pada sekretariat legislatif dengan nilai sangat besar dalam satu paket menimbulkan indikasi kuat pengeluaran berlebihan dan tidak proporsional terhadap kebutuhan wajar komunikasi publik."
+  },
+  {
+    "lembaga": "Kab. Yalimo",
+    "satker": "DINAS PERDAGANGAN DAN PERINDUTRIAN",
+    "pagu": 9141315500,
+    "paket": "Pengadaan Barang untuk Dijual/Diserahkan kepada Masyarakat",
+    "inappropriateReason": "Terdapat komponen barang konsumsi berupa rokok dalam pengadaan bantuan untuk masyarakat/dukungan usaha. Penggunaan APBD untuk pengadaan rokok sangat tidak patut dan berisiko menimbulkan kecemburuan sosial serta tidak selaras dengan prinsip belanja publik yang berorientasi manfaat. Selain itu, paket mencampur banyak jenis bantuan modal dan barang konsumsi yang sangat beragam dalam satu paket besar, sehingga kewajaran kebutuhan dan akuntabilitasnya patut dipertanyakan."
+  },
+  {
+    "lembaga": "Kab. Jepara",
+    "satker": "Dinas Kesehatan",
+    "pagu": 7825058000,
+    "paket": "Belanja Perjalanan Dinas Paket Meeting Dalam Kota - Pengelolaan Pelayanan Kesehatan Gizi Masyarakat",
+    "inappropriateReason": "Nilai anggaran sangat besar untuk paket perjalanan dinas/meeting dalam kota berbentuk 1 paket halfday di luar kantor. Dari judul dan uraian, belanja ini berindikasi kuat tidak proporsional terhadap kebutuhan rapat lokal dan berpotensi merupakan pemborosan anggaran yang ekstrem."
+  },
+  {
+    "lembaga": "Provinsi Papua Selatan",
+    "satker": "Sekretariat Dewan Perwakilan Rakyat Papua Selatan",
+    "pagu": 6825000000,
+    "paket": "barang yang diserahkan kepada masyarakat",
+    "inappropriateReason": "Indikasi sangat tidak pantas dan berpotensi pemborosan sangat tinggi: belanja barang untuk diserahkan kepada masyarakat dalam kegiatan reses pimpinan dan anggota DPR tidak lazim sebagai kebutuhan langsung fungsi kedewanan. Nilai anggaran sangat besar untuk volume 35 orang x 2 kegiatan sehingga menimbulkan kesan penggunaan APBD untuk pemberian barang dalam agenda politik/reses, bukan kebutuhan publik yang terukur."
+  },
+  {
+    "lembaga": "Provinsi Lampung",
+    "satker": "Biro Kesejahteraan Rakyat",
+    "pagu": 6600000000,
+    "paket": "Belanja Jasa yang Diberikan kepada Pihak Ketiga/Pihak Lain/Masyarakat Berupa Umroh Ke Tanah Suci Mekah/Madinah",
+    "inappropriateReason": "Penggunaan APBD untuk pembiayaan perjalanan umroh bagi pihak lain/masyarakat merupakan belanja yang sangat rentan dinilai tidak relevan dengan prioritas layanan publik dan berpotensi menimbulkan kecemburuan sosial. Dari judul, jenis belanja ini tampak sebagai pembiayaan ibadah non-esensial dengan manfaat publik yang tidak terukur, sehingga seluruh nilai patut dicermati sebagai potensi pemborosan."
+  },
+  {
+    "lembaga": "Provinsi Sulawesi Tengah",
+    "satker": "Dinas Pemuda dan Olah Raga Provinsi Sulawesi Tengah",
+    "pagu": 4854003000,
+    "paket": "Belanja Hibah Barang kepada Badan dan Lembaga Nirlaba, Sukarela Bersifat Sosial Kemasyarakatan",
+    "inappropriateReason": "Pengadaan hibah barang berupa kendaraan bermotor penumpang dengan nilai sangat besar pada perangkat daerah bidang pemuda dan olahraga patut dicermati karena berisiko tidak proporsional terhadap fungsi layanan publik utama. Judul dan spesifikasi menunjukkan fokus pada mobil penumpang, sementara urgensi, penerima manfaat, dan dasar kebutuhan hibah tidak tampak jelas dari data yang tersedia."
+  },
+  {
+    "lembaga": "Provinsi Sulawesi Selatan",
+    "satker": "BADAN PENDAPATAN DAERAH",
+    "pagu": 3937554800,
+    "paket": "Belanja Barang untuk Dijual/Diserahkan kepada Masyarakat Gebyar Pajak Daerah",
+    "inappropriateReason": "Pengadaan hadiah gebyar pajak berupa paket umroh, sepeda motor, kulkas, mesin cuci, sepeda, dan televisi berisiko tinggi tidak proporsional terhadap penggunaan APBD karena bersifat konsumtif, memicu kesan pemborosan, dan berpotensi menimbulkan kecemburuan sosial. Dari judul dan spesifikasi, item tampak lebih menyerupai doorprize/promosi daripada kebutuhan layanan publik yang esensial."
+  },
+  {
+    "lembaga": "Provinsi Papua Selatan",
+    "satker": "Sekretariat Dewan Perwakilan Rakyat Papua Selatan",
+    "pagu": 3648000000,
+    "paket": "barang yang diserahkan kepada masyarakat",
+    "inappropriateReason": "Indikasi kuat ketidakselarasan penggunaan anggaran karena pengadaan disebut sebagai barang untuk diserahkan kepada masyarakat, namun spesifikasinya terkait kegiatan hearing anggota dewan. Uraian dan volume juga tidak menunjukkan kebutuhan barang yang jelas, sehingga seluruh nilai patut dicermati sebagai potensi pemborosan."
+  },
+  {
+    "lembaga": "Provinsi Papua Selatan",
+    "satker": "Sekretariat Dewan Perwakilan Rakyat Papua Selatan",
+    "pagu": 3344000000,
+    "paket": "Belanja Barang untuk Dijual/Diserahkan kepada Masyarakat",
+    "inappropriateReason": "Pengadaan belanja barang untuk diserahkan kepada masyarakat dalam kegiatan hearing anggota DPR bernilai sangat besar dan dilakukan melalui pengadaan langsung. Dari uraian yang tersedia, keterkaitan barang yang dibagikan dengan fungsi hearing tidak jelas dan berisiko tinggi menjadi belanja populis yang tidak proporsional terhadap tujuan kegiatan."
+  },
+  {
+    "lembaga": "Kab. Ogan Ilir",
+    "satker": "Dinas ketahanan pangan dan Pertanian",
+    "pagu": 3162730000,
+    "paket": "Belanja Barang untuk Dijual/Diserahkan kepada Masyarakat (Jalan Cor Beton)",
+    "inappropriateReason": "Terdapat indikasi kuat ketidaksesuaian objek pengadaan karena uraian dan spesifikasi mencampur barang hand sprayer elektrik 16 liter dengan pekerjaan jalan cor beton dalam satu paket konstruksi. Pencampuran item yang tidak sejenis ini tidak lazim, menyulitkan justifikasi kebutuhan, dan berpotensi menyebabkan penggunaan anggaran tidak tepat sasaran."
+  },
+  {
+    "lembaga": "Kota Palembang",
+    "satker": "Bagian Kesejahteraan Rakyat",
+    "pagu": 3006000000,
+    "paket": "Belanja Jasa yang Diberikan kepada Masyarakat Pemberangkatan Umroh",
+    "inappropriateReason": "Penggunaan APBD untuk pemberangkatan umroh bagi masyarakat merupakan belanja yang sangat tidak esensial bagi layanan publik inti dan berisiko kuat menimbulkan ketidakpatutan serta kecemburuan sosial. Dari judul dan uraian, seluruh nilai pengadaan terindikasi merupakan pengeluaran yang tidak mendesak dan tidak berkaitan langsung dengan kebutuhan operasional pemerintahan."
+  },
+  {
+    "lembaga": "Provinsi Lampung",
+    "satker": "Biro Kesejahteraan Rakyat",
+    "pagu": 2829000000,
+    "paket": "Belanja Jasa yang Diberikan kepada Pihak Ketiga/Pihak Lain/Masyarakat Berupa Belanja Jasa Ziarah Wisata Rohani",
+    "inappropriateReason": "Pengadaan jasa ziarah/wisata rohani bagi peserta lintas agama dengan dana publik daerah berindikasi kuat tidak mendesak dan tidak proporsional sebagai belanja pemerintah. Dari judul dan uraian, anggaran digunakan untuk membiayai perjalanan/partisipasi kegiatan religius masyarakat, sehingga sangat rawan dipersepsikan sebagai penggunaan APBD yang tidak patut dan memicu kecemburuan sosial."
+  },
+  {
+    "lembaga": "Kab. Kutai Kartanegara",
+    "satker": "Dinas Kepemudaan dan Olahraga",
+    "pagu": 2755870000,
+    "paket": "Belanja Barang untuk Dijual/Diserahkan kepada Masyarakat - Doorprize Senam Kutai Kartanegara",
+    "inappropriateReason": "Pengadaan doorprize senam berupa barang konsumtif dan elektronik dalam nilai sangat besar menunjukkan penggunaan anggaran publik yang sangat tidak prioritas untuk kegiatan seremonial/hiburan. Dari judul dan spesifikasi, belanja ini berisiko kuat menimbulkan pemborosan karena manfaat publik langsung dan urgensinya tidak sebanding dengan nilai anggaran."
+  },
+  {
+    "lembaga": "Provinsi Papua Selatan",
+    "satker": "Sekretariat Dewan Perwakilan Rakyat Papua Selatan",
+    "pagu": 2736000000,
+    "paket": "barang yang diserahkan kepada masyarakat",
+    "inappropriateReason": "Pengadaan belanja barang untuk kegiatan hearing anggota DPR diklasifikasikan sebagai barang yang diserahkan kepada masyarakat, dengan nilai sangat besar dan durasi 9 orang x 8 bulan. Dari konteks yang tersedia, terdapat indikasi kuat bahwa belanja ini tidak proporsional dan berpotensi tidak selaras dengan kebutuhan substantif kegiatan hearing."
+  },
+  {
+    "lembaga": "Provinsi Papua Selatan",
+    "satker": "Sekretariat Dewan Perwakilan Rakyat Papua Selatan",
+    "pagu": 2432000000,
+    "paket": "barang yang diserahkan kepada masyarakat",
+    "inappropriateReason": "Indikasi kuat ketidakpatutan karena pengadaan diklasifikasikan sebagai barang untuk diserahkan kepada masyarakat, namun spesifikasi menyebut belanja barang untuk kegiatan hearing anggota dewan. Uraian dan tujuan belanja tampak tidak selaras, sehingga seluruh nilai anggaran layak dicermati sebagai potensi pemborosan atau salah klasifikasi belanja."
+  },
+  {
+    "lembaga": "Kab. Kepulauan Yapen",
+    "satker": "Dinas Pekerjaan Umum, Penataan Ruang, Perumahan dan Kawasan Permukiman",
+    "pagu": 2300000000,
+    "paket": "Belanja Barang untuk Dijual/Diserahkan kepada Masyarakat",
+    "inappropriateReason": "Pengadaan konstruksi untuk pembangunan gedung gereja dan kantor klasis dengan dana publik melalui satuan kerja urusan pekerjaan umum menimbulkan indikasi kuat ketidakselarasan dengan prioritas layanan publik yang netral dan kebutuhan pemerintahan. Seluruh nilai paket berpotensi merupakan belanja yang tidak semestinya bila tujuan utamanya mendanai fasilitas organisasi keagamaan."
+  },
+  {
+    "lembaga": "Kab. Kutai Timur",
+    "satker": "Dinas Komunikasi, Informatika, Statistik dan Persandian",
+    "pagu": 2217600000,
+    "paket": "LAYANAN PERANGKAT IOT TVCC UNTUK MENINGKATKAN LITERASI DIGITAL MASYARAKAT KUTAI TIMUR",
+    "inappropriateReason": "Pengadaan layanan siaran TV satelit dan paket konten video selama 12 bulan untuk tujuan peningkatan literasi digital daerah berindikasi kurang proporsional terhadap kebutuhan layanan publik inti. Spesifikasi dedicated channel broadcast satelit dan konten video berdurasi panjang menunjukkan belanja komunikasi yang mahal dan belum jelas urgensi serta efisiensinya dibanding kanal digital yang lebih hemat."
+  },
+  {
+    "lembaga": "Kab. Mimika",
+    "satker": "Distrik Mimika Baru",
+    "pagu": 2200000000,
+    "paket": "Sinkronisasi Program Kerja dan Kegiatan Pemberdayaan Masyarakat yang Dilakukan oleh Pemerintah dan Swasta di Wilayah Kerja Kecamatan",
+    "inappropriateReason": "Nilai anggaran sangat besar untuk pengadaan langsung 1 paket dengan spesifikasi yang sangat umum, yaitu operasional kebersihan, sementara judul kegiatan terkait sinkronisasi program pemberdayaan masyarakat. Terdapat indikasi kuat ketidaksesuaian antara tujuan kegiatan dan objek belanja serta risiko pemborosan karena uraian barang/jasa tidak rinci."
+  }
+]

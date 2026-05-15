@@ -1,1 +1,142 @@
-[]
+[
+  {
+    "lembaga": "Kota Samarinda",
+    "satker": "Dinas Pekerjaan Umum dan Penataan Ruang Kota Samarinda",
+    "pagu": 19500000000,
+    "paket": "Pembangunan Rumah Jabatan Wakil Walikota Samarinda",
+    "inappropriateReason": "Pembangunan rumah jabatan wakil kepala daerah senilai sangat besar berpotensi tidak proporsional terhadap prioritas belanja publik. Dari judul dan spesifikasi, pengadaan ini lebih bersifat fasilitas jabatan daripada layanan publik langsung, sehingga layak dikategorikan berisiko tinggi untuk pemborosan anggaran."
+  },
+  {
+    "lembaga": "Kab. Mempawah",
+    "satker": "Dinas Pekerjaan Umum dan Penataan Ruang",
+    "pagu": 15000000000,
+    "paket": "Rumah Dinas Bupati",
+    "inappropriateReason": "Pengadaan rumah dinas kepala daerah dengan nilai sangat besar menimbulkan indikasi kuat penggunaan anggaran yang tidak proporsional dan berpotensi memicu kecemburuan sosial. Dari judul dan nilai paket saja, belanja ini tampak sebagai fasilitas pejabat yang mewah dibanding kebutuhan layanan publik yang lebih prioritas."
+  },
+  {
+    "lembaga": "Provinsi Sulawesi Selatan",
+    "satker": "BIRO UMUM",
+    "pagu": 13673478000,
+    "paket": "Belanja Modal Rumah Negara Golongan I-Pekerjaan Rehab/Perbaikan Rumah Jabatan Wakil Gubernur -Perawatan Gedung Sederhana",
+    "inappropriateReason": "Nilai anggaran sangat besar untuk pekerjaan rehab/perawatan rumah jabatan yang diklasifikasikan sebagai perawatan gedung sederhana. Dari judul dan spesifikasi yang tersedia, penggunaan dana publik pada level ini tampak berlebihan dan berpotensi menimbulkan kesan pembelanjaan fasilitas pejabat yang tidak patut."
+  },
+  {
+    "lembaga": "Kota Cimahi",
+    "satker": "Dinas Pekerjaan Umum dan Penataan Ruang",
+    "pagu": 12341014560,
+    "paket": "Pembangunan Lanjutan Rumah Dinas Wali Kota dan Wakil Wali Kota Cimahi",
+    "inappropriateReason": "Pembangunan lanjutan rumah dinas kepala daerah tipe A dengan nilai sangat besar berindikasi kuat tidak proporsional terhadap prinsip efisiensi belanja publik. Dari judul dan nilai anggaran, pengadaan ini berpotensi memicu kesan penggunaan APBD untuk fasilitas pejabat yang mewah dan tidak mendesak."
+  },
+  {
+    "lembaga": "Kab. Siak",
+    "satker": "SEKRETARIAT DEWAN PERWAKILAN RAKYAT DAERAH",
+    "pagu": 11400000000,
+    "paket": "Belanja Sewa Alat Rumah Tangga Lainnya (Home Use)",
+    "inappropriateReason": "Nilai anggaran untuk sewa tenda, sound system, dan kursi plastik dalam satu paket sangat besar dibanding jenis barang/jasa yang bersifat sederhana dan umum. Dengan uraian yang berulang tanpa rincian volume, durasi, frekuensi, atau skala kebutuhan yang memadai, terdapat indikasi kuat pemborosan dan kewajaran biaya perlu diuji lebih lanjut."
+  },
+  {
+    "lembaga": "Provinsi Riau",
+    "satker": "DINAS PEKERJAAN UMUM, PENATAAN RUANG, PERUMAHAN, KAWASAN PERMUKIMAN DAN PERTANAHAN",
+    "pagu": 10059818555,
+    "paket": "Pembangunan Rumah Rektor dan Wakil Rektor Unri",
+    "inappropriateReason": "Pengadaan pembangunan rumah jabatan untuk rektor dan wakil rektor dengan dana APBD bernilai sangat besar menimbulkan indikasi kuat ketidakpatutan penggunaan anggaran publik karena bersifat fasilitas hunian pejabat, bukan layanan publik yang mendesak. Dari judul dan nilainya, item ini berpotensi memicu kecemburuan sosial dan layak dikategorikan sangat tidak pantas."
+  },
+  {
+    "lembaga": "Kota Balikpapan",
+    "satker": "DINAS PEKERJAAN UMUM",
+    "pagu": 8651379000,
+    "paket": "Rehab Rumah Dinas dan Gedung Kantor Kejaksaan Tinggi Kalimantan Timur",
+    "inappropriateReason": "Indikasi ketidakselarasan kewenangan: anggaran APBD pemerintah kota melalui dinas pekerjaan umum digunakan untuk rehabilitasi rumah dinas dan gedung kantor institusi vertikal kejaksaan. Dari data yang tersedia, pembiayaan penuh atas aset/kantor lembaga lain berisiko tidak tepat prioritas dan layak diaudit lebih lanjut."
+  },
+  {
+    "lembaga": "Kab. Nunukan",
+    "satker": "DINAS KOMUNIKASI, INFORMATIKA, STATISTIK, DAN PERSANDIAN",
+    "pagu": 7957694012,
+    "paket": "Belanja Modal Alat Rumah Tangga Lainnya (Home Use)",
+    "inappropriateReason": "Pengadaan videotron outdoor all-in-one dengan spesifikasi besar dan nilai anggaran sangat tinggi pada perangkat daerah urusan komunikasi/informatika patut dicermati dari sisi kebutuhan riil, proporsionalitas, dan efisiensi penggunaan APBD. Indikasinya mengarah pada belanja yang berpotensi berlebihan dibanding kebutuhan fungsional umum perangkat daerah."
+  },
+  {
+    "lembaga": "Otorita Ibu Kota Nusantara (OIKN)",
+    "satker": "PENGELOLAAN INFRASTRUKTUR",
+    "pagu": 7504554130,
+    "paket": "OM (Operations Maintenance) Rumah Tapak Jabatan Menteri Persil 104",
+    "inappropriateReason": "Pengadaan jasa operasi dan pemeliharaan untuk rumah jabatan menteri dengan nilai sangat besar menimbulkan indikasi kuat penggunaan anggaran yang berlebihan untuk fasilitas hunian pejabat. Dari judul dan nilai pagu, item ini berpotensi memicu persepsi kemewahan dan tidak selaras dengan prinsip efisiensi belanja publik."
+  },
+  {
+    "lembaga": "Kota Batam",
+    "satker": "BADAN KESATUAN BANGSA DAN POLITIK",
+    "pagu": 6004160000,
+    "paket": "Pengadaan Rumah Dinas Jabatan Para Kasi dan Kasubbagdin Kejaksaan Negeri Batam",
+    "inappropriateReason": "Pengadaan rumah dinas jabatan untuk pejabat kejaksaan tidak tampak selaras dengan fungsi satker pemerintah daerah yang tercantum. Selain itu, luas bangunan sangat besar untuk rumah dinas 1 lantai, sehingga menimbulkan indikasi kuat belanja yang tidak prioritas dan berpotensi membebani APBD secara tidak proporsional."
+  },
+  {
+    "lembaga": "Kab. Bojonegoro",
+    "satker": "Dinas Perumahan Kawasan Permukiman dan Cipta Karya",
+    "pagu": 5686804500,
+    "paket": "Rehabilitasi Rumah Dinas Bupati Bojonegoro",
+    "inappropriateReason": "Rehabilitasi rumah dinas kepala daerah bernilai sangat besar berpotensi memicu pemborosan karena manfaat publiknya terbatas dibanding belanja layanan dasar. Nilai anggaran yang tinggi untuk fasilitas pejabat patut dicermati lebih lanjut dari sisi urgensi, lingkup pekerjaan, dan kewajaran biaya."
+  },
+  {
+    "lembaga": "Kota Balikpapan",
+    "satker": "SEKRETARIAT DPRD",
+    "pagu": 5500176000,
+    "paket": "Belanja Pemeliharaan Bangunan Gedung-Bangunan Gedung Tempat Kerja-Bangunan Gedung Kantor (Pemeliharaan/Rehab Rumah Jabatan) (Sub Kegiatan Penyediaan Kebutuhan Rumah Tangga DPRD)",
+    "inappropriateReason": "Anggaran pemeliharaan/rehab rumah jabatan pimpinan legislatif dengan nilai sekitar Rp5,5 miliar tampak sangat berlebihan untuk kategori pemeliharaan, berpotensi menimbulkan kesan penggunaan dana publik secara tidak patut dan memicu kecemburuan sosial. Dari judul dan nilai anggaran, item ini layak dikategorikan sangat tidak pantas untuk dicermati mendalam."
+  },
+  {
+    "lembaga": "Kab. Badung",
+    "satker": "Dinas Pekerjaan Umum dan Penataan Ruang",
+    "pagu": 5500000000,
+    "paket": "Belanja Hibah Barang kepada Pemerintah Pusat - Pembangunan Rumah Dinas Kepala Kejaksaan Negeri Badung dan Perluasan Pura Kejaksaan Negeri Badung",
+    "inappropriateReason": "Penggunaan APBD untuk hibah pembangunan rumah dinas kepala kejaksaan dan perluasan pura pada instansi vertikal pemerintah pusat berindikasi sangat tidak prioritas bagi layanan publik daerah. Judul paket menunjukkan fasilitas pejabat dan elemen non-urgensi yang berpotensi memicu kecemburuan sosial, sehingga seluruh nilai paket layak dicermati sebagai potensi pemborosan."
+  },
+  {
+    "lembaga": "Kota Bekasi",
+    "satker": "Sekretariat DPRD",
+    "pagu": 5220000000,
+    "paket": "Belanja Sewa Alat Rumah Tangga Lainnya (Home Use)",
+    "inappropriateReason": "Pengadaan sewa alat rumah tangga untuk kebutuhan home use selama 1 tahun oleh lingkungan sekretariat legislatif dengan nilai sangat besar menimbulkan indikasi kuat ketidakpatutan penggunaan anggaran. Judul dan spesifikasi sangat umum, tidak menunjukkan urgensi kedinasan yang memadai, serta berisiko merepresentasikan pembiayaan fasilitas domestik yang tidak relevan dengan fungsi utama kantor."
+  },
+  {
+    "lembaga": "Otorita Ibu Kota Nusantara (OIKN)",
+    "satker": "PENGELOLAAN INFRASTRUKTUR",
+    "pagu": 4900000000,
+    "paket": "Langganan Internet Kemenko, Rumah Tapak Jabatan Menteri, Plaza Seremoni",
+    "inappropriateReason": "Pengadaan langganan internet untuk rumah jabatan menteri dan plaza seremoni dengan nilai sangat besar dalam satu paket menimbulkan indikasi kuat ketidakwajaran dan potensi belanja yang tidak proporsional terhadap kebutuhan layanan konektivitas. Uraian dan spesifikasi tidak cukup rinci untuk membenarkan besaran anggaran tersebut."
+  },
+  {
+    "lembaga": "Kab. Hulu Sungai Tengah",
+    "satker": "Dinas Pekerjaan Umum dan Penataan Ruang",
+    "pagu": 4896000000,
+    "paket": "Peningkatan/Rehabilitasi Prasarana Rumah Dinas Kejaksaan Tinggi Provinsi Kalsel",
+    "inappropriateReason": "Indikasi kuat ketidakselarasan penggunaan APBD daerah untuk peningkatan/rehabilitasi prasarana rumah dinas institusi vertikal penegak hukum. Judul pengadaan menunjukkan manfaat utama tidak langsung bagi layanan dasar pemerintah daerah, sehingga seluruh alokasi layak dicermati sebagai potensi pemborosan atau belanja yang tidak prioritas."
+  },
+  {
+    "lembaga": "Kab. Kutai Barat",
+    "satker": "Dinas Pekerjaan Umum dan Penataan Ruang",
+    "pagu": 4848518000,
+    "paket": "Pengadaan Interior Rumah Dinas Bupati",
+    "inappropriateReason": "Pengadaan interior rumah dinas kepala daerah dengan nilai sangat besar menimbulkan indikasi kuat penggunaan anggaran yang berlebihan untuk fasilitas pejabat. Dari judul dan nilai anggaran, item ini berisiko tinggi memicu kesan kemewahan yang tidak proporsional terhadap kepentingan publik."
+  },
+  {
+    "lembaga": "Kab. Melawi",
+    "satker": "Dinas Perumahan Rakyat, Kawasan Permukiman dan Pertanahan",
+    "pagu": 4750000000,
+    "paket": "PEMBANGUNAN RUMAH JABATAN WAKIL BUPATI",
+    "inappropriateReason": "Pembangunan rumah jabatan wakil bupati bernilai besar berindikasi penggunaan anggaran yang kurang prioritas dibanding layanan publik dasar. Dari judul dan nilai anggaran, item ini patut dicermati sebagai belanja fasilitas pejabat yang berpotensi tidak mendesak."
+  },
+  {
+    "lembaga": "Kab. Konawe",
+    "satker": "BAGIAN UMUM",
+    "pagu": 4411948547,
+    "paket": "Belanja Modal Alat Rumah Tangga Lainnya (Home Use)",
+    "inappropriateReason": "Pengadaan didominasi perabot dan perlengkapan rumah tangga untuk rumah jabatan kepala/wakil kepala daerah dengan nilai sangat besar, termasuk banyak bedset, mattress, sofa, dining table, wardrobe, karpet, dan item bermerek ritel. Komposisi ini menimbulkan indikasi kuat belanja berlebihan dan berpotensi memicu persepsi penggunaan APBD secara tidak patut untuk fasilitas hunian pejabat."
+  },
+  {
+    "lembaga": "Kab. Kutai Kartanegara",
+    "satker": "Sekretariat Dewan Perwakilan Rakyat Daerah",
+    "pagu": 4339440000,
+    "paket": "Pembangunan Landscape/Parkir Rumah Dinas Ketua DPRD",
+    "inappropriateReason": "Pembangunan landscape/parkir untuk rumah dinas pimpinan DPRD bernilai sangat besar menimbulkan indikasi kuat belanja fasilitas penunjang yang mewah dan tidak proporsional terhadap kepentingan publik. Dari judul paket saja, pengeluaran ini berisiko tinggi memicu kesan penggunaan APBD untuk kenyamanan pejabat, bukan layanan masyarakat."
+  }
+]

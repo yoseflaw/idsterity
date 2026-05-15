@@ -1,1 +1,142 @@
-[]
+[
+  {
+    "lembaga": "Otorita Ibu Kota Nusantara (OIKN)",
+    "satker": "PENGELOLAAN INFRASTRUKTUR",
+    "pagu": 7504554130,
+    "paket": "OM (Operations Maintenance) Rumah Tapak Jabatan Menteri Persil 104",
+    "inappropriateReason": "Pengadaan jasa operasi dan pemeliharaan untuk rumah jabatan menteri dengan nilai sangat besar menimbulkan indikasi kuat penggunaan anggaran yang berlebihan untuk fasilitas hunian pejabat. Dari judul dan nilai pagu, item ini berpotensi memicu persepsi kemewahan dan tidak selaras dengan prinsip efisiensi belanja publik."
+  },
+  {
+    "lembaga": "Otorita Ibu Kota Nusantara (OIKN)",
+    "satker": "PENGELOLAAN INFRASTRUKTUR",
+    "pagu": 4900000000,
+    "paket": "Langganan Internet Kemenko, Rumah Tapak Jabatan Menteri, Plaza Seremoni",
+    "inappropriateReason": "Pengadaan langganan internet untuk rumah jabatan menteri dan plaza seremoni dengan nilai sangat besar dalam satu paket menimbulkan indikasi kuat ketidakwajaran dan potensi belanja yang tidak proporsional terhadap kebutuhan layanan konektivitas. Uraian dan spesifikasi tidak cukup rinci untuk membenarkan besaran anggaran tersebut."
+  },
+  {
+    "lembaga": "Kementerian Imigrasi dan Pemasyarakatan",
+    "satker": "DIREKTORAT JENDERAL IMIGRASI",
+    "pagu": 3844970000,
+    "paket": "Pengadaan Belanja Sewa Kegiatan Pengelolaan Rumah Tangga pada Direktorat Jenderal Imigrasi Tahun Anggaran 2026",
+    "inappropriateReason": "Komponen belanja didominasi sewa perlengkapan acara skala besar dan estetika seperti mini garden, videotron, lighting, panggung, tenda, soundsystem, serta tanaman hias tahunan, yang tampak kurang selaras dengan kebutuhan rutin pengelolaan rumah tangga perkantoran. Nilai paket sangat besar untuk pengadaan langsung dan mengindikasikan belanja seremonial/fasilitatif yang berpotensi tidak efisien."
+  },
+  {
+    "lembaga": "Badan Pengawasan Keuangan Dan Pembangunan",
+    "satker": "KANTOR PUSAT BADAN PENGAWASAN KEUANGAN DAN PEMBANGUNAN",
+    "pagu": 3231797000,
+    "paket": "PENGADAAN JASA PEKERJAAN PEMELIHARAAN AKUARIUM KANTOR PUSAT DAN RUMAH DINAS BPKP",
+    "inappropriateReason": "Pengadaan jasa pemeliharaan akuarium untuk kantor pusat dan rumah dinas pada lembaga pengawasan keuangan menimbulkan indikasi kuat belanja nonprioritas dan berpotensi memicu kesan penggunaan dana publik yang tidak patut. Nilai anggaran yang sangat besar untuk kebutuhan dekoratif semacam ini memperkuat indikasi pemborosan."
+  },
+  {
+    "lembaga": "Kementerian Usaha Mikro, Kecil, dan Menengah",
+    "satker": "Sekretariat Kementerian",
+    "pagu": 3000000000,
+    "paket": "Renovasi Rumah Dinas Dharmawangsa",
+    "inappropriateReason": "Renovasi rumah dinas senilai sangat besar berpotensi tidak proporsional dan memerlukan justifikasi kebutuhan yang kuat. Dari judul dan nilai anggaran, terdapat indikasi penggunaan dana publik untuk fasilitas jabatan yang dapat menimbulkan pemborosan bila tidak terkait kebutuhan fungsi yang mendesak."
+  },
+  {
+    "lembaga": "Badan Pusat Statistik",
+    "satker": "SEKRETARIAT UTAMA BADAN PUSAT STATISTIK",
+    "pagu": 2738640000,
+    "paket": "Pembangunan Baru Rumah Dinas Eselon 1 BPS",
+    "inappropriateReason": "Pembangunan baru rumah dinas eselon I bernilai besar berpotensi tidak prioritas dan menimbulkan kesan penggunaan anggaran untuk fasilitas pejabat, bukan layanan publik utama. Indikasi ketidakpantasan cukup kuat dari jenis aset dan sasaran penggunaannya."
+  },
+  {
+    "lembaga": "Dewan Perwakilan Daerah",
+    "satker": "SEKRETARIAT JENDERAL DPD RI",
+    "pagu": 2400000000,
+    "paket": "Sewa Rumah Dinas Pejabat Eselon IV Kantor DPD RI Provinsi (32 Provinsi)",
+    "inappropriateReason": "Pengadaan sewa rumah dinas untuk pejabat eselon IV dalam skala sangat besar merupakan fasilitas non-prioritas yang berpotensi memicu persepsi penggunaan dana publik secara berlebihan. Dari judul, volume, dan total anggaran, item ini tampak berupa pemberian fasilitas hunian pejabat yang mewah/tidak mendesak dibanding kebutuhan layanan publik inti, sehingga seluruh nilai patut dicermati sebagai potensi pemborosan."
+  },
+  {
+    "lembaga": "Kementerian Keuangan",
+    "satker": "DIREKTORAT JENDERAL STABILITAS DAN PENGEMBANGAN SEKTOR KEUANGAN",
+    "pagu": 1903843140,
+    "paket": "Pengadaan Jasa Konstruksi Fisik Rumah Dinas Jabatan DJSPSK Tahun Anggaran 2026",
+    "inappropriateReason": "Pengadaan konstruksi fisik rumah dinas jabatan untuk unit direktorat menimbulkan indikasi penggunaan anggaran yang kurang prioritas dan berpotensi tidak proporsional dibanding kebutuhan fungsi inti kelembagaan. Nilai anggaran yang besar untuk fasilitas jabatan layak dicermati karena manfaat publik langsung tidak jelas dari informasi yang tersedia."
+  },
+  {
+    "lembaga": "Komisi Pengawas Persaingan Usaha",
+    "satker": "KOMISI PENGAWAS PERSAINGAN USAHA",
+    "pagu": 1800000000,
+    "paket": "Sewa Apartemen/Sewa Rumah Dinas Komisioner",
+    "inappropriateReason": "Pengadaan sewa apartemen/rumah dinas untuk komisioner selama 12 bulan dengan nilai sangat besar menimbulkan indikasi kuat penggunaan anggaran untuk fasilitas hunian pejabat yang mewah atau tidak prioritas. Dari judul dan nilainya, item ini berisiko tinggi memicu kesan penggunaan dana publik yang tidak patut sehingga patut dikategorikan sangat tidak pantas."
+  },
+  {
+    "lembaga": "Komisi Pengawas Persaingan Usaha",
+    "satker": "KOMISI PENGAWAS PERSAINGAN USAHA",
+    "pagu": 1800000000,
+    "paket": "Sewa Apartemen/Sewa Rumah",
+    "inappropriateReason": "Pengadaan sewa apartemen/rumah untuk lembaga pengawas persaingan usaha berisiko tinggi tidak selaras dengan kebutuhan operasional inti dan berpotensi menimbulkan pemborosan, terlebih nilainya besar untuk beberapa unit. Dari judul dan nilai yang tersedia, kebutuhan ini layak dicermati ketat dasar urgensi, peruntukan, dan kewajarannya."
+  },
+  {
+    "lembaga": "Badan Pengawas Obat Dan Makanan",
+    "satker": "SEKRETARIAT UTAMA BADAN POM",
+    "pagu": 1683000000,
+    "paket": "Sewa Rumah/Apartemen Dinas Eselon I dan II",
+    "inappropriateReason": "Pengadaan sewa rumah/apartemen dinas untuk pejabat eselon di lembaga pemerintah merupakan fasilitas hunian yang bernuansa mewah dan berisiko memicu kecemburuan sosial. Judul, spesifikasi, dan nilai satuan yang sangat besar per unit menunjukkan penggunaan APBN yang sangat tidak patut untuk fasilitas personal pejabat."
+  },
+  {
+    "lembaga": "Kementerian Pendidikan Dasar dan Menengah",
+    "satker": "BIRO UMUM DAN PENGADAAN BARANG DAN JASA",
+    "pagu": 1560000000,
+    "paket": "Pembuatan Plakat/Souvenir/Peralatan Rumah Tangga Kementerian",
+    "inappropriateReason": "Pengadaan plakat/souvenir/peralatan rumah tangga kementerian dengan nilai sangat besar menunjukkan belanja seremonial dan non-prioritas yang kuat, serta berisiko tidak sejalan dengan prinsip efisiensi penggunaan APBN pada kementerian sektor pendidikan."
+  },
+  {
+    "lembaga": "Kementerian Lingkungan Hidup/Badan Pengendalian Lingkungan Hidup",
+    "satker": "SEKRETARIAT UTAMA KEMENTERIAN LINGKUNGAN HIDUP BPLH",
+    "pagu": 1510000000,
+    "paket": "Pengadaan Sewa Dinas Rumah Menteri KLH/BPLH",
+    "inappropriateReason": "Sewa rumah dinas menteri senilai sangat besar untuk 1 tahun berpotensi menimbulkan kesan penggunaan anggaran yang tidak patut dan berlebihan, terutama karena menyangkut fasilitas pejabat tinggi yang seharusnya sangat dibatasi dari kemewahan. Nilainya tinggi dan objek belanja bersifat sensitif secara kepantasan publik."
+  },
+  {
+    "lembaga": "Kementerian Pendidikan Tinggi, Sains, dan Teknologi",
+    "satker": "UNIVERSITAS CENDERAWASIH",
+    "pagu": 1200000000,
+    "paket": "Pemeliharaan Rumah Dinas Rektor",
+    "inappropriateReason": "Anggaran pemeliharaan rumah dinas pimpinan sebesar Rp1,2 miliar melalui satu paket pengadaan langsung tampak sangat besar untuk pekerjaan pemeliharaan, sehingga berindikasi pemborosan dan berpotensi menimbulkan kesan penggunaan dana publik yang kurang proporsional untuk fasilitas pejabat."
+  },
+  {
+    "lembaga": "Kementerian Komunikasi dan Digital",
+    "satker": "Sekretariat Jenderal Komdigi",
+    "pagu": 1170000000,
+    "paket": "Sewa Tanaman Hias di Lt. 7 Gd. Komdigi, Ruang Wamen, dan Rumah Dinas Menteri (Roum)",
+    "inappropriateReason": "Anggaran sewa tanaman hias selama 12 bulan sebesar Rp1,17 miliar untuk area kantor, ruang pejabat, dan rumah dinas terindikasi sangat berlebihan untuk kebutuhan penunjang non-utama. Nilainya tinggi untuk belanja estetika/ornamental dan berpotensi memicu persepsi penggunaan dana publik yang tidak patut."
+  },
+  {
+    "lembaga": "Dewan Perwakilan Daerah",
+    "satker": "SEKRETARIAT JENDERAL DPD RI",
+    "pagu": 1120000000,
+    "paket": "Sewa Rumah Dinas Kepala Kantor DPD RI Provinsi (32 Provinsi)",
+    "inappropriateReason": "Pengadaan sewa rumah dinas untuk 32 provinsi dengan nilai total sangat besar berindikasi kuat sebagai fasilitas pejabat yang mewah dan berpotensi tidak selaras dengan prinsip efisiensi belanja publik. Judul item menunjukkan pembiayaan akomodasi kedinasan secara luas, sehingga layak dikategorikan sangat tidak pantas dan seluruh nilai patut dicermati sebagai potensi pemborosan."
+  },
+  {
+    "lembaga": "Kementerian Pendidikan Tinggi, Sains, dan Teknologi",
+    "satker": "UNIVERSITAS CENDERAWASIH",
+    "pagu": 1100000000,
+    "paket": "Pengadaan Peralatan Rumah Dinas Rektor",
+    "inappropriateReason": "Pengadaan peralatan rumah dinas untuk jabatan pimpinan universitas dengan nilai sangat besar menimbulkan kesan belanja fasilitas pribadi yang mewah dan tidak proporsional terhadap kepentingan layanan publik. Dari judul dan nilai paket, pengadaan ini layak dikategorikan sangat tidak pantas dan berpotensi memicu kecemburuan sosial."
+  },
+  {
+    "lembaga": "Kementerian Kesehatan",
+    "satker": "RUMAH SAKIT UMUM DR HASAN SADIKIN BANDUNG",
+    "pagu": 1028808000,
+    "paket": "Kompensasi Operasional Direksi ( Perumahan  Transport )",
+    "inappropriateReason": "Pengadaan berupa kompensasi operasional direksi untuk perumahan dan transport dengan nilai sangat besar menggunakan dana publik menimbulkan indikasi kuat belanja fasilitas pejabat yang mewah dan tidak berorientasi langsung pada layanan publik. Dari judul dan nilai yang tersedia, item ini tampak sangat tidak patut dan berpotensi memicu kecemburuan sosial."
+  },
+  {
+    "lembaga": "Kementerian Transmigrasi",
+    "satker": "SEKRETARIAT JENDERAL KEMENTERIAN TRANSMIGRASI",
+    "pagu": 960000000,
+    "paket": "Sewa Rumah Menteri",
+    "inappropriateReason": "Pengadaan sewa rumah dinas/rumah menteri senilai besar untuk 12 bulan berpotensi merupakan penggunaan anggaran yang sangat tidak patut dan memicu kecemburuan sosial, terutama karena manfaatnya bersifat fasilitas personal pejabat, bukan keluaran layanan publik yang langsung. Dari judul dan uraian, item ini layak dikategorikan sangat tidak pantas."
+  },
+  {
+    "lembaga": "Kementerian Pelindungan Pekerja Migran Indonesia/BPPMI",
+    "satker": "SEKRETARIAT JENDERAL",
+    "pagu": 900000000,
+    "paket": "Rumah Dinas JPT Madya",
+    "inappropriateReason": "Pengadaan rumah dinas untuk pejabat madya sejumlah beberapa unit dengan nilai sangat besar per unit berpotensi tidak efisien dan menimbulkan kesan fasilitas jabatan yang berlebihan. Dari judul dan nilainya, item ini layak dikategorikan serius untuk dicermati relevansi, kebutuhan riil, dan kewajaran biayanya."
+  }
+]

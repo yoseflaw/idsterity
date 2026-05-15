@@ -1,1 +1,142 @@
-[]
+[
+  {
+    "lembaga": "Kota Samarinda",
+    "satker": "Dinas Pekerjaan Umum dan Penataan Ruang Kota Samarinda",
+    "pagu": 19500000000,
+    "paket": "Pembangunan Rumah Jabatan Wakil Walikota Samarinda",
+    "inappropriateReason": "Pembangunan rumah jabatan wakil kepala daerah senilai sangat besar berpotensi tidak proporsional terhadap prioritas belanja publik. Dari judul dan spesifikasi, pengadaan ini lebih bersifat fasilitas jabatan daripada layanan publik langsung, sehingga layak dikategorikan berisiko tinggi untuk pemborosan anggaran."
+  },
+  {
+    "lembaga": "Provinsi Sulawesi Selatan",
+    "satker": "BIRO UMUM",
+    "pagu": 13673478000,
+    "paket": "Belanja Modal Rumah Negara Golongan I-Pekerjaan Rehab/Perbaikan Rumah Jabatan Wakil Gubernur -Perawatan Gedung Sederhana",
+    "inappropriateReason": "Nilai anggaran sangat besar untuk pekerjaan rehab/perawatan rumah jabatan yang diklasifikasikan sebagai perawatan gedung sederhana. Dari judul dan spesifikasi yang tersedia, penggunaan dana publik pada level ini tampak berlebihan dan berpotensi menimbulkan kesan pembelanjaan fasilitas pejabat yang tidak patut."
+  },
+  {
+    "lembaga": "Kota Batam",
+    "satker": "BADAN KESATUAN BANGSA DAN POLITIK",
+    "pagu": 6004160000,
+    "paket": "Pengadaan Rumah Dinas Jabatan Para Kasi dan Kasubbagdin Kejaksaan Negeri Batam",
+    "inappropriateReason": "Pengadaan rumah dinas jabatan untuk pejabat kejaksaan tidak tampak selaras dengan fungsi satker pemerintah daerah yang tercantum. Selain itu, luas bangunan sangat besar untuk rumah dinas 1 lantai, sehingga menimbulkan indikasi kuat belanja yang tidak prioritas dan berpotensi membebani APBD secara tidak proporsional."
+  },
+  {
+    "lembaga": "Kota Balikpapan",
+    "satker": "SEKRETARIAT DPRD",
+    "pagu": 5500176000,
+    "paket": "Belanja Pemeliharaan Bangunan Gedung-Bangunan Gedung Tempat Kerja-Bangunan Gedung Kantor (Pemeliharaan/Rehab Rumah Jabatan) (Sub Kegiatan Penyediaan Kebutuhan Rumah Tangga DPRD)",
+    "inappropriateReason": "Anggaran pemeliharaan/rehab rumah jabatan pimpinan legislatif dengan nilai sekitar Rp5,5 miliar tampak sangat berlebihan untuk kategori pemeliharaan, berpotensi menimbulkan kesan penggunaan dana publik secara tidak patut dan memicu kecemburuan sosial. Dari judul dan nilai anggaran, item ini layak dikategorikan sangat tidak pantas untuk dicermati mendalam."
+  },
+  {
+    "lembaga": "Kab. Melawi",
+    "satker": "Dinas Perumahan Rakyat, Kawasan Permukiman dan Pertanahan",
+    "pagu": 4750000000,
+    "paket": "PEMBANGUNAN RUMAH JABATAN WAKIL BUPATI",
+    "inappropriateReason": "Pembangunan rumah jabatan wakil bupati bernilai besar berindikasi penggunaan anggaran yang kurang prioritas dibanding layanan publik dasar. Dari judul dan nilai anggaran, item ini patut dicermati sebagai belanja fasilitas pejabat yang berpotensi tidak mendesak."
+  },
+  {
+    "lembaga": "Kab. Penukal Abab Lematang Ilir",
+    "satker": "Sekretariat Daerah",
+    "pagu": 4224312000,
+    "paket": "Belanja Sewa Kendaraan Dinas Bermotor Perorangan Dinas atau Kendaraan Dinas Jabatan",
+    "inappropriateReason": "Belanja sewa kendaraan dinas perorangan/jabatan dengan nilai sangat besar untuk satu paket pada sekretariat daerah menimbulkan indikasi kuat penggunaan anggaran yang berlebihan dan berpotensi tidak proporsional terhadap kebutuhan operasional. Skema sewa kendaraan dinas bernilai miliaran berisiko memicu pemborosan belanja rutin dan kesan penggunaan dana publik secara tidak patut."
+  },
+  {
+    "lembaga": "Provinsi Maluku",
+    "satker": "SEKRETARIAT DPRD",
+    "pagu": 4178413000,
+    "paket": "Pengadaan Kendaraan Perorangan Dinas atau Kendaraan Dinas Jabatan",
+    "inappropriateReason": "Pengadaan kendaraan dinas perorangan/jabatan untuk pejabat eselon dan pimpinan DPRD bernilai sangat besar menimbulkan indikasi kuat belanja yang mewah dan berpotensi memicu kecemburuan sosial. Dari judul, peruntukan, dan nilai anggaran, item ini tampak lebih berorientasi pada fasilitas pejabat daripada kebutuhan layanan publik yang mendesak."
+  },
+  {
+    "lembaga": "Kab. Siak",
+    "satker": "SEKRETARIAT DAERAH",
+    "pagu": 4121760000,
+    "paket": "Belanja Sewa Kendaraan Dinas Bermotor Perorangan [-] Sewa Kendaraan Dinas Jabatan",
+    "inappropriateReason": "Pengadaan sewa kendaraan dinas jabatan dengan spesifikasi mesin besar (>2000 cc dan >2800 cc) menunjukkan penggunaan fasilitas kendaraan berkelas tinggi yang berpotensi tidak proporsional untuk kebutuhan pemerintahan daerah. Nilai anggaran sangat besar untuk satu paket dan menimbulkan kesan pemborosan serta penggunaan APBD yang tidak patut."
+  },
+  {
+    "lembaga": "Kab. Barito Utara",
+    "satker": "Dinas Pekerjaan Umum dan Penataan Ruang",
+    "pagu": 3629400000,
+    "paket": "Pembangunan Pagar, Ornamen dan Gerbang Rumah Jabatan Wakil Bupati",
+    "inappropriateReason": "Pembangunan pagar, ornamen, dan gerbang untuk rumah jabatan pejabat daerah dengan nilai sangat besar berindikasi kuat sebagai belanja nonprioritas dan berpotensi memicu kesan penggunaan APBD secara berlebihan untuk elemen estetika/representatif, bukan kebutuhan layanan publik yang mendesak."
+  },
+  {
+    "lembaga": "Kab. Barito Utara",
+    "satker": "Dinas Pekerjaan Umum dan Penataan Ruang",
+    "pagu": 3629400000,
+    "paket": "Pembangunan Pagar, Ornamen dan Gerbang Rumah Jabatan Bupati",
+    "inappropriateReason": "Pembangunan pagar, ornamen, dan gerbang rumah jabatan kepala daerah dengan nilai sangat besar merupakan belanja yang berindikasi kuat lebih menonjolkan unsur estetika dan prestise dibanding urgensi pelayanan publik. Komponen ornamen pada rumah jabatan menimbulkan kesan kemewahan yang tidak patut dibiayai dari anggaran daerah."
+  },
+  {
+    "lembaga": "Kab. Kutai Kartanegara",
+    "satker": "Sekretariat Daerah",
+    "pagu": 3050604000,
+    "paket": "Renovasi Rumah Jabatan Wakil Bupati Kutai Kartanegara",
+    "inappropriateReason": "Renovasi rumah jabatan pejabat dengan nilai sangat besar berpotensi tidak selaras dengan prinsip efisiensi penggunaan APBD, terutama karena menyasar fasilitas jabatan non-layanan publik langsung. Nilai anggaran yang tinggi untuk rehabilitasi/renovasi patut dicermati sebagai potensi pemborosan."
+  },
+  {
+    "lembaga": "Kab. Gowa",
+    "satker": "Dinas Pekerjaan Umum dan Penataan Ruang",
+    "pagu": 2960000000,
+    "paket": "Peningkatan Rumah Jabatan Wakil Bupati Gowa",
+    "inappropriateReason": "Pengadaan untuk peningkatan rumah jabatan pejabat daerah dengan nilai sangat besar berindikasi kuat tidak prioritas, berpotensi memicu kesan kemewahan fasilitas pejabat, dan layak dikategorikan sangat tidak pantas dalam penggunaan dana publik."
+  },
+  {
+    "lembaga": "Kota Bandar Lampung",
+    "satker": "DINAS KESEHATAN",
+    "pagu": 2790000000,
+    "paket": "Pengadaan Kendaraan Perorangan Dinas atau Kendaraan Dinas Jabatan",
+    "inappropriateReason": "Pengadaan sewa kendaraan dinas/jabatan untuk kepala puskesmas dengan nilai sangat besar menimbulkan indikasi kuat pemborosan dan kurang selaras dengan prioritas layanan kesehatan dasar. Dari konteks yang tersedia, kebutuhan ini tampak lebih bersifat fasilitas pejabat daripada dukungan langsung pelayanan publik."
+  },
+  {
+    "lembaga": "Kab. Luwu Timur",
+    "satker": "Dinas Pekerjaan Umum dan Penataan Ruang",
+    "pagu": 2790000000,
+    "paket": "Pembangunan Rumah Jabatan KODIM",
+    "inappropriateReason": "Penggunaan APBD untuk pembangunan rumah jabatan KODIM melalui belanja hibah berindikasi kurang selaras dengan prioritas layanan publik daerah dan berpotensi menimbulkan pemborosan penuh apabila manfaatnya lebih dominan untuk instansi vertikal/non-pemda. Nilai pengadaan konstruksi yang besar memperkuat perlunya pencermatan relevansi, dasar hibah, dan urgensinya."
+  },
+  {
+    "lembaga": "Kab. Intan Jaya",
+    "satker": "SEKRETARIAT DAERAH",
+    "pagu": 2775400000,
+    "paket": "Pengadaan Mobil Dinas Jabatan KDH Kendaraan Roda Empat;",
+    "inappropriateReason": "Pengadaan kendaraan dinas jabatan dengan spesifikasi LC 300 GR-S 4x4 A/T merupakan kendaraan premium/mewah yang menimbulkan kesan penggunaan anggaran publik yang berlebihan. Dari judul dan spesifikasi, item ini kuat terindikasi tidak proporsional untuk kebutuhan kedinasan umum dan berpotensi memicu kecemburuan sosial."
+  },
+  {
+    "lembaga": "Provinsi Lampung",
+    "satker": "Sekretariat DPRD",
+    "pagu": 2085072000,
+    "paket": "Belanja Sewa Kursi Tamu di Ruangan Pejabat Sub Kegiatan Sosialisasi Peraturan Perundang Undangan",
+    "inappropriateReason": "Penyewaan kursi tamu untuk ruangan pejabat selama 12 bulan dengan nilai sangat besar menunjukkan penggunaan anggaran yang tidak wajar. Untuk kebutuhan furnitur kantor yang bersifat umum dan berjangka panjang, skema sewa bernilai miliaran tampak tidak proporsional dan berpotensi menimbulkan pemborosan signifikan."
+  },
+  {
+    "lembaga": "Kab. Serang",
+    "satker": "Badan Pengelolaan Keuangan dan Aset Daerah",
+    "pagu": 2018400000,
+    "paket": "Belanja Sewa Kendaraan Dinas Bermotor Perorangan - Pengadaan Kendaraan Perorangan Dinas atau Kendaraan Dinas Jabatan",
+    "inappropriateReason": "Pengadaan sewa kendaraan dinas perorangan untuk sekretaris pada banyak OPD selama 12 bulan berindikasi kuat sebagai fasilitas jabatan yang berlebihan dan berpotensi memicu pemborosan anggaran publik. Skala kebutuhan yang luas untuk fungsi administratif non-prioritas membuat item ini tampak sangat tidak proporsional."
+  },
+  {
+    "lembaga": "Kab. Pidie",
+    "satker": "SEKRETARIAT DAERAH",
+    "pagu": 1925985000,
+    "paket": "Pengadaan Kendaraan Dinas Pejabat Eselon II",
+    "inappropriateReason": "Pengadaan kendaraan dinas untuk pejabat eselon II sebanyak 3 unit dengan nilai anggaran sangat besar merupakan belanja yang berisiko tidak prioritas dan berpotensi menimbulkan pemborosan, terutama karena bersifat fasilitas pejabat, bukan layanan publik langsung. Nilai totalnya layak dicermati lebih lanjut dari sisi urgensi, standar kebutuhan, dan efisiensi spesifikasi."
+  },
+  {
+    "lembaga": "Kab. Serang",
+    "satker": "Badan Pengelolaan Keuangan dan Aset Daerah",
+    "pagu": 1914000000,
+    "paket": "Belanja Sewa Kendaraan Dinas Bermotor Perorangan -   Pengadaan Kendaraan Perorangan Dinas atau Kendaraan Dinas Jabatan",
+    "inappropriateReason": "Pengadaan sewa kendaraan dinas jabatan untuk 29 unit selama 12 bulan bagi pejabat eselon III/camat berindikasi kuat sebagai belanja fasilitas jabatan yang tidak mendesak dan berpotensi membebani APBD secara besar. Nilai anggaran sangat signifikan untuk belanja penunjang administratif, sehingga layak dikategorikan berisiko tinggi dan berpotensi sebagai pemborosan."
+  },
+  {
+    "lembaga": "Kab. Lanny Jaya",
+    "satker": "DINAS PERUMAHAN DAN KAWASAN PERMUKIMAN",
+    "pagu": 1900000000,
+    "paket": "Rehab rumah jabatan",
+    "inappropriateReason": "Rehabilitasi rumah jabatan untuk pimpinan legislatif dengan nilai sangat besar menimbulkan indikasi kuat belanja yang kurang prioritas dan berpotensi memicu persepsi penggunaan dana publik yang tidak patut. Nilai anggaran untuk satu paket rehab tergolong sangat tinggi sehingga layak diaudit mendalam atas urgensi, kewajaran lingkup pekerjaan, dan efisiensinya."
+  }
+]

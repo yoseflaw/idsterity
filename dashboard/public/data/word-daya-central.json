@@ -1,1 +1,142 @@
-[]
+[
+  {
+    "lembaga": "Kementerian Pertanian",
+    "satker": "SEKRETARIAT BADAN PERAKITAN DAN MODERNISASI PERTANIAN",
+    "pagu": 5581800000,
+    "paket": "Belanja Langganan Daya dan Jasa Lainnya",
+    "inappropriateReason": "Nilai langganan internet bulanan sangat tinggi untuk dua lokasi kantor, sehingga terdapat indikasi kuat pemborosan atau kebutuhan yang tidak proporsional. Selain itu, komponen langganan TV kabel, multimedia, sosial media, dan aplikasi berbayar perlu dicermati karena tidak jelas urgensi operasionalnya dari informasi yang tersedia."
+  },
+  {
+    "lembaga": "Kementerian Hak Asasi Manusia",
+    "satker": "SEKRETARIAT JENDERAL KEMENTERIAN HAM",
+    "pagu": 5009600000,
+    "paket": "Belanja Keperluan Perkantoran , Keperluan Pokok Pegawai , Peralatan dan Bahan Habis Pakai Jasa Alih Daya ,  Pengelolaan Limbah Medis , Plakat Cinderamata Menteri  , Plakat Cinderamata Wakil Menteri , Plakat Cinderamata Sekretaris Jenderal",
+    "inappropriateReason": "Anggaran plakat cinderamata untuk pimpinan sangat besar secara absolut dan sulit dibenarkan sebagai kebutuhan prioritas perkantoran. Alokasi tahunan Rp350 juta, Rp250 juta, dan Rp200 juta untuk plakat cinderamata menimbulkan indikasi kuat penggunaan dana publik yang berlebihan dan berpotensi memicu kecemburuan sosial."
+  },
+  {
+    "lembaga": "Kementerian Komunikasi dan Digital",
+    "satker": "Direktorat Jenderal Pengawasan Ruang Digital",
+    "pagu": 2665400000,
+    "paket": "Penambah Daya Tahan Tubuh (PDTT)",
+    "inappropriateReason": "Pengadaan paket penambah daya tahan tubuh senilai sangat besar untuk unit pengawasan ruang digital tidak tampak selaras dengan fungsi utama kelembagaan dan berisiko menjadi belanja konsumtif yang sulit dibenarkan dari judul item yang tersedia."
+  },
+  {
+    "lembaga": "Mahkamah Agung",
+    "satker": "PENGADILAN NEGERI PASANGKAYU 01",
+    "pagu": 1994481000,
+    "paket": "Langganan Daya dan Jasa Berupa Langganan Internet",
+    "inappropriateReason": "Terdapat ketidaksesuaian material antara judul/uraian pengadaan yang menyebut langganan internet dan spesifikasi yang justru memuat tenaga kebersihan serta satpam. Indikasi ini menunjukkan objek belanja tidak selaras dan berisiko menyebabkan penggunaan anggaran tidak tepat sasaran. Potensi pemborosan dihitung dari selisih pagu terhadap nilai uraian yang secara eksplisit tercantum."
+  },
+  {
+    "lembaga": "Komisi Pengawas Persaingan Usaha",
+    "satker": "KOMISI PENGAWAS PERSAINGAN USAHA",
+    "pagu": 1127400000,
+    "paket": "Belanja Langganan Daya dan Jasa Lainnya",
+    "inappropriateReason": "Terdapat indikasi kuat pemborosan pada komponen langganan media sosial/ChatGPT/AI senilai sangat besar untuk 12 bulan dibanding pola kebutuhan umum langganan perangkat lunak perkantoran. Nilai paket didominasi pos digital subscription dengan kewajaran harga yang patut dipertanyakan dan perlu verifikasi jumlah akun, jenis lisensi, serta urgensi operasionalnya."
+  },
+  {
+    "lembaga": "Badan Pemeriksa Keuangan",
+    "satker": "SEKRETARIAT JENDERAL",
+    "pagu": 1095730000,
+    "paket": "Pengadaan Bahan Penambah Daya Tahan Tubuh",
+    "inappropriateReason": "Pengadaan bahan penambah daya tahan tubuh bernilai sangat besar untuk lingkungan perkantoran pemeriksa negara tampak kurang selaras dengan kebutuhan inti organisasi. Dari judul dan spesifikasi yang sangat umum, manfaat operasionalnya tidak terukur dan berisiko menjadi belanja konsumtif nonprioritas."
+  },
+  {
+    "lembaga": "Kementerian Kesehatan",
+    "satker": "RUMAH SAKIT UMUM DR SARDJITO YOGYAKARTA",
+    "pagu": 1069744000,
+    "paket": "Penambah Daya Tahan Tubuh",
+    "inappropriateReason": "Pengadaan susu low fat sebagai penambah daya tahan tubuh untuk pegawai rumah sakit berindikasi tidak prioritas terhadap fungsi layanan kesehatan dan berpotensi menjadi belanja kesejahteraan pegawai yang kurang tepat dibebankan pada anggaran publik. Nilai anggaran juga sangat besar untuk 1 paket sehingga patut dicermati sebagai potensi pemborosan."
+  },
+  {
+    "lembaga": "Komisi Pemilihan Umum",
+    "satker": "KPU PROVINSI PAPUA BARAT DAYA",
+    "pagu": 1064160000,
+    "paket": "Pengadaan Sewa Kendaraan Dinas Operasional bagi Anggota KPU dan Sekretaris KPU Provinsi Papua Barat Daya Tahun Anggaran 2026",
+    "inappropriateReason": "Pengadaan sewa kendaraan dinas operasional berupa Mobil Fortuner bagi anggota dan sekretaris menunjukkan penggunaan kendaraan kelas menengah atas yang berpotensi berlebihan untuk fungsi administratif lembaga penyelenggara pemilu. Pemilihan tipe kendaraan yang terkesan premium dengan nilai anggaran besar menimbulkan kesan penggunaan dana publik yang tidak hemat dan berpotensi memicu kecemburuan sosial."
+  },
+  {
+    "lembaga": "Kementerian Perhubungan",
+    "satker": "BALAI PENGELOLA TRANSPORTASI DARAT WILAYAH XI PROV JAWA TIMUR",
+    "pagu": 996999000,
+    "paket": "Belanja Penambah Daya Tahan Tubuh Satpel TTA di Lingkungan BPTD Jatim",
+    "inappropriateReason": "Pengadaan belanja penambah daya tahan tubuh untuk periode 1 tahun dengan nilai sangat besar mendekati Rp1 miliar menimbulkan indikasi kuat belanja konsumtif yang kurang proporsional terhadap kebutuhan utama tugas instansi. Uraian juga sangat umum tanpa rincian volume atau spesifikasi terbuka, sehingga kewajaran anggaran layak dipertanyakan."
+  },
+  {
+    "lembaga": "Kementerian Pertanian",
+    "satker": "BALAI BESAR VETERINER FARMA PUSVETMA SURABAYA",
+    "pagu": 792000000,
+    "paket": "Daya Tahan Tubuh",
+    "inappropriateReason": "Uraian pengadaan sangat umum dan tidak spesifik, berupa 'daya tahan tubuh' dengan biaya bulanan besar selama 12 bulan. Dari informasi yang tersedia, objek belanja tidak jelas terukur sebagai barang, sehingga kewajaran, kebutuhan riil, dan output pengadaan sulit dibenarkan serta patut dicermati sebagai potensi pemborosan signifikan."
+  },
+  {
+    "lembaga": "Kementerian Imigrasi dan Pemasyarakatan",
+    "satker": "DIREKTORAT JENDERAL IMIGRASI",
+    "pagu": 684000000,
+    "paket": "Pengadaan Penambah Daya Tahan Tubuh Dit. TIK Kegiatan Alih Pengetahuan di Bidang Teknologi Informasi Pada Direktorat Jenderal Imigrasi Tahun Anggaran 2026",
+    "inappropriateReason": "Pengadaan suplemen/penambah daya tahan tubuh dalam jumlah sangat besar untuk kegiatan alih pengetahuan di bidang TIK tidak tampak sebagai kebutuhan inti pengadaan barang utama. Dari judul, volume, dan anggaran, belanja ini berindikasi kuat tidak proporsional terhadap tujuan kegiatan serta berpotensi menjadi belanja konsumtif yang seharusnya dibatasi atau tidak dibebankan penuh."
+  },
+  {
+    "lembaga": "Kementerian Imigrasi dan Pemasyarakatan",
+    "satker": "IM10 KANTOR IMIGRASI KELAS I KHUSUS TPI SOEKARNO HATTA",
+    "pagu": 492480000,
+    "paket": "Pengadaan Penambah Daya Tahan Tubuh Kegiatan Pemeriksaan Keimigrasian Reguler Pada Kantor Imigrasi Kelas I Khusus TPI Soekarno Hatta - DKI Jakarta TA 2026",
+    "inappropriateReason": "Pengadaan \"penambah daya tahan tubuh\" untuk kegiatan operasional rutin pemeriksaan keimigrasian berindikasi tidak relevan sebagai belanja barang operasional inti. Uraian dan spesifikasi sangat umum, tidak menunjukkan kebutuhan yang terukur, sementara nilainya besar untuk item konsumtif/suplemen sehingga seluruh alokasi patut dicermati sebagai potensi pemborosan."
+  },
+  {
+    "lembaga": "Kementerian Agraria dan Tata Ruang/BPN",
+    "satker": "Kantor Pertanahan KABUPATEN BOLAANG MONGONDOW TIMUR",
+    "pagu": 488000000,
+    "paket": "Belanja Langganan Daya dan Jasa Lainnya ; Operasional dan Pemeliharaan Kantor ; Layanan Perkantoran",
+    "inappropriateReason": "Biaya langganan internet tahunan sebesar Rp488.000.000 untuk satu kantor pertanahan kabupaten tampak sangat tinggi dan tidak proporsional untuk kebutuhan operasional perkantoran biasa. Indikasi utama adalah nilai paket tunggal yang jauh besar untuk layanan internet tanpa rincian kapasitas, redundansi, atau kebutuhan teknis khusus yang dapat membenarkan besaran tersebut."
+  },
+  {
+    "lembaga": "Kementerian Perhubungan",
+    "satker": "BALAI PENGELOLA TRANSPORTASI DARAT WILAYAH VIII PROVINSI BANTEN",
+    "pagu": 437760000,
+    "paket": "Penambah Daya Tahan Tubuh Kantor Induk",
+    "inappropriateReason": "Pengadaan \"penambah daya tahan tubuh\" untuk kantor induk tidak menunjukkan keterkaitan yang kuat dengan fungsi utama layanan transportasi darat dan berpotensi merupakan belanja konsumtif/nonprioritas. Dengan nilai anggaran yang besar untuk paket generik tanpa spesifikasi rinci, seluruh nilai patut dicermati sebagai potensi pemborosan."
+  },
+  {
+    "lembaga": "Kementerian Energi Dan Sumber Daya Mineral",
+    "satker": "SEKRETARIAT JENDERAL KEMENTERIAN ENERGI DAN SUMBER DAYA MINERAL",
+    "pagu": 423000000,
+    "paket": "Belanja Langganan Daya dan Jasa Lainnya TV Kabel",
+    "inappropriateReason": "Belanja langganan TV kabel selama 12 bulan pada unit sekretariat kementerian tidak tampak esensial terhadap fungsi utama pelayanan publik dan berisiko menjadi pengeluaran fasilitas non-prioritas. Dengan nilai anggaran yang besar untuk layanan hiburan/informasi berlangganan, seluruh alokasi patut dicermati sebagai potensi pemborosan."
+  },
+  {
+    "lembaga": "Kementerian Energi Dan Sumber Daya Mineral",
+    "satker": "DIREKTORAT JENDERAL MINYAK DAN GAS BUMI",
+    "pagu": 405600000,
+    "paket": "Belanja Langganan Daya dan Jasa Lainnya",
+    "inappropriateReason": "Terdapat komponen biaya perawatan akuarium yang secara indikatif tidak esensial bagi fungsi utama instansi pemerintah. Pengeluaran ini berpotensi menimbulkan kesan penggunaan anggaran yang kurang prioritas dibanding kebutuhan operasional inti. Nilai potensi pemborosan dihitung dari komponen tersebut saja berdasarkan rincian yang tersedia."
+  },
+  {
+    "lembaga": "Kementerian Keuangan",
+    "satker": "DIREKTORAT JENDERAL STABILITAS DAN PENGEMBANGAN SEKTOR KEUANGAN",
+    "pagu": 391020000,
+    "paket": "Pengadaan Paket Penambah Daya Tahan Tubuh DJSPSK TA 2026",
+    "inappropriateReason": "Pengadaan paket penambah daya tahan tubuh untuk unit kerja pemerintahan tidak tampak sebagai kebutuhan inti yang langsung mendukung tugas dan fungsi utama. Dengan nilai anggaran yang signifikan, belanja ini berindikasi sebagai pengeluaran nonprioritas dan layak dicermati sebagai potensi pemborosan anggaran."
+  },
+  {
+    "lembaga": "Kementerian Hukum",
+    "satker": "DIREKTORAT JENDERAL KEKAYAAN INTELEKTUAL",
+    "pagu": 356720000,
+    "paket": "Tiket Pesawat Bisnis PP untuk Pertemuan/ Sidang di Kawasan Eropa/Amerika dalam rangka Penyampaian Rekomendasi Kebijakan KI RI pada Forum Internasional KI pada pada Direktorat Kerjasama Pemberdayaan dan Edukasi DJKI T.A. 2026",
+    "inappropriateReason": "Pengadaan tiket pesawat kelas bisnis pulang-pergi untuk 4 orang pada forum internasional dengan seluruh nilai paket dialokasikan untuk kelas premium menimbulkan indikasi kuat pemborosan dan penggunaan anggaran yang tidak patut. Untuk perjalanan dinas pemerintah, kelas bisnis bersifat mewah dan sangat sensitif secara kepatutan, terlebih tanpa justifikasi khusus yang terlihat pada data item."
+  },
+  {
+    "lembaga": "Badan Karantina Indonesia",
+    "satker": "Balai Karantina Hewan Ikan Dan Tumbuhan Sulawesi Tenggara",
+    "pagu": 356136000,
+    "paket": "Penambah Daya Tahan Tubuh (Sulawesi Tenggara) 71 ORG x 22 KALI x 12 BLN",
+    "inappropriateReason": "Pengadaan rutin 'penambah daya tahan tubuh' untuk 71 orang sepanjang 12 bulan lebih menyerupai konsumsi/suplemen pegawai, bukan kebutuhan barang yang secara jelas terkait fungsi utama karantina. Dari judul dan volumenya, seluruh nilai pengadaan berindikasi berpotensi tidak efisien atau tidak prioritas bagi belanja pemerintah."
+  },
+  {
+    "lembaga": "Kementerian Hukum",
+    "satker": "DIREKTORAT JENDERAL KEKAYAAN INTELEKTUAL",
+    "pagu": 355392000,
+    "paket": "Tiket Pesawat Bisnis PP untuk Pertemuan / Sidang di Kawasan Asia dalam rangka Sidang Internasional Kekayaan Intelektual pada Direktorat Kerjasama Pemberdayaan dan Edukasi DJKI T.A. 2026",
+    "inappropriateReason": "Pengadaan tiket pesawat kelas bisnis untuk perjalanan dinas internasional bagi 8 orang merupakan belanja yang sangat mewah dan berpotensi memicu kecemburuan publik. Dari judul dan rincian item, seluruh nilai anggaran terindikasi tidak efisien karena menggunakan kelas bisnis, bukan opsi perjalanan dinas yang lebih hemat dan proporsional."
+  }
+]

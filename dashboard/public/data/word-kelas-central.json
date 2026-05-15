@@ -1,1 +1,142 @@
-[]
+[
+  {
+    "lembaga": "Kementerian Imigrasi dan Pemasyarakatan",
+    "satker": "IM08 KANTOR IMIGRASI KELAS I TPI BENGKULU",
+    "pagu": 4011237000,
+    "paket": "Pengadaan Belanja Modal Peralatan dan Mesin Kendaraan Bermotor Pada Kantor Imigrasi Kelas I TPI Bengkulu Tahun Anggaran 2026",
+    "inappropriateReason": "Pengadaan kendaraan patroli jenis Fortuner untuk kantor imigrasi berindikasi kurang proporsional karena menggunakan model SUV menengah-atas yang berpotensi melampaui kebutuhan operasional dasar. Terdapat sinyal pemborosan pada pemilihan tipe kendaraan, meski kebutuhan kendaraan operasional dan patroli secara umum masih relevan dengan fungsi instansi."
+  },
+  {
+    "lembaga": "Kementerian Imigrasi dan Pemasyarakatan",
+    "satker": "PAS33 LAPAS KELAS III MAMASA",
+    "pagu": 1240839000,
+    "paket": "Pengadaan Belanja Pemeliharaan Peralatan dan Mesin Komputer, Printer dan Laptop Pada Lembaga Pemasyarakatan Kelas III Mamasa - Sulawesi Barat Tahun Anggaran 2026",
+    "inappropriateReason": "Nilai anggaran sangat tidak sebanding dengan rincian pemeliharaan yang tercantum, yang jika dijumlahkan hanya sekitar belasan juta rupiah per tahun. Selisih yang sangat besar ini merupakan indikasi kuat potensi pemborosan atau ketidakwajaran perencanaan anggaran dan layak diaudit lebih lanjut."
+  },
+  {
+    "lembaga": "Kementerian Imigrasi dan Pemasyarakatan",
+    "satker": "IM30 KANTOR IMIGRASI KELAS II TPI MIMIKA",
+    "pagu": 1206370000,
+    "paket": "Pengadaan Belanja Modal Peralatan dan Mesin berupa Perangkat Pengolahan Data dan Komunikasi pada Kantor Imigrasi Kelas II TPI Mimika Tahun Anggaran 2026",
+    "inappropriateReason": "Pengadaan video wall 2 unit senilai sangat besar dalam paket perangkat pengolahan data dan komunikasi untuk kantor imigrasi kelas II tampak berisiko tidak proporsional terhadap kebutuhan layanan inti. Selain itu terdapat drone dan beberapa kamera digital yang memerlukan justifikasi operasional yang kuat. Indikasi utama pemborosan berasal dari komponen video wall yang bernilai dominan dan berpotensi berlebihan."
+  },
+  {
+    "lembaga": "Kementerian Imigrasi dan Pemasyarakatan",
+    "satker": "IM13 KANTOR IMIGRASI KELAS II NON TPI WONOSOBO",
+    "pagu": 1100000000,
+    "paket": "Pengadaan Mobil Unit Penerangan Darat Kegiatan Layanan Sarana Internal Kendaraan Bermotor pada Kantor Imigrasi Kelas II Non TPI Wonosobo Jawa Tengah Tahun Anggaran 2026",
+    "inappropriateReason": "Item berupa mobil unit penerangan darat senilai sangat besar untuk kantor imigrasi kelas II non-TPI menimbulkan indikasi kuat ketidaksesuaian dengan kebutuhan layanan inti. Spesifikasi dan harga per unit juga tampak tidak wajar dibanding pagu yang tersedia, sehingga seluruh nilai pengadaan layak dicermati sebagai potensi pemborosan."
+  },
+  {
+    "lembaga": "Kementerian Luar Negeri",
+    "satker": "BADAN STRATEGI KEBIJAKAN LUAR NEGERI",
+    "pagu": 1095039000,
+    "paket": "Tiket Pesawat Jakarta - Antalya (PP) Kelas Bisnis Gol A dan B",
+    "inappropriateReason": "Pengadaan 6 tiket pesawat pulang-pergi kelas bisnis untuk rute internasional dengan nilai satuan sangat tinggi menunjukkan indikasi kuat pemborosan, terutama karena kelas bisnis merupakan fasilitas premium yang perlu justifikasi sangat kuat. Nilai total yang besar dan penggunaan metode dikecualikan menambah kebutuhan pemeriksaan atas kewajaran, urgensi, dan kepatutan belanja perjalanan dinas."
+  },
+  {
+    "lembaga": "Kementerian Imigrasi dan Pemasyarakatan",
+    "satker": "IM18 KANTOR IMIGRASI KELAS III NON TPI TANJUNG REDEB",
+    "pagu": 999965000,
+    "paket": "Pengadaan Belanja Pengolah Data dan Komunikasi (Laptop dan Printer) pada Kegiatan Layanan Sarana Internal di Kantor Imigrasi Kelas III Non TPI Tanjung Redeb Tahun Anggaran 2026",
+    "inappropriateReason": "Harga satuan pengolah data dan komunikasi tampak sangat tidak wajar untuk kebutuhan operasional internal: laptop sekitar Rp90,999 juta per unit dan printer sekitar Rp17,995 juta per unit. Nilai ini mengindikasikan spesifikasi berlebihan atau harga yang jauh di atas kebutuhan umum kantor, sehingga berpotensi menimbulkan pemborosan anggaran yang signifikan."
+  },
+  {
+    "lembaga": "Kementerian Sosial",
+    "satker": "SEKRETARIAT JENDERAL",
+    "pagu": 836870000,
+    "paket": "Foto Bingkai Wapres - KEPERLUAN KELAS",
+    "inappropriateReason": "Pengadaan foto bingkai Wakil Presiden untuk keperluan kelas dalam jumlah sangat besar merupakan belanja yang tampak seremonial dan tidak menunjukkan keterkaitan langsung dengan kebutuhan substantif layanan. Nilai pengadaan juga sangat signifikan untuk barang display, sehingga patut dinilai sebagai penggunaan anggaran yang berisiko tidak efisien."
+  },
+  {
+    "lembaga": "Kementerian Imigrasi dan Pemasyarakatan",
+    "satker": "IM16 KANTOR IMIGRASI KELAS I TPI PONTIANAK",
+    "pagu": 787500000,
+    "paket": "Pengadaan Belanja Modal Peralatan dan Mesin berupa  Video Tron  terkait Perangkat pengolah Data dan Komunikasi pada Kantor Imigrasi Kelas I TPI Pontianak Kalimantan Barat TA 2026",
+    "inappropriateReason": "Pengadaan videotron bernilai sangat besar untuk kantor imigrasi tampak kurang esensial dibanding fungsi layanan inti dan tidak jelas urgensi operasionalnya dari informasi yang tersedia. Nilai anggaran yang tinggi untuk 1 unit menimbulkan indikasi kuat belanja yang berpotensi tidak prioritas sehingga layak dicermati."
+  },
+  {
+    "lembaga": "Kementerian Imigrasi dan Pemasyarakatan",
+    "satker": "IM09 KANTOR IMIGRASI KELAS I TPI BANDAR LAMPUNG",
+    "pagu": 708776000,
+    "paket": "Pengadaan Videowall/Videotron dan AC Central pada Kantor Imigrasi Kelas I TPI Bandar Lampung - Lampung Tahun Anggaran 2026",
+    "inappropriateReason": "Pengadaan videowall/videotron bernilai sangat besar untuk kantor layanan publik ini berindikasi kurang esensial dibanding fungsi utama operasional. Dari uraian yang tersedia, komponen tersebut tampak lebih bersifat fasilitas penunjang/presentasi daripada kebutuhan inti layanan, sehingga layak dikategorikan berisiko tinggi sebagai penggunaan anggaran yang tidak proporsional."
+  },
+  {
+    "lembaga": "Kementerian Imigrasi dan Pemasyarakatan",
+    "satker": "IM24 KANTOR IMIGRASI KELAS II NON TPI BANGGAI",
+    "pagu": 676578000,
+    "paket": "Belanja Barang Non Operasional Lainnya pada Kantor Imigrasi Kelas II Non TPI Banggai Provinsi Sulawesi Tengah Tahun Anggaran 2026",
+    "inappropriateReason": "Uraian belanja berupa biaya koordinasi serta pengamatan/penyusupan/penelitian/penjejakan dalam paket barang sangat tidak lazim dan sulit diverifikasi kewajaran outputnya. Komponen tersebut lebih menyerupai biaya operasional intelijen atau aktivitas non-barang, sehingga berisiko tinggi tidak relevan dengan klasifikasi pengadaan dan berpotensi seluruh anggarannya tidak efisien."
+  },
+  {
+    "lembaga": "Kementerian Imigrasi dan Pemasyarakatan",
+    "satker": "IM10 KANTOR IMIGRASI KELAS I KHUSUS TPI SOEKARNO HATTA",
+    "pagu": 492480000,
+    "paket": "Pengadaan Penambah Daya Tahan Tubuh Kegiatan Pemeriksaan Keimigrasian Reguler Pada Kantor Imigrasi Kelas I Khusus TPI Soekarno Hatta - DKI Jakarta TA 2026",
+    "inappropriateReason": "Pengadaan \"penambah daya tahan tubuh\" untuk kegiatan operasional rutin pemeriksaan keimigrasian berindikasi tidak relevan sebagai belanja barang operasional inti. Uraian dan spesifikasi sangat umum, tidak menunjukkan kebutuhan yang terukur, sementara nilainya besar untuk item konsumtif/suplemen sehingga seluruh alokasi patut dicermati sebagai potensi pemborosan."
+  },
+  {
+    "lembaga": "Kementerian Imigrasi dan Pemasyarakatan",
+    "satker": "IM28 KANTOR IMIGRASI KELAS I TPI AMBON",
+    "pagu": 468720000,
+    "paket": "Pengadaaan Biaya koordinasi dengan pihak-pihak terkait Pada Kantor Imigrasi Kelas I TPI Ambon - Maluku Tahun Anggaran 2026",
+    "inappropriateReason": "Pengadaan berupa 'biaya koordinasi dengan pihak-pihak terkait' diklasifikasikan sebagai barang dan dilakukan per 20 kegiatan dengan nilai sangat besar per kegiatan. Frasa kebutuhan terlalu umum, tidak mencerminkan output barang yang terukur, dan berisiko membiayai aktivitas operasional/representasi yang seharusnya dibatasi atau dirinci lebih spesifik. Indikasi pemborosan cukup kuat karena nilai total signifikan tanpa spesifikasi barang yang jelas."
+  },
+  {
+    "lembaga": "Kementerian Pertahanan",
+    "satker": "RSPAD Gatot Soebroto TNI AD",
+    "pagu": 416820500,
+    "paket": "Pengadaan bingkisan pasien VVIP dan VIP, Kelas I dan Kelas II di Instalasi Paviliun Semester I TA.2026",
+    "inappropriateReason": "Pengadaan bingkisan untuk pasien VVIP, VIP, Kelas I, dan Kelas II berindikasi tidak esensial terhadap fungsi utama pelayanan kesehatan. Dalam konteks belanja publik rumah sakit pemerintah, pemberian bingkisan kepada segmen pasien tertentu berisiko menimbulkan ketidakadilan layanan dan penggunaan anggaran yang kurang prioritas. Seluruh nilai pengadaan layak dicermati sebagai potensi pemborosan karena manfaat publik langsungnya tidak jelas dari data yang tersedia."
+  },
+  {
+    "lembaga": "Kementerian Imigrasi dan Pemasyarakatan",
+    "satker": "IM18 KANTOR IMIGRASI KELAS II TPI TARAKAN",
+    "pagu": 406028000,
+    "paket": "Pengadaan Belanja Perjalanan Dinas Biasa Pada Kantor Imigrasi Kelas II TPI Tarakan Provinsi Kalimantan Utara T.A. 2026",
+    "inappropriateReason": "Nilai satuan perjalanan/pemeriksaan sebesar Rp14.501.000 per OH untuk 28 OH tampak sangat tinggi untuk perjalanan dinas dalam negeri dan berisiko tidak proporsional. Uraian pengadaan sangat minim dan dikemas sebagai 1 paket jasa lainnya, sehingga kewajaran komponen biaya sulit diverifikasi dan patut dicermati serius."
+  },
+  {
+    "lembaga": "Kementerian Imigrasi dan Pemasyarakatan",
+    "satker": "IM18 KANTOR IMIGRASI KELAS I TPI BALIKPAPAN",
+    "pagu": 373170000,
+    "paket": "Pengadaan Belanja Bahan Kegiatan Layanan Umum pada Kantor Imigrasi Kelas I TPI Balikpapan - Kalimantan Timur Tahun Anggaran 2026",
+    "inappropriateReason": "Alokasi spanduk sebesar Rp240.900.000 untuk 1 tahun pada satu kantor layanan tampak tidak proporsional dibanding kebutuhan operasional umum yang disebutkan. Nilai ini mendominasi paket dan berindikasi belanja publikasi/atribut yang berlebihan sehingga layak dikategorikan sebagai potensi pemborosan anggaran."
+  },
+  {
+    "lembaga": "Kementerian Imigrasi dan Pemasyarakatan",
+    "satker": "IM01 KANTOR IMIGRASI KELAS II TPI SABANG",
+    "pagu": 305208000,
+    "paket": "Pengadaan Biaya Pengelolaan Penambahan Nilai Gedung Kantor pada Kantor Imigrasi Kelas II TPI Sabang – Provinsi Aceh Tahun Anggaran 2026",
+    "inappropriateReason": "Item berupa \"biaya pengelolaan\" untuk penambahan nilai gedung dikemas sebagai pengadaan barang dengan nilai signifikan. Uraian dan spesifikasi sangat umum serta tidak menunjukkan output barang/jasa yang terukur, sehingga terindikasi belanja administratif/overhead yang tidak jelas manfaat langsungnya dan berisiko tidak tepat klasifikasi."
+  },
+  {
+    "lembaga": "Kementerian Imigrasi dan Pemasyarakatan",
+    "satker": "IM10 KANTOR IMIGRASI KELAS I NON TPI JAKARTA PUSAT",
+    "pagu": 296100000,
+    "paket": "Pengadaan Belanja Barang Non Operasional Lainnya Pengumpulan Data dan Informasi Pada Kantor Imigrasi Kelas I Non TPI Jakarta Pusat - DK Jakarta Tahun Anggaran 2026",
+    "inappropriateReason": "Komponen biaya utama berupa pengamatan/penyusupan/penelitian/penjejakan dengan nilai sangat dominan dan uraian sangat umum, sehingga sulit dibenarkan sebagai belanja non operasional biasa melalui e-purchasing. Indikasi ketidakjelasan output dan relevansi metode pengadaan menimbulkan risiko pemborosan yang signifikan."
+  },
+  {
+    "lembaga": "Kementerian Imigrasi dan Pemasyarakatan",
+    "satker": "IM02 KANTOR IMIGRASI KELAS I KHUSUS TPI MEDAN",
+    "pagu": 292200000,
+    "paket": "Pengadaan Belanja Keperluan Perkantoran Berupa Biaya Layanan Immigration Lounge Kegiatan Operasional dan Pemeliharaan Kantor pada Kantor Imigrasi Kelas I Khusus TPI Medan – Sumatera Utara Tahun Anggaran 2026",
+    "inappropriateReason": "Pengadaan biaya layanan lounge untuk operasional perkantoran instansi imigrasi merupakan fasilitas premium yang tidak esensial bagi fungsi layanan publik dasar dan berpotensi kuat menimbulkan kesan penggunaan anggaran secara tidak patut. Nilainya juga signifikan untuk pos biaya bulanan layanan lounge."
+  },
+  {
+    "lembaga": "Kementerian Imigrasi dan Pemasyarakatan",
+    "satker": "IM32 KANTOR IMIGRASI KELAS II TPI BELAKANG PADANG",
+    "pagu": 285000000,
+    "paket": "Pengadaan Kendaraan Golfcar Layanan Sarana Internal Pada Kantor Imigrasi Kelas II TPI Belakang Padang TA 2026 - Kepulauan Riau",
+    "inappropriateReason": "Pengadaan golfcar untuk layanan sarana internal pada kantor imigrasi terindikasi kurang relevan dengan fungsi inti layanan publik dan berisiko dipersepsikan sebagai fasilitas non-prioritas. Dengan volume 1 unit dan tanpa justifikasi kebutuhan operasional yang terlihat pada data, seluruh nilai pengadaan layak dicermati sebagai potensi pemborosan."
+  },
+  {
+    "lembaga": "Kementerian Imigrasi dan Pemasyarakatan",
+    "satker": "PAS19 LAPAS KELAS II A BANJARMASIN",
+    "pagu": 270000000,
+    "paket": "Pengadaan Extra Fooding (Makanan Tambahan) Bulan Puasa Untuk Warga Binaan Pada Lembaga Pemasyarakatan Kelas IIA Banjarmasin - Kalimantan Selatan Tahun Anggaran 2026",
+    "inappropriateReason": "Terdapat ketidaksesuaian material antara judul/volume yang menyebut makanan tambahan untuk warga binaan sebanyak 54.000 orang-kali dan spesifikasi yang justru menyebut extra fooding bagi petugas jaga malam. Indikasi salah sasaran manfaat ini serius dan berpotensi membuat seluruh nilai pengadaan tidak tepat peruntukan bila tidak diklarifikasi."
+  }
+]

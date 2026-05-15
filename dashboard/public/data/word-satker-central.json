@@ -1,1 +1,142 @@
-[]
+[
+  {
+    "lembaga": "Kementerian Pertahanan",
+    "satker": "Denmabesad TNI AD",
+    "pagu": 2041025000,
+    "paket": "Pembangunan Zona Integritas menuju WBK Satker TNI AD (Srenaad7)",
+    "inappropriateReason": "Pengadaan jasa bertajuk pembangunan zona integritas/WBK dengan nilai sangat besar berindikasi tidak proporsional terhadap keluaran yang umumnya bersifat pembinaan, pendampingan, sosialisasi, dan administrasi internal. Dari judul dan spesifikasi yang sangat umum, terdapat indikasi kuat belanja seremonial/konsultatif yang berpotensi tidak efisien sehingga layak diawasi ketat."
+  },
+  {
+    "lembaga": "Kementerian Pendidikan Dasar dan Menengah",
+    "satker": "BIRO KEUANGAN DAN BARANG MILIK NEGARA",
+    "pagu": 478800000,
+    "paket": "Biaya Paket Kegiatan Rapat/Pertemuan Full Board di Luar Kantor - Pejabat Eselon III ke bawah &amp;#40;D.K.I. Jakarta&amp;#41; kegiatan Pengelolaan Satker PK-BLU di Lingkungan Kemendikdasmen",
+    "inappropriateReason": "Paket rapat/pertemuan full board di luar kantor untuk kegiatan pengelolaan internal menunjukkan penggunaan fasilitas luar kantor yang berpotensi tidak esensial dibanding pemanfaatan ruang/fasilitas kantor pemerintah. Nilainya besar untuk satu paket dan indikasi manfaat publik langsung tidak kuat, sehingga layak dinilai sebagai potensi pemborosan tinggi."
+  },
+  {
+    "lembaga": "Kepolisian Negara Republik Indonesia",
+    "satker": "PASPELOPOR KORBRIMOB POLRI",
+    "pagu": 375900000,
+    "paket": "PENGADAAN COMMANDER WISH DAN JAM PIMPINAN SATKER PASPELOPOR KORBRIMOB T.A. 2026",
+    "inappropriateReason": "Pengadaan jam pimpinan dalam satu paket dengan konsumsi menimbulkan indikasi belanja yang kurang relevan dengan kebutuhan operasional utama dan berpotensi menjadi pengeluaran seremonial. Dari judul paket, komponen jam pimpinan patut dicermati karena tidak tampak sebagai kebutuhan prioritas kedinasan."
+  },
+  {
+    "lembaga": "Kementerian Pertahanan",
+    "satker": "Denmabesad TNI AD",
+    "pagu": 355000000,
+    "paket": "Belanja Jasa Profesi Penginputan Pagu Indikatif Satker PNBP YANKES DAN BLU (SPABAN VII/LAKGAR)",
+    "inappropriateReason": "Pengadaan jasa profesi untuk aktivitas administratif berupa penginputan pagu indikatif senilai sangat besar menimbulkan indikasi kuat ketidakwajaran nilai dan potensi penggunaan tenaga profesional untuk pekerjaan yang secara umum bersifat rutin/administratif. Nilai anggaran patut dicermati karena tidak tampak sebanding dengan kompleksitas pekerjaan yang disebutkan."
+  },
+  {
+    "lembaga": "Kementerian Imigrasi dan Pemasyarakatan",
+    "satker": "PAS03 LAPAS KELAS II B SOLOK",
+    "pagu": 89760000,
+    "paket": "Pengadaan Honor Operasional Satker di Lingkungan Lapas Kelas IIB Solok Tahun Anggaran 2026 - Sumatera Barat Tahun Anggaran 2026",
+    "inappropriateReason": "Item berupa belanja honor operasional satuan kerja diklasifikasikan sebagai pengadaan barang, padahal secara substansi merupakan pembayaran honorarium/biaya operasional, bukan barang. Penggunaan mekanisme pengadaan untuk honor operasional berindikasi tidak tepat klasifikasi dan berpotensi seluruh nilai belanja tidak semestinya diproses sebagai pengadaan barang."
+  },
+  {
+    "lembaga": "Kementerian Pertahanan",
+    "satker": "Paldam IX Udy TNI AD",
+    "pagu": 70000000,
+    "paket": "Har Ranmor VIP Semester II Satker Paldam IX/Udayana TA. 2026",
+    "inappropriateReason": "Pengadaan pemeliharaan kendaraan VIP dengan dana publik menimbulkan indikasi ketidakpatutan karena berorientasi pada fasilitas khusus pejabat, bukan kebutuhan operasional umum. Istilah 'VIP' memberi sinyal penggunaan anggaran untuk layanan eksklusif yang perlu diuji urgensi, proporsionalitas, dan manfaat langsungnya."
+  },
+  {
+    "lembaga": "Kementerian Agama",
+    "satker": "DITJEN BIMBINGAN MASYARAKAT KATOLIK 308077",
+    "pagu": 42628000,
+    "paket": "Pendampingan Penyusunan SOP, Standar Pelayanan, Peta Jabatan, Anjab ABK, Penyelarasan SKP dengan Perkin unit kerja, Penyusunan dan Evaluasi Laporan Capkin pada Satker Pendidikan Negeri",
+    "inappropriateReason": "Terdapat ketidaksesuaian mencolok antara judul paket yang berfokus pada pendampingan penyusunan dokumen manajerial/SDM dengan uraian pekerjaan yang justru menyebut belanja perjalanan dinas biasa. Indikasi ini menunjukkan paket berpotensi digunakan untuk membiayai aktivitas yang tidak selaras dengan tujuan pengadaan yang dinyatakan, sehingga seluruh nilai patut dicermati sebagai potensi pemborosan."
+  },
+  {
+    "lembaga": "Kepolisian Negara Republik Indonesia",
+    "satker": "YANMA POLDA KALBAR",
+    "pagu": 39864000,
+    "paket": "BELANJA PENINGKATAN KEMAMPUAN PERSONIL SATKER YANMA POLDA KALBAR",
+    "inappropriateReason": "Pengadaan barang berupa penambah daya tahan tubuh untuk puluhan personel selama periode panjang berisiko tidak tepat sebagai belanja barang rutin karena manfaatnya sulit diukur, rawan tumpang tindih dengan dukungan konsumsi/kesehatan lain, dan tidak tampak sebagai kebutuhan operasional yang spesifik serta mendesak dari informasi yang tersedia."
+  },
+  {
+    "lembaga": "Kementerian Imigrasi dan Pemasyarakatan",
+    "satker": "PAS15 BAPAS KELAS II MADIUN",
+    "pagu": 37800000,
+    "paket": "Pengadaan Keperluan pokok perkantoran Satker Balai Pemasyarakatan Kelas II Madiun Kanwil Jawa Timur TA 2026",
+    "inappropriateReason": "Pengadaan disebut sebagai keperluan pokok perkantoran, namun spesifikasi menyatakan pembelian kebutuhan pegawai per orang. Indikasi ini menunjukkan belanja berpotensi mengarah pada pemenuhan kebutuhan personal pegawai, bukan kebutuhan operasional kantor, sehingga patut dinilai tidak relevan dengan penggunaan anggaran publik."
+  },
+  {
+    "lembaga": "Kementerian Kesehatan",
+    "satker": "BALAI KEKARANTINAAN KESEHATAN KELAS I TARAKAN",
+    "pagu": 35000000,
+    "paket": "Sewa Rumah Dinas Kepala Satker",
+    "inappropriateReason": "Pengadaan sewa rumah dinas untuk pejabat/satuan kerja bersifat fasilitas personal dan tidak menunjukkan keterkaitan langsung dengan output layanan publik dari informasi yang tersedia. Karena seluruh nilai anggaran diarahkan untuk penyediaan hunian dinas, terdapat indikasi kuat pembelanjaan yang kurang prioritas sehingga seluruh pagu patut dicermati sebagai potensi pemborosan."
+  },
+  {
+    "lembaga": "Kementerian Pertahanan",
+    "satker": "Rumkit Tk II Iskandar Muda Dam IM TNI AD",
+    "pagu": 20000000,
+    "paket": "RKA Satker TA 2027",
+    "inappropriateReason": "Pengadaan diklasifikasikan sebagai barang melalui e-purchasing, namun uraian dan spesifikasi hanya menyebut dokumen RKA Satker. Dokumen perencanaan anggaran bukan objek pengadaan barang yang lazim dan indikasinya lebih menyerupai aktivitas administrasi internal, sehingga alokasi anggaran penuh patut dinilai tidak tepat sasaran."
+  },
+  {
+    "lembaga": "Kementerian Pertahanan",
+    "satker": "Rumkit Tk II Dr Hardjanto Dam VI Mlw TNI AD",
+    "pagu": 20000000,
+    "paket": "RKA Satker TA 2027",
+    "inappropriateReason": "Pengadaan barang melalui e-purchasing untuk dokumen RKA satker tidak selaras dengan karakter belanja barang. Judul dan spesifikasi hanya menyebut dokumen anggaran tahunan tanpa rincian barang yang dibeli, sehingga terindikasi salah klasifikasi atau pengadaan yang tidak relevan dengan output belanja barang."
+  },
+  {
+    "lembaga": "Kementerian Pertahanan",
+    "satker": "Paldam XX TIB TNI AD",
+    "pagu": 20000000,
+    "paket": "RKA SATKER TA 2027 PALDAM XX/TIB",
+    "inappropriateReason": "Item pengadaan berupa dokumen RKA satker/penyusunan anggaran, bukan barang berwujud sebagaimana jenis pengadaan yang tercantum. Nilai anggaran penuh untuk 1 dokumen menimbulkan indikasi ketidaktepatan klasifikasi belanja dan potensi pengeluaran yang tidak semestinya untuk output administratif internal."
+  },
+  {
+    "lembaga": "Kementerian Pertahanan",
+    "satker": "Rumkit Tk III Ciremai Dam III Slw TNI AD",
+    "pagu": 20000000,
+    "paket": "Pembangunan Zona Integritas Satker yang sudah WBK",
+    "inappropriateReason": "Pengadaan barang untuk 'pembangunan zona integritas' pada satuan kerja yang disebut sudah berstatus WBK terindikasi tidak selaras dengan keluaran barang yang lazim dan berpotensi bersifat seremonial atau administratif, bukan kebutuhan barang yang jelas. Seluruh nilai anggaran layak dicermati sebagai potensi pemborosan karena objek belanja tidak konkret dari informasi yang tersedia."
+  },
+  {
+    "lembaga": "Kementerian Pertahanan",
+    "satker": "Rindam IV Dip TNI AD",
+    "pagu": 20000000,
+    "paket": "Progja Satker TA 2027",
+    "inappropriateReason": "Pengadaan barang melalui e-purchasing untuk kegiatan revisi dokumen rencana kerja bersifat administratif/jasa intelektual tampak tidak selaras dengan klasifikasi kebutuhan barang. Nilai anggaran untuk 1 dokumen juga terindikasi tidak efisien dan patut ditelaah lebih lanjut."
+  },
+  {
+    "lembaga": "Kementerian Pertahanan",
+    "satker": "Paldam IV Dip TNI AD",
+    "pagu": 20000000,
+    "paket": "Progja Satker TA 2027 Satker Paldam IV/Diponegoro",
+    "inappropriateReason": "Pengadaan barang dengan output hanya berupa dokumen program kerja tidak selaras dengan klasifikasi belanja barang dan berindikasi kuat sebagai pengadaan yang tidak tepat jenisnya. Seluruh nilai patut dicermati sebagai potensi pemborosan karena objek yang dibeli tampak berupa penyusunan dokumen, bukan barang fisik."
+  },
+  {
+    "lembaga": "Kementerian Pertahanan",
+    "satker": "Rumkit Tk II Kartika Husada Dam XII Tpr TNI AD",
+    "pagu": 15000000,
+    "paket": "Renja Satker TA 2027",
+    "inappropriateReason": "Pengadaan barang dengan uraian hanya berupa dokumen rencana kerja tahunan tidak selaras dengan kategori belanja barang dan berindikasi lebih tepat sebagai kegiatan administratif/perencanaan. Dengan spesifikasi sangat umum dan output hanya 1 dokumen, seluruh nilai pengadaan layak dicermati sebagai potensi pemborosan."
+  },
+  {
+    "lembaga": "Kementerian Pertahanan",
+    "satker": "Rumkit Tk II Pelamonia Dam XIV Hsn TNI AD",
+    "pagu": 15000000,
+    "paket": "Rancangan Awal Renja Satker TA 2027",
+    "inappropriateReason": "Item berupa dokumen perencanaan internal tahunan, bukan barang berwujud sebagaimana jenis pengadaan yang tercantum. Pengadaan dokumen renja melalui mekanisme pembelian barang mengindikasikan belanja yang tidak tepat objek dan patut diduga tidak relevan untuk dibeli sebagai item tersendiri."
+  },
+  {
+    "lembaga": "Kementerian Pertahanan",
+    "satker": "Rumkit Tk III 040602 Bhakti Wira Tamtama Semarang Dam IV Dip TNI AD",
+    "pagu": 15000000,
+    "paket": "Rancangan Awal Renja Satker TA 2027",
+    "inappropriateReason": "Pengadaan barang untuk \"rancangan awal renja satker\" terindikasi tidak selaras dengan klasifikasi belanja barang karena lebih menyerupai dokumen perencanaan/administratif internal. Dengan nilai relatif signifikan untuk keluaran yang bersifat rancangan awal, terdapat indikasi kuat anggaran digunakan untuk output yang semestinya disusun melalui fungsi perencanaan internal, sehingga berpotensi seluruh nilai pengadaan menjadi pemborosan."
+  },
+  {
+    "lembaga": "Kementerian Pertahanan",
+    "satker": "Rumkit Tk III 050602 Baladika Husada Jember Dam V Brw TNI AD",
+    "pagu": 15000000,
+    "paket": "Rancangan Awal Renja Satker TA 2027",
+    "inappropriateReason": "Pengadaan barang untuk 'rancangan awal renja satker' terindikasi tidak tepat klasifikasi dan substansi, karena dokumen perencanaan kerja umumnya merupakan keluaran administrasi/perencanaan internal, bukan barang yang lazim dibeli sebagai komoditas tersendiri. Dengan nilai anggaran penuh pada item ini, terdapat indikasi seluruh alokasi berpotensi tidak efisien atau tidak relevan sebagai pengadaan barang."
+  }
+]

@@ -1,1 +1,142 @@
-[]
+[
+  {
+    "lembaga": "Kementerian Pemuda Dan Olah Raga",
+    "satker": "BIDANG KESEKRETARIATAN",
+    "pagu": 84580862000,
+    "paket": "Belanja Barang Persediaan Pemeliharaan Gedung dan Bangunan",
+    "inappropriateReason": "Nilai per paket pemeliharaan kantor sangat tinggi dengan total anggaran sangat besar untuk item persediaan pemeliharaan gedung/bangunan. Uraian sangat umum, kuantitas 1.000 paket, dan metode pengadaan langsung menimbulkan indikasi kuat pengemasan belanja yang tidak proporsional serta berisiko tidak efisien."
+  },
+  {
+    "lembaga": "Kab. Bogor",
+    "satker": "DINAS PEMUDA DAN OLAHRAGA",
+    "pagu": 28770966900,
+    "paket": "Belanja Modal Alat Kantor Lainnya (Videotron Outdoor Tennis Kapten Muslihat) Pada Sub Kegiatan Pemeliharaan/Rehabilitasi Sarana dan Prasarana Gedung kantor atau Bangunan Lainnya",
+    "inappropriateReason": "Pengadaan videotron outdoor sebanyak 300 unit dengan nilai sangat besar untuk konteks sarana olahraga/gedung pemerintah tampak sangat berlebihan dan menimbulkan indikasi kuat pembelian yang tidak proporsional terhadap kebutuhan wajar. Skala dan nilai belanja berpotensi memicu pemborosan anggaran publik secara ekstrem."
+  },
+  {
+    "lembaga": "Kota Bandung",
+    "satker": "Bagian Umum",
+    "pagu": 15961800000,
+    "paket": "Pemeliharaan Genset lebih kecil dari 50 KVA",
+    "inappropriateReason": "Nilai anggaran sangat tidak wajar untuk pemeliharaan 2 unit genset berkapasitas kecil (<50 KVA). Berdasarkan jenis pekerjaan dan volume yang terbatas, pagu mengindikasikan potensi pemborosan yang sangat besar dan perlu verifikasi mendalam atas rincian biaya serta ruang lingkup pekerjaan."
+  },
+  {
+    "lembaga": "Kab. Bone",
+    "satker": "Dinas Bina Marga, Cipta Karya dan Tata Ruang",
+    "pagu": 12742427425,
+    "paket": "Pemeliharaan Berkala Jalan Paket 01",
+    "inappropriateReason": "Nilai anggaran sangat tidak wajar dibanding volume yang tercantum hanya 1 m2 pekerjaan jalan. Dengan spesifikasi konstruksi jalan berlapis, kuantitas sekecil itu tidak selaras dengan pagu yang sangat besar, sehingga terindikasi kuat adanya kesalahan kuantitas, pemaketan, atau pemborosan anggaran yang signifikan."
+  },
+  {
+    "lembaga": "Kab. Bogor",
+    "satker": "DINAS PEMUDA DAN OLAHRAGA",
+    "pagu": 11232747600,
+    "paket": "Belanja Modal Peralatan Studio Audio Pada Sub Kegiatan Pemeliharaan/Rehabilitasi Sarana dan Prasarana Gedung kantor atau Bangunan Lainnya",
+    "inappropriateReason": "Pengadaan peralatan studio audio/sound system bernilai sangat besar dalam satu paket pada dinas pemuda dan olahraga, sementara judul kegiatan dikaitkan dengan pemeliharaan/rehabilitasi sarana gedung. Jenis barang yang sangat banyak dan spesifikasi audio profesional berdaya tinggi mengindikasikan lingkup yang kurang selaras dengan nomenklatur kegiatan pemeliharaan bangunan serta berpotensi berlebihan untuk kebutuhan umum kantor/gedung."
+  },
+  {
+    "lembaga": "Provinsi DKI Jakarta",
+    "satker": "SUKU BADAN PENGELOLAAN ASET DAERAH KOTA - JAKSEL",
+    "pagu": 5519465280,
+    "paket": "Penyediaan Jasa Konstruksi Pemeliharaan Villa Megamendung",
+    "inappropriateReason": "Pemeliharaan villa oleh pengelola aset daerah menimbulkan indikasi kuat penggunaan anggaran untuk fasilitas yang berpotensi tidak esensial dan memicu kecemburuan publik. Nilai anggaran sangat besar untuk 1 paket, sementara rincian pekerjaan tidak menunjukkan urgensi layanan publik yang jelas."
+  },
+  {
+    "lembaga": "Kota Balikpapan",
+    "satker": "SEKRETARIAT DPRD",
+    "pagu": 5500176000,
+    "paket": "Belanja Pemeliharaan Bangunan Gedung-Bangunan Gedung Tempat Kerja-Bangunan Gedung Kantor (Pemeliharaan/Rehab Rumah Jabatan) (Sub Kegiatan Penyediaan Kebutuhan Rumah Tangga DPRD)",
+    "inappropriateReason": "Anggaran pemeliharaan/rehab rumah jabatan pimpinan legislatif dengan nilai sekitar Rp5,5 miliar tampak sangat berlebihan untuk kategori pemeliharaan, berpotensi menimbulkan kesan penggunaan dana publik secara tidak patut dan memicu kecemburuan sosial. Dari judul dan nilai anggaran, item ini layak dikategorikan sangat tidak pantas untuk dicermati mendalam."
+  },
+  {
+    "lembaga": "Dewan Perwakilan Rakyat",
+    "satker": "Sekretariat Jenderal",
+    "pagu": 5425000000,
+    "paket": "Kontrak Service Pemeliharaan Rusa, Perawatan Medis Rusa dan Biaya Makan Rusa DPR RI",
+    "inappropriateReason": "Pengadaan pemeliharaan, perawatan medis, dan makan rusa di lingkungan lembaga legislatif menimbulkan indikasi kuat belanja non-prioritas dan sangat tidak selaras dengan fungsi utama pelayanan kedewanan. Nilai anggarannya juga sangat besar untuk kebutuhan yang berpotensi bersifat ornamental atau fasilitas sekunder, sehingga berisiko tinggi memicu persepsi penggunaan dana publik yang tidak patut."
+  },
+  {
+    "lembaga": "Kementerian Hukum",
+    "satker": "SEKRETARIAT JENDERAL",
+    "pagu": 4236985000,
+    "paket": "Pengadaan Belanja Pemeliharaan Peralatan dan Mesin pada Biro Umum Sekretariat Jenderal Tahun Anggaran 2026",
+    "inappropriateReason": "Terdapat indikasi belanja yang kurang relevan untuk pemeliharaan peralatan dan mesin perkantoran, terutama akuarium senilai tinggi dan alat fitnes, serta penyebutan genset untuk kediaman pejabat. Komponen-komponen ini menimbulkan kesan penggunaan anggaran yang tidak selaras dengan kebutuhan inti pemeliharaan kantor dan layak dicermati lebih lanjut."
+  },
+  {
+    "lembaga": "Provinsi DKI Jakarta",
+    "satker": "DINAS PERHUBUNGAN",
+    "pagu": 4091932491,
+    "paket": "Pemeliharaan dan Penggantian Suku Cadang Kendaraan Dinas Operasional (KDO) BMW",
+    "inappropriateReason": "Pengadaan pemeliharaan dan penggantian suku cadang kendaraan dinas operasional merek BMW pada perangkat daerah menimbulkan indikasi penggunaan kendaraan dinas premium yang tidak selaras dengan prinsip efisiensi dan kepatutan belanja publik. Nilai anggaran yang sangat besar untuk 1 paket memperkuat kesan pemborosan dan berpotensi memicu kecemburuan sosial."
+  },
+  {
+    "lembaga": "Badan Pengawasan Keuangan Dan Pembangunan",
+    "satker": "KANTOR PUSAT BADAN PENGAWASAN KEUANGAN DAN PEMBANGUNAN",
+    "pagu": 3231797000,
+    "paket": "PENGADAAN JASA PEKERJAAN PEMELIHARAAN AKUARIUM KANTOR PUSAT DAN RUMAH DINAS BPKP",
+    "inappropriateReason": "Pengadaan jasa pemeliharaan akuarium untuk kantor pusat dan rumah dinas pada lembaga pengawasan keuangan menimbulkan indikasi kuat belanja nonprioritas dan berpotensi memicu kesan penggunaan dana publik yang tidak patut. Nilai anggaran yang sangat besar untuk kebutuhan dekoratif semacam ini memperkuat indikasi pemborosan."
+  },
+  {
+    "lembaga": "Kementerian Ekonomi Kreatif/Badan Ekonomi Kreatif",
+    "satker": "SEKRETARIAT KEMENTERIANSEKRETARIAT UTAMA KEMENTERIAN EKONOMI KREATIFBADANEKONOMI KREATIF",
+    "pagu": 3200000000,
+    "paket": "Belanja Jasa Lainnya Percetakan Penerbitan Penggandaan Laminasi Plakat dan Souvenir Dalam Rangka Operasional dan Pemeliharaan Kantor",
+    "inappropriateReason": "Pengadaan percetakan, plakat, dan terutama souvenir untuk operasional/pemeliharaan kantor dengan nilai sangat besar dalam satu paket berindikasi kuat tidak proporsional terhadap kebutuhan administratif rutin. Komponen souvenir dan plakat juga berisiko bersifat seremonial/promosi sehingga relevansi dan urgensinya terhadap fungsi kantor perlu dipertanyakan."
+  },
+  {
+    "lembaga": "Kementerian Hak Asasi Manusia",
+    "satker": "SEKRETARIAT JENDERAL KEMENTERIAN HAM",
+    "pagu": 2503878000,
+    "paket": "Belanja Pemeliharaan Gedung dan Bangunan, Pemeliharaan Taman Gd KemenHAM & Sewa Taman dalam Gedung",
+    "inappropriateReason": "Terdapat indikasi ketidakpatutan pada komponen sewa taman dalam gedung senilai Rp300.000.000. Untuk kantor kementerian, pengeluaran ini tampak kurang esensial terhadap fungsi utama layanan publik dan berpotensi lebih bersifat estetika/ornamental daripada kebutuhan operasional inti. Komponen pemeliharaan gedung dan taman luar masih tampak wajar, sehingga indikasi terutama terfokus pada pos sewa taman dalam gedung."
+  },
+  {
+    "lembaga": "Kementerian Ekonomi Kreatif/Badan Ekonomi Kreatif",
+    "satker": "SEKRETARIAT KEMENTERIANSEKRETARIAT UTAMA KEMENTERIAN EKONOMI KREATIFBADANEKONOMI KREATIF",
+    "pagu": 2500000000,
+    "paket": "Belanja Pakaian Kerja Pengadaan Pakaian Kerja Dalam Rangka Operasional dan Pemeliharaan Kantor",
+    "inappropriateReason": "Pengadaan pakaian kerja untuk operasional kantor dengan nilai sangat besar dalam satu paket menimbulkan indikasi pemborosan dan kurang proporsional terhadap kebutuhan administratif perkantoran. Dari judul dan nilai anggaran, belanja ini layak dinilai serius untuk dicermati lebih lanjut."
+  },
+  {
+    "lembaga": "Provinsi Papua Barat",
+    "satker": "SEKRETARIAT DEWAN PERWAKILAN RAKYAT PROVINSI PAPUA BARAT",
+    "pagu": 2500000000,
+    "paket": "Eksploitasi Kendaraan Dinas/Tahun pada sub kegiatan Pemeliharaan Peralatan dan Mesin Lainnya",
+    "inappropriateReason": "Pengadaan bertajuk eksploitasi kendaraan dinas untuk kendaraan roda 4 pejabat tinggi legislatif/daerah dengan metode dikecualikan dan nilai sangat besar menimbulkan indikasi kuat pembiayaan operasional/fasilitas pejabat yang berpotensi tidak efisien. Uraian tidak menunjukkan kebutuhan publik yang terukur, sementara cakupan penggunaan untuk kendaraan pimpinan menimbulkan risiko pemborosan anggaran."
+  },
+  {
+    "lembaga": "Kab. Morowali Utara",
+    "satker": "BADAN PENGELOLAAN KEUANGAN DAN ASET DAERAH",
+    "pagu": 2482680000,
+    "paket": "Belanja Pemeliharaan Alat Angkutan-Alat Angkutan Darat Bermotor-Kendaraan Dinas Bermotor Perorangan",
+    "inappropriateReason": "Nilai pemeliharaan sangat besar untuk satu paket dan mencakup beberapa kendaraan jabatan/operasional sekaligus, termasuk indikasi perbaikan berat. Penggabungan pemeliharaan kendaraan pejabat dengan nilai tinggi melalui pengadaan langsung layak dicermati karena berpotensi tidak efisien dan kurang proporsional terhadap kebutuhan riil."
+  },
+  {
+    "lembaga": "Kab. Kebumen",
+    "satker": "DINAS PEKERJAAN UMUM DAN PENATAAN RUANG",
+    "pagu": 2400000000,
+    "paket": "Pemeliharaan Rutin Jalan untuk Hadiah Lomba Desa",
+    "inappropriateReason": "Judul pengadaan menunjukkan pekerjaan pemeliharaan jalan dikaitkan sebagai hadiah lomba desa. Penggunaan anggaran konstruksi publik sebagai bentuk hadiah berindikasi kurang selaras dengan prinsip perencanaan kebutuhan infrastruktur berbasis prioritas teknis dan kebutuhan layanan, sehingga seluruh nilai pengadaan layak dicermati sebagai potensi pemborosan."
+  },
+  {
+    "lembaga": "Kementerian Luar Negeri",
+    "satker": "KEDUTAAN BESAR RI DI SINGAPURA",
+    "pagu": 2388351000,
+    "paket": "Pemeliharaan kendaraan dinas roda 4610",
+    "inappropriateReason": "Nilai anggaran sangat tinggi dibanding volume yang tercantum hanya 12 bulan @ 12062,38, sehingga terdapat indikasi kuat ketidakwajaran perhitungan atau penganggaran berlebih pada pemeliharaan kendaraan dinas. Uraian juga tidak cukup menjelaskan kebutuhan yang dapat membenarkan nilai sebesar itu."
+  },
+  {
+    "lembaga": "Kab. Pasuruan",
+    "satker": "SEKRETARIAT DAERAH",
+    "pagu": 1960018100,
+    "paket": "Penyediaan Jasa Pemeliharaan, Biaya Pemeliharaan, Pajak dan Perizinan Kendaraan Dinas Operasional atau Lapangan  ( Bagian Umum, Protokol, dan Komunikasi Pimpinan )",
+    "inappropriateReason": "Terdapat indikasi ketidakpantasan karena spesifikasi secara eksplisit mencantumkan \"sedan luxury\" dalam pengadaan pemeliharaan kendaraan dinas. Penggunaan dana publik untuk kendaraan dinas kategori mewah berisiko tidak proporsional dan dapat menimbulkan kesan penggunaan anggaran yang tidak patut, meskipun komponen lain seperti pajak, BBM, dan perawatan pada dasarnya wajar."
+  },
+  {
+    "lembaga": "Kab. Bengkulu Selatan",
+    "satker": "Dinas Pendidikan dan Kebudayaan",
+    "pagu": 1760000000,
+    "paket": "PEMELIHARAAN WEB",
+    "inappropriateReason": "Anggaran pemeliharaan web sebesar Rp1,76 miliar untuk 1 paket tampak sangat tidak proporsional untuk lingkup pemeliharaan situs, tanpa rincian kebutuhan teknis yang kompleks. Nilai ini berindikasi kuat pemborosan dan layak diaudit lebih lanjut dari sisi kewajaran harga serta ruang lingkup layanan."
+  }
+]

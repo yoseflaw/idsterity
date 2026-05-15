@@ -1,1 +1,142 @@
-[]
+[
+  {
+    "lembaga": "Kab. Kutai Timur",
+    "satker": "Dinas Pekerjaan Umum dan Penataan Ruang",
+    "pagu": 229248948715,
+    "paket": "Belanja Modal Jalan Kabupaten",
+    "inappropriateReason": "Terdapat indikasi kuat penggabungan banyak pekerjaan jalan, pengawasan konstruksi, dan kewajiban tahun anggaran sebelumnya dalam satu paket bernilai sangat besar dengan metode pengadaan langsung. Struktur uraian yang memuat banyak lokasi/komponen berbeda dan item tidak terbayarkan lintas tahun patut dinilai tidak wajar serta berisiko tinggi menimbulkan pemborosan anggaran."
+  },
+  {
+    "lembaga": "Kab. Kutai Timur",
+    "satker": "Dinas Pekerjaan Umum dan Penataan Ruang",
+    "pagu": 76019054850,
+    "paket": "Belanja Modal Jembatan pada Jalan Kabupaten",
+    "inappropriateReason": "Terdapat indikasi kuat ketidakwajaran karena paket konstruksi bernilai sangat besar menggunakan metode pengadaan langsung, sementara uraian dan spesifikasi memuat item yang terfragmentasi, berulang, serta mencampurkan berbagai pekerjaan dan kegiatan lintas tahun yang belum terbayarkan. Struktur ini tidak selaras dengan satu paket konstruksi yang jelas dan berisiko menutupi pembiayaan yang tidak efisien atau tidak tepat pengemasan."
+  },
+  {
+    "lembaga": "Kab. Bone",
+    "satker": "Dinas Bina Marga, Cipta Karya dan Tata Ruang",
+    "pagu": 25090906640,
+    "paket": "Rehabilitasi Jalan Paket 02",
+    "inappropriateReason": "Terdapat indikasi sangat kuat ketidakwajaran volume dan harga karena uraian menyebut 1 m2 pembuatan jalan aspal baru, sementara nilai anggaran mencapai puluhan miliar rupiah. Dengan spesifikasi yang dicantumkan, nilai tersebut tampak tidak proporsional untuk volume 1 m2 dan layak diduga sebagai kesalahan spesifikasi/kuantitas atau penganggaran yang sangat tidak efisien."
+  },
+  {
+    "lembaga": "Kab. Bone",
+    "satker": "Dinas Bina Marga, Cipta Karya dan Tata Ruang",
+    "pagu": 24579706640,
+    "paket": "Rehabilitasi Jalan Paket 01",
+    "inappropriateReason": "Nilai anggaran sangat besar untuk uraian volume yang tercantum hanya 1 m2 pekerjaan jalan. Dengan spesifikasi berlapis, biaya sebesar itu untuk volume tersebut tampak sangat tidak wajar dan mengindikasikan kemungkinan kesalahan volume, pengemasan item, atau potensi pemborosan yang perlu ditelaah lebih lanjut."
+  },
+  {
+    "lembaga": "Kementerian Pendidikan Dasar dan Menengah",
+    "satker": "PUSAT ASESMEN PENDIDIKAN",
+    "pagu": 22711760000,
+    "paket": "Belanja Perjalanan Dinas Paket Meeting Luar Kota-051 Persiapan Ujian Seleksi-QAA001 Peserta Pengujian Pendidikan yang Terlayani",
+    "inappropriateReason": "Pengadaan perjalanan dinas paket meeting luar kota untuk fungsi persiapan ujian seleksi bernilai sangat besar dan menggunakan jenis pengadaan barang, sehingga terdapat indikasi kuat belanja rapat/perjalanan tidak proporsional terhadap tujuan substantif layanan pendidikan. Pola ini layak dikategorikan tidak pantas dan berpotensi menimbulkan pemborosan anggaran yang signifikan."
+  },
+  {
+    "lembaga": "Kota Magelang",
+    "satker": "Sekretariat Dewan Perwakilan Rakyat Daerah",
+    "pagu": 14671206000,
+    "paket": "Belanja Perjalanan Dinas Sub Kegiatan Fasilitasi Rapat Koordinasi dan Konsultasi DPRD",
+    "inappropriateReason": "Anggaran perjalanan dinas untuk fasilitasi rapat koordinasi dan konsultasi DPRD selama 12 bulan bernilai sangat besar dan berisiko kuat tidak proporsional terhadap kebutuhan administratif. Belanja perjalanan dinas dalam skala ini berpotensi menimbulkan pemborosan dan kesan penggunaan dana publik yang tidak patut, sehingga layak dikategorikan sangat tidak pantas untuk dicermati ketat."
+  },
+  {
+    "lembaga": "Kota Banjarbaru",
+    "satker": "SEKRETARIAT DPRD",
+    "pagu": 14635649000,
+    "paket": "Belanja Perjalanan Dinas Biasa",
+    "inappropriateReason": "Belanja perjalanan dinas rutin DPRD lintas banyak provinsi selama 1 tahun dengan nilai sangat besar menimbulkan indikasi kuat pemborosan dan penggunaan anggaran yang tidak proporsional. Uraian didominasi perjalanan anggota, pimpinan, dan pendamping serta penginapan, tanpa keluaran substantif yang terukur pada data yang tersedia, sehingga berisiko tinggi tidak efisien dan memicu kesan penggunaan APBD secara tidak patut."
+  },
+  {
+    "lembaga": "Kab. Bone",
+    "satker": "Dinas Bina Marga, Cipta Karya dan Tata Ruang",
+    "pagu": 12742427425,
+    "paket": "Pemeliharaan Berkala Jalan Paket 01",
+    "inappropriateReason": "Nilai anggaran sangat tidak wajar dibanding volume yang tercantum hanya 1 m2 pekerjaan jalan. Dengan spesifikasi konstruksi jalan berlapis, kuantitas sekecil itu tidak selaras dengan pagu yang sangat besar, sehingga terindikasi kuat adanya kesalahan kuantitas, pemaketan, atau pemborosan anggaran yang signifikan."
+  },
+  {
+    "lembaga": "Kab. Karimun",
+    "satker": "DINAS PEKERJAAN UMUM DAN PENATAAN RUANG",
+    "pagu": 10669252140,
+    "paket": "Belanja Peningkatan Jalan Tersebar Kecamatan Durai",
+    "inappropriateReason": "Terdapat indikasi kuat ketidakwajaran nilai anggaran karena uraian kuantitas hanya menunjukkan 1 ton laston lapis aus, sementara nilai pengadaan sangat besar untuk pekerjaan konstruksi tersebut. Perlu verifikasi apakah volume yang tercantum tidak lengkap atau terjadi salah spesifikasi/overbudgeting."
+  },
+  {
+    "lembaga": "Provinsi Kalimantan Timur",
+    "satker": "Dinas Pekerjaan Umum Penataan Ruang dan Perumahan Rakyat",
+    "pagu": 9565166000,
+    "paket": "PEMBANGUNAN GEDUNG GBI KELUARGA IMAMAT RAJANI JALAN GERILYA SOLONG, PROVINSI KALIMANTAN TIMUR",
+    "inappropriateReason": "Penggunaan APBD untuk pembangunan gedung rumah ibadah yang terasosiasi dengan denominasi/komunitas keagamaan tertentu sangat berisiko tidak selaras dengan prioritas belanja publik yang netral dan berpotensi menimbulkan kecemburuan sosial. Dari judul paket, seluruh nilai pengadaan terindikasi merupakan belanja yang tidak patut untuk dibiayai penuh dari anggaran daerah."
+  },
+  {
+    "lembaga": "Kementerian Hak Asasi Manusia",
+    "satker": "DIREKTORAT JENDERAL INSTRUMEN DAN PENGUATAN KEMENTERIAN HAM",
+    "pagu": 9515900000,
+    "paket": "Pengadaan Belanja Perjalanan Dinas Dalam Kota Untuk Kegiatan Implementasi P5HAM pada Direktorat Jenderal Instrumen dan Penguatan HAM Tahun Anggaran 2026",
+    "inappropriateReason": "Anggaran sangat besar untuk perjalanan dinas dalam kota dalam 1 paket, sementara uraian dan spesifikasi sangat umum tanpa rincian kebutuhan, frekuensi, atau output terukur. Nilai ini menimbulkan indikasi kuat pemborosan dan belanja operasional yang tidak proporsional."
+  },
+  {
+    "lembaga": "Kementerian Koordinator Bidang Perekonomian",
+    "satker": "MENKO BIDANG PEREKONOMIAN",
+    "pagu": 8500000000,
+    "paket": "Belanja Perjalanan Dinas Paket Meeting Luar Kota",
+    "inappropriateReason": "Pengadaan paket meeting luar kota senilai sangat besar untuk tiket dan penginapan berindikasi kuat tidak ekonomis, terlebih kebutuhan rapat kedinasan pada umumnya dapat diupayakan lebih efisien. Nilai anggaran yang sangat tinggi untuk satu paket layak dinilai berpotensi pemborosan dan perlu justifikasi kebutuhan yang ketat."
+  },
+  {
+    "lembaga": "Kab. Bone",
+    "satker": "Dinas Bina Marga, Cipta Karya dan Tata Ruang",
+    "pagu": 7972726660,
+    "paket": "Pembangunan Jalan Paket 02",
+    "inappropriateReason": "Terdapat indikasi sangat kuat ketidakwajaran karena pekerjaan konstruksi jalan dengan spesifikasi berlapis lengkap dicantumkan hanya untuk volume 1 m2, namun menggunakan anggaran sangat besar. Ketidaksesuaian ekstrem antara volume dan nilai ini menandakan potensi pemborosan yang sangat tinggi dan layak dikategorikan sangat tidak pantas."
+  },
+  {
+    "lembaga": "Kab. Jepara",
+    "satker": "Dinas Kesehatan",
+    "pagu": 7825058000,
+    "paket": "Belanja Perjalanan Dinas Paket Meeting Dalam Kota - Pengelolaan Pelayanan Kesehatan Gizi Masyarakat",
+    "inappropriateReason": "Nilai anggaran sangat besar untuk paket perjalanan dinas/meeting dalam kota berbentuk 1 paket halfday di luar kantor. Dari judul dan uraian, belanja ini berindikasi kuat tidak proporsional terhadap kebutuhan rapat lokal dan berpotensi merupakan pemborosan anggaran yang ekstrem."
+  },
+  {
+    "lembaga": "Kementerian  Pekerjaan Umum",
+    "satker": "693894/PELAKSANAAN JALAN NASIONAL WILAYAH I PROVINSI JABAR",
+    "pagu": 6202790000,
+    "paket": "PENANGANAN HOLDING JALAN KARAWANG - CIKAMPEK - PAMANUKAN",
+    "inappropriateReason": "Terdapat indikasi kuat ketidakwajaran karena nilai anggaran sangat besar untuk volume pekerjaan yang tercantum hanya 0,001 kilometer. Perbandingan antara biaya dan kuantitas ini sangat tidak proporsional sehingga layak diduga sebagai pemborosan atau kesalahan perencanaan/pencatatan yang serius."
+  },
+  {
+    "lembaga": "Kementerian Pendidikan Dasar dan Menengah",
+    "satker": "DIREKTORAT PENDIDIKAN KHUSUS DAN PENDIDIKAN LAYANAN KHUSUS",
+    "pagu": 5784800000,
+    "paket": "Belanja Perjalanan Dinas Paket Meeting Dalam Rangka SLB yang di Revitalisas",
+    "inappropriateReason": "Pengadaan perjalanan dinas paket meeting bernilai sangat besar untuk kegiatan terkait revitalisasi SLB tampak tidak selaras dengan prioritas belanja yang semestinya lebih berfokus pada kebutuhan layanan dan sarana pendidikan. Judul pekerjaan juga menunjukkan klasifikasi jenis pengadaan yang tidak lazim untuk perjalanan dinas, sehingga layak dicermati sebagai indikasi pemborosan signifikan."
+  },
+  {
+    "lembaga": "Kota Balikpapan",
+    "satker": "SEKRETARIAT DPRD",
+    "pagu": 4865166138,
+    "paket": "Belanja Perjalanan Dinas Biasa Luar Negeri (Sub Kegiatan Pengawasan Urusan Pemerintahan Bidang Perekonomian)",
+    "inappropriateReason": "Anggaran perjalanan dinas luar negeri bernilai sangat besar untuk fungsi pengawasan DPRD menimbulkan kesan penggunaan dana publik yang berlebihan dan tidak proporsional. Terdapat pula inkonsistensi konteks karena judul menyebut luar negeri sementara rincian memuat komponen perjalanan biasa, dalam kota, dan meeting dalam kota, sehingga patut dinilai sangat tidak pantas dan berisiko pemborosan penuh."
+  },
+  {
+    "lembaga": "Kementerian Hak Asasi Manusia",
+    "satker": "DIREKTORAT JENDERAL INSTRUMEN DAN PENGUATAN KEMENTERIAN HAM",
+    "pagu": 4617275000,
+    "paket": "Pengadaan Belanja Perjalanan Dinas Biasa - Luar Negeri untuk Kegiatan Dialog Konstruktif Jenewa Pada Direktorat Jenderal Instrumen dan Penguatan HAM Tahun Anggaran 2026",
+    "inappropriateReason": "Terdapat indikasi kuat pemborosan pada komponen tiket pesawat bisnis untuk perjalanan dinas luar negeri. Untuk kegiatan dialog, pengadaan 10 tiket kelas bisnis bernilai sangat tinggi menimbulkan kesan penggunaan fasilitas premium yang tidak esensial bagi pelaksanaan tugas, terlebih masih terdapat 30 tiket ekonomi dalam paket yang sama. Komponen ini layak dipandang sebagai pengeluaran yang tidak hemat dan perlu justifikasi ketat."
+  },
+  {
+    "lembaga": "Kab. Tuban",
+    "satker": "SEKRETARIAT DPRD",
+    "pagu": 4462920000,
+    "paket": "Pengadaan penginapan Perjalanan Dinas Dalam Negeri  Provinsi D.I. Yogyakarta untuk Komisi DPRD",
+    "inappropriateReason": "Pengadaan penginapan untuk kunjungan kerja komisi legislatif dengan nilai sangat besar menunjukkan belanja perjalanan dinas yang berpotensi berlebihan dan memicu persepsi penggunaan APBD yang tidak patut. Volume tinggi dan total anggaran miliaran untuk akomodasi patut dinilai sebagai pemborosan signifikan."
+  },
+  {
+    "lembaga": "Kota Medan",
+    "satker": "Dinas Sumber Daya Air, Bina Marga dan Bina Konstruksi",
+    "pagu": 4032000000,
+    "paket": "Rehabilitasi Jalan Kepada Forkopimda di Kota Medan",
+    "inappropriateReason": "Judul pengadaan mengindikasikan rehabilitasi jalan ditujukan kepada Forkopimda, bukan berbasis kebutuhan layanan publik umum. Indikasi ini menunjukkan prioritas penggunaan APBD yang berpotensi tidak selaras dengan asas pemerataan manfaat publik dan layak dicermati serius."
+  }
+]

@@ -1,1 +1,142 @@
-[]
+[
+  {
+    "lembaga": "Kab. Jombang",
+    "satker": "Rumah Sakit Umum Daerah Jombang",
+    "pagu": 11850158722,
+    "paket": "Biaya jasa konsultan / pihak ketiga",
+    "inappropriateReason": "Nilai anggaran sangat besar untuk uraian yang sangat umum, tanpa rincian ruang lingkup, output, atau spesifikasi jasa yang memadai. Pengadaan langsung untuk jasa pihak ketiga dengan nilai sebesar ini merupakan indikasi kuat ketidakwajaran dan berpotensi tidak efisien."
+  },
+  {
+    "lembaga": "Kab. Humbang Hasundutan",
+    "satker": "DINAS PENDIDIKAN",
+    "pagu": 3576943000,
+    "paket": "Penyediaan Biaya Personil Peserta Didik Sekolah Menengah Pertama (Belanja Alat Tulis Kantor)",
+    "inappropriateReason": "Anggaran belanja alat tulis kantor dikaitkan dengan biaya personil peserta didik/beasiswa, dengan nilai sangat besar untuk 1 paket. Dari uraian yang tersedia, klasifikasi kebutuhan tampak tidak selaras dengan tujuan dukungan peserta didik dan berisiko merupakan pos belanja yang tidak tepat atau sangat berlebihan sehingga layak diaudit lebih lanjut."
+  },
+  {
+    "lembaga": "Kab. Kutai Kartanegara",
+    "satker": "Sekretariat Daerah",
+    "pagu": 3222630000,
+    "paket": "biaya advetorial (media cetak ,1/2 halaman berwarna halaman dalam)",
+    "inappropriateReason": "Pengadaan advertorial media cetak bernilai sangat besar untuk satu paket berindikasi tidak proporsional terhadap kebutuhan belanja publik dan lebih menyerupai belanja pencitraan/komunikasi non-prioritas. Nilai anggaran perlu diuji keras terhadap urgensi, output terukur, serta kewajaran harga pasar."
+  },
+  {
+    "lembaga": "Kota Bogor",
+    "satker": "SEKRETARIAT DEWAN PERWAKILAN RAKYAT DAERAH",
+    "pagu": 2835660000,
+    "paket": "Biaya Transportasi di Wilayah Provinsi Jawa Barat, DKI Jakarta dan Banten",
+    "inappropriateReason": "Anggaran transportasi satu paket bernilai sangat besar untuk cakupan perjalanan regional dan dibuka dengan metode dikecualikan. Dari judul dan spesifikasi yang umum, nilai ini tampak tidak proporsional terhadap kebutuhan jasa transportasi biasa sehingga layak dikategorikan berisiko tinggi dan berpotensi pemborosan signifikan."
+  },
+  {
+    "lembaga": "Kota Surabaya",
+    "satker": "Sekretariat DPRD",
+    "pagu": 2641318000,
+    "paket": "Biaya Penginapan di Provinsi DI Yogyakarta",
+    "inappropriateReason": "Anggaran penginapan bernilai sangat besar untuk satu paket pada lingkungan Sekretariat DPRD menimbulkan indikasi kuat pembelanjaan yang berlebihan dan berpotensi memicu kecemburuan sosial. Dari judul dan nilai yang tersedia, item ini tampak tidak proporsional untuk kebutuhan akomodasi biasa."
+  },
+  {
+    "lembaga": "Kab. Rembang",
+    "satker": "SEKRETARIAT DPRD",
+    "pagu": 2362500000,
+    "paket": "Biaya Konsumsi Rapat Biasa Makan",
+    "inappropriateReason": "Nilai anggaran konsumsi rapat biasa sangat besar untuk belanja makan, sementara uraian hanya menunjukkan konsumsi rapat rutin tanpa spesifikasi mutu, satuan harga, atau kebutuhan khusus yang membenarkan besaran tersebut. Volume yang tercantum juga mengindikasikan biaya per porsi sangat tinggi sehingga patut diduga terdapat pemborosan signifikan."
+  },
+  {
+    "lembaga": "Kota Bogor",
+    "satker": "SEKRETARIAT DEWAN PERWAKILAN RAKYAT DAERAH",
+    "pagu": 2320814000,
+    "paket": "Satuan Biaya Penginapan Perjalanan Dinas Dalam Negeri",
+    "inappropriateReason": "Pengadaan berupa penyediaan biaya penginapan perjalanan dinas bagi pejabat/anggota DPRD dan pegawai dengan nilai sangat besar dari APBD menimbulkan indikasi kuat belanja perjalanan dinas yang berpotensi tidak efisien dan memicu kecemburuan publik. Judul dan uraian menunjukkan belanja akomodasi perjalanan dinas, bukan kebutuhan layanan publik yang mendesak, sehingga patut dikategorikan sangat tidak pantas untuk dicermati secara ketat."
+  },
+  {
+    "lembaga": "Kab. Pasuruan",
+    "satker": "SEKRETARIAT DAERAH",
+    "pagu": 1960018100,
+    "paket": "Penyediaan Jasa Pemeliharaan, Biaya Pemeliharaan, Pajak dan Perizinan Kendaraan Dinas Operasional atau Lapangan  ( Bagian Umum, Protokol, dan Komunikasi Pimpinan )",
+    "inappropriateReason": "Terdapat indikasi ketidakpantasan karena spesifikasi secara eksplisit mencantumkan \"sedan luxury\" dalam pengadaan pemeliharaan kendaraan dinas. Penggunaan dana publik untuk kendaraan dinas kategori mewah berisiko tidak proporsional dan dapat menimbulkan kesan penggunaan anggaran yang tidak patut, meskipun komponen lain seperti pajak, BBM, dan perawatan pada dasarnya wajar."
+  },
+  {
+    "lembaga": "Kota Medan",
+    "satker": "Sekretariat DPRD",
+    "pagu": 1537640000,
+    "paket": "Biaya Pengadaan Kendaraan Operasional Bus Roda 6 dan/Bus sedang",
+    "inappropriateReason": "Pengadaan 2 unit bus operasional oleh Sekretariat DPRD berisiko tidak proporsional terhadap fungsi utama dukungan administrasi dan persidangan. Dari judul item, kebutuhan bus sedang/roda 6 tampak kurang lazim untuk sekretariat legislatif daerah sehingga patut dicermati sebagai belanja yang berpotensi tidak esensial."
+  },
+  {
+    "lembaga": "Kota Dumai",
+    "satker": "SEKRETARIAT DAERAH",
+    "pagu": 1450000000,
+    "paket": "Biaya Umroh",
+    "inappropriateReason": "Pengadaan jasa umroh bagi 50 orang dengan dana APBD tidak menunjukkan keterkaitan langsung dengan kebutuhan operasional pemerintahan atau pelayanan publik. Belanja perjalanan ibadah bersifat sangat tidak prioritas untuk dibiayai anggaran daerah dan berpotensi menimbulkan kecemburuan sosial, sehingga patut dinilai sebagai penggunaan dana publik yang sangat tidak pantas."
+  },
+  {
+    "lembaga": "Kab. Kotawaringin Barat",
+    "satker": "Sekretariat Daerah",
+    "pagu": 1120000000,
+    "paket": "Biaya Perjalanan Religi / Umroh",
+    "inappropriateReason": "Pengadaan perjalanan religi/umroh dengan dana APBD untuk lingkungan sekretariat daerah tidak menunjukkan keterkaitan langsung dengan kebutuhan layanan publik atau tugas pemerintahan. Belanja bersifat personal-keagamaan seperti ini sangat berisiko dipersepsikan sebagai penggunaan anggaran yang tidak patut, sehingga seluruh nilai patut dianggap sebagai potensi pemborosan."
+  },
+  {
+    "lembaga": "Kota Surabaya",
+    "satker": "Sekretariat DPRD",
+    "pagu": 1115236000,
+    "paket": "Biaya Penginapan di Provinsi Bali",
+    "inappropriateReason": "Pengadaan biaya penginapan di Bali oleh sekretariat legislatif daerah berisiko sangat tinggi menimbulkan kesan penggunaan anggaran yang tidak patut karena berorientasi perjalanan/penginapan di destinasi wisata, tanpa justifikasi kebutuhan teknis yang terlihat pada data. Nilai anggaran juga sangat besar untuk satu paket."
+  },
+  {
+    "lembaga": "Kab. Hulu Sungai Selatan",
+    "satker": "Sekretariat Daerah",
+    "pagu": 1110000000,
+    "paket": "Belanja Jasa yang Diberikan kepada Masyarakat (Biaya Memberangkatkan Umrah)",
+    "inappropriateReason": "Penggunaan APBD untuk membiayai perjalanan ibadah umrah bagi kelompok masyarakat tertentu merupakan belanja yang sangat rentan dinilai tidak relevan dengan prioritas layanan publik pemerintah daerah. Dari judul, uraian, dan spesifikasi, item ini bersifat pemberian manfaat privat/seremonial, bukan kebutuhan operasional pemerintahan atau layanan dasar, sehingga seluruh nilai anggaran berpotensi merupakan pemborosan."
+  },
+  {
+    "lembaga": "Kota Surabaya",
+    "satker": "Sekretariat DPRD",
+    "pagu": 1018012000,
+    "paket": "Biaya Penginapan di Provinsi Banten",
+    "inappropriateReason": "Biaya penginapan luar daerah dengan nilai sangat besar untuk satu paket patut dipertanyakan efisiensi dan urgensinya. Indikasinya kuat karena pengadaan hanya berbentuk biaya penginapan di provinsi lain tanpa rincian kebutuhan, durasi, atau output yang jelas, sehingga berpotensi menjadi belanja perjalanan/akomodasi yang tidak proporsional."
+  },
+  {
+    "lembaga": "Provinsi Jawa Timur",
+    "satker": "RUMAH SAKIT UMUM DAERAH dr. SOETOMO",
+    "pagu": 999750000,
+    "paket": "Belanja Barang dan Jasa BLUD - Belanja Pemeliharaan Bangunan Gedung- Bangunan Gedung Tempat Kerja-Bangunan Kesehatan - Perbaikan Interior Area Direksi - Biaya Konstruksi",
+    "inappropriateReason": "Perbaikan interior area direksi pada rumah sakit berpotensi tidak prioritas dibanding kebutuhan layanan kesehatan. Nilai anggaran yang sangat besar untuk area pimpinan menimbulkan indikasi pemborosan dan patut diuji urgensi, kewajaran lingkup, serta standar biayanya."
+  },
+  {
+    "lembaga": "Kab. Sidenreng Rappang",
+    "satker": "SEKRETARIAT DPRD",
+    "pagu": 930000000,
+    "paket": "Belanja Biaya Rumah Tangga Pimpinan DPRD",
+    "inappropriateReason": "Pengadaan biaya rumah tangga untuk pimpinan DPRD berindikasi menggunakan anggaran publik untuk kebutuhan domestik/penunjang pribadi pejabat, sehingga relevansi terhadap fungsi kedewanan lemah dan berisiko menimbulkan pemborosan penuh atas paket tersebut."
+  },
+  {
+    "lembaga": "Kab. Tuban",
+    "satker": "SEKRETARIAT DPRD",
+    "pagu": 900000000,
+    "paket": "Penyediaan Biaya Kontribusi Bimbingan Teknis",
+    "inappropriateReason": "Pengadaan biaya kontribusi bimbingan teknis untuk 150 orang dengan nilai sangat besar pada lingkungan sekretariat legislatif menimbulkan indikasi kuat pemborosan. Judul dan spesifikasi menunjukkan belanja kegiatan peningkatan kapasitas yang bersifat seminar/bimtek, bukan kebutuhan publik langsung, sementara nominalnya sangat tinggi dan berpotensi memicu kesan penggunaan APBD yang tidak patut."
+  },
+  {
+    "lembaga": "Kab. Banggai",
+    "satker": "Dinas Pekerjaan Umum & Penataan Ruang",
+    "pagu": 883096000,
+    "paket": "Biaya Pengelolaan Kegiatan Pembangunan Jalan Lumpoknyo -Pasar Tua",
+    "inappropriateReason": "Terdapat indikasi kuat ketidaksesuaian antara judul kegiatan pengelolaan pembangunan jalan dan spesifikasi yang justru menyebut studi kelayakan pembangunan RS Tipe D. Nilai pagu juga sangat besar untuk pengadaan langsung 1 paket jasa tenaga ahli, sehingga patut diduga tidak relevan dengan kebutuhan yang dinyatakan dan berpotensi seluruh anggaran tidak tepat sasaran."
+  },
+  {
+    "lembaga": "Kota Surabaya",
+    "satker": "Sekretariat DPRD",
+    "pagu": 699362000,
+    "paket": "Biaya Penginapan di Provinsi Kepulauan Riau",
+    "inappropriateReason": "Pengadaan biaya penginapan di luar provinsi oleh sekretariat legislatif dengan metode dikecualikan bernilai besar menimbulkan indikasi kuat belanja yang kurang relevan dan berisiko pemborosan. Judul item sangat umum tanpa rincian kebutuhan, durasi, jumlah peserta, atau dasar urgensi sehingga kewajaran anggaran sulit dibenarkan dari data yang tersedia."
+  },
+  {
+    "lembaga": "Kab. Nagan Raya",
+    "satker": "DINAS PEKERJAAN UMUM DAN PENATAAN RUANG",
+    "pagu": 695158298,
+    "paket": "Biaya Pembebasan Lahan",
+    "inappropriateReason": "Terdapat indikasi kuat ketidaksesuaian jenis item dan metode pengadaan. Judul mengarah pada pembebasan lahan, namun uraian dan spesifikasi justru menyebut perencanaan konstruksi. Selain itu, pembebasan lahan lazimnya bukan objek e-purchasing. Ketidakkonsistenan mendasar ini membuat alokasi anggaran berisiko tidak tepat sasaran dan patut dicermati serius."
+  }
+]

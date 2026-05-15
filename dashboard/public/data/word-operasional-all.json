@@ -1,1 +1,142 @@
-[]
+[
+  {
+    "lembaga": "Kementerian Badan Usaha Milik Negara",
+    "satker": "KEMENTERIAN BADAN USAHA MILIK NEGARA",
+    "pagu": 7800000000,
+    "paket": "Belanja Barang Non Operasional Lainnya - Penyusunan Rumusan Kebijakan Pimpinan",
+    "inappropriateReason": "Item berisi biaya operasional pejabat tinggi dengan nilai sangat besar per paket/kegiatan dan dikemas sebagai jasa lainnya melalui e-purchasing. Dari uraian yang tersedia, pengeluaran ini tidak menunjukkan keluaran kebijakan yang terukur dan menimbulkan indikasi kuat penggunaan anggaran yang tidak patut serta berpotensi memicu kecemburuan sosial."
+  },
+  {
+    "lembaga": "Kementerian Koordinator Bidang Infrastruktur dan Pembangunan Kewilayahan",
+    "satker": "Kementerian Koordinator Bidang Infrastruktur dan Pembangunan Kewilayahan",
+    "pagu": 7367690000,
+    "paket": "Sewa Kendaraan Operasional Pejabat Eselon I, II, dan Walpri bulan Februari s.d. Desember",
+    "inappropriateReason": "Pengadaan sewa kendaraan operasional untuk pejabat eselon I, II, dan walpri bernilai sangat besar untuk periode kurang dari satu tahun menimbulkan kesan penggunaan anggaran yang berlebihan dan berpotensi memicu kecemburuan sosial. Dari judul pengadaan, belanja ini tergolong sangat tidak pantas untuk dibiayai penuh dengan dana publik tanpa justifikasi rinci yang kuat."
+  },
+  {
+    "lembaga": "Kementerian Pertanian",
+    "satker": "SEKRETARIAT JENDERAL",
+    "pagu": 6400000000,
+    "paket": "Belanja Barang Operasional Lainnya",
+    "inappropriateReason": "Terdapat alokasi dana operasional bulanan yang sangat besar untuk pejabat tinggi dalam satu paket belanja barang operasional, yaitu total Rp6 miliar per tahun. Struktur ini menimbulkan indikasi kuat penggunaan anggaran yang tidak proporsional dan berisiko memicu persepsi belanja fasilitas pejabat yang berlebihan dibanding kebutuhan publik."
+  },
+  {
+    "lembaga": "Kementerian Pertahanan",
+    "satker": "SPRI PANGLIMA TNI MB TNI",
+    "pagu": 6110400000,
+    "paket": "Belanja Barang Operasional Lainnya",
+    "inappropriateReason": "Terdapat alokasi sangat besar untuk \"dukungan kegiatan operasional pimpinan\" selama 1 tahun tanpa rincian kebutuhan yang memadai, disertai pos dukungan kegiatan pejabat tinggi. Komposisi ini berisiko tinggi tidak efisien karena bersifat umum, sulit diuji kewajarannya, dan berpotensi menjadi belanja operasional pimpinan yang berlebihan."
+  },
+  {
+    "lembaga": "Kota Lubuk Linggau",
+    "satker": "Sekretariat Daerah",
+    "pagu": 4672440000,
+    "paket": "Pengadaan Kendaraan Dinas Operasional atau Lapangan",
+    "inappropriateReason": "Nilai sewa kendaraan operasional untuk kepala bagian dan patwal sangat besar dan berpotensi memicu kesan penggunaan APBD yang tidak proporsional terhadap kebutuhan administratif. Dari judul dan peruntukannya, item ini tampak berisiko tinggi sebagai belanja sewa kendaraan yang berlebihan untuk fungsi pendukung pimpinan."
+  },
+  {
+    "lembaga": "Kementerian Imigrasi dan Pemasyarakatan",
+    "satker": "SEKRETARIAT JENDERAL",
+    "pagu": 4197600000,
+    "paket": "Pengadaan Sewa Kendaraan Operasional Ka Kanwil DITJEN Pemasyarakatan Tahun Anggaran 2026",
+    "inappropriateReason": "Nilai sewa kendaraan operasional untuk satu paket bagi jabatan pimpinan wilayah sangat tinggi dan menimbulkan indikasi kuat penggunaan anggaran yang berlebihan untuk fasilitas kendaraan dinas. Dari judul dan nilai anggaran, item ini berisiko memicu kesan kemewahan yang tidak proporsional terhadap kebutuhan operasional pemerintahan."
+  },
+  {
+    "lembaga": "Provinsi DKI Jakarta",
+    "satker": "DINAS PERHUBUNGAN",
+    "pagu": 4091932491,
+    "paket": "Pemeliharaan dan Penggantian Suku Cadang Kendaraan Dinas Operasional (KDO) BMW",
+    "inappropriateReason": "Pengadaan pemeliharaan dan penggantian suku cadang kendaraan dinas operasional merek BMW pada perangkat daerah menimbulkan indikasi penggunaan kendaraan dinas premium yang tidak selaras dengan prinsip efisiensi dan kepatutan belanja publik. Nilai anggaran yang sangat besar untuk 1 paket memperkuat kesan pemborosan dan berpotensi memicu kecemburuan sosial."
+  },
+  {
+    "lembaga": "Kementerian Energi Dan Sumber Daya Mineral",
+    "satker": "DITJEN MINERAL DAN BATUBARA",
+    "pagu": 3974400000,
+    "paket": "Belanja Keperluan Perkantoran - Operasional Kantor Pegawai Penempatan Provinsi",
+    "inappropriateReason": "Terdapat indikasi kuat ketidakwajaran biaya operasional rutin, terutama langganan TV kabel sebesar Rp2.000.000 per unit/bulan sebanyak 432 unit-bulan yang tampak berlebihan untuk kebutuhan kantor. Beberapa komponen lain seperti air mineral, bahan kebersihan, dan keperluan perkantoran juga bernilai tinggi secara seragam sehingga patut diduga terjadi pemborosan pada standar harga atau volume kebutuhan."
+  },
+  {
+    "lembaga": "Kota Pontianak",
+    "satker": "DINAS PEKERJAAN UMUM DAN PENATAAN RUANG",
+    "pagu": 3850000000,
+    "paket": "Belanja Kendaraan Operasional (Pengadaan Asphalt Mixing Plant)",
+    "inappropriateReason": "Terdapat indikasi kuat ketidaksesuaian antara nama paket pengadaan Asphalt Mixing Plant dengan uraian/spesifikasi yang justru mengarah pada kendaraan operasional roda 6 dan/atau bus sedang. Ketidakselarasan objek belanja ini serius dan patut dicermati karena berpotensi menunjukkan klasifikasi pengadaan yang tidak tepat untuk kebutuhan dinas teknis."
+  },
+  {
+    "lembaga": "Kementerian Koordinator Bidang Infrastruktur dan Pembangunan Kewilayahan",
+    "satker": "Kementerian Koordinator Bidang Infrastruktur dan Pembangunan Kewilayahan",
+    "pagu": 3696000000,
+    "paket": "Dana Operasional Menteri (DOM)",
+    "inappropriateReason": "Pos anggaran berupa dana operasional pejabat sebesar miliaran rupiah per tahun dengan pertanggungjawaban hanya sebagian kecil merupakan bentuk belanja yang sangat tidak wajar dan berisiko tinggi menimbulkan penggunaan dana publik yang tidak akuntabel. Dari judul dan spesifikasi, item ini memberi indikasi kuat pemborosan dan ketidakpantasan penggunaan anggaran."
+  },
+  {
+    "lembaga": "Kementerian Agraria dan Tata Ruang/BPN",
+    "satker": "KANTOR PUSAT BADAN PERTANAHAN NASIONAL REPUBLIK INDONESIA",
+    "pagu": 3600000000,
+    "paket": "Dana Operasional Menteri",
+    "inappropriateReason": "Item berupa dana operasional pejabat setingkat menteri dalam bentuk jasa konsultansi dengan nilai sangat besar dan satuan bulanan tinggi. Dari judul dan spesifikasi, pengadaan ini tidak menunjukkan keluaran konsultansi yang terukur serta menimbulkan indikasi penggunaan anggaran yang tidak patut untuk membiayai fasilitas/operasional personal pejabat."
+  },
+  {
+    "lembaga": "Kementerian Koperasi",
+    "satker": "Sekretariat Kementerian",
+    "pagu": 3600000000,
+    "paket": "Operasional Menteri",
+    "inappropriateReason": "Anggaran operasional pejabat tinggi dalam bentuk paket tahunan bernilai sangat besar dengan uraian sangat umum dan spesifikasi tidak terinci menimbulkan risiko pemborosan dan belanja yang sulit diuji kewajarannya. Nilai ini layak dicermati karena berpotensi mencakup komponen nonprioritas atau biaya berlebih."
+  },
+  {
+    "lembaga": "Kementerian Pertahanan",
+    "satker": "BALOGHAN KEMHAN",
+    "pagu": 3560000000,
+    "paket": "Belanja Barang Operasional Lainnya",
+    "inappropriateReason": "Anggaran operasional untuk pejabat berdasarkan jenjang dengan nilai sangat besar per unit menunjukkan pola belanja yang berpotensi tidak proporsional terhadap kebutuhan publik. Nilai per set yang sangat tinggi, terutama untuk jenjang tertinggi, menimbulkan kesan penggunaan dana negara yang berlebihan dan sulit dibenarkan dari informasi yang tersedia."
+  },
+  {
+    "lembaga": "Kementerian Pemuda Dan Olah Raga",
+    "satker": "BIDANG KESEKRETARIATAN",
+    "pagu": 3369600000,
+    "paket": "Sewa Kendaraan Operasional Pejabat Eselon 1",
+    "inappropriateReason": "Pengadaan sewa kendaraan operasional pejabat eselon 1 dengan spesifikasi mobil listrik berjarak tempuh tinggi dan ultra fast charging berbiaya sangat besar menimbulkan kesan fasilitas pejabat yang mewah dan tidak sensitif terhadap prinsip efisiensi belanja publik. Seluruh nilai paket layak dicermati sebagai potensi pemborosan karena manfaat kedinasan tidak tampak sebanding dengan besaran anggaran dari informasi yang tersedia."
+  },
+  {
+    "lembaga": "Kementerian Agama",
+    "satker": "UNIVERSITAS ISLAM NEGERI SUNAN GUNUNG JATI BANDUNG 423523",
+    "pagu": 3272840000,
+    "paket": "Belanja Jasa - Operasional Perkantoran Kantor Pusat/ Universitas",
+    "inappropriateReason": "Terdapat indikasi kuat pengeluaran operasional yang kurang selaras dengan prinsip efisiensi, terutama dominasi sewa kendaraan operasional untuk banyak pejabat selama 12 bulan serta sewa rumah dinas. Komponen seperti jasa media dan sewa kostum juga perlu dicermati urgensinya terhadap fungsi utama layanan pendidikan. Berdasarkan uraian yang tersedia, seluruh alokasi berpotensi mengandung pemborosan sehingga layak diaudit lebih lanjut."
+  },
+  {
+    "lembaga": "Kementerian Ekonomi Kreatif/Badan Ekonomi Kreatif",
+    "satker": "SEKRETARIAT KEMENTERIANSEKRETARIAT UTAMA KEMENTERIAN EKONOMI KREATIFBADANEKONOMI KREATIF",
+    "pagu": 3200000000,
+    "paket": "Belanja Jasa Lainnya Percetakan Penerbitan Penggandaan Laminasi Plakat dan Souvenir Dalam Rangka Operasional dan Pemeliharaan Kantor",
+    "inappropriateReason": "Pengadaan percetakan, plakat, dan terutama souvenir untuk operasional/pemeliharaan kantor dengan nilai sangat besar dalam satu paket berindikasi kuat tidak proporsional terhadap kebutuhan administratif rutin. Komponen souvenir dan plakat juga berisiko bersifat seremonial/promosi sehingga relevansi dan urgensinya terhadap fungsi kantor perlu dipertanyakan."
+  },
+  {
+    "lembaga": "Provinsi Sumatera Selatan",
+    "satker": "Biro Umum",
+    "pagu": 2712000000,
+    "paket": "Pengadaan Kendaraan Dinas Operasional atau Lapangan (Belanja Modal Kendaraan Bermotor Penumpang) berupa 2 (dua) unit Kendaraan Roda 4 (empat) Mobil Merk Hyundai Palisade",
+    "inappropriateReason": "Pengadaan mobil Hyundai Palisade untuk kendaraan dinas biro umum merupakan indikasi kuat penggunaan kendaraan penumpang berkelas premium yang berpotensi mewah dan tidak proporsional untuk kebutuhan operasional pemerintahan. Dari jenis barang dan konteks unit pengelola umum, item ini menimbulkan kesan penggunaan APBD secara tidak patut dan layak dikategorikan sangat tidak pantas."
+  },
+  {
+    "lembaga": "Kab. Maybrat",
+    "satker": "Badan Pengelola Keuangan dan Aset Daerah",
+    "pagu": 2700000000,
+    "paket": "Pengadaan Kendaraan Dinas Operasional atau Lapangan",
+    "inappropriateReason": "Pengadaan kendaraan dinas berupa Land Cruiser dengan nilai sangat besar menimbulkan indikasi kuat kemewahan yang tidak proporsional untuk penggunaan dana publik. Jenis kendaraan ini berkelas premium dan berpotensi memicu kecemburuan sosial, sehingga patut dinilai sebagai penggunaan anggaran yang sangat tidak pantas kecuali ada justifikasi operasional khusus yang tidak terlihat pada data."
+  },
+  {
+    "lembaga": "Provinsi Banten",
+    "satker": "Sekretariat DPRD",
+    "pagu": 2513852000,
+    "paket": "Pengadaan Kendaraan Bermotor Operasional Roda Empat Pimpinan DPRD dan Eselon 2",
+    "inappropriateReason": "Pengadaan kendaraan operasional roda empat khusus pimpinan DPRD dan pejabat eselon 2 bernilai sangat besar menimbulkan indikasi belanja fasilitas pejabat yang mewah dan berisiko memicu kecemburuan sosial. Dari judul dan nilai anggaran, item ini tampak lebih berorientasi pada kenyamanan/fasilitas elite daripada kebutuhan layanan publik yang langsung."
+  },
+  {
+    "lembaga": "Kab. Tanah Bumbu",
+    "satker": "BADAN PENGELOLAAN KEUANGAN DAN ASET DAERAH",
+    "pagu": 2500000000,
+    "paket": "Mobil Operasional Tamu",
+    "inappropriateReason": "Pengadaan 1 unit mobil operasional tamu dengan anggaran Rp2,5 miliar pada pemerintah daerah terindikasi sangat tidak proporsional untuk fungsi penunjang. Dari judul dan nilai anggaran, item ini memberi kesan kendaraan tamu bernilai sangat mewah dan berisiko kuat menimbulkan pemborosan serta kecemburuan publik."
+  }
+]

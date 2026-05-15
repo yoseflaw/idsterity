@@ -1,1 +1,142 @@
-[]
+[
+  {
+    "lembaga": "Kab. Jombang",
+    "satker": "Rumah Sakit Umum Daerah Jombang",
+    "pagu": 11850158722,
+    "paket": "Biaya jasa konsultan / pihak ketiga",
+    "inappropriateReason": "Nilai anggaran sangat besar untuk uraian yang sangat umum, tanpa rincian ruang lingkup, output, atau spesifikasi jasa yang memadai. Pengadaan langsung untuk jasa pihak ketiga dengan nilai sebesar ini merupakan indikasi kuat ketidakwajaran dan berpotensi tidak efisien."
+  },
+  {
+    "lembaga": "Kementerian Pertahanan",
+    "satker": "Mabes TNI AD TNI AD",
+    "pagu": 11235544000,
+    "paket": "Biaya Rapat Layanan Pemantauan",
+    "inappropriateReason": "Anggaran sangat besar untuk item yang pada judul dan spesifikasinya hanya berupa biaya rapat/layanan pemantauan, tanpa rincian kebutuhan barang yang memadai. Nilai ini menimbulkan indikasi kuat pemborosan dan ketidakpatutan penggunaan dana publik untuk belanja yang bersifat administratif/rapat."
+  },
+  {
+    "lembaga": "Kementerian  Kehutanan",
+    "satker": "693706 KANTOR PUSAT BADAN PENYULUHAN DAN PENGEMBANGAN SUMBER DAYA MANUSIA",
+    "pagu": 7500000000,
+    "paket": "Biaya transportasi",
+    "inappropriateReason": "Pengadaan diklasifikasikan sebagai barang, tetapi uraian menunjukkan biaya transportasi dalam jumlah sangat besar dengan satuan 1.500 OK @ Rp5.000.000. Terdapat ketidaksesuaian jenis belanja dan spesifikasi sangat umum sehingga manfaat, dasar kebutuhan, serta kewajaran tarif sulit dibenarkan dari data yang tersedia. Nilai total yang besar untuk pos transportasi layak dinilai berisiko tinggi dan berpotensi menimbulkan pemborosan signifikan."
+  },
+  {
+    "lembaga": "Dewan Perwakilan Rakyat",
+    "satker": "Sekretariat Jenderal",
+    "pagu": 5425000000,
+    "paket": "Kontrak Service Pemeliharaan Rusa, Perawatan Medis Rusa dan Biaya Makan Rusa DPR RI",
+    "inappropriateReason": "Pengadaan pemeliharaan, perawatan medis, dan makan rusa di lingkungan lembaga legislatif menimbulkan indikasi kuat belanja non-prioritas dan sangat tidak selaras dengan fungsi utama pelayanan kedewanan. Nilai anggarannya juga sangat besar untuk kebutuhan yang berpotensi bersifat ornamental atau fasilitas sekunder, sehingga berisiko tinggi memicu persepsi penggunaan dana publik yang tidak patut."
+  },
+  {
+    "lembaga": "Komisi Yudisial Ri",
+    "satker": "KOMISI YUDISIAL RI",
+    "pagu": 4707600000,
+    "paket": "Biaya Sewa Kendaraan Bagi Anggota Komisi Yudisial Tahun 2026",
+    "inappropriateReason": "Pengadaan sewa kendaraan bagi anggota lembaga negara dengan nilai sangat besar untuk satu paket selama satu tahun menimbulkan indikasi kuat pembiayaan fasilitas kedinasan yang berlebihan dan berpotensi memicu kecemburuan publik. Dari judul dan nilainya, pos ini tampak tidak hemat dan patut dipandang sangat tidak pantas untuk dibiayai penuh dari anggaran publik."
+  },
+  {
+    "lembaga": "Kab. Humbang Hasundutan",
+    "satker": "DINAS PENDIDIKAN",
+    "pagu": 3576943000,
+    "paket": "Penyediaan Biaya Personil Peserta Didik Sekolah Menengah Pertama (Belanja Alat Tulis Kantor)",
+    "inappropriateReason": "Anggaran belanja alat tulis kantor dikaitkan dengan biaya personil peserta didik/beasiswa, dengan nilai sangat besar untuk 1 paket. Dari uraian yang tersedia, klasifikasi kebutuhan tampak tidak selaras dengan tujuan dukungan peserta didik dan berisiko merupakan pos belanja yang tidak tepat atau sangat berlebihan sehingga layak diaudit lebih lanjut."
+  },
+  {
+    "lembaga": "Kab. Kutai Kartanegara",
+    "satker": "Sekretariat Daerah",
+    "pagu": 3222630000,
+    "paket": "biaya advetorial (media cetak ,1/2 halaman berwarna halaman dalam)",
+    "inappropriateReason": "Pengadaan advertorial media cetak bernilai sangat besar untuk satu paket berindikasi tidak proporsional terhadap kebutuhan belanja publik dan lebih menyerupai belanja pencitraan/komunikasi non-prioritas. Nilai anggaran perlu diuji keras terhadap urgensi, output terukur, serta kewajaran harga pasar."
+  },
+  {
+    "lembaga": "Kepolisian Negara Republik Indonesia",
+    "satker": "SESPIM LEMDIKLAT POLRI",
+    "pagu": 2971081000,
+    "paket": "Pengadaan Biaya Praktek Kerja Luar Negeri (PKLN) Peserta Sespimti Polri Dikreg Ke-35 Gel 1 T.A. 2026",
+    "inappropriateReason": "Pengadaan biaya praktik kerja luar negeri bagi peserta pendidikan pimpinan kepolisian bernilai sangat besar dan bersifat studi/perjalanan, sehingga relevansi serta urgensi penggunaan dana publik perlu dipertanyakan. Dari judul dan jenis belanja, item ini berindikasi kuat sebagai pengeluaran non-prioritas yang berpotensi menimbulkan pemborosan signifikan."
+  },
+  {
+    "lembaga": "Kota Bogor",
+    "satker": "SEKRETARIAT DEWAN PERWAKILAN RAKYAT DAERAH",
+    "pagu": 2835660000,
+    "paket": "Biaya Transportasi di Wilayah Provinsi Jawa Barat, DKI Jakarta dan Banten",
+    "inappropriateReason": "Anggaran transportasi satu paket bernilai sangat besar untuk cakupan perjalanan regional dan dibuka dengan metode dikecualikan. Dari judul dan spesifikasi yang umum, nilai ini tampak tidak proporsional terhadap kebutuhan jasa transportasi biasa sehingga layak dikategorikan berisiko tinggi dan berpotensi pemborosan signifikan."
+  },
+  {
+    "lembaga": "Kota Surabaya",
+    "satker": "Sekretariat DPRD",
+    "pagu": 2641318000,
+    "paket": "Biaya Penginapan di Provinsi DI Yogyakarta",
+    "inappropriateReason": "Anggaran penginapan bernilai sangat besar untuk satu paket pada lingkungan Sekretariat DPRD menimbulkan indikasi kuat pembelanjaan yang berlebihan dan berpotensi memicu kecemburuan sosial. Dari judul dan nilai yang tersedia, item ini tampak tidak proporsional untuk kebutuhan akomodasi biasa."
+  },
+  {
+    "lembaga": "Kab. Rembang",
+    "satker": "SEKRETARIAT DPRD",
+    "pagu": 2362500000,
+    "paket": "Biaya Konsumsi Rapat Biasa Makan",
+    "inappropriateReason": "Nilai anggaran konsumsi rapat biasa sangat besar untuk belanja makan, sementara uraian hanya menunjukkan konsumsi rapat rutin tanpa spesifikasi mutu, satuan harga, atau kebutuhan khusus yang membenarkan besaran tersebut. Volume yang tercantum juga mengindikasikan biaya per porsi sangat tinggi sehingga patut diduga terdapat pemborosan signifikan."
+  },
+  {
+    "lembaga": "Kota Bogor",
+    "satker": "SEKRETARIAT DEWAN PERWAKILAN RAKYAT DAERAH",
+    "pagu": 2320814000,
+    "paket": "Satuan Biaya Penginapan Perjalanan Dinas Dalam Negeri",
+    "inappropriateReason": "Pengadaan berupa penyediaan biaya penginapan perjalanan dinas bagi pejabat/anggota DPRD dan pegawai dengan nilai sangat besar dari APBD menimbulkan indikasi kuat belanja perjalanan dinas yang berpotensi tidak efisien dan memicu kecemburuan publik. Judul dan uraian menunjukkan belanja akomodasi perjalanan dinas, bukan kebutuhan layanan publik yang mendesak, sehingga patut dikategorikan sangat tidak pantas untuk dicermati secara ketat."
+  },
+  {
+    "lembaga": "Kementerian Keuangan",
+    "satker": "KANWIL DITJEN PERBENDAHARAAN PROVINSI MALUKU",
+    "pagu": 2297164000,
+    "paket": "Biaya Konstruksi Fisik Pembangunan 1 Unit Townhouse",
+    "inappropriateReason": "Pembangunan 1 unit townhouse dengan dana APBN pada satuan kerja perbendaharaan menimbulkan indikasi kuat penggunaan anggaran yang tidak patut dan berpotensi tidak relevan dengan fungsi utama layanan publik. Jenis bangunan ini berkesan sebagai hunian/properti bernilai privat sehingga sangat berisiko memicu pemborosan penuh sebesar nilai pengadaan."
+  },
+  {
+    "lembaga": "Kementerian Pendidikan Dasar dan Menengah",
+    "satker": "BIRO KEUANGAN DAN BARANG MILIK NEGARA",
+    "pagu": 2218660000,
+    "paket": "Biaya Paket Kegiatan Rapat/Pertemuan Full Board di Luar Kantor - Pejabat Eselon III ke bawah &amp;#40;D.K.I. Jakarta&amp;#41; kegiatan Asistensi Pendayagunaan dan Penghapusan BMN di Lingkungan Kemendi",
+    "inappropriateReason": "Pengadaan paket rapat/pertemuan full board di luar kantor dalam jumlah besar untuk kegiatan asistensi administratif BMN berindikasi sangat tidak efisien. Seluruh nilai pengadaan patut dicermati sebagai potensi pemborosan karena format full board di luar kantor untuk fungsi internal administratif menimbulkan kesan penggunaan anggaran yang berlebihan dan tidak proporsional."
+  },
+  {
+    "lembaga": "Badan Gizi Nasional",
+    "satker": "BADAN GIZI NASIONAL",
+    "pagu": 2071322000,
+    "paket": "Biaya Paket Kegiatan Rapat/Pertemuan Full Day di Luar Kantor - Pejabat Eselon III ke bawah (Bali)",
+    "inappropriateReason": "Pengadaan paket rapat/pertemuan full day di luar kantor dalam jumlah sangat besar di Bali untuk pejabat/staf eselon III ke bawah menunjukkan pola belanja yang berisiko tidak efisien. Kegiatan rapat internal umumnya dapat diprioritaskan di fasilitas kantor atau lokasi yang lebih hemat, sehingga porsi besar anggaran untuk venue luar kantor berindikasi pemborosan signifikan."
+  },
+  {
+    "lembaga": "Kab. Pasuruan",
+    "satker": "SEKRETARIAT DAERAH",
+    "pagu": 1960018100,
+    "paket": "Penyediaan Jasa Pemeliharaan, Biaya Pemeliharaan, Pajak dan Perizinan Kendaraan Dinas Operasional atau Lapangan  ( Bagian Umum, Protokol, dan Komunikasi Pimpinan )",
+    "inappropriateReason": "Terdapat indikasi ketidakpantasan karena spesifikasi secara eksplisit mencantumkan \"sedan luxury\" dalam pengadaan pemeliharaan kendaraan dinas. Penggunaan dana publik untuk kendaraan dinas kategori mewah berisiko tidak proporsional dan dapat menimbulkan kesan penggunaan anggaran yang tidak patut, meskipun komponen lain seperti pajak, BBM, dan perawatan pada dasarnya wajar."
+  },
+  {
+    "lembaga": "Kota Medan",
+    "satker": "Sekretariat DPRD",
+    "pagu": 1537640000,
+    "paket": "Biaya Pengadaan Kendaraan Operasional Bus Roda 6 dan/Bus sedang",
+    "inappropriateReason": "Pengadaan 2 unit bus operasional oleh Sekretariat DPRD berisiko tidak proporsional terhadap fungsi utama dukungan administrasi dan persidangan. Dari judul item, kebutuhan bus sedang/roda 6 tampak kurang lazim untuk sekretariat legislatif daerah sehingga patut dicermati sebagai belanja yang berpotensi tidak esensial."
+  },
+  {
+    "lembaga": "Kementerian Pendidikan Dasar dan Menengah",
+    "satker": "SEKRETARIAT DITJEN PENDIDIKAN ANAK USIA DINI PENDIDIKAN DASAR DAN PENDIDIKAN MENENGAH",
+    "pagu": 1456560000,
+    "paket": "Biaya Paket Kegiatan Rapat/Pertemuan Full Board di Luar Kantor - Pejabat Eselon III ke bawah Pendukung Kegiatan Komponen Tata Persuratan  dan Kearsipan",
+    "inappropriateReason": "Pengadaan paket rapat/pertemuan full board di luar kantor untuk fungsi tata persuratan dan kearsipan bernilai sangat besar, sementara kegiatannya pada dasarnya bersifat administratif dan pada indikasi awal dapat dilaksanakan lebih hemat di fasilitas kantor. Nilai anggaran yang tinggi untuk rapat luar kantor layak dinilai sebagai potensi pemborosan serius."
+  },
+  {
+    "lembaga": "Kota Dumai",
+    "satker": "SEKRETARIAT DAERAH",
+    "pagu": 1450000000,
+    "paket": "Biaya Umroh",
+    "inappropriateReason": "Pengadaan jasa umroh bagi 50 orang dengan dana APBD tidak menunjukkan keterkaitan langsung dengan kebutuhan operasional pemerintahan atau pelayanan publik. Belanja perjalanan ibadah bersifat sangat tidak prioritas untuk dibiayai anggaran daerah dan berpotensi menimbulkan kecemburuan sosial, sehingga patut dinilai sebagai penggunaan dana publik yang sangat tidak pantas."
+  },
+  {
+    "lembaga": "Kementerian Pendidikan Dasar dan Menengah",
+    "satker": "BIRO KEUANGAN DAN BARANG MILIK NEGARA",
+    "pagu": 1130730000,
+    "paket": "Biaya Paket Kegiatan Rapat/Pertemuan Full Board di Luar Kantor - Pejabat Eselon III ke bawah &amp;#40;D.K.I. Jakarta&amp;#41; kegiatan Pengawasan dan Pengendalian &amp;#40;WASDAL&amp;#41; BMN di Lingk",
+    "inappropriateReason": "Pengadaan rapat/pertemuan full board di luar kantor untuk beberapa paket bernilai sangat besar dan berpotensi tidak efisien, karena fungsi rapat pengawasan/pengendalian aset pada prinsipnya dapat diprioritaskan di fasilitas kantor atau format yang lebih hemat. Indikasi pemborosan kuat pada pilihan venue dan paket kegiatan, bukan pada kebutuhan substantif rapatnya."
+  }
+]

@@ -1,1 +1,142 @@
-[]
+[
+  {
+    "lembaga": "Kab. Kutai Kartanegara",
+    "satker": "Dinas Pemberdayaan Masyarakat dan Desa",
+    "pagu": 13600370097,
+    "paket": "Fasilitasi Sarana dan Prasarana Desa (Belanja Hibah Barang kepada Pemerintah Daerah Lainnya)",
+    "inappropriateReason": "Pengadaan videotron outdoor berulang untuk fasilitasi sarana desa bernilai sangat besar menimbulkan indikasi ketidakselarasan prioritas belanja publik. Barang ini cenderung bukan kebutuhan dasar pemerintahan desa dibanding layanan esensial, sementara kuantitas banyak dan spesifikasi seragam dengan total anggaran tinggi meningkatkan risiko pemborosan."
+  },
+  {
+    "lembaga": "Kab. Bojonegoro",
+    "satker": "Dinas Perumahan Kawasan Permukiman dan Cipta Karya",
+    "pagu": 5529456000,
+    "paket": "Pembangunan Kantor Pimpinan Daerah Muhammadiyah Kabupaten Bojonegoro",
+    "inappropriateReason": "Penggunaan APBD untuk pembangunan kantor organisasi kemasyarakatan/non-pemerintah terindikasi kurang selaras dengan prioritas belanja publik dan fungsi utama perangkat daerah. Nilai anggaran konstruksi juga signifikan, sehingga seluruh alokasi patut dicermati sebagai potensi pemborosan bila manfaat publik langsung dan dasar kewenangannya tidak jelas."
+  },
+  {
+    "lembaga": "Kab. Sumbawa Barat",
+    "satker": "SEKRETARIAT DAERAH",
+    "pagu": 4390000000,
+    "paket": "Belanja Makanan dan Minuman jamuan Tamu Ruang Kerja KDH/WKDH, Kunjungan Tamu Daerah, Apel Syukur, Peringatan Harlah KSB, Kegiatan Dialog dengan Toga, Toma, Pimpinan, Organisasi, Yasinan, dabn Kegiatan lainnya",
+    "inappropriateReason": "Nilai anggaran untuk konsumsi/jamuan berbagai kegiatan seremonial dan penerimaan tamu sangat besar dibanding sifat belanja yang tidak langsung menghasilkan layanan publik. Uraian mencakup jamuan VIP, prasmanan, makan, dan kudapan untuk banyak agenda umum, sehingga terdapat indikasi belanja hospitality yang berlebihan dan layak ditinjau efisiensi, frekuensi, serta standarnya."
+  },
+  {
+    "lembaga": "Provinsi Sulawesi Selatan",
+    "satker": "BADAN PENDAPATAN DAERAH",
+    "pagu": 3937554800,
+    "paket": "Belanja Barang untuk Dijual/Diserahkan kepada Masyarakat Gebyar Pajak Daerah",
+    "inappropriateReason": "Pengadaan hadiah gebyar pajak berupa paket umroh, sepeda motor, kulkas, mesin cuci, sepeda, dan televisi berisiko tinggi tidak proporsional terhadap penggunaan APBD karena bersifat konsumtif, memicu kesan pemborosan, dan berpotensi menimbulkan kecemburuan sosial. Dari judul dan spesifikasi, item tampak lebih menyerupai doorprize/promosi daripada kebutuhan layanan publik yang esensial."
+  },
+  {
+    "lembaga": "Kab. Tapanuli Utara",
+    "satker": "BAGIAN UMUM",
+    "pagu": 3510000000,
+    "paket": "Penyediaan Kebutuhan Rumah Tangga Kepala Daerah",
+    "inappropriateReason": "Pengadaan kebutuhan rumah tangga untuk kepala daerah senilai sangat besar merupakan penggunaan anggaran yang kuat terindikasi tidak patut karena berorientasi pada fasilitas personal/rumah tangga, bukan kebutuhan publik langsung. Nilainya sangat tinggi untuk kategori ini dan berpotensi menimbulkan pemborosan serta kecemburuan sosial."
+  },
+  {
+    "lembaga": "Kab. Manokwari",
+    "satker": "DINAS SOSIAL",
+    "pagu": 3335222500,
+    "paket": "Koordinasi dan Penilaian Barang Milik Daerah SKPD",
+    "inappropriateReason": "Nilai pengadaan jasa penilaian publik/KJPP sangat besar untuk 1 paket, sementara uraian hanya menunjukkan layanan survei dan penilaian aset. Terdapat indikasi ketidakwajaran skala biaya dibanding jenis jasa yang disebut, sehingga berisiko menimbulkan pemborosan dan perlu verifikasi rinci ruang lingkup, output, serta dasar perhitungannya."
+  },
+  {
+    "lembaga": "Provinsi Papua Selatan",
+    "satker": "BIRO UMUM",
+    "pagu": 3014008000,
+    "paket": "Penyediaan Kebutuhan Rumah Tangga Kepala Daerah",
+    "inappropriateReason": "Pengadaan berfokus pada kebutuhan rumah tangga kepala daerah, termasuk sewa rumah jabatan, furnitur kamar tidur, TV, kulkas, gorden, alat makan, dan bahan konsumsi rumah tangga. Dari judul dan spesifikasi, penggunaan APBD untuk kebutuhan domestik personal/rumah jabatan dalam satu paket bernilai sangat besar menimbulkan indikasi kuat ketidakpatutan dan pemborosan yang ekstrem."
+  },
+  {
+    "lembaga": "Provinsi Papua",
+    "satker": "BIRO UMUM DAN ADMINISTRASI PIMPINAN",
+    "pagu": 3000000000,
+    "paket": "Pengadaan Kendaraan Dinas Roda Empat ( 4) - Gubernur dan Wakil Gubernur dan Sekretaris Daerah",
+    "inappropriateReason": "Pengadaan 3 unit SUV kendaraan dinas untuk pimpinan daerah bernilai sangat besar dan berisiko memicu pemborosan belanja barang, terutama bila spesifikasi dan urgensi operasional tidak dijelaskan lebih lanjut. Kendaraan dinas pimpinan memang dapat dibenarkan, namun alokasi untuk SUV dengan total anggaran tinggi layak dinilai serius untuk efisiensi dan kepatutan penggunaan APBD."
+  },
+  {
+    "lembaga": "Kab. Indragiri Hilir",
+    "satker": "BAGIAN UMUM",
+    "pagu": 2800000000,
+    "paket": "Pengadaan Mobil Dinas Kepala Daerah",
+    "inappropriateReason": "Pengadaan 1 unit mobil dinas kepala daerah dengan spesifikasi mesin 3.300 CC dan nilai anggaran sangat besar menimbulkan indikasi kuat belanja kendaraan mewah yang tidak proporsional terhadap prinsip efisiensi penggunaan APBD. Karakteristik ini berisiko memicu kesan penggunaan dana publik secara berlebihan untuk fasilitas pejabat."
+  },
+  {
+    "lembaga": "Kab. Sleman",
+    "satker": "SEKRETARIAT DPRD",
+    "pagu": 2729439000,
+    "paket": "Sewa kendaraan, pernginapan, taksi, dan tiket perjalanan dinas pansus jawa,jateng Pembahasan Rancangan Peraturan Daerah",
+    "inappropriateReason": "Anggaran perjalanan dinas untuk sewa kendaraan, penginapan, taksi, e-toll, dan tiket bagi pansus dengan volume sangat kecil tampak sangat tidak proporsional dibanding nilai pengadaan. Nilai total menimbulkan indikasi kuat pemborosan belanja perjalanan dinas dan berpotensi memicu kecemburuan sosial."
+  },
+  {
+    "lembaga": "Kab. Bogor",
+    "satker": "DINAS PERTANAHAN DAN TATA RUANG",
+    "pagu": 2671607970,
+    "paket": "Penataan Ruang Dalam (Interior) Gedung Perangkat Daerah Kabupaten Bogor Dalam Galleria Vivo Mall",
+    "inappropriateReason": "Penataan interior gedung perangkat daerah di lokasi pusat perbelanjaan menimbulkan indikasi kuat ketidakselarasan dengan prinsip efisiensi dan kepatutan penggunaan APBD. Dari judul dan konteks, penggunaan ruang pemerintahan di mal berisiko tidak esensial dan berpotensi membebani anggaran secara signifikan."
+  },
+  {
+    "lembaga": "Kab. Tapanuli Utara",
+    "satker": "BAGIAN UMUM",
+    "pagu": 2500000000,
+    "paket": "Penyediaan Kebutuhan Rumah Tangga Wakil Kepala Daerah",
+    "inappropriateReason": "Pengadaan kebutuhan rumah tangga untuk pejabat publik dengan nilai sangat besar merupakan belanja yang tampak bersifat personal dan berpotensi kuat tidak sejalan dengan prinsip efisiensi serta kepatutan penggunaan APBD. Dari judul dan nilai anggaran, item ini menimbulkan kesan penggunaan dana publik untuk kepentingan domestik pejabat yang sangat tidak pantas."
+  },
+  {
+    "lembaga": "Provinsi Papua Selatan",
+    "satker": "BIRO UMUM",
+    "pagu": 2226198000,
+    "paket": "Penyediaan Kebutuhan Rumah Tangga Wakil Kepala Daerah",
+    "inappropriateReason": "Paket kebutuhan rumah tangga untuk wakil kepala daerah bernilai sangat besar dan mencampur sewa rumah jabatan, jamuan, perabot, bahan konsumsi, serta perlengkapan rumah tangga dalam satu paket. Cakupan ini menunjukkan belanja domestik yang luas untuk fasilitas pejabat dan berisiko tidak proporsional terhadap kepentingan publik. Adanya item seperti pisau/parang juga patut dicermati karena relevansinya tidak jelas dari konteks yang tersedia."
+  },
+  {
+    "lembaga": "Kab. Mamberamo Tengah",
+    "satker": "Sekretariat Daerah",
+    "pagu": 2000020000,
+    "paket": "Penyediaan Kebutuhan Rumah Tangga Wakil Kepala Daerah",
+    "inappropriateReason": "Pengadaan kebutuhan rumah tangga untuk wakil kepala daerah senilai sangat besar dan berisi bahan pangan serta BBM/BBM industri untuk konsumsi rumah tangga menimbulkan indikasi kuat penggunaan APBD yang tidak patut untuk kepentingan personal/rumah jabatan. Judul dan rincian item menunjukkan belanja kebutuhan domestik rutin yang sangat rentan memicu pemborosan dan kecemburuan publik."
+  },
+  {
+    "lembaga": "Kab. Magelang",
+    "satker": "DINAS SOSIAL, PENGENDALIAN PENDUDUK, KELUARGA BERENCANA, PEMBERDAYAAN PEREMPUAN DAN PERLINDUNGAN ANAK",
+    "pagu": 1850000000,
+    "paket": "Belanja Jasa yang Diberikan kepada Pihak Ketiga/Pihak Lain Sub Kegiatan  Pengelolaan Data Fakir Miskin Cakupan Daerah Kabupaten/Kota  (PPTK, HERU NURPRISMAWAN, S.Sos.)",
+    "inappropriateReason": "Nilai anggaran sangat besar untuk 1 paket jasa konsultansi yang uraian dan spesifikasinya sangat umum/tidak informatif, sehingga kewajaran kebutuhan dan keluaran sulit diverifikasi. Dalam konteks pengelolaan data fakir miskin, besaran ini terindikasi berlebihan dan berisiko tidak efisien."
+  },
+  {
+    "lembaga": "Kab. Aceh Tenggara",
+    "satker": "Sekretariat Daerah Kabupaten",
+    "pagu": 1810200000,
+    "paket": "Pengadaan Kendaraan Dinas Wakil Kepala Daerah ( Kewajiban 2025)",
+    "inappropriateReason": "Pengadaan 1 unit kendaraan dinas untuk wakil kepala daerah dengan anggaran sangat besar berindikasi kuat sebagai belanja fasilitas pejabat yang mewah dan berpotensi memicu kecemburuan sosial. Dari judul dan nilai anggaran, item ini tampak tidak proporsional terhadap prinsip efisiensi belanja publik."
+  },
+  {
+    "lembaga": "Kab. Timor Tengah Selatan",
+    "satker": "Badan Pengelola Keuangan dan Aset Daerah",
+    "pagu": 1800000000,
+    "paket": "Belanja Modal Kendaraan Dinas Bermotor Perorangan/Kendaraan Dinas Roda 4 untuk Pimpinan Daerah",
+    "inappropriateReason": "Pengadaan kendaraan dinas roda 4 senilai sangat besar untuk pimpinan daerah/perangkat daerah berindikasi kuat sebagai belanja yang mewah dan tidak sensitif terhadap kepentingan publik. Dari judul dan spesifikasi, item ini merupakan fasilitas pejabat, bukan kebutuhan layanan langsung kepada masyarakat, sehingga patut dikategorikan sangat tidak pantas."
+  },
+  {
+    "lembaga": "Kab. Bangkalan",
+    "satker": "SEKRETARIAT DPRD",
+    "pagu": 1674240000,
+    "paket": "Tarif Hotel bagi Kepala Daerah/Ketua DPRD/Pejabat Eselon I - Koordinasi dan Konsultasi Pelaksanaan Tugas DPRD",
+    "inappropriateReason": "Pengadaan tarif hotel untuk kepala daerah/ketua DPRD/pejabat eselon I dalam rangka koordinasi dan konsultasi DPRD berisiko sangat tidak pantas karena berorientasi pada fasilitas akomodasi pejabat, bukan keluaran publik yang jelas. Nilainya besar untuk penginapan pejabat di Jakarta dan berpotensi memicu persepsi penggunaan APBD secara berlebihan."
+  },
+  {
+    "lembaga": "Kab. Tulang Bawang Barat",
+    "satker": "BADAN KEUANGAN DAN ASET DAERAH",
+    "pagu": 1495900000,
+    "paket": "Pengamanan Barang Milik Daerah",
+    "inappropriateReason": "Judul pengadaan berupa pengamanan aset daerah, namun uraian memuat komponen yang sangat luas dan bercampur, seperti ATK, cetak, konsumsi rapat, honorarium, lembur, perjalanan dinas, konsultansi, hingga pemeliharaan kendaraan. Paket jasa dengan ragam belanja operasional yang tidak fokus ini mengindikasikan bundling yang tidak proporsional dan berisiko tinggi menimbulkan pemborosan anggaran."
+  },
+  {
+    "lembaga": "Provinsi Kalimantan Timur",
+    "satker": "Sekretariat DPRD",
+    "pagu": 1388475000,
+    "paket": "Penggandaan/Foto copy Sosialisasi Peraturan Daerah yang Dilakukan Bersama oleh DPRD dan Pemerintah Daerah",
+    "inappropriateReason": "Nilai anggaran untuk penggandaan/fotokopi tampak sangat besar dibanding sifat kebutuhannya yang umumnya rutin, sederhana, dan bernilai relatif rendah. Dengan uraian serta spesifikasi yang sangat umum, item ini layak dipandang berisiko tinggi sebagai pemborosan dan perlu kewajaran volume, frekuensi, serta harga satuan ditelaah lebih lanjut."
+  }
+]

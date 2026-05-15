@@ -1,1 +1,142 @@
-[]
+[
+  {
+    "lembaga": "Provinsi DKI Jakarta",
+    "satker": "BADAN PENDAPATAN DAERAH",
+    "pagu": 5205759216,
+    "paket": "Pengelolaan Layanan Sosial Media Bapenda Tahun 2026",
+    "inappropriateReason": "Anggaran jasa pengelolaan layanan media sosial untuk instansi pendapatan daerah bernilai sangat besar dan berisiko tidak proporsional terhadap kebutuhan komunikasi publik. Nilai belanja ini layak dicermati sebagai potensi pemborosan karena manfaat langsung terhadap tugas inti pemungutan pendapatan tidak terlihat kuat dari informasi yang tersedia."
+  },
+  {
+    "lembaga": "Kab. Kutai Timur",
+    "satker": "Dinas Komunikasi, Informatika, Statistik dan Persandian",
+    "pagu": 2217600000,
+    "paket": "LAYANAN PERANGKAT IOT TVCC UNTUK MENINGKATKAN LITERASI DIGITAL MASYARAKAT KUTAI TIMUR",
+    "inappropriateReason": "Pengadaan layanan siaran TV satelit dan paket konten video selama 12 bulan untuk tujuan peningkatan literasi digital daerah berindikasi kurang proporsional terhadap kebutuhan layanan publik inti. Spesifikasi dedicated channel broadcast satelit dan konten video berdurasi panjang menunjukkan belanja komunikasi yang mahal dan belum jelas urgensi serta efisiensinya dibanding kanal digital yang lebih hemat."
+  },
+  {
+    "lembaga": "Kab. Pangandaran",
+    "satker": "DINAS PARIWISATA DAN KEBUDAYAAN",
+    "pagu": 2112700000,
+    "paket": "Belanja Pembayaran Pelayanan Kesehatan di luar Cakupan Layanan BPJS",
+    "inappropriateReason": "Item berupa jaminan/asuransi kecelakaan bagi pengunjung destinasi dianggarkan oleh perangkat daerah pariwisata, sementara judul paket menyebut pembayaran pelayanan kesehatan di luar cakupan BPJS. Terdapat indikasi kuat ketidaksesuaian antara nomenklatur paket dan spesifikasi pengadaan, sehingga relevansi, dasar kebutuhan, dan kewajaran pembebanan anggaran perlu diuji. Seluruh nilai paket layak dicermati sebagai potensi pemborosan sampai kejelasan ruang lingkup dan dasar hukumnya terverifikasi."
+  },
+  {
+    "lembaga": "Kab. Tolikara",
+    "satker": "DINAS PERTANIAN DAN PERIKANAN",
+    "pagu": 900000000,
+    "paket": "Belanja Jasa Konsultansi Berorientasi Layanan-Jasa Survei",
+    "inappropriateReason": "Dokumen menunjukkan uraian sangat umum ('survei') dan spesifikasi bersifat placeholder ('untuk sementara nanti dihapus'), sehingga kebutuhan, keluaran, dan dasar biaya tidak terdefinisi memadai. Dengan nilai anggaran besar, kondisi ini merupakan indikasi kuat pengadaan belum layak tayang dan berisiko menimbulkan pemborosan signifikan."
+  },
+  {
+    "lembaga": "Provinsi Nusa Tenggara Timur",
+    "satker": "Biro Umum",
+    "pagu": 864000000,
+    "paket": "Belanja Pembayaran Pelayanan Kesehatan di luar Cakupan Layanan BPJS",
+    "inappropriateReason": "Indikasi ketidakpantasan tinggi karena anggaran pelayanan kesehatan di luar cakupan BPJS dan medical check up tampak ditujukan untuk pejabat daerah serta tagihan rumah sakit, sementara dibuka oleh unit biro umum. Cakupan manfaat sangat spesifik untuk individu/pejabat dan berisiko menjadi pembebanan belanja pribadi/khusus ke anggaran publik tanpa urgensi publik yang jelas dari informasi yang tersedia."
+  },
+  {
+    "lembaga": "Provinsi Jawa Barat",
+    "satker": "Dinas Kelautan dan Perikanan",
+    "pagu": 815890348,
+    "paket": "Pengadaan jasa Pegawai Pemerintah dengan Perjanjian Kerja (PPPK) Paruh Waktu pada jabatan penata layanan operasional",
+    "inappropriateReason": "Pengadaan jasa tenaga PPPK paruh waktu melalui mekanisme pengadaan barang/jasa tidak lazim karena kebutuhan pegawai pemerintah pada prinsipnya merupakan belanja kepegawaian, bukan paket pengadaan langsung jasa lainnya. Seluruh nilai paket berindikasi berpotensi tidak tepat klasifikasi dan perlu diuji dasar hukum, skema pembayaran, serta kesesuaiannya dengan ketentuan pengadaan dan kepegawaian."
+  },
+  {
+    "lembaga": "Kab. Tolikara",
+    "satker": "DINAS KOPERASI, USAHA KECIL MENENGAH DAN TENAGA KERJA",
+    "pagu": 800000000,
+    "paket": "Belanja Jasa Konsultansi Berorientasi Layanan-Jasa Khusus",
+    "inappropriateReason": "Nilai anggaran sangat tinggi untuk layanan administrasi pendirian/legalitas koperasi seperti akta notaris, NPWP, dan beberapa dokumen pendukung. Berdasarkan jenis keluaran yang disebutkan, terdapat indikasi kuat ketidakwajaran biaya dan potensi pemborosan signifikan dibanding kompleksitas layanan yang tampak terbatas."
+  },
+  {
+    "lembaga": "Kota Surabaya",
+    "satker": "Sekretariat DPRD",
+    "pagu": 636862500,
+    "paket": "Layanan VIP Meet And Greet Bandara Surabaya",
+    "inappropriateReason": "Pengadaan layanan VIP meet and greet bandara untuk Sekretariat DPRD dengan nilai sangat besar terindikasi kuat sebagai fasilitas protokoler yang mewah dan tidak esensial bagi pelayanan publik. Dari judul dan konteksnya, penggunaan APBD untuk layanan VIP bandara berpotensi menimbulkan kesan pemborosan dan ketidakpatutan yang tinggi."
+  },
+  {
+    "lembaga": "Kab. Kotabaru",
+    "satker": "Sekretariat Daerah",
+    "pagu": 600000000,
+    "paket": "Belanja Pembayaran Pelayanan Kesehatan di luar Cakupan Layanan BPJS",
+    "inappropriateReason": "Pengadaan pembiayaan layanan kesehatan di luar cakupan BPJS khusus untuk kepala daerah, wakil kepala daerah, dan keluarga yang ditanggung menimbulkan indikasi kuat penggunaan anggaran publik untuk manfaat privat/elitis. Dari judul dan uraian, item ini berpotensi memicu kecemburuan sosial dan tidak mencerminkan prioritas belanja publik yang wajar."
+  },
+  {
+    "lembaga": "Kab. Barito Utara",
+    "satker": "Dinas Komunikasi, Informatika dan Persandian",
+    "pagu": 500000000,
+    "paket": "Belanja Jasa Ketersediaan Layanan (Availibility Payment) Infrastruktur Telekomunikasi dan Informatika",
+    "inappropriateReason": "Pengadaan jasa pengelolaan media sosial senilai sangat besar untuk 1 paket pada perangkat daerah komunikasi menimbulkan indikasi ketidakwajaran nilai dan prioritas belanja. Ruang lingkup berupa admin medsos, placement, KOL management, copywriting, konten, dan laporan kinerja lebih menyerupai jasa promosi/branding yang manfaat publik langsungnya perlu dipertanyakan, sehingga layak dikategorikan berisiko tinggi terhadap pemborosan anggaran."
+  },
+  {
+    "lembaga": "Kab. Tegal",
+    "satker": "Dinas Pendidikan dan Kebudayaan",
+    "pagu": 479505000,
+    "paket": "Belanja jasa Pegawai Pemerintah dengan Perjanjian Kerja (PPPK) Paruh Waktu pada jabatan operator layanan operasional",
+    "inappropriateReason": "Item berupa belanja jasa pegawai PPPK paruh waktu diklasifikasikan sebagai pengadaan barang melalui pengadaan langsung. Dari judul item, objek belanja ini lebih menyerupai belanja pegawai/non-pengadaan sehingga berindikasi salah klasifikasi dan tidak selaras dengan mekanisme pengadaan barang/jasa. Seluruh nilai patut dicermati sebagai potensi pemborosan/ketidaktepatan penganggaran."
+  },
+  {
+    "lembaga": "Kab. Tegal",
+    "satker": "Dinas Pendidikan dan Kebudayaan",
+    "pagu": 447538000,
+    "paket": "Belanja jasa Pegawai Pemerintah dengan Perjanjian Kerja (PPPK) Paruh Waktu pada jabatan penata layanan operasional",
+    "inappropriateReason": "Item berupa belanja jasa pegawai PPPK paruh waktu diklasifikasikan sebagai pengadaan barang melalui pengadaan langsung. Indikasi ini tidak selaras dengan karakter belanja kepegawaian dan berisiko menunjukkan penggunaan mekanisme pengadaan yang tidak tepat untuk pembiayaan personel."
+  },
+  {
+    "lembaga": "Kab. Paniai",
+    "satker": "BADAN KEUANGAN DAN ASET DAERAH",
+    "pagu": 384000000,
+    "paket": "Belanja jasa Pegawai Pemerintah dengan Perjanjian Kerja (PPPK) Paruh Waktu pada jabatan operator layanan operasional",
+    "inappropriateReason": "Item berupa honorarium/tenaga PPPK paruh waktu dikemas sebagai pengadaan barang melalui pengadaan langsung. Belanja pegawai semestinya tidak diproses sebagai pengadaan barang/jasa, sehingga terindikasi salah klasifikasi dan berisiko menggunakan mekanisme pengadaan yang tidak tepat untuk pembayaran personel."
+  },
+  {
+    "lembaga": "Kab. Karawang",
+    "satker": "Dinas Pemberdayaan Perempuan dan Perlindungan Anak",
+    "pagu": 324675000,
+    "paket": "penguatan kerjasama antar lembaga penyedia layanan pemberdayaan perempuan kewenangan Kabupaten/Kota",
+    "inappropriateReason": "Uraian pengadaan menunjukkan dominasi belanja makanan dan minuman rapat untuk banyak kegiatan yang bercampur, termasuk aktivitas seremonial dan organisasi seperti pengajian rutin, HUT organisasi, serta sosialisasi cara berpakaian. Komponen tersebut tampak tidak fokus pada keluaran utama layanan pemberdayaan perempuan dan berisiko menjadikan anggaran habis untuk konsumsi/seremonial, sehingga patut dinilai sebagai penggunaan dana yang tidak selaras."
+  },
+  {
+    "lembaga": "Kab. Pesisir Barat",
+    "satker": "Sekretariat Daerah",
+    "pagu": 280000000,
+    "paket": "Belanja Jasa Konsultansi Berorientasi Layanan-Jasa Khusus",
+    "inappropriateReason": "Terdapat indikasi kuat ketidaksesuaian antara jenis pengadaan jasa konsultansi dan rincian barang yang didominasi alat tulis kantor, kertas, tinta, serta fotokopi. Uraian item tampak tidak selaras dengan keluaran konsultansi penelitian/pembuatan naskah akademik dan rancangan regulasi, sehingga berpotensi menunjukkan penganggaran yang tidak tepat sasaran atau pembebanan komponen belanja yang tidak relevan dalam satu paket."
+  },
+  {
+    "lembaga": "Kab. Tulang Bawang",
+    "satker": "Dinas Kesehatan",
+    "pagu": 276250000,
+    "paket": "Belanja jasa Pegawai Pemerintah dengan Perjanjian Kerja (PPPK) Paruh Waktu pada jabatan pengelola layanan operasional",
+    "inappropriateReason": "Item merupakan belanja tenaga kerja/pegawai kontraktual, namun diklasifikasikan sebagai pengadaan barang melalui pengadaan langsung. Dari judul dan spesifikasinya, kebutuhan ini lebih menyerupai belanja pegawai/jasa personal yang semestinya tidak diproses sebagai paket pengadaan barang. Seluruh nilai paket layak dicermati sebagai potensi pemborosan atau salah klasifikasi anggaran."
+  },
+  {
+    "lembaga": "Provinsi DKI Jakarta",
+    "satker": "RUMAH SAKIT UMUM DAERAH TUGU KOJA",
+    "pagu": 275072000,
+    "paket": "Belanja Jasa Konsultansi Berorientasi Layanan-Jasa Khusus",
+    "inappropriateReason": "Uraian pengadaan mencampur jasa konsultansi/hukum akreditasi dengan biaya transportasi dan sewa hotel untuk surveyor dalam satu paket jasa lainnya. Struktur ini terindikasi kurang tepat, berpotensi membebankan biaya penunjang yang semestinya dibatasi atau dipisahkan, serta seluruh nilai paket berisiko tidak efisien jika tidak didukung kebutuhan yang jelas."
+  },
+  {
+    "lembaga": "Kota Singkawang",
+    "satker": "SEKRETARIAT DPRD",
+    "pagu": 200000000,
+    "paket": "Belanja Jasa Konsultansi Berorientasi Layanan-Jasa Khusus Sub Kegiatan Penyelenggaraan Kajian Perundang-Undangan",
+    "inappropriateReason": "Pengadaan kajian untuk tunjangan perumahan dan transportasi pimpinan serta anggota DPRD berisiko tinggi tidak selaras dengan prinsip kehati-hatian penggunaan APBD karena berorientasi pada justifikasi/penetapan manfaat bagi pejabat legislatif sendiri. Nilainya signifikan untuk jasa konsultansi melalui pengadaan langsung, sehingga patut dicermati sebagai potensi pemborosan penuh apabila keluaran kajian tidak benar-benar mendesak dan independen."
+  },
+  {
+    "lembaga": "Kab. Jepara",
+    "satker": "Sekretariat Daerah",
+    "pagu": 200000000,
+    "paket": "Belanja Jasa Konsultansi Berorientasi Layanan-Jasa Khusus",
+    "inappropriateReason": "Pengadaan survei kepuasan masyarakat terhadap kinerja anggota DPRD melalui Sekretariat Daerah berindikasi kurang prioritatif dan berpotensi lebih melayani pencitraan/penilaian politik dibanding kebutuhan layanan publik yang esensial. Berdasarkan uraian yang tersedia, seluruh nilai paket layak dicermati sebagai potensi pemborosan."
+  },
+  {
+    "lembaga": "Provinsi Banten",
+    "satker": "Sekretariat DPRD",
+    "pagu": 198884000,
+    "paket": "Belanja Jasa Iklan/Reklame,Film dan Pemotretan Kegiatan Layanan Aspirasi Masyarakat",
+    "inappropriateReason": "Pengadaan jasa iklan/film berupa reality show TV lokal untuk layanan aspirasi masyarakat di lingkungan Sekretariat DPRD berindikasi lemah relevansinya terhadap fungsi inti administrasi dan berpotensi lebih bersifat pencitraan publik. Dengan output 7 kali tayang non-prime time, seluruh nilai paket layak dicermati sebagai potensi belanja yang tidak esensial."
+  }
+]

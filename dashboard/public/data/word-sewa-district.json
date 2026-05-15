@@ -1,1 +1,142 @@
-[]
+[
+  {
+    "lembaga": "Provinsi Kalimantan Tengah",
+    "satker": "Dinas Kehutanan",
+    "pagu": 60000000000,
+    "paket": "Belanja Sewa Alat Peraga Pelatihan - Koordinasi, Sinkronisasi dan Pelaksanaan Pencegahan/Penanggulangan Kebakaran Hutan dan Lahan",
+    "inappropriateReason": "Pagu Rp60 miliar untuk sewa alat peraga pelatihan berupa excavator PC 200 dalam 1 paket tampak sangat tidak proporsional terhadap uraian kebutuhan pelatihan. Nilai anggaran ini memunculkan indikasi kuat pemborosan dan ketidakpatutan penggunaan dana publik untuk sewa alat peraga."
+  },
+  {
+    "lembaga": "Provinsi Nusa Tenggara Barat",
+    "satker": "Biro Umum dan Administrasi Pimpinan",
+    "pagu": 14902200000,
+    "paket": "Belanja Sewa Kendaraan Bermotor Penumpang",
+    "inappropriateReason": "Nilai sewa mobil listrik sangat besar untuk 1 paket pada unit administrasi pimpinan, sehingga menimbulkan indikasi kuat pengeluaran yang berlebihan dan berpotensi memicu persepsi penggunaan anggaran secara tidak patut."
+  },
+  {
+    "lembaga": "Kab. Badung",
+    "satker": "Sekretariat Daerah",
+    "pagu": 14136317184,
+    "paket": "Belanja Sewa Kendaraan Dinas Bermotor Perorangan",
+    "inappropriateReason": "Pengadaan sewa kendaraan dinas perorangan dengan nilai sangat besar untuk banyak jabatan, termasuk pihak non-struktural, serta spesifikasi kendaraan baru dan SUV/MPV berkesan mewah. Dari judul, uraian, dan spesifikasi yang tersedia, penggunaan APBD ini menimbulkan indikasi kuat pemborosan dan ketidakpatutan belanja fasilitas pejabat."
+  },
+  {
+    "lembaga": "Kab. Kutai Barat",
+    "satker": "Badan Keuangan dan Aset Daerah",
+    "pagu": 12947422360,
+    "paket": "Belanja Sewa Kendaraan Bermotor Khusus",
+    "inappropriateReason": "Nilai sewa kendaraan sangat besar untuk 1 paket dan mencakup kendaraan jabatan/operasional dengan spesifikasi SUV dan double cabin 4x4. Dari judul dan spesifikasi, terdapat indikasi kuat penggunaan anggaran yang berlebihan untuk fasilitas kendaraan, sehingga berpotensi menimbulkan kesan pembelanjaan APBD yang tidak proporsional."
+  },
+  {
+    "lembaga": "Kota Pekanbaru",
+    "satker": "Dinas Lingkungan Hidup dan Kebersihan",
+    "pagu": 12521600000,
+    "paket": "Sewa Mobil DT (Maret - September)",
+    "inappropriateReason": "Nilai sewa kendaraan untuk periode sekitar tujuh bulan sangat besar dan patut dicermati sebagai indikasi pemborosan anggaran. Dari informasi yang tersedia, kewajaran jumlah unit, tarif sewa, dan urgensi kebutuhan belum terlihat, sehingga terdapat indikasi kuat belanja tidak efisien."
+  },
+  {
+    "lembaga": "Kab. Siak",
+    "satker": "SEKRETARIAT DEWAN PERWAKILAN RAKYAT DAERAH",
+    "pagu": 11400000000,
+    "paket": "Belanja Sewa Alat Rumah Tangga Lainnya (Home Use)",
+    "inappropriateReason": "Nilai anggaran untuk sewa tenda, sound system, dan kursi plastik dalam satu paket sangat besar dibanding jenis barang/jasa yang bersifat sederhana dan umum. Dengan uraian yang berulang tanpa rincian volume, durasi, frekuensi, atau skala kebutuhan yang memadai, terdapat indikasi kuat pemborosan dan kewajaran biaya perlu diuji lebih lanjut."
+  },
+  {
+    "lembaga": "Provinsi Bengkulu",
+    "satker": "Badan Kesatuan Bangsa dan Politik Provinsi Bengkulu",
+    "pagu": 10474020500,
+    "paket": "Belanja Sewa Alat Besar Darat Lainnya",
+    "inappropriateReason": "Pengadaan sewa alat berat darat dalam nilai sangat besar tampak kurang selaras dengan fungsi utama instansi bidang kesatuan bangsa dan politik. Jenis peralatan seperti motor grader, vibro roller, water tanker, bulldozer, dan ekskavator lazim untuk pekerjaan konstruksi/infrastruktur, sehingga relevansi kebutuhan perlu dipertanyakan secara serius."
+  },
+  {
+    "lembaga": "Provinsi Riau",
+    "satker": "SEKRETARIAT DEWAN PERWAKILAN RAKYAT DAERAH",
+    "pagu": 8989500000,
+    "paket": "Belanja Sewa Alat Kantor Lainnya",
+    "inappropriateReason": "Nilai anggaran sangat besar untuk sewa kursi dan tenda dalam 1 paket, sementara objek pengadaan tampak berupa perlengkapan acara yang umum dan sederhana. Dari judul, uraian, dan spesifikasi yang tersedia, besaran ini sangat tidak proporsional dan menimbulkan indikasi kuat pemborosan anggaran serta ketidakpatutan penggunaan dana publik."
+  },
+  {
+    "lembaga": "Kab. Ogan Ilir",
+    "satker": "Bagian Umum",
+    "pagu": 8388006400,
+    "paket": "Belanja Sewa Kendaraan Dinas Bermotor Perorangan",
+    "inappropriateReason": "Pengadaan sewa kendaraan dinas perorangan dengan daftar model yang mencakup SUV premium dan varian hybrid/modelista bernilai tinggi menunjukkan penggunaan fasilitas yang mewah untuk kebutuhan administratif umum. Nilai paket sangat besar untuk sewa kendaraan perorangan dan menimbulkan kesan pemborosan serta ketidakpatutan penggunaan anggaran publik."
+  },
+  {
+    "lembaga": "Kab. Kutai Timur",
+    "satker": "Badan Pengelolaan Keuangan dan Aset Daerah",
+    "pagu": 8328000000,
+    "paket": "Belanja Sewa Kendaraan Bermotor Penumpang",
+    "inappropriateReason": "Pengadaan sewa kendaraan operasional mencantumkan beberapa model kelas menengah-atas hingga premium, termasuk varian hybrid bertrim aksesori dan SUV/off-road 4x4. Untuk fungsi operasional kantor/lapangan, komposisi spesifikasi seperti ini menimbulkan indikasi kuat pemborosan dan penggunaan dana publik yang tidak proporsional terhadap kebutuhan dasar operasional."
+  },
+  {
+    "lembaga": "Kab. Paser",
+    "satker": "Bagian Umum",
+    "pagu": 8310285984,
+    "paket": "Belanja Sewa Kendaraan Dinas Bermotor Perorangan",
+    "inappropriateReason": "Pengadaan sewa kendaraan dinas jabatan mencakup beberapa model premium dan mewah setara SUV/luxury MPV kelas tinggi, termasuk tipe yang identik dengan kendaraan pejabat berbiaya sangat besar. Komposisi spesifikasi tersebut menimbulkan indikasi kuat penggunaan APBD yang tidak hemat dan berpotensi memicu kecemburuan sosial, sehingga patut dinilai sangat tidak pantas dari sisi efisiensi belanja publik."
+  },
+  {
+    "lembaga": "Kab. Rokan Hulu",
+    "satker": "Badan Pengelolaan Keuangan dan Aset Daerah",
+    "pagu": 7951332000,
+    "paket": "Belanja Sewa Kendaraan Bermotor Penumpang",
+    "inappropriateReason": "Terdapat indikasi pemborosan karena pengadaan sewa 55 kendaraan penumpang dengan kombinasi model menengah hingga premium, termasuk SUV 4x4 dan varian hybrid berfitur tinggi, untuk fungsi administratif pengelolaan keuangan/aset daerah. Skala dan spesifikasi kendaraan tampak berlebihan dibanding kebutuhan operasional umum, sehingga layak dicermati lebih lanjut."
+  },
+  {
+    "lembaga": "Provinsi Bali",
+    "satker": "Sekretariat DPRD",
+    "pagu": 7920000000,
+    "paket": "Belanja Sewa Bangunan Gedung Tempat Pertemuan",
+    "inappropriateReason": "Nilai anggaran sangat besar untuk sewa tempat/gedung dan kelengkapan kegiatan reses dalam 1 paket, sehingga terdapat indikasi kuat biaya tidak proporsional terhadap kebutuhan dasar kegiatan pertemuan dan layak diaudit rinci atas kewajaran volume, frekuensi, serta tarif sewanya."
+  },
+  {
+    "lembaga": "Kab. Kutai Timur",
+    "satker": "Sekretariat Daerah",
+    "pagu": 7873200000,
+    "paket": "PERPANJANGAN SEWA KENDARAAN RODA 4",
+    "inappropriateReason": "Perpanjangan sewa 34 kendaraan roda 4 selama 1 tahun dengan banyak tipe SUV/pickup kelas menengah-atas, termasuk varian mewah dan aksesori premium, menimbulkan indikasi kuat penggunaan kendaraan yang berlebihan dan tidak hemat untuk operasional pemerintahan. Komposisi spesifikasi tampak tidak proporsional untuk kebutuhan kantor umum dan berpotensi memicu pemborosan anggaran publik."
+  },
+  {
+    "lembaga": "Kab. Cirebon",
+    "satker": "DINAS LINGKUNGAN HIDUP",
+    "pagu": 7488000000,
+    "paket": "Belanja Sewa Alat Besar Darat Lainnya",
+    "inappropriateReason": "Nilai anggaran sangat besar untuk sewa 1 paket truk light truck arm roll, sementara uraian dan spesifikasi sangat minimal sehingga kewajaran kebutuhan dan harga sulit dibenarkan. Indikasi utama adalah potensi pemborosan akibat belanja sewa bernilai tinggi dengan rincian yang tidak memadai."
+  },
+  {
+    "lembaga": "Kab. Nganjuk",
+    "satker": "Bagian Umum",
+    "pagu": 7428000000,
+    "paket": "Belanja Sewa Kendaraan Dinas Bermotor Perorangan (paket 2)",
+    "inappropriateReason": "Pengadaan sewa kendaraan dinas perorangan dalam jumlah sangat besar dengan spesifikasi yang mencakup model menengah-atas hingga premium/hybrid, termasuk sedan eksekutif, menimbulkan indikasi kuat penggunaan anggaran yang berlebihan dan tidak proporsional untuk kebutuhan operasional umum."
+  },
+  {
+    "lembaga": "Provinsi Jawa Timur",
+    "satker": "BIRO UMUM",
+    "pagu": 7137312000,
+    "paket": "Belanja Sewa Kendaraan Dinas Bermotor Perorangan",
+    "inappropriateReason": "Pengadaan sewa kendaraan dinas perorangan untuk banyak pejabat eselon selama 12 bulan dengan nilai sangat besar berindikasi kuat sebagai belanja fasilitas individual yang berlebihan dan berpotensi memicu kecemburuan sosial. Dari judul, peruntukan, dan skala anggarannya, item ini tampak tidak proporsional untuk didanai APBD."
+  },
+  {
+    "lembaga": "Provinsi Jawa Timur",
+    "satker": "BIRO UMUM",
+    "pagu": 7137312000,
+    "paket": "Belanja Sewa Kendaraan Dinas Bermotor Perorangan",
+    "inappropriateReason": "Pengadaan sewa kendaraan dinas perorangan bagi pejabat eselon dengan nilai sangat besar menunjukkan penggunaan anggaran untuk fasilitas individual pejabat, bukan kebutuhan layanan publik yang langsung. Dari judul, uraian, spesifikasi, dan nilai anggaran, item ini berisiko tinggi memicu kesan kemewahan dan pemborosan belanja birokrasi."
+  },
+  {
+    "lembaga": "Kota Surabaya",
+    "satker": "Sekretariat Daerah",
+    "pagu": 7103748673,
+    "paket": "Sewa Mobil Listrik",
+    "inappropriateReason": "Pengadaan sewa mobil listrik MPV dan sedan dengan nilai sangat besar untuk kebutuhan sekretariat daerah menimbulkan indikasi kuat ketidakpatutan dan potensi kemewahan yang tidak esensial. Dari judul dan spesifikasinya, penggunaan dana publik untuk sewa kendaraan dinas bernilai miliaran layak dikategorikan sangat berlebihan."
+  },
+  {
+    "lembaga": "Provinsi Sulawesi Selatan",
+    "satker": "BIRO UMUM",
+    "pagu": 6254085264,
+    "paket": "Belanja Sewa Kendaraan Dinas Bermotor Perorangan",
+    "inappropriateReason": "Pengadaan ini berupa sewa kendaraan dinas perorangan dengan daftar model kendaraan baru yang mencakup beberapa SUV/MPV kelas menengah-atas, termasuk varian premium dan aksesori khusus. Nilai anggaran sangat besar untuk satu paket dan berisiko kuat mencerminkan penggunaan fasilitas dinas yang berlebihan serta tidak hemat, sehingga patut dikategorikan sangat tidak pantas dari sudut efisiensi belanja publik."
+  }
+]

@@ -1,82 +1,82 @@
 [
   {
-    "word": "kantor",
-    "count": 620
-  },
-  {
     "word": "sewa",
-    "count": 371
+    "count": 535
   },
   {
     "word": "operasional",
-    "count": 325
-  },
-  {
-    "word": "dinas",
-    "count": 325
+    "count": 402
   },
   {
     "word": "biaya",
-    "count": 313
+    "count": 388
+  },
+  {
+    "word": "dinas",
+    "count": 382
+  },
+  {
+    "word": "tiket",
+    "count": 299
   },
   {
     "word": "imigrasi",
-    "count": 280
-  },
-  {
-    "word": "kelas",
-    "count": 270
+    "count": 296
   },
   {
     "word": "luar",
-    "count": 247
+    "count": 292
   },
   {
-    "word": "rumah",
-    "count": 228
+    "word": "kelas",
+    "count": 276
   },
   {
     "word": "pelihara",
-    "count": 227
+    "count": 263
   },
   {
-    "word": "non",
-    "count": 224
+    "word": "rumah",
+    "count": 250
   },
   {
     "word": "jalan",
-    "count": 216
+    "count": 243
+  },
+  {
+    "word": "jabat",
+    "count": 228
+  },
+  {
+    "word": "pesawat",
+    "count": 227
   },
   {
     "word": "daya",
-    "count": 199
+    "count": 211
   },
   {
-    "word": "tahan",
-    "count": 191
+    "word": "eselon",
+    "count": 193
+  },
+  {
+    "word": "layan",
+    "count": 189
+  },
+  {
+    "word": "bisnis",
+    "count": 187
   },
   {
     "word": "satker",
     "count": 187
   },
   {
-    "word": "meeting",
+    "word": "pimpin",
     "count": 175
   },
   {
     "word": "susun",
-    "count": 175
-  },
-  {
-    "word": "tiket",
-    "count": 175
-  },
-  {
-    "word": "jabat",
-    "count": 173
-  },
-  {
-    "word": "layan",
-    "count": 173
+    "count": 174
   }
 ]

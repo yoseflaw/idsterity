@@ -1,1 +1,142 @@
-[]
+[
+  {
+    "lembaga": "Kementerian Pendidikan Dasar dan Menengah",
+    "satker": "PUSAT ASESMEN PENDIDIKAN",
+    "pagu": 22711760000,
+    "paket": "Belanja Perjalanan Dinas Paket Meeting Luar Kota-051 Persiapan Ujian Seleksi-QAA001 Peserta Pengujian Pendidikan yang Terlayani",
+    "inappropriateReason": "Pengadaan perjalanan dinas paket meeting luar kota untuk fungsi persiapan ujian seleksi bernilai sangat besar dan menggunakan jenis pengadaan barang, sehingga terdapat indikasi kuat belanja rapat/perjalanan tidak proporsional terhadap tujuan substantif layanan pendidikan. Pola ini layak dikategorikan tidak pantas dan berpotensi menimbulkan pemborosan anggaran yang signifikan."
+  },
+  {
+    "lembaga": "Kementerian Hak Asasi Manusia",
+    "satker": "DIREKTORAT JENDERAL INSTRUMEN DAN PENGUATAN KEMENTERIAN HAM",
+    "pagu": 9515900000,
+    "paket": "Pengadaan Belanja Perjalanan Dinas Dalam Kota Untuk Kegiatan Implementasi P5HAM pada Direktorat Jenderal Instrumen dan Penguatan HAM Tahun Anggaran 2026",
+    "inappropriateReason": "Anggaran sangat besar untuk perjalanan dinas dalam kota dalam 1 paket, sementara uraian dan spesifikasi sangat umum tanpa rincian kebutuhan, frekuensi, atau output terukur. Nilai ini menimbulkan indikasi kuat pemborosan dan belanja operasional yang tidak proporsional."
+  },
+  {
+    "lembaga": "Kementerian Koordinator Bidang Perekonomian",
+    "satker": "MENKO BIDANG PEREKONOMIAN",
+    "pagu": 8500000000,
+    "paket": "Belanja Perjalanan Dinas Paket Meeting Luar Kota",
+    "inappropriateReason": "Pengadaan paket meeting luar kota senilai sangat besar untuk tiket dan penginapan berindikasi kuat tidak ekonomis, terlebih kebutuhan rapat kedinasan pada umumnya dapat diupayakan lebih efisien. Nilai anggaran yang sangat tinggi untuk satu paket layak dinilai berpotensi pemborosan dan perlu justifikasi kebutuhan yang ketat."
+  },
+  {
+    "lembaga": "Kementerian  Pekerjaan Umum",
+    "satker": "693894/PELAKSANAAN JALAN NASIONAL WILAYAH I PROVINSI JABAR",
+    "pagu": 6202790000,
+    "paket": "PENANGANAN HOLDING JALAN KARAWANG - CIKAMPEK - PAMANUKAN",
+    "inappropriateReason": "Terdapat indikasi kuat ketidakwajaran karena nilai anggaran sangat besar untuk volume pekerjaan yang tercantum hanya 0,001 kilometer. Perbandingan antara biaya dan kuantitas ini sangat tidak proporsional sehingga layak diduga sebagai pemborosan atau kesalahan perencanaan/pencatatan yang serius."
+  },
+  {
+    "lembaga": "Kementerian Pendidikan Dasar dan Menengah",
+    "satker": "DIREKTORAT PENDIDIKAN KHUSUS DAN PENDIDIKAN LAYANAN KHUSUS",
+    "pagu": 5784800000,
+    "paket": "Belanja Perjalanan Dinas Paket Meeting Dalam Rangka SLB yang di Revitalisas",
+    "inappropriateReason": "Pengadaan perjalanan dinas paket meeting bernilai sangat besar untuk kegiatan terkait revitalisasi SLB tampak tidak selaras dengan prioritas belanja yang semestinya lebih berfokus pada kebutuhan layanan dan sarana pendidikan. Judul pekerjaan juga menunjukkan klasifikasi jenis pengadaan yang tidak lazim untuk perjalanan dinas, sehingga layak dicermati sebagai indikasi pemborosan signifikan."
+  },
+  {
+    "lembaga": "Kementerian Hak Asasi Manusia",
+    "satker": "DIREKTORAT JENDERAL INSTRUMEN DAN PENGUATAN KEMENTERIAN HAM",
+    "pagu": 4617275000,
+    "paket": "Pengadaan Belanja Perjalanan Dinas Biasa - Luar Negeri untuk Kegiatan Dialog Konstruktif Jenewa Pada Direktorat Jenderal Instrumen dan Penguatan HAM Tahun Anggaran 2026",
+    "inappropriateReason": "Terdapat indikasi kuat pemborosan pada komponen tiket pesawat bisnis untuk perjalanan dinas luar negeri. Untuk kegiatan dialog, pengadaan 10 tiket kelas bisnis bernilai sangat tinggi menimbulkan kesan penggunaan fasilitas premium yang tidak esensial bagi pelaksanaan tugas, terlebih masih terdapat 30 tiket ekonomi dalam paket yang sama. Komponen ini layak dipandang sebagai pengeluaran yang tidak hemat dan perlu justifikasi ketat."
+  },
+  {
+    "lembaga": "Badan Riset dan Inovasi Nasional",
+    "satker": "Deputi Bidang Fasilitasi Riset dan Inovasi",
+    "pagu": 3725840000,
+    "paket": "Belanja Perjalanan Dinas Paket Meeting Luar Kota",
+    "inappropriateReason": "Paket perjalanan dinas meeting luar kota bernilai sangat besar untuk 1 paket, sementara uraian hanya menyebut pemenuhan prioritas direktif tanpa rincian kebutuhan, output, peserta, durasi, atau komponen biaya. Nilai dan deskripsi yang sangat umum menimbulkan indikasi kuat belanja perjalanan/meeting berpotensi tidak efisien dan perlu diuji kewajaran secara ketat."
+  },
+  {
+    "lembaga": "Kementerian Energi Dan Sumber Daya Mineral",
+    "satker": "DITJEN MINERAL DAN BATUBARA",
+    "pagu": 3667554000,
+    "paket": "Belanja Perjalanan Dinas Paket Meeting Luar Kota",
+    "inappropriateReason": "Belanja paket meeting luar kota bernilai sangat besar dengan lokasi mencakup destinasi seperti Bali, disertai komponen full board, full day, tiket pesawat, penginapan, dan uang representasi dalam jumlah besar. Pola ini mengindikasikan kegiatan rapat berpotensi dapat dilakukan lebih efisien di kantor atau secara daring, sehingga terdapat indikasi kuat pemborosan anggaran perjalanan dinas dan rapat luar kota."
+  },
+  {
+    "lembaga": "Kementerian Energi Dan Sumber Daya Mineral",
+    "satker": "BADAN PENGATUR HILIR MINYAK DAN GAS BUMI BPH MIGAS",
+    "pagu": 2512872000,
+    "paket": "Belanja Perjalanan Dinas Paket Meeting Luar Kota - Melaksanakan penyebar luasan informasi terkait pengaturan dan pengawasan Gas Bumi Melalui Pipa",
+    "inappropriateReason": "Pengadaan paket meeting luar kota untuk kegiatan penyebarluasan informasi bernilai sangat besar dalam satu paket menimbulkan indikasi kuat pemborosan. Bentuk belanja perjalanan dinas dan meeting di luar kota untuk fungsi sosialisasi layak dipertanyakan efisiensinya karena berpotensi tidak proporsional terhadap kebutuhan substantif kegiatan."
+  },
+  {
+    "lembaga": "Kementerian Hukum",
+    "satker": "DIREKTORAT JENDERAL KEKAYAAN INTELEKTUAL",
+    "pagu": 2369433000,
+    "paket": "Pengadaan Perjalanan Dinas Luar Negeri Kegiatan Pelaksanaan Keprotokoleran pada DJKI - Provinsi DK Jakarta  TA 2026",
+    "inappropriateReason": "Terdapat porsi besar perjalanan dinas luar negeri dengan tiket pesawat bisnis dalam jumlah signifikan. Penggunaan kelas bisnis untuk perjalanan dinas pemerintah berpotensi menimbulkan kesan kemewahan dan pemborosan, terlebih nilainya sangat besar. Indikasi ketidakpantasan kuat dari komposisi belanja yang memprioritaskan tiket mahal dibanding kebutuhan esensial."
+  },
+  {
+    "lembaga": "Kementerian Hukum",
+    "satker": "DIREKTORAT JENDERAL KEKAYAAN INTELEKTUAL",
+    "pagu": 2159856000,
+    "paket": "Pengadaan Belanja Perjalanan Dinas Dalam Kota pada Kegiatan Koordinasi Keprotokoleran pada DJKI - Provinsi DK Jakarta  TA 2026",
+    "inappropriateReason": "Terdapat tarif penginapan perjalanan dinas dalam kota yang sangat tinggi, terutama untuk pejabat setara eselon I sebesar Rp9.331.000 per orang-hari dalam jumlah besar, sehingga menimbulkan indikasi kuat pemborosan dan penggunaan anggaran yang tidak patut untuk perjalanan dalam kota."
+  },
+  {
+    "lembaga": "Kementerian Hak Asasi Manusia",
+    "satker": "DIREKTORAT JENDERAL INSTRUMEN DAN PENGUATAN KEMENTERIAN HAM",
+    "pagu": 2107590000,
+    "paket": "Pengadaan Belanja Perjalanan Dinas Biasa Untuk KegiatanPelaksanaan Penguatan HAM Bagi Aparatur Negara di Pemerintah Provinsi pada Direktorat Jenderal Instrumen dan Penguatan HAM Tahun Anggaran 2026",
+    "inappropriateReason": "Objek pengadaan didominasi belanja perjalanan dinas dan komponen biaya perjalanan, namun diklasifikasikan sebagai pengadaan barang dengan nilai paket sangat besar dibanding rincian komponen yang tampak. Terdapat indikasi ketidaksesuaian jenis belanja serta potensi penggelembungan paket karena rincian tertera hanya mencakup sebagian kecil dari total anggaran."
+  },
+  {
+    "lembaga": "Kementerian Hak Asasi Manusia",
+    "satker": "DIREKTORAT JENDERAL INSTRUMEN DAN PENGUATAN KEMENTERIAN HAM",
+    "pagu": 1981400000,
+    "paket": "Pengadaan Belanja Perjalanan Dinas Biasa - Luar Negeri Untuk Kegiatan Dialog Konstruktif New York pada Direktorat Jenderal Instrumen dan Penguatan HAM Tahun Anggaran 2026",
+    "inappropriateReason": "Terdapat indikasi pemborosan signifikan pada komponen tiket pesawat bisnis luar negeri dengan nilai sangat tinggi untuk 4 orang. Untuk perjalanan dinas, penggunaan kelas bisnis patut dipertanyakan karena tersedia alternatif kelas ekonomi dalam paket yang sama. Judul paket juga menunjukkan belanja perjalanan dinas luar negeri namun diklasifikasikan sebagai pengadaan barang, sehingga perlu dicermati lebih lanjut dari sisi kepatutan dan klasifikasi belanja."
+  },
+  {
+    "lembaga": "Kementerian Hak Asasi Manusia",
+    "satker": "DIREKTORAT JENDERAL INSTRUMEN DAN PENGUATAN KEMENTERIAN HAM",
+    "pagu": 1893980000,
+    "paket": "Pengadaan Belanja Perjalanan Dinas Biasa Untuk Kegiatan Konsultasi / Koordinasi pada Direktorat Jenderal Instrumen dan Penguatan HAM Tahun Anggaran 2026",
+    "inappropriateReason": "Terdapat ketidakwajaran sangat kuat antara total anggaran paket dan rincian volume/harga yang tercantum. Nilai komponen perjalanan dinas yang disebutkan hanya sekitar belasan juta rupiah, jauh di bawah total pagu hampir Rp1,9 miliar, sehingga mengindikasikan kelebihan alokasi yang sangat besar dan perlu verifikasi mendalam atas kesesuaian volume, output, serta dasar perhitungannya."
+  },
+  {
+    "lembaga": "Kementerian Hak Asasi Manusia",
+    "satker": "DIREKTORAT JENDERAL INSTRUMEN DAN PENGUATAN KEMENTERIAN HAM",
+    "pagu": 1893980000,
+    "paket": "Pengadaan Belanja Perjalanan Dinas Biasa Untuk Kegiatan Konsultasi/Koordinasi pada Direktorat Jenderal Instrumen dan Penguatan HAM Tahun Anggaran 2026",
+    "inappropriateReason": "Terdapat indikasi kuat ketidaksesuaian antara nilai anggaran dan rincian volume/spesifikasi yang sangat kecil. Total komponen yang tercantum hanya sekitar belasan juta rupiah, sementara nilai anggaran mencapai sekitar 1,89 miliar rupiah. Selisih yang sangat besar ini layak dinilai sebagai potensi pemborosan serius dan perlu verifikasi lebih lanjut atas kewajaran penganggaran."
+  },
+  {
+    "lembaga": "Kementerian Kelautan Dan Perikanan",
+    "satker": "Direktorat Jenderal Penataan Ruang Laut",
+    "pagu": 1684140000,
+    "paket": "Belanja Perjalanan Dinas Paket Meeting Luar Kota",
+    "inappropriateReason": "Item berupa paket meeting luar kota/perjalanan dinas, sementara uraian dan spesifikasi hanya menyebut 'efisiensi' tanpa kebutuhan yang terukur. Penggunaan dana publik, terlebih bersumber dari pinjaman luar negeri, untuk perjalanan/meeting luar kota dengan justifikasi sangat minim merupakan indikasi kuat belanja yang tidak prioritas dan berpotensi seluruhnya tidak perlu."
+  },
+  {
+    "lembaga": "Kementerian Energi Dan Sumber Daya Mineral",
+    "satker": "DITJEN MINERAL DAN BATUBARA",
+    "pagu": 1287504000,
+    "paket": "Belanja Perjalanan Dinas Paket Meeting Luar Kota",
+    "inappropriateReason": "Pengadaan berupa paket meeting/perjalanan dinas luar kota dengan nilai besar dan dominan untuk rapat fullboard/full day di luar kantor, termasuk tiket, hotel, transport lokal, dan uang harian. Dari uraian yang tersedia, belanja ini lebih menyerupai kegiatan perjalanan dinas daripada pengadaan barang, sehingga relevansi klasifikasi dan kebutuhan efisiensinya patut dipertanyakan. Seluruh nilai paket berpotensi merupakan belanja yang dapat ditekan atau dihindari bila rapat dilaksanakan di kantor/daring."
+  },
+  {
+    "lembaga": "Kementerian Hukum",
+    "satker": "DIREKTORAT JENDERAL KEKAYAAN INTELEKTUAL",
+    "pagu": 964419000,
+    "paket": "Pengadaan Belanja Perjalanan Dinas Biasa Kegiatan Penelitian Lapangan KBM Pada Direktorat Merek dan IG Ditjen Kekayaan Intelektual TA 2026",
+    "inappropriateReason": "Terdapat indikasi kuat pemborosan karena komponen perjalanan dinas memasukkan tiket pesawat kelas bisnis berulang kali untuk penerbangan dalam negeri dengan nilai signifikan. Untuk kegiatan penelitian lapangan, penggunaan kelas bisnis tampak tidak proporsional dan berpotensi melebihi kebutuhan minimum yang wajar. Nilai potensi dihitung secara konservatif dari seluruh komponen tiket bisnis dalam paket."
+  },
+  {
+    "lembaga": "Kementerian Kelautan Dan Perikanan",
+    "satker": "Direktorat Jenderal Penataan Ruang Laut",
+    "pagu": 880880000,
+    "paket": "Belanja Perjalanan Dinas Paket Meeting Luar Kota",
+    "inappropriateReason": "Pengadaan berupa paket meeting luar kota dengan komponen perjalanan, full board, dan tiket pesawat dalam jumlah besar untuk rapat di Bali berindikasi tidak efisien karena fungsi utamanya lebih menyerupai perjalanan dinas/penyelenggaraan rapat daripada belanja barang. Penggunaan dana publik, terlebih bersumber dari pinjaman luar negeri, untuk rapat luar kota skala besar patut dinilai sangat berisiko pemborosan."
+  },
+  {
+    "lembaga": "Kementerian Agama",
+    "satker": "UIN SYARIF HIDAYATULLAH JAKARTA",
+    "pagu": 852530000,
+    "paket": "Belanja Perjalanan Penyelenggaraan Operasional Perkantoran dan Perkuliahan universitas UIN Syarif Hidayatullah Jakarta Tahun 2026",
+    "inappropriateReason": "Terdapat indikasi kuat pemborosan pada komponen perjalanan, khususnya uang harian 72 OH dengan tarif Rp5.000.000 per OH yang sangat tinggi dibanding komponen lain dalam paket yang sama. Selain itu, pengadaan perjalanan operasional/perkuliahan dalam satu paket jasa lainnya melalui pengadaan langsung bernilai besar patut dicermati dari sisi kewajaran kebutuhan dan efisiensi."
+  }
+]

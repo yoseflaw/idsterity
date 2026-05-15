@@ -1,1 +1,142 @@
-[]
+[
+  {
+    "lembaga": "Provinsi Jawa Tengah",
+    "satker": "SEKRETARIAT DEWAN PERWAKILAN RAKYAT DAERAH",
+    "pagu": 3238500000,
+    "paket": "Belanja Alat/Bahan untuk Kegiatan Kantor- Bahan Cetak ( PKPP Penyusunan Program Kerja DPRD )",
+    "inappropriateReason": "Anggaran bahan cetak/fotokopi untuk kegiatan penyusunan program kerja DPRD sebesar ini sangat tidak wajar untuk item operasional sederhana. Nilainya ekstrem dibanding karakter pengadaan yang hanya berupa bahan cetak, sehingga kuat mengindikasikan pemborosan anggaran dan patut diaudit rinci terkait volume, frekuensi, serta kewajaran harga satuan."
+  },
+  {
+    "lembaga": "Provinsi Jawa Tengah",
+    "satker": "SEKRETARIAT DEWAN PERWAKILAN RAKYAT DAERAH",
+    "pagu": 2855000000,
+    "paket": "Jasa Komunikasi Online (Penyusunan Bahan Komunikasi & Publikasi)",
+    "inappropriateReason": "Anggaran jasa komunikasi online untuk penyusunan bahan komunikasi dan publikasi pada sekretariat DPRD dengan nilai sangat besar menimbulkan indikasi kuat pemborosan dan ketidakpatutan. Jenis belanja ini bersifat pencitraan/komunikasi, bukan kebutuhan layanan publik yang mendesak, sehingga berisiko memicu kecemburuan sosial bila dibiayai penuh dari APBD."
+  },
+  {
+    "lembaga": "Provinsi Jawa Tengah",
+    "satker": "SEKRETARIAT DEWAN PERWAKILAN RAKYAT DAERAH",
+    "pagu": 1520000000,
+    "paket": "Siaran Melalui TV Lokal (Penyusunan Bahan Komunikasi & Publikasi)",
+    "inappropriateReason": "Pengadaan siaran melalui TV lokal untuk kegiatan komunikasi dan publikasi oleh sekretariat legislatif berisiko menjadi belanja pencitraan yang kurang prioritas terhadap fungsi inti pelayanan publik. Nilai anggaran sangat besar untuk 1 paket, sementara rincian output, durasi tayang, frekuensi, dan ukuran manfaat tidak terlihat jelas dari data yang tersedia."
+  },
+  {
+    "lembaga": "Kab. Mimika",
+    "satker": "Badan Pengelolaan Keuangan dan Aset Daerah",
+    "pagu": 1183154200,
+    "paket": "Belanja Bahan Cetak (Penyusunan Rancangan Peraturan Daeah Tentang Pertanggungjawaban Pelaksanaan APBD)",
+    "inappropriateReason": "Nilai anggaran sangat besar untuk kebutuhan bahan cetak, fotokopi, jilid, spanduk, dan print warna dalam satu paket. Jenis output yang bersifat administrasi rutin ini tampak tidak sebanding dengan besaran biaya, sehingga terdapat indikasi kuat pemborosan dan kebutuhan perlu diuji kewajarannya."
+  },
+  {
+    "lembaga": "Kab. Mimika",
+    "satker": "Badan Pengelolaan Keuangan dan Aset Daerah",
+    "pagu": 1039939000,
+    "paket": "Belanja Bahan Cetak (Penyusunan Peraturan Daerah Tentang APBD)",
+    "inappropriateReason": "Nilai anggaran untuk bahan cetak/fotokopi dan jilid dalam 1 paket tampak sangat tidak proporsional terhadap jenis output yang bersifat rutin dan berbiaya relatif rendah. Indikasi utama adalah dominasi pekerjaan fotokopi dan jilid tanpa spesifikasi volume rinci yang memadai, sementara pagunya sangat besar sehingga patut diduga mengandung pemborosan signifikan."
+  },
+  {
+    "lembaga": "Kab. Blora",
+    "satker": "SEKRETARIAT DEWAN",
+    "pagu": 646800000,
+    "paket": "Penginapan Anggota DPRD/Pejabat Eselon II (Penyusunan Kode Etik DPRD)",
+    "inappropriateReason": "Pengadaan penginapan bagi Anggota DPRD/Pejabat Eselon II untuk kegiatan penyusunan kode etik menimbulkan indikasi kuat penggunaan anggaran yang tidak proporsional. Volume sangat besar untuk akomodasi pejabat pada kegiatan internal, sehingga berpotensi memicu pemborosan dan kesan fasilitas berlebihan dengan dana publik."
+  },
+  {
+    "lembaga": "Kab. Kutai Timur",
+    "satker": "Dinas Pendidikan dan Kebudayaan",
+    "pagu": 618000000,
+    "paket": "Worshop Penyusunan RKAS BOSP ( Sangatta Utara, Sangatta Selatan, Bengalon, Teluk Pandan, Rantau Pulung ) Jenjang Sekolah Dasar",
+    "inappropriateReason": "Kegiatan bimbingan teknis untuk penyusunan RKAS jenjang SD dengan pelaksanaan 3 hari di hotel bintang 4, termasuk menginap, seminar kit, souvenir, dan paket konsumsi bagi 103 orang, menunjukkan pola belanja seremonial yang berlebihan untuk fungsi administratif. Seluruh nilai pengadaan berindikasi kuat tidak efisien karena komponen kemewahan dan fasilitas pendukung tidak tampak proporsional dengan tujuan kegiatan."
+  },
+  {
+    "lembaga": "Kab. Pegunungan Arfak",
+    "satker": "DINAS KESEHATAN",
+    "pagu": 525000000,
+    "paket": "Penyusunan Kebijakan/Regulasi Bidang kesehatan",
+    "inappropriateReason": "Terdapat indikasi ketidakselarasan dan pemborosan karena paket diklasifikasikan sebagai pengadaan barang, namun isinya didominasi honorarium, perjalanan dinas, sewa gedung, paket meeting, dan penginapan. Selain itu terdapat spesifikasi laptop gaming kelas TUF/ROG yang tidak lazim untuk kebutuhan penyusunan kebijakan/regulasi kesehatan. Kombinasi belanja rapat/perjalanan yang besar dengan perangkat non-esensial meningkatkan risiko pengeluaran tidak efisien."
+  },
+  {
+    "lembaga": "Provinsi Jawa Tengah",
+    "satker": "Dinas Pendidikan",
+    "pagu": 374800000,
+    "paket": "Belanja Perjalanan Dinas Paket Meeting Luar Kota Penyusunan Dokumen Perencanaan Perangkat Daerah",
+    "inappropriateReason": "Paket perjalanan dinas berupa meeting luar kota untuk penyusunan dokumen perencanaan terindikasi kurang efisien karena aktivitas penyusunan dokumen administratif pada prinsipnya dapat dilakukan di kantor atau secara daring. Seluruh nilai paket patut dicermati sebagai potensi pemborosan karena manfaat tambah dari pelaksanaan di luar kota tidak tampak dari informasi yang tersedia."
+  },
+  {
+    "lembaga": "Kota Malang",
+    "satker": "Kelurahan Sawojajar",
+    "pagu": 353500000,
+    "paket": "Kursi Susun",
+    "inappropriateReason": "Pengadaan kursi susun dengan spesifikasi sederhana untuk unit kelurahan bernilai sangat tinggi dibanding volume 50 buah, sehingga terdapat indikasi kuat harga satuan tidak wajar dan potensi pemborosan anggaran yang signifikan."
+  },
+  {
+    "lembaga": "Provinsi DKI Jakarta",
+    "satker": "BADAN PENGELOLAAN KEUANGAN DAERAH",
+    "pagu": 353158000,
+    "paket": "Penyusunan Laporan Keuangan Pemprov DKI Jakarta",
+    "inappropriateReason": "Komponen pengadaan didominasi sewa hotel dan perjalanan dinas untuk kegiatan penyusunan laporan keuangan, yang pada indikasi awal kurang proporsional terhadap sifat pekerjaan administratif/akuntansi. Seluruh nilai paket berpotensi tidak efisien bila aktivitas inti dapat dilaksanakan melalui fasilitas kantor atau mekanisme kerja internal."
+  },
+  {
+    "lembaga": "Kab. Serang",
+    "satker": "Badan Pengelolaan Keuangan dan Aset Daerah",
+    "pagu": 350220000,
+    "paket": "Belanja Sewa Bangunan Gedung Tempat Pertemuan_Koordinasi, Penyusunan dan Verifikasi RKA-SKPD",
+    "inappropriateReason": "Kegiatan berupa rapat/koordinasi penyusunan dan verifikasi anggaran diselenggarakan sebagai fullboard di hotel luar daerah (DKI Jakarta), padahal fungsi tersebut pada dasarnya dapat dilaksanakan di kantor atau fasilitas pemerintah setempat. Pemilihan lokasi hotel luar daerah untuk rapat internal menimbulkan indikasi kuat pemborosan anggaran perjalanan dan akomodasi."
+  },
+  {
+    "lembaga": "Kab. Dharmasraya",
+    "satker": "Dinas Pekerjaan Umum, Penataan Ruang",
+    "pagu": 350000000,
+    "paket": "Penyusunan dan Penetapan Peraturan Perundang-undangan Kepala Daerah",
+    "inappropriateReason": "Pengadaan jasa konsultansi untuk penyusunan dan penetapan peraturan kepala daerah oleh unit pekerjaan umum/penataan ruang tampak kurang selaras dengan fungsi teknis utama unit tersebut. Nilai anggaran juga signifikan untuk satu pekerjaan konsultansi, sehingga patut diduga sebagai belanja yang tidak prioritatif atau dapat dilakukan melalui fungsi internal/koordinasi hukum pemerintah daerah."
+  },
+  {
+    "lembaga": "Provinsi Papua",
+    "satker": "BADAN PENGELOLAAN KEUANGAN DAN ASSET",
+    "pagu": 350000000,
+    "paket": "Cetak KUPA dan PPAS Final Keg-Koordinasi Dan Penyusunan Perubahan KUA dan Perubahan PPAS",
+    "inappropriateReason": "Indikasi pemborosan sangat kuat karena pengadaan fotokopi/cetak berwarna 350.000 lembar untuk dokumen anggaran melalui pengadaan langsung tampak berlebihan dibanding kebutuhan administratif yang lazim. Volume sangat besar untuk keluaran dokumen, sehingga patut diduga tidak efisien dan berpotensi digantikan sebagian dengan distribusi digital."
+  },
+  {
+    "lembaga": "Kab. Blora",
+    "satker": "SEKRETARIAT DEWAN",
+    "pagu": 301840000,
+    "paket": "Penginapan Anggota DPRD/Pejabat Eselon II (Penyusunan Kode Etik DPRD)",
+    "inappropriateReason": "Pengadaan penginapan berulang untuk anggota DPRD/pejabat eselon II di luar daerah terkait penyusunan kode etik menimbulkan indikasi kuat pembiayaan fasilitas yang kurang proporsional terhadap substansi kegiatan. Dari judul, volume, dan sifat belanja, item ini layak dicermati sebagai pengeluaran yang berpotensi tidak efisien dan tidak mendesak."
+  },
+  {
+    "lembaga": "Kab. Ogan Komering Ulu Timur",
+    "satker": "Dinas Pekerjaan Umum dan Tata Ruang",
+    "pagu": 300000000,
+    "paket": "Penyusunan RDTR Jayapura",
+    "inappropriateReason": "Terdapat indikasi kuat ketidaksesuaian objek pekerjaan karena judul pengadaan menyebut penyusunan RDTR untuk wilayah Jayapura, sementara pengadaan dilakukan oleh pemerintah daerah di Ogan Komering Ulu Timur. Ketidaksinkronan lokasi substansi pekerjaan ini mengindikasikan item berpotensi tidak relevan dengan kebutuhan kewenangan daerah pengusul dan layak diaudit lebih lanjut."
+  },
+  {
+    "lembaga": "Kota Sungai Penuh",
+    "satker": "Dinas Komunikasi, Informatika dan Statistik",
+    "pagu": 272500000,
+    "paket": "Honorarium Tim Penyusunan Jurnal, Buletin, Majalah, Pengelola Teknologi Informasi dan Pengelola Website (Keg. Relasi Media)",
+    "inappropriateReason": "Pengadaan berisi honorarium/publikasi media online dan jasa liputan wartawan dalam satu paket untuk relasi media. Komponen ini berindikasi lebih condong pada pembiayaan eksposur/pencitraan dibanding kebutuhan layanan publik inti, sehingga patut dinilai tidak selaras dan berpotensi menimbulkan pemborosan anggaran."
+  },
+  {
+    "lembaga": "Kab. Serang",
+    "satker": "Badan Pengelolaan Keuangan dan Aset Daerah",
+    "pagu": 247920000,
+    "paket": "Belanja Sewa Bangunan Gedung Tempat Pertemuan_Koordinasi dan Penyusunan Peraturan Daerah tentang APBD dan Peraturan Kepala Daerah tentang Penjabaran APBD",
+    "inappropriateReason": "Pengadaan berupa sewa hotel fullboard untuk rapat/pertemuan di luar kantor di luar daerah menimbulkan indikasi kuat pembiayaan kegiatan yang tidak esensial dan berbiaya tinggi. Kegiatan koordinasi penyusunan regulasi anggaran pada dasarnya lebih selaras dilakukan di fasilitas kantor pemerintah atau lokasi yang lebih efisien, sehingga seluruh nilai paket layak dicermati sebagai potensi pemborosan."
+  },
+  {
+    "lembaga": "Kab. Serang",
+    "satker": "Badan Pengelolaan Keuangan dan Aset Daerah",
+    "pagu": 247920000,
+    "paket": "Belanja Sewa Bangunan Gedung Tempat Pertemuan_Koordinasi dan Penyusunan Perubahan KUA dan Perubahan PPAS",
+    "inappropriateReason": "Pengadaan sewa tempat pertemuan dan paket rapat fullboard di luar kantor untuk pembahasan dokumen anggaran daerah di lokasi luar provinsi menimbulkan indikasi kuat pemborosan. Kegiatan koordinasi penyusunan dokumen internal pada prinsipnya dapat diprioritaskan di fasilitas kantor pemerintah atau lokasi yang lebih efisien, sehingga keseluruhan nilai pengadaan layak dicermati sebagai belanja yang kurang hemat."
+  },
+  {
+    "lembaga": "Provinsi Jawa Tengah",
+    "satker": "SEKRETARIAT DEWAN PERWAKILAN RAKYAT DAERAH",
+    "pagu": 240000000,
+    "paket": "Belanja Jasa Iklan/Reklame, Film, dan Pemotretan Spot Feature Audio Visual ( Penyusunan Program Kerja DPRD )",
+    "inappropriateReason": "Pengadaan jasa iklan, film, dan pemotretan untuk spot feature audio visual terkait penyusunan program kerja/raperda DPRD berisiko kuat tidak esensial terhadap fungsi inti legislasi dan berpotensi menjadi belanja pencitraan. Dengan nilai paket yang signifikan untuk 1 paket, penggunaan APBD untuk kebutuhan audio visual promosi seperti ini tampak sangat tidak patut dan berpotensi menimbulkan pemborosan penuh."
+  }
+]

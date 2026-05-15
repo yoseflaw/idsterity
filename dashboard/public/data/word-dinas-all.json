@@ -1,1 +1,142 @@
-[]
+[
+  {
+    "lembaga": "Provinsi Jawa Barat",
+    "satker": "CABANG PENDIDIKAN WILAYAH IV",
+    "pagu": 79047398416,
+    "paket": "Penyediaan Jasa Pelayanan Umum Kantor Cabang Dinas Pendidikan Wilayah IV",
+    "inappropriateReason": "Nilai anggaran sangat besar untuk paket jasa pelayanan umum satu kantor cabang dengan output hanya 12 laporan, serta memuat komponen tenaga administrasi, kebersihan, keamanan, iuran kesehatan, dan PPPK paruh waktu dalam satu paket jasa lainnya. Struktur ini mengindikasikan penggabungan belanja pegawai/jasa rutin yang tidak proporsional dan layak diaudit mendalam."
+  },
+  {
+    "lembaga": "Kementerian Imigrasi dan Pemasyarakatan",
+    "satker": "SEKRETARIAT JENDERAL",
+    "pagu": 54071283000,
+    "paket": "Pengadaan Pakaian Dinas Upacara (PDU1) Pada Sekretariat Jenderal Kementerian Imigrasi dan Pemasyarakatan",
+    "inappropriateReason": "Pengadaan pakaian dinas upacara untuk pegawai dengan nilai sangat besar menimbulkan indikasi pemborosan karena bersifat seremonial dan tidak tampak langsung mendukung layanan inti. Nilai anggaran yang sangat tinggi untuk satu paket layak dicermati kuat dari sisi kebutuhan riil, jumlah penerima, dan kewajaran biaya per set."
+  },
+  {
+    "lembaga": "Kementerian Pendidikan Dasar dan Menengah",
+    "satker": "PUSAT ASESMEN PENDIDIKAN",
+    "pagu": 22711760000,
+    "paket": "Belanja Perjalanan Dinas Paket Meeting Luar Kota-051 Persiapan Ujian Seleksi-QAA001 Peserta Pengujian Pendidikan yang Terlayani",
+    "inappropriateReason": "Pengadaan perjalanan dinas paket meeting luar kota untuk fungsi persiapan ujian seleksi bernilai sangat besar dan menggunakan jenis pengadaan barang, sehingga terdapat indikasi kuat belanja rapat/perjalanan tidak proporsional terhadap tujuan substantif layanan pendidikan. Pola ini layak dikategorikan tidak pantas dan berpotensi menimbulkan pemborosan anggaran yang signifikan."
+  },
+  {
+    "lembaga": "Kab. Mempawah",
+    "satker": "Dinas Pekerjaan Umum dan Penataan Ruang",
+    "pagu": 15000000000,
+    "paket": "Rumah Dinas Bupati",
+    "inappropriateReason": "Pengadaan rumah dinas kepala daerah dengan nilai sangat besar menimbulkan indikasi kuat penggunaan anggaran yang tidak proporsional dan berpotensi memicu kecemburuan sosial. Dari judul dan nilai paket saja, belanja ini tampak sebagai fasilitas pejabat yang mewah dibanding kebutuhan layanan publik yang lebih prioritas."
+  },
+  {
+    "lembaga": "Kota Magelang",
+    "satker": "Sekretariat Dewan Perwakilan Rakyat Daerah",
+    "pagu": 14671206000,
+    "paket": "Belanja Perjalanan Dinas Sub Kegiatan Fasilitasi Rapat Koordinasi dan Konsultasi DPRD",
+    "inappropriateReason": "Anggaran perjalanan dinas untuk fasilitasi rapat koordinasi dan konsultasi DPRD selama 12 bulan bernilai sangat besar dan berisiko kuat tidak proporsional terhadap kebutuhan administratif. Belanja perjalanan dinas dalam skala ini berpotensi menimbulkan pemborosan dan kesan penggunaan dana publik yang tidak patut, sehingga layak dikategorikan sangat tidak pantas untuk dicermati ketat."
+  },
+  {
+    "lembaga": "Kota Banjarbaru",
+    "satker": "SEKRETARIAT DPRD",
+    "pagu": 14635649000,
+    "paket": "Belanja Perjalanan Dinas Biasa",
+    "inappropriateReason": "Belanja perjalanan dinas rutin DPRD lintas banyak provinsi selama 1 tahun dengan nilai sangat besar menimbulkan indikasi kuat pemborosan dan penggunaan anggaran yang tidak proporsional. Uraian didominasi perjalanan anggota, pimpinan, dan pendamping serta penginapan, tanpa keluaran substantif yang terukur pada data yang tersedia, sehingga berisiko tinggi tidak efisien dan memicu kesan penggunaan APBD secara tidak patut."
+  },
+  {
+    "lembaga": "Kab. Badung",
+    "satker": "Sekretariat Daerah",
+    "pagu": 14136317184,
+    "paket": "Belanja Sewa Kendaraan Dinas Bermotor Perorangan",
+    "inappropriateReason": "Pengadaan sewa kendaraan dinas perorangan dengan nilai sangat besar untuk banyak jabatan, termasuk pihak non-struktural, serta spesifikasi kendaraan baru dan SUV/MPV berkesan mewah. Dari judul, uraian, dan spesifikasi yang tersedia, penggunaan APBD ini menimbulkan indikasi kuat pemborosan dan ketidakpatutan belanja fasilitas pejabat."
+  },
+  {
+    "lembaga": "Kota Cimahi",
+    "satker": "Dinas Pekerjaan Umum dan Penataan Ruang",
+    "pagu": 12341014560,
+    "paket": "Pembangunan Lanjutan Rumah Dinas Wali Kota dan Wakil Wali Kota Cimahi",
+    "inappropriateReason": "Pembangunan lanjutan rumah dinas kepala daerah tipe A dengan nilai sangat besar berindikasi kuat tidak proporsional terhadap prinsip efisiensi belanja publik. Dari judul dan nilai anggaran, pengadaan ini berpotensi memicu kesan penggunaan APBD untuk fasilitas pejabat yang mewah dan tidak mendesak."
+  },
+  {
+    "lembaga": "Kementerian Hak Asasi Manusia",
+    "satker": "DIREKTORAT JENDERAL INSTRUMEN DAN PENGUATAN KEMENTERIAN HAM",
+    "pagu": 9515900000,
+    "paket": "Pengadaan Belanja Perjalanan Dinas Dalam Kota Untuk Kegiatan Implementasi P5HAM pada Direktorat Jenderal Instrumen dan Penguatan HAM Tahun Anggaran 2026",
+    "inappropriateReason": "Anggaran sangat besar untuk perjalanan dinas dalam kota dalam 1 paket, sementara uraian dan spesifikasi sangat umum tanpa rincian kebutuhan, frekuensi, atau output terukur. Nilai ini menimbulkan indikasi kuat pemborosan dan belanja operasional yang tidak proporsional."
+  },
+  {
+    "lembaga": "Kota Balikpapan",
+    "satker": "DINAS PEKERJAAN UMUM",
+    "pagu": 8651379000,
+    "paket": "Rehab Rumah Dinas dan Gedung Kantor Kejaksaan Tinggi Kalimantan Timur",
+    "inappropriateReason": "Indikasi ketidakselarasan kewenangan: anggaran APBD pemerintah kota melalui dinas pekerjaan umum digunakan untuk rehabilitasi rumah dinas dan gedung kantor institusi vertikal kejaksaan. Dari data yang tersedia, pembiayaan penuh atas aset/kantor lembaga lain berisiko tidak tepat prioritas dan layak diaudit lebih lanjut."
+  },
+  {
+    "lembaga": "Kementerian Koordinator Bidang Perekonomian",
+    "satker": "MENKO BIDANG PEREKONOMIAN",
+    "pagu": 8500000000,
+    "paket": "Belanja Perjalanan Dinas Paket Meeting Luar Kota",
+    "inappropriateReason": "Pengadaan paket meeting luar kota senilai sangat besar untuk tiket dan penginapan berindikasi kuat tidak ekonomis, terlebih kebutuhan rapat kedinasan pada umumnya dapat diupayakan lebih efisien. Nilai anggaran yang sangat tinggi untuk satu paket layak dinilai berpotensi pemborosan dan perlu justifikasi kebutuhan yang ketat."
+  },
+  {
+    "lembaga": "Kab. Ogan Ilir",
+    "satker": "Bagian Umum",
+    "pagu": 8388006400,
+    "paket": "Belanja Sewa Kendaraan Dinas Bermotor Perorangan",
+    "inappropriateReason": "Pengadaan sewa kendaraan dinas perorangan dengan daftar model yang mencakup SUV premium dan varian hybrid/modelista bernilai tinggi menunjukkan penggunaan fasilitas yang mewah untuk kebutuhan administratif umum. Nilai paket sangat besar untuk sewa kendaraan perorangan dan menimbulkan kesan pemborosan serta ketidakpatutan penggunaan anggaran publik."
+  },
+  {
+    "lembaga": "Kab. Paser",
+    "satker": "Bagian Umum",
+    "pagu": 8310285984,
+    "paket": "Belanja Sewa Kendaraan Dinas Bermotor Perorangan",
+    "inappropriateReason": "Pengadaan sewa kendaraan dinas jabatan mencakup beberapa model premium dan mewah setara SUV/luxury MPV kelas tinggi, termasuk tipe yang identik dengan kendaraan pejabat berbiaya sangat besar. Komposisi spesifikasi tersebut menimbulkan indikasi kuat penggunaan APBD yang tidak hemat dan berpotensi memicu kecemburuan sosial, sehingga patut dinilai sangat tidak pantas dari sisi efisiensi belanja publik."
+  },
+  {
+    "lembaga": "Kab. Jepara",
+    "satker": "Dinas Kesehatan",
+    "pagu": 7825058000,
+    "paket": "Belanja Perjalanan Dinas Paket Meeting Dalam Kota - Pengelolaan Pelayanan Kesehatan Gizi Masyarakat",
+    "inappropriateReason": "Nilai anggaran sangat besar untuk paket perjalanan dinas/meeting dalam kota berbentuk 1 paket halfday di luar kantor. Dari judul dan uraian, belanja ini berindikasi kuat tidak proporsional terhadap kebutuhan rapat lokal dan berpotensi merupakan pemborosan anggaran yang ekstrem."
+  },
+  {
+    "lembaga": "Kab. Nganjuk",
+    "satker": "Bagian Umum",
+    "pagu": 7428000000,
+    "paket": "Belanja Sewa Kendaraan Dinas Bermotor Perorangan (paket 2)",
+    "inappropriateReason": "Pengadaan sewa kendaraan dinas perorangan dalam jumlah sangat besar dengan spesifikasi yang mencakup model menengah-atas hingga premium/hybrid, termasuk sedan eksekutif, menimbulkan indikasi kuat penggunaan anggaran yang berlebihan dan tidak proporsional untuk kebutuhan operasional umum."
+  },
+  {
+    "lembaga": "Provinsi Jawa Timur",
+    "satker": "BIRO UMUM",
+    "pagu": 7137312000,
+    "paket": "Belanja Sewa Kendaraan Dinas Bermotor Perorangan",
+    "inappropriateReason": "Pengadaan sewa kendaraan dinas perorangan untuk banyak pejabat eselon selama 12 bulan dengan nilai sangat besar berindikasi kuat sebagai belanja fasilitas individual yang berlebihan dan berpotensi memicu kecemburuan sosial. Dari judul, peruntukan, dan skala anggarannya, item ini tampak tidak proporsional untuk didanai APBD."
+  },
+  {
+    "lembaga": "Provinsi Jawa Timur",
+    "satker": "BIRO UMUM",
+    "pagu": 7137312000,
+    "paket": "Belanja Sewa Kendaraan Dinas Bermotor Perorangan",
+    "inappropriateReason": "Pengadaan sewa kendaraan dinas perorangan bagi pejabat eselon dengan nilai sangat besar menunjukkan penggunaan anggaran untuk fasilitas individual pejabat, bukan kebutuhan layanan publik yang langsung. Dari judul, uraian, spesifikasi, dan nilai anggaran, item ini berisiko tinggi memicu kesan kemewahan dan pemborosan belanja birokrasi."
+  },
+  {
+    "lembaga": "Kementerian Kesehatan",
+    "satker": "KANTOR PUSAT SEKRETARIAT JENDERAL",
+    "pagu": 6350580000,
+    "paket": "Kendaraan Dinas Jabatan Eselon I Kantor Pusat",
+    "inappropriateReason": "Pengadaan kendaraan dinas jabatan Eselon I dalam jumlah banyak, termasuk model sedan dan SUV listrik/hybrid yang berkesan premium, menimbulkan indikasi kuat penggunaan anggaran yang mewah dan tidak hemat. Dalam konteks belanja kantor pusat kementerian, item ini berpotensi memicu kecemburuan sosial dan patut dipandang sebagai belanja yang sangat tidak pantas."
+  },
+  {
+    "lembaga": "Provinsi Sulawesi Selatan",
+    "satker": "BIRO UMUM",
+    "pagu": 6254085264,
+    "paket": "Belanja Sewa Kendaraan Dinas Bermotor Perorangan",
+    "inappropriateReason": "Pengadaan ini berupa sewa kendaraan dinas perorangan dengan daftar model kendaraan baru yang mencakup beberapa SUV/MPV kelas menengah-atas, termasuk varian premium dan aksesori khusus. Nilai anggaran sangat besar untuk satu paket dan berisiko kuat mencerminkan penggunaan fasilitas dinas yang berlebihan serta tidak hemat, sehingga patut dikategorikan sangat tidak pantas dari sudut efisiensi belanja publik."
+  },
+  {
+    "lembaga": "Kota Batam",
+    "satker": "BADAN KESATUAN BANGSA DAN POLITIK",
+    "pagu": 6004160000,
+    "paket": "Pengadaan Rumah Dinas Jabatan Para Kasi dan Kasubbagdin Kejaksaan Negeri Batam",
+    "inappropriateReason": "Pengadaan rumah dinas jabatan untuk pejabat kejaksaan tidak tampak selaras dengan fungsi satker pemerintah daerah yang tercantum. Selain itu, luas bangunan sangat besar untuk rumah dinas 1 lantai, sehingga menimbulkan indikasi kuat belanja yang tidak prioritas dan berpotensi membebani APBD secara tidak proporsional."
+  }
+]

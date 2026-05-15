@@ -1,1 +1,65 @@
-[]
+[
+  {
+    "lembaga": "Kementerian Imigrasi dan Pemasyarakatan",
+    "satker": "IM08 KANTOR IMIGRASI KELAS I TPI BENGKULU",
+    "pagu": 4011237000,
+    "paket": "Pengadaan Belanja Modal Peralatan dan Mesin Kendaraan Bermotor Pada Kantor Imigrasi Kelas I TPI Bengkulu Tahun Anggaran 2026",
+    "inappropriateReason": "Pengadaan kendaraan patroli jenis Fortuner untuk kantor imigrasi berindikasi kurang proporsional karena menggunakan model SUV menengah-atas yang berpotensi melampaui kebutuhan operasional dasar. Terdapat sinyal pemborosan pada pemilihan tipe kendaraan, meski kebutuhan kendaraan operasional dan patroli secara umum masih relevan dengan fungsi instansi."
+  },
+  {
+    "lembaga": "Kementerian Imigrasi dan Pemasyarakatan",
+    "satker": "IM13 KANTOR IMIGRASI KELAS II NON TPI WONOSOBO",
+    "pagu": 1100000000,
+    "paket": "Pengadaan Mobil Unit Penerangan Darat Kegiatan Layanan Sarana Internal Kendaraan Bermotor pada Kantor Imigrasi Kelas II Non TPI Wonosobo Jawa Tengah Tahun Anggaran 2026",
+    "inappropriateReason": "Item berupa mobil unit penerangan darat senilai sangat besar untuk kantor imigrasi kelas II non-TPI menimbulkan indikasi kuat ketidaksesuaian dengan kebutuhan layanan inti. Spesifikasi dan harga per unit juga tampak tidak wajar dibanding pagu yang tersedia, sehingga seluruh nilai pengadaan layak dicermati sebagai potensi pemborosan."
+  },
+  {
+    "lembaga": "Kementerian Perhubungan",
+    "satker": "UNIT PENYELENGGARA BANDAR UDARA MUTIARA SIS ALJUFRI",
+    "pagu": 420000000,
+    "paket": "Kendaraan bermotor roda 4",
+    "inappropriateReason": "Terdapat ketidaksesuaian kuat antara spesifikasi 'pemeliharaan kendaraan' dan pengadaan barang berupa 14 unit kendaraan roda 4 baru. Judul, volume, dan uraian menunjukkan pembelian kendaraan, bukan jasa/biaya pemeliharaan, sehingga seluruh nilai layak dicermati sebagai potensi pemborosan atau salah peruntukan anggaran."
+  },
+  {
+    "lembaga": "Kepolisian Negara Republik Indonesia",
+    "satker": "POLRESTABES SEMARANG POLDA JATENG",
+    "pagu": 168000000,
+    "paket": "PEMELIHARAAN KENDARAAN BERMOTOR RODA 2 MOGE POLRESTABES SEMARANG 2026",
+    "inappropriateReason": "Penggunaan dana publik untuk pemeliharaan sepeda motor gede (moge) pada satuan kepolisian daerah menimbulkan indikasi kuat ketidakpatutan karena berasosiasi dengan kendaraan premium/non-esensial dan berpotensi memicu persepsi penggunaan anggaran secara mewah. Dari judul dan uraian, seluruh paket terkait perawatan moge, sehingga nilai paket layak dipandang sebagai potensi pemborosan."
+  },
+  {
+    "lembaga": "Kementerian Imigrasi dan Pemasyarakatan",
+    "satker": "IM13 KANTOR IMIGRASI KELAS I KHUSUS TPI SEMARANG",
+    "pagu": 165000000,
+    "paket": "Pengadaan Segway kegiatan kendaraan bermotor di wilayah pada Kantor Imigrasi Kelas I Khusus TPI Semarang Jawa Tengah Tahun Anggaran 2026",
+    "inappropriateReason": "Pengadaan Segway untuk kantor imigrasi tampak sangat tidak lazim dan berisiko tinggi tidak relevan dengan kebutuhan layanan publik inti. Jenis barang ini memberi kesan fasilitas bergaya/non-esensial dibanding sarana operasional yang umum, sehingga patut dinilai sangat tidak pantas menggunakan dana publik."
+  },
+  {
+    "lembaga": "Kementerian Luar Negeri",
+    "satker": "KEDUTAAN BESAR RI DI KUWAIT CITY",
+    "pagu": 117975000,
+    "paket": "Asuransi Perpanjangan Surat Kendaraan Bermotor",
+    "inappropriateReason": "Nilai anggaran tampak sangat tidak proporsional untuk layanan asuransi/perpanjangan surat kendaraan bermotor sebanyak 11 unit dengan kuantitas tertera @650. Terdapat indikasi kuat pembebanan biaya jauh di atas kebutuhan wajar untuk layanan administratif/asuransi kendaraan, sehingga layak dikategorikan sebagai potensi pemborosan serius."
+  },
+  {
+    "lembaga": "Kepolisian Negara Republik Indonesia",
+    "satker": "POLRES BOYOLALI POLDA JATENG",
+    "pagu": 30000000,
+    "paket": "PEMELIHARAAN KENDARAAN BERMOTOR RODA 2 LANTAS POLRES BOYOLALI POLDA JATENG T.A. 2026",
+    "inappropriateReason": "Pengadaan pemeliharaan untuk kendaraan patroli roda dua jenis moge menimbulkan indikasi penggunaan aset yang berbiaya tinggi dan kurang proporsional untuk kebutuhan operasional umum. Dari uraian item, biaya pemeliharaan rutin dan suku cadang untuk 2 unit patut dicermati sebagai potensi pemborosan anggaran."
+  },
+  {
+    "lembaga": "Kementerian Keuangan",
+    "satker": "KANWIL DJKN SULAWESI UTARA TENGAH GORONTALO DAN MALUKU UTARA",
+    "pagu": 23520000,
+    "paket": "Belanja Pemeliharaan 5 unit Sepeda motor (dilaksanakan secara bertahap)",
+    "inappropriateReason": "Terdapat ketidaksesuaian yang kuat antara judul paket pemeliharaan sepeda motor dan uraian pekerjaan berupa belanja penambah daya tahan tubuh. Inkonsistensi objek belanja ini mengindikasikan spesifikasi/penganggaran tidak selaras sehingga seluruh nilai patut dicermati sebagai potensi pemborosan."
+  },
+  {
+    "lembaga": "Kementerian Lingkungan Hidup/Badan Pengendalian Lingkungan Hidup",
+    "satker": "SEKRETARIAT UTAMA KEMENTERIAN LINGKUNGAN HIDUP BPLH",
+    "pagu": 5850000,
+    "paket": "Pajak Kendaraan Bermotor Pejabat Eselon II",
+    "inappropriateReason": "Penggunaan anggaran belanja pengadaan untuk membayar pajak kendaraan bermotor pejabat berindikasi tidak tepat sebagai objek pengadaan barang/jasa. Judul item menunjukkan manfaat yang spesifik untuk kendaraan pejabat tertentu, sehingga relevansi dan kepatutan penggunaan dana publik patut dipersoalkan."
+  }
+]

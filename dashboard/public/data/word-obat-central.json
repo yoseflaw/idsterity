@@ -1,1 +1,142 @@
-[]
+[
+  {
+    "lembaga": "Kementerian Koperasi",
+    "satker": "LPDB KUMKM",
+    "pagu": 875000000,
+    "paket": "Pengadaan Obat-Obatan, Vitamin, dan Peralatan Medis",
+    "inappropriateReason": "Pengadaan obat-obatan, vitamin, dan peralatan medis tampak tidak selaras dengan fungsi utama unit pada kementerian yang berfokus pada pembiayaan dan pengembangan koperasi/UMKM. Dari judul dan jenis barang, seluruh nilai pengadaan patut dicermati sebagai indikasi belanja yang kurang relevan dengan tugas inti lembaga."
+  },
+  {
+    "lembaga": "Kementerian Komunikasi dan Digital",
+    "satker": "Balai Besar Pengujian Perangkat Telekomunikasi dan Digital",
+    "pagu": 400000000,
+    "paket": "Pengadaan Obat-obatan",
+    "inappropriateReason": "Pengadaan obat-obatan oleh unit pengujian perangkat telekomunikasi dan digital tampak tidak selaras dengan fungsi utama kelembagaan yang berorientasi teknis telekomunikasi. Tanpa penjelasan kebutuhan kesehatan kerja yang spesifik dan proporsional, seluruh nilai pengadaan layak dicermati sebagai potensi belanja yang tidak relevan."
+  },
+  {
+    "lembaga": "Kementerian Koordinator Bidang Perekonomian",
+    "satker": "MENKO BIDANG PEREKONOMIAN",
+    "pagu": 180000000,
+    "paket": "Pengadaan obat-obatan",
+    "inappropriateReason": "Pengadaan obat-obatan oleh kementerian koordinator bidang perekonomian tampak tidak selaras dengan fungsi utama kelembagaan. Dari judul dan konteks yang tersedia, kebutuhan ini berindikasi bukan belanja inti dan seluruh nilai pengadaan layak dicermati sebagai potensi pemborosan."
+  },
+  {
+    "lembaga": "Kementerian Keuangan",
+    "satker": "KANTOR PENGAWASAN DAN PELAYANAN BEA DAN CUKAI TIPE MADYA PABEAN A JAKARTA",
+    "pagu": 128160000,
+    "paket": "Pengadaan Obat-Obatan",
+    "inappropriateReason": "Pengadaan obat-obatan oleh unit bea dan cukai tampak kurang selaras dengan fungsi utama instansi. Tanpa penjelasan kebutuhan operasional atau layanan kesehatan yang spesifik, seluruh nilai pengadaan layak dicermati sebagai potensi belanja tidak relevan."
+  },
+  {
+    "lembaga": "Kementerian Lingkungan Hidup/Badan Pengendalian Lingkungan Hidup",
+    "satker": "PUSAT PENGENDALIAN LINGKUNGAN HIDUP WILAYAH SUMATERA",
+    "pagu": 126000000,
+    "paket": "Obat-obatan",
+    "inappropriateReason": "Pengadaan obat-obatan secara rutin bulanan pada unit pengendalian lingkungan hidup tampak tidak selaras dengan fungsi utama lembaga. Dari judul dan konteks yang tersedia, kebutuhan ini berindikasi kurang relevan dengan tugas inti sehingga seluruh nilai pengadaan patut dicermati sebagai potensi pemborosan."
+  },
+  {
+    "lembaga": "Kementerian Imigrasi dan Pemasyarakatan",
+    "satker": "PAS03 LAPAS KELAS II B MUARA SIJUNJUNG",
+    "pagu": 97600000,
+    "paket": "Pengadaan Belanja Pemenuhan Kebutuhan obat-obatan Pegawai pada Lembaga Pemasyarakatan Kelas IIB Muara Sijunjung-Sumatera Barat Tahun Anggaran 2026",
+    "inappropriateReason": "Pengadaan obat-obatan khusus untuk pegawai pada lembaga pemasyarakatan berindikasi kurang selaras dengan prioritas belanja operasional instansi pemasyarakatan. Pembiayaan kebutuhan kesehatan pegawai umumnya tidak lazim dilakukan melalui pengadaan barang tersendiri oleh satuan kerja, sehingga seluruh nilai pengadaan layak dicermati sebagai potensi pemborosan."
+  },
+  {
+    "lembaga": "Kementerian Agama",
+    "satker": "IAIN KUDUS 423636",
+    "pagu": 72154000,
+    "paket": "THR RM Subsidi Kesehatan Mahasiswa (Operasional Klinik, Obat-Obatan, dll)",
+    "inappropriateReason": "Pengadaan bertajuk THR dalam subsidi kesehatan mahasiswa berindikasi tidak selaras dengan tujuan belanja layanan kesehatan seperti operasional klinik dan obat-obatan. Penyisipan komponen THR pada pos ini patut dinilai sebagai penggunaan anggaran yang tidak tepat sasaran sehingga seluruh nilai paket layak dicermati sebagai potensi pemborosan."
+  },
+  {
+    "lembaga": "Kementerian Keuangan",
+    "satker": "KANTOR WILAYAH DJP SUMATERA UTARA I",
+    "pagu": 70135000,
+    "paket": "Obat-Obatan",
+    "inappropriateReason": "Pengadaan obat-obatan oleh unit kantor wilayah perpajakan tidak tampak selaras dengan fungsi utama administrasi perpajakan. Tanpa rincian spesifikasi, indikasi ketidakpatutan terutama terletak pada jenis barang yang cenderung bukan kebutuhan inti operasional lembaga tersebut, sehingga seluruh nilai patut dicermati sebagai potensi pemborosan."
+  },
+  {
+    "lembaga": "Kementerian Pertanian",
+    "satker": "BALAI PERAKITAN DAN PENGUJIAN LINGKUNGAN PERTANIAN",
+    "pagu": 63270000,
+    "paket": "Pengadaan obat generik",
+    "inappropriateReason": "Pengadaan obat generik tampak tidak selaras dengan fungsi utama unit kerja yang berfokus pada perakitan dan pengujian lingkungan pertanian. Dari judul dan konteks lembaga, kebutuhan ini terindikasi tidak relevan dengan tugas inti sehingga seluruh nilai pengadaan layak dicermati sebagai potensi pemborosan."
+  },
+  {
+    "lembaga": "Kepolisian Negara Republik Indonesia",
+    "satker": "BIDDOKKES POLDA SUMBAR",
+    "pagu": 60000000,
+    "paket": "Obat-Obat Rikkes Rutin Tahanan",
+    "inappropriateReason": "Terdapat ketidaksesuaian yang kuat antara uraian pengadaan obat untuk pemeriksaan kesehatan rutin tahanan dan spesifikasi yang justru menyebut pemeliharaan kendaraan roda 4/ambulans. Inkonsistensi objek belanja ini mengindikasikan perencanaan atau klasifikasi pengadaan yang tidak tepat dan berpotensi membuat seluruh anggaran tidak efisien atau salah sasaran."
+  },
+  {
+    "lembaga": "Kementerian Keuangan",
+    "satker": "KANTOR PELAYANAN PAJAK PRATAMA KARANGANYAR",
+    "pagu": 51084000,
+    "paket": "Pengadaan Obat-obatan",
+    "inappropriateReason": "Pengadaan obat-obatan oleh unit pelayanan pajak tidak tampak selaras dengan fungsi inti kelembagaan. Tanpa rincian yang menunjukkan kebutuhan medis operasional yang jelas, seluruh nilai pengadaan layak dicermati sebagai potensi belanja yang tidak relevan."
+  },
+  {
+    "lembaga": "Kementerian Imigrasi dan Pemasyarakatan",
+    "satker": "PAS19 RUTAN KELAS II B KANDANGAN",
+    "pagu": 50000000,
+    "paket": "Pengadaan Barang Untuk Kegiatan Pemenuhan Kebutuhan Obat-obatan Pegawai Operasional dan Pemeliharaan Kantor pada Rutan Kelas II B Kandangan - Kalimantan Selatan Tahun Anggaran 2026",
+    "inappropriateReason": "Pengadaan obat-obatan yang secara eksplisit ditujukan untuk pegawai berindikasi tidak selaras dengan prioritas belanja operasional kantor/rutan, karena kebutuhan kesehatan pegawai umumnya ditangani melalui skema layanan kesehatan/benefit yang terpisah. Seluruh nilai pengadaan patut dicermati sebagai potensi belanja yang tidak tepat sasaran."
+  },
+  {
+    "lembaga": "Kementerian Imigrasi dan Pemasyarakatan",
+    "satker": "PAS13 RUTAN KELAS II B BLORA",
+    "pagu": 49173000,
+    "paket": "Pengadaan Pemenuhan kebutuhan obat-obatan pegawai pada Rumah Tahanan Negara Kelas IIB Blora TA 2026",
+    "inappropriateReason": "Pengadaan obat-obatan khusus untuk pegawai di lingkungan rumah tahanan berindikasi kurang selaras dengan prioritas layanan publik dan tugas utama satuan kerja pemasyarakatan. Belanja ini berpotensi merupakan fasilitas internal yang semestinya dibatasi, sehingga seluruh nilai pengadaan layak dicermati sebagai potensi pemborosan."
+  },
+  {
+    "lembaga": "Kementerian Keuangan",
+    "satker": "KANTOR WILAYAH DJP JAKARTA SELATAN II",
+    "pagu": 48000000,
+    "paket": "Pengadaan Obat-obatan",
+    "inappropriateReason": "Pengadaan obat-obatan selama 12 bulan pada unit kerja perpajakan di lingkungan Kementerian Keuangan tampak kurang selaras dengan fungsi utama instansi. Dari data yang tersedia, kebutuhan ini berindikasi bukan belanja inti dan berpotensi seluruh nilainya merupakan pengeluaran yang tidak tepat sasaran, sehingga layak diawasi lebih lanjut."
+  },
+  {
+    "lembaga": "Kementerian Keuangan",
+    "satker": "BADAN PENDIDIKAN DAN PELATIHAN KEUANGAN",
+    "pagu": 43200000,
+    "paket": "Pengadaan Persediaan Obat Poliklinik Pusdiklat Anggaran dan Perbendaharaan TA 2026",
+    "inappropriateReason": "Terdapat indikasi kuat ketidaksesuaian antara judul pengadaan yang menyebut persediaan obat poliklinik dan uraian pekerjaan yang justru menyebut jasa konsultan perencanaan konstruksi. Inkonsistensi material ini menunjukkan item berisiko tidak relevan dengan kebutuhan yang dinyatakan dan patut diduga sebagai salah klasifikasi atau penggunaan anggaran yang tidak tepat."
+  },
+  {
+    "lembaga": "Kementerian Keuangan",
+    "satker": "KANTOR PELAYANAN PAJAK PRATAMA JAKARTA GAMBIR SATU",
+    "pagu": 40398000,
+    "paket": "Pengadaan Obat-obatan",
+    "inappropriateReason": "Pengadaan obat-obatan oleh unit pelayanan pajak tidak tampak selaras dengan fungsi utama administratif dan perpajakan. Dengan informasi yang tersedia, kebutuhan ini terindikasi non-inti dan layak dicermati karena berpotensi merupakan belanja yang seharusnya sangat terbatas atau dialihkan ke mekanisme layanan kesehatan yang relevan."
+  },
+  {
+    "lembaga": "Kementerian Keuangan",
+    "satker": "KANTOR WILAYAH DJP SUMATERA SELATAN DAN KEPULAUAN BANGKA BELITUNG",
+    "pagu": 40000000,
+    "paket": "Belanja Barang Persediaan Obat - Obatan",
+    "inappropriateReason": "Pengadaan persediaan obat-obatan oleh unit vertikal administrasi perpajakan tampak tidak selaras dengan fungsi utama kelembagaan. Tanpa indikasi kebutuhan layanan kesehatan yang spesifik, belanja ini berisiko merupakan pengeluaran yang kurang relevan dengan tugas pokok dan perlu dicermati lebih lanjut."
+  },
+  {
+    "lembaga": "Kementerian Keuangan",
+    "satker": "KANTOR PELAYANAN PAJAK PRATAMA KUPANG",
+    "pagu": 36948000,
+    "paket": "Pengadaan Obat-obatan",
+    "inappropriateReason": "Pengadaan obat-obatan oleh unit pelayanan pajak tidak tampak selaras dengan fungsi utama perkantoran perpajakan dari informasi yang tersedia. Tanpa rincian kebutuhan medis yang jelas, seluruh nilai pengadaan layak dicermati sebagai potensi belanja yang tidak relevan."
+  },
+  {
+    "lembaga": "Kementerian Keuangan",
+    "satker": "KANTOR PELAYANAN PAJAK PRATAMA JAKARTA SAWAH BESAR DUA",
+    "pagu": 36000000,
+    "paket": "Pengadaan Obat-obatan",
+    "inappropriateReason": "Pengadaan obat-obatan oleh unit pelayanan pajak tidak tampak selaras dengan fungsi utama kantor administratif perpajakan. Tanpa rincian spesifikasi yang menunjukkan kebutuhan medis operasional yang sah, belanja ini berindikasi tidak relevan dan seluruh nilainya layak dicermati sebagai potensi pemborosan."
+  },
+  {
+    "lembaga": "Kementerian Keuangan",
+    "satker": "KANTOR PELAYANAN PAJAK PRATAMA SURABAYA KARANGPILANG",
+    "pagu": 33480000,
+    "paket": "Belanja Obat-obatan",
+    "inappropriateReason": "Pengadaan obat-obatan oleh unit pelayanan pajak tidak tampak selaras dengan fungsi utama perkantoran perpajakan. Tanpa rincian kebutuhan medis yang spesifik, seluruh nilai pengadaan layak dicermati sebagai potensi belanja yang tidak relevan dengan tugas inti unit."
+  }
+]
