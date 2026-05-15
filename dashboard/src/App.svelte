@@ -677,6 +677,7 @@
     <section class="scrolly" data-section="s5" id="s5">
         <div class="sticky-col">
             <div class="eyebrow">{t[lang].s5Eyebrow}</div>
+            <h2 class="s5-sticky-heading">{t[lang].s5StickyHeading}</h2>
             <InstitutionsChart data={lembaga} step={activeStepS5} {lang} />
             <div class="step-indicator" aria-hidden="true">
                 {#each [0, 1, 2] as s}
