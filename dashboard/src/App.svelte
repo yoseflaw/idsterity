@@ -2012,5 +2012,18 @@
         .s9-table-body {
             overflow-x: auto;
         }
+
+        /* S7 mobile — show both anchor cards side by side so seblak is not
+           clipped by the sticky-col overflow:hidden at 50dvh. Reduce figure
+           font size so both fit comfortably. */
+        [data-section="s7"] .s7-anchor-pair {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: var(--space-md);
+            margin-top: var(--space-md);
+        }
+        [data-section="s7"] .s7-anchor-figure {
+            font-size: clamp(1.4rem, 5vw, 2.4rem);
+        }
     }
 </style>
