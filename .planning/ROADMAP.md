@@ -92,7 +92,7 @@ Plans:
 
 Plans:
 - [ ] 04-01-PLAN.md — OG meta tags in index.html + user creates og-image.jpg (SHARE-01, SHARE-02)
-- [ ] 04-02-PLAN.md — Vite base path config + BASE_URL fetch fix across 9 call sites + build verify (DEPL-01, DEPL-02, DEPL-03)
+- [x] 04-02-PLAN.md — Vite base path config + BASE_URL fetch fix across 9 call sites + build verify (DEPL-01, DEPL-02, DEPL-03)
 - [ ] 04-03-PLAN.md — Apache .htaccess SPA fallback + pre-deploy checklist + FTP deploy checkpoint (FOUND-05)
 **UI hint**: no
 
