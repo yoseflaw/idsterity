@@ -3,7 +3,7 @@
     import scrollama from "scrollama";
     import DeficitChart from "./DeficitChart.svelte";
     import GDPChart from "./GDPChart.svelte";
-    import InstitutionsChart from "./InstitutionsChart.svelte";
+    import Podium from "./Podium.svelte";
 
     let stats = $state(null);
     let lembaga = $state([]);
@@ -674,7 +674,7 @@
         <div class="sticky-col" class:chart--dimmed={s5ChartDimmed}>
             <div class="eyebrow">Bagian 5: Sang Juara</div>
             <h2 class="s5-sticky-heading">5 lembaga dengan anggaran terbesar</h2>
-            <InstitutionsChart data={lembaga} step={activeStepS5} />
+            <Podium data={lembaga.slice(0, 5)} />
             <div class="step-indicator" aria-hidden="true">
                 {#each [0, 1, 2] as s}
                     <div class="pip" class:active={activeStepS5 === s}></div>

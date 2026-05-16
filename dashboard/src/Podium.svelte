@@ -19,7 +19,7 @@
   }
 
   // Heights for the [2nd, 1st, 3rd] order so 1st is the tallest in the center
-  const HEIGHTS = [140, 200, 100]; // px
+  const HEIGHTS = [95, 140, 70]; // px (mobile-safe; CSS scales up on desktop)
   const MEDALS  = ["🥈", "🥇", "🥉"];
 </script>
 
@@ -31,7 +31,7 @@
           <span class="medal" aria-hidden="true">{MEDALS[i]}</span>
           <span class="name" title={d?.name}>{abbreviateLembaga(d?.name)}</span>
         </div>
-        <div class="block" style="height: {HEIGHTS[i]}px;">
+        <div class="block" style="--h: {HEIGHTS[i]}px;">
           <span class="value">{fmtT(d?.total)}</span>
         </div>
       </div>
@@ -61,16 +61,16 @@
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    gap: 0.5rem;
+    gap: 1rem;
     width: 100%;
-    max-width: 28rem;
+    max-width: 44rem;
   }
   .col {
     display: flex;
     flex-direction: column;
     align-items: center;
     flex: 1 1 0;
-    max-width: 8rem;
+    max-width: 12rem;
     min-width: 0;
   }
   .medal-name {
@@ -97,6 +97,7 @@
   }
   .block {
     width: 100%;
+    height: var(--h, 100px);
     background: var(--podium-fill, var(--gold, #c9a84c));
     border-top: 2px solid var(--gold, #c9a84c);
     display: flex;
@@ -127,5 +128,13 @@
     .value { font-size: 0.85rem; }
     .name { font-size: 0.75rem; }
     .medal { font-size: 1.25rem; }
+  }
+  @media (min-width: 768px) {
+    .podium { gap: 1.5rem; }
+    .block { height: calc(var(--h, 100px) * 1.6); }
+    .medal { font-size: 2rem; }
+    .name { font-size: 1rem; }
+    .value { font-size: 1.15rem; }
+    .juara-harapan { font-size: 0.95rem; }
   }
 </style>
