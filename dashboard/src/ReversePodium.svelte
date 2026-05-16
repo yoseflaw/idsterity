@@ -30,12 +30,15 @@
   const HEIGHTS = [95, 140, 70]; // [2nd, 1st, 3rd]
   const MEDALS  = ["🥈", "🥇", "🥉"];
 
-  // Color interpolation between gold (start) and red (end) per index
+  // Token hex values (fallbacks match idsterity-tokens.css)
+  // Warm start palette: [2nd, 1st, 3rd] render order
+  const WARM_HEX = ["#C77E5A", "#9E5A35", "#D4A574"];
+  // Red end palette: [2nd, 1st, 3rd] render order — viz-red, viz-red-dark, viz-red-light
+  const RED_HEX  = ["#C85454", "#8B2A2A", "#D4807A"];
+
+  // Color interpolation between warm (start) and red (end) per index
   function blockColor(idx, t) {
-    // golds approximate Podium's gold tones; reds get progressively deeper toward center
-    const golds = ["#bfa055", "#d4a84a", "#a88f4a"]; // 2nd, 1st, 3rd
-    const reds  = ["#a13b3b", "#8b1c1c", "#a85050"]; // 2nd, 1st, 3rd
-    return mixHex(golds[idx], reds[idx], t);
+    return mixHex(WARM_HEX[idx], RED_HEX[idx], t);
   }
   function mixHex(a, b, t) {
     const pa = a.match(/\w\w/g).map((h) => parseInt(h, 16));
@@ -123,9 +126,9 @@
   }
   .medal { font-size: 1.5rem; line-height: 1; }
   .name {
-    font-family: "JetBrains Mono", "Courier New", monospace;
+    font-family: var(--mono);
     font-size: 0.85rem;
-    color: var(--muted, #aaa);
+    color: var(--ink-3);
     text-align: center;
     margin-top: 0.25rem;
     word-break: break-word;
@@ -139,10 +142,10 @@
     transition: background 250ms linear, transform 250ms linear;
     padding: 0.5rem 0.25rem;
     gap: 0.15rem;
-    color: var(--bg, #111);
+    color: var(--bg-base);
   }
   .count {
-    font-family: "JetBrains Mono", "Courier New", monospace;
+    font-family: var(--mono);
     font-size: 1.1rem;
     font-weight: 600;
   }
@@ -151,17 +154,17 @@
     opacity: 0.85;
   }
   .pagu {
-    font-family: "JetBrains Mono", "Courier New", monospace;
+    font-family: var(--mono);
     font-size: 0.85rem;
   }
   .juara-harapan {
     text-align: center;
-    font-family: "JetBrains Mono", "Courier New", monospace;
+    font-family: var(--mono);
     font-size: 0.8rem;
-    color: var(--muted, #aaa);
+    color: var(--ink-3);
     margin: 0.25rem 0 0;
   }
-  .jh-label { color: var(--red, #a13b3b); margin-right: 0.5rem; }
+  .jh-label { color: var(--viz-red); margin-right: 0.5rem; }
 
   @media (min-width: 768px) {
     .rp { max-width: 44rem; gap: 1rem; min-height: 320px; }

@@ -34,14 +34,14 @@
   .modal-backdrop {
     position: fixed;
     inset: 0;
-    background: rgba(0, 0, 0, 0.88);
+    background: rgba(17, 17, 17, 0.40);
     z-index: 1000;
     display: flex;
   }
   .modal-panel {
     width: 100%;
     height: 100%;
-    background: var(--bg, #111);
+    background: var(--bg-base);
     display: flex;
     flex-direction: column;
     overflow: hidden;
@@ -51,28 +51,28 @@
     align-items: center;
     justify-content: space-between;
     padding: 1rem;
-    border-bottom: 1px solid var(--border, #2a2a2a);
+    border-bottom: 1px solid var(--rule);
     gap: 1rem;
   }
   .modal-header h3 {
     margin: 0;
-    font-family: "Libre Baskerville", Georgia, serif;
-    font-size: 1.15rem;
-    color: var(--text, #eee);
-    line-height: 1.25;
+    font-family: var(--serif);
+    font-size: var(--size-h3);
+    color: var(--ink-1);
+    line-height: var(--lh-heading);
   }
   .modal-close {
     background: none;
-    border: 1px solid var(--border, #2a2a2a);
-    color: var(--text, #eee);
+    border: 1px solid var(--rule);
+    color: var(--ink-1);
     font-size: 1.5rem;
     line-height: 1;
     cursor: pointer;
     padding: 0.25rem 0.6rem;
-    border-radius: 6px;
+    border-radius: var(--radius-sm);
     flex: 0 0 auto;
   }
-  .modal-close:hover { background: var(--bg-alt, #1a1a1a); }
+  .modal-close:hover { background: var(--bg-sunken); }
   .modal-body {
     flex: 1;
     overflow-y: auto;
@@ -80,6 +80,6 @@
   }
   @media (min-width: 720px) {
     .modal-backdrop { padding: 4rem; }
-    .modal-panel { max-width: 720px; max-height: 80vh; margin: auto; border-radius: 12px; border: 1px solid var(--border, #2a2a2a); }
+    .modal-panel { max-width: 720px; max-height: 80vh; margin: auto; border-radius: var(--radius-card); border: 1px solid var(--rule); }
   }
 </style>

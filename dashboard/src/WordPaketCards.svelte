@@ -45,9 +45,9 @@
 
 <style>
   .empty {
-    color: var(--muted, #aaa);
-    font-family: "JetBrains Mono", "Courier New", monospace;
-    font-size: 0.85rem;
+    color: var(--ink-3);
+    font-family: var(--mono);
+    font-size: var(--size-mono);
     text-align: center;
     padding: 1rem 0;
   }
@@ -60,25 +60,25 @@
     gap: 0.75rem;
   }
   .card {
-    background: var(--bg-card, #1a1a1a);
-    border: 1px solid var(--border, #2a2a2a);
-    border-radius: 8px;
-    padding: 1rem;
+    background: var(--bg-sunken);
+    border: 1px solid var(--rule);
+    border-radius: var(--radius-card);
+    padding: var(--space-5);
     display: flex;
     flex-direction: column;
     gap: 0.55rem;
   }
   .card-lembaga {
-    font-family: "JetBrains Mono", "Courier New", monospace;
-    font-size: 0.78rem;
-    color: var(--gold, #e6b85c);
+    font-family: var(--mono);
+    font-size: var(--size-mono);
+    color: var(--accent-soft);
     letter-spacing: 0.02em;
   }
   .card-paket {
-    font-family: "Libre Baskerville", Georgia, serif;
-    font-size: 1rem;
-    color: var(--text, #eee);
-    line-height: 1.4;
+    font-family: var(--serif);
+    font-size: var(--size-body);
+    color: var(--ink-1);
+    line-height: var(--lh-body);
   }
   .card-foot {
     display: flex;
@@ -88,32 +88,31 @@
     margin-top: 0.25rem;
   }
   .card-pagu {
-    font-family: "JetBrains Mono", "Courier New", monospace;
-    font-size: 0.95rem;
-    font-weight: 600;
-    color: var(--text, #eee);
+    font-family: var(--mono);
+    font-size: var(--size-ui);
+    font-weight: 500;
+    color: var(--ink-1);
   }
   .card-label {
-    font-family: "JetBrains Mono", "Courier New", monospace;
-    font-size: 0.7rem;
-    padding: 0.25rem 0.65rem;
-    border-radius: 999px;
+    font-family: var(--sans);
+    font-size: 11px;
+    font-weight: 600;
+    padding: 2px 10px;
+    border-radius: var(--radius-pill);
     text-transform: uppercase;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.08em;
     flex: 0 0 auto;
-  }
-  .card-label.high {
-    background: rgba(161, 59, 59, 0.18);
-    color: #d96c6c;
-    border: 1px solid #a13b3b;
+    color: var(--viz-red);
+    border: 1px solid var(--viz-red);
+    background: var(--viz-red-bg);
   }
   .card-label.absurd {
-    background: rgba(139, 28, 28, 0.32);
-    color: #ff8b8b;
-    border: 1px solid #8b1c1c;
+    color: var(--viz-red-dark);
+    border-color: var(--viz-red-dark);
+    background: var(--viz-red-bg);
   }
   @media (min-width: 720px) {
-    .card-paket { font-size: 1.05rem; }
-    .card-pagu { font-size: 1.05rem; }
+    .card-paket { font-size: var(--size-body); }
+    .card-pagu { font-size: var(--size-ui); }
   }
 </style>

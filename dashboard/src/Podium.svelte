@@ -21,6 +21,9 @@
   // Heights for the [2nd, 1st, 3rd] order so 1st is the tallest in the center
   const HEIGHTS = [95, 140, 70]; // px (mobile-safe; CSS scales up on desktop)
   const MEDALS  = ["🥈", "🥇", "🥉"];
+  // Warm palette per rank position in [2nd, 1st, 3rd] render order
+  const WARM_FILLS   = ["var(--viz-warm)", "var(--viz-warm-dark)", "var(--viz-warm-light)"];
+  const WARM_BORDERS = ["var(--viz-warm)", "var(--viz-warm-dark)", "var(--viz-warm-light)"];
 </script>
 
 <div class="podium-wrap">
@@ -31,7 +34,7 @@
           <span class="medal" aria-hidden="true">{MEDALS[i]}</span>
           <span class="name" title={d?.name}>{abbreviateLembaga(d?.name)}</span>
         </div>
-        <div class="block" style="--h: {HEIGHTS[i]}px;">
+        <div class="block" style="--h: {HEIGHTS[i]}px; --podium-fill: {WARM_FILLS[i]}; border-top-color: {WARM_BORDERS[i]};">
           <span class="value">{fmtT(d?.total)}</span>
         </div>
       </div>
@@ -88,9 +91,9 @@
     line-height: 1;
   }
   .name {
-    font-family: "JetBrains Mono", "Courier New", monospace;
+    font-family: var(--mono);
     font-size: 0.85rem;
-    color: var(--muted, #6a6055);
+    color: var(--ink-3);
     text-align: center;
     margin-top: 0.25rem;
     word-break: break-word;
@@ -98,29 +101,29 @@
   .block {
     width: 100%;
     height: var(--h, 100px);
-    background: var(--podium-fill, var(--gold, #c9a84c));
-    border-top: 2px solid var(--gold, #c9a84c);
+    background: var(--podium-fill, var(--viz-warm));
+    border-top: 2px solid var(--viz-warm);
     display: flex;
     align-items: center;
     justify-content: center;
   }
   .value {
-    font-family: "JetBrains Mono", "Courier New", monospace;
+    font-family: var(--mono);
     font-weight: 600;
-    color: var(--bg, #0e0d0c);
+    color: var(--bg-base);
     font-size: 1rem;
     text-align: center;
     padding: 0 0.25rem;
   }
   .juara-harapan {
     text-align: center;
-    font-family: "JetBrains Mono", "Courier New", monospace;
+    font-family: var(--mono);
     font-size: 0.8rem;
-    color: var(--muted, #6a6055);
+    color: var(--ink-3);
     margin: 0.25rem 0 0;
   }
   .jh-label {
-    color: var(--gold, #c9a84c);
+    color: var(--viz-warm-dark);
     margin-right: 0.5rem;
   }
   @media (max-width: 480px) {

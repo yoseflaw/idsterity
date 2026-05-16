@@ -55,10 +55,10 @@
 
 {#if !data}
   <svg width="100%" height="200">
-    <rect width="100%" height="200" fill="var(--bg-alt)" rx="2"/>
+    <rect width="100%" height="200" fill="var(--bg-sunken)" rx="2"/>
     <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle"
-          font-family="JetBrains Mono, monospace" font-size="11"
-          fill="var(--muted)">memuat...</text>
+          font-family="var(--mono)" font-size="11"
+          fill="var(--ink-3)">memuat...</text>
   </svg>
 {:else}
   <svg width="100%" height={svgHeight} viewBox="0 0 {svgWidth} {svgHeight}"
@@ -66,13 +66,13 @@
 
     <!-- baseline rule -->
     <line x1="0" x2={svgWidth} y1={baseline} y2={baseline}
-          stroke="var(--border)" stroke-width="1"/>
+          stroke="var(--rule)" stroke-width="1"/>
 
     <!-- coin stacks -->
     {#each points as p, i (p.key)}
       {@const isSaving = p.valueRaw > 0}
-      {@const edgeFill = isSaving ? 'rgba(62,168,98,0.55)'  : 'rgba(176,59,59,0.55)'}
-      {@const topFill  = isSaving ? 'rgba(62,168,98,0.9)'   : 'rgba(176,59,59,0.9)'}
+      {@const edgeFill = isSaving ? 'rgba(61,139,94,0.55)'  : 'rgba(139,42,42,0.55)'}
+      {@const topFill  = isSaving ? 'rgba(61,139,94,0.9)'   : 'rgba(139,42,42,0.9)'}
       <g class="coin-stack"
          opacity={step === i ? 1 : 0.4}
          style="transform-origin: {p.xCenter}px {baseline}px;
@@ -104,9 +104,9 @@
           x={p.xCenter}
           y={baseline - p.height - 12}
           text-anchor="middle"
-          font-family="JetBrains Mono, monospace"
+          font-family="var(--mono)"
           font-size="11"
-          fill="rgba(237,232,220,0.7)"
+          fill="var(--ink-3)"
         >Rp {p.valueTril.toFixed(0)} T</text>
 
         <!-- period label below -->
@@ -114,9 +114,9 @@
           x={p.xCenter}
           y={baseline + 20}
           text-anchor="middle"
-          font-family="JetBrains Mono, monospace"
+          font-family="var(--mono)"
           font-size="10"
-          fill="rgba(237,232,220,0.35)"
+          fill="var(--ink-muted)"
         >{p.period}</text>
 
       </g>

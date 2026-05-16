@@ -12,8 +12,15 @@
   const PAD_TOP              = 40
   const PAD_BOTTOM           = 44
 
-  const RED   = '#b03b3b'
-  const GREEN = '#3ea862'
+  // Colors read from CSS tokens at runtime
+  let RED   = $state('#C85454')
+  let GREEN = $state('#3D8B5E')
+
+  onMount(() => {
+    const css = getComputedStyle(document.documentElement)
+    RED   = css.getPropertyValue('--viz-red').trim()   || '#C85454'
+    GREEN = css.getPropertyValue('--viz-green').trim() || '#3D8B5E'
+  })
 
   let isMobile = $state(false)
   let mq
@@ -113,10 +120,10 @@
 
 {#if !data}
   <svg width="100%" height="200">
-    <rect width="100%" height="200" fill="var(--bg-alt)" rx="2"/>
+    <rect width="100%" height="200" fill="var(--bg-sunken)" rx="2"/>
     <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle"
-          font-family="JetBrains Mono, monospace" font-size="11"
-          fill="var(--muted)">memuat...</text>
+          font-family="var(--mono)" font-size="11"
+          fill="var(--ink-3)">memuat...</text>
   </svg>
 {:else}
   <svg width="100%" height={svgHeight} viewBox="0 0 {svgWidth} {svgHeight}"
@@ -126,7 +133,7 @@
     <line
       x1={padLeft - 4} x2={padLeft + innerW + 4}
       y1={zeroY} y2={zeroY}
-      stroke="rgba(255,255,255,0.18)"
+      stroke="var(--rule-soft)"
       stroke-width="1"
       stroke-dasharray="4 4"
     />
@@ -163,7 +170,7 @@
           cy={p.y}
           r={activeKeys.includes(p.key) ? 7 : 5}
           fill={p.color}
-          stroke="var(--bg, #1a1a1a)"
+          stroke="var(--bg-base)"
           stroke-width="2"
           style="transition: r 0.3s ease"
         />
@@ -192,20 +199,20 @@
   svg { width: 100%; height: auto; display: block; }
 
   .data-label {
-    font-family: 'JetBrains Mono', monospace;
+    font-family: var(--mono);
     font-size: 14px;
     opacity: 1;
     font-weight: 600;
   }
   .period-label {
-    font-family: 'JetBrains Mono', monospace;
+    font-family: var(--mono);
     font-size: 11px;
-    fill: rgba(237, 232, 220, 0.55);
+    fill: var(--ink-3);
   }
   .axis-label {
-    font-family: 'JetBrains Mono', monospace;
+    font-family: var(--mono);
     font-size: 11px;
-    fill: rgba(237, 232, 220, 0.45);
+    fill: var(--ink-muted);
   }
   @media (min-width: 720px) {
     .data-label { font-size: 16px; }
