@@ -1,5 +1,6 @@
 <script>
   import { onMount, onDestroy } from 'svelte'
+  import * as d3 from 'd3'
 
   let { data = null, step = 0 } = $props()
 
@@ -8,7 +9,6 @@
   const MAX_HEIGHT_DESKTOP  = 200
   const MAX_HEIGHT_MOBILE   = 140
   const COIN_LAYER_HEIGHT   = 8
-  const TRIL_PER_PX         = 2
 
   let isMobile = $state(false)
   let mq
@@ -27,19 +27,26 @@
   const padding = 24
   let gap = $derived(stackWidth)
 
-  let points = $derived(
-    [
+  // Build points with strictly proportional heights via d3.scaleLinear.
+  // Domain is [0, max(|value|)] in trillions so bar heights match Rp values.
+  let points = $derived.by(() => {
+    const rows = [
       { key: 'oct2024', period: 'Okt 2024'  },
       { key: 'fy2025',  period: '2025'      },
       { key: 'q1_2026', period: 'Q1 2026' },
     ].map((p, i) => {
       const valueRaw  = data?.[p.key] ?? 0
       const valueTril = Math.abs(valueRaw) / 1e12
-      const height    = Math.min(valueTril * TRIL_PER_PX, maxHeight)
       const xCenter   = padding + (i + 0.5) * (stackWidth + gap)
-      return { ...p, valueRaw, valueTril, height, xCenter, layers: Math.ceil(height / COIN_LAYER_HEIGHT) }
+      return { ...p, valueRaw, valueTril, xCenter }
     })
-  )
+    const maxTril = Math.max(1, ...rows.map(r => r.valueTril))
+    const scale = d3.scaleLinear().domain([0, maxTril]).range([0, maxHeight])
+    return rows.map(r => {
+      const height = scale(r.valueTril)
+      return { ...r, height, layers: Math.max(1, Math.ceil(height / COIN_LAYER_HEIGHT)) }
+    })
+  })
 
   let baseline  = $derived(maxHeight + 40)
   let svgWidth  = $derived(padding * 2 + 3 * (stackWidth + gap))
@@ -63,6 +70,9 @@
 
     <!-- coin stacks -->
     {#each points as p, i (p.key)}
+      {@const isSaving = p.valueRaw > 0}
+      {@const edgeFill = isSaving ? 'rgba(62,168,98,0.55)'  : 'rgba(176,59,59,0.55)'}
+      {@const topFill  = isSaving ? 'rgba(62,168,98,0.9)'   : 'rgba(176,59,59,0.9)'}
       <g class="coin-stack"
          opacity={step === i ? 1 : 0.4}
          style="transform-origin: {p.xCenter}px {baseline}px;
@@ -76,7 +86,7 @@
             y={baseline - (layer + 1) * COIN_LAYER_HEIGHT}
             width={stackWidth}
             height={COIN_LAYER_HEIGHT}
-            fill="rgba(201,168,76,0.45)"
+            fill={edgeFill}
           />
         {/each}
 
@@ -86,7 +96,7 @@
           cy={baseline - p.height}
           rx={stackWidth / 2}
           ry={stackWidth / 6}
-          fill="rgba(201,168,76,0.85)"
+          fill={topFill}
         />
 
         <!-- value label above -->
