@@ -4,15 +4,18 @@
     import DeficitChart from "./DeficitChart.svelte";
     import GDPChart from "./GDPChart.svelte";
     import Podium from "./Podium.svelte";
+    import ReversePodium from "./ReversePodium.svelte";
 
     let stats = $state(null);
     let lembaga = $state([]);
+    let lembagaFlagged = $state([]);
     let constants = $state(null);
 
     let activeStepS1 = $state(0);
     let activeStepS2 = $state(0);
     let activeStepS3 = $state(0);
     let activeStepS5 = $state(0);
+    let activeStepS6 = $state(0);
     let fetchError = $state(null);
 
     let activeStepS7 = $state(0);
@@ -60,8 +63,12 @@
     let s2ChartDimmed = $derived(activeStepS2 > 0);
     let s3ChartDimmed = $derived(activeStepS3 > 0);
     let s5ChartDimmed = $derived(activeStepS5 > 0);
+    let s6ChartDimmed = $derived(activeStepS6 > 0);
     let s7ChartDimmed = $derived(activeStepS7 > 0);
     let s8ChartDimmed = $derived(activeStepS8 > 0);
+
+    // S6 morph progress: step 0 = upright gold, step 1 = mid morph, step 2 = full inverted red.
+    let s6Progress = $derived(Math.min(1, activeStepS6 / 2));
 
     function scaleFont(count, min, max) {
         if (max === min) return 1.375;
@@ -141,7 +148,7 @@
 
     onMount(async () => {
         try {
-            const [s, d, c, w, l] = await Promise.all([
+            const [s, d, c, w, l, df] = await Promise.all([
                 safeFetch(import.meta.env.BASE_URL + "data/summary-stats.json"),
                 safeFetch(
                     import.meta.env.BASE_URL + "data/lembaga-totals.json",
@@ -151,12 +158,17 @@
                 safeFetch(
                     import.meta.env.BASE_URL + "data/wordcloud-lembaga.json",
                 ),
+                safeFetch(
+                    import.meta.env.BASE_URL +
+                        "data/lembaga-flagged-totals.json",
+                ),
             ]);
             stats = s;
             lembaga = d;
             constants = c;
             cloudWords = w;
             lembagaIndex = l;
+            lembagaFlagged = df;
         } catch (err) {
             fetchError = "Gagal memuat data. Coba muat ulang halaman.";
         }
@@ -190,6 +202,9 @@
                 }),
                 makeScroller("s5", (i) => {
                     activeStepS5 = i;
+                }),
+                makeScroller("s6", (i) => {
+                    activeStepS6 = i;
                 }),
                 makeScroller("s7", (i) => {
                     activeStepS7 = i;
@@ -707,6 +722,46 @@
                     <span class="s6-transition-label" aria-live="polite">
                         {activeStepS5 >= 2 ? "Mengurutkan ulang…" : ""}
                     </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ━━━ S6 REVERSE PODIUM (flagged-pagu rerank) ━━━ -->
+    <section class="scrolly" data-section="s6" id="s6">
+        <div class="sticky-col" class:chart--dimmed={s6ChartDimmed}>
+            <div class="eyebrow">Bagian 6: Sang Juara Bermasalah</div>
+            <h2 class="s6-sticky-heading">Tapi siapa yang paling banyak ditandai bermasalah?</h2>
+            <ReversePodium data={lembagaFlagged.slice(0, 5)} progress={s6Progress} />
+            <div class="step-indicator" aria-hidden="true">
+                {#each [0, 1, 2] as s}
+                    <div class="pip" class:active={activeStepS6 === s}></div>
+                {/each}
+            </div>
+        </div>
+
+        <div class="steps-col">
+            <div class="step" data-step="0">
+                <div class="step-card">
+                    <span class="step-num">1 / 3</span>
+                    <h3>Urutkan ulang berdasarkan pagu bermasalah</h3>
+                    <p>Sekarang kita beralih dari "siapa belanja paling besar" ke "siapa yang paling banyak ditandai bermasalah". Top 5 berubah.</p>
+                </div>
+            </div>
+
+            <div class="step" data-step="1">
+                <div class="step-card">
+                    <span class="step-num">2 / 3</span>
+                    <h3>Podium berbalik arah</h3>
+                    <p>Bukan lagi panggung kemenangan. Blok-blok mulai jatuh ke bawah, warna emas memudar menjadi merah.</p>
+                </div>
+            </div>
+
+            <div class="step" data-step="2">
+                <div class="step-card">
+                    <span class="step-num">3 / 3</span>
+                    <h3>Lubang merah di tengah</h3>
+                    <p>Juara 1 tenggelam paling dalam — lembaga dengan jumlah pagu bermasalah terbesar. Bukan prestasi yang patut dibanggakan.</p>
                 </div>
             </div>
         </div>
@@ -1511,8 +1566,9 @@
         text-align: center;
     }
 
-    /* -- S5 Institutions sticky heading -- */
-    .s5-sticky-heading {
+    /* -- S5 Institutions / S6 Reverse Podium sticky heading -- */
+    .s5-sticky-heading,
+    .s6-sticky-heading {
         font-family: "Libre Baskerville", Georgia, serif;
         font-size: clamp(1.4rem, 3vw, 2rem);
         font-weight: 700;
