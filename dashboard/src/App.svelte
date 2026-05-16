@@ -769,53 +769,22 @@
 
     <!-- ━━━ S5+S6 INSTITUTIONS ━━━ -->
     <section class="scrolly" data-section="s5" id="s5">
-        <div class="sticky-col" class:chart--dimmed={s5ChartDimmed}>
+        <div class="sticky-col">
             <div class="eyebrow">Bagian 5: Sang Juara</div>
             <h2 class="s5-sticky-heading">
                 5 lembaga dengan anggaran terbesar
             </h2>
             <Podium data={lembaga.slice(0, 5)} />
-            <div class="step-indicator" aria-hidden="true">
-                {#each [0, 1, 2] as s}
-                    <div class="pip" class:active={activeStepS5 === s}></div>
-                {/each}
-            </div>
         </div>
 
         <div class="steps-col">
             <div class="step" data-step="0">
                 <div class="step-card">
-                    <span class="step-num">1 / 3</span>
                     <h3>Siapa yang belanja paling besar?</h3>
                     <p>
                         Lima lembaga pemerintah dengan anggaran pengadaan
                         terbesar tahun 2026.
                     </p>
-                </div>
-            </div>
-
-            <div class="step" data-step="1">
-                <div class="step-card">
-                    <span class="step-num">2 / 3</span>
-                    <h3>Komposisi label AI</h3>
-                    <p>
-                        Warna menunjukkan hasil penilaian AI. Semakin merah,
-                        semakin banyak pertanyaan.
-                    </p>
-                </div>
-            </div>
-
-            <div class="step" data-step="2">
-                <div class="step-card">
-                    <span class="step-num">3 / 3</span>
-                    <h3>Siapa yang paling penuh tanda tanya?</h3>
-                    <p>
-                        Jika kita urutkan ulang hanya berdasarkan pagu yang
-                        dinilai bermasalah, siapa yang menonjol?
-                    </p>
-                    <span class="s6-transition-label" aria-live="polite">
-                        {activeStepS5 >= 2 ? "Mengurutkan ulang…" : ""}
-                    </span>
                 </div>
             </div>
         </div>
