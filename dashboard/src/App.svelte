@@ -764,7 +764,7 @@
             </ul>
 
             <p class="s4-disclaimer">
-                Label dihasilkan oleh model AI yang sangat amat mungkin salah.
+                Label dihasilkan oleh <a href="https://nemesis.assai.id/" target="_blank" rel="noopener">model AI</a> yang sangat amat mungkin salah.
                 Bukan referensi hukum.
             </p>
         </div>
