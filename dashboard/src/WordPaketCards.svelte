@@ -66,7 +66,7 @@
       {@const lbl = labelOf(rec)}
       <li class="card">
         <div class="card-lembaga">{abbreviateLembaga(rec.lembaga)}</div>
-        <div class="card-kapan">Kapan: {rec.pemilihanDate ?? '—'}</div>
+        <div class="card-kapan">Kapan: {rec.pemilihanDate || '—'}</div>
         <div class="card-paket">{rec.paket || rec.name || "(tanpa nama)"}</div>
         <div class="card-foot">
           <span class="card-pagu">{fmtT(rec.pagu)}</span>

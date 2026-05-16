@@ -42,13 +42,12 @@
   </div>
 
   {#if runners.length}
-    <p class="juara-harapan">
+    <div class="juara-harapan">
       <span class="jh-label">Juara Harapan:</span>
       {#each runners as r, i (r?.name ?? i)}
-        <span class="jh-item">{abbreviateLembaga(r?.name)} — {fmtT(r?.total)}</span>
-        {#if i < runners.length - 1}<span class="jh-sep"> · </span>{/if}
+        <div class="jh-row">{abbreviateLembaga(r?.name)} — {fmtT(r?.total)}</div>
       {/each}
-    </p>
+    </div>
   {/if}
 </div>
 
@@ -121,10 +120,17 @@
     font-size: 0.8rem;
     color: var(--ink-3);
     margin: 0.25rem 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.15rem;
   }
   .jh-label {
     color: var(--viz-warm-dark);
-    margin-right: 0.5rem;
+    margin-bottom: 0.15rem;
+  }
+  .jh-row {
+    color: var(--ink-3);
   }
   @media (max-width: 480px) {
     .col { max-width: 6rem; }

@@ -4,6 +4,8 @@
     "satker": "DINAS PENDIDIKAN DAN KEBUDAYAAN",
     "pagu": 23393994895,
     "paket": "Pembangunan Sekolah Di Wilayah Grand City Balikpapan Utara Sub Kegiatan Pembangunan Unit Sekolah Baru (USB)",
+    "pemilihanDate": "March 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Nilai anggaran sangat tinggi untuk pembangunan gedung standar sederhana dengan luas bangunan di bawah 500 m2. Berdasarkan informasi yang tersedia, terdapat indikasi kuat ketidaksebandingan antara spesifikasi fisik pekerjaan dan besaran anggaran sehingga layak diduga mengandung potensi pemborosan yang signifikan."
   },
   {
@@ -11,6 +13,8 @@
     "satker": "RUMAH SAKIT UMUM DR WAHIDIN SUDIROHUSODO MAKASSAR",
     "pagu": 15000000000,
     "paket": "DED Gedung CMU ( Central Medical Unit )",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Judul dan spesifikasi menunjukkan penyusunan DED, namun jenis pengadaan dicatat sebagai pekerjaan konstruksi dengan metode e-purchasing serta nilai sangat besar untuk 1 paket. Kombinasi ini tidak selaras dengan karakter jasa perencanaan/desain dan mengindikasikan potensi salah klasifikasi atau anggaran yang sangat tidak efisien sehingga layak diteliti serius."
   },
   {
@@ -18,6 +22,8 @@
     "satker": "Biro Umum",
     "pagu": 2712000000,
     "paket": "Pengadaan Kendaraan Dinas Operasional atau Lapangan (Belanja Modal Kendaraan Bermotor Penumpang) berupa 2 (dua) unit Kendaraan Roda 4 (empat) Mobil Merk Hyundai Palisade",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Pengadaan mobil Hyundai Palisade untuk kendaraan dinas biro umum merupakan indikasi kuat penggunaan kendaraan penumpang berkelas premium yang berpotensi mewah dan tidak proporsional untuk kebutuhan operasional pemerintahan. Dari jenis barang dan konteks unit pengelola umum, item ini menimbulkan kesan penggunaan APBD secara tidak patut dan layak dikategorikan sangat tidak pantas."
   },
   {
@@ -25,6 +31,8 @@
     "satker": "KANWIL DITJEN PERBENDAHARAAN PROVINSI MALUKU",
     "pagu": 2297164000,
     "paket": "Biaya Konstruksi Fisik Pembangunan 1 Unit Townhouse",
+    "pemilihanDate": "February 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Pembangunan 1 unit townhouse dengan dana APBN pada satuan kerja perbendaharaan menimbulkan indikasi kuat penggunaan anggaran yang tidak patut dan berpotensi tidak relevan dengan fungsi utama layanan publik. Jenis bangunan ini berkesan sebagai hunian/properti bernilai privat sehingga sangat berisiko memicu pemborosan penuh sebesar nilai pengadaan."
   },
   {
@@ -32,6 +40,8 @@
     "satker": "Biro Umum",
     "pagu": 1700200000,
     "paket": "Pengadaan Kendaraan Dinas Operasional atau Lapangan (Belanja Modal Kendaraan Bermotor Penumpang) berupa 1  (Satu) unit Kendaraan Roda 4 (empat) Mobil Merk  Toyota Alphard",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Pengadaan kendaraan dinas berupa Toyota Alphard untuk operasional biro umum merupakan pilihan kendaraan premium yang sangat mewah untuk penggunaan birokrasi rutin. Dari judul dan spesifikasi, item ini menimbulkan kesan penggunaan APBD yang berlebihan dan berpotensi memicu kecemburuan sosial karena tidak mencerminkan asas kepatutan dan efisiensi belanja publik."
   },
   {
@@ -39,6 +49,8 @@
     "satker": "SEKRETARIAT JENDERAL KEMENTERIAN TRANSMIGRASI",
     "pagu": 1680000000,
     "paket": "Sewa Kendaraan Operasional Menteri [2 Unit",
+    "pemilihanDate": "December 2025",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Pengadaan sewa kendaraan operasional khusus menteri untuk 2 unit selama 12 bulan dengan nilai sangat besar berindikasi penggunaan fasilitas yang mewah dan berpotensi memicu kecemburuan publik. Dari judul item, kebutuhan ini tampak berisiko tinggi tidak proporsional terhadap prinsip efisiensi belanja pemerintah."
   },
   {
@@ -46,6 +58,8 @@
     "satker": "BADAN PENGELOLAAN KEUANGAN, PENDAPATAN DAN ASET DAERAH",
     "pagu": 1620000000,
     "paket": "Belanja Modal Komputer Unit Lainnya",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Pengadaan monitor motorized oleh instansi pengelola keuangan daerah tampak sangat tidak lazim dan berkesan fasilitas mewah. Dengan nilai anggaran sangat besar untuk 1 paket serta uraian yang minim, item ini kuat terindikasi tidak proporsional terhadap kebutuhan dasar layanan publik dan berpotensi menimbulkan pemborosan signifikan."
   },
   {
@@ -53,6 +67,8 @@
     "satker": "Kemenko Polkam",
     "pagu": 1572480000,
     "paket": "Sewa Kendaraan Staf Khusus 7 UNIT X 12 BLN",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Sewa 7 kendaraan selama 12 bulan khusus untuk staf khusus menimbulkan indikasi kuat penggunaan fasilitas yang berlebihan dan berpotensi memicu persepsi kemewahan yang tidak proporsional dalam penggunaan dana publik. Seluruh nilai pengadaan layak dicermati sebagai potensi pemborosan karena objek sewa bersifat penunjang jabatan, bukan kebutuhan layanan publik yang terlihat esensial dari informasi yang tersedia."
   },
   {
@@ -60,6 +76,8 @@
     "satker": "29 KANWIL BANTEN BPHN",
     "pagu": 1376000000,
     "paket": "Pengadaan Belanja Jasa Konsultan untuk Kegiatan Dukungan Penyelenggaraan Tugas dan Fungsi Unit pada Kantor Wilayah Kementerian Hukum Banten BPHN (693119) Tahun Anggaran 2026",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Terdapat indikasi kuat ketidaksesuaian antara nama paket dan rincian spesifikasi. Paket dicantumkan sebagai pengadaan barang/jasa konsultan melalui pengadaan langsung, namun spesifikasi berisi komponen layanan per perkara/orang seperti banding, kasasi, peninjauan kembali, penyidikan, dan putusan pengadilan. Format dan substansinya tidak selaras dengan dukungan tugas unit Kementerian Hukum yang dinyatakan, sehingga seluruh nilai paket layak dicermati sebagai potensi pemborosan."
   },
   {
@@ -67,6 +85,8 @@
     "satker": "IM13 KANTOR IMIGRASI KELAS II NON TPI WONOSOBO",
     "pagu": 1100000000,
     "paket": "Pengadaan Mobil Unit Penerangan Darat Kegiatan Layanan Sarana Internal Kendaraan Bermotor pada Kantor Imigrasi Kelas II Non TPI Wonosobo Jawa Tengah Tahun Anggaran 2026",
+    "pemilihanDate": "April 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Item berupa mobil unit penerangan darat senilai sangat besar untuk kantor imigrasi kelas II non-TPI menimbulkan indikasi kuat ketidaksesuaian dengan kebutuhan layanan inti. Spesifikasi dan harga per unit juga tampak tidak wajar dibanding pagu yang tersedia, sehingga seluruh nilai pengadaan layak dicermati sebagai potensi pemborosan."
   },
   {
@@ -74,6 +94,8 @@
     "satker": "SEKRETARIAT BADAN PERAKITAN DAN MODERNISASI PERTANIAN",
     "pagu": 795000000,
     "paket": "Sewa Kendaraan Roda 4 Untuk Tenaga Ahli Menteri Kementan (5 Unit x 12 Bulan)",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan sewa 5 kendaraan roda 4 selama 12 bulan khusus untuk tenaga ahli menteri menunjukkan fasilitas operasional yang signifikan dan berpotensi tidak proporsional. Judul item mengindikasikan penggunaan untuk kelompok pendukung jabatan, bukan kebutuhan layanan publik yang langsung terlihat, sehingga layak dinilai tidak relevan atau berlebihan untuk dibiayai penuh dengan anggaran negara."
   },
   {
@@ -81,6 +103,8 @@
     "satker": "694290 / BALAI BESAR WILAYAH SUNGAI NUSA TENGGARA I",
     "pagu": 750000000,
     "paket": "Pengadaan Videotron; 1 Unit; 1 Dokumen; NF; S; SYC",
+    "pemilihanDate": "February 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan videotron bernilai besar terindikasi kurang relevan dengan fungsi utama unit pengelolaan sumber daya air. Dari judul item, manfaat langsung terhadap tugas teknis inti tidak terlihat jelas, sehingga seluruh nilai pengadaan layak dicermati sebagai potensi pemborosan."
   },
   {
@@ -88,6 +112,8 @@
     "satker": "RSU DR KARIADI SEMARANG",
     "pagu": 407316000,
     "paket": "Pengadaan Paket Goodie Bag Unit Transfusi Darah Rumah Sakit Semester I Tahun 2026",
+    "pemilihanDate": "November 2025",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan goodie bag untuk unit transfusi darah rumah sakit tidak menunjukkan keterkaitan langsung dengan pelayanan medis inti dan berisiko menjadi belanja penunjang yang tidak prioritas. Dengan nilai anggaran yang besar, item ini layak dikategorikan sebagai penggunaan dana yang tidak proporsional terhadap fungsi layanan kesehatan."
   },
   {
@@ -95,6 +121,8 @@
     "satker": "KANTOR PUSAT DIREKTORAT JENDERAL PERHUBUNGAN UDARA",
     "pagu": 400000000,
     "paket": "Paket Meeting Luar Kota dan Akomodasi Kegiatan Penyusunan Renstra Unit Kerja Mandiri Ditjen Hubud 2025-2029",
+    "pemilihanDate": "March 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan paket meeting luar kota beserta akomodasi untuk penyusunan dokumen perencanaan strategis berindikasi tidak efisien karena kegiatan tersebut pada dasarnya dapat dilaksanakan di fasilitas kantor atau secara daring/hybrid. Komponen perjalanan dan penginapan meningkatkan belanja non-prioritas tanpa urgensi yang tampak dari informasi yang tersedia."
   },
   {
@@ -102,6 +130,8 @@
     "satker": "Inspektorat",
     "pagu": 399700000,
     "paket": "Belanja Modal Komputer Unit Lainnya (PC ALL IN ONE; Smart Board TV)",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Spesifikasi komputer mencantumkan GPU gaming RTX3050 dan monitor 27 inci 180Hz yang cenderung berlebih untuk kebutuhan kerja pengawasan/audit. Pengadaan Smart Board 85 inci 4K juga bernilai tinggi dan perlu justifikasi kuat. Indikasi utama adalah spesifikasi premium yang tidak lazim untuk fungsi perkantoran umum, sehingga sebagian anggaran berpotensi tidak efisien."
   },
   {
@@ -109,6 +139,8 @@
     "satker": "Dinas Penanaman Modal dan Pelayanan Terpadu Satu Pintu",
     "pagu": 350000000,
     "paket": "Belanja Modal Komputer Unit Lainnya",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Spesifikasi PC all-in-one dengan GPU RTX 3050 8GB dan monitor 27 inci 180Hz berindikasi berorientasi gaming/performa tinggi, sehingga tampak tidak proporsional untuk kebutuhan umum layanan perizinan dan administrasi. Indikasi ini layak dinilai sebagai pengadaan yang tidak relevan dan berpotensi memboroskan anggaran."
   },
   {
@@ -116,6 +148,8 @@
     "satker": "Inspektorat Daerah",
     "pagu": 246750000,
     "paket": "Belanja Modal Komputer Unit Lainnya",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Spesifikasi laptop sangat tinggi, termasuk GPU gaming/discrete RTX 3050 Ti dan RTX 3060 serta prosesor i7/i9, yang tampak berlebihan untuk kebutuhan umum pengawasan/audit di lingkungan inspektorat daerah. Indikasi ketidaksesuaian kebutuhan ini layak dicermati karena berpotensi mendorong belanja perangkat premium di atas kebutuhan kerja perkantoran biasa."
   },
   {
@@ -123,6 +157,8 @@
     "satker": "Badan Pendapatan Daerah",
     "pagu": 234405546,
     "paket": "Belanja Modal Komputer Unit Lainnya",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan perangkat premium ekosistem Apple berupa MacBook dan beberapa iPad untuk instansi pendapatan daerah terindikasi tidak proporsional terhadap kebutuhan umum perkantoran. Spesifikasi tinggi seperti M4 Pro/M4 Max menunjukkan risiko pembelian melebihi kebutuhan kerja administrasi biasa, sehingga seluruh nilai paket layak dicermati sebagai potensi pemborosan."
   },
   {
@@ -130,6 +166,8 @@
     "satker": "Badan Pengelolaan Keuangan dan Pendapatan Daerah",
     "pagu": 201766200,
     "paket": "Belanja Modal Komputer Unit Lainnya",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan perangkat premium ekosistem Apple, termasuk laptop kelas tinggi dan tablet, pada unit pengelolaan keuangan daerah tampak berisiko tidak proporsional terhadap kebutuhan kerja administratif umum. Spesifikasi premium tersebut mengindikasikan potensi belanja yang tidak efisien dibanding alternatif yang lebih ekonomis dengan fungsi sebanding."
   },
   {
@@ -137,6 +175,8 @@
     "satker": "DEPUTI BIDANG TATA LINGKUNGAN DAN SUMBER DAYA ALAM BERKELANJUTAN",
     "pagu": 200400000,
     "paket": "Belanja Perjalanan Dinas Paket Meeting Luar Kota Kegiatan Non Operasional Unit Pelaksana Teknis Gambut dan Mangrove",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan paket meeting luar kota untuk kegiatan non operasional berindikasi kuat tidak esensial dan berpotensi membebani anggaran secara tidak perlu. Nilai paket yang signifikan untuk satu paket rapat patut dinilai sebagai pemborosan, terutama karena tujuan kegiatan tidak menunjukkan kebutuhan layanan inti yang mendesak."
   }
 ]

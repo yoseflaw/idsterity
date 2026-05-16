@@ -4,6 +4,8 @@
     "satker": "SEKRETARIAT JENDERAL",
     "pagu": 73560215000,
     "paket": "Pengadaan Pemenuhan Sarana Tempat Tinggal ASN pada Sekretariat Jenderal Kementerian Imigrasi dan Pemasyarakatan Tahun Anggaran 2026",
+    "pemilihanDate": "July 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan sarana tempat tinggal ASN dengan nilai sangat besar melalui satu paket barang berindikasi kurang selaras dengan prinsip efisiensi belanja publik, karena fasilitas hunian pegawai bukan kebutuhan operasional inti yang lazim dipenuhi melalui pengadaan barang skala besar tanpa rincian justifikasi yang memadai."
   },
   {
@@ -11,6 +13,8 @@
     "satker": "SEKRETARIAT JENDERAL",
     "pagu": 54071283000,
     "paket": "Pengadaan Pakaian Dinas Upacara (PDU1) Pada Sekretariat Jenderal Kementerian Imigrasi dan Pemasyarakatan",
+    "pemilihanDate": "May 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan pakaian dinas upacara untuk pegawai dengan nilai sangat besar menimbulkan indikasi pemborosan karena bersifat seremonial dan tidak tampak langsung mendukung layanan inti. Nilai anggaran yang sangat tinggi untuk satu paket layak dicermati kuat dari sisi kebutuhan riil, jumlah penerima, dan kewajaran biaya per set."
   },
   {
@@ -18,6 +22,8 @@
     "satker": "DIREKTORAT JENDERAL BINA ADMINISTRASI KEWILAYAHAN",
     "pagu": 15000000000,
     "paket": "PENYEDIAAN AIR GUNA MENDUKUNG KEGIATAN BANTUAN PEMERINTAH YANG DIBERIKAN SATGAS KEPADA MASYARAKAT",
+    "pemilihanDate": "February 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Nilai anggaran untuk penyediaan air sangat besar dibanding deskripsi yang sangat umum dan minim spesifikasi terukur. Dengan volume tercantum 1 tanpa rincian kebutuhan, kuantitas, lokasi distribusi, atau standar teknis, terdapat indikasi kuat belanja tidak proporsional dan berisiko tidak efisien sehingga layak diaudit lebih lanjut."
   },
   {
@@ -25,6 +31,8 @@
     "satker": "DIREKTORAT JENDERAL KEPENDUDUKAN DAN PENCATATAN SIPIL",
     "pagu": 13870000000,
     "paket": "Konsultan Perusahaan Penanganan Keluhan Masyarakat",
+    "pemilihanDate": "April 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Nilai anggaran jasa konsultansi sangat besar untuk penanganan keluhan masyarakat, sementara uraian dan spesifikasi yang tersedia sangat umum dan tidak menunjukkan kebutuhan yang proporsional. Judul paket juga mengindikasikan fungsi yang pada prinsipnya dapat menjadi tugas internal/operasional layanan publik, sehingga layak dicermati sebagai pengadaan yang berpotensi tidak efisien."
   },
   {
@@ -32,6 +40,8 @@
     "satker": "SEKRETARIAT JENDERAL",
     "pagu": 4197600000,
     "paket": "Pengadaan Sewa Kendaraan Operasional Ka Kanwil DITJEN Pemasyarakatan Tahun Anggaran 2026",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Nilai sewa kendaraan operasional untuk satu paket bagi jabatan pimpinan wilayah sangat tinggi dan menimbulkan indikasi kuat penggunaan anggaran yang berlebihan untuk fasilitas kendaraan dinas. Dari judul dan nilai anggaran, item ini berisiko memicu kesan kemewahan yang tidak proporsional terhadap kebutuhan operasional pemerintahan."
   },
   {
@@ -39,6 +49,8 @@
     "satker": "Kementerian Koordinator Bidang Hukum Hak Asasi Manusia Imigrasi dan Pemasyarakatan",
     "pagu": 3581750000,
     "paket": "Pengadaan Perangkat Pengolah Data dan Komunikasi pada Kementerian Koordinator Bidang Hukum Hak Asasi Manusia Imigrasi dan Pemasyarakatan",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Pengadaan 1 unit videotron dengan nilai sangat besar untuk fungsi perkantoran/koordinasi kementerian menimbulkan indikasi kuat belanja yang tidak esensial dan berpotensi memicu persepsi penggunaan anggaran yang berlebihan. Dari judul dan spesifikasi yang tersedia, manfaatnya tidak tampak sebanding dengan nilainya."
   },
   {
@@ -46,6 +58,8 @@
     "satker": "DIREKTORAT JENDERAL BINA ADMINISTRASI KEWILAYAHAN",
     "pagu": 3500000000,
     "paket": "TOREN AIR GUNA MENDUKUNG KEGIATAN BANTUAN PEMERINTAH YANG DIBERIKAN SATGAS KEPADA MASYARAKAT",
+    "pemilihanDate": "February 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Nilai anggaran sangat besar untuk pengadaan toren air dengan volume tunggal, sementara rincian spesifikasi dan kebutuhan operasional tidak tampak memadai untuk menjelaskan kewajaran besaran biaya. Terdapat indikasi kuat potensi ketidakefisienan atau pengadaan yang nilainya tidak proporsional terhadap jenis barang."
   },
   {
@@ -53,6 +67,8 @@
     "satker": "DIREKTORAT JENDERAL ADMINISTRASI HUKUM UMUM",
     "pagu": 2614800000,
     "paket": "Pengadaan Belanja Bahan Kegiatan Forum Komunikasi Masyarakat Terkait Layanan Hukum pada Sekretariat  Direktorat Jenderal Administrasi Hukum Umum Tahun Anggaran 2026",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Nilai anggaran sangat besar untuk paket bahan kegiatan forum yang komponennya dominan bersifat konsumsi rapat, seminar kit, cetak, ATK, dan bahan komputer untuk 67 peserta. Dari uraian yang tersedia, skala dan jenis belanja tidak tampak sebanding dengan pagu, sehingga terdapat indikasi kuat pemborosan/overbudgeting yang perlu ditelaah lebih lanjut."
   },
   {
@@ -60,6 +76,8 @@
     "satker": "INSPEKTORAT JENDERAL",
     "pagu": 2242298000,
     "paket": "Pemenuhan Prioritas Direktif Presiden Pada Inspektorat Jenderal Kementerian Imigrasi dan Pemasyarakatan Tahun Anggaran 2026",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Uraian pekerjaan sangat umum dan menyerupai fungsi inti internal Inspektorat Jenderal seperti perencanaan, koordinasi, monitoring, evaluasi, dan pelaporan. Pengadaan jasa eksternal untuk tugas pengawasan dan akuntabilitas internal berindikasi tidak relevan serta berpotensi menjadi belanja pendampingan yang semestinya dilaksanakan oleh unit internal. Nilai paket yang besar dengan spesifikasi generik memperkuat indikasi pemborosan."
   },
   {
@@ -67,6 +85,8 @@
     "satker": "SEKRETARIAT DIREKTORAT JENDERAL KESEHATAN LANJUTAN",
     "pagu": 2073600000,
     "paket": "Belanja Bahan dukungan Sosialisasi dan advokasi pada masyarakat mengenai fasilitas pelayanan kesehatan dalam penanganan penyakit infeksius dan KJSU",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan kit peserta berupa kaos berlogo Kementerian dan DPR serta mencantumkan nama/jabatan anggota DPR untuk kegiatan sosialisasi kesehatan merupakan belanja yang indikasinya tidak esensial terhadap tujuan pelayanan kesehatan. Nilai kit peserta sangat besar dan lebih menyerupai media pencitraan daripada kebutuhan substantif penanganan penyakit infeksius, sehingga patut dinilai sebagai potensi pemborosan."
   },
   {
@@ -74,6 +94,8 @@
     "satker": "Sekretariat Wakil Presiden",
     "pagu": 2025000000,
     "paket": "Pengadaan Paket Kebutuhan Bahan Pokok untuk Masyarakat Dalam Rangka Kunjungan Kerja di Provinsi Jawa Tengah",
+    "pemilihanDate": "March 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan paket bahan pokok untuk masyarakat dalam rangka kunjungan kerja berindikasi lebih bersifat seremonial/bantuan ad hoc daripada kebutuhan operasional inti pemerintahan. Nilai anggaran sangat besar dan relevansi langsung terhadap tugas administrasi kunjungan kerja tidak tampak dari informasi yang tersedia, sehingga patut dicermati sebagai belanja yang berpotensi tidak efisien."
   },
   {
@@ -81,6 +103,8 @@
     "satker": "SEKRETARIAT JENDERAL",
     "pagu": 1800000000,
     "paket": "Pengadaan Sewa Kendaraan Operasional Menteri pada Sekretarian Jenderal Kementerian Imigrasi dan Pemasyarakatan Tahun Anggaran 2026",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Pengadaan sewa kendaraan operasional khusus menteri selama 12 bulan dengan nilai sangat besar berpotensi menimbulkan kesan penggunaan anggaran yang mewah dan tidak patut. Tanpa rincian kebutuhan teknis, kelas kendaraan, dan dasar efisiensi dibanding opsi yang lebih hemat, seluruh nilai patut dicermati sebagai potensi pemborosan."
   },
   {
@@ -88,6 +112,8 @@
     "satker": "SEKRETARIAT JENDERAL",
     "pagu": 1800000000,
     "paket": "Pengadaan Sewa Kendaraan Operasional Wamen pada Sekretariat Jenderal Kementerian Imigrasi dan Pemasyarakatan Tahun Anggaran 2026",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Pengadaan sewa kendaraan operasional khusus untuk wakil menteri selama 12 bulan dengan nilai sangat besar menimbulkan indikasi penggunaan anggaran yang berlebihan dan berpotensi memicu persepsi kemewahan pejabat. Dari judul dan nilai yang tersedia, item ini tampak tidak proporsional untuk belanja operasional rutin."
   },
   {
@@ -95,6 +121,8 @@
     "satker": "Sekretariat Wakil Presiden",
     "pagu": 1750000000,
     "paket": "Pengadaan Tas Paket Kebutuhan Pokok Untuk Masyarakat Dalam Rangka Hari Raya Idul Fitri 1447 H",
+    "pemilihanDate": "February 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan paket kebutuhan pokok untuk masyarakat oleh lingkungan Sekretariat Wakil Presiden berpotensi tidak selaras dengan fungsi administratif perkantoran dan menyerupai belanja bantuan sosial/seremonial. Dari judul dan nilai anggaran yang besar, seluruh alokasi layak dicermati sebagai potensi pemborosan karena urgensi, dasar kewenangan, dan sasaran manfaat tidak terlihat jelas dari data yang tersedia."
   },
   {
@@ -102,6 +130,8 @@
     "satker": "BALAI RISET PERIKANAN BUDIDAYA AIR TAWAR DAN PENYULUHAN PERIKANAN BRPBATPP",
     "pagu": 1520679000,
     "paket": "Pendampingan Masyarakat KP dalam mendukung Program Prioritas",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Terdapat indikasi kuat ketidaksesuaian klasifikasi dan substansi pengadaan karena paket berjenis barang memuat perjalanan dinas, jasa lainnya, dan terutama belanja modal tanah. Kombinasi ini tidak lazim dalam satu paket pengadaan langsung dan berisiko menunjukkan perencanaan yang tidak tepat atau pembebanan anggaran yang tidak selaras dengan objek pengadaan."
   },
   {
@@ -109,6 +139,8 @@
     "satker": "PAS33 LAPAS KELAS III MAMASA",
     "pagu": 1240839000,
     "paket": "Pengadaan Belanja Pemeliharaan Peralatan dan Mesin Komputer, Printer dan Laptop Pada Lembaga Pemasyarakatan Kelas III Mamasa - Sulawesi Barat Tahun Anggaran 2026",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Nilai anggaran sangat tidak sebanding dengan rincian pemeliharaan yang tercantum, yang jika dijumlahkan hanya sekitar belasan juta rupiah per tahun. Selisih yang sangat besar ini merupakan indikasi kuat potensi pemborosan atau ketidakwajaran perencanaan anggaran dan layak diaudit lebih lanjut."
   },
   {
@@ -116,6 +148,8 @@
     "satker": "SEKRETARIAT DIREKTORAT JENDERAL KESEHATAN LANJUTAN",
     "pagu": 1152000000,
     "paket": "Belanja Bahan dukungan Sosialisasi dan advokasi pada masyarakat mengenai fasilitas pelayanan kesehatan dalam penanganan penyakit infeksius dan KJSU berupa Kit Peserta",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Pengadaan kit peserta berupa kaos untuk sosialisasi kesehatan memuat identitas dan jabatan anggota DPR pada desain barang. Penggunaan anggaran kesehatan untuk media promosi yang menonjolkan figur/jabatan politik menimbulkan indikasi kuat ketidakpatutan dan berisiko tidak relevan dengan tujuan utama layanan publik. Seluruh nilai pengadaan patut dicermati sebagai potensi pemborosan karena manfaat program substantifnya tidak jelas dibanding fungsi promosi personal."
   },
   {
@@ -123,6 +157,8 @@
     "satker": "Kementerian Koordinator Bidang Hukum Hak Asasi Manusia Imigrasi dan Pemasyarakatan",
     "pagu": 1105186000,
     "paket": "Pengadaan Peralatan Fasilitas Perkantoran pada Kementerian Koordinator Bidang Hukum, Hak Asasi Manusia, Imigrasi, dan Pemasyarakatan Tahun Anggaran 2026",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Terdapat indikasi kuat pemborosan pada beberapa item fasilitas perkantoran dengan harga sangat tinggi untuk kebutuhan kantor, terutama meja resepsionis sekitar Rp202,5 juta, paket CCTV sekitar Rp205,25 juta, dan genset portabel sekitar Rp250 juta. Nilai sejumlah item tampak tidak proporsional untuk pengadaan fasilitas perkantoran dan layak diaudit lebih lanjut dari sisi spesifikasi, kebutuhan riil, serta kewajaran harga."
   },
   {
@@ -130,6 +166,8 @@
     "satker": "SEKRETARIAT DIREKTORAT JENDERAL KESEHATAN LANJUTAN",
     "pagu": 1024000000,
     "paket": "Pengadaan Kit Peserta Sosialisasi Pelayanan Klinis Terhadap Masyarakat",
+    "pemilihanDate": "February 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Pengadaan kaos peserta sosialisasi kesehatan untuk 12.800 orang dengan pencantuman nama dan jabatan anggota DPR-RI pada barang yang dibiayai APBN menimbulkan indikasi kuat penggunaan anggaran untuk kepentingan personalisasi/pencitraan, bukan kebutuhan esensial pelayanan publik. Seluruh nilai pengadaan layak dicermati sebagai potensi pemborosan karena manfaat program tidak bergantung pada atribut promosi personal pada kaos."
   },
   {
@@ -137,6 +175,8 @@
     "satker": "Dinas Syariat Islam Aceh",
     "pagu": 460927500,
     "paket": "Belanja Barang untuk Dijual/Diserahkan kepada Masyarakat (Pengadaan Wireless untuk Kelompok Wirid Yasin dalam Kabupaten Aceh Timur)",
+    "pemilihanDate": "May 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan portable wireless amplifier untuk kelompok wirid yasin melalui belanja barang yang diserahkan ke masyarakat terindikasi kurang prioritas dan tidak selaras kuat dengan kebutuhan layanan publik esensial. Nilai anggaran untuk 75 set juga signifikan sehingga terdapat indikasi kuat pemborosan apabila manfaat publiknya tidak mendesak."
   }
 ]

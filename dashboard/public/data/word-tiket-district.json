@@ -4,6 +4,8 @@
     "satker": "SEKRETARIAT DPRD",
     "pagu": 2729439000,
     "paket": "Sewa kendaraan, pernginapan, taksi, dan tiket perjalanan dinas pansus jawa,jateng Pembahasan Rancangan Peraturan Daerah",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Anggaran perjalanan dinas untuk sewa kendaraan, penginapan, taksi, e-toll, dan tiket bagi pansus dengan volume sangat kecil tampak sangat tidak proporsional dibanding nilai pengadaan. Nilai total menimbulkan indikasi kuat pemborosan belanja perjalanan dinas dan berpotensi memicu kecemburuan sosial."
   },
   {
@@ -11,6 +13,8 @@
     "satker": "Sekretariat DPRD",
     "pagu": 1418424000,
     "paket": "Tiket Pesawat Bisnis Dalam Negeri",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Pengadaan tiket pesawat kelas bisnis untuk perjalanan dalam negeri oleh sekretariat legislatif menimbulkan indikasi kuat penggunaan fasilitas perjalanan yang mewah dan tidak hemat. Dari judul dan spesifikasi, seluruh alokasi tampak diarahkan untuk kelas bisnis, sehingga berpotensi merupakan pemborosan anggaran publik yang signifikan."
   },
   {
@@ -18,6 +22,8 @@
     "satker": "SEKRETARIAT DPRD",
     "pagu": 1120007000,
     "paket": "Penginapan, sewa, tiket, dan taksi Perjadin Bimtek jakarta, jabar, jatim, dan jateng",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Anggaran perjalanan dinas/bimtek lintas banyak provinsi dengan komponen penginapan, sewa, tiket, dan taksi tampak sangat besar dibanding volume yang tercantum, sehingga terindikasi tidak proporsional dan berisiko menjadi belanja yang kurang efisien. Perlu penjelasan rinci kebutuhan, peserta, durasi, dan standar biaya."
   },
   {
@@ -25,6 +31,8 @@
     "satker": "SEKRETARIAT DPRD",
     "pagu": 1057990000,
     "paket": "Penginapan, Taksi, Tiket, etoll , Sewa perjalanan dinas Komisi C ke Jawa, Jawa Barat, Jawa Tengah, Jawa Timur",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Belanja perjalanan dinas untuk komisi legislatif ke banyak provinsi dengan komponen penginapan, taksi, tiket, e-toll, dan sewa kendaraan bernilai sangat besar dibanding volume yang tercantum. Dari judul dan nilai anggaran, item ini menimbulkan indikasi kuat pemborosan dan penggunaan dana publik yang berlebihan untuk perjalanan dinas."
   },
   {
@@ -32,6 +40,8 @@
     "satker": "Sekretariat Daerah",
     "pagu": 265700000,
     "paket": "BIAYA TRANSPORTASI PERJALANAN DINAS BIASA DALAM NEGERI (BIAYA TIKET PESAWAT PP -- BISNIS) JAKARTA- AMBON",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Pengadaan tiket pesawat perjalanan dinas pulang-pergi kelas bisnis untuk aparatur daerah merupakan fasilitas premium yang sulit dibenarkan sebagai kebutuhan standar penggunaan APBD. Judul item secara eksplisit menyebut kelas bisnis dan nilai anggaran sangat besar untuk jumlah peserta terbatas, sehingga kuat mengindikasikan pemborosan dan berpotensi menimbulkan kesan penggunaan dana publik secara tidak patut."
   },
   {
@@ -39,6 +49,8 @@
     "satker": "BAGIAN TATA USAHA",
     "pagu": 231660000,
     "paket": "Biaya Tiket Pesawat Jakarta-Semarang",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan tiket pesawat kelas bisnis untuk rute domestik Jakarta–Semarang bagi 60 perjalanan pulang-pergi menunjukkan indikasi pemborosan karena spesifikasi layanan premium tidak tampak esensial dari informasi yang tersedia. Untuk perjalanan singkat domestik, penggunaan kelas bisnis berpotensi tidak proporsional terhadap prinsip efisiensi belanja publik."
   },
   {
@@ -46,6 +58,8 @@
     "satker": "SEKRETARIAT DPRD",
     "pagu": 231660000,
     "paket": "Tiket Pesawat Bisnis Solo-Jakarta",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Pengadaan tiket pesawat kelas bisnis untuk perjalanan domestik rute pendek menimbulkan indikasi kuat penggunaan anggaran yang tidak patut dan berpotensi memicu kecemburuan publik. Untuk perjalanan dinas pemerintah, kelas bisnis pada rute ini umumnya tidak esensial sehingga selisih biayanya patut dipandang sebagai pemborosan."
   },
   {
@@ -53,6 +67,8 @@
     "satker": "Biro Umum",
     "pagu": 200150800,
     "paket": "Tiket Pesawat Luar Negeri Kelas Eksekutif",
+    "pemilihanDate": "April 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Pengadaan tiket pesawat luar negeri kelas eksekutif untuk perjalanan dinas pemerintah daerah merupakan belanja yang sangat tidak hemat dan berpotensi memicu kecemburuan sosial. Kelas eksekutif menunjukkan standar perjalanan yang mewah dibanding kebutuhan dasar perjalanan dinas, sehingga seluruh nilai pengadaan patut dicermati sebagai potensi pemborosan."
   },
   {
@@ -60,6 +76,8 @@
     "satker": "DINAS KESEHATAN",
     "pagu": 170000000,
     "paket": "TIKET PP",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Item berupa tiket perjalanan pulang-pergi tidak selaras dengan klasifikasi pengadaan pekerjaan konstruksi. Ketidaksesuaian jenis belanja dan objek pengadaan ini merupakan indikasi kuat pengadaan tidak tepat klasifikasi dan berpotensi seluruh nilainya tidak relevan dalam kanal pengadaan tersebut."
   },
   {
@@ -67,6 +85,8 @@
     "satker": "BAGIAN UMUM",
     "pagu": 166428000,
     "paket": "Belanja Biaya Tiket Pesawat Perjalanan Dinas Luar Negeri",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Item berupa biaya tiket pesawat untuk perjalanan dinas luar negeri pada unit Bagian Umum pemerintah daerah. Dari judul dan spesifikasi, pengadaan ini berisiko tinggi tidak esensial terhadap layanan publik daerah serta berpotensi memicu pemborosan karena seluruh anggaran dialokasikan untuk perjalanan luar negeri tanpa rincian kebutuhan yang memadai."
   },
   {
@@ -74,6 +94,8 @@
     "satker": "BADAN PENGHUBUNG",
     "pagu": 134200000,
     "paket": "Belanja Tiket Masuk Kegiatan Peningkatan Kualitas Pelayanan Publik bagi Aparatur dan Masyarakat",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan tiket masuk untuk kegiatan peningkatan kualitas pelayanan publik bagi aparatur dan masyarakat tidak menunjukkan kebutuhan yang lazim, terukur, atau langsung terkait belanja inti pelayanan publik. Dengan nilai paket yang signifikan, item ini berindikasi kuat sebagai pengeluaran yang kurang relevan dan berpotensi membebani APBD secara tidak perlu."
   },
   {
@@ -81,6 +103,8 @@
     "satker": "BAGIAN UMUM",
     "pagu": 114870000,
     "paket": "Tiket Pesawat Perjalanan Dinas Dalam Negeri Pulang Pergi",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan tiket perjalanan dinas dalam negeri dengan spesifikasi kelas bisnis untuk rute domestik menimbulkan indikasi kuat pemborosan karena menggunakan layanan premium yang umumnya tidak esensial bagi kebutuhan administrasi umum. Nilai pengadaan patut dicermati karena seluruh kebutuhan perjalanan dinas diarahkan pada kelas bisnis."
   },
   {
@@ -88,6 +112,8 @@
     "satker": "BAGIAN PROTOKOL DAN KOMUNIKASI PIMPINAN DAERAH",
     "pagu": 111969000,
     "paket": "Biaya Tiket Pesawat (PP) Jakarta-Semarang Bisnis  (KDH)",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan tiket pesawat kelas bisnis untuk rute domestik pendek menimbulkan indikasi kuat ketidakhematan penggunaan APBD. Untuk perjalanan dinas dalam negeri seperti Jakarta–Semarang PP, pilihan kelas bisnis cenderung tidak proporsional dan berpotensi melebihi kebutuhan pelayanan kedinasan yang wajar."
   },
   {
@@ -95,6 +121,8 @@
     "satker": "BAGIAN KERJASAMA DAN OTONOMI DAERAH",
     "pagu": 100000000,
     "paket": "KSLN-Biaya Tiket Pesawat Jakarta-Amsterdam",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Pengadaan tiket pesawat kelas bisnis untuk perjalanan Jakarta–Amsterdam bagi 2 orang dengan dana APBD sangat berisiko tidak efisien dan menimbulkan kesan penggunaan anggaran yang mewah. Kelas layanan premium pada perjalanan dinas pemerintah merupakan indikator kuat ketidakpatutan penggunaan dana publik."
   },
   {
@@ -102,6 +130,8 @@
     "satker": "BAGIAN KERJASAMA DAN OTONOMI DAERAH",
     "pagu": 100000000,
     "paket": "KSLN-Biaya Tiket Pesawat Jakarta-Amsterdam",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Pengadaan tiket pesawat kelas bisnis untuk perjalanan Jakarta–Amsterdam bagi 2 orang dengan APBD sangat berisiko tidak efisien dan memunculkan kesan penggunaan dana publik yang berlebihan. Kelas bisnis untuk perjalanan dinas merupakan fasilitas premium yang sulit dibenarkan tanpa dasar kebutuhan sangat khusus pada data yang tersedia."
   },
   {
@@ -109,6 +139,8 @@
     "satker": "DINAS KESEHATAN",
     "pagu": 80000000,
     "paket": "TIKET PP",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Judul dan spesifikasi menunjukkan pengadaan tiket perjalanan pulang-pergi, tetapi diklasifikasikan sebagai pekerjaan konstruksi. Ketidaksesuaian jenis belanja dengan objek pengadaan sangat kuat dan mengindikasikan penggunaan mekanisme pengadaan yang tidak selaras. Seluruh nilai patut dicermati sebagai potensi pemborosan sampai ada klarifikasi."
   },
   {
@@ -116,6 +148,8 @@
     "satker": "SEKRETARIAT DAERAH",
     "pagu": 77220000,
     "paket": "Tiket Pesawat Kelas Bisnis",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Pengadaan tiket pesawat kelas bisnis untuk perjalanan domestik pemerintah daerah merupakan fasilitas premium yang sulit dibenarkan dari sisi efisiensi belanja publik. Dengan spesifikasi rute domestik dan volume yang tercantum, seluruh nilai pengadaan patut dicermati sebagai potensi pemborosan karena kebutuhan perjalanan dinas umumnya dapat dipenuhi dengan kelas yang lebih ekonomis."
   },
   {
@@ -123,6 +157,8 @@
     "satker": "BAGIAN TATA USAHA",
     "pagu": 77220000,
     "paket": "Biaya Tiket Pesawat Semarang-Jakarta",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Pengadaan tiket pesawat rute domestik jarak pendek dengan spesifikasi kelas bisnis untuk perjalanan dinas pemerintah daerah menimbulkan indikasi kuat pemborosan dan penggunaan dana yang tidak patut. Seluruh nilai pengadaan layak dicermati sebagai potensi pemborosan karena komponen kemewahan terlihat eksplisit pada spesifikasi."
   },
   {
@@ -130,6 +166,8 @@
     "satker": "Badan Keuangan dan  Aset Daerah",
     "pagu": 77220000,
     "paket": "Tiket Pesawat Bisnis",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Pengadaan tiket pesawat kelas bisnis untuk perjalanan dinas domestik pemerintah daerah merupakan belanja yang sangat tidak hemat dan berpotensi memicu kecemburuan publik. Untuk rute domestik pendek, penggunaan kelas bisnis tidak menunjukkan kebutuhan yang mendesak dari data yang tersedia sehingga seluruh nilai pengadaan patut dicermati sebagai potensi pemborosan."
   },
   {
@@ -137,6 +175,8 @@
     "satker": "Dinas Pendidikan, Kearsipan dan Perpustakaan Daerah",
     "pagu": 72000000,
     "paket": "Biaya Transportasi/Tiket Dalam Daerah/Keluar Kabupaten Dalam Provinsi Pejabat Negara (Bupati, Wakil Bupati, Ketua Dprd, Anggota Dprd) Ekonomi",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan tiket perjalanan bagi pejabat negara melalui satuan kerja bidang pendidikan, kearsipan, dan perpustakaan tampak tidak selaras dengan fungsi utama unit pengadaan. Seluruh nilai anggaran patut dicermati sebagai potensi pemborosan karena manfaatnya bagi layanan pendidikan/perpustakaan tidak terlihat dari uraian yang tersedia."
   }
 ]

@@ -4,6 +4,8 @@
     "satker": "INSPEKTORAT JENDERAL",
     "pagu": 1331640000,
     "paket": "Kegiatan Layanan Pengawasan Dana Transfer Daerah Inspektorat I",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan berupa paket rapat/pertemuan full board di luar kantor disertai transport dan penginapan untuk 10 frekuensi berpotensi tidak efisien karena manfaat substantifnya tidak tampak sebagai barang prioritas dan cenderung bersifat belanja penunjang yang mahal. Nilainya besar sehingga layak dicermati sebagai potensi pemborosan anggaran."
   },
   {
@@ -11,6 +13,8 @@
     "satker": "INSPEKTORAT JENDERAL",
     "pagu": 1228162000,
     "paket": "Kegiatan Layanan Pengawasan Dana Transfer Daerah Inspektorat II",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan berupa paket rapat/pertemuan full board di luar kantor beserta penginapan dan transport untuk 15 frekuensi berindikasi kuat tidak efisien karena komponen utamanya adalah kegiatan pendukung administratif, bukan output pengawasan substantif. Nilai anggaran yang sangat besar untuk pola kegiatan tatap muka berulang di luar kantor layak dinilai sebagai potensi pemborosan tinggi."
   },
   {
@@ -18,6 +22,8 @@
     "satker": "BADAN PENGEMBANGAN SUMBER DAYA MANUSIA",
     "pagu": 1200000000,
     "paket": "Paket Penyusunan Dan Percetakan Kaleidoskop Rapat Koordinasi Sekretaris Daerah Dan Kepala Bappeda Tahun 2025 Dalam Rangka Sinkronisasi Program Dan Kegiatan Kementerian/Lembaga Dengan Pemerintah Daerah",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Anggaran sangat besar untuk penyusunan dan percetakan kaleidoskop rapat koordinasi, sementara outputnya bersifat publikasi/dokumentasi yang umumnya tidak memerlukan biaya mendekati nilai tersebut untuk satu paket. Indikasi pemborosan kuat karena jenis belanja tampak tidak proporsional terhadap manfaat langsung program."
   },
   {
@@ -25,6 +31,8 @@
     "satker": "DIREKTORAT JENDERAL KEKAYAAN INTELEKTUAL",
     "pagu": 734760000,
     "paket": "Pengadaan Barang Cetakan Lainnya untuk Koordinasi Penatausahaan BMN Ditjen KI  pada Sekretariat DJKI - Provinsi Daerah Khusus Jakarta TA 2026",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Nilai anggaran sangat besar untuk item generik 'barang cetakan lainnya' selama 1 tahun dengan spesifikasi yang sangat minimal. Uraian tidak menunjukkan kebutuhan yang rinci, terukur, atau output cetakan yang sebanding dengan besaran biaya, sehingga terdapat indikasi kuat belanja berlebihan dan kebutuhan yang tidak terdefinisi dengan memadai."
   },
   {
@@ -32,6 +40,8 @@
     "satker": "SEKRETARIAT UTAMA KEMENTERIAN LINGKUNGAN HIDUP BPLH",
     "pagu": 328880000,
     "paket": "Sewa Kendaraan Double Cabin dan Alpard dalam rangka Kunjungan pimpinan Ke daerah",
+    "pemilihanDate": "April 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Pengadaan sewa kendaraan mencantumkan MPV mewah untuk kunjungan pimpinan ke daerah. Penggunaan kendaraan kelas mewah dengan dana publik menimbulkan kesan pemborosan dan tidak sejalan dengan prinsip efisiensi belanja, terlebih kebutuhan perjalanan dinas pada umumnya dapat dipenuhi dengan kendaraan operasional yang lebih wajar."
   },
   {
@@ -39,6 +49,8 @@
     "satker": "DEWAN PERWAKILAN DAERAH",
     "pagu": 259179000,
     "paket": "Jamuan Makan Delegasi/Konsumsi Pemerintah Daerah Praktisi, LSM, Mahasiswa, dan Kelompok Masyarakat dalam rangka Fasilitasi Kegiatan Penerimaan Kunjungan Stakeholder/Konstituen",
+    "pemilihanDate": "March 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Pengadaan jamuan makan/konsumsi untuk penerimaan stakeholder atau konstituen oleh lembaga perwakilan berpotensi kuat merupakan belanja representasi yang tidak mendesak dan mudah memicu persepsi penggunaan anggaran publik secara tidak patut. Nilai satuan konsumsi juga tampak tinggi untuk jamuan dalam jumlah besar, sehingga seluruh nilai pengadaan layak dipandang sebagai potensi pemborosan."
   },
   {
@@ -46,6 +58,8 @@
     "satker": "DIREKTORAT JENDERAL PERATURAN PERUNDANG UNDANGAN",
     "pagu": 252112000,
     "paket": "Pengadaan Paket Meeting Fullboard Luar Kota (Jawa Timur) Eselon I/II/III ke bawah Kegiatan Rapat Koordinasi dan Supervisi Harmonisasi PUU Tingkat Pusat dan Daerah pada Direktorat Jenderal Peraturan Perundang-undangan TA 2026",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan paket meeting fullboard luar kota untuk rapat koordinasi dan supervisi menimbulkan indikasi kuat pemborosan karena kegiatan rapat pemerintah pada prinsipnya dapat diupayakan di kantor atau secara daring/hybrid. Format fullboard luar kota untuk pejabat eselon memperbesar biaya akomodasi, konsumsi, dan perjalanan tanpa urgensi yang tampak dari informasi yang tersedia."
   },
   {
@@ -53,6 +67,8 @@
     "satker": "Biro Administrasi Pimpinan",
     "pagu": 238000000,
     "paket": "Cinderamata untuk Perintis Pembangunan Daerah (Pin Pintu Aceh Emas)",
+    "pemilihanDate": "February 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Pengadaan cinderamata berupa pin emas sebagai hadiah seremonial bagi pihak eksternal berindikasi sangat tidak prioritas untuk penggunaan dana publik. Sifatnya mewah, simbolik, dan berpotensi memicu persepsi pemborosan anggaran, sementara manfaat publik langsung tidak terlihat dari informasi yang tersedia."
   },
   {
@@ -60,6 +76,8 @@
     "satker": "DIREKTORAT JENDERAL KEKAYAAN INTELEKTUAL",
     "pagu": 195822000,
     "paket": "Pengadaan Paket Meeting Fullboard Es.III ke bawah untuk Penyusunan Rencana Umum dan Implementasi Pengadaan Barang/Jasa di Lingkungan DJKI TA 2027 pada Sekretariat DJKI - Provinsi Daerah Khusus Jakarta TA 2026",
+    "pemilihanDate": "June 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Paket meeting fullboard di hotel/resor di Bali untuk kegiatan penyusunan rencana dan implementasi pengadaan merupakan bentuk belanja rapat yang sangat berpotensi tidak efisien. Kegiatan perencanaan administratif pada prinsipnya dapat dilaksanakan di kantor atau secara daring tanpa perjalanan dan akomodasi penuh, sehingga penggunaan dana publik untuk fullboard di luar daerah menimbulkan kesan pemborosan yang kuat."
   },
   {
@@ -67,6 +85,8 @@
     "satker": "BPMP PROVINSI ACEH",
     "pagu": 177452000,
     "paket": "Pendukung Kegiatan Pada Komponen 092.CA Advokasi kebijakan Dana Tranfer Daerah",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan paket meeting luar kota fullboard untuk kegiatan advokasi kebijakan berindikasi kuat tidak efisien karena menggunakan format pertemuan berbiaya tinggi yang umumnya dapat diminimalkan melalui rapat lokal, hybrid, atau fasilitas pemerintah. Seluruh nilai paket layak dicermati sebagai potensi pemborosan karena sifat belanja lebih berorientasi akomodasi pertemuan daripada output substantif."
   },
   {
@@ -74,6 +94,8 @@
     "satker": "BADAN PENGEMBANGAN SUMBER DAYA MANUSIA DAN PEMBERDAYAAN MASYARAKAT DESA DAN DAERAH TERTINGGAL",
     "pagu": 144840000,
     "paket": "Biaya Paket Kegiatan Rapat/Pertemuan Full Board di Luar Kantor, Penyusuan Peraturan Menteri Tentang Pelatihan Masyarakat Desa dan Daerah Tertinggal",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan paket rapat/pertemuan full board di luar kantor untuk penyusunan regulasi berpotensi tidak efisien karena fungsi tersebut pada prinsipnya dapat dilaksanakan di fasilitas kantor pemerintah. Penggunaan venue luar kantor dengan paket penuh meningkatkan biaya konsumsi dan akomodasi rapat tanpa indikasi kebutuhan khusus yang terlihat dari data tersedia."
   },
   {
@@ -81,6 +103,8 @@
     "satker": "DIREKTORAT JENDERAL KEKAYAAN INTELEKTUAL",
     "pagu": 140000000,
     "paket": "Pengadaan Bahan Gigi pada Sekretariat DJKI - Provinsi Daerah Khusus Jakarta TA 2026",
+    "pemilihanDate": "February 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan bahan gigi pada unit sekretariat di lingkungan pengelola kekayaan intelektual tampak tidak selaras dengan fungsi utama lembaga dan tidak terlihat relevansinya dari uraian yang tersedia. Seluruh nilai paket patut dicermati sebagai potensi pemborosan karena kebutuhan barang ini tidak lazim untuk konteks tersebut."
   },
   {
@@ -88,6 +112,8 @@
     "satker": "04 KANWIL DIY KI",
     "pagu": 111111000,
     "paket": "Pengadaan Belanja Perjalanan Dinas Paket Meeting Luar Kota (Biaya Paket Kegiatan Rapat/Pertemuan Full Day di Luar Kantor - Pejabat Eselon III ke Bawah) pada Kegiatan Pendampingan Pengajuan Permohonan Kekayaan Intelektual DIPA KI Kantor Wilayah Kementerian Hukum Daerah Istimewa Yogyakarta Provinsi Daerah Istimewa Yogyakarta - Tahun Anggaran 2026",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan paket meeting full day di luar kantor untuk kegiatan pendampingan pengajuan kekayaan intelektual menunjukkan indikasi kuat biaya rapat eksternal yang tidak esensial, karena substansi kegiatan pada dasarnya dapat dilaksanakan di kantor atau melalui sarana kerja yang lebih hemat. Seluruh nilai paket berpotensi merupakan pemborosan apabila tidak ada kebutuhan teknis khusus yang jelas."
   },
   {
@@ -95,6 +121,8 @@
     "satker": "KANTOR WILAYAH DAERAH KHUSUS JAKARTA IDP",
     "pagu": 97900000,
     "paket": "Pengadaan Kegiatan Rapat Full Board Analis dan Evaluasi R-Peraturan Daerah dan Peraturan Daerah Dari Perspektif HAM Kantor Wilayah IDP DK Jakarta Tahun Anggaran 2026",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan full board rapat di luar kantor untuk kegiatan analisis/evaluasi regulasi berpotensi tidak efisien karena fungsi utamanya bersifat pembahasan administratif yang pada prinsipnya dapat dilaksanakan di kantor atau secara daring. Seluruh nilai paket terindikasi sebagai belanja yang kebutuhan dan urgensi efisiensinya lemah."
   },
   {
@@ -102,6 +130,8 @@
     "satker": "BIRO KOMUNIKASI DAN INFORMASI PUBLIK",
     "pagu": 95000000,
     "paket": "Pembayaran Jasa Profesi Tema Mendukung Konektivitas Transportasi Nasional Di Daerah",
+    "pemilihanDate": "November 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Pengadaan jasa influencer publik dengan porsi besar, termasuk makro influencer bernilai tinggi, untuk dukungan komunikasi pemerintah berisiko kuat tidak proporsional terhadap kebutuhan belanja publik. Bentuk pengeluaran ini mudah menimbulkan kesan penggunaan APBN untuk promosi berbasis figur/influencer yang tidak esensial."
   },
   {
@@ -109,6 +139,8 @@
     "satker": "BPMP PROVINSI ACEH",
     "pagu": 91168000,
     "paket": "Pendukung Kegiatan Pada Komponen 092.CJ Pengembangan strategi penuntasan Wajib Belajar yang sesuai dengan kondisi daerah",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan paket meeting luar kota untuk kegiatan pengembangan strategi pendidikan berindikasi tidak efisien karena manfaat substantifnya tidak tampak sebanding dengan biaya perjalanan dan pertemuan di luar kota. Judul pekerjaan menunjukkan komponen belanja rapat/pertemuan, bukan keluaran inti program, sehingga layak dipandang sebagai potensi pemborosan anggaran."
   },
   {
@@ -116,6 +148,8 @@
     "satker": "DIREKTORAT JENDERAL KEKAYAAN INTELEKTUAL",
     "pagu": 69300000,
     "paket": "Pengadaan Sewa Sarana dan Prasarana Olahraga pada Sekretariat DJKI - Provinsi Daerah Khusus Jakarta TA 2026",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan sewa sarana dan prasarana olahraga pada unit yang berfokus pada layanan administrasi/pengelolaan kekayaan intelektual tidak tampak berkaitan langsung dengan fungsi inti kedinasan. Dengan uraian yang sangat umum dan volume besar, seluruh nilai pengadaan layak dicermati sebagai potensi belanja yang kurang prioritas."
   },
   {
@@ -123,6 +157,8 @@
     "satker": "LPDB KUMKM",
     "pagu": 62400000,
     "paket": "Transport Keluarga Perjalanan Luar Kota Dukungan Teknis Kegiatan Satuan Tugas Daerah",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pembiayaan transport keluarga dalam kegiatan kedinasan tidak menunjukkan kebutuhan operasional yang lazim untuk tugas teknis pemerintahan. Dari judul dan uraian, komponen ini terindikasi sebagai manfaat non-prioritas yang tidak relevan langsung dengan pelaksanaan tugas publik, sehingga seluruh nilainya layak dicermati sebagai potensi pemborosan."
   },
   {
@@ -130,6 +166,8 @@
     "satker": "DEWAN PERWAKILAN DAERAH",
     "pagu": 60000000,
     "paket": "Pengadaan Jamuan Dalam Rangka Kunjungan Kerja Hasil Pemeriksaan BPK yang Berindikasi Kerugian Negara/Daerah",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Pengadaan jamuan untuk kunjungan kerja terkait hasil pemeriksaan BPK yang berindikasi kerugian negara/daerah menimbulkan kesan penggunaan dana publik yang sangat tidak patut. Nilai jamuan yang besar untuk 4 paket memperkuat indikasi pemborosan karena tidak mencerminkan prioritas belanja yang hemat dan sensitif terhadap konteks pemeriksaan kerugian negara."
   },
   {
@@ -137,6 +175,8 @@
     "satker": "Badan Pembinaan Ideologi Pancasila",
     "pagu": 37884000,
     "paket": "6927.PBD.001.054 Belanja Perjalanan Dinas Paket Meeting Luar Kota Pelaksanaan Analisis dan Penyelarasan Rancangan Produk Hukum Daerah Provinsi/Kabupaten/Kota Bidang Perekonomian, Maritim, dan Investasi (PM Esl III ke bawah) - Keg 3",
+    "pemilihanDate": "February 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan berupa perjalanan dinas paket meeting luar kota untuk pembahasan/penyelarasan rancangan produk hukum daerah bidang perekonomian, maritim, dan investasi tampak kurang selaras dengan fungsi utama lembaga pembinaan ideologi. Seluruh nilai paket berpotensi tidak efisien apabila kegiatan substantif tersebut bukan mandat inti lembaga."
   }
 ]

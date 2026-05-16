@@ -4,6 +4,8 @@
     "satker": "BADAN PEMBINAAN HUKUM NASIONAL",
     "pagu": 11832562000,
     "paket": "Pengadaan Belanja Jasa Konsultan Kegiatan Pemenuhan Prioritas Direktif Presiden Dalam Rangka Pemenuhan Prioritas Direktif Presiden Pada Badan Pembinaan Hukum Nasional Tahun Anggaran 2026",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Nilai anggaran jasa konsultan untuk 1 paket sangat besar, sementara uraian dan spesifikasi pekerjaan sangat umum serta tidak menunjukkan keluaran yang terukur. Pengadaan langsung untuk nilai setinggi ini patut dicermati karena berisiko tidak efisien dan tidak sebanding dengan kebutuhan yang dijelaskan."
   },
   {
@@ -11,6 +13,8 @@
     "satker": "Kementerian Koordinator Bidang Hukum Hak Asasi Manusia Imigrasi dan Pemasyarakatan",
     "pagu": 3581750000,
     "paket": "Pengadaan Perangkat Pengolah Data dan Komunikasi pada Kementerian Koordinator Bidang Hukum Hak Asasi Manusia Imigrasi dan Pemasyarakatan",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Pengadaan 1 unit videotron dengan nilai sangat besar untuk fungsi perkantoran/koordinasi kementerian menimbulkan indikasi kuat belanja yang tidak esensial dan berpotensi memicu persepsi penggunaan anggaran yang berlebihan. Dari judul dan spesifikasi yang tersedia, manfaatnya tidak tampak sebanding dengan nilainya."
   },
   {
@@ -18,6 +22,8 @@
     "satker": "DIREKTORAT JENDERAL ADMINISTRASI HUKUM UMUM",
     "pagu": 2614800000,
     "paket": "Pengadaan Belanja Bahan Kegiatan Forum Komunikasi Masyarakat Terkait Layanan Hukum pada Sekretariat  Direktorat Jenderal Administrasi Hukum Umum Tahun Anggaran 2026",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Nilai anggaran sangat besar untuk paket bahan kegiatan forum yang komponennya dominan bersifat konsumsi rapat, seminar kit, cetak, ATK, dan bahan komputer untuk 67 peserta. Dari uraian yang tersedia, skala dan jenis belanja tidak tampak sebanding dengan pagu, sehingga terdapat indikasi kuat pemborosan/overbudgeting yang perlu ditelaah lebih lanjut."
   },
   {
@@ -25,6 +31,8 @@
     "satker": "29 KANWIL BANTEN BPHN",
     "pagu": 1376000000,
     "paket": "Pengadaan Belanja Jasa Konsultan untuk Kegiatan Dukungan Penyelenggaraan Tugas dan Fungsi Unit pada Kantor Wilayah Kementerian Hukum Banten BPHN (693119) Tahun Anggaran 2026",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Terdapat indikasi kuat ketidaksesuaian antara nama paket dan rincian spesifikasi. Paket dicantumkan sebagai pengadaan barang/jasa konsultan melalui pengadaan langsung, namun spesifikasi berisi komponen layanan per perkara/orang seperti banding, kasasi, peninjauan kembali, penyidikan, dan putusan pengadilan. Format dan substansinya tidak selaras dengan dukungan tugas unit Kementerian Hukum yang dinyatakan, sehingga seluruh nilai paket layak dicermati sebagai potensi pemborosan."
   },
   {
@@ -32,6 +40,8 @@
     "satker": "Kementerian Koordinator Bidang Hukum Hak Asasi Manusia Imigrasi dan Pemasyarakatan",
     "pagu": 1105186000,
     "paket": "Pengadaan Peralatan Fasilitas Perkantoran pada Kementerian Koordinator Bidang Hukum, Hak Asasi Manusia, Imigrasi, dan Pemasyarakatan Tahun Anggaran 2026",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Terdapat indikasi kuat pemborosan pada beberapa item fasilitas perkantoran dengan harga sangat tinggi untuk kebutuhan kantor, terutama meja resepsionis sekitar Rp202,5 juta, paket CCTV sekitar Rp205,25 juta, dan genset portabel sekitar Rp250 juta. Nilai sejumlah item tampak tidak proporsional untuk pengadaan fasilitas perkantoran dan layak diaudit lebih lanjut dari sisi spesifikasi, kebutuhan riil, serta kewajaran harga."
   },
   {
@@ -39,6 +49,8 @@
     "satker": "17 KANWIL SULAWESI UTARA SETJEN",
     "pagu": 710001000,
     "paket": "Pengadaan Belanja Modal Peralatan dan Mesin (Videotron) untuk Kegiatan Pengadaan Peralatan Fasilitas Perkantoran pada Kantor Wilayah Kementerian Hukum Sulawesi Utara Tahun Anggaran 2026",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan 1 unit videotron senilai sangat besar untuk fasilitas perkantoran pada kantor wilayah berindikasi tidak esensial terhadap fungsi inti layanan dan administrasi. Nilai belanja yang tinggi untuk media display promosi/informasi ini patut dicermati sebagai potensi pemborosan anggaran karena manfaatnya bagi tugas utama instansi tidak tampak sebanding dari data yang tersedia."
   },
   {
@@ -46,6 +58,8 @@
     "satker": "UNIVERSITAS MALIKUSSALEH",
     "pagu": 656000000,
     "paket": "Pembuatan Nama Gedung Fakultas Hukum",
+    "pemilihanDate": "February 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan pembuatan nama gedung dengan nilai sangat besar terindikasi tidak proporsional terhadap fungsi barang yang pada umumnya bersifat penanda/identitas. Dari judul dan nilai anggaran, terdapat indikasi kuat pemborosan karena manfaat publik langsung terbatas dibanding biaya yang dialokasikan."
   },
   {
@@ -53,6 +67,8 @@
     "satker": "DIREKTORAT JENDERAL ADMINISTRASI HUKUM UMUM",
     "pagu": 625870000,
     "paket": "Pengadaan Belanja Perjalanan Dinas Luar Negeri Kegiatan Best Practice Keahlian Sidik Jari Direktorat PidanaDirektorat Jenderal Administrasi Hukum Umum Tahun Anggaran 2026",
+    "pemilihanDate": "February 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan perjalanan dinas luar negeri untuk studi best practice keahlian sidik jari tampak kurang selaras dengan fungsi utama unit administrasi hukum umum, sementara tema kegiatan lebih dekat ke ranah teknis forensik/penegakan hukum. Seluruh nilai paket patut dicermati sebagai potensi pemborosan karena relevansi kebutuhan tidak terlihat kuat dari data yang tersedia."
   },
   {
@@ -60,6 +76,8 @@
     "satker": "UNIVERSITAS CENDERAWASIH",
     "pagu": 460000000,
     "paket": "Pengadaan Mobil Dekan Hukum",
+    "pemilihanDate": "April 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Pengadaan kendaraan dinas khusus untuk jabatan dekan berindikasi kuat tidak prioritas dan berpotensi menimbulkan kesan penggunaan dana publik secara berlebihan. Dari judul dan spesifikasi, manfaatnya sangat sempit untuk pejabat tertentu, sehingga seluruh nilai pengadaan patut diperlakukan sebagai potensi pemborosan."
   },
   {
@@ -67,6 +85,8 @@
     "satker": "DIREKTORAT JENDERAL ADMINISTRASI HUKUM UMUM",
     "pagu": 400000000,
     "paket": "Pengadaan Penataan Area Rumah Dinas Eselon I Ditjen AHU pada Sekretariat Direktorat Jenderal Administrasi Hukum Umum Tahun Anggaran 2026",
+    "pemilihanDate": "February 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan penataan area rumah dinas pejabat eselon I berindikasi lebih bersifat fasilitas pendukung/kenyamanan pejabat daripada kebutuhan layanan publik inti. Dengan nilai anggaran signifikan, item ini layak dikategorikan tidak pantas untuk dicermati karena manfaat publik langsung tidak jelas dari informasi yang tersedia."
   },
   {
@@ -74,6 +94,8 @@
     "satker": "DITJEN MINERAL DAN BATUBARA",
     "pagu": 305316000,
     "paket": "Belanja Perjalanan Dinas Paket Meeting Luar Kota - Pelaksanaan Advokasi Hukum di Bidang Pertambangan Mineral dan Batubara",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Paket meeting luar kota untuk kegiatan advokasi hukum di wilayah sekitar Jakarta menunjukkan indikasi kuat pemborosan karena menggunakan skema fullboard di luar kantor untuk tujuan yang secara umum dapat dilaksanakan lebih efisien tanpa perjalanan dan rapat inap. Lokasi tujuan yang dekat serta adanya banyak komponen berulang memperkuat indikasi belanja tidak proporsional."
   },
   {
@@ -81,6 +103,8 @@
     "satker": "Kementerian Koordinator Bidang Hukum Hak Asasi Manusia Imigrasi dan Pemasyarakatan",
     "pagu": 295000000,
     "paket": "Belanja Jasa Lainnya Kegiatan Layanan Rumah Tangga pada Kementerian Koordinator Bidang Hukum, Hak Asasi Manusia, Imigrasi, dan Pemasyarakatan Tahun Anggaran 2026",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Terdapat komponen biaya event organizer tahunan yang sangat dominan dalam layanan rumah tangga kantor dan indikasi kurang selaras dengan kebutuhan operasional rutin perkantoran. Berdasarkan uraian yang tersedia, porsi ini layak dinilai sebagai potensi pengeluaran yang tidak esensial atau berlebihan untuk fungsi layanan rumah tangga."
   },
   {
@@ -88,6 +112,8 @@
     "satker": "DIREKTORAT JENDERAL ADMINISTRASI HUKUM UMUM",
     "pagu": 282677000,
     "paket": "Pengadaan Belanja Bahan Kegiatan Rapat Persiapan Rakor Evaluasi Pelaksanaan Tugas Ditjen AHU pada Sekretariat Direktorat Jenderal Administrasi Hukum Umum Tahun Anggaran 2026",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Terdapat indikasi kuat ketidakpatutan pada komponen pencetakan buku laporan tahunan senilai sangat besar dan pengadaan seminar kit dalam paket rapat persiapan. Komponen tersebut tampak kurang proporsional terhadap sifat kegiatan rapat dan berpotensi menimbulkan pemborosan anggaran."
   },
   {
@@ -95,6 +121,8 @@
     "satker": "Kementerian Koordinator Bidang Hukum Hak Asasi Manusia Imigrasi dan Pemasyarakatan",
     "pagu": 254076000,
     "paket": "Pengadaan Belanja Barang Non Operasional Lainnya Kegiatan Layanan Rumah Tangga pada Kementerian Koordinator Bidang Hukum, Hak Asasi Manusia, Imigrasi, dan Pemasyarakatan Tahun Anggaran 2026",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Komponen dekorasi seremonial bernilai sangat besar untuk belanja rumah tangga/non-operasional dan tidak menunjukkan keterkaitan langsung dengan fungsi substantif. Nilai dekorasi mendominasi anggaran sehingga terdapat indikasi kuat pengeluaran yang berlebihan dan layak diuji kebutuhan serta kewajarannya."
   },
   {
@@ -102,6 +130,8 @@
     "satker": "DITJEN MINERAL DAN BATUBARA",
     "pagu": 247050000,
     "paket": "Belanja Perjalanan Dinas Paket Meeting Dalam Kota - Penyusunan Pertimbangan Hukum di Bidang Pertambangan Mineral dan Batubara",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Item berupa rapat fullboard dalam kota untuk penyusunan pertimbangan hukum dengan komponen hotel fullboard, uang harian, dan transport lokal. Untuk kegiatan substantif yang dapat dilaksanakan di kantor, pola belanja rapat fullboard dalam kota menimbulkan indikasi kuat pemborosan karena seluruh nilai paket terserap pada fasilitas pertemuan dan perjalanan, bukan output teknis utama."
   },
   {
@@ -109,6 +139,8 @@
     "satker": "21 KANWIL MALUKU SETJEN",
     "pagu": 245123000,
     "paket": "Pengadaan Belanja Pemeliharaan Peralatan dan Mesin Untuk Kegiatan Layanan Perkantoran Pemeliharaan Peralatan Kantor pada Kantor Wilayah Kementerian Hukum Maluku Tahun Anggaran 2026",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Terdapat komponen lift dalam paket pemeliharaan peralatan kantor. Dari judul dan rincian, item ini tampak tidak selaras dengan lingkup pemeliharaan peralatan kantor biasa dan bernilai dominan dalam paket, sehingga berindikasi kuat sebagai pengadaan yang kurang tepat pengelompokan atau tidak relevan dengan kebutuhan pemeliharaan rutin."
   },
   {
@@ -116,6 +148,8 @@
     "satker": "BADAN PENGEMBANGAN SUMBER DAYA MANUSIA HUKUM",
     "pagu": 210000000,
     "paket": "Pengadaan Sewa Pengharum Ruangan untuk Kegiatan Pengelolaan Rumah Tangga pada Badan Pengembangan Sumber Daya Manusia Hukum Tahun Anggaran 2026",
+    "pemilihanDate": "December 2025",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan sewa pengharum ruangan dengan nilai signifikan untuk kebutuhan perkantoran/trumah tangga terindikasi tidak esensial dibanding fungsi utama instansi. Judul dan spesifikasi menunjukkan layanan pewangi ruangan sebagai belanja kenyamanan, sehingga patut dinilai kurang prioritas dan berpotensi merupakan pemborosan penuh bila dibiayai dari anggaran publik."
   },
   {
@@ -123,6 +157,8 @@
     "satker": "DIREKTORAT JENDERAL ADMINISTRASI HUKUM UMUM",
     "pagu": 204000000,
     "paket": "Pengadaan Belanja Bahan Kegiatan Pelaporan pada Sekretariat Direktorat Jenderal Administrasi Hukum Umum Tahun Anggaran 2026",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Terdapat indikasi kuat ketidakwajaran pada komponen pencetakan 1 eksemplar buku laporan dengan nilai sangat besar dibanding komponen lain dalam paket dan deskripsi kebutuhan yang bersifat konsumsi rapat serta penggandaan. Nilai item tersebut layak dicermati sebagai pengeluaran yang tidak proporsional."
   },
   {
@@ -130,6 +166,8 @@
     "satker": "DIREKTORAT JENDERAL ADMINISTRASI HUKUM UMUM",
     "pagu": 200001000,
     "paket": "Pengadaan Pemeliharaan Aquarium BMN Lt.5, 6, dan 8 Ditjen AHU pada Sekretariat Direktorat Jenderal Administrasi Hukum Umum Tahun Anggaran 2026",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Pemeliharaan aquarium pada beberapa lantai gedung perkantoran pemerintah tidak menunjukkan kebutuhan inti layanan publik dan berisiko dipersepsikan sebagai penggunaan anggaran yang bersifat ornamental. Dengan nilai anggaran yang signifikan untuk fasilitas dekoratif, item ini terindikasi sangat tidak prioritas dan berpotensi merupakan pemborosan penuh."
   },
   {
@@ -137,6 +175,8 @@
     "satker": "UNIVERSITAS TADULAKO",
     "pagu": 199000000,
     "paket": "Pembuatan Sculpture Dekanat Fakultas Hukum",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan pembuatan sculpture untuk area dekanat fakultas merupakan belanja yang cenderung tidak prioritas terhadap fungsi utama pendidikan tinggi. Dengan nilai yang signifikan untuk satu paket dan tanpa indikasi urgensi operasional atau akademik, seluruh anggaran patut dicermati sebagai potensi pemborosan."
   }
 ]

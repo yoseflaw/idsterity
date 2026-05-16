@@ -4,6 +4,8 @@
     "satker": "CABANG PENDIDIKAN WILAYAH IV",
     "pagu": 79047398416,
     "paket": "Penyediaan Jasa Pelayanan Umum Kantor Cabang Dinas Pendidikan Wilayah IV",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Nilai anggaran sangat besar untuk paket jasa pelayanan umum satu kantor cabang dengan output hanya 12 laporan, serta memuat komponen tenaga administrasi, kebersihan, keamanan, iuran kesehatan, dan PPPK paruh waktu dalam satu paket jasa lainnya. Struktur ini mengindikasikan penggabungan belanja pegawai/jasa rutin yang tidak proporsional dan layak diaudit mendalam."
   },
   {
@@ -11,6 +13,8 @@
     "satker": "DINAS PENDIDIKAN DAN KEBUDAYAAN",
     "pagu": 23393994895,
     "paket": "Pembangunan Sekolah Di Wilayah Grand City Balikpapan Utara Sub Kegiatan Pembangunan Unit Sekolah Baru (USB)",
+    "pemilihanDate": "March 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Nilai anggaran sangat tinggi untuk pembangunan gedung standar sederhana dengan luas bangunan di bawah 500 m2. Berdasarkan informasi yang tersedia, terdapat indikasi kuat ketidaksebandingan antara spesifikasi fisik pekerjaan dan besaran anggaran sehingga layak diduga mengandung potensi pemborosan yang signifikan."
   },
   {
@@ -18,6 +22,8 @@
     "satker": "Dinas Bina Marga dan Penataan Ruang",
     "pagu": 10000000000,
     "paket": "1 Pekerjaan Pembangunan Monumen Di Wilayah Kabupaten Subang",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Pengadaan pembangunan monumen senilai besar oleh dinas yang berfokus pada bina marga dan penataan ruang berindikasi sangat lemah keterkaitannya dengan kebutuhan layanan dasar. Belanja simbolik seperti monumen berpotensi memicu pemborosan APBD dan kesan penggunaan dana publik yang tidak prioritas."
   },
   {
@@ -25,6 +31,8 @@
     "satker": "SEKRETARIAT DEWAN PERWAKILAN RAKYAT DAERAH",
     "pagu": 2835660000,
     "paket": "Biaya Transportasi di Wilayah Provinsi Jawa Barat, DKI Jakarta dan Banten",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Anggaran transportasi satu paket bernilai sangat besar untuk cakupan perjalanan regional dan dibuka dengan metode dikecualikan. Dari judul dan spesifikasi yang umum, nilai ini tampak tidak proporsional terhadap kebutuhan jasa transportasi biasa sehingga layak dikategorikan berisiko tinggi dan berpotensi pemborosan signifikan."
   },
   {
@@ -32,6 +40,8 @@
     "satker": "Distrik Mimika Baru",
     "pagu": 2200000000,
     "paket": "Sinkronisasi Program Kerja dan Kegiatan Pemberdayaan Masyarakat yang Dilakukan oleh Pemerintah dan Swasta di Wilayah Kerja Kecamatan",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Nilai anggaran sangat besar untuk pengadaan langsung 1 paket dengan spesifikasi yang sangat umum, yaitu operasional kebersihan, sementara judul kegiatan terkait sinkronisasi program pemberdayaan masyarakat. Terdapat indikasi kuat ketidaksesuaian antara tujuan kegiatan dan objek belanja serta risiko pemborosan karena uraian barang/jasa tidak rinci."
   },
   {
@@ -39,6 +49,8 @@
     "satker": "Kecamatan Tarakan Barat",
     "pagu": 1006400000,
     "paket": "Belanja Hibah Kursi untuk Ketua RT di Wilayah Kecamatan Tarakan Barat",
+    "pemilihanDate": "February 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Pengadaan hibah kursi untuk ketua RT dengan nilai sangat besar menimbulkan indikasi kuat ketidakpatutan dan pemborosan anggaran. Dari judul dan nilai yang tersedia, item ini tampak tidak proporsional untuk belanja furnitur sederhana di tingkat kecamatan serta berpotensi memicu kecemburuan sosial."
   },
   {
@@ -46,6 +58,8 @@
     "satker": "Dinas Pekerjaan Umum dan Penataan Ruang",
     "pagu": 496170000,
     "paket": "Perencanaan dan Study Kelayakan Pembangunan Gedung Kantor Pengurus Wilayah Nahdlatul Ulama Kalimantan Tengah",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Penggunaan anggaran daerah untuk perencanaan pembangunan gedung kantor organisasi kemasyarakatan/keagamaan menimbulkan indikasi kuat ketidaksesuaian dengan prioritas belanja publik dan fungsi utama perangkat daerah teknis. Dari informasi judul dan konteks, manfaatnya tidak tampak langsung sebagai layanan publik inti pemerintah sehingga patut dinilai berisiko tinggi tidak pantas."
   },
   {
@@ -53,6 +67,8 @@
     "satker": "DINAS PENDIDIKAN DAN KEBUDAYAAN",
     "pagu": 271888000,
     "paket": "Belanja Kawat/Faksimili/Internet/TV Berlangganan Biaya Internet Dinas Pendidikan dan Kebudayaan Biaya internet kantor koordinator wilayah satuan pendidikan kecamatan dan Iuran TV Kabel",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Terdapat komponen iuran TV kabel dalam belanja internet untuk kantor/koordinator wilayah pendidikan. Fasilitas TV kabel tidak tampak esensial bagi fungsi utama layanan pendidikan dan berpotensi menjadi belanja yang tidak relevan dengan kebutuhan kedinasan. Karena item bercampur dalam satu paket, seluruh nilai layak dicermati sebagai potensi pemborosan maksimum."
   },
   {
@@ -60,6 +76,8 @@
     "satker": "Dinas Komunikasi dan Informatika",
     "pagu": 180000000,
     "paket": "Belanja Jasa yang diberikan kepada Pihak Ketiga/Pihak Lainnya (Spesifikasi : Bakti Penganyar keluar Wilayah Bali)",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan jasa untuk kegiatan “Bakti Penganyar keluar Wilayah Bali” pada dinas yang berfokus pada komunikasi dan informatika terindikasi kurang selaras dengan fungsi inti perangkat daerah. Judul dan spesifikasi sangat umum sehingga manfaat layanan publik sulit diverifikasi, sementara nilai anggaran cukup signifikan untuk frekuensi 3 kali."
   },
   {
@@ -67,6 +85,8 @@
     "satker": "Badan Riset dan Inovasi Daerah",
     "pagu": 180000000,
     "paket": "Bakti Penganyar Keluar Wilayah Bali",
+    "pemilihanDate": "March 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan jasa untuk kegiatan “Bakti Penganyar keluar wilayah Bali” pada unit riset dan inovasi daerah terindikasi kurang selaras dengan fungsi utama kelembagaan. Judul pekerjaan menunjukkan aktivitas seremonial/perjalanan representatif, bukan kebutuhan inti riset/inovasi, sehingga berisiko merupakan belanja yang tidak prioritas."
   },
   {
@@ -74,6 +94,8 @@
     "satker": "Badan Perencanaan Pembangunan Daerah",
     "pagu": 178000000,
     "paket": "Belanja Jasa Tenaga Ahli Sub Kegiatan Koordinasi Penyusunan Dokumen Perencanaan Pembangunan Daerah Bidang Kewilayahan RPJPD, RPJMD dan RKPD",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Spesifikasi pekerjaan menyebut penyusunan DED Pusat Research Hutan Mangrove Tahap II, yang tampak tidak selaras dengan subkegiatan koordinasi penyusunan dokumen perencanaan daerah RPJPD/RPJMD/RKPD. Indikasi ketidaksesuaian antara nama paket, uraian, dan spesifikasi cukup kuat sehingga seluruh nilai paket layak dicermati sebagai potensi pemborosan."
   },
   {
@@ -81,6 +103,8 @@
     "satker": "Dinas Pendidikan dan Kebudayaan",
     "pagu": 176290833,
     "paket": "Belanja Peralatan dan Mesin-Alat Kantor dan Rumah Tangga-Alat Rumah Tangga-Alat Rumah Tangga Lainnya (Home Use) (BOSP DAERAH SMA) - Cabang Dinas Pendidikan Wilayah VI",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan diklasifikasikan sebagai alat rumah tangga/home use dalam konteks belanja pendidikan menengah. Dari judul dan spesifikasi yang sangat umum, item tampak kurang selaras dengan prioritas kebutuhan pembelajaran dan berisiko digunakan untuk keperluan non-utama. Karena jenis barang yang dibeli bersifat rumah tangga dan detail kebutuhan tidak dijelaskan, seluruh nilai paket layak dicermati sebagai potensi pemborosan."
   },
   {
@@ -88,6 +112,8 @@
     "satker": "Sekretariat Daerah",
     "pagu": 150000000,
     "paket": "Belanja Jasa yang Diberikan kepada Pihak Ketiga/Pihak Lain Sub Kegiatan Pengelolaan Administrasi Kewilayahan",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan berupa uang pembinaan untuk lomba/pertandingan internal antar-SKPD tidak menunjukkan keluaran layanan publik yang jelas dan berisiko menjadi belanja seremonial/nonprioritas. Dengan nilai paket yang seluruhnya dialokasikan untuk hadiah/pembinaan, terdapat indikasi kuat bahwa anggaran ini tidak proporsional terhadap kebutuhan administrasi kewilayahan."
   },
   {
@@ -95,6 +121,8 @@
     "satker": "Dinas Bina Marga dan Penataan Ruang",
     "pagu": 100000000,
     "paket": "Pekerjaan Perencanaan Gapura UPTD Pengelolaan Jalan dan Jembatan Wilayah Pelayanan III",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Perencanaan pembangunan gapura untuk fasilitas UPTD jalan dan jembatan tampak kurang esensial dibanding fungsi utama pelayanan infrastruktur. Indikasi pemborosan tinggi karena anggaran dialokasikan untuk elemen seremonial/estetika yang manfaat publik langsungnya terbatas."
   },
   {
@@ -102,6 +130,8 @@
     "satker": "DINAS LINGKUNGAN HIDUP",
     "pagu": 100000000,
     "paket": "Kajian Pemetaan Potensi Retribusi Niaga Wilayah Tembalang, Banyumanik, Candisari, Gunungpati",
+    "pemilihanDate": "March 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Judul pengadaan berupa kajian pemetaan potensi retribusi niaga kurang selaras dengan fungsi utama satuan kerja lingkungan hidup. Indikasi ketidaksesuaian tugas ini cukup kuat dari data yang tersedia, sehingga seluruh nilai pengadaan layak dicermati sebagai potensi pemborosan."
   },
   {
@@ -109,6 +139,8 @@
     "satker": "Kecamatan Tamansari",
     "pagu": 89082000,
     "paket": "Belanja Barang untuk Dijual/Diserahkan kepada Masyarakat (Sinergitas dengan Kepolisian Negara Republik Indonesia, Tentara Nasional Indonesia dan Instansi Vertikal di Wilayah Kecamatan)",
+    "pemilihanDate": "July 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Indikasi ketidakpatutan tinggi karena pengadaan berupa jasket/blazer, tas ransel, buku agenda, dan name tag untuk sinergitas dengan aparat vertikal tidak menunjukkan kebutuhan barang publik yang esensial untuk diserahkan kepada masyarakat. Jenis barang cenderung bersifat atribut/merchandise sehingga manfaat langsungnya bagi layanan publik lemah."
   },
   {
@@ -116,6 +148,8 @@
     "satker": "Bagian Kesejahteraan Rakyat",
     "pagu": 75000000,
     "paket": "Belanja Jasa Penyelenggaraan Acara Ziarah Makam Bupati Madiun di Wilayah Jogjakarta Tahun 2026",
+    "pemilihanDate": "June 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan kegiatan ziarah makam dengan komponen seremoni dan dukungan pengawalan/medis menggunakan APBD berindikasi lemah keterkaitannya dengan kebutuhan layanan publik inti. Dari judul dan spesifikasi, manfaat publik langsung tidak jelas sehingga seluruh nilai anggaran patut dicermati sebagai potensi pemborosan."
   },
   {
@@ -123,6 +157,8 @@
     "satker": "DINAS PERUMAHAN RAKYAT DAN KAWASAN PERMUKIMAN",
     "pagu": 74037600,
     "paket": "Jasa Konsultansi Perencanaan Pelaksanaan Reses Dewan Wilayah 3 (Citangkil - Ciwandan)",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan jasa konsultansi perencanaan untuk pelaksanaan reses dewan terindikasi tidak selaras dengan fungsi utama perangkat daerah perumahan dan kawasan permukiman. Dari judul dan uraian, kebutuhan ini tampak lebih terkait kegiatan politik/legislatif daripada tugas teknis dinas, sehingga seluruh nilai pengadaan layak dicermati sebagai potensi pemborosan."
   },
   {
@@ -130,6 +166,8 @@
     "satker": "DINAS PERUMAHAN RAKYAT DAN KAWASAN PERMUKIMAN",
     "pagu": 74037600,
     "paket": "Jasa Konsultansi Perencanaan Pelaksanaan Reses Dewan Wilayah 1 (Jombang - Purwakarta)",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Item berupa jasa konsultansi/perencanaan untuk pelaksanaan reses dewan tidak tampak selaras dengan fungsi teknis satuan kerja bidang perumahan dan kawasan permukiman. Indikasi ketidaksesuaian tugas dan manfaat publik cukup kuat dari judul serta uraian pekerjaan, sehingga seluruh nilai pengadaan layak dicermati sebagai potensi pemborosan."
   },
   {
@@ -137,6 +175,8 @@
     "satker": "DINAS PERUMAHAN RAKYAT DAN KAWASAN PERMUKIMAN",
     "pagu": 74037600,
     "paket": "Jasa Konsultansi Perencanaan Pelaksanaan Reses Dewan Wilayah 4 (Grogol - Pulomerak)",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Item konsultansi untuk perencanaan pelaksanaan reses dewan terindikasi tidak selaras dengan fungsi utama perangkat daerah perumahan dan kawasan permukiman. Dari judul dan konteks, pengadaan ini tampak lebih terkait kegiatan politik/kedewanan daripada tugas teknis satker, sehingga seluruh nilai paket layak dicermati sebagai potensi pemborosan."
   }
 ]

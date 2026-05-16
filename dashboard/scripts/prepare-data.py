@@ -42,6 +42,7 @@ total_pagu, total_records = 0, 0
 jenis_counts  = collections.defaultdict(lambda: collections.defaultdict(int))
 metode_counts = collections.defaultdict(lambda: collections.defaultdict(int))
 pagu_by_month = collections.defaultdict(lambda: collections.defaultdict(int))
+pemilihan_by_id = {}
 
 for path in sorted(DATA_DIR.glob("*.jsonl")):
     for line in path.open():
@@ -57,6 +58,11 @@ for path in sorted(DATA_DIR.glob("*.jsonl")):
         jenis_counts[name][r.get("jenisPengadaan") or "Unknown"] += 1
         metode_counts[name][r.get("metode") or "Unknown"]        += 1
         pagu_by_month[name][r.get("pemilihanDate") or "Unknown"] += pagu
+        rid = r.get("id")
+        if rid is not None:
+            pd = r.get("pemilihanDate")
+            if pd:
+                pemilihan_by_id[rid] = pd
 
 flagged_count = collections.defaultdict(int)
 flagged_pagu  = collections.defaultdict(int)
@@ -223,6 +229,8 @@ for r in priority_records:
         "satker":              r.get("satker") or "",
         "pagu":                r.get("pagu") or 0,
         "paket":               r.get("paket") or "",
+        "pemilihanDate":       pemilihan_by_id.get(r.get("id"), ""),
+        "isInappropriate":     r.get("tags", {}).get("isInappropriate") or "",
         "inappropriateReason": r.get("tags", {}).get("inappropriateReason") or "",
     }
     for w in ALL_WORDS:

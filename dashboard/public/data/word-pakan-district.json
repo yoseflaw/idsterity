@@ -4,6 +4,8 @@
     "satker": "Sekretariat Dewan Perwakilan Rakyat Kabupaten",
     "pagu": 5565000000,
     "paket": "Belanja Natura dan Pakan-Natura dan Pakan Lainnya",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Pengadaan natura/pakan untuk jamuan, tamu, dan kebutuhan harian rumah tangga pimpinan legislatif dengan nilai sangat besar menunjukkan penggunaan anggaran yang bersifat personal dan kemewahan, bukan kebutuhan publik yang mendesak. Dari judul dan uraian, item ini menimbulkan kesan kuat pembebanan APBD untuk konsumsi serta rumah tangga pimpinan secara tidak patut."
   },
   {
@@ -11,6 +13,8 @@
     "satker": "Sekretariat Daerah",
     "pagu": 3842658000,
     "paket": "Belanja Natura dan Pakan-Natura (KDH)",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Pengadaan bahan makanan/sembako untuk rumah jabatan kepala daerah selama 1 tahun dengan nilai sangat besar menimbulkan indikasi kuat penggunaan APBD untuk konsumsi rumah tangga pejabat yang memicu kecemburuan sosial dan sulit dibenarkan sebagai prioritas belanja publik. Seluruh nilai patut dicermati sebagai potensi pemborosan."
   },
   {
@@ -18,6 +22,8 @@
     "satker": "Sekretariat Dewan Perwakilan Rakyat Daerah",
     "pagu": 3210922900,
     "paket": "Belanja Natura dan Pakan-Natura dan Belanja Makanan dan Minuman Rapat",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Pengadaan konsumsi harian, tamu, dan rapat untuk pimpinan/anggota DPRD dengan komponen berlabel VIP, prasmanan, nasi tumpeng, snack, buah, serta natura dalam nilai sangat besar menunjukkan pola belanja jamuan yang berlebihan dan berpotensi tidak proporsional terhadap kebutuhan dasar kedinasan. Indikasi pemborosan sangat kuat dari jenis item yang dominan konsumtif dan fasilitas representatif."
   },
   {
@@ -25,6 +31,8 @@
     "satker": "Sekretariat DPRD",
     "pagu": 2657780064,
     "paket": "Belanja Natura dan Pakan-Natura",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Pengadaan belanja natura/pakan untuk kebutuhan rumah tangga pimpinan DPRD dengan nilai sangat besar menimbulkan indikasi kuat penggunaan APBD untuk fasilitas pribadi/kerumahtanggaan pejabat, bukan kebutuhan publik yang proporsional. Dari judul dan uraian, item ini tampak sangat tidak patut dan berpotensi memicu kecemburuan sosial."
   },
   {
@@ -32,6 +40,8 @@
     "satker": "Sekretariat DPRD",
     "pagu": 2220000000,
     "paket": "Belanja Natura dan Pakan Natura (Peyediaan Bahan Pangan Pimpinan DPRD)",
+    "pemilihanDate": "December 2025",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Pengadaan bahan pangan khusus untuk pimpinan DPRD dengan nilai sangat besar merupakan penggunaan anggaran yang tampak berorientasi pada fasilitas personal pejabat, bukan kebutuhan layanan publik yang esensial. Dari judul dan nilai anggaran, item ini menimbulkan kesan kuat pembelanjaan tidak patut dan berpotensi memicu kecemburuan sosial."
   },
   {
@@ -39,6 +49,8 @@
     "satker": "Sekretariat Dewan Perwakilan Rakyat Daerah",
     "pagu": 1920000000,
     "paket": "Belanja Natura dan Pakan-Natura",
+    "pemilihanDate": "January 2021",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Pengadaan natura dan pakan untuk kebutuhan rumah tangga pimpinan DPRD sangat sulit dibenarkan sebagai belanja publik yang relevan dengan fungsi kelembagaan. Dari uraian item, manfaatnya bersifat personal/rumah tangga bagi pejabat, sehingga seluruh nilai paket terindikasi sebagai penggunaan anggaran yang tidak patut dan berpotensi menimbulkan pemborosan penuh."
   },
   {
@@ -46,6 +58,8 @@
     "satker": "Sekretariat DPRD",
     "pagu": 1842744000,
     "paket": "Belanja Natura dan pakan natura",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan \"natura dan pakan natura\" pada sekretariat legislatif terindikasi tidak relevan dengan fungsi administratif dan dukungan kedewanan. Istilah pakan natura juga menimbulkan indikasi belanja konsumtif yang sulit dibenarkan dalam konteks unit kerja ini, sehingga seluruh nilai paket layak dicermati sebagai potensi pemborosan."
   },
   {
@@ -53,6 +67,8 @@
     "satker": "Sekretariat DPRD",
     "pagu": 1794000000,
     "paket": "Belanja Natura dan Pakan-Natura",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Pengadaan natura/pakan berupa daging, ikan, dan sembako untuk konsumsi unsur pimpinan DPRD dengan nilai sangat besar menimbulkan kesan penggunaan APBD untuk fasilitas konsumtif yang tidak proporsional. Dari judul, uraian, dan nilai anggaran, item ini tampak mewah dan berisiko tinggi tidak selaras dengan prinsip efisiensi belanja publik."
   },
   {
@@ -60,6 +76,8 @@
     "satker": "Dinas Pertanian dan Peternakan",
     "pagu": 1792000000,
     "paket": "Pengadaan Bantuan Pakan Ayam Petelur",
+    "pemilihanDate": "March 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Terdapat indikasi kuat ketidaksesuaian objek pengadaan: judul menyebut bantuan pakan ayam petelur, tetapi uraian dan spesifikasi justru menyebut pakan ikan/pakan pembesaran ikan. Ketidakkonsistenan substansi ini signifikan dan berisiko menyebabkan belanja tidak tepat sasaran sehingga seluruh nilai patut dicermati sebagai potensi pemborosan."
   },
   {
@@ -67,6 +85,8 @@
     "satker": "Sekretariat DPRD",
     "pagu": 1680000000,
     "paket": "Belanja Natura dan Pakan-Natura",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan natura berupa makanan dan minuman harian untuk rumah jabatan DPRD bernilai sangat besar sehingga berindikasi kuat tidak proporsional terhadap kebutuhan dasar operasional. Belanja konsumsi rutin di rumah jabatan berisiko lebih menyerupai fasilitas personal daripada kebutuhan layanan publik yang mendesak, sehingga layak dinilai sebagai potensi pemborosan signifikan."
   },
   {
@@ -74,6 +94,8 @@
     "satker": "Sekretariat DPRD",
     "pagu": 1661506830,
     "paket": "Belanja Natura dan Pakan",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan belanja natura dan pakan oleh sekretariat lembaga legislatif daerah tampak tidak selaras dengan fungsi administratif dan dukungan kedewanan. Dari judul dan uraian yang tersedia, kebutuhan ini berindikasi kuat tidak relevan dengan tugas inti satuan kerja sehingga seluruh nilai pengadaan layak dicermati sebagai potensi pemborosan."
   },
   {
@@ -81,6 +103,8 @@
     "satker": "SEKRETARIAT DPRD",
     "pagu": 1536482400,
     "paket": "Belanja Natura dan Pakan Natura Kebutuhan Rumah Tangga Ketua DPRD",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Pengadaan kebutuhan rumah tangga untuk pimpinan DPRD dengan daftar bahan pangan sangat luas dan nilai anggaran sangat besar menunjukkan penggunaan dana publik untuk konsumsi domestik pejabat, bukan kebutuhan kedinasan yang wajar. Dari judul dan konteks, item ini menimbulkan kesan kuat pembiayaan fasilitas pribadi yang tidak patut dengan APBD."
   },
   {
@@ -88,6 +112,8 @@
     "satker": "Sekretariat DPRD",
     "pagu": 1500000000,
     "paket": "Belanja Natura dan Pakan-Natura",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Pengadaan makan dan minum untuk rumah dinas pimpinan daerah/DPRD bersifat konsumtif dan manfaat publik langsungnya sangat lemah. Dengan nilai sangat besar, item ini menimbulkan kesan penggunaan APBD untuk fasilitas pribadi/jabatan yang berlebihan dan berpotensi memicu kecemburuan sosial."
   },
   {
@@ -95,6 +121,8 @@
     "satker": "Sekretariat DPRD",
     "pagu": 1500000000,
     "paket": "Belanja Natura dan Pakan-Natura",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Pengadaan belanja natura/pakan untuk kebutuhan rumah tangga pimpinan DPRD merupakan penggunaan anggaran publik yang sangat tidak patut karena berorientasi pada kepentingan domestik/privat, bukan kebutuhan kedinasan yang jelas. Dengan nilai anggaran sangat besar dalam satu paket, seluruh nilai patut dicermati sebagai potensi pemborosan."
   },
   {
@@ -102,6 +130,8 @@
     "satker": "SEKRETARIAT DPRD",
     "pagu": 1418592000,
     "paket": "Belanja Natura dan Pakan Natura Kebutuhan Rumah Tangga Wakil Ketua I DPRD",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Pengadaan bahan pangan dan kebutuhan rumah tangga dalam nilai sangat besar untuk kebutuhan rumah tangga Wakil Ketua DPRD berindikasi tidak patut menggunakan anggaran publik. Judul dan uraian menunjukkan pemenuhan konsumsi domestik/pribadi yang tidak selaras dengan prinsip efisiensi dan kepentingan umum, sehingga seluruh nilai patut dicermati sebagai potensi pemborosan."
   },
   {
@@ -109,6 +139,8 @@
     "satker": "SEKRETARIAT DPRD",
     "pagu": 1418592000,
     "paket": "Belanja Natura dan Pakan Natura Kebutuhan Rumah Tangga Wakil Ketua IV DPRD",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Pengadaan bahan pangan dan kebutuhan rumah tangga untuk konsumsi pribadi jabatan politik di rumah tangga wakil ketua DPRD sangat sulit dibenarkan sebagai penggunaan APBD untuk kepentingan publik. Nilainya sangat besar untuk 1 paket dan berisi daftar kebutuhan harian rumah tangga yang luas, sehingga kuat mengindikasikan belanja tidak patut dan berpotensi seluruhnya merupakan pemborosan anggaran."
   },
   {
@@ -116,6 +148,8 @@
     "satker": "SEKRETARIAT DPRD",
     "pagu": 1418592000,
     "paket": "Belanja Natura dan Pakan Natura Kebutuhan Rumah Tangga Wakil Ketua II DPRD",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Pengadaan kebutuhan rumah tangga pribadi untuk Wakil Ketua DPRD dengan cakupan sangat luas dan nilai anggaran sangat besar tidak menunjukkan urgensi publik yang memadai. Dari judul dan uraian, belanja ini lebih menyerupai pemenuhan konsumsi/rumah tangga personal daripada kebutuhan kedinasan yang wajar, sehingga berpotensi menimbulkan kesan penggunaan APBD secara tidak patut."
   },
   {
@@ -123,6 +157,8 @@
     "satker": "SEKRETARIAT DPRD",
     "pagu": 1418592000,
     "paket": "Belanja Natura dan Pakan Natura Kebutuhan Rumah Tangga Wakil Ketua III DPRD",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Pengadaan kebutuhan rumah tangga dan bahan pangan sangat besar untuk rumah tangga pimpinan DPRD berisiko kuat tidak relevan dengan prinsip efisiensi belanja publik. Judul dan uraian menunjukkan pemenuhan konsumsi rumah tangga pribadi dengan cakupan komoditas sangat luas, sehingga menimbulkan kesan penggunaan APBD untuk kepentingan non-prioritas dan sangat tidak patut."
   },
   {
@@ -130,6 +166,8 @@
     "satker": "SEKRETARIAT DAERAH",
     "pagu": 1400000000,
     "paket": "Belanja Natura dan Pakan-Natura",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan natura/pakan untuk logistik rumah jabatan Wakil Bupati selama 10 bulan bernilai sangat besar sehingga berindikasi kuat sebagai belanja konsumtif yang tidak proporsional terhadap fungsi pemerintahan. Dari judul, spesifikasi, dan konteks penggunaannya, item ini layak dinilai tidak relevan atau berlebihan untuk dibiayai APBD pada skala tersebut."
   },
   {
@@ -137,6 +175,8 @@
     "satker": "Sekretariat Daerah",
     "pagu": 1364615000,
     "paket": "Belanja Natura dan Pakan-Natura Kepala daerah",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Pengadaan natura dan pakan-natura untuk kepala daerah merupakan belanja yang sangat sulit dibenarkan sebagai kebutuhan publik yang wajar. Judul item menunjukkan manfaat langsung bagi pejabat, bukan layanan publik atau operasional pemerintahan yang esensial, sehingga menimbulkan kesan penggunaan APBD untuk kepentingan pribadi atau fasilitas berlebihan."
   }
 ]

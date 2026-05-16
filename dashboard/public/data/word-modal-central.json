@@ -4,6 +4,8 @@
     "satker": "Sekretariat Kementerian",
     "pagu": 8868006000,
     "paket": "Belanja Modal Peralatan dan Mesin",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Terdapat indikasi pengadaan yang kurang selaras dengan prinsip efisiensi belanja publik, terutama paket pendukung rumah dinas, furniture ruang eksekutif/fresh room bernilai besar, serta perangkat pendukung non-esensial seperti pewangi ruangan dengan harga tinggi. Nilai beberapa komponen tampak mewah atau berlebihan untuk kebutuhan administratif kementerian, sehingga layak dicermati sebagai potensi pemborosan anggaran."
   },
   {
@@ -11,6 +13,8 @@
     "satker": "UNIVERSITAS PEMBANGUNAN NASIONAL VETERAN YOGYAKARTA",
     "pagu": 8843985000,
     "paket": "Belanja Modal Gedung dan Bangunan - BLU",
+    "pemilihanDate": "February 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Paket memuat perbaikan rumah dinas pimpinan universitas dalam porsi menonjol dengan nilai sangat besar, digabung bersama pekerjaan lain yang tidak sejenis. Komponen rumah dinas pimpinan berisiko rendah urgensi layanan publik dibanding kebutuhan akademik inti, sehingga layak dinilai sebagai indikasi penggunaan anggaran yang kurang selaras dan berpotensi boros."
   },
   {
@@ -18,6 +22,8 @@
     "satker": "Sekretariat Jenderal",
     "pagu": 8120906000,
     "paket": "Belanja Modal Peralatan dan Mesin",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Paket berisi banyak pengadaan amenitas dan pemolesan fasilitas wisma seperti bungalow VIP, kitchen set, furnitur kolam renang, air mancur, logo/gapura, lampu taman, gordyn, dan perlengkapan bungalow yang menimbulkan kesan penggunaan dana publik untuk fasilitas akomodasi dan estetika non-prioritas. Dengan nilai sangat besar dan ruang lingkup bercampur, indikasi ketidakpatutan dan potensi pemborosan sangat tinggi."
   },
   {
@@ -25,6 +31,8 @@
     "satker": "IM08 KANTOR IMIGRASI KELAS I TPI BENGKULU",
     "pagu": 4011237000,
     "paket": "Pengadaan Belanja Modal Peralatan dan Mesin Kendaraan Bermotor Pada Kantor Imigrasi Kelas I TPI Bengkulu Tahun Anggaran 2026",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan kendaraan patroli jenis Fortuner untuk kantor imigrasi berindikasi kurang proporsional karena menggunakan model SUV menengah-atas yang berpotensi melampaui kebutuhan operasional dasar. Terdapat sinyal pemborosan pada pemilihan tipe kendaraan, meski kebutuhan kendaraan operasional dan patroli secara umum masih relevan dengan fungsi instansi."
   },
   {
@@ -32,6 +40,8 @@
     "satker": "KEDUTAAN BESAR RI DI BEIRUT",
     "pagu": 3000000000,
     "paket": "Belanja Modal Peralatan dan Mesin",
+    "pemilihanDate": "February 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Pengadaan sedan Mercedes-Benz S 500 4MATIC untuk perwakilan RI merupakan kendaraan premium/mewah yang menimbulkan kesan penggunaan anggaran publik secara berlebihan. Dari judul item dan spesifikasi, indikasi ketidakpatutan sudah sangat kuat karena kelas kendaraan tersebut jauh di atas kebutuhan operasional umum pemerintahan."
   },
   {
@@ -39,6 +49,8 @@
     "satker": "Sekretariat Jenderal",
     "pagu": 2228960000,
     "paket": "Belanja Modal Peralatan dan Mesin (dibintangi)",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan kelengkapan rumah dinas pimpinan dalam satu paket belanja modal bernilai sangat besar menimbulkan indikasi kuat pembelanjaan fasilitas pejabat yang berpotensi berlebihan dan kurang mendesak dibanding kebutuhan publik. Paket juga mencampur kebutuhan berbeda-beda sehingga kewajaran alokasi sulit dinilai dan layak dicermati lebih lanjut."
   },
   {
@@ -46,6 +58,8 @@
     "satker": "25 KANWIL PAPUA SETJEN",
     "pagu": 1911689000,
     "paket": "Belanja Modal Peralatan dan Mesin berupa AC Sentral Dll pada kegiatan layanan sarana internal pada Kanwil Kemenhukum Papua, TA, 2026",
+    "pemilihanDate": "February 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Terdapat indikasi kuat ketidakpatutan pada pengadaan video wall bernilai sangat besar dibanding komponen sarana internal lainnya. Untuk konteks layanan sarana internal kantor, kebutuhan ini tampak kurang esensial dan berpotensi menjadi belanja yang tidak proporsional terhadap fungsi utama."
   },
   {
@@ -53,6 +67,8 @@
     "satker": "Perwakilan Imigrasi KJRI Johor Bahru",
     "pagu": 1370500000,
     "paket": "Pengadaan Belanja Modal Peralatan dan Mesin Layanan Keimigrasian di Perwakilan RI di Johor Bahru TA 2026",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Terdapat pengadaan kendaraan senilai sangat dominan dalam paket peralatan layanan keimigrasian. Berdasarkan judul dan rincian item, keberadaan mobil penerangan darat kurang selaras dengan karakter kebutuhan layanan peralatan dan mesin kantor, sehingga berindikasi kuat sebagai belanja yang tidak proporsional dan layak ditelaah lebih lanjut."
   },
   {
@@ -60,6 +76,8 @@
     "satker": "IM30 KANTOR IMIGRASI KELAS II TPI MIMIKA",
     "pagu": 1206370000,
     "paket": "Pengadaan Belanja Modal Peralatan dan Mesin berupa Perangkat Pengolahan Data dan Komunikasi pada Kantor Imigrasi Kelas II TPI Mimika Tahun Anggaran 2026",
+    "pemilihanDate": "March 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan video wall 2 unit senilai sangat besar dalam paket perangkat pengolahan data dan komunikasi untuk kantor imigrasi kelas II tampak berisiko tidak proporsional terhadap kebutuhan layanan inti. Selain itu terdapat drone dan beberapa kamera digital yang memerlukan justifikasi operasional yang kuat. Indikasi utama pemborosan berasal dari komponen video wall yang bernilai dominan dan berpotensi berlebihan."
   },
   {
@@ -67,6 +85,8 @@
     "satker": "RUMAH SAKIT MATA MAKASSAR",
     "pagu": 1163273000,
     "paket": "Belanja Modal Peralatan dan Mesin - BLU - Alat Pengolah Data",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Terdapat indikasi kuat pembelian smart cabinet server dengan nilai sangat besar dibanding komponen TI lain dalam paket, sehingga berpotensi tidak proporsional untuk kebutuhan pengolah data rumah sakit. Nilai item ini layak dicermati lebih lanjut dari sisi kewajaran harga, spesifikasi, dan urgensi."
   },
   {
@@ -74,6 +94,8 @@
     "satker": "Kementerian Koordinator Bidang Hukum Hak Asasi Manusia Imigrasi dan Pemasyarakatan",
     "pagu": 947152000,
     "paket": "Pengadaan Belanja Modal Peralatan dan Mesin TAYL (Tahun Anggaran Yang Lalu)",
+    "pemilihanDate": "December 2025",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Pengadaan meubelair khusus untuk pimpinan tinggi dengan nilai sangat besar menimbulkan indikasi kuat belanja mewah yang tidak proporsional terhadap kebutuhan dasar penyelenggaraan pemerintahan. Fokus pada furnitur pejabat tingkat menteri, wakil menteri, dan eselon I berisiko memicu kesan penggunaan anggaran yang tidak patut."
   },
   {
@@ -81,6 +103,8 @@
     "satker": "IM16 KANTOR IMIGRASI KELAS I TPI PONTIANAK",
     "pagu": 787500000,
     "paket": "Pengadaan Belanja Modal Peralatan dan Mesin berupa  Video Tron  terkait Perangkat pengolah Data dan Komunikasi pada Kantor Imigrasi Kelas I TPI Pontianak Kalimantan Barat TA 2026",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan videotron bernilai sangat besar untuk kantor imigrasi tampak kurang esensial dibanding fungsi layanan inti dan tidak jelas urgensi operasionalnya dari informasi yang tersedia. Nilai anggaran yang tinggi untuk 1 unit menimbulkan indikasi kuat belanja yang berpotensi tidak prioritas sehingga layak dicermati."
   },
   {
@@ -88,6 +112,8 @@
     "satker": "Perwakilan Imigrasi KBRI Kuala Lumpur",
     "pagu": 785452000,
     "paket": "Belanja Modal Peralatan dan Mesin Pengadaan Sarana dan Prasarana Internal KBRI Kuala Lumpur",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Terdapat indikasi pengadaan barang internal dengan spesifikasi/jenis yang berpotensi berlebihan untuk fungsi layanan perwakilan, terutama 2 unit televisi dengan nilai sangat tinggi, coffee maker bernilai tinggi, serta meja makan kayu. Kombinasi item bernuansa kenyamanan/non-prioritas dengan nilai signifikan layak dinilai tidak proporsional dan perlu justifikasi kebutuhan yang kuat."
   },
   {
@@ -95,6 +121,8 @@
     "satker": "17 KANWIL SULAWESI UTARA SETJEN",
     "pagu": 710001000,
     "paket": "Pengadaan Belanja Modal Peralatan dan Mesin (Videotron) untuk Kegiatan Pengadaan Peralatan Fasilitas Perkantoran pada Kantor Wilayah Kementerian Hukum Sulawesi Utara Tahun Anggaran 2026",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan 1 unit videotron senilai sangat besar untuk fasilitas perkantoran pada kantor wilayah berindikasi tidak esensial terhadap fungsi inti layanan dan administrasi. Nilai belanja yang tinggi untuk media display promosi/informasi ini patut dicermati sebagai potensi pemborosan anggaran karena manfaatnya bagi tugas utama instansi tidak tampak sebanding dari data yang tersedia."
   },
   {
@@ -102,6 +130,8 @@
     "satker": "PUSAT INVESTASI PEMERINTAH",
     "pagu": 598880000,
     "paket": "Belanja Modal Peralatan dan Mesin - BLU ( Furniture Credenza Piala)",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Pengadaan furniture credenza khusus piala bernilai sangat besar untuk institusi pemerintah menimbulkan indikasi kuat belanja yang bersifat seremonial dan tidak proporsional terhadap fungsi pelayanan publik. Nilai anggaran yang tinggi untuk item display piala tampak mewah dan berpotensi memicu persepsi penggunaan dana publik yang tidak patut."
   },
   {
@@ -109,6 +139,8 @@
     "satker": "MADRASAH ALIYAH NEGERI 2 BANJARNEGARA 417388",
     "pagu": 495748000,
     "paket": "Belanja Modal Peralatan dan Mesin",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Terdapat indikasi kuat harga tidak wajar pada komponen meja kantor dan lemari arsip senilai Rp276.948.000 untuk 1 paket dalam konteks satuan pendidikan. Nilai paket tersebut tampak terlalu besar dibanding kebutuhan furnitur administrasi yang lazim, sehingga berpotensi mengandung pembelian berlebihan atau spesifikasi yang tidak proporsional."
   },
   {
@@ -116,6 +148,8 @@
     "satker": "Direktorat Jenderal Pengendalian dan Penertiban Tanah dan Ruang",
     "pagu": 416765000,
     "paket": "Belanja Modal Peralatan dan Mesin Kegiatan Pengadaan Alat Penunjang Kinerja Direktorat Jenderal Pengendaliian dan Penertiban Tanah dan Ruang",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Pengadaan mebelair ruang pimpinan menunjukkan indikasi kemewahan yang sangat berlebihan untuk penggunaan dana publik, terutama kursi pimpinan puluhan juta, set sofa dengan harga sangat tinggi, smart TV, dan bracket TV bernilai besar. Nilai item-item ini tidak tampak proporsional sebagai alat penunjang kerja biasa dan berpotensi memicu kesan penggunaan anggaran yang tidak patut."
   },
   {
@@ -123,6 +157,8 @@
     "satker": "BALAI PELATIHAN KOMPETENSI FUNGSIONAL APARATUR PEMERINTAHAN DALAM NEGERI BIDANG ADMINISTRASI KEWILAYAHAN",
     "pagu": 375000000,
     "paket": "belanja modal set penanggulangan huru-hara (PHH) satpol pp",
+    "pemilihanDate": "April 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan set penanggulangan huru-hara untuk Satpol PP tampak tidak selaras dengan fungsi utama unit pelatihan kompetensi aparatur bidang administrasi kewilayahan. Dari judul dan konteks lembaga, item ini berindikasi kuat bukan kebutuhan prioritas operasional langsung satker sehingga seluruh nilai pengadaan layak dicermati sebagai potensi pemborosan."
   },
   {
@@ -130,6 +166,8 @@
     "satker": "UIN SYARIF HIDAYATULLAH JAKARTA",
     "pagu": 350000000,
     "paket": "Pengadaan Bangku Kuliah Belanja Modal Peralatan dan Mesin - BLU FSH UIN Syarif Hidayatullah Jakarta",
+    "pemilihanDate": "February 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Terdapat indikasi sangat kuat ketidakwajaran kuantitas/total biaya pada pengadaan bangku kuliah: uraian menunjukkan 100100 unit dengan harga satuan Rp3.500.000, yang menghasilkan nilai jauh melampaui alokasi paket. Ini mengindikasikan kemungkinan salah input spesifikasi/kuantitas atau perencanaan yang tidak akurat, sehingga berpotensi menimbulkan pemborosan anggaran yang sangat besar bila tidak dikoreksi."
   },
   {
@@ -137,6 +175,8 @@
     "satker": "KONSULAT JENDERAL RI DI HOUSTON",
     "pagu": 329480000,
     "paket": "Belanja Modal Peralatan dan Mesin",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Komposisi belanja memuat furnitur rumah tangga dan perangkat audio bernilai tinggi seperti sofa, meja makan, pengering pakaian, dan speaker, yang indikasi keterkaitannya dengan fungsi kerja kantor tidak kuat dari data yang tersedia. Nilai paket juga tampak jauh lebih tinggi dibanding penjumlahan harga satuan yang tercantum, sehingga layak dicermati sebagai potensi pemborosan."
   }
 ]

@@ -4,6 +4,8 @@
     "satker": "DINAS PENDIDIKAN",
     "pagu": 786350000,
     "paket": "Jasa Konsultansi Pengawasan Rehabilitasi Ruang Kelas",
+    "pemilihanDate": "March 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Nilai jasa konsultansi pengawasan tampak sangat tidak proporsional dibanding spesifikasi yang menyebut pengawasan untuk konstruksi fisik kisaran Rp140.000.001-Rp150.000.000. Selisih anggaran yang sangat besar mengindikasikan potensi pemborosan dan perlu verifikasi kuat atas ruang lingkup serta dasar perhitungannya."
   },
   {
@@ -11,6 +13,8 @@
     "satker": "DINAS KOMUNIKASI, INFORMATIKA DAN STATISTIK",
     "pagu": 651000000,
     "paket": "Klasifikasi Media Kelas A",
+    "pemilihanDate": "February 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan advertorial berbasis tayang untuk perangkat daerah komunikasi berpotensi menjadi belanja pencitraan yang kurang esensial bagi layanan publik. Nilai anggaran relatif besar untuk konten publikasi artikel/foto, sementara manfaat langsungnya terhadap kebutuhan dasar pemerintahan tidak tampak jelas dari uraian yang tersedia."
   },
   {
@@ -18,6 +22,8 @@
     "satker": "Kelurahan Bumiayu",
     "pagu": 641100000,
     "paket": "RT Berkelas - Tenda Dome",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Pengadaan tenda dome kapasitas 4–6 orang dalam jumlah besar oleh kelurahan dengan nilai anggaran sangat tinggi menimbulkan indikasi kuat ketidakpatutan penggunaan APBD. Barang ini tidak tampak sebagai kebutuhan prioritas layanan publik kelurahan dan berisiko memicu persepsi penggunaan dana secara tidak wajar."
   },
   {
@@ -25,6 +31,8 @@
     "satker": "BADAN KESATUAN BANGSA DAN POLITIK",
     "pagu": 380000000,
     "paket": "Penimbunan halaman belakang kantor Pengadilan Negeri Tembilahan Kelas II",
+    "pemilihanDate": "March 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Terdapat indikasi ketidaksesuaian kewenangan karena satuan kerja yang tercantum bukan pihak yang lazim menangani pekerjaan fisik pada kantor pengadilan. Pengadaan konstruksi untuk penimbunan area kantor lembaga peradilan oleh satker lain patut dicermati serius dari sisi relevansi penggunaan anggaran daerah dan kesesuaian tugas-fungsi."
   },
   {
@@ -32,6 +40,8 @@
     "satker": "BADAN KESATUAN BANGSA DAN POLITIK",
     "pagu": 380000000,
     "paket": "Semenisasi Halaman rumah dinas Pengadilan Negeri Tembilahan Kelas II  di jalan DPRD",
+    "pemilihanDate": "March 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Item berupa semenisasi halaman rumah dinas Pengadilan Negeri, namun pengadaan dilakukan oleh perangkat daerah yang secara fungsi tidak tampak selaras dengan objek pekerjaan tersebut. Indikasi ketidaksesuaian kewenangan dan relevansi belanja cukup kuat sehingga patut dikategorikan tidak pantas untuk dicermati lebih lanjut."
   },
   {
@@ -39,6 +49,8 @@
     "satker": "BADAN KESATUAN BANGSA DAN POLITIK",
     "pagu": 380000000,
     "paket": "Pembagunan Aula Kantor Pengadilan Negeri Tembilahan Kelas II",
+    "pemilihanDate": "March 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Item menunjukkan pembangunan aula untuk kantor pengadilan, namun pengadaan dibuka oleh perangkat daerah yang secara fungsi tidak tampak selaras dengan penyediaan infrastruktur lembaga yudikatif. Ketidaksesuaian hubungan tugas pembeli dan objek belanja ini merupakan indikasi kuat pengeluaran yang tidak relevan dan layak diaudit lebih lanjut."
   },
   {
@@ -46,6 +58,8 @@
     "satker": "Dinas Pendidikan",
     "pagu": 300000000,
     "paket": "PEMBANGUNAN RUANG KELAS PONDOK PESANTREN NURUL HUDA AL-MAYKURI",
+    "pemilihanDate": "February 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pembangunan ruang kelas untuk pondok pesantren oleh dinas pendidikan daerah berpotensi tidak selaras dengan prioritas penggunaan APBD bila ditujukan kepada lembaga pendidikan keagamaan tertentu. Indikasi ketidakpantasan cukup kuat karena manfaatnya tampak spesifik pada entitas tertentu, sehingga seluruh nilai paket layak dicermati sebagai potensi pemborosan."
   },
   {
@@ -53,6 +67,8 @@
     "satker": "Biro Umum",
     "pagu": 200150800,
     "paket": "Tiket Pesawat Luar Negeri Kelas Eksekutif",
+    "pemilihanDate": "April 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Pengadaan tiket pesawat luar negeri kelas eksekutif untuk perjalanan dinas pemerintah daerah merupakan belanja yang sangat tidak hemat dan berpotensi memicu kecemburuan sosial. Kelas eksekutif menunjukkan standar perjalanan yang mewah dibanding kebutuhan dasar perjalanan dinas, sehingga seluruh nilai pengadaan patut dicermati sebagai potensi pemborosan."
   },
   {
@@ -60,6 +76,8 @@
     "satker": "BAGIAN UMUM",
     "pagu": 200000000,
     "paket": "Penyediaan Peralatan dan Perlengkapan Kantor - Belanja Barang untuk Dijual/Diserahkan kepada Masyarakat - Pengadilan Negeri / Perikanan Kelas 1 B Bitung",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Terdapat indikasi kuat ketidakselarasan tujuan belanja. Uraian menyebut peralatan/perlengkapan kantor namun diklasifikasikan sebagai barang untuk dijual/diserahkan kepada masyarakat, serta penerima yang disebut adalah instansi peradilan/perikanan, bukan masyarakat. Pada konteks Bagian Umum pemerintah daerah, konstruksi kebutuhan ini tampak tidak relevan dan berpotensi seluruh anggaran tidak tepat sasaran."
   },
   {
@@ -67,6 +85,8 @@
     "satker": "Badan Kesatuan Bangsa dan Politik",
     "pagu": 158200000,
     "paket": "Rehabilitasi Tembok Lapas Kelas II A Bontang",
+    "pemilihanDate": "May 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan rehabilitasi tembok lembaga pemasyarakatan oleh satuan kerja bidang kesatuan bangsa dan politik pada pemerintah kota tampak tidak selaras dengan fungsi utama dan kewenangan yang lazim. Indikasi utama adalah potensi ketidaktepatan penggunaan anggaran lintas urusan; item ini layak ditelaah lebih lanjut dari sisi dasar kewenangan dan kebutuhan riil."
   },
   {
@@ -74,6 +94,8 @@
     "satker": "Dinas Pendidikan dan Kebudayaan",
     "pagu": 150000000,
     "paket": "Pembangunan Ruang Kelas Baru TPQ Muhammadiyah Srinahan, Desa Srinahan, Kecamatan Kesesi",
+    "pemilihanDate": "June 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Penggunaan APBD melalui Dinas Pendidikan dan Kebudayaan untuk pembangunan ruang kelas baru pada TPQ milik organisasi keagamaan tertentu terindikasi kurang selaras dengan fungsi layanan pendidikan publik yang seharusnya netral dan inklusif. Seluruh nilai paket patut dicermati sebagai potensi pemborosan/ketidaktepatan alokasi karena manfaatnya tampak terfokus pada lembaga nonformal berbasis afiliasi tertentu."
   },
   {
@@ -81,6 +103,8 @@
     "satker": "DINAS KESEHATAN",
     "pagu": 150000000,
     "paket": "Penyediaan Layanan Akses Internet bagi Mahasiswa Kelas Nabire",
+    "pemilihanDate": "March 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan layanan akses internet bagi mahasiswa tidak tampak selaras dengan fungsi utama satuan kerja kesehatan. Dari judul dan uraian, manfaatnya lebih dekat ke dukungan pendidikan daripada layanan kesehatan, sehingga seluruh nilai pengadaan terindikasi berisiko tidak tepat peruntukan dan layak ditelusuri lebih lanjut."
   },
   {
@@ -88,6 +112,8 @@
     "satker": "Dinas Pendidikan",
     "pagu": 145919377,
     "paket": "PENGADAAN MEBEL RUANG KELAS SMPN ERAGAYAM",
+    "pemilihanDate": "April 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Komposisi pengadaan mebel ruang kelas memuat banyak barang yang tidak lazim untuk kebutuhan ruang kelas sekolah, seperti sofa, kasur, meja makan, lemari makan, lemari pakaian, taplak meja, dan vas bunga. Indikasi ini menunjukkan paket berisi barang rumah tangga yang kurang relevan dengan fungsi utama pembelajaran, sehingga patut diduga menimbulkan pemborosan anggaran."
   },
   {
@@ -95,6 +121,8 @@
     "satker": "DINAS PERTANAHAN DAN PENATAAN RUANG",
     "pagu": 126267683,
     "paket": "Pembangunan Ruang Kelas Baru SMPN 20 (2 RKB) (Termin III) (Pembayaran Tahun 2025)",
+    "pemilihanDate": "March 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Terdapat ketidaksesuaian kuat antara judul pengadaan yang menyebut pembangunan ruang kelas SMP dan uraian/spesifikasi yang justru menyebut pembangunan gedung kantor. Inkonsistensi objek pekerjaan ini serius dan berpotensi menyebabkan penggunaan anggaran tidak tepat sasaran, sehingga nilai yang patut dicermati dapat mencapai seluruh pagu item."
   },
   {
@@ -102,6 +130,8 @@
     "satker": "Dinas Pendidikan dan Kebudayaan",
     "pagu": 100000000,
     "paket": "Pembangunan Ruang Kelas Baru TPQ Al Fatikh Desa Tengengwetan, Kecamatan Siwalan",
+    "pemilihanDate": "June 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Penggunaan anggaran dinas pendidikan daerah untuk pembangunan ruang kelas baru pada TPQ/pendidikan keagamaan nonformal tertentu berindikasi kurang selaras dengan fungsi layanan publik umum dan berpotensi menimbulkan isu keberpihakan. Dari judul pekerjaan, seluruh nilai pengadaan patut dicermati sebagai potensi pemborosan bila dasar kewenangan dan prioritas kebijakannya tidak kuat."
   },
   {
@@ -109,6 +139,8 @@
     "satker": "Kecamatan Bandung Kulon",
     "pagu": 99999250,
     "paket": "1 M2 hotmix tangan jalan kelas 6 ton kebawah PRAKARSA RW 01 (Kelurahan Cijerah)",
+    "pemilihanDate": "March 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Nilai anggaran sangat besar untuk uraian pekerjaan yang tercantum hanya 1 m2 hotmix tangan jalan kelas 6 ton ke bawah. Berdasarkan volume dan spesifikasi yang tersedia, terdapat indikasi kuat ketidakwajaran harga atau kesalahan perencanaan yang berpotensi menyebabkan pemborosan sangat signifikan."
   },
   {
@@ -116,6 +148,8 @@
     "satker": "Dinas Pendidikan dan Kebudayaan",
     "pagu": 92016000,
     "paket": "Belanja Jasa Konsultansi Konstruksi Pengawasan Pembangunan Ruang Kelas Baru-SD",
+    "pemilihanDate": "April 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Terdapat indikasi kuat ketidaksesuaian antara judul/uraian pengadaan jasa konsultansi konstruksi pengawasan pembangunan ruang kelas dan spesifikasi yang justru menyebut sewa kendaraan bermotor roda dua. Ketidakselarasan objek belanja ini mengindikasikan paket berpotensi tidak tepat peruntukan atau salah klasifikasi sehingga seluruh nilai patut dicermati sebagai potensi pemborosan."
   },
   {
@@ -123,6 +157,8 @@
     "satker": "SEKRETARIAT DAERAH",
     "pagu": 77220000,
     "paket": "Tiket Pesawat Kelas Bisnis",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Pengadaan tiket pesawat kelas bisnis untuk perjalanan domestik pemerintah daerah merupakan fasilitas premium yang sulit dibenarkan dari sisi efisiensi belanja publik. Dengan spesifikasi rute domestik dan volume yang tercantum, seluruh nilai pengadaan patut dicermati sebagai potensi pemborosan karena kebutuhan perjalanan dinas umumnya dapat dipenuhi dengan kelas yang lebih ekonomis."
   },
   {
@@ -130,6 +166,8 @@
     "satker": "Satuan Polisi Pamong Praja dan Pemadam Kebakaran",
     "pagu": 70950000,
     "paket": "Belanja Bantuan Iuran Jaminan Kesehatan bagi Peserta PBPU dan BP Kelas 3",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Indikasi ketidakselarasan fungsi belanja cukup kuat karena judul paket memuat bantuan iuran jaminan kesehatan peserta umum, sementara uraian dan spesifikasi justru menyebut iuran asuransi kecelakaan kerja dan santunan kematian pada satuan penegakan perda/pemadam. Ketidakkonsistenan objek belanja ini berisiko menunjukkan penganggaran yang tidak tepat sasaran atau salah klasifikasi sehingga seluruh nilai layak dicermati sebagai potensi pemborosan."
   },
   {
@@ -137,6 +175,8 @@
     "satker": "Kecamatan Bandung Kulon",
     "pagu": 70442450,
     "paket": "1 M2 hotmix tangan jalan kelas 6 ton kebawah PRAKARSA RW 10 (Kelurahan Cijerah)",
+    "pemilihanDate": "March 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Uraian dan spesifikasi menunjukkan volume hanya 1 m2 pekerjaan hotmix tangan, namun nilai anggaran sangat besar untuk lingkup pekerjaan sekecil itu. Indikasi utama adalah ketidakwajaran antara kuantitas pekerjaan dan nilai pengadaan sehingga patut diduga terjadi pemborosan anggaran."
   }
 ]

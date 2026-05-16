@@ -4,6 +4,8 @@
     "satker": "Dinas Kesehatan",
     "pagu": 846576950,
     "paket": "Belanja Obat-Obatan-Obat-Obatan Lainnya",
+    "pemilihanDate": "March 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan obat-obatan dengan uraian berupa kartrid TCM tidak selaras dengan klasifikasi belanja obat-obatan lainnya. Nilai anggaran sangat besar untuk 1 paket dan deskripsi sangat minim, sehingga terdapat indikasi kuat salah klasifikasi atau pengadaan yang perlu ditelaah mendalam atas kebutuhan dan kewajarannya."
   },
   {
@@ -11,6 +13,8 @@
     "satker": "Dinas Kesehatan",
     "pagu": 675000000,
     "paket": "Belanja Obat-Obatan-Obat",
+    "pemilihanDate": "March 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Terdapat indikasi kuat ketidaksesuaian jenis barang: judul dan uraian menyebut obat, namun spesifikasi menyebut cartridge TCM yang merupakan bahan habis pakai/komponen alat diagnostik, bukan obat. Ketidakselarasan klasifikasi ini berisiko menyebabkan penganggaran dan pengadaan tidak tepat sasaran sehingga layak dicermati serius."
   },
   {
@@ -18,6 +22,8 @@
     "satker": "DINAS KESEHATAN, PENGENDALIAN PENDUDUK DAN KELUARGA BERENCANA",
     "pagu": 669125000,
     "paket": "Obat-Obatan Lainnya",
+    "pemilihanDate": "July 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Spesifikasi berupa cartridge TCM tidak selaras dengan kategori obat-obatan dan berpotensi merupakan barang non-obat yang diklasifikasikan tidak tepat dalam belanja kesehatan. Seluruh nilai pengadaan layak dicermati sebagai potensi pemborosan karena relevansi dan klasifikasi item tidak jelas dari data yang tersedia."
   },
   {
@@ -25,6 +31,8 @@
     "satker": "Dinas Kesehatan",
     "pagu": 521917500,
     "paket": "Belanja Obat-Obatan-Obat",
+    "pemilihanDate": "February 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan cartridge TCM tidak selaras dengan judul item sebagai belanja obat-obatan. Dalam konteks belanja kesehatan, cartridge TCM lebih tepat dikategorikan sebagai bahan/alat diagnostik, sehingga terdapat indikasi salah klasifikasi anggaran dan potensi seluruh nilai belanja tidak tepat peruntukan."
   },
   {
@@ -32,6 +40,8 @@
     "satker": "SEKRETARIAT DAERAH",
     "pagu": 500000000,
     "paket": "Belanja Obat-Obatan Kebutuhan Rumah Tangga Kepala Daerah",
+    "pemilihanDate": "March 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan obat-obatan untuk kebutuhan rumah tangga kepala daerah/wakil kepala daerah tidak tampak selaras dengan fungsi belanja publik yang umum dan berisiko menjadi pembiayaan kebutuhan personal/non-prioritas. Nilai paket juga sangat besar untuk uraian yang sangat umum sehingga layak dicermati serius."
   },
   {
@@ -39,6 +49,8 @@
     "satker": "Dinas Kesehatan",
     "pagu": 385740000,
     "paket": "Belanja Obat-Obatan-Obat-Obatan Lainnya",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Terdapat ketidaksesuaian kuat antara judul paket obat-obatan, uraian yang didominasi bahan/cetak sertifikat, dan spesifikasi berupa reagen sanitarian kit. Indikasi ini menunjukkan klasifikasi belanja yang tidak selaras dan berisiko membuat seluruh nilai paket tidak tepat sasaran atau tidak transparan."
   },
   {
@@ -46,6 +58,8 @@
     "satker": "Dinas Perumahan, Kawasan Permukiman dan Pertanahan",
     "pagu": 262430000,
     "paket": "Belanja Obat-Obatan-Obat-Obatan Lainnya",
+    "pemilihanDate": "March 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan obat pembasmi gulma oleh perangkat daerah yang berfokus pada perumahan, kawasan permukiman, dan pertanahan tampak kurang selaras dengan fungsi utamanya. Dengan nilai anggaran yang signifikan dan spesifikasi barang yang sangat spesifik, item ini layak ditandai sebagai belanja yang berisiko tidak relevan sehingga seluruh nilainya patut dicermati sebagai potensi pemborosan."
   },
   {
@@ -53,6 +67,8 @@
     "satker": "Dinas Kesehatan",
     "pagu": 260715290,
     "paket": "Belanja Obat-Obatan-Obat-Obatan Lainnya",
+    "pemilihanDate": "March 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Terdapat ketidaksesuaian yang kuat antara klasifikasi pengadaan obat-obatan dan spesifikasi barang berupa stetoskop yang merupakan alat kesehatan, bukan obat. Mismatch ini mengindikasikan perencanaan/penganggaran tidak tepat dan berpotensi menyebabkan seluruh nilai pengadaan tidak efisien atau salah akun sehingga layak diawasi ketat."
   },
   {
@@ -60,6 +76,8 @@
     "satker": "SEKRETARIAT DAERAH",
     "pagu": 250000000,
     "paket": "Belanja Obat-Obatan Kebutuhan Wakil Kepala Daerah",
+    "pemilihanDate": "March 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan obat-obatan yang secara eksplisit ditujukan untuk kebutuhan kepala/wakil kepala daerah mengindikasikan penggunaan anggaran publik bagi kebutuhan yang sangat personal dan tidak menunjukkan keterkaitan jelas dengan layanan publik atau kebutuhan operasional umum perangkat daerah. Seluruh nilai paket layak dicermati sebagai potensi pemborosan."
   },
   {
@@ -67,6 +85,8 @@
     "satker": "Dinas Pekerjaan Umum dan Penataan Ruang",
     "pagu": 202400000,
     "paket": "Belanja Obat-Obatan-Obat",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan obat-obatan dan perlengkapan medis oleh dinas yang berfokus pada pekerjaan umum/penataan ruang tampak tidak selaras dengan fungsi utama organisasi. Berdasarkan judul dan uraian, seluruh paket layak dicermati sebagai belanja yang berpotensi tidak relevan dengan tugas pokok, sehingga nilai paket berindikasi sebagai potensi pemborosan."
   },
   {
@@ -74,6 +94,8 @@
     "satker": "DINAS PERTANIAN DAN KETAHANAN PANGAN",
     "pagu": 181404540,
     "paket": "Belanja Obat-Obatan-Obat-Obatan Lainnya",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan obat-obatan oleh perangkat daerah yang berfokus pada pertanian dan ketahanan pangan tampak kurang selaras dengan fungsi utamanya. Uraian juga sangat umum tanpa spesifikasi yang menjelaskan relevansi operasional, sehingga seluruh nilai pengadaan layak ditandai sebagai potensi pemborosan untuk ditelaah lebih lanjut."
   },
   {
@@ -81,6 +103,8 @@
     "satker": "DINAS PERTANIAN",
     "pagu": 173923250,
     "paket": "Belanja Obat-Obatan-Obat-Obatan Lainnya",
+    "pemilihanDate": "March 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan obat-obatan pada satuan kerja bidang pertanian tampak tidak selaras dengan fungsi utama kelembagaan yang umumnya berfokus pada sarana, prasarana, dan layanan pertanian. Uraian item juga sangat umum sehingga relevansi kebutuhan tidak terlihat jelas dari data yang tersedia. Seluruh nilai paket layak dicermati sebagai potensi pemborosan."
   },
   {
@@ -88,6 +112,8 @@
     "satker": "BAGIAN UMUM",
     "pagu": 150000000,
     "paket": "Belanja Obat-Obatan-Obat ( Sub Keg. Penyediaan Kebutuhan Rumah Tangga Kepala Daerah )",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan obat-obatan dalam paket kebutuhan rumah tangga kepala daerah oleh unit umum terindikasi kurang selaras dengan fungsi dukungan administrasi. Jenis barang yang dibeli berupa obat untuk penggunaan personal/rumah tangga sehingga berisiko menjadi belanja yang tidak relevan dengan kepentingan publik. Nilai pemborosan berpotensi sebesar seluruh anggaran apabila manfaat kedinasannya tidak dapat dibuktikan."
   },
   {
@@ -95,6 +121,8 @@
     "satker": "Sekretariat Daerah",
     "pagu": 150000000,
     "paket": "Belanja Obat-Obatan-Obat-Obatan Lainnya",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan obat dan multivitamin yang secara eksplisit ditujukan bagi KDH dan WKDH mengindikasikan manfaat yang sangat sempit dan personal, serta tidak mencerminkan kebutuhan pelayanan publik yang lebih luas. Dalam konteks belanja pemerintah daerah, alokasi penuh untuk kebutuhan kesehatan pejabat tertentu patut dinilai tidak relevan dan berpotensi menjadi pemborosan anggaran."
   },
   {
@@ -102,6 +130,8 @@
     "satker": "UNIT PENGELOLA PERPARKIRAN",
     "pagu": 140000000,
     "paket": "Pengadaan Obat-Obatan",
+    "pemilihanDate": "September 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan obat-obatan oleh unit pengelola perparkiran tampak tidak selaras dengan fungsi utama organisasi. Dari judul item dan konteks lembaga, kebutuhan ini terindikasi tidak relevan dengan tugas operasional inti sehingga seluruh nilai pengadaan layak dicermati sebagai potensi pemborosan."
   },
   {
@@ -109,6 +139,8 @@
     "satker": "DINAS PEMUDA DAN OLAHRAGA",
     "pagu": 121207662,
     "paket": "Belanja Obat-obatan Sarpras( PAC, Tawas dan Kaporit)",
+    "pemilihanDate": "March 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan PAC, tawas, dan kaporit merupakan bahan kimia pengolahan air yang indikasi relevansinya lemah terhadap fungsi utama perangkat daerah bidang pemuda dan olahraga. Seluruh nilai paket patut dicermati sebagai potensi pemborosan karena jenis barang tampak tidak selaras dengan tugas kelembagaan dari informasi yang tersedia."
   },
   {
@@ -116,6 +148,8 @@
     "satker": "DINAS PENDIDIKAN, PEMUDA DAN OLAHRAGA",
     "pagu": 105506400,
     "paket": "Belanja Alat/Bahan untuk Kegiatan Kantor-Perabot Kantor PEMBELIAN OBAT - OBATAN KOLAM RENANG",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan obat-obatan kolam renang pada satuan kerja pendidikan/pemuda/olahraga dengan klasifikasi belanja perabot kantor tampak tidak selaras dan berisiko menunjukkan salah klasifikasi atau kebutuhan yang tidak proporsional. Nilai anggarannya signifikan untuk 1 paket sehingga layak dicermati sebagai potensi pemborosan."
   },
   {
@@ -123,6 +157,8 @@
     "satker": "BAGIAN UMUM",
     "pagu": 101057000,
     "paket": "Belanja Obat-Obatan-Obat ( Sub Keg. Penyediaan Kebutuhan Rumah Tangga Wakil Kepala Daerah )",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan obat-obatan dalam paket kebutuhan rumah tangga Wakil Kepala Daerah oleh unit umum menunjukkan indikasi penggunaan anggaran untuk kebutuhan personal/nonkedinasan. Daftar barang mencakup obat bebas, suplemen, produk bayi, dan kebutuhan kesehatan rumah tangga yang tidak tampak sebagai kebutuhan operasional pemerintahan yang lazim."
   },
   {
@@ -130,6 +166,8 @@
     "satker": "UPTD Puskesmas Cimanggis",
     "pagu": 100000000,
     "paket": "Belanja Obat-obatan/Pupuk UPTD Puskesmas Cimanggis",
+    "pemilihanDate": "March 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Terdapat indikasi kuat ketidaksesuaian jenis belanja karena item mencantumkan pupuk dalam konteks pengadaan untuk puskesmas. Pupuk tidak tampak relevan dengan fungsi utama layanan kesehatan, sehingga anggaran berisiko digunakan untuk kebutuhan yang tidak selaras dengan tugas unit."
   },
   {
@@ -137,6 +175,8 @@
     "satker": "Sekretariat Daerah",
     "pagu": 95000000,
     "paket": "Belanja Obat-Obatan-Obat",
+    "pemilihanDate": "February 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan obat-obatan dan bahan laboratorium oleh unit sekretariat daerah tampak kurang selaras dengan fungsi administratif umum. Dari konteks yang tersedia, kebutuhan ini berindikasi tidak relevan dengan tugas utama unit pembeli sehingga seluruh nilai pengadaan layak dicermati sebagai potensi pemborosan."
   }
 ]

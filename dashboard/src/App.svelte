@@ -1181,7 +1181,7 @@
         z-index: 1;
         text-align: center;
         padding: 4rem 2rem;
-        max-width: 680px;
+        max-width: min(96vw, 1100px);
     }
 
     .eyebrow {

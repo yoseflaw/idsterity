@@ -4,6 +4,8 @@
     "satker": "Sekretariat DPRD",
     "pagu": 45188446000,
     "paket": "Belanja Alat/Bahan untuk Kegiatan Kantor- Bahan Cetak Sub Kegiatan Sosialisasi Peraturan Perundang Undangan",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Nilai anggaran sangat besar untuk kebutuhan bahan cetak rutin selama 12 bulan seperti banner, fotokopi, dan cetak buku/jilid. Dari jenis output yang tercantum, besaran dana tampak tidak proporsional dan berindikasi kuat terjadi pemborosan anggaran, meskipun tanpa cukup dasar untuk menyimpulkan keseluruhan pengadaan fiktif atau melawan hukum."
   },
   {
@@ -11,6 +13,8 @@
     "satker": "Sekretariat DPRD",
     "pagu": 30960700000,
     "paket": "Belanja Jasa Iklan/Reklame, Film, dan Pemotretan Sub Kegiatan Hubungan Masyarakat",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Anggaran jasa iklan, advertorial, media online, dan billboard/baleho dengan nilai sangat besar untuk fungsi kehumasan Sekretariat DPRD menimbulkan indikasi kuat pemborosan dan ketidakpatutan penggunaan dana publik. Dari judul dan uraian, pengeluaran promosi/publikasi ini tampak berlebihan serta berpotensi memicu kecemburuan sosial."
   },
   {
@@ -18,6 +22,8 @@
     "satker": "DINAS PEMUDA DAN OLAHRAGA",
     "pagu": 28770966900,
     "paket": "Belanja Modal Alat Kantor Lainnya (Videotron Outdoor Tennis Kapten Muslihat) Pada Sub Kegiatan Pemeliharaan/Rehabilitasi Sarana dan Prasarana Gedung kantor atau Bangunan Lainnya",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Pengadaan videotron outdoor sebanyak 300 unit dengan nilai sangat besar untuk konteks sarana olahraga/gedung pemerintah tampak sangat berlebihan dan menimbulkan indikasi kuat pembelian yang tidak proporsional terhadap kebutuhan wajar. Skala dan nilai belanja berpotensi memicu pemborosan anggaran publik secara ekstrem."
   },
   {
@@ -25,6 +31,8 @@
     "satker": "SEKRETARIAT DPRD",
     "pagu": 25092000000,
     "paket": "Belanja Makanan dan Minuman Rapat Sub Kegiatan Pengawasan Penggunaan Anggaran",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Anggaran konsumsi rapat bernilai sangat besar untuk satu paket pada lingkungan sekretariat legislatif menimbulkan indikasi kuat pemborosan dan ketidakpatutan penggunaan dana publik. Nilainya tampak jauh melampaui kebutuhan wajar belanja makanan dan minuman rapat."
   },
   {
@@ -32,6 +40,8 @@
     "satker": "DINAS PENDIDIKAN DAN KEBUDAYAAN",
     "pagu": 23393994895,
     "paket": "Pembangunan Sekolah Di Wilayah Grand City Balikpapan Utara Sub Kegiatan Pembangunan Unit Sekolah Baru (USB)",
+    "pemilihanDate": "March 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Nilai anggaran sangat tinggi untuk pembangunan gedung standar sederhana dengan luas bangunan di bawah 500 m2. Berdasarkan informasi yang tersedia, terdapat indikasi kuat ketidaksebandingan antara spesifikasi fisik pekerjaan dan besaran anggaran sehingga layak diduga mengandung potensi pemborosan yang signifikan."
   },
   {
@@ -39,6 +49,8 @@
     "satker": "Sekretariat Dewan Perwakilan Rakyat Daerah",
     "pagu": 14671206000,
     "paket": "Belanja Perjalanan Dinas Sub Kegiatan Fasilitasi Rapat Koordinasi dan Konsultasi DPRD",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Anggaran perjalanan dinas untuk fasilitasi rapat koordinasi dan konsultasi DPRD selama 12 bulan bernilai sangat besar dan berisiko kuat tidak proporsional terhadap kebutuhan administratif. Belanja perjalanan dinas dalam skala ini berpotensi menimbulkan pemborosan dan kesan penggunaan dana publik yang tidak patut, sehingga layak dikategorikan sangat tidak pantas untuk dicermati ketat."
   },
   {
@@ -46,6 +58,8 @@
     "satker": "DINAS PEMUDA DAN OLAHRAGA",
     "pagu": 11232747600,
     "paket": "Belanja Modal Peralatan Studio Audio Pada Sub Kegiatan Pemeliharaan/Rehabilitasi Sarana dan Prasarana Gedung kantor atau Bangunan Lainnya",
+    "pemilihanDate": "April 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan peralatan studio audio/sound system bernilai sangat besar dalam satu paket pada dinas pemuda dan olahraga, sementara judul kegiatan dikaitkan dengan pemeliharaan/rehabilitasi sarana gedung. Jenis barang yang sangat banyak dan spesifikasi audio profesional berdaya tinggi mengindikasikan lingkup yang kurang selaras dengan nomenklatur kegiatan pemeliharaan bangunan serta berpotensi berlebihan untuk kebutuhan umum kantor/gedung."
   },
   {
@@ -53,6 +67,8 @@
     "satker": "Dinas Perumahan Rakyat dan Kawasan Permukiman",
     "pagu": 10817500000,
     "paket": "Belanja Barang untuk Dijual/Diserahkan kepada Pihak Ketiga/Pihak Lain Sub Kegiatan : Pembangunan Sistem Penyediaan Air Minum (SPAM) Jaringan Perpipaan",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Terdapat indikasi kuat ketidaksesuaian antara sub kegiatan pembangunan SPAM jaringan perpipaan dengan uraian pekerjaan yang justru berupa jalan paving. Ketidakselarasan objek belanja dengan tujuan kegiatan menunjukkan risiko belanja tidak relevan sehingga nilai anggaran berpotensi tidak efisien secara signifikan."
   },
   {
@@ -60,6 +76,8 @@
     "satker": "Dinas Komunikasi, Informatika, Statistik dan Persandian",
     "pagu": 7690000000,
     "paket": "Belanja Jasa Iklan/Reklame, Film dan Pemotretan Sub Kegiatan Relasi Media",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Nilai anggaran sangat besar untuk jasa iklan/reklame, film, dan pemotretan dalam satu paket kegiatan relasi media di tingkat kabupaten. Dari judul dan nilai yang tersedia, terdapat indikasi kuat belanja publikasi/promosi yang berlebihan dan tidak proporsional terhadap kebutuhan layanan publik, sehingga berpotensi menimbulkan pemborosan anggaran yang ekstrem."
   },
   {
@@ -67,6 +85,8 @@
     "satker": "SEKRETARIAT DPRD",
     "pagu": 6022233000,
     "paket": "Belanja Alat/Bahan untuk Kegiatan Kantor-Alat Tulis Kantor Sub Kegiatan Pelaksanaan Reses",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Nilai anggaran sangat besar untuk pengadaan alat tulis, fotokopi, jilid, spanduk, dan banner dalam satu paket kegiatan reses. Berdasarkan jenis barang yang tercantum, komponen belanja bersifat rutin dan bernilai satuan relatif rendah sehingga total anggaran miliaran rupiah tampak tidak proporsional dan berindikasi pemborosan yang serius."
   },
   {
@@ -74,6 +94,8 @@
     "satker": "SEKRETARIAT DPRD",
     "pagu": 5500176000,
     "paket": "Belanja Pemeliharaan Bangunan Gedung-Bangunan Gedung Tempat Kerja-Bangunan Gedung Kantor (Pemeliharaan/Rehab Rumah Jabatan) (Sub Kegiatan Penyediaan Kebutuhan Rumah Tangga DPRD)",
+    "pemilihanDate": "April 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Anggaran pemeliharaan/rehab rumah jabatan pimpinan legislatif dengan nilai sekitar Rp5,5 miliar tampak sangat berlebihan untuk kategori pemeliharaan, berpotensi menimbulkan kesan penggunaan dana publik secara tidak patut dan memicu kecemburuan sosial. Dari judul dan nilai anggaran, item ini layak dikategorikan sangat tidak pantas untuk dicermati mendalam."
   },
   {
@@ -81,6 +103,8 @@
     "satker": "Kemenko Polkam",
     "pagu": 5000000000,
     "paket": "TANPA SUB KOMPONEN",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan barang dengan metode dikecualikan untuk belanja perjalanan dinas paket meeting luar kota senilai sangat besar menimbulkan indikasi kuat ketidaktepatan klasifikasi dan potensi pemborosan, karena kegiatan rapat perjalanan dinas bukan kebutuhan barang yang lazim serta nilai anggarannya sangat tinggi untuk satu paket."
   },
   {
@@ -88,6 +112,8 @@
     "satker": "SEKRETARIAT DPRD",
     "pagu": 4981221000,
     "paket": "Belanja Alat/Bahan untuk Kegiatan Kantor-Alat Tulis Kantor Sub kegiatan Pengawasan Penggunaan Anggaran",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Nilai anggaran sangat besar untuk pengadaan ATK dan kebutuhan administrasi sederhana seperti buku catatan, bolpoin, jilid/cetak, fotokopi, map plastik, dan spanduk dalam 1 paket. Jenis barang yang tercantum bersifat rutin dan bernilai satuan rendah, sehingga pagu yang sangat tinggi merupakan indikasi kuat pemborosan dan perlu pemeriksaan rinci atas volume serta kewajaran harga."
   },
   {
@@ -95,6 +121,8 @@
     "satker": "SEKRETARIAT DPRD",
     "pagu": 4865166138,
     "paket": "Belanja Perjalanan Dinas Biasa Luar Negeri (Sub Kegiatan Pengawasan Urusan Pemerintahan Bidang Perekonomian)",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Anggaran perjalanan dinas luar negeri bernilai sangat besar untuk fungsi pengawasan DPRD menimbulkan kesan penggunaan dana publik yang berlebihan dan tidak proporsional. Terdapat pula inkonsistensi konteks karena judul menyebut luar negeri sementara rincian memuat komponen perjalanan biasa, dalam kota, dan meeting dalam kota, sehingga patut dinilai sangat tidak pantas dan berisiko pemborosan penuh."
   },
   {
@@ -102,6 +130,8 @@
     "satker": "SEKRETARIAT DPRD",
     "pagu": 3704720344,
     "paket": "Belanja Perjalanan Dinas Dalam Negeri (Belanja Perjalanan Dinas Biasa) (Sub Kegiatan Fasilitasi Tugas Pimpinan DPRD)",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Anggaran perjalanan dinas untuk fasilitasi tugas pimpinan DPRD bernilai sangat besar dan berisiko tidak proporsional terhadap kebutuhan riil. Uraian menunjukkan belanja perjalanan biasa tanpa justifikasi rinci mengenai frekuensi, output, atau dasar kebutuhan, sehingga terdapat indikasi kuat pemborosan anggaran yang layak diaudit lebih lanjut."
   },
   {
@@ -109,6 +139,8 @@
     "satker": "SEKRETARIAT DITJEN PENDIDIKAN ANAK USIA DINI PENDIDIKAN DASAR DAN PENDIDIKAN MENENGAH",
     "pagu": 3600000000,
     "paket": "Pengadaan Jasa Transport Petugas/Tiket Kegiatan Sub Komponen Monev Quick Win Program Prabowo Gibran Makan Bergizi Gratis ke Satuan Pendidikan",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan jasa transport petugas senilai sangat besar untuk kegiatan yang dikaitkan dengan program politik tertentu menimbulkan indikasi ketidakselarasan dengan kebutuhan operasional yang lazim. Uraian sangat umum, hanya 1 paket, dan metode dikecualikan membatasi pembenaran kewajaran biaya sehingga layak dikategorikan berisiko tinggi."
   },
   {
@@ -116,6 +148,8 @@
     "satker": "SEKRETARIAT DPRD",
     "pagu": 3020672000,
     "paket": "Belanja Perjalanan Dinas Dalam Kota Sub Kegiatan Koordinasi dan Konsultasi Pelaksanaan Tugas DPRD",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Anggaran perjalanan dinas dalam kota untuk koordinasi dan konsultasi tugas DPRD sebesar Rp3,02 miliar dalam 1 tahun tampak sangat berlebihan untuk kegiatan lokal. Dari judul dan nilai anggaran, terdapat indikasi kuat pemborosan belanja rutin yang tidak proporsional dan berpotensi memicu persepsi penggunaan APBD secara tidak patut."
   },
   {
@@ -123,6 +157,8 @@
     "satker": "SEKRETARIAT DPRD",
     "pagu": 2759610000,
     "paket": "Belanja Sewa Alat Kantor Lainnya Sub Kegiatan Pelaksanaan Reses",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Nilai anggaran sangat besar untuk sewa tenda dalam kegiatan reses, sementara uraian dan spesifikasi yang tersedia sangat sederhana dan terbatas. Dengan hanya mencantumkan sewa tenda ukuran standar sebagai 1 paket, item ini menimbulkan indikasi kuat pemborosan dan penggunaan anggaran yang tidak proporsional terhadap kebutuhan yang tampak."
   },
   {
@@ -130,6 +166,8 @@
     "satker": "Sekretariat Dewan Perwakilan Rakyat Daerah Provinsi Bengkulu",
     "pagu": 2700000000,
     "paket": "Belanja Makanan dan Minuman Rapat - Rapat Biasa dan Kegiatan | spesifikasi : Makan Minum & Kudapan (Snack) Sub Keg RESES",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Anggaran makanan, minuman, dan kudapan untuk kegiatan rapat/reses DPRD bernilai sangat besar dan berisiko tidak proporsional terhadap kebutuhan konsumsi rapat. Dari judul dan spesifikasi, belanja ini bersifat penunjang, bukan output publik utama, sehingga layak dikategorikan sebagai indikasi pemborosan serius."
   },
   {
@@ -137,6 +175,8 @@
     "satker": "SEKRETARIAT DEWAN PERWAKILAN RAKYAT PROVINSI PAPUA BARAT",
     "pagu": 2500000000,
     "paket": "Eksploitasi Kendaraan Dinas/Tahun pada sub kegiatan Pemeliharaan Peralatan dan Mesin Lainnya",
+    "pemilihanDate": "March 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan bertajuk eksploitasi kendaraan dinas untuk kendaraan roda 4 pejabat tinggi legislatif/daerah dengan metode dikecualikan dan nilai sangat besar menimbulkan indikasi kuat pembiayaan operasional/fasilitas pejabat yang berpotensi tidak efisien. Uraian tidak menunjukkan kebutuhan publik yang terukur, sementara cakupan penggunaan untuk kendaraan pimpinan menimbulkan risiko pemborosan anggaran."
   }
 ]

@@ -4,6 +4,8 @@
     "satker": "Dinas Komunikasi dan Informatika",
     "pagu": 3516240000000,
     "paket": "Belanja Kawat/Faksimili/Internet/TV Berlangganan",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Nilai anggaran untuk layanan internet 1 tahun pada 299 titik sangat tidak wajar dibanding karakter jasa berlangganan sejenis. Dengan konteks pengadaan layanan konektivitas oleh instansi pemerintah daerah, besaran ini merupakan indikasi kuat potensi pemborosan/kelebihan anggaran yang sangat signifikan dan layak diaudit rinci terhadap harga satuan, kapasitas layanan, serta kebutuhan riil."
   },
   {
@@ -11,6 +13,8 @@
     "satker": "Dinas Pengendalian Penduduk dan Keluarga Berencana",
     "pagu": 5637000000,
     "paket": "Belanja Kawat/Faksimili/Internet/TV Berlangganan",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Nilai anggaran sangat besar untuk paket komunikasi/TV berlangganan dengan spesifikasi beban penggantian pulsa tim pendamping keluarga. Dari judul dan spesifikasi yang tersedia, terdapat indikasi kuat ketidaksepadanan antara kebutuhan operasional yang lazim dan besaran anggaran, sehingga layak diduga mengandung pemborosan signifikan."
   },
   {
@@ -18,6 +22,8 @@
     "satker": "DINAS KESEHATAN, PENGENDALIAN PENDUDUK DAN KELUARGA BERENCANA",
     "pagu": 5625000000,
     "paket": "Belanja Kawat/Faksimili/Internet/TV Berlangganan",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Nilai anggaran sangat besar untuk belanja paket data handphone/layanan internet berlangganan dalam satu paket, sehingga terdapat indikasi kuat ketidakwajaran dan potensi pemborosan. Jenis belanja ini semestinya memiliki kebutuhan terukur, rinci, dan proporsional terhadap jumlah pengguna serta durasi layanan."
   },
   {
@@ -25,6 +31,8 @@
     "satker": "Sekretariat DPRD",
     "pagu": 4431300000,
     "paket": "Belanja Langganan Jurnal/Surat Kabar/Majalah",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Alokasi sangat besar untuk langganan jurnal/surat kabar/majalah dalam 1 paket pada sekretariat legislatif terindikasi tidak proporsional terhadap kebutuhan operasional wajar. Judul pengadaan tidak menunjukkan keluaran substantif yang sebanding dengan nilai anggaran, sehingga layak diduga memuat pembelian berlebihan atau belanja yang kurang efisien."
   },
   {
@@ -32,6 +40,8 @@
     "satker": "DINAS PENGENDALIAN PENDUDUK, KB, PEMBERDAYAAN PEREMPUAN DAN PERLINDUNGAN ANAK",
     "pagu": 4188000000,
     "paket": "Belanja Kawat/Faksimili/Internet/TV Berlangganan",
+    "pemilihanDate": "March 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Nilai anggaran sangat besar untuk langganan internet/TV dan kuota internet, sementara spesifikasi yang tersedia hanya menyebut kuota internet serta GPS tracker tanpa rincian kebutuhan, jumlah titik, durasi, atau justifikasi teknis yang memadai. Dalam konteks perangkat daerah terkait pengendalian penduduk dan perlindungan anak, besaran ini terindikasi tidak proporsional dan layak diaudit mendalam untuk efisiensi serta kewajaran belanja."
   },
   {
@@ -39,6 +49,8 @@
     "satker": "DINAS KOMUNIKASI DAN INFORMATIKA",
     "pagu": 4171120000,
     "paket": "Belanja Langganan Jurnal/Surat Kabar/Majalah",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Nilai anggaran untuk langganan media televisi, berita online, jurnal/surat kabar/majalah dalam 1 paket terindikasi sangat tidak proporsional untuk kebutuhan operasional umum pemerintah daerah. Dengan spesifikasi yang sangat umum dan volume hanya 1 paket, terdapat indikasi kuat pengadaan tidak efisien atau berlebihan."
   },
   {
@@ -46,6 +58,8 @@
     "satker": "Dinas Komunikasi, Informatika dan Statistik",
     "pagu": 2451000000,
     "paket": "Belanja Langganan Jurnal/Surat Kabar/Majalah 01.23",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Nilai anggaran untuk langganan jurnal/surat kabar/majalah sangat besar untuk satu paket dan tidak didukung rincian jumlah, jenis, durasi, atau kebutuhan yang proporsional. Indikasi kuat adanya pembelian berlebihan atau alokasi yang tidak efisien pada belanja informasi periodik."
   },
   {
@@ -53,6 +67,8 @@
     "satker": "DINAS PEMBERDAYAAN PEREMPUAN PERLINDUNGAN ANAK DAN KELUARGA BERENCANA",
     "pagu": 2450400000,
     "paket": "Belanja Kawat/Faksimili/Internet/TV Berlangganan (Paket Internet/Kuota TPK)",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Nilai anggaran untuk paket internet/kuota sangat besar untuk satu paket dan tidak tampak proporsional dari uraian yang tersedia. Pengadaan konektivitas memang dapat relevan, namun besaran ini layak diindikasikan sebagai potensi pemborosan dan perlu verifikasi rinci kebutuhan, jumlah penerima, durasi, serta satuan biayanya."
   },
   {
@@ -60,6 +76,8 @@
     "satker": "DINAS SOSIAL DAN PENGENDALIAN PENDUDUK DAN KELUARGA BERENCANA DAN PEMBERDAYAAN PEREMPUAN DAN PERLINDUNGAN ANAK",
     "pagu": 2412000000,
     "paket": "Belanja Kawat/Faksimili/Internet/TV Berlangganan Sub Kegiatan Pemantauan Data dan Informasi Keluarga Berisiko Stunting (Termasuk remaja Calon Pengantin/Calon PUS, Ibu Hamil, Pasca salin/kelahiran, Baduta/Balita) Dinsos PPKB dan P3A Kabupaten Wonogiri",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Nilai anggaran untuk paket data/sarana komunikasi tampak sangat besar dibanding karakter kebutuhan layanan TIK yang disebut secara umum dan hanya 1 paket. Judul dan spesifikasi tidak menunjukkan justifikasi teknis yang memadai untuk besaran tersebut, sehingga terdapat indikasi kuat penganggaran berlebih dan perlu uji kewajaran volume, durasi, jumlah pengguna, serta standar harga."
   },
   {
@@ -67,6 +85,8 @@
     "satker": "Sekretariat Dewan Perwakilan Rakyat Daerah",
     "pagu": 2036320000,
     "paket": "Belanja Langganan Jurnal/Surat Kabar/Majalah",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Paket berlabel langganan jurnal/surat kabar/majalah tetapi spesifikasinya memuat iklan media cetak, advertorial, liputan khusus, radio, TV lokal, dan media online. Cakupan ini lebih menyerupai belanja publikasi/media placement daripada kebutuhan langganan informasi, sehingga indikasi ketidaksesuaian klasifikasi dan potensi pemborosan anggaran cukup kuat. Nilai paket juga sangat besar untuk kebutuhan langganan media."
   },
   {
@@ -74,6 +94,8 @@
     "satker": "SEKRETARIAT DPRD",
     "pagu": 2000000000,
     "paket": "Belanja Langganan Jurnal/Surat Kabar/Majalah",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Nilai anggaran langganan jurnal/surat kabar/majalah sangat besar untuk 1 paket dengan spesifikasi yang tampak terbatas pada media lokal, sehingga terindikasi tidak proporsional terhadap kebutuhan wajar dukungan perkantoran. Perlu uji kewajaran volume, periode langganan, jumlah eksemplar, dan dasar kebutuhan riil."
   },
   {
@@ -81,6 +103,8 @@
     "satker": "Dinas Komunikasi, Informatika, Statistik dan Persandian",
     "pagu": 1945125000,
     "paket": "Beban Kawat/Faksimili/Internet/TV Berlangganan",
+    "pemilihanDate": "March 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Nilai anggaran sangat tinggi untuk layanan internet dedicated 30 Mbps dalam 1 paket. Berdasarkan spesifikasi yang tersedia, terdapat indikasi kuat ketidakwajaran biaya dibanding kapasitas layanan yang disebutkan, sehingga layak dinilai sebagai potensi pemborosan anggaran."
   },
   {
@@ -88,6 +112,8 @@
     "satker": "DINAS KOMUNIKASI DAN INFORMATIKA",
     "pagu": 1734863111,
     "paket": "Belanja Kawat/Faksimili/Internet/TV Berlangganan",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Nilai anggaran sangat tinggi untuk layanan internet/wifi dengan spesifikasi yang tampak terbatas, yaitu bandwidth internet dan paket wifi corner 20 Mbps. Terdapat indikasi kuat ketidaksepadanan antara spesifikasi layanan yang tercantum dan besaran anggaran, sehingga layak dicermati sebagai potensi pemborosan."
   },
   {
@@ -95,6 +121,8 @@
     "satker": "Biro Administrasi Pimpinan",
     "pagu": 1609500000,
     "paket": "Belanja Langganan Jurnal/Surat Kabar/Majalah",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Nilai anggaran langganan jurnal/surat kabar/majalah sangat besar untuk kebutuhan administratif dan tampak tidak proporsional dengan jenis belanja yang disebutkan. Dari judul dan spesifikasi yang tersedia, terdapat indikasi kuat pengeluaran berlebihan untuk langganan media cetak."
   },
   {
@@ -102,6 +130,8 @@
     "satker": "Dinas Komunikasi, Informatika dan Persandian",
     "pagu": 1400000000,
     "paket": "Belanja Langganan Jurnal/Surat Kabar/Majalah",
+    "pemilihanDate": "March 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Nilai anggaran untuk langganan jurnal/surat kabar/majalah dalam 1 paket sangat besar dibanding sifat kebutuhannya yang umumnya rutin dan bernilai jauh lebih rendah. Indikasi pemborosan kuat karena objek belanja berupa beberapa koran/majalah harian tanpa spesifikasi rinci, sementara total pagu mencapai Rp1,4 miliar."
   },
   {
@@ -109,6 +139,8 @@
     "satker": "Dinas Komunikasi dan Informatika",
     "pagu": 1280385000,
     "paket": "Belanja Langganan Jurnal/Surat Kabar/Majalah",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan advertorial media online bernilai sangat besar untuk satu paket pada perangkat komunikasi publik berindikasi kuat sebagai belanja promosi/publikasi yang manfaat langsungnya bagi layanan publik sulit terukur. Nilai anggaran yang besar untuk konten advertorial patut dinilai berisiko pemborosan dan perlu uji kewajaran, urgensi, serta output yang jelas."
   },
   {
@@ -116,6 +148,8 @@
     "satker": "Sekretariat DPRD",
     "pagu": 1260360000,
     "paket": "Belanja Langganan Jurnal/Surat Kabar/Majalah",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Nilai anggaran untuk langganan surat kabar/koran sebanyak 840 eksemplar terindikasi sangat tidak efisien untuk kebutuhan sekretariat DPRD. Berdasarkan judul, volume, dan sifat barang yang rutin serta bernilai informasi umum, terdapat indikasi kuat jumlah dan/atau total biayanya berlebihan dibanding kebutuhan kerja yang lazim."
   },
   {
@@ -123,6 +157,8 @@
     "satker": "DINAS PENGENDALIAN PENDUDUK, DAN KELUARGA BERENCANA",
     "pagu": 1245000000,
     "paket": "Belanja Kawat/Faksimili/Internet/TV Berlangganan",
+    "pemilihanDate": "March 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Nilai anggaran untuk pengadaan pulsa/paket data 1 paket sangat besar untuk kebutuhan pencatatan pendampingan. Uraian tidak menunjukkan rincian volume penerima, durasi, atau kebutuhan teknis yang memadai, sehingga terdapat indikasi kuat belanja komunikasi tidak proporsional dan berpotensi menjadi pos yang sulit dipertanggungjawabkan efisiensinya."
   },
   {
@@ -130,6 +166,8 @@
     "satker": "Dinas Pemberdayaan Perempuan, Perlindungan Anak, Pengendalian Penduduk dan Keluarga Berencana",
     "pagu": 1201500000,
     "paket": "Belanja Kawat/Faksimili/Internet/TV Berlangganan",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Nilai anggaran sangat besar untuk pos kawat/faksimili/internet/TV berlangganan dengan spesifikasi berupa pulsa. Untuk satu perangkat daerah, kombinasi judul dan spesifikasi ini menimbulkan indikasi kuat belanja telekomunikasi yang tidak proporsional terhadap kebutuhan operasional wajar dan layak diperlakukan sebagai potensi pemborosan sangat tinggi."
   },
   {
@@ -137,6 +175,8 @@
     "satker": "Dinas Pemberdayaan  Perempuan dan Perlindungan  Anak serta Pengendalian Penduduk dan Keluarga Berencana",
     "pagu": 1188000000,
     "paket": "Belanja Kawat/Faksimili/Internet/TV Berlangganan",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Nilai anggaran sangat besar untuk paket data/internet operasional dengan volume sangat tinggi, sehingga terindikasi berlebihan dibanding kebutuhan wajar layanan konektivitas. Uraian juga mencampur kategori telekomunikasi umum dengan paket data operasional, sehingga layak dicermati sebagai potensi pemborosan yang signifikan."
   }
 ]

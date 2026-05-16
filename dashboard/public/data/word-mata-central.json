@@ -4,6 +4,8 @@
     "satker": "Dinas Pemberdayaan Masyarakat dan Gampong",
     "pagu": 48300000,
     "paket": "Cindera Mata Kegiatan Baksos Gammawar PKK",
+    "pemilihanDate": "May 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan cindera mata untuk kegiatan bakti sosial bersifat seremonial dan manfaat langsungnya bagi pelayanan publik tidak jelas. Dengan nilai anggaran yang relatif besar, item ini terindikasi tidak prioritas dan berpotensi menjadi pemborosan belanja daerah."
   },
   {
@@ -11,6 +13,8 @@
     "satker": "SPRIPIM POLDA SUMBAR",
     "pagu": 48000000,
     "paket": "PEMBUATAN CENDERA MATA KEDINASAN POLDA SUMBAR TA. 2026",
+    "pemilihanDate": "April 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan cendera mata kedinasan berupa plakat untuk 80 unit dengan dana APBN bersifat seremonial dan manfaat langsungnya terhadap tugas inti kelembagaan tidak terlihat kuat dari data yang tersedia. Seluruh nilai paket layak dicermati sebagai potensi pemborosan karena pengadaan ini tidak menunjukkan urgensi operasional yang jelas."
   },
   {
@@ -18,6 +22,8 @@
     "satker": "IM33 KANTOR WILAYAH DIREKTORAT JENDERAL IMIGRASI SULAWESI BARAT",
     "pagu": 15735000,
     "paket": "Pengadaan Plakat/Cindera Mata Belanja Keperluan Perkantoran Operasional Perkantoran Operasional dan Pemeliharaan Kantor Layanan Perkantoran Kantor Wilayah Direktorat Jenderal Imigrasi Sulawesi Barat TA 2026",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan plakat/cendera mata untuk instansi terkait merupakan belanja seremonial yang manfaat langsungnya bagi layanan publik dan fungsi utama instansi sangat terbatas. Seluruh nilai paket berindikasi sebagai pengeluaran yang dapat dihindari atau diminimalkan."
   },
   {
@@ -25,6 +31,8 @@
     "satker": "IM29 KANTOR WILAYAH DIREKTORAT JENDERAL IMIGRASI MALUKU UTARA",
     "pagu": 10000000,
     "paket": "Pengadaan Biaya Cindera Mata kegiatan Layanan Umum dan Rumah Tangga pada Kanwil Ditjen Imigrasi Maluku Utara T.A 2026.",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan cendera mata untuk kegiatan layanan umum dan rumah tangga pada instansi pemerintah tidak menunjukkan keterkaitan yang kuat dengan fungsi layanan inti. Belanja semacam ini berindikasi seremonial dan berisiko tidak memberikan manfaat publik yang sebanding, sehingga seluruh nilai pengadaan layak dicermati sebagai potensi pemborosan."
   },
   {
@@ -32,6 +40,8 @@
     "satker": "26 KANWIL BENGKULU SETJEN",
     "pagu": 8400000,
     "paket": "Pengadaan Belanja Barang Non Operasional Lainnya berupa PlakatCindera Mata Kegiatan Pengelolaan Rumah Tangga Kantor Wilayah pada Kantor Wilayah Kementerian Hukum Bengkulu Tahun Anggaran 2026",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan plakat/cinderamata untuk pengelolaan rumah tangga kantor merupakan belanja seremonial yang manfaat langsungnya terhadap pelayanan publik dan fungsi inti instansi sangat terbatas. Dengan nilai anggaran penuh pada satu item tahunan, terdapat indikasi kuat pengeluaran yang tidak prioritas dan berpotensi memboroskan anggaran."
   }
 ]

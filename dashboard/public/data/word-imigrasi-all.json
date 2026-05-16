@@ -4,6 +4,8 @@
     "satker": "SEKRETARIAT JENDERAL",
     "pagu": 73560215000,
     "paket": "Pengadaan Pemenuhan Sarana Tempat Tinggal ASN pada Sekretariat Jenderal Kementerian Imigrasi dan Pemasyarakatan Tahun Anggaran 2026",
+    "pemilihanDate": "July 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan sarana tempat tinggal ASN dengan nilai sangat besar melalui satu paket barang berindikasi kurang selaras dengan prinsip efisiensi belanja publik, karena fasilitas hunian pegawai bukan kebutuhan operasional inti yang lazim dipenuhi melalui pengadaan barang skala besar tanpa rincian justifikasi yang memadai."
   },
   {
@@ -11,6 +13,8 @@
     "satker": "SEKRETARIAT JENDERAL",
     "pagu": 54071283000,
     "paket": "Pengadaan Pakaian Dinas Upacara (PDU1) Pada Sekretariat Jenderal Kementerian Imigrasi dan Pemasyarakatan",
+    "pemilihanDate": "May 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan pakaian dinas upacara untuk pegawai dengan nilai sangat besar menimbulkan indikasi pemborosan karena bersifat seremonial dan tidak tampak langsung mendukung layanan inti. Nilai anggaran yang sangat tinggi untuk satu paket layak dicermati kuat dari sisi kebutuhan riil, jumlah penerima, dan kewajaran biaya per set."
   },
   {
@@ -18,6 +22,8 @@
     "satker": "IM08 KANTOR IMIGRASI KELAS I TPI BENGKULU",
     "pagu": 4011237000,
     "paket": "Pengadaan Belanja Modal Peralatan dan Mesin Kendaraan Bermotor Pada Kantor Imigrasi Kelas I TPI Bengkulu Tahun Anggaran 2026",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan kendaraan patroli jenis Fortuner untuk kantor imigrasi berindikasi kurang proporsional karena menggunakan model SUV menengah-atas yang berpotensi melampaui kebutuhan operasional dasar. Terdapat sinyal pemborosan pada pemilihan tipe kendaraan, meski kebutuhan kendaraan operasional dan patroli secara umum masih relevan dengan fungsi instansi."
   },
   {
@@ -25,6 +31,8 @@
     "satker": "DIREKTORAT JENDERAL IMIGRASI",
     "pagu": 3844970000,
     "paket": "Pengadaan Belanja Sewa Kegiatan Pengelolaan Rumah Tangga pada Direktorat Jenderal Imigrasi Tahun Anggaran 2026",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Komponen belanja didominasi sewa perlengkapan acara skala besar dan estetika seperti mini garden, videotron, lighting, panggung, tenda, soundsystem, serta tanaman hias tahunan, yang tampak kurang selaras dengan kebutuhan rutin pengelolaan rumah tangga perkantoran. Nilai paket sangat besar untuk pengadaan langsung dan mengindikasikan belanja seremonial/fasilitatif yang berpotensi tidak efisien."
   },
   {
@@ -32,6 +40,8 @@
     "satker": "Kementerian Koordinator Bidang Hukum Hak Asasi Manusia Imigrasi dan Pemasyarakatan",
     "pagu": 3581750000,
     "paket": "Pengadaan Perangkat Pengolah Data dan Komunikasi pada Kementerian Koordinator Bidang Hukum Hak Asasi Manusia Imigrasi dan Pemasyarakatan",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Pengadaan 1 unit videotron dengan nilai sangat besar untuk fungsi perkantoran/koordinasi kementerian menimbulkan indikasi kuat belanja yang tidak esensial dan berpotensi memicu persepsi penggunaan anggaran yang berlebihan. Dari judul dan spesifikasi yang tersedia, manfaatnya tidak tampak sebanding dengan nilainya."
   },
   {
@@ -39,6 +49,8 @@
     "satker": "INSPEKTORAT JENDERAL",
     "pagu": 2242298000,
     "paket": "Pemenuhan Prioritas Direktif Presiden Pada Inspektorat Jenderal Kementerian Imigrasi dan Pemasyarakatan Tahun Anggaran 2026",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Uraian pekerjaan sangat umum dan menyerupai fungsi inti internal Inspektorat Jenderal seperti perencanaan, koordinasi, monitoring, evaluasi, dan pelaporan. Pengadaan jasa eksternal untuk tugas pengawasan dan akuntabilitas internal berindikasi tidak relevan serta berpotensi menjadi belanja pendampingan yang semestinya dilaksanakan oleh unit internal. Nilai paket yang besar dengan spesifikasi generik memperkuat indikasi pemborosan."
   },
   {
@@ -46,6 +58,8 @@
     "satker": "SEKRETARIAT JENDERAL",
     "pagu": 1800000000,
     "paket": "Pengadaan Sewa Kendaraan Operasional Menteri pada Sekretarian Jenderal Kementerian Imigrasi dan Pemasyarakatan Tahun Anggaran 2026",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Pengadaan sewa kendaraan operasional khusus menteri selama 12 bulan dengan nilai sangat besar berpotensi menimbulkan kesan penggunaan anggaran yang mewah dan tidak patut. Tanpa rincian kebutuhan teknis, kelas kendaraan, dan dasar efisiensi dibanding opsi yang lebih hemat, seluruh nilai patut dicermati sebagai potensi pemborosan."
   },
   {
@@ -53,6 +67,8 @@
     "satker": "SEKRETARIAT JENDERAL",
     "pagu": 1800000000,
     "paket": "Pengadaan Sewa Kendaraan Operasional Wamen pada Sekretariat Jenderal Kementerian Imigrasi dan Pemasyarakatan Tahun Anggaran 2026",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Pengadaan sewa kendaraan operasional khusus untuk wakil menteri selama 12 bulan dengan nilai sangat besar menimbulkan indikasi penggunaan anggaran yang berlebihan dan berpotensi memicu persepsi kemewahan pejabat. Dari judul dan nilai yang tersedia, item ini tampak tidak proporsional untuk belanja operasional rutin."
   },
   {
@@ -60,6 +76,8 @@
     "satker": "Perwakilan Imigrasi KJRI Johor Bahru",
     "pagu": 1370500000,
     "paket": "Pengadaan Belanja Modal Peralatan dan Mesin Layanan Keimigrasian di Perwakilan RI di Johor Bahru TA 2026",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Terdapat pengadaan kendaraan senilai sangat dominan dalam paket peralatan layanan keimigrasian. Berdasarkan judul dan rincian item, keberadaan mobil penerangan darat kurang selaras dengan karakter kebutuhan layanan peralatan dan mesin kantor, sehingga berindikasi kuat sebagai belanja yang tidak proporsional dan layak ditelaah lebih lanjut."
   },
   {
@@ -67,6 +85,8 @@
     "satker": "Perwakilan Imigrasi KJRI Penang",
     "pagu": 1304389000,
     "paket": "Pengadaan Pemeliharaan Gedung dan Bangunan serta Halaman Dukungan Operasional Perwakilan Imigrasi KJRI Penang",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Terdapat indikasi kuat ketidakwajaran nilai anggaran. Rincian kuantitas dan harga satuan yang tercantum hanya menunjukkan nilai sekitar Rp39.250.000, namun total anggaran mencapai sekitar Rp1,304 miliar. Selisih yang sangat besar ini mengindikasikan kemungkinan pembebanan biaya yang tidak terjelaskan atau penganggaran jauh melebihi kebutuhan yang tertera."
   },
   {
@@ -74,6 +94,8 @@
     "satker": "IM30 KANTOR IMIGRASI KELAS II TPI MIMIKA",
     "pagu": 1206370000,
     "paket": "Pengadaan Belanja Modal Peralatan dan Mesin berupa Perangkat Pengolahan Data dan Komunikasi pada Kantor Imigrasi Kelas II TPI Mimika Tahun Anggaran 2026",
+    "pemilihanDate": "March 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan video wall 2 unit senilai sangat besar dalam paket perangkat pengolahan data dan komunikasi untuk kantor imigrasi kelas II tampak berisiko tidak proporsional terhadap kebutuhan layanan inti. Selain itu terdapat drone dan beberapa kamera digital yang memerlukan justifikasi operasional yang kuat. Indikasi utama pemborosan berasal dari komponen video wall yang bernilai dominan dan berpotensi berlebihan."
   },
   {
@@ -81,6 +103,8 @@
     "satker": "Kementerian Koordinator Bidang Hukum Hak Asasi Manusia Imigrasi dan Pemasyarakatan",
     "pagu": 1105186000,
     "paket": "Pengadaan Peralatan Fasilitas Perkantoran pada Kementerian Koordinator Bidang Hukum, Hak Asasi Manusia, Imigrasi, dan Pemasyarakatan Tahun Anggaran 2026",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Terdapat indikasi kuat pemborosan pada beberapa item fasilitas perkantoran dengan harga sangat tinggi untuk kebutuhan kantor, terutama meja resepsionis sekitar Rp202,5 juta, paket CCTV sekitar Rp205,25 juta, dan genset portabel sekitar Rp250 juta. Nilai sejumlah item tampak tidak proporsional untuk pengadaan fasilitas perkantoran dan layak diaudit lebih lanjut dari sisi spesifikasi, kebutuhan riil, serta kewajaran harga."
   },
   {
@@ -88,6 +112,8 @@
     "satker": "IM13 KANTOR IMIGRASI KELAS II NON TPI WONOSOBO",
     "pagu": 1100000000,
     "paket": "Pengadaan Mobil Unit Penerangan Darat Kegiatan Layanan Sarana Internal Kendaraan Bermotor pada Kantor Imigrasi Kelas II Non TPI Wonosobo Jawa Tengah Tahun Anggaran 2026",
+    "pemilihanDate": "April 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Item berupa mobil unit penerangan darat senilai sangat besar untuk kantor imigrasi kelas II non-TPI menimbulkan indikasi kuat ketidaksesuaian dengan kebutuhan layanan inti. Spesifikasi dan harga per unit juga tampak tidak wajar dibanding pagu yang tersedia, sehingga seluruh nilai pengadaan layak dicermati sebagai potensi pemborosan."
   },
   {
@@ -95,6 +121,8 @@
     "satker": "IM18 KANTOR IMIGRASI KELAS III NON TPI TANJUNG REDEB",
     "pagu": 999965000,
     "paket": "Pengadaan Belanja Pengolah Data dan Komunikasi (Laptop dan Printer) pada Kegiatan Layanan Sarana Internal di Kantor Imigrasi Kelas III Non TPI Tanjung Redeb Tahun Anggaran 2026",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Harga satuan pengolah data dan komunikasi tampak sangat tidak wajar untuk kebutuhan operasional internal: laptop sekitar Rp90,999 juta per unit dan printer sekitar Rp17,995 juta per unit. Nilai ini mengindikasikan spesifikasi berlebihan atau harga yang jauh di atas kebutuhan umum kantor, sehingga berpotensi menimbulkan pemborosan anggaran yang signifikan."
   },
   {
@@ -102,6 +130,8 @@
     "satker": "Perwakilan Imigrasi KBRI SIngapura",
     "pagu": 922800000,
     "paket": "Belanja Keperluan Perkantoran Dukungan Kesekretariatan Perwakilan Imigrasi KBRI Singapura",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Terdapat indikasi pengeluaran yang kurang selaras dengan prinsip efisiensi, terutama pos jamuan 336 satuan dengan nilai sangat besar serta biaya parkir kendaraan pegawai yang signifikan. Selain itu, biaya administrasi bank tetap bulanan pada level tinggi patut dicermati kewajarannya. Dari rincian yang tersedia, porsi belanja non-inti ini menunjukkan potensi pemborosan anggaran yang material."
   },
   {
@@ -109,6 +139,8 @@
     "satker": "DIREKTORAT JENDERAL IMIGRASI",
     "pagu": 853020000,
     "paket": "Pengadaan Fullboard Meeting Luar Kota Kegiatan Pengembangan Program dan Inovasi pada Direktorat Jenderal Imigrasi Tahun Anggaran 2026",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan rapat fullboard luar kota untuk kegiatan pengembangan program dan inovasi bernilai besar, melibatkan banyak peserta serta komponen transportasi, berindikasi tidak efisien karena substansi kegiatan umumnya dapat dilaksanakan secara in-house atau daring tanpa biaya akomodasi dan perjalanan yang tinggi. Seluruh nilai paket patut dicermati sebagai potensi pemborosan."
   },
   {
@@ -116,6 +148,8 @@
     "satker": "IM16 KANTOR IMIGRASI KELAS I TPI PONTIANAK",
     "pagu": 787500000,
     "paket": "Pengadaan Belanja Modal Peralatan dan Mesin berupa  Video Tron  terkait Perangkat pengolah Data dan Komunikasi pada Kantor Imigrasi Kelas I TPI Pontianak Kalimantan Barat TA 2026",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan videotron bernilai sangat besar untuk kantor imigrasi tampak kurang esensial dibanding fungsi layanan inti dan tidak jelas urgensi operasionalnya dari informasi yang tersedia. Nilai anggaran yang tinggi untuk 1 unit menimbulkan indikasi kuat belanja yang berpotensi tidak prioritas sehingga layak dicermati."
   },
   {
@@ -123,6 +157,8 @@
     "satker": "DIREKTORAT JENDERAL IMIGRASI",
     "pagu": 738475000,
     "paket": "Pengadaan Belanja Bahan Kegiatan Fasilitasi Penyusunan Kebijakan pada Direktorat Jenderal Imigrasi Tahun Anggaran 2026",
+    "pemilihanDate": "March 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Terdapat indikasi kuat duplikasi dan pembengkakan biaya pada beberapa komponen paket yang sama, seperti seminar kit, ATK, makan/snack rapat, spanduk, serta penggandaan/penjilidan yang muncul baik sebagai rincian satuan maupun paket bernilai sangat besar. Nilai paket agregat untuk ATK, seminar kit, dan penggandaan tampak tidak proporsional dibanding rincian unit yang juga sudah dicantumkan, sehingga layak diduga mengandung belanja berlebih dan perlu verifikasi kewajaran volume serta perhitungannya."
   },
   {
@@ -130,6 +166,8 @@
     "satker": "IM09 KANTOR IMIGRASI KELAS I TPI BANDAR LAMPUNG",
     "pagu": 708776000,
     "paket": "Pengadaan Videowall/Videotron dan AC Central pada Kantor Imigrasi Kelas I TPI Bandar Lampung - Lampung Tahun Anggaran 2026",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan videowall/videotron bernilai sangat besar untuk kantor layanan publik ini berindikasi kurang esensial dibanding fungsi utama operasional. Dari uraian yang tersedia, komponen tersebut tampak lebih bersifat fasilitas penunjang/presentasi daripada kebutuhan inti layanan, sehingga layak dikategorikan berisiko tinggi sebagai penggunaan anggaran yang tidak proporsional."
   },
   {
@@ -137,6 +175,8 @@
     "satker": "DIREKTORAT JENDERAL IMIGRASI",
     "pagu": 684000000,
     "paket": "Pengadaan Penambah Daya Tahan Tubuh Dit. TIK Kegiatan Alih Pengetahuan di Bidang Teknologi Informasi Pada Direktorat Jenderal Imigrasi Tahun Anggaran 2026",
+    "pemilihanDate": "May 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan suplemen/penambah daya tahan tubuh dalam jumlah sangat besar untuk kegiatan alih pengetahuan di bidang TIK tidak tampak sebagai kebutuhan inti pengadaan barang utama. Dari judul, volume, dan anggaran, belanja ini berindikasi kuat tidak proporsional terhadap tujuan kegiatan serta berpotensi menjadi belanja konsumtif yang seharusnya dibatasi atau tidak dibebankan penuh."
   }
 ]

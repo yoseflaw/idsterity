@@ -4,6 +4,8 @@
     "satker": "CABANG PENDIDIKAN WILAYAH IV",
     "pagu": 79047398416,
     "paket": "Penyediaan Jasa Pelayanan Umum Kantor Cabang Dinas Pendidikan Wilayah IV",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Nilai anggaran sangat besar untuk paket jasa pelayanan umum satu kantor cabang dengan output hanya 12 laporan, serta memuat komponen tenaga administrasi, kebersihan, keamanan, iuran kesehatan, dan PPPK paruh waktu dalam satu paket jasa lainnya. Struktur ini mengindikasikan penggabungan belanja pegawai/jasa rutin yang tidak proporsional dan layak diaudit mendalam."
   },
   {
@@ -11,6 +13,8 @@
     "satker": "DINAS PENDIDIKAN DAN KEBUDAYAAN",
     "pagu": 23393994895,
     "paket": "Pembangunan Sekolah Di Wilayah Grand City Balikpapan Utara Sub Kegiatan Pembangunan Unit Sekolah Baru (USB)",
+    "pemilihanDate": "March 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Nilai anggaran sangat tinggi untuk pembangunan gedung standar sederhana dengan luas bangunan di bawah 500 m2. Berdasarkan informasi yang tersedia, terdapat indikasi kuat ketidaksebandingan antara spesifikasi fisik pekerjaan dan besaran anggaran sehingga layak diduga mengandung potensi pemborosan yang signifikan."
   },
   {
@@ -18,6 +22,8 @@
     "satker": "Dinas Bina Marga dan Penataan Ruang",
     "pagu": 10000000000,
     "paket": "1 Pekerjaan Pembangunan Monumen Di Wilayah Kabupaten Subang",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Pengadaan pembangunan monumen senilai besar oleh dinas yang berfokus pada bina marga dan penataan ruang berindikasi sangat lemah keterkaitannya dengan kebutuhan layanan dasar. Belanja simbolik seperti monumen berpotensi memicu pemborosan APBD dan kesan penggunaan dana publik yang tidak prioritas."
   },
   {
@@ -25,6 +31,8 @@
     "satker": "SEKRETARIAT DEWAN PERWAKILAN RAKYAT DAERAH",
     "pagu": 2835660000,
     "paket": "Biaya Transportasi di Wilayah Provinsi Jawa Barat, DKI Jakarta dan Banten",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Anggaran transportasi satu paket bernilai sangat besar untuk cakupan perjalanan regional dan dibuka dengan metode dikecualikan. Dari judul dan spesifikasi yang umum, nilai ini tampak tidak proporsional terhadap kebutuhan jasa transportasi biasa sehingga layak dikategorikan berisiko tinggi dan berpotensi pemborosan signifikan."
   },
   {
@@ -32,6 +40,8 @@
     "satker": "Distrik Mimika Baru",
     "pagu": 2200000000,
     "paket": "Sinkronisasi Program Kerja dan Kegiatan Pemberdayaan Masyarakat yang Dilakukan oleh Pemerintah dan Swasta di Wilayah Kerja Kecamatan",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Nilai anggaran sangat besar untuk pengadaan langsung 1 paket dengan spesifikasi yang sangat umum, yaitu operasional kebersihan, sementara judul kegiatan terkait sinkronisasi program pemberdayaan masyarakat. Terdapat indikasi kuat ketidaksesuaian antara tujuan kegiatan dan objek belanja serta risiko pemborosan karena uraian barang/jasa tidak rinci."
   },
   {
@@ -39,6 +49,8 @@
     "satker": "29 KANWIL BANTEN BPHN",
     "pagu": 1376000000,
     "paket": "Pengadaan Belanja Jasa Konsultan untuk Kegiatan Dukungan Penyelenggaraan Tugas dan Fungsi Unit pada Kantor Wilayah Kementerian Hukum Banten BPHN (693119) Tahun Anggaran 2026",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Terdapat indikasi kuat ketidaksesuaian antara nama paket dan rincian spesifikasi. Paket dicantumkan sebagai pengadaan barang/jasa konsultan melalui pengadaan langsung, namun spesifikasi berisi komponen layanan per perkara/orang seperti banding, kasasi, peninjauan kembali, penyidikan, dan putusan pengadilan. Format dan substansinya tidak selaras dengan dukungan tugas unit Kementerian Hukum yang dinyatakan, sehingga seluruh nilai paket layak dicermati sebagai potensi pemborosan."
   },
   {
@@ -46,6 +58,8 @@
     "satker": "Kecamatan Tarakan Barat",
     "pagu": 1006400000,
     "paket": "Belanja Hibah Kursi untuk Ketua RT di Wilayah Kecamatan Tarakan Barat",
+    "pemilihanDate": "February 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Pengadaan hibah kursi untuk ketua RT dengan nilai sangat besar menimbulkan indikasi kuat ketidakpatutan dan pemborosan anggaran. Dari judul dan nilai yang tersedia, item ini tampak tidak proporsional untuk belanja furnitur sederhana di tingkat kecamatan serta berpotensi memicu kecemburuan sosial."
   },
   {
@@ -53,6 +67,8 @@
     "satker": "17 KANWIL SULAWESI UTARA SETJEN",
     "pagu": 710001000,
     "paket": "Pengadaan Belanja Modal Peralatan dan Mesin (Videotron) untuk Kegiatan Pengadaan Peralatan Fasilitas Perkantoran pada Kantor Wilayah Kementerian Hukum Sulawesi Utara Tahun Anggaran 2026",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan 1 unit videotron senilai sangat besar untuk fasilitas perkantoran pada kantor wilayah berindikasi tidak esensial terhadap fungsi inti layanan dan administrasi. Nilai belanja yang tinggi untuk media display promosi/informasi ini patut dicermati sebagai potensi pemborosan anggaran karena manfaatnya bagi tugas utama instansi tidak tampak sebanding dari data yang tersedia."
   },
   {
@@ -60,6 +76,8 @@
     "satker": "IM32 Kantor Wilayah Direktorat Jenderal Imigrasi Kepulauan Riau",
     "pagu": 605981000,
     "paket": "PENGADAAN SEWA KENDARAAN OPERASIONAL LAPANGAN DI WILAYAH KEPULAUAN RIAU (PULAU BINTAN, BATAM & KARIMUN)",
+    "pemilihanDate": "December 2025",
+    "isInappropriate": "high",
     "inappropriateReason": "Terdapat indikasi spesifikasi kendaraan terlalu mengarah pada model/kelas tertentu dan penggunaan kendaraan operasional pejabat eselon II selama 12 bulan berpotensi berlebihan. Untuk fungsi operasional pemerintah, kebutuhan sewa seharusnya dapat dipenuhi dengan spesifikasi yang lebih generik dan ekonomis. Porsi kendaraan pejabat dalam paket ini menimbulkan risiko pemborosan anggaran yang signifikan."
   },
   {
@@ -67,6 +85,8 @@
     "satker": "IM04 KANTOR WILAYAH DIREKTORAT JENDERAL IMIGRASI RIAU",
     "pagu": 551750000,
     "paket": "Pengadaan Biaya Koordinasi dengan pihak-pihak terkait Dalam Kegiatan Pengumpulan Data dan Informasi  Operasi Intelijen Keimigrasian di Wilayah Barat Pada Kantor Wilayah Direktorat Jenderal Imigrasi Riau Tahun Anggaran 2026",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan berupa 'biaya koordinasi dengan pihak-pihak terkait' untuk operasi intelijen keimigrasian bersifat sangat umum, sulit diukur outputnya, dan rentan menjadi pos belanja representatif/administratif yang tidak proporsional. Nilai satuan per kegiatan yang tinggi untuk 62 kegiatan menimbulkan indikasi kuat perlunya pengujian kewajaran dan kebutuhan riil."
   },
   {
@@ -74,6 +94,8 @@
     "satker": "Dinas Pekerjaan Umum dan Penataan Ruang",
     "pagu": 496170000,
     "paket": "Perencanaan dan Study Kelayakan Pembangunan Gedung Kantor Pengurus Wilayah Nahdlatul Ulama Kalimantan Tengah",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Penggunaan anggaran daerah untuk perencanaan pembangunan gedung kantor organisasi kemasyarakatan/keagamaan menimbulkan indikasi kuat ketidaksesuaian dengan prioritas belanja publik dan fungsi utama perangkat daerah teknis. Dari informasi judul dan konteks, manfaatnya tidak tampak langsung sebagai layanan publik inti pemerintah sehingga patut dinilai berisiko tinggi tidak pantas."
   },
   {
@@ -81,6 +103,8 @@
     "satker": "IM02 KANTOR WILAYAH DIREKTORAT JENDERAL IMIGRASI SUMATERA UTARA",
     "pagu": 475920000,
     "paket": "Pengadaan Jasa Sewa Kendaraan untuk Kegiatan Koordinasi Keprotokoleran pada Kantor Wilayah Direktorat Jenderal Imigrasi Sumatera Utara Tahun Anggaran 2026",
+    "pemilihanDate": "February 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Komposisi pengadaan menunjukkan dominasi sewa kendaraan premium/mewah untuk kegiatan keprotokoleran, termasuk Alphard, Fortuner, dan Hiace Premio Luxury, dengan frekuensi tinggi selama 1 tahun. Indikasi ini mengarah pada penggunaan fasilitas yang berlebihan dibanding kebutuhan operasional standar pemerintahan, sehingga berpotensi menimbulkan pemborosan anggaran."
   },
   {
@@ -88,6 +112,8 @@
     "satker": "PAS13 KANWIL DITJEN PEMASYARAKATAN JAWA TENGAH",
     "pagu": 426195000,
     "paket": "Pengadaan Akomodasi Penginapan Pada Kantor Wilayah Direktorat Jenderal Pemasyarakatan Jawa Tengah TA 2026",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Spesifikasi akomodasi menunjukkan standar yang berlebihan untuk perjalanan dinas, termasuk keharusan kamar suite, sarana olahraga/permainan, dan valet parking. Fitur tersebut tidak tampak esensial untuk kebutuhan penginapan dinas pemerintahan dan berindikasi penggunaan fasilitas hotel yang terlalu mewah, sehingga seluruh nilai item layak dicermati sebagai potensi pemborosan."
   },
   {
@@ -95,6 +121,8 @@
     "satker": "KANTOR WILAYAH SULAWESI SELATAN IDP",
     "pagu": 335000000,
     "paket": "Pengadaan Pembangunan Fasilitas Masyarakat Desa Untuk Pemenuhan Hak Dasar pada Kantor Wilayah Kementerian Hak Asasi Manusia Sulawesi Selatan Tahun Anggaran 2026",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Terdapat ketidaksesuaian yang kuat antara uraian pengadaan pembangunan fasilitas masyarakat desa dan spesifikasi yang justru menyebut sewa gedung/bangunan. Dalam konteks pengadaan barang oleh kantor wilayah, formulasi ini mengindikasikan belanja yang berpotensi tidak relevan atau salah sasaran terhadap tujuan pemenuhan hak dasar, sehingga seluruh nilai patut dicermati sebagai potensi pemborosan."
   },
   {
@@ -102,6 +130,8 @@
     "satker": "IM22 KANTOR WILAYAH DIREKTORAT JENDERAL IMIGRASI NUSA TENGGARA TIMUR",
     "pagu": 307740000,
     "paket": "Pengadaan Belanja Barang Non Operasional Lainnya dalam kegiatan Pelaksanaan Pengawasan pada Kantor Wilayah Direktorat Jenderal Imigrasi NTT Tahun Anggaran 2026",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Komponen belanja berupa biaya pengamatan/penyusupan/penjejakan per kegiatan bernilai sangat besar dan dirumuskan sangat umum, sehingga kewajaran output, dasar kebutuhan, dan akuntabilitas penggunaannya sulit diuji. Dalam data yang tersedia, porsi terbesar anggaran terkonsentrasi pada pos yang tidak terukur secara jelas, sehingga terdapat indikasi kuat pemborosan dan belanja yang perlu dicermati serius."
   },
   {
@@ -109,6 +139,8 @@
     "satker": "Dinas Pendidikan",
     "pagu": 300000000,
     "paket": "Pendidikan Politik Bagi Pemilih Pemula Cabang Dinas Pendidikan Wilayah Kabupaten Aceh Tamiang (EO)",
+    "pemilihanDate": "March 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan jasa event organizer untuk kegiatan pendidikan politik bagi pemilih pemula pada satuan kerja pendidikan tampak kurang selaras dengan fungsi utama urusan pendidikan. Judul kegiatan juga menunjukkan tema politik praktis yang sensitif sehingga penggunaan anggaran publik pada pos ini layak dinilai berisiko tinggi dan berpotensi tidak prioritas."
   },
   {
@@ -116,6 +148,8 @@
     "satker": "DINAS PENDIDIKAN DAN KEBUDAYAAN",
     "pagu": 271888000,
     "paket": "Belanja Kawat/Faksimili/Internet/TV Berlangganan Biaya Internet Dinas Pendidikan dan Kebudayaan Biaya internet kantor koordinator wilayah satuan pendidikan kecamatan dan Iuran TV Kabel",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Terdapat komponen iuran TV kabel dalam belanja internet untuk kantor/koordinator wilayah pendidikan. Fasilitas TV kabel tidak tampak esensial bagi fungsi utama layanan pendidikan dan berpotensi menjadi belanja yang tidak relevan dengan kebutuhan kedinasan. Karena item bercampur dalam satu paket, seluruh nilai layak dicermati sebagai potensi pemborosan maksimum."
   },
   {
@@ -123,6 +157,8 @@
     "satker": "21 KANWIL MALUKU SETJEN",
     "pagu": 245123000,
     "paket": "Pengadaan Belanja Pemeliharaan Peralatan dan Mesin Untuk Kegiatan Layanan Perkantoran Pemeliharaan Peralatan Kantor pada Kantor Wilayah Kementerian Hukum Maluku Tahun Anggaran 2026",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Terdapat komponen lift dalam paket pemeliharaan peralatan kantor. Dari judul dan rincian, item ini tampak tidak selaras dengan lingkup pemeliharaan peralatan kantor biasa dan bernilai dominan dalam paket, sehingga berindikasi kuat sebagai pengadaan yang kurang tepat pengelompokan atau tidak relevan dengan kebutuhan pemeliharaan rutin."
   },
   {
@@ -130,6 +166,8 @@
     "satker": "IM02 KANTOR WILAYAH DIREKTORAT JENDERAL IMIGRASI SUMATERA UTARA",
     "pagu": 235650000,
     "paket": "Pengadaan Jasa Pemeliharaan Pemeliharaan Peralatan Perkantoran pada Kantor Wilayah Direktorat Jenderal Imigrasi Sumatera Utara Tahun Anggaran 2026",
+    "pemilihanDate": "February 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Terdapat komponen pemeliharaan/pasang ID baru pelanggan listrik senilai besar yang tidak selaras dengan pola biaya pemeliharaan peralatan perkantoran lainnya dalam item ini. Nilai komponen tersebut mendominasi anggaran dan patut dicermati sebagai potensi pemborosan atau salah pengelompokan kebutuhan."
   },
   {
@@ -137,6 +175,8 @@
     "satker": "IM19 KANTOR IMIGRASI KELAS I TPI BANJARMASIN",
     "pagu": 230554000,
     "paket": "Pengadaan Biaya Biaya Koordinasi dengan Pihak-Pihak Terkait dalam Rangka Pengumpulan Data dan Informasi Operasi Intelijen Keimigrasian di Wilayah Tengah Pada Kantor Imigrasi Kelas I TPI Banjarmasin - Kalimantan Selatan Tahun Anggaran 2026",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Item berupa 'biaya koordinasi' untuk pengumpulan data/informasi operasi intelijen tanpa rincian keluaran, satuan biaya, atau komponen yang terukur. Pengadaan jasa semacam ini sangat sulit diverifikasi kewajaran manfaat dan volumenya, sehingga seluruh nilainya berindikasi kuat sebagai belanja yang tidak cukup spesifik dan berisiko pemborosan."
   }
 ]

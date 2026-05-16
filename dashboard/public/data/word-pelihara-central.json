@@ -4,6 +4,8 @@
     "satker": "BIDANG KESEKRETARIATAN",
     "pagu": 84580862000,
     "paket": "Belanja Barang Persediaan Pemeliharaan Gedung dan Bangunan",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Nilai per paket pemeliharaan kantor sangat tinggi dengan total anggaran sangat besar untuk item persediaan pemeliharaan gedung/bangunan. Uraian sangat umum, kuantitas 1.000 paket, dan metode pengadaan langsung menimbulkan indikasi kuat pengemasan belanja yang tidak proporsional serta berisiko tidak efisien."
   },
   {
@@ -11,6 +13,8 @@
     "satker": "Sekretariat Jenderal",
     "pagu": 5425000000,
     "paket": "Kontrak Service Pemeliharaan Rusa, Perawatan Medis Rusa dan Biaya Makan Rusa DPR RI",
+    "pemilihanDate": "November 2025",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Pengadaan pemeliharaan, perawatan medis, dan makan rusa di lingkungan lembaga legislatif menimbulkan indikasi kuat belanja non-prioritas dan sangat tidak selaras dengan fungsi utama pelayanan kedewanan. Nilai anggarannya juga sangat besar untuk kebutuhan yang berpotensi bersifat ornamental atau fasilitas sekunder, sehingga berisiko tinggi memicu persepsi penggunaan dana publik yang tidak patut."
   },
   {
@@ -18,6 +22,8 @@
     "satker": "SEKRETARIAT JENDERAL",
     "pagu": 4236985000,
     "paket": "Pengadaan Belanja Pemeliharaan Peralatan dan Mesin pada Biro Umum Sekretariat Jenderal Tahun Anggaran 2026",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Terdapat indikasi belanja yang kurang relevan untuk pemeliharaan peralatan dan mesin perkantoran, terutama akuarium senilai tinggi dan alat fitnes, serta penyebutan genset untuk kediaman pejabat. Komponen-komponen ini menimbulkan kesan penggunaan anggaran yang tidak selaras dengan kebutuhan inti pemeliharaan kantor dan layak dicermati lebih lanjut."
   },
   {
@@ -25,6 +31,8 @@
     "satker": "KANTOR PUSAT BADAN PENGAWASAN KEUANGAN DAN PEMBANGUNAN",
     "pagu": 3231797000,
     "paket": "PENGADAAN JASA PEKERJAAN PEMELIHARAAN AKUARIUM KANTOR PUSAT DAN RUMAH DINAS BPKP",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Pengadaan jasa pemeliharaan akuarium untuk kantor pusat dan rumah dinas pada lembaga pengawasan keuangan menimbulkan indikasi kuat belanja nonprioritas dan berpotensi memicu kesan penggunaan dana publik yang tidak patut. Nilai anggaran yang sangat besar untuk kebutuhan dekoratif semacam ini memperkuat indikasi pemborosan."
   },
   {
@@ -32,6 +40,8 @@
     "satker": "SEKRETARIAT KEMENTERIANSEKRETARIAT UTAMA KEMENTERIAN EKONOMI KREATIFBADANEKONOMI KREATIF",
     "pagu": 3200000000,
     "paket": "Belanja Jasa Lainnya Percetakan Penerbitan Penggandaan Laminasi Plakat dan Souvenir Dalam Rangka Operasional dan Pemeliharaan Kantor",
+    "pemilihanDate": "February 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan percetakan, plakat, dan terutama souvenir untuk operasional/pemeliharaan kantor dengan nilai sangat besar dalam satu paket berindikasi kuat tidak proporsional terhadap kebutuhan administratif rutin. Komponen souvenir dan plakat juga berisiko bersifat seremonial/promosi sehingga relevansi dan urgensinya terhadap fungsi kantor perlu dipertanyakan."
   },
   {
@@ -39,6 +49,8 @@
     "satker": "SEKRETARIAT JENDERAL KEMENTERIAN HAM",
     "pagu": 2503878000,
     "paket": "Belanja Pemeliharaan Gedung dan Bangunan, Pemeliharaan Taman Gd KemenHAM & Sewa Taman dalam Gedung",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Terdapat indikasi ketidakpatutan pada komponen sewa taman dalam gedung senilai Rp300.000.000. Untuk kantor kementerian, pengeluaran ini tampak kurang esensial terhadap fungsi utama layanan publik dan berpotensi lebih bersifat estetika/ornamental daripada kebutuhan operasional inti. Komponen pemeliharaan gedung dan taman luar masih tampak wajar, sehingga indikasi terutama terfokus pada pos sewa taman dalam gedung."
   },
   {
@@ -46,6 +58,8 @@
     "satker": "SEKRETARIAT KEMENTERIANSEKRETARIAT UTAMA KEMENTERIAN EKONOMI KREATIFBADANEKONOMI KREATIF",
     "pagu": 2500000000,
     "paket": "Belanja Pakaian Kerja Pengadaan Pakaian Kerja Dalam Rangka Operasional dan Pemeliharaan Kantor",
+    "pemilihanDate": "February 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan pakaian kerja untuk operasional kantor dengan nilai sangat besar dalam satu paket menimbulkan indikasi pemborosan dan kurang proporsional terhadap kebutuhan administratif perkantoran. Dari judul dan nilai anggaran, belanja ini layak dinilai serius untuk dicermati lebih lanjut."
   },
   {
@@ -53,6 +67,8 @@
     "satker": "KEDUTAAN BESAR RI DI SINGAPURA",
     "pagu": 2388351000,
     "paket": "Pemeliharaan kendaraan dinas roda 4610",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Nilai anggaran sangat tinggi dibanding volume yang tercantum hanya 12 bulan @ 12062,38, sehingga terdapat indikasi kuat ketidakwajaran perhitungan atau penganggaran berlebih pada pemeliharaan kendaraan dinas. Uraian juga tidak cukup menjelaskan kebutuhan yang dapat membenarkan nilai sebesar itu."
   },
   {
@@ -60,6 +76,8 @@
     "satker": "SEKRETARIAT JENDERAL",
     "pagu": 1595241000,
     "paket": "Belanja Sewa Tim Kerja Pemeliharaan Biro UP",
+    "pemilihanDate": "February 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Terdapat porsi belanja yang kuat terindikasi lebih bersifat kenyamanan/estetika daripada kebutuhan inti layanan publik, seperti taman dalam ruangan dan sewa pengharum ruangan di banyak lokasi, termasuk area pimpinan dan rumah jabatan. Nilainya material dalam satu paket pemeliharaan sehingga layak dinilai tidak efisien dan kurang prioritas terhadap tugas utama kementerian."
   },
   {
@@ -67,6 +85,8 @@
     "satker": "DITJEN MINERAL DAN BATUBARA",
     "pagu": 1568000000,
     "paket": "Belanja Keperluan Perkantoran - Operasional Perkantoran dan Pimpinan Jakarta - Operasional dan Pemeliharaan Kantor",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Terdapat komponen belanja yang terindikasi kurang esensial untuk operasional kantor pemerintahan, khususnya langganan TV kabel, sewa bunga/anggrek, dan pembersihan aquarium. Item-item ini bersifat amenitas/dekoratif dan tidak tampak berkaitan langsung dengan fungsi utama pelayanan publik, sehingga patut dinilai sebagai potensi pemborosan anggaran."
   },
   {
@@ -74,6 +94,8 @@
     "satker": "LEMBAGA MANAJEMEN ASET NEGARA",
     "pagu": 1400000000,
     "paket": "Pekerjaan Pemeliharaan dan Perbaikan Rumput Lapangan Golf Ciperna Tahun 2026",
+    "pemilihanDate": "March 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Penggunaan APBN untuk pemeliharaan dan perbaikan rumput lapangan golf menimbulkan indikasi kuat belanja yang bersifat mewah dan tidak esensial bagi pelayanan publik. Dari judul pengadaan, kebutuhan ini berisiko tinggi memicu persepsi penggunaan dana negara secara tidak patut sehingga layak dikategorikan sangat tidak pantas."
   },
   {
@@ -81,6 +103,8 @@
     "satker": "Perwakilan Imigrasi KJRI Penang",
     "pagu": 1304389000,
     "paket": "Pengadaan Pemeliharaan Gedung dan Bangunan serta Halaman Dukungan Operasional Perwakilan Imigrasi KJRI Penang",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Terdapat indikasi kuat ketidakwajaran nilai anggaran. Rincian kuantitas dan harga satuan yang tercantum hanya menunjukkan nilai sekitar Rp39.250.000, namun total anggaran mencapai sekitar Rp1,304 miliar. Selisih yang sangat besar ini mengindikasikan kemungkinan pembebanan biaya yang tidak terjelaskan atau penganggaran jauh melebihi kebutuhan yang tertera."
   },
   {
@@ -88,6 +112,8 @@
     "satker": "PAS33 LAPAS KELAS III MAMASA",
     "pagu": 1240839000,
     "paket": "Pengadaan Belanja Pemeliharaan Peralatan dan Mesin Komputer, Printer dan Laptop Pada Lembaga Pemasyarakatan Kelas III Mamasa - Sulawesi Barat Tahun Anggaran 2026",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Nilai anggaran sangat tidak sebanding dengan rincian pemeliharaan yang tercantum, yang jika dijumlahkan hanya sekitar belasan juta rupiah per tahun. Selisih yang sangat besar ini merupakan indikasi kuat potensi pemborosan atau ketidakwajaran perencanaan anggaran dan layak diaudit lebih lanjut."
   },
   {
@@ -95,6 +121,8 @@
     "satker": "PUSAT DATA INFORMASI DAN JASA TEKNIS KEARSIPAN",
     "pagu": 1234755000,
     "paket": "Belanja Bahan Kegiatan Pelaksanaan Layanan Jasa Pemeliharaan dan Perawatan Arsip",
+    "pemilihanDate": "March 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Terdapat komponen yang indikatif tidak selaras dengan kebutuhan bahan pemeliharaan/perawatan arsip, khususnya bahan promosi (gift set) dalam jumlah besar. Selain itu, harga satuan beberapa material konservasi tampak sangat tinggi sehingga layak diaudit kewajaran harganya. Indikasi ini menunjukkan potensi pemborosan signifikan, meski masih memerlukan verifikasi pasar dan kebutuhan riil."
   },
   {
@@ -102,6 +130,8 @@
     "satker": "UNIVERSITAS CENDERAWASIH",
     "pagu": 1200000000,
     "paket": "Pemeliharaan Rumah Dinas Rektor",
+    "pemilihanDate": "June 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Anggaran pemeliharaan rumah dinas pimpinan sebesar Rp1,2 miliar melalui satu paket pengadaan langsung tampak sangat besar untuk pekerjaan pemeliharaan, sehingga berindikasi pemborosan dan berpotensi menimbulkan kesan penggunaan dana publik yang kurang proporsional untuk fasilitas pejabat."
   },
   {
@@ -109,6 +139,8 @@
     "satker": "BALAI PEMBIBITAN TERNAK UNGGUL SAPI ACEH INDRAPURI TERNAK INDRAPURI",
     "pagu": 1112815000,
     "paket": "Belanja Pemeliharaan Peralatan dan Mesin",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Judul paket menyebut pemeliharaan peralatan dan mesin, namun rincian memuat banyak pengadaan unit baru kendaraan, alat berat, dan laptop. Ketidaksesuaian antara nomenklatur pemeliharaan dan isi belanja sangat kuat, sehingga sebagian besar nilai paket terindikasi tidak tepat klasifikasi dan patut diaudit lebih lanjut."
   },
   {
@@ -116,6 +148,8 @@
     "satker": "KONSULAT JENDERAL RI DI SAN FRANSISCO",
     "pagu": 990000000,
     "paket": "Pemeliharaan Kendaraan Dinas",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Nilai anggaran tampak sangat tidak proporsional dibanding volume yang tercantum, yaitu 12 unit @ 5.000. Terdapat selisih sangat besar antara total indikatif berdasarkan volume dan nilai anggaran, sehingga kuat mengindikasikan pembebanan biaya pemeliharaan kendaraan dinas yang berlebihan dan perlu verifikasi rinci."
   },
   {
@@ -123,6 +157,8 @@
     "satker": "SEKRETARIAT KEMENTERIANSEKRETARIAT UTAMA KEMENTERIAN EKONOMI KREATIFBADANEKONOMI KREATIF",
     "pagu": 850000000,
     "paket": "Belanja Pengiriman Surat Dinas Pos Pusat Keperluan Sehari-hari Rumah Tangga Dalam Rangka Operasional dan Pemeliharaan Kantor",
+    "pemilihanDate": "February 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Alokasi sangat besar untuk pengiriman surat dinas/pos pusat keperluan operasional harian kantor. Untuk fungsi administrasi perkantoran modern, kebutuhan ini umumnya terbatas dan sebagian besar komunikasi telah beralih ke kanal digital, sehingga nilai anggaran penuh pada pos ini terindikasi tidak proporsional dan layak diaudit lebih lanjut."
   },
   {
@@ -130,6 +166,8 @@
     "satker": "Sekretariat Kementerian",
     "pagu": 696000000,
     "paket": "Belanja Pemeliharaan Peralatan dan Mesin",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Terdapat pembiayaan BBM kendaraan dinas untuk pihak yang tidak menunjukkan kebutuhan kedinasan inti secara jelas, termasuk pasangan pejabat dan unsur organisasi pendamping. Penganggaran penuh untuk komponen tersebut menimbulkan indikasi penggunaan APBN yang tidak patut dan berpotensi memicu kecemburuan publik."
   },
   {
@@ -137,6 +175,8 @@
     "satker": "Perwakilan BKKBN Provinsi Jawa Tengah",
     "pagu": 674800000,
     "paket": "PEMELIHARAAN GEDUNG DAN BANGUNAN",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Nilai anggaran sangat tinggi untuk kebutuhan yang dari uraian tampak berupa iuran sampah dan bahan kebersihan/pemeliharaan rutin. Cakupan objek memang banyak, namun dalam satu paket pengadaan langsung jumlah ini terindikasi tidak proporsional terhadap sifat pekerjaan yang bersifat operasional dasar sehingga layak diduga mengandung pemborosan signifikan."
   }
 ]

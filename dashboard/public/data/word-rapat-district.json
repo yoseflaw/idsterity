@@ -4,6 +4,8 @@
     "satker": "SEKRETARIAT DPRD",
     "pagu": 25092000000,
     "paket": "Belanja Makanan dan Minuman Rapat Sub Kegiatan Pengawasan Penggunaan Anggaran",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Anggaran konsumsi rapat bernilai sangat besar untuk satu paket pada lingkungan sekretariat legislatif menimbulkan indikasi kuat pemborosan dan ketidakpatutan penggunaan dana publik. Nilainya tampak jauh melampaui kebutuhan wajar belanja makanan dan minuman rapat."
   },
   {
@@ -11,6 +13,8 @@
     "satker": "Sekretariat DPRD",
     "pagu": 20020000000,
     "paket": "Makanan dan Minuman Rapat",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Nilai anggaran untuk pengadaan makanan dan minuman rapat sangat besar untuk satu paket dan berisiko tidak proporsional terhadap kebutuhan operasional. Dari judul item, terdapat indikasi kuat belanja konsumsi rapat berpotensi berlebihan sehingga layak dikategorikan sebagai pemborosan yang serius."
   },
   {
@@ -18,6 +22,8 @@
     "satker": "Sekretariat DPRD",
     "pagu": 20020000000,
     "paket": "Makanan dan Minuman Rapat",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Nilai anggaran untuk belanja makanan dan minuman rapat sangat besar untuk satu paket dan berisiko menunjukkan penganggaran berlebihan pada belanja penunjang, bukan layanan publik langsung. Item ini layak dicermati karena skala nilainya tidak proporsional terhadap jenis kebutuhannya."
   },
   {
@@ -25,6 +31,8 @@
     "satker": "Sekretariat DPRD",
     "pagu": 20020000000,
     "paket": "Makanan dan Minuman Rapat",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Alokasi untuk konsumsi rapat sebesar Rp20,02 miliar tampak sangat berlebihan untuk satu paket pengadaan dan menimbulkan indikasi kuat pemborosan anggaran belanja penunjang. Nilainya jauh melampaui kewajaran umum untuk kebutuhan makanan dan minuman rapat."
   },
   {
@@ -32,6 +40,8 @@
     "satker": "Sekretariat DPRD",
     "pagu": 20020000000,
     "paket": "Makanan dan Minuman Rapat",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Nilai anggaran untuk pengadaan makanan dan minuman rapat dalam satu paket sangat besar dibanding sifat kebutuhannya yang rutin dan konsumtif. Tanpa rincian volume, frekuensi, dan satuan layanan yang memadai, terdapat indikasi kuat belanja berlebihan atau pengemasan kebutuhan umum dalam nilai yang tidak proporsional untuk dicermati lebih lanjut."
   },
   {
@@ -39,6 +49,8 @@
     "satker": "Sekretariat Dewan Perwakilan Rakyat Daerah",
     "pagu": 14671206000,
     "paket": "Belanja Perjalanan Dinas Sub Kegiatan Fasilitasi Rapat Koordinasi dan Konsultasi DPRD",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Anggaran perjalanan dinas untuk fasilitasi rapat koordinasi dan konsultasi DPRD selama 12 bulan bernilai sangat besar dan berisiko kuat tidak proporsional terhadap kebutuhan administratif. Belanja perjalanan dinas dalam skala ini berpotensi menimbulkan pemborosan dan kesan penggunaan dana publik yang tidak patut, sehingga layak dikategorikan sangat tidak pantas untuk dicermati ketat."
   },
   {
@@ -46,6 +58,8 @@
     "satker": "Sekretariat DPRD",
     "pagu": 9504000000,
     "paket": "Makan dan Minum Rapat Pelaksanaan Reses",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Anggaran makan dan minum rapat untuk pelaksanaan reses dengan nilai sangat besar menimbulkan indikasi kuat pemborosan dan ketidakpatutan penggunaan dana publik. Judul pengadaan menunjukkan belanja konsumsi rapat, bukan kebutuhan aset atau layanan inti, sementara nilainya sangat tinggi untuk satu paket sehingga berpotensi memicu kecemburuan sosial dan layak dikategorikan sangat tidak pantas."
   },
   {
@@ -53,6 +67,8 @@
     "satker": "Sekretariat DPRD",
     "pagu": 6089980000,
     "paket": "Belanja Makanan dan Minuman Rapat Pelaksanaan Reses Dewan sesuai Per Dapil untuk Pelaksanaan 3 kali Reses",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Nilai anggaran makanan dan minuman rapat untuk reses sangat besar dibanding volume 1.400 paket. Dengan pagu sekitar Rp6,09 miliar, biaya rata-rata per paket sekitar Rp4,35 juta, yang tampak tidak wajar untuk konsumsi rapat. Terdapat indikasi kuat pemborosan atau penganggaran konsumsi yang berlebihan sehingga layak diaudit lebih lanjut."
   },
   {
@@ -60,6 +76,8 @@
     "satker": "Sekretariat DPRD",
     "pagu": 5568750000,
     "paket": "Belanja Makanan dan Minuman Rapat-Reses",
+    "pemilihanDate": "February 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Nilai anggaran konsumsi rapat/reses sangat besar untuk pengadaan makanan dan minuman, dengan spesifikasi hanya kudapan dan makan. Dari judul dan jenis belanja, penggunaan dana publik pada level ini menimbulkan kesan berlebihan dan sangat tidak proporsional untuk kebutuhan konsumsi rapat."
   },
   {
@@ -67,6 +85,8 @@
     "satker": "SEKRETARIAT DPRD",
     "pagu": 4860000000,
     "paket": "Belanja Makanan dan Minuman Rapat (Pelaksanaan Reses)",
+    "pemilihanDate": "February 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Anggaran konsumsi rapat/reses sebesar Rp4,86 miliar untuk satu paket pada sekretariat DPRD sangat besar untuk belanja makan dan kudapan, sehingga berindikasi tidak proporsional dan berpotensi menimbulkan pemborosan anggaran publik."
   },
   {
@@ -74,6 +94,8 @@
     "satker": "Sekretariat Daerah",
     "pagu": 4039470000,
     "paket": "Belanja Makanan dan Minuman Rapat",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan konsumsi rapat/jamuan dengan nilai sangat besar dalam satu paket, disertai item bernuansa seremonial seperti parcel buah dan tumpeng, menimbulkan indikasi kuat belanja berlebihan dan kurang efisien untuk penggunaan dana publik."
   },
   {
@@ -81,6 +103,8 @@
     "satker": "BADAN KESATUAN BANGSA DAN POLITIK",
     "pagu": 3551000000,
     "paket": "Beban Makanan dan Minuman Rapat SOSIALISASI, SERAP ASPIRASI DAN PENGENDALIAN PROGRAM/INFLASI",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Nilai anggaran untuk konsumsi rapat/sosialisasi berupa nasi kotak dan kue kotak sangat besar untuk satu paket, sementara objek pengadaan bersifat jamuan rapat yang umumnya penunjang, bukan output utama program. Terdapat indikasi belanja konsumsi berlebihan dan tidak proporsional sehingga layak diaudit lebih lanjut."
   },
   {
@@ -88,6 +112,8 @@
     "satker": "Sekretariat Dewan Perwakilan Rakyat Daerah",
     "pagu": 3210922900,
     "paket": "Belanja Natura dan Pakan-Natura dan Belanja Makanan dan Minuman Rapat",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Pengadaan konsumsi harian, tamu, dan rapat untuk pimpinan/anggota DPRD dengan komponen berlabel VIP, prasmanan, nasi tumpeng, snack, buah, serta natura dalam nilai sangat besar menunjukkan pola belanja jamuan yang berlebihan dan berpotensi tidak proporsional terhadap kebutuhan dasar kedinasan. Indikasi pemborosan sangat kuat dari jenis item yang dominan konsumtif dan fasilitas representatif."
   },
   {
@@ -95,6 +121,8 @@
     "satker": "SEKRETARIAT DPRD",
     "pagu": 3150037000,
     "paket": "Belanja Makanan dan Minuman Rapat",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Anggaran konsumsi rapat berupa makan dan kudapan dengan nilai sangat besar untuk 1 paket pada sekretariat DPRD menimbulkan indikasi pembelanjaan berlebihan dan kurang proporsional terhadap kebutuhan. Judul dan spesifikasi menunjukkan belanja rutin konsumtif, sehingga porsi pemborosan patut dicermati secara serius."
   },
   {
@@ -102,6 +130,8 @@
     "satker": "SEKRETARIAT DPRD",
     "pagu": 2700000000,
     "paket": "Belanja Makanan dan Minuman Rapat (Reses)",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan konsumsi rapat untuk kegiatan reses dengan nilai sangat besar menimbulkan indikasi pemborosan belanja penunjang. Berdasarkan judul dan spesifikasi yang hanya berupa makan dan kudapan, manfaat publik langsung tampak terbatas dibanding besaran anggaran, sehingga layak diklasifikasikan berisiko tinggi untuk dicermati."
   },
   {
@@ -109,6 +139,8 @@
     "satker": "Sekretariat Dewan Perwakilan Rakyat Daerah Provinsi Bengkulu",
     "pagu": 2700000000,
     "paket": "Belanja Makanan dan Minuman Rapat - Rapat Biasa dan Kegiatan | spesifikasi : Makan Minum & Kudapan (Snack) Sub Keg RESES",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Anggaran makanan, minuman, dan kudapan untuk kegiatan rapat/reses DPRD bernilai sangat besar dan berisiko tidak proporsional terhadap kebutuhan konsumsi rapat. Dari judul dan spesifikasi, belanja ini bersifat penunjang, bukan output publik utama, sehingga layak dikategorikan sebagai indikasi pemborosan serius."
   },
   {
@@ -116,6 +148,8 @@
     "satker": "Sekretariat DPRD",
     "pagu": 2600000000,
     "paket": "Belanja Makanan dan Minuman Rapat (RESES)",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Belanja makanan dan minuman untuk kegiatan reses DPRD dengan nilai sangat besar menimbulkan indikasi kuat pemborosan dan kesan penggunaan anggaran yang tidak patut. Judul dan spesifikasi hanya berupa jamuan prasmanan, minum, dan makanan kecil tanpa justifikasi rinci atas besaran anggaran, sehingga patut dinilai sangat tidak proporsional."
   },
   {
@@ -123,6 +157,8 @@
     "satker": "SEKRETARIAT DPRD",
     "pagu": 2362500000,
     "paket": "Biaya Konsumsi Rapat Biasa Makan",
+    "pemilihanDate": "February 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Nilai anggaran konsumsi rapat biasa sangat besar untuk belanja makan, sementara uraian hanya menunjukkan konsumsi rapat rutin tanpa spesifikasi mutu, satuan harga, atau kebutuhan khusus yang membenarkan besaran tersebut. Volume yang tercantum juga mengindikasikan biaya per porsi sangat tinggi sehingga patut diduga terdapat pemborosan signifikan."
   },
   {
@@ -130,6 +166,8 @@
     "satker": "Sekretariat DPRD",
     "pagu": 2278400000,
     "paket": "Belanja Makanan dan Minuman Rapat",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Nilai anggaran untuk konsumsi rapat sangat besar dibanding volume yang tercantum, sehingga mengindikasikan biaya satuan yang tidak wajar untuk kudapan dan makan rapat. Pengadaan jenis ini bersifat rutin dan seharusnya dapat dikendalikan dengan standar biaya yang ketat."
   },
   {
@@ -137,6 +175,8 @@
     "satker": "SEKRETARIAT DEWAN PERWAKILAN RAKYAT DAERAH",
     "pagu": 2264680000,
     "paket": "Belanja Makanan dan Minuman Rapat",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Pengadaan konsumsi rapat dengan spesifikasi berulang menggunakan kategori VIP (nasi box, prasmanan, dan snack) menimbulkan indikasi kuat pemborosan dan penggunaan anggaran yang tidak patut karena berkonotasi fasilitas mewah bagi rapat kedinasan. Nilai anggaran yang sangat besar memperkuat kesan ketidakwajaran untuk belanja konsumsi."
   }
 ]

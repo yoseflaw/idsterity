@@ -4,6 +4,8 @@
     "satker": "BIDANG KESEKRETARIATAN",
     "pagu": 84580862000,
     "paket": "Belanja Barang Persediaan Pemeliharaan Gedung dan Bangunan",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Nilai per paket pemeliharaan kantor sangat tinggi dengan total anggaran sangat besar untuk item persediaan pemeliharaan gedung/bangunan. Uraian sangat umum, kuantitas 1.000 paket, dan metode pengadaan langsung menimbulkan indikasi kuat pengemasan belanja yang tidak proporsional serta berisiko tidak efisien."
   },
   {
@@ -11,6 +13,8 @@
     "satker": "Badan Nasional Penanggulangan Terorisme",
     "pagu": 45300000000,
     "paket": "Pengadaan Mebel dan Interior Gedung Pusat Kesiapsiagaan Nasional Penanggulangan Terorisme",
+    "pemilihanDate": "February 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan mebel dan interior untuk ruang pimpinan dengan nilai sangat besar mengindikasikan belanja non-prioritas dan berisiko tidak proporsional terhadap kebutuhan fungsi publik. Dalam konteks lembaga penanggulangan terorisme, alokasi sebesar ini untuk interior ruang pimpinan layak dinilai serius untuk dicermati karena berpotensi mencerminkan kemewahan atau spesifikasi berlebihan."
   },
   {
@@ -18,6 +22,8 @@
     "satker": "RUMAH SAKIT UMUM DR WAHIDIN SUDIROHUSODO MAKASSAR",
     "pagu": 15000000000,
     "paket": "DED Gedung CMU ( Central Medical Unit )",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Judul dan spesifikasi menunjukkan penyusunan DED, namun jenis pengadaan dicatat sebagai pekerjaan konstruksi dengan metode e-purchasing serta nilai sangat besar untuk 1 paket. Kombinasi ini tidak selaras dengan karakter jasa perencanaan/desain dan mengindikasikan potensi salah klasifikasi atau anggaran yang sangat tidak efisien sehingga layak diteliti serius."
   },
   {
@@ -25,6 +31,8 @@
     "satker": "UNIVERSITAS PEMBANGUNAN NASIONAL VETERAN YOGYAKARTA",
     "pagu": 8843985000,
     "paket": "Belanja Modal Gedung dan Bangunan - BLU",
+    "pemilihanDate": "February 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Paket memuat perbaikan rumah dinas pimpinan universitas dalam porsi menonjol dengan nilai sangat besar, digabung bersama pekerjaan lain yang tidak sejenis. Komponen rumah dinas pimpinan berisiko rendah urgensi layanan publik dibanding kebutuhan akademik inti, sehingga layak dinilai sebagai indikasi penggunaan anggaran yang kurang selaras dan berpotensi boros."
   },
   {
@@ -32,6 +40,8 @@
     "satker": "STAIN SULTAN ABDURRAHMAN KEPULAUAN RIAU 320074",
     "pagu": 8223431000,
     "paket": "Pekerjaan Pembangunan Gedung kUliah Terpadu (Lanjutan)",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Uraian menyatakan pekerjaan sudah selesai dilaksanakan pada tahun sebelumnya, sehingga pengadaan lanjutan untuk paket yang sama terindikasi tidak relevan dan berpotensi menimbulkan pembiayaan ganda atas output yang telah selesai."
   },
   {
@@ -39,6 +49,8 @@
     "satker": "BIRO LOGISTIK POLDA JABAR",
     "pagu": 3035123093,
     "paket": "KONSULTAN PERENCANAAN PEMBANGUNAN GEDUNG APARTEMEN SIAGA DITSAMAPTA POLDA JABAR TA. 2026",
+    "pemilihanDate": "March 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Perencanaan pembangunan gedung apartemen untuk fungsi kepolisian menimbulkan indikasi kuat ketidaksesuaian prioritas penggunaan APBN karena bersifat hunian dan tidak tampak langsung terkait layanan inti penegakan hukum dari informasi yang tersedia. Nilai konsultansi yang besar patut dicermati sebagai potensi pemborosan apabila kebutuhan dan dasar penyelenggaraannya tidak sangat kuat."
   },
   {
@@ -46,6 +58,8 @@
     "satker": "SEKRETARIAT JENDERAL KEMENTERIAN HAM",
     "pagu": 2503878000,
     "paket": "Belanja Pemeliharaan Gedung dan Bangunan, Pemeliharaan Taman Gd KemenHAM & Sewa Taman dalam Gedung",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Terdapat indikasi ketidakpatutan pada komponen sewa taman dalam gedung senilai Rp300.000.000. Untuk kantor kementerian, pengeluaran ini tampak kurang esensial terhadap fungsi utama layanan publik dan berpotensi lebih bersifat estetika/ornamental daripada kebutuhan operasional inti. Komponen pemeliharaan gedung dan taman luar masih tampak wajar, sehingga indikasi terutama terfokus pada pos sewa taman dalam gedung."
   },
   {
@@ -53,6 +67,8 @@
     "satker": "KANTOR MENTERI NEGARA PPN  BAPPENAS",
     "pagu": 1719088788,
     "paket": "Sewa Gedung Kantor Sekretariat IKN, Ruang Menteri dan Pimpinan di Balikpapan",
+    "pemilihanDate": "December 2025",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Pengadaan sewa ruang kerja sekaligus beberapa unit apartemen berperabot lengkap, termasuk unit 4 kamar tidur dan area function hall, untuk ruang menteri/pimpinan menimbulkan indikasi kuat fasilitas berlebihan dan tidak proporsional terhadap kebutuhan kerja pemerintahan. Dari judul dan spesifikasi, penggunaan dana publik tampak sangat mewah dan berisiko memicu kecemburuan sosial."
   },
   {
@@ -60,6 +76,8 @@
     "satker": "LANTAMAL V SURABAYA TNI AL",
     "pagu": 1700000000,
     "paket": "Belanja Pengadaan Alat Satri dan Peningkatan Sarpras Gedung Guest House di Magelang",
+    "pemilihanDate": "April 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan untuk peningkatan sarana-prasarana gedung guest house berpotensi tidak prioritas dibanding fungsi utama pertahanan. Dari judul, seluruh anggaran tampak diarahkan pada fasilitas akomodasi/penunjang yang relevansi operasionalnya tidak jelas, sehingga patut dinilai sebagai penggunaan dana yang berisiko tidak efisien."
   },
   {
@@ -67,6 +85,8 @@
     "satker": "Perwakilan Imigrasi KJRI Penang",
     "pagu": 1304389000,
     "paket": "Pengadaan Pemeliharaan Gedung dan Bangunan serta Halaman Dukungan Operasional Perwakilan Imigrasi KJRI Penang",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Terdapat indikasi kuat ketidakwajaran nilai anggaran. Rincian kuantitas dan harga satuan yang tercantum hanya menunjukkan nilai sekitar Rp39.250.000, namun total anggaran mencapai sekitar Rp1,304 miliar. Selisih yang sangat besar ini mengindikasikan kemungkinan pembebanan biaya yang tidak terjelaskan atau penganggaran jauh melebihi kebutuhan yang tertera."
   },
   {
@@ -74,6 +94,8 @@
     "satker": "Perwakilan BKKBN Provinsi Jawa Tengah",
     "pagu": 674800000,
     "paket": "PEMELIHARAAN GEDUNG DAN BANGUNAN",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Nilai anggaran sangat tinggi untuk kebutuhan yang dari uraian tampak berupa iuran sampah dan bahan kebersihan/pemeliharaan rutin. Cakupan objek memang banyak, namun dalam satu paket pengadaan langsung jumlah ini terindikasi tidak proporsional terhadap sifat pekerjaan yang bersifat operasional dasar sehingga layak diduga mengandung pemborosan signifikan."
   },
   {
@@ -81,6 +103,8 @@
     "satker": "UNIVERSITAS MALIKUSSALEH",
     "pagu": 656000000,
     "paket": "Pembuatan Nama Gedung Fakultas Hukum",
+    "pemilihanDate": "February 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan pembuatan nama gedung dengan nilai sangat besar terindikasi tidak proporsional terhadap fungsi barang yang pada umumnya bersifat penanda/identitas. Dari judul dan nilai anggaran, terdapat indikasi kuat pemborosan karena manfaat publik langsung terbatas dibanding biaya yang dialokasikan."
   },
   {
@@ -88,6 +112,8 @@
     "satker": "PENGADILAN TINGGI AGAMA BANJARMASIN 01",
     "pagu": 620800000,
     "paket": "Belanja Pemeliharaan Gedung dan Bangunan",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Terdapat komponen pemeliharaan untuk gedung olahraga/lapangan tenis semi indoor pada satu paket belanja pemeliharaan. Fasilitas olahraga semacam ini tidak tampak sebagai kebutuhan inti peradilan dan berisiko menimbulkan penggunaan anggaran yang kurang selaras dengan fungsi utama lembaga. Seluruh nilai paket patut dicermati karena uraian pekerjaan mencampurkan beberapa objek pemeliharaan secara umum tanpa rincian kebutuhan yang spesifik."
   },
   {
@@ -95,6 +121,8 @@
     "satker": "SEKRETARIAT DITJEN PENDIDIKAN ANAK USIA DINI PENDIDIKAN DASAR DAN PENDIDIKAN MENENGAH",
     "pagu": 600000000,
     "paket": "Pemeliharaan Lapangan Tenis Pendukung Kegiatan Sub Komponen Pemeliharaan Gedung Khusus",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pemeliharaan lapangan tenis pada unit sekretariat pendidikan tampak kurang prioritas dibanding fungsi utama layanan pendidikan. Nilai anggaran juga signifikan untuk pekerjaan pemeliharaan fasilitas olahraga internal, sehingga terdapat indikasi kuat penggunaan dana yang kurang selaras dengan kebutuhan inti dan berpotensi menimbulkan pemborosan."
   },
   {
@@ -102,6 +130,8 @@
     "satker": "SEKRETARIAT UTAMA BMKG",
     "pagu": 480000000,
     "paket": "Belanja Keperluan Perkantoran - Operasional Kantor - Belanja Bahan kebersihan Halaman Gedung Serbaguna Citeko",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Anggaran bahan kebersihan halaman sebesar Rp40 juta per bulan untuk satu lokasi tampak sangat tinggi dibanding sifat kebutuhan yang umumnya rutin dan bernilai jauh lebih rendah. Indikasi utama adalah potensi belanja berlebihan atau penganggaran tidak proporsional untuk barang habis pakai kebersihan."
   },
   {
@@ -109,6 +139,8 @@
     "satker": "SEKRETARIAT JENDERAL",
     "pagu": 467532000,
     "paket": "Pengadaan Belanja Bahan Kegiatan Pemeliharaan Gedung Kantor dan Rumah Jabatan",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan bahan pemeliharaan gedung/rumah jabatan namun spesifikasi berupa makan dan snack menunjukkan ketidaksesuaian yang kuat antara tujuan belanja dan objek yang dibeli. Seluruh nilai patut dicermati sebagai potensi pemborosan karena tidak tampak relevan langsung dengan kebutuhan pemeliharaan."
   },
   {
@@ -116,6 +148,8 @@
     "satker": "KANTOR BAHASA KEPULAUAN BANGKA BELITUNG",
     "pagu": 437400000,
     "paket": "Paket Pekerjaan Renovasi dan Pemeliharaan Gedung dan Halaman Kantor Bahasa Provinsi Kepulauan Bangka Belitung",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Terdapat indikasi kuat ketidaksesuaian antara nama paket renovasi/pemeliharaan gedung dan spesifikasi yang justru menyebut barang sangat berbeda. Ketidakkonsistenan objek pengadaan ini serius dan berpotensi menunjukkan penggunaan anggaran yang tidak selaras dengan kebutuhan paket, sehingga seluruh nilai patut dicermati sebagai potensi pemborosan."
   },
   {
@@ -123,6 +157,8 @@
     "satker": "693736",
     "pagu": 407592000,
     "paket": "Pengadaan Pewangi Ruangan Gedung Menteri Lt.2",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Pengadaan pewangi ruangan untuk area gedung menteri dengan nilai anggaran sangat besar merupakan belanja yang tampak tidak proporsional terhadap kebutuhan operasional dasar dan berpotensi memicu persepsi penggunaan dana publik secara tidak patut. Dari judul dan nilai anggaran, item ini terindikasi sebagai pengeluaran yang berlebihan untuk fungsi non-prioritas."
   },
   {
@@ -130,6 +166,8 @@
     "satker": "Badan Pembinaan Ideologi Pancasila",
     "pagu": 400000000,
     "paket": "Pemeliharaan Gedung dan Bangunan Lainnya (Calmic Pewangi Ruangan)",
+    "pemilihanDate": "December 2025",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Pengadaan pewangi ruangan senilai sangat besar untuk satu paket pada instansi pemerintah menimbulkan indikasi kuat belanja yang berlebihan dan tidak proporsional terhadap kebutuhan dasar pemeliharaan gedung. Nilainya sangat tinggi untuk item penunjang kenyamanan non-prioritas sehingga berpotensi memicu persepsi penggunaan anggaran yang tidak patut."
   },
   {
@@ -137,6 +175,8 @@
     "satker": "UNIVERSITAS MALIKUSSALEH",
     "pagu": 400000000,
     "paket": "Pembuatan Nama Gedung Fakultas Pertanian",
+    "pemilihanDate": "February 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan pembuatan nama gedung dengan nilai sangat besar untuk satu paket menimbulkan indikasi kuat pemborosan karena bersifat non-prioritas dibanding kebutuhan akademik inti. Dari judul dan nilai anggaran, item ini tampak kurang proporsional untuk penggunaan dana publik."
   }
 ]

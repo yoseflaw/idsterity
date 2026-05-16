@@ -4,6 +4,8 @@
     "satker": "SEKRETARIAT JENDERAL",
     "pagu": 73560215000,
     "paket": "Pengadaan Pemenuhan Sarana Tempat Tinggal ASN pada Sekretariat Jenderal Kementerian Imigrasi dan Pemasyarakatan Tahun Anggaran 2026",
+    "pemilihanDate": "July 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan sarana tempat tinggal ASN dengan nilai sangat besar melalui satu paket barang berindikasi kurang selaras dengan prinsip efisiensi belanja publik, karena fasilitas hunian pegawai bukan kebutuhan operasional inti yang lazim dipenuhi melalui pengadaan barang skala besar tanpa rincian justifikasi yang memadai."
   },
   {
@@ -11,6 +13,8 @@
     "satker": "SEKRETARIAT JENDERAL",
     "pagu": 54071283000,
     "paket": "Pengadaan Pakaian Dinas Upacara (PDU1) Pada Sekretariat Jenderal Kementerian Imigrasi dan Pemasyarakatan",
+    "pemilihanDate": "May 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan pakaian dinas upacara untuk pegawai dengan nilai sangat besar menimbulkan indikasi pemborosan karena bersifat seremonial dan tidak tampak langsung mendukung layanan inti. Nilai anggaran yang sangat tinggi untuk satu paket layak dicermati kuat dari sisi kebutuhan riil, jumlah penerima, dan kewajaran biaya per set."
   },
   {
@@ -18,6 +22,8 @@
     "satker": "Sekretariat DPRD",
     "pagu": 30960700000,
     "paket": "Belanja Jasa Iklan/Reklame, Film, dan Pemotretan Sub Kegiatan Hubungan Masyarakat",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Anggaran jasa iklan, advertorial, media online, dan billboard/baleho dengan nilai sangat besar untuk fungsi kehumasan Sekretariat DPRD menimbulkan indikasi kuat pemborosan dan ketidakpatutan penggunaan dana publik. Dari judul dan uraian, pengeluaran promosi/publikasi ini tampak berlebihan serta berpotensi memicu kecemburuan sosial."
   },
   {
@@ -25,6 +31,8 @@
     "satker": "Dinas Syariat Islam",
     "pagu": 17892000000,
     "paket": "Belanja Hibah Barang kepada Badan dan Lembaga Nirlaba, Sukarela Bersifat Sosial Kemasyarakatan",
+    "pemilihanDate": "April 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan hibah barang berupa kendaraan roda dua dalam jumlah paket besar untuk lembaga sosial kemasyarakatan menimbulkan indikasi ketidakselarasan fungsi dan manfaat publik yang perlu diuji ketat. Dari informasi yang tersedia, relevansi, dasar kebutuhan, penerima manfaat, dan proporsionalitas anggaran sangat lemah sehingga seluruh nilai patut dicermati sebagai potensi pemborosan."
   },
   {
@@ -32,6 +40,8 @@
     "satker": "DIREKTORAT JENDERAL BINA ADMINISTRASI KEWILAYAHAN",
     "pagu": 15000000000,
     "paket": "PENYEDIAAN AIR GUNA MENDUKUNG KEGIATAN BANTUAN PEMERINTAH YANG DIBERIKAN SATGAS KEPADA MASYARAKAT",
+    "pemilihanDate": "February 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Nilai anggaran untuk penyediaan air sangat besar dibanding deskripsi yang sangat umum dan minim spesifikasi terukur. Dengan volume tercantum 1 tanpa rincian kebutuhan, kuantitas, lokasi distribusi, atau standar teknis, terdapat indikasi kuat belanja tidak proporsional dan berisiko tidak efisien sehingga layak diaudit lebih lanjut."
   },
   {
@@ -39,6 +49,8 @@
     "satker": "DIREKTORAT JENDERAL KEPENDUDUKAN DAN PENCATATAN SIPIL",
     "pagu": 13870000000,
     "paket": "Konsultan Perusahaan Penanganan Keluhan Masyarakat",
+    "pemilihanDate": "April 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Nilai anggaran jasa konsultansi sangat besar untuk penanganan keluhan masyarakat, sementara uraian dan spesifikasi yang tersedia sangat umum dan tidak menunjukkan kebutuhan yang proporsional. Judul paket juga mengindikasikan fungsi yang pada prinsipnya dapat menjadi tugas internal/operasional layanan publik, sehingga layak dicermati sebagai pengadaan yang berpotensi tidak efisien."
   },
   {
@@ -46,6 +58,8 @@
     "satker": "SEKRETARIAT DEWAN PERWAKILAN RAKYAT DAERAH",
     "pagu": 10125000000,
     "paket": "Belanja Jasa Iklan/Reklame, Film, dan Pemotretan (Penyelenggaraan Hubungan Masyarakat)",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Anggaran jasa iklan/reklame, film, dan pemotretan untuk fungsi hubungan masyarakat pada sekretariat legislatif dengan nilai sangat besar dalam satu paket menimbulkan indikasi kuat pengeluaran berlebihan dan tidak proporsional terhadap kebutuhan wajar komunikasi publik."
   },
   {
@@ -53,6 +67,8 @@
     "satker": "DINAS PERDAGANGAN DAN PERINDUTRIAN",
     "pagu": 9141315500,
     "paket": "Pengadaan Barang untuk Dijual/Diserahkan kepada Masyarakat",
+    "pemilihanDate": "March 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Terdapat komponen barang konsumsi berupa rokok dalam pengadaan bantuan untuk masyarakat/dukungan usaha. Penggunaan APBD untuk pengadaan rokok sangat tidak patut dan berisiko menimbulkan kecemburuan sosial serta tidak selaras dengan prinsip belanja publik yang berorientasi manfaat. Selain itu, paket mencampur banyak jenis bantuan modal dan barang konsumsi yang sangat beragam dalam satu paket besar, sehingga kewajaran kebutuhan dan akuntabilitasnya patut dipertanyakan."
   },
   {
@@ -60,6 +76,8 @@
     "satker": "Dinas Kesehatan",
     "pagu": 7825058000,
     "paket": "Belanja Perjalanan Dinas Paket Meeting Dalam Kota - Pengelolaan Pelayanan Kesehatan Gizi Masyarakat",
+    "pemilihanDate": "March 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Nilai anggaran sangat besar untuk paket perjalanan dinas/meeting dalam kota berbentuk 1 paket halfday di luar kantor. Dari judul dan uraian, belanja ini berindikasi kuat tidak proporsional terhadap kebutuhan rapat lokal dan berpotensi merupakan pemborosan anggaran yang ekstrem."
   },
   {
@@ -67,6 +85,8 @@
     "satker": "Sekretariat Dewan Perwakilan Rakyat Papua Selatan",
     "pagu": 6825000000,
     "paket": "barang yang diserahkan kepada masyarakat",
+    "pemilihanDate": "April 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Indikasi sangat tidak pantas dan berpotensi pemborosan sangat tinggi: belanja barang untuk diserahkan kepada masyarakat dalam kegiatan reses pimpinan dan anggota DPR tidak lazim sebagai kebutuhan langsung fungsi kedewanan. Nilai anggaran sangat besar untuk volume 35 orang x 2 kegiatan sehingga menimbulkan kesan penggunaan APBD untuk pemberian barang dalam agenda politik/reses, bukan kebutuhan publik yang terukur."
   },
   {
@@ -74,6 +94,8 @@
     "satker": "Biro Kesejahteraan Rakyat",
     "pagu": 6600000000,
     "paket": "Belanja Jasa yang Diberikan kepada Pihak Ketiga/Pihak Lain/Masyarakat Berupa Umroh Ke Tanah Suci Mekah/Madinah",
+    "pemilihanDate": "April 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Penggunaan APBD untuk pembiayaan perjalanan umroh bagi pihak lain/masyarakat merupakan belanja yang sangat rentan dinilai tidak relevan dengan prioritas layanan publik dan berpotensi menimbulkan kecemburuan sosial. Dari judul, jenis belanja ini tampak sebagai pembiayaan ibadah non-esensial dengan manfaat publik yang tidak terukur, sehingga seluruh nilai patut dicermati sebagai potensi pemborosan."
   },
   {
@@ -81,6 +103,8 @@
     "satker": "Dinas Pemuda dan Olah Raga Provinsi Sulawesi Tengah",
     "pagu": 4854003000,
     "paket": "Belanja Hibah Barang kepada Badan dan Lembaga Nirlaba, Sukarela Bersifat Sosial Kemasyarakatan",
+    "pemilihanDate": "March 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan hibah barang berupa kendaraan bermotor penumpang dengan nilai sangat besar pada perangkat daerah bidang pemuda dan olahraga patut dicermati karena berisiko tidak proporsional terhadap fungsi layanan publik utama. Judul dan spesifikasi menunjukkan fokus pada mobil penumpang, sementara urgensi, penerima manfaat, dan dasar kebutuhan hibah tidak tampak jelas dari data yang tersedia."
   },
   {
@@ -88,6 +112,8 @@
     "satker": "SEKRETARIAT JENDERAL",
     "pagu": 4197600000,
     "paket": "Pengadaan Sewa Kendaraan Operasional Ka Kanwil DITJEN Pemasyarakatan Tahun Anggaran 2026",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Nilai sewa kendaraan operasional untuk satu paket bagi jabatan pimpinan wilayah sangat tinggi dan menimbulkan indikasi kuat penggunaan anggaran yang berlebihan untuk fasilitas kendaraan dinas. Dari judul dan nilai anggaran, item ini berisiko memicu kesan kemewahan yang tidak proporsional terhadap kebutuhan operasional pemerintahan."
   },
   {
@@ -95,6 +121,8 @@
     "satker": "BADAN PENDAPATAN DAERAH",
     "pagu": 3937554800,
     "paket": "Belanja Barang untuk Dijual/Diserahkan kepada Masyarakat Gebyar Pajak Daerah",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Pengadaan hadiah gebyar pajak berupa paket umroh, sepeda motor, kulkas, mesin cuci, sepeda, dan televisi berisiko tinggi tidak proporsional terhadap penggunaan APBD karena bersifat konsumtif, memicu kesan pemborosan, dan berpotensi menimbulkan kecemburuan sosial. Dari judul dan spesifikasi, item tampak lebih menyerupai doorprize/promosi daripada kebutuhan layanan publik yang esensial."
   },
   {
@@ -102,6 +130,8 @@
     "satker": "Sekretariat Dewan Perwakilan Rakyat Papua Selatan",
     "pagu": 3648000000,
     "paket": "barang yang diserahkan kepada masyarakat",
+    "pemilihanDate": "April 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Indikasi kuat ketidakselarasan penggunaan anggaran karena pengadaan disebut sebagai barang untuk diserahkan kepada masyarakat, namun spesifikasinya terkait kegiatan hearing anggota dewan. Uraian dan volume juga tidak menunjukkan kebutuhan barang yang jelas, sehingga seluruh nilai patut dicermati sebagai potensi pemborosan."
   },
   {
@@ -109,6 +139,8 @@
     "satker": "Kementerian Koordinator Bidang Hukum Hak Asasi Manusia Imigrasi dan Pemasyarakatan",
     "pagu": 3581750000,
     "paket": "Pengadaan Perangkat Pengolah Data dan Komunikasi pada Kementerian Koordinator Bidang Hukum Hak Asasi Manusia Imigrasi dan Pemasyarakatan",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Pengadaan 1 unit videotron dengan nilai sangat besar untuk fungsi perkantoran/koordinasi kementerian menimbulkan indikasi kuat belanja yang tidak esensial dan berpotensi memicu persepsi penggunaan anggaran yang berlebihan. Dari judul dan spesifikasi yang tersedia, manfaatnya tidak tampak sebanding dengan nilainya."
   },
   {
@@ -116,6 +148,8 @@
     "satker": "DIREKTORAT JENDERAL BINA ADMINISTRASI KEWILAYAHAN",
     "pagu": 3500000000,
     "paket": "TOREN AIR GUNA MENDUKUNG KEGIATAN BANTUAN PEMERINTAH YANG DIBERIKAN SATGAS KEPADA MASYARAKAT",
+    "pemilihanDate": "February 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Nilai anggaran sangat besar untuk pengadaan toren air dengan volume tunggal, sementara rincian spesifikasi dan kebutuhan operasional tidak tampak memadai untuk menjelaskan kewajaran besaran biaya. Terdapat indikasi kuat potensi ketidakefisienan atau pengadaan yang nilainya tidak proporsional terhadap jenis barang."
   },
   {
@@ -123,6 +157,8 @@
     "satker": "Sekretariat Dewan Perwakilan Rakyat Papua Selatan",
     "pagu": 3344000000,
     "paket": "Belanja Barang untuk Dijual/Diserahkan kepada Masyarakat",
+    "pemilihanDate": "April 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Pengadaan belanja barang untuk diserahkan kepada masyarakat dalam kegiatan hearing anggota DPR bernilai sangat besar dan dilakukan melalui pengadaan langsung. Dari uraian yang tersedia, keterkaitan barang yang dibagikan dengan fungsi hearing tidak jelas dan berisiko tinggi menjadi belanja populis yang tidak proporsional terhadap tujuan kegiatan."
   },
   {
@@ -130,6 +166,8 @@
     "satker": "Dinas ketahanan pangan dan Pertanian",
     "pagu": 3162730000,
     "paket": "Belanja Barang untuk Dijual/Diserahkan kepada Masyarakat (Jalan Cor Beton)",
+    "pemilihanDate": "March 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Terdapat indikasi kuat ketidaksesuaian objek pengadaan karena uraian dan spesifikasi mencampur barang hand sprayer elektrik 16 liter dengan pekerjaan jalan cor beton dalam satu paket konstruksi. Pencampuran item yang tidak sejenis ini tidak lazim, menyulitkan justifikasi kebutuhan, dan berpotensi menyebabkan penggunaan anggaran tidak tepat sasaran."
   },
   {
@@ -137,6 +175,8 @@
     "satker": "Bagian Kesejahteraan Rakyat",
     "pagu": 3006000000,
     "paket": "Belanja Jasa yang Diberikan kepada Masyarakat Pemberangkatan Umroh",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Penggunaan APBD untuk pemberangkatan umroh bagi masyarakat merupakan belanja yang sangat tidak esensial bagi layanan publik inti dan berisiko kuat menimbulkan ketidakpatutan serta kecemburuan sosial. Dari judul dan uraian, seluruh nilai pengadaan terindikasi merupakan pengeluaran yang tidak mendesak dan tidak berkaitan langsung dengan kebutuhan operasional pemerintahan."
   }
 ]

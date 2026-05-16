@@ -4,6 +4,8 @@
     "satker": "Mabes TNI AD TNI AD",
     "pagu": 8563504000,
     "paket": "Penyusunan Tata Cara Revisi Anggaran TNI AD",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan barang melalui e-purchasing untuk penyusunan tata cara revisi anggaran tampak tidak selaras dengan sifat kebutuhan yang lebih menyerupai jasa konsultansi/penyusunan dokumen. Dengan nilai sangat besar untuk 1 paket, terdapat indikasi kuat ketidaktepatan jenis belanja dan potensi pemborosan signifikan."
   },
   {
@@ -11,6 +13,8 @@
     "satker": "KEMENTERIAN BADAN USAHA MILIK NEGARA",
     "pagu": 7800000000,
     "paket": "Belanja Barang Non Operasional Lainnya - Penyusunan Rumusan Kebijakan Pimpinan",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Item berisi biaya operasional pejabat tinggi dengan nilai sangat besar per paket/kegiatan dan dikemas sebagai jasa lainnya melalui e-purchasing. Dari uraian yang tersedia, pengeluaran ini tidak menunjukkan keluaran kebijakan yang terukur dan menimbulkan indikasi kuat penggunaan anggaran yang tidak patut serta berpotensi memicu kecemburuan sosial."
   },
   {
@@ -18,6 +22,8 @@
     "satker": "SEKRETARIAT DEWAN PERWAKILAN RAKYAT DAERAH",
     "pagu": 3238500000,
     "paket": "Belanja Alat/Bahan untuk Kegiatan Kantor- Bahan Cetak ( PKPP Penyusunan Program Kerja DPRD )",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Anggaran bahan cetak/fotokopi untuk kegiatan penyusunan program kerja DPRD sebesar ini sangat tidak wajar untuk item operasional sederhana. Nilainya ekstrem dibanding karakter pengadaan yang hanya berupa bahan cetak, sehingga kuat mengindikasikan pemborosan anggaran dan patut diaudit rinci terkait volume, frekuensi, serta kewajaran harga satuan."
   },
   {
@@ -25,6 +31,8 @@
     "satker": "SEKRETARIAT DEWAN PERWAKILAN RAKYAT DAERAH",
     "pagu": 2855000000,
     "paket": "Jasa Komunikasi Online (Penyusunan Bahan Komunikasi & Publikasi)",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Anggaran jasa komunikasi online untuk penyusunan bahan komunikasi dan publikasi pada sekretariat DPRD dengan nilai sangat besar menimbulkan indikasi kuat pemborosan dan ketidakpatutan. Jenis belanja ini bersifat pencitraan/komunikasi, bukan kebutuhan layanan publik yang mendesak, sehingga berisiko memicu kecemburuan sosial bila dibiayai penuh dari APBD."
   },
   {
@@ -32,6 +40,8 @@
     "satker": "KORBRIMOB POLRI",
     "pagu": 2567761000,
     "paket": "PENYUSUNAN DAN PENCETAKAN MAJALAH TERATAI PROGRAM APBN T.A. 2026",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan penyusunan dan pencetakan majalah internal bernilai sangat besar untuk satu tahun pada satuan kepolisian menimbulkan indikasi kuat belanja publikasi yang tidak proporsional terhadap fungsi utama. Nilai anggaran yang tinggi untuk media cetak/internal patut dinilai sebagai potensi pemborosan dan relevansinya perlu diuji secara ketat."
   },
   {
@@ -39,6 +49,8 @@
     "satker": "BPK RI PERWAKILAN  PROVINSI BALI",
     "pagu": 1845890000,
     "paket": "Pengadaan Paket Meeting Penyusunan LHP BPK Perwakilan Provinsi Bali",
+    "pemilihanDate": "May 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Nilai anggaran untuk paket meeting penyusunan laporan hasil pemeriksaan sangat besar dibanding sifat kegiatannya yang berupa rapat/meeting. Judul dan spesifikasi yang generik serta volume hanya 2 paket memperkuat indikasi pemborosan atau pengemasan belanja meeting secara berlebihan, sehingga layak diaudit lebih lanjut."
   },
   {
@@ -46,6 +58,8 @@
     "satker": "SEKRETARIAT DEWAN PERWAKILAN RAKYAT DAERAH",
     "pagu": 1520000000,
     "paket": "Siaran Melalui TV Lokal (Penyusunan Bahan Komunikasi & Publikasi)",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan siaran melalui TV lokal untuk kegiatan komunikasi dan publikasi oleh sekretariat legislatif berisiko menjadi belanja pencitraan yang kurang prioritas terhadap fungsi inti pelayanan publik. Nilai anggaran sangat besar untuk 1 paket, sementara rincian output, durasi tayang, frekuensi, dan ukuran manfaat tidak terlihat jelas dari data yang tersedia."
   },
   {
@@ -53,6 +67,8 @@
     "satker": "BADAN PENGEMBANGAN SUMBER DAYA MANUSIA",
     "pagu": 1200000000,
     "paket": "Paket Penyusunan Dan Percetakan Kaleidoskop Rapat Koordinasi Sekretaris Daerah Dan Kepala Bappeda Tahun 2025 Dalam Rangka Sinkronisasi Program Dan Kegiatan Kementerian/Lembaga Dengan Pemerintah Daerah",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Anggaran sangat besar untuk penyusunan dan percetakan kaleidoskop rapat koordinasi, sementara outputnya bersifat publikasi/dokumentasi yang umumnya tidak memerlukan biaya mendekati nilai tersebut untuk satu paket. Indikasi pemborosan kuat karena jenis belanja tampak tidak proporsional terhadap manfaat langsung program."
   },
   {
@@ -60,6 +76,8 @@
     "satker": "Badan Pengelolaan Keuangan dan Aset Daerah",
     "pagu": 1183154200,
     "paket": "Belanja Bahan Cetak (Penyusunan Rancangan Peraturan Daeah Tentang Pertanggungjawaban Pelaksanaan APBD)",
+    "pemilihanDate": "February 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Nilai anggaran sangat besar untuk kebutuhan bahan cetak, fotokopi, jilid, spanduk, dan print warna dalam satu paket. Jenis output yang bersifat administrasi rutin ini tampak tidak sebanding dengan besaran biaya, sehingga terdapat indikasi kuat pemborosan dan kebutuhan perlu diuji kewajarannya."
   },
   {
@@ -67,6 +85,8 @@
     "satker": "KANTOR PUSAT BADAN PERTANAHAN NASIONAL REPUBLIK INDONESIA",
     "pagu": 1119373000,
     "paket": "Penyusunan Kajian Pemberian Insentif Bagi Pegawai Kementerian Agraria Dan Tata Ruang/Badan Pertanahan Nasional",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan jasa konsultansi untuk menyusun kajian pemberian insentif pegawai berindikasi kurang prioritas dan berpotensi menjadi pemborosan, karena fokusnya pada perumusan manfaat internal pegawai, bukan langsung pada layanan publik atau output substantif kelembagaan. Nilai anggaran juga sangat besar untuk satu paket kajian."
   },
   {
@@ -74,6 +94,8 @@
     "satker": "BIRO KEUANGAN DAN BARANG MILIK NEGARA",
     "pagu": 1112756000,
     "paket": "Biaya Paket Kegiatan Rapat/Pertemuan Full Board di Luar Kantor - Pejabat Eselon III ke bawah &amp;#40;D.K.I. Jakarta&amp;#41; kegiatan Penyusunan Laporan Keuangan Kemendikdasmen Audited",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan paket rapat/pertemuan full board di luar kantor untuk penyusunan laporan keuangan audited merupakan belanja yang kuat terindikasi tidak efisien karena fungsi pekerjaan bersifat administratif dan pada prinsipnya dapat dilaksanakan di kantor. Nilai anggaran yang besar untuk 8 paket memperkuat indikasi pemborosan penggunaan dana publik."
   },
   {
@@ -81,6 +103,8 @@
     "satker": "KANTOR PUSAT DIREKTORAT JENDERAL PERKERETAAPIAN",
     "pagu": 1088192000,
     "paket": "Penyusunan Rencana Kerja (Renja) dan Rencana Kerja Tahunan (RKT) bidang perkeretaapian",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Penyusunan Renja dan RKT merupakan fungsi perencanaan inti yang pada prinsipnya melekat pada tugas organisasi. Pengadaan jasa eksternal untuk pekerjaan ini berindikasi kuat kurang tepat dan berpotensi menjadi pemborosan penuh, kecuali ada justifikasi khusus yang tidak terlihat pada data."
   },
   {
@@ -88,6 +112,8 @@
     "satker": "Badan Pengelolaan Keuangan dan Aset Daerah",
     "pagu": 1039939000,
     "paket": "Belanja Bahan Cetak (Penyusunan Peraturan Daerah Tentang APBD)",
+    "pemilihanDate": "February 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Nilai anggaran untuk bahan cetak/fotokopi dan jilid dalam 1 paket tampak sangat tidak proporsional terhadap jenis output yang bersifat rutin dan berbiaya relatif rendah. Indikasi utama adalah dominasi pekerjaan fotokopi dan jilid tanpa spesifikasi volume rinci yang memadai, sementara pagunya sangat besar sehingga patut diduga mengandung pemborosan signifikan."
   },
   {
@@ -95,6 +121,8 @@
     "satker": "SEKRETARIAT JENDERAL KEMENTERIAN HAM",
     "pagu": 994530000,
     "paket": "Pengadaan Jasa Penyelenggara Kegiatan (EO) Penyusunan Laporan BMN Semester II Tahun 2025 dalam rangka Pengelolaan Penatausahaan BMN Kementerian Hak Asasi Manusia Tahun 2026",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Penggunaan jasa event organizer untuk penyusunan laporan/penatausahaan BMN merupakan bentuk belanja yang tampak tidak selaras dengan sifat pekerjaan administrasi internal. Dengan nilai anggaran yang sangat besar untuk satu paket, terdapat indikasi kuat bahwa kegiatan yang semestinya dapat ditangani melalui mekanisme kerja internal atau dukungan administratif biasa berpotensi menimbulkan pemborosan signifikan."
   },
   {
@@ -102,6 +130,8 @@
     "satker": "BPK RI PERWAKILAN  PROVINSI JAMBI",
     "pagu": 935365000,
     "paket": "Pengadaan Jasa Paket Meeting Penyusunan LHP Pemeriksaan",
+    "pemilihanDate": "April 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Indikasi kuat ketidakpatutan karena pengadaan paket meeting dalam kota di hotel untuk penyusunan hasil pemeriksaan setelah tugas pemeriksaan selesai. Kegiatan internal semacam ini pada prinsipnya dapat diprioritaskan menggunakan fasilitas kantor pemerintah, sehingga penggunaan hotel berpotensi membebani anggaran secara tidak perlu. Nilai pagu yang sangat besar untuk 1 paket memperkuat indikasi pemborosan dan perlu dicermati lebih lanjut."
   },
   {
@@ -109,6 +139,8 @@
     "satker": "BADAN PEMERIKSA KEUANGAN PUSAT",
     "pagu": 770390000,
     "paket": "Penyediaan paket meeting fullboard dalam rangka penyusunan laporan hasil pemeriksaan laporan keuangan",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan paket meeting fullboard untuk penyusunan laporan hasil pemeriksaan berindikasi kurang efisien karena aktivitas substantif penyusunan laporan pada umumnya merupakan pekerjaan internal perkantoran, bukan kegiatan yang memerlukan fasilitas fullboard. Nilai anggaran yang besar memperkuat indikasi pemborosan belanja rapat."
   },
   {
@@ -116,6 +148,8 @@
     "satker": "BADAN PEMERIKSA KEUANGAN PUSAT",
     "pagu": 742718000,
     "paket": "Pengadaan Paket Meeting Fullboard dalam rangka penyusunan Laporan Hasil Pemeriksaan pada Direktorat Pemeriksaan VII.B",
+    "pemilihanDate": "March 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan paket meeting fullboard di luar kantor untuk kegiatan penyusunan laporan hasil pemeriksaan berindikasi kurang relevan dengan prinsip efisiensi belanja, karena aktivitas substantif tersebut pada umumnya dapat dilakukan di fasilitas kantor. Nilai anggaran yang besar memperkuat indikasi pemborosan untuk biaya akomodasi dan pertemuan."
   },
   {
@@ -123,6 +157,8 @@
     "satker": "DIREKTORAT JENDERAL IMIGRASI",
     "pagu": 738475000,
     "paket": "Pengadaan Belanja Bahan Kegiatan Fasilitasi Penyusunan Kebijakan pada Direktorat Jenderal Imigrasi Tahun Anggaran 2026",
+    "pemilihanDate": "March 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Terdapat indikasi kuat duplikasi dan pembengkakan biaya pada beberapa komponen paket yang sama, seperti seminar kit, ATK, makan/snack rapat, spanduk, serta penggandaan/penjilidan yang muncul baik sebagai rincian satuan maupun paket bernilai sangat besar. Nilai paket agregat untuk ATK, seminar kit, dan penggandaan tampak tidak proporsional dibanding rincian unit yang juga sudah dicantumkan, sehingga layak diduga mengandung belanja berlebih dan perlu verifikasi kewajaran volume serta perhitungannya."
   },
   {
@@ -130,6 +166,8 @@
     "satker": "BPK RI PERWAKILAN  PROVINSI PAPUA BARAT",
     "pagu": 668883000,
     "paket": "Melaksanakan Paket Meeting Dalam Kota dalam rangka Penyusunan LHP BPK Perwakilan Provinsi Papua Barat",
+    "pemilihanDate": "March 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Kegiatan rapat/penyusunan dokumen pemeriksaan dengan mekanisme full board di hotel berindikasi kurang efisien untuk fungsi inti lembaga pengawasan, terutama karena seluruh paket diarahkan pada fasilitas hotel. Nilai anggaran yang besar untuk satu paket meeting dalam kota memperkuat indikasi pemborosan, meski tidak cukup untuk menyimpulkan pelanggaran."
   },
   {
@@ -137,6 +175,8 @@
     "satker": "SEKRETARIAT DEWAN",
     "pagu": 646800000,
     "paket": "Penginapan Anggota DPRD/Pejabat Eselon II (Penyusunan Kode Etik DPRD)",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Pengadaan penginapan bagi Anggota DPRD/Pejabat Eselon II untuk kegiatan penyusunan kode etik menimbulkan indikasi kuat penggunaan anggaran yang tidak proporsional. Volume sangat besar untuk akomodasi pejabat pada kegiatan internal, sehingga berpotensi memicu pemborosan dan kesan fasilitas berlebihan dengan dana publik."
   }
 ]

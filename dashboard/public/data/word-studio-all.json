@@ -4,6 +4,8 @@
     "satker": "Sekretariat Dewan Perwakilan Rakyat Daerah",
     "pagu": 12891919544,
     "paket": "Belanja Modal Peralatan Studio Video dan Film",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan perangkat display/studio berskala besar dan berjumlah banyak untuk lingkungan sekretariat legislatif daerah tampak berlebihan dibanding kebutuhan fungsi administrasi dan persidangan umum. Adanya kombinasi beberapa interactive board 86 inci, multiple digital signage, LED all-in-one, serta LED wall indoor/outdoor berukuran besar dalam satu paket menimbulkan indikasi belanja visual premium yang tidak proporsional dan layak diaudit lebih lanjut dari sisi kebutuhan riil dan efisiensi."
   },
   {
@@ -11,6 +13,8 @@
     "satker": "DINAS PEMUDA DAN OLAHRAGA",
     "pagu": 11232747600,
     "paket": "Belanja Modal Peralatan Studio Audio Pada Sub Kegiatan Pemeliharaan/Rehabilitasi Sarana dan Prasarana Gedung kantor atau Bangunan Lainnya",
+    "pemilihanDate": "April 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan peralatan studio audio/sound system bernilai sangat besar dalam satu paket pada dinas pemuda dan olahraga, sementara judul kegiatan dikaitkan dengan pemeliharaan/rehabilitasi sarana gedung. Jenis barang yang sangat banyak dan spesifikasi audio profesional berdaya tinggi mengindikasikan lingkup yang kurang selaras dengan nomenklatur kegiatan pemeliharaan bangunan serta berpotensi berlebihan untuk kebutuhan umum kantor/gedung."
   },
   {
@@ -18,6 +22,8 @@
     "satker": "SEKRETARIAT DAERAH",
     "pagu": 8000000000,
     "paket": "Belanja Modal Peralatan Studio Audio",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Pengadaan videotron senilai sangat besar untuk lingkungan sekretariat daerah tampak tidak proporsional terhadap fungsi inti administrasi pemerintahan. Dari judul dan uraian yang tersedia, item ini berindikasi kuat sebagai belanja non-prioritas dengan risiko pemborosan anggaran yang sangat tinggi serta berpotensi menimbulkan kesan penggunaan APBD yang tidak patut."
   },
   {
@@ -25,6 +31,8 @@
     "satker": "Sekretariat DPRD",
     "pagu": 5644400000,
     "paket": "Belanja Modal Peralatan Studio Audio",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Pengadaan peralatan studio audio bernilai sangat besar untuk lingkungan kesekretariatan legislatif terindikasi tidak selaras dengan fungsi utama administrasi dan dukungan persidangan. Nilai anggaran yang sangat tinggi untuk satu paket alat studio menimbulkan kesan penggunaan dana publik yang berlebihan dan tidak proporsional."
   },
   {
@@ -32,6 +40,8 @@
     "satker": "Sekretariat DPRD",
     "pagu": 3240000000,
     "paket": "Belanja Sewa Peralatan Studio Audio",
+    "pemilihanDate": "February 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Sewa peralatan studio audio bernilai sangat besar pada lingkungan Sekretariat DPRD tampak tidak proporsional dengan fungsi administratif kelembagaan. Nilai anggaran yang mencapai miliaran rupiah untuk 1 paket menimbulkan indikasi kuat pemborosan dan penggunaan dana publik yang tidak patut."
   },
   {
@@ -39,6 +49,8 @@
     "satker": "SEKRETARIAT DEWAN PERWAKILAN RAKYAT DAERAH",
     "pagu": 2795000000,
     "paket": "Belanja Modal Peralatan Studio Audio",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Pengadaan videotron indoor, interactive flat panel, dan sound system senilai sangat besar untuk ruang paripurna legislatif berpotensi kuat merupakan belanja fasilitas yang berlebihan dan memicu kesan penggunaan APBD yang tidak proporsional terhadap fungsi utama pelayanan publik. Dari judul dan nilai anggaran, item ini tampak sangat mewah dan layak dikategorikan sangat tidak pantas."
   },
   {
@@ -46,6 +58,8 @@
     "satker": "Sekretariat DPRD",
     "pagu": 2143410000,
     "paket": "Belanja Modal Peralatan Studio Video dan Film",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan videotron outdoor oleh sekretariat legislatif berisiko rendah keterkaitan langsung dengan fungsi utama administrasi dan dukungan persidangan. Nilai anggaran yang sangat besar untuk 1 paket menimbulkan indikasi belanja yang tidak prioritas dan berpotensi memicu pemborosan apabila tidak didukung kebutuhan layanan publik yang kuat."
   },
   {
@@ -53,6 +67,8 @@
     "satker": "SEKRETARIAT DPRD",
     "pagu": 1927800000,
     "paket": "Belanja Sewa Peralatan Studio Audio Sub Kegiatan Pelaksanaan Reses",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Nilai anggaran sangat tidak wajar untuk sewa paket sound system sederhana pada kegiatan reses, dengan spesifikasi hanya 2 speaker, 1 mixer, dan 2 mikrofon nirkabel. Indikasi kuat terjadi pemborosan besar karena skala kebutuhan peralatan sangat kecil dibanding nilai pengadaan."
   },
   {
@@ -60,6 +76,8 @@
     "satker": "BADAN PENDAPATAN DAERAH",
     "pagu": 1650000000,
     "paket": "Belanja Modal Peralatan Studio Audio",
+    "pemilihanDate": "February 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan videotron outdoor pada unit pengelola pendapatan daerah tampak tidak selaras dengan fungsi inti pemungutan dan administrasi pendapatan. Nilai anggaran yang besar untuk satu paket memperkuat indikasi belanja nonprioritas yang berpotensi menimbulkan pemborosan apabila tidak didukung kebutuhan layanan publik yang sangat jelas."
   },
   {
@@ -67,6 +85,8 @@
     "satker": "Sekretariat DPRD",
     "pagu": 1538460000,
     "paket": "Belanja Sewa Peralatan Studio Audio",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Sewa peralatan studio audio bernilai sangat besar pada lingkungan Sekretariat DPRD menimbulkan indikasi kuat pengeluaran yang tidak proporsional terhadap fungsi utama dukungan administrasi dan persidangan. Nilainya sangat tinggi untuk sekadar sewa peralatan studio audio sehingga patut dipandang sebagai penggunaan anggaran yang sangat tidak pantas dan berpotensi menimbulkan pemborosan penuh."
   },
   {
@@ -74,6 +94,8 @@
     "satker": "Badan Pendapatan Daerah",
     "pagu": 1500049005,
     "paket": "Belanja Modal Peralatan Studio Video dan Film - VIDEOTRON DAN SARANA PRASARANA PENDUKUNGNYA (GPU SALAWAH)",
+    "pemilihanDate": "March 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan videotron beserta sarana pendukungnya oleh perangkat daerah yang berfokus pada pendapatan daerah tampak kurang selaras dengan fungsi inti organisasi. Nilai anggaran sangat besar untuk 1 paket dan indikasi kebutuhan operasional esensial tidak terlihat dari uraian, sehingga patut dinilai berisiko tinggi sebagai belanja yang tidak prioritas."
   },
   {
@@ -81,6 +103,8 @@
     "satker": "Sekretariat DPRD",
     "pagu": 1014754000,
     "paket": "Belanja Modal Alat Studio Lainnya",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Pengadaan alat podcast dalam jumlah besar untuk lingkungan sekretariat legislatif menimbulkan indikasi kuat ketidakpatutan penggunaan APBD. Jenis belanja ini tidak tampak sebagai kebutuhan inti yang mendesak dan berisiko memicu persepsi penggunaan anggaran untuk fasilitas media yang berlebihan."
   },
   {
@@ -88,6 +112,8 @@
     "satker": "Sekretariat DPRD",
     "pagu": 900000000,
     "paket": "Belanja Modal Alat Studio Lainnya",
+    "pemilihanDate": "February 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan videotron untuk lingkungan sekretariat legislatif berisiko rendah keterkaitannya dengan kebutuhan inti pelayanan publik dan berpotensi lebih bersifat penunjang citra/seremonial. Dengan nilai anggaran yang besar untuk 1 paket ukuran 2 x 3 m, item ini layak dikategorikan sebagai belanja yang patut dicermati serius dari sisi urgensi dan efisiensi."
   },
   {
@@ -95,6 +121,8 @@
     "satker": "Sekretariat Dewan Perwakilan Rakyat Daerah",
     "pagu": 761306047,
     "paket": "Belanja Modal Peralatan Studio Video dan Film",
+    "pemilihanDate": "April 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Pengadaan videotron indoor all-in-one berukuran sangat besar dan terintegrasi untuk ruang rapat medium di lingkungan sekretariat legislatif berindikasi kemewahan yang sulit dibenarkan sebagai kebutuhan esensial pelayanan publik. Nilai anggaran yang sangat besar untuk perangkat presentasi internal menimbulkan kesan penggunaan APBD yang berlebihan dan berpotensi memicu kecemburuan sosial."
   },
   {
@@ -102,6 +130,8 @@
     "satker": "BADAN PENGELOLAAN KEUANGAN DAN ASET DAERAH",
     "pagu": 750000000,
     "paket": "Peralatan Studio Video dan Film",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan peralatan studio video/film berupa videotron pada unit pengelola keuangan dan aset daerah terindikasi kurang selaras dengan fungsi utama organisasi. Nilai anggaran signifikan untuk 1 paket sehingga patut dicermati sebagai belanja yang berpotensi tidak prioritas."
   },
   {
@@ -109,6 +139,8 @@
     "satker": "DINAS PETERNAKAN & PERKEBUNAN",
     "pagu": 750000000,
     "paket": "Belanja Sewa Peralatan Studio Video dan Film",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan sewa peralatan studio/video, termasuk videotron, tampak tidak selaras dengan fungsi utama perangkat daerah yang berfokus pada peternakan dan perkebunan. Dengan nilai anggaran besar untuk 1 paket, item ini berindikasi kuat sebagai belanja non-prioritas dan layak diaudit lebih lanjut dari sisi urgensi, relevansi tugas, dan kewajaran biaya."
   },
   {
@@ -116,6 +148,8 @@
     "satker": "Dinas Kependudukan Dan Pencatatan Sipil",
     "pagu": 596937000,
     "paket": "Belanja Modal Peralatan Studio Video dan Film",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan videotron indoor untuk dinas kependudukan dan pencatatan sipil tampak kurang relevan dengan fungsi layanan administrasi kependudukan yang umumnya lebih membutuhkan sistem informasi, perangkat pelayanan, dan sarana antrean. Nilai anggaran yang besar untuk 1 set menimbulkan indikasi belanja nonprioritas dan layak ditinjau kebutuhan riil serta urgensinya."
   },
   {
@@ -123,6 +157,8 @@
     "satker": "BIRO UMUM",
     "pagu": 553500000,
     "paket": "Belanja Sewa Alat Studio Lainnya",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Indikasi ketidakpantasan cukup kuat karena belanja sewa videotron bernilai besar untuk unit biro umum tidak tampak sebagai kebutuhan inti administrasi perkantoran. Uraian sangat generik, hanya 1 paket, dan dilakukan melalui pengadaan langsung, sehingga manfaat serta kewajaran nilainya layak dicermati."
   },
   {
@@ -130,6 +166,8 @@
     "satker": "Sekretariat DPRD",
     "pagu": 518800000,
     "paket": "Belanja Modal Peralatan Studio Video dan Film (Pengadaan Sarana dan Prasarana Gedung Kantor atau Bangunan Lainnya)",
+    "pemilihanDate": "March 2026",
+    "isInappropriate": "absurd",
     "inappropriateReason": "Pengadaan videotron indoor 115 inci untuk lingkungan Sekretariat DPRD berisiko sangat tidak proporsional terhadap kebutuhan dasar perkantoran dan berpotensi menimbulkan kesan penggunaan APBD secara berlebihan untuk fasilitas presentasi mewah. Nilainya besar untuk satu paket dan layak dipandang sebagai pemborosan penuh bila urgensi fungsionalnya tidak sangat kuat."
   },
   {
@@ -137,6 +175,8 @@
     "satker": "Dinas Pekerjaan Umum dan Penataan Ruang",
     "pagu": 500000000,
     "paket": "Belanja Modal Peralatan Studio Video dan Film (LED Videotron)",
+    "pemilihanDate": "March 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Pengadaan LED videotron indoor/peralatan studio video dan film oleh unit pekerjaan umum dan penataan ruang tampak kurang selaras dengan fungsi inti layanan infrastruktur. Dari judul dan spesifikasi, barang ini berpotensi lebih bersifat penunjang publikasi/seremonial daripada kebutuhan teknis utama, sehingga seluruh nilai pengadaan layak dicermati sebagai potensi pemborosan."
   }
 ]

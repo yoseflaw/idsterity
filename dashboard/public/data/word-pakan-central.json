@@ -4,6 +4,8 @@
     "satker": "BALAI PERAKITAN DAN PENGUJIAN TANAMAN REMPAH OBAT DAN AROMATIK",
     "pagu": 30000000,
     "paket": "Pengadaan Pakan Ternak pada kegiatan kebutuhan sehari hari perkantoran",
+    "pemilihanDate": "January 2026",
+    "isInappropriate": "high",
     "inappropriateReason": "Judul dan uraian menunjukkan pengadaan pakan ternak dimasukkan dalam kegiatan kebutuhan sehari-hari perkantoran. Klasifikasi kebutuhan perkantoran tidak selaras dengan karakter barang tersebut dan mengindikasikan penggunaan anggaran yang tidak tepat sasaran atau salah pembebanan anggaran, sehingga seluruh nilai patut dicermati sebagai potensi pemborosan."
   }
 ]
