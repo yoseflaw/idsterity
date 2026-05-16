@@ -1126,7 +1126,7 @@
         /* Data signals — keep as concrete values; chart components own these */
         --red:      var(--viz-red);
         --absurd:   var(--viz-red-dark);
-        --amber:    var(--accent-soft);
+        --amber:    var(--viz-warm-light);
         --central:  #5b8ed4;
         --provinsi: #5ba882;
         --kabkota:  #c4a04a;
