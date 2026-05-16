@@ -66,6 +66,7 @@
       {@const lbl = labelOf(rec)}
       <li class="card">
         <div class="card-lembaga">{abbreviateLembaga(rec.lembaga)}</div>
+        <div class="card-kapan">Kapan: {rec.pemilihanDate ?? '—'}</div>
         <div class="card-paket">{rec.paket || rec.name || "(tanpa nama)"}</div>
         <div class="card-foot">
           <span class="card-pagu">{fmtT(rec.pagu)}</span>
@@ -106,6 +107,11 @@
     font-size: var(--size-mono);
     color: var(--accent-soft);
     letter-spacing: 0.02em;
+  }
+  .card-kapan {
+    font-family: var(--mono);
+    font-size: var(--size-mono);
+    color: var(--ink-3);
   }
   .card-paket {
     font-family: var(--serif);
