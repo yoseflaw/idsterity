@@ -1,7 +1,7 @@
 <script>
   import { onMount, onDestroy } from 'svelte'
 
-  let { data = null, step = 0, lang = 'id' } = $props()
+  let { data = null, step = 0 } = $props()
 
   const STACK_WIDTH_DESKTOP = 64
   const STACK_WIDTH_MOBILE  = 44
@@ -37,11 +37,11 @@
 
   let points = $derived(
     [
-      { key: 'q1_2025', period: lang === 'id' ? 'TW I 2025'   : 'Q1 2025'   },
-      { key: 'q2_2025', period: lang === 'id' ? 'TW II 2025'  : 'Q2 2025'   },
-      { key: 'q3_2025', period: lang === 'id' ? 'TW III 2025' : 'Q3 2025'   },
-      { key: 'q4_2025', period: lang === 'id' ? 'TW IV 2025'  : 'Q4 2025'   },
-      { key: 'q1_2026', period: lang === 'id' ? 'TW I 2026'   : 'Q1 2026'   },
+      { key: 'q1_2025', period: 'TW I 2025'   },
+      { key: 'q2_2025', period: 'TW II 2025'  },
+      { key: 'q3_2025', period: 'TW III 2025' },
+      { key: 'q4_2025', period: 'TW IV 2025'  },
+      { key: 'q1_2026', period: 'TW I 2026'   },
     ].map((p, i) => {
       const valueRaw  = data?.[p.key] ?? 0
       const valueAbs  = Math.abs(valueRaw)
@@ -64,7 +64,7 @@
     <rect width="100%" height="200" fill="var(--bg-alt)" rx="2"/>
     <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle"
           font-family="JetBrains Mono, monospace" font-size="11"
-          fill="var(--muted)">{lang === 'id' ? 'memuat...' : 'loading...'}</text>
+          fill="var(--muted)">memuat...</text>
   </svg>
 {:else}
   <svg width="100%" height={svgHeight} viewBox="0 0 {svgWidth} {svgHeight}"

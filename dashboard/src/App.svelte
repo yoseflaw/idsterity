@@ -1,7 +1,6 @@
 <script>
     import { onMount, onDestroy } from "svelte";
     import scrollama from "scrollama";
-    import { t } from "./i18n.js";
     import DeficitChart from "./DeficitChart.svelte";
     import GDPChart from "./GDPChart.svelte";
     import InstitutionsChart from "./InstitutionsChart.svelte";
@@ -9,7 +8,6 @@
     let stats = $state(null);
     let lembaga = $state([]);
     let constants = $state(null);
-    let lang = $state("id");
 
     let activeStepS1 = $state(0);
     let activeStepS2 = $state(0);
@@ -94,7 +92,7 @@
                 lembagaSearch = "";
             }
         } catch (err) {
-            filterError = t[lang].fetchError;
+            filterError = "Gagal memuat data. Coba muat ulang halaman.";
         }
     }
 
@@ -124,7 +122,7 @@
             wordRecords = data;
         } catch (err) {
             if (selectedWord !== requestedWord) return;
-            wordRecordsError = t[lang].s9Error;
+            wordRecordsError = "Gagal memuat data paket. Coba lagi.";
         } finally {
             if (selectedWord === requestedWord) wordRecordsLoading = false;
         }
@@ -160,7 +158,7 @@
             cloudWords = w;
             lembagaIndex = l;
         } catch (err) {
-            fetchError = lang === "id" ? t.id.fetchError : t.en.fetchError;
+            fetchError = "Gagal memuat data. Coba muat ulang halaman.";
         }
 
         requestAnimationFrame(() => {
@@ -292,14 +290,12 @@
 
     const fmtT = (v) => (v / 1e12).toFixed(1);
     const fmtNum = (v) => v.toLocaleString("id-ID");
-    const fmtCount = (v, l) => v.toLocaleString(l === "id" ? "id-ID" : "en-US");
+    const fmtCount = (v) => v.toLocaleString("id-ID");
 
-    function fmtPaguShort(v, l) {
-        const sep = l === "id" ? "," : ".";
-        if (v >= 1e12) return `Rp ${(v / 1e12).toFixed(1).replace(".", sep)} T`;
-        if (v >= 1e9) return `Rp ${(v / 1e9).toFixed(1).replace(".", sep)} M`;
-        if (l === "id") return `Rp ${(v / 1e6).toFixed(0)} jt`;
-        return `Rp ${(v / 1e6).toFixed(0)} M`;
+    function fmtPaguShort(v) {
+        if (v >= 1e12) return `Rp ${(v / 1e12).toFixed(1).replace(".", ",")} T`;
+        if (v >= 1e9) return `Rp ${(v / 1e9).toFixed(1).replace(".", ",")} M`;
+        return `Rp ${(v / 1e6).toFixed(0)} jt`;
     }
 
     function countUp(target, duration, onUpdate, onDone) {
@@ -332,45 +328,36 @@
         };
     }
 
-    function toggleLang() {
-        const y = window.scrollY;
-        lang = lang === "id" ? "en" : "id";
-        requestAnimationFrame(() => window.scrollTo(0, y));
-    }
 </script>
 
 <div class="site">
-    <button class="lang-toggle" onclick={toggleLang}
-        >{t[lang].toggleLabel}</button
-    >
-
     <!-- ━━━ HERO ━━━ -->
     <section class="hero">
         <div class="grain"></div>
         <div class="hero-inner">
-            <div class="eyebrow">{t[lang].eyebrow}</div>
+            <div class="eyebrow">idsterity · Pengadaan yang Mengada-ada</div>
             <h1>
-                {t[lang].heroLine1}<br />
-                <em>{t[lang].heroLine2}</em>
+                Berhemat itu berat,<br />
+                <em>biar kamu saja.</em>
             </h1>
-            <a class="scroll-cue" href="#s1">{t[lang].scrollCue}</a>
+            <a class="scroll-cue" href="#s1">gulir untuk membedah ↓</a>
         </div>
     </section>
 
     <!-- ━━━ S1 HOOK ━━━ -->
     <section class="scrolly" data-section="s1" id="s1">
         <div class="sticky-col" class:chart--dimmed={s1ChartDimmed}>
-            <div class="eyebrow">{t[lang].s1Eyebrow}</div>
+            <div class="eyebrow">Bagian 1: Pada awalnya adalah instruksi</div>
             <h2 class="s1-display">
-                {t[lang].s1DisplayLine1}<br /><em>{t[lang].s1DisplayLine2}</em>
+                Pemerintah berjanji efisiensi,<br /><em>seperti apa kenyataannya?</em>
             </h2>
         </div>
 
         <div class="steps-col">
             <div class="step" data-step="0">
                 <div class="step-card">
-                    <h3>{t[lang].s1StepHeading}</h3>
-                    <p>{t[lang].s1StepBody}</p>
+                    <h3>Mengucap hemat itu mudah, mari kita tengok rekam jejaknya.</h3>
+                    <p>Sejak awal 2024, pemerintah telah mengumbar janji pemotongan berbagai biaya tidak yang tidak perlu. Melalui Inpres Nomor 1 Tahun 2025 tentang Efisiensi Belanja, rakyat Indonesia diberi harapan. Sayangnya, kumpulan berita berikut memberi kesan berbeda:</p>
                     <ul class="news-links">
                         <li>
                             <a
@@ -379,7 +366,7 @@
                                 rel="noopener noreferrer"
                                 class="news-link"
                             >
-                                {t[lang].s1Link1Label}
+                                Yang terekam dari 95 hari kunjungan Prabowo ke luar negeri
                             </a>
                         </li>
                         <li>
@@ -389,7 +376,7 @@
                                 rel="noopener noreferrer"
                                 class="news-link"
                             >
-                                {t[lang].s1Link2Label}
+                                Mahasiswa Bali Geruduk DPRD, Tolak Pemotongan Anggaran Pendidikan
                             </a>
                         </li>
                         <li>
@@ -399,7 +386,7 @@
                                 rel="noopener noreferrer"
                                 class="news-link"
                             >
-                                {t[lang].s1Link3Label}
+                                Efisiensi Anggaran Ganggu Pelayanan Publik, Pendidikan Hingga Infrastruktur Dasar
                             </a>
                         </li>
                         <li>
@@ -409,7 +396,7 @@
                                 rel="noopener noreferrer"
                                 class="news-link"
                             >
-                                {t[lang].s1Link4Label}
+                                Saat Nyawa Rakyat Tergilas Efisiensi Anggaran Negara
                             </a>
                         </li>
                         <li>
@@ -419,11 +406,11 @@
                                 rel="noopener noreferrer"
                                 class="news-link"
                             >
-                                {t[lang].s1Link5Label}
+                                Penghematan Anggaran Kementerian dan Lembaga untuk Program Prioritas Prabowo
                             </a>
                         </li>
                     </ul>
-                    <p class="s1-disclaimer">{t[lang].s1Disclaimer}</p>
+                    <p class="s1-disclaimer">Tautan menuju kanal berita terkait.</p>
                 </div>
             </div>
         </div>
@@ -432,11 +419,10 @@
     <!-- ━━━ S2 APBN DEFICIT ━━━ -->
     <section class="scrolly" data-section="s2" id="s2">
         <div class="sticky-col" class:chart--dimmed={s2ChartDimmed}>
-            <div class="eyebrow">{t[lang].s2Eyebrow}</div>
+            <div class="eyebrow">Bagian 2: APBN KITA, bukan APBN SAYA</div>
             <DeficitChart
                 data={constants?.apbn?.deficit}
                 step={activeStepS2}
-                {lang}
             />
             <div class="step-indicator" aria-hidden="true">
                 {#each [0, 1, 2] as s}
@@ -448,48 +434,48 @@
         <div class="steps-col">
             <div class="step" data-step="0">
                 <div class="step-card">
-                    <span class="step-num">{t[lang].stepCounter(1, 3)}</span>
-                    <h3>{t[lang].s2Step1Heading}</h3>
-                    <p>{t[lang].s2Step1Body}</p>
+                    <span class="step-num">1 / 3</span>
+                    <h3>2024: Rp 507,8 T</h3>
+                    <p>Pada tahun 2024, defisit APBN mencapai Rp 507,8 triliun (2,29% dari PDB), bagaimana jadinya setelah gembar-gembor efisiensi?</p>
                     <a
                         class="source-link"
                         href={constants?.sources?.find(
                             (s) => s.field === "apbn.deficit.oct2024",
                         )?.url ?? "#"}
                         target="_blank"
-                        rel="noopener noreferrer">{t[lang].s2SourceLabel}</a
+                        rel="noopener noreferrer">Sumber: Kementerian Keuangan RI</a
                     >
                 </div>
             </div>
 
             <div class="step" data-step="1">
                 <div class="step-card">
-                    <span class="step-num">{t[lang].stepCounter(2, 3)}</span>
-                    <h3>{t[lang].s2Step2Heading}</h3>
-                    <p>{t[lang].s2Step2Body}</p>
+                    <span class="step-num">2 / 3</span>
+                    <h3>2025: Rp 695,1 T</h3>
+                    <p>Realisasi APBN 2025: defisit justru melebar ke Rp 695,1 triliun (2,92% dari PDB). Angan-angan penghematan mulai tertiup angin.</p>
                     <a
                         class="source-link"
                         href={constants?.sources?.find(
                             (s) => s.field === "apbn.deficit.fy2025",
                         )?.url ?? "#"}
                         target="_blank"
-                        rel="noopener noreferrer">{t[lang].s2SourceLabel}</a
+                        rel="noopener noreferrer">Sumber: Kementerian Keuangan RI</a
                     >
                 </div>
             </div>
 
             <div class="step" data-step="2">
                 <div class="step-card">
-                    <span class="step-num">{t[lang].stepCounter(3, 3)}</span>
-                    <h3>{t[lang].s2Step3Heading}</h3>
-                    <p>{t[lang].s2Step3Body}</p>
+                    <span class="step-num">3 / 3</span>
+                    <h3>Q1 2026: Rp 240 T</h3>
+                    <p>Baru tiga bulan 2026, defisit sudah mencapai Rp 240 triliun. Belanja apa aja sih?</p>
                     <a
                         class="source-link"
                         href={constants?.sources?.find(
                             (s) => s.field === "apbn.deficit.q1_2026",
                         )?.url ?? "#"}
                         target="_blank"
-                        rel="noopener noreferrer">{t[lang].s2SourceLabel}</a
+                        rel="noopener noreferrer">Sumber: Kementerian Keuangan RI</a
                     >
                 </div>
             </div>
@@ -499,11 +485,10 @@
     <!-- ━━━ S3 GDP CONSUMPTION ━━━ -->
     <section class="scrolly" data-section="s3" id="s3">
         <div class="sticky-col" class:chart--dimmed={s3ChartDimmed}>
-            <div class="eyebrow">{t[lang].s3Eyebrow}</div>
+            <div class="eyebrow">Bagian 3: Defisit karena apa?</div>
             <GDPChart
                 data={constants?.gdp?.konsumsi_pemerintah}
                 step={activeStepS3}
-                {lang}
             />
             <div class="step-indicator" aria-hidden="true">
                 {#each [0, 1, 2, 3] as s}
@@ -515,9 +500,9 @@
         <div class="steps-col">
             <div class="step" data-step="0">
                 <div class="step-card">
-                    <span class="step-num">{t[lang].stepCounter(1, 4)}</span>
-                    <h3>{t[lang].s3Step1Heading}</h3>
-                    <p>{t[lang].s3Step1Body}</p>
+                    <span class="step-num">1 / 4</span>
+                    <h3>Q1 2025: −1,38%</h3>
+                    <p>Awal 2025, konsumsi pemerintah memang menyusut 1,38% YoY. Ini namanya fase bulan madu.</p>
                     <a
                         class="source-link"
                         href={constants?.sources?.find(
@@ -525,16 +510,16 @@
                                 s.field === "gdp.konsumsi_pemerintah.q1_2025",
                         )?.url ?? "#"}
                         target="_blank"
-                        rel="noopener noreferrer">{t[lang].s3SourceLabel}</a
+                        rel="noopener noreferrer">Sumber: BPS</a
                     >
                 </div>
             </div>
 
             <div class="step" data-step="1">
                 <div class="step-card">
-                    <span class="step-num">{t[lang].stepCounter(2, 4)}</span>
-                    <h3>{t[lang].s3Step2Heading}</h3>
-                    <p>{t[lang].s3Step2Body}</p>
+                    <span class="step-num">2 / 4</span>
+                    <h3>Q2 2025: +21,05%</h3>
+                    <p>Satu kuartal kemudian, konsumsi pemerintah melonjak drastis 21,05% YoY.</p>
                     <a
                         class="source-link"
                         href={constants?.sources?.find(
@@ -542,16 +527,16 @@
                                 s.field === "gdp.konsumsi_pemerintah.q2_2025",
                         )?.url ?? "#"}
                         target="_blank"
-                        rel="noopener noreferrer">{t[lang].s3SourceLabel}</a
+                        rel="noopener noreferrer">Sumber: BPS</a
                     >
                 </div>
             </div>
 
             <div class="step" data-step="2">
                 <div class="step-card">
-                    <span class="step-num">{t[lang].stepCounter(3, 4)}</span>
-                    <h3>{t[lang].s3Step3Heading}</h3>
-                    <p>{t[lang].s3Step3Body}</p>
+                    <span class="step-num">3 / 4</span>
+                    <h3>Q3–Q4 2025</h3>
+                    <p>Lanjut lagi Q3 2025: +5,08%. Q4 2025: +4,41%. Secara konsistensi memang patut diapresiasi.</p>
                     <a
                         class="source-link"
                         href={constants?.sources?.find(
@@ -559,16 +544,16 @@
                                 s.field === "gdp.konsumsi_pemerintah.q3_2025",
                         )?.url ?? "#"}
                         target="_blank"
-                        rel="noopener noreferrer">{t[lang].s3SourceLabel}</a
+                        rel="noopener noreferrer">Sumber: BPS</a
                     >
                 </div>
             </div>
 
             <div class="step" data-step="3">
                 <div class="step-card">
-                    <span class="step-num">{t[lang].stepCounter(4, 4)}</span>
-                    <h3>{t[lang].s3Step4Heading}</h3>
-                    <p>{t[lang].s3Step4Body}</p>
+                    <span class="step-num">4 / 4</span>
+                    <h3>Q1 2026: +21,81%</h3>
+                    <p>Awal 2026, konsumsi pemerintah tumbuh 21,81% YoY. Pemerintah berjanji efisiensi, perlu cek kamus sepertinya definisi kata ini sudah diganti.</p>
                     <a
                         class="source-link"
                         href={constants?.sources?.find(
@@ -576,7 +561,7 @@
                                 s.field === "gdp.konsumsi_pemerintah.q1_2026",
                         )?.url ?? "#"}
                         target="_blank"
-                        rel="noopener noreferrer">{t[lang].s3SourceLabel}</a
+                        rel="noopener noreferrer">Sumber: BPS</a
                     >
                 </div>
             </div>
@@ -586,8 +571,8 @@
     <!-- ━━━ S4 DATASET OVERVIEW ━━━ -->
     <section class="s4" data-section="s4" id="s4">
         <div class="s4-inner">
-            <div class="eyebrow">{t[lang].s4Eyebrow}</div>
-            <h2 class="s4-heading">{t[lang].s4Heading}</h2>
+            <div class="eyebrow">Bagian 4: Data Pengadaan</div>
+            <h2 class="s4-heading">Apa yang ada di dataset ini?</h2>
 
             <div class="s4-stats-grid">
                 <div class="s4-stat-cell">
@@ -596,11 +581,11 @@
                             Rp {fmtT(stats.totalPagu)} T
                         </div>
                         <div class="s4-stat-label">
-                            {t[lang].s4TotalPaguLabel}
+                            Total pagu pengadaan
                         </div>
                     {:else}
                         <div class="s4-stat-number loading-pulse">--</div>
-                        <div class="s4-stat-label">{t[lang].loading}</div>
+                        <div class="s4-stat-label">memuat...</div>
                     {/if}
                 </div>
                 <div class="s4-stat-cell">
@@ -609,33 +594,33 @@
                             {fmtNum(stats.totalRecords)}
                         </div>
                         <div class="s4-stat-label">
-                            {t[lang].s4RecordCountLabel}
+                            Paket pengadaan
                         </div>
                     {:else}
                         <div class="s4-stat-number loading-pulse">--</div>
-                        <div class="s4-stat-label">{t[lang].loading}</div>
+                        <div class="s4-stat-label">memuat...</div>
                     {/if}
                 </div>
             </div>
 
             <h3 class="s4-breakdown-heading">
-                {t[lang].s4LabelBreakdownHeading}
+                Menurut keyakinanan AI
             </h3>
 
             <ul class="s4-breakdown">
                 <li class="s4-row">
                     <span class="s4-dot" style="background: var(--absurd)"></span>
-                    <span class="s4-row-label">{t[lang].s4LabelAbsurd}</span>
+                    <span class="s4-row-label">Absurd</span>
                     <span class="s4-row-count">
                         {#if stats}
-                            {fmtCount(stats.labelCounts.absurd ?? 0, lang)}
+                            {fmtCount(stats.labelCounts.absurd ?? 0)}
                         {:else}
                             <span class="loading-pulse">--</span>
                         {/if}
                     </span>
                     <span class="s4-row-pagu">
                         {#if stats}
-                            {fmtPaguShort(stats.labelPagu.absurd ?? 0, lang)}
+                            {fmtPaguShort(stats.labelPagu.absurd ?? 0)}
                         {:else}
                             <span class="loading-pulse">--</span>
                         {/if}
@@ -643,10 +628,10 @@
                 </li>
                 <li class="s4-row">
                     <span class="s4-dot" style="background: var(--red)"></span>
-                    <span class="s4-row-label">{t[lang].s4LabelHigh}</span>
+                    <span class="s4-row-label">Bermasalah</span>
                     <span class="s4-row-count"
                         >{stats ? fmtNum(stats.labelCounts.high) : "--"}
-                        {lang === "id" ? "paket" : "packages"}</span
+                        paket</span
                     >
                     <span class="s4-row-pagu"
                         >Rp {stats ? fmtT(stats.labelPagu.high) : "--"} T</span
@@ -655,10 +640,10 @@
                 <li class="s4-row">
                     <span class="s4-dot" style="background: var(--amber)"
                     ></span>
-                    <span class="s4-row-label">{t[lang].s4LabelMed}</span>
+                    <span class="s4-row-label">Perlu dicermati</span>
                     <span class="s4-row-count"
                         >{stats ? fmtNum(stats.labelCounts.med) : "--"}
-                        {lang === "id" ? "paket" : "packages"}</span
+                        paket</span
                     >
                     <span class="s4-row-pagu"
                         >Rp {stats ? fmtT(stats.labelPagu.med) : "--"} T</span
@@ -669,10 +654,10 @@
                         class="s4-dot"
                         style="background: rgba(237,232,220,0.3)"
                     ></span>
-                    <span class="s4-row-label">{t[lang].s4LabelLow}</span>
+                    <span class="s4-row-label">Wajar</span>
                     <span class="s4-row-count"
                         >{stats ? fmtNum(stats.labelCounts.low) : "--"}
-                        {lang === "id" ? "paket" : "packages"}</span
+                        paket</span
                     >
                     <span class="s4-row-pagu"
                         >Rp {stats ? fmtT(stats.labelPagu.low) : "--"} T</span
@@ -680,16 +665,16 @@
                 </li>
             </ul>
 
-            <p class="s4-disclaimer">{t[lang].s4Disclaimer}</p>
+            <p class="s4-disclaimer">Label dihasilkan oleh model AI yang sangat amat mungkin salah. Bukan referensi hukum.</p>
         </div>
     </section>
 
     <!-- ━━━ S5+S6 INSTITUTIONS ━━━ -->
     <section class="scrolly" data-section="s5" id="s5">
         <div class="sticky-col" class:chart--dimmed={s5ChartDimmed}>
-            <div class="eyebrow">{t[lang].s5Eyebrow}</div>
-            <h2 class="s5-sticky-heading">{t[lang].s5StickyHeading}</h2>
-            <InstitutionsChart data={lembaga} step={activeStepS5} {lang} />
+            <div class="eyebrow">Bagian 5: Sang Juara</div>
+            <h2 class="s5-sticky-heading">5 lembaga dengan anggaran terbesar</h2>
+            <InstitutionsChart data={lembaga} step={activeStepS5} />
             <div class="step-indicator" aria-hidden="true">
                 {#each [0, 1, 2] as s}
                     <div class="pip" class:active={activeStepS5 === s}></div>
@@ -700,27 +685,27 @@
         <div class="steps-col">
             <div class="step" data-step="0">
                 <div class="step-card">
-                    <span class="step-num">{t[lang].stepCounter(1, 3)}</span>
-                    <h3>{t[lang].s5Step1Heading}</h3>
-                    <p>{t[lang].s5Step1Body}</p>
+                    <span class="step-num">1 / 3</span>
+                    <h3>Siapa yang belanja paling besar?</h3>
+                    <p>Lima lembaga pemerintah dengan anggaran pengadaan terbesar tahun 2026.</p>
                 </div>
             </div>
 
             <div class="step" data-step="1">
                 <div class="step-card">
-                    <span class="step-num">{t[lang].stepCounter(2, 3)}</span>
-                    <h3>{t[lang].s5Step2Heading}</h3>
-                    <p>{t[lang].s5Step2Body}</p>
+                    <span class="step-num">2 / 3</span>
+                    <h3>Komposisi label AI</h3>
+                    <p>Warna menunjukkan hasil penilaian AI. Semakin merah, semakin banyak pertanyaan.</p>
                 </div>
             </div>
 
             <div class="step" data-step="2">
                 <div class="step-card">
-                    <span class="step-num">{t[lang].stepCounter(3, 3)}</span>
-                    <h3>{t[lang].s6Step1Heading}</h3>
-                    <p>{t[lang].s6Step1Body}</p>
+                    <span class="step-num">3 / 3</span>
+                    <h3>Siapa yang paling penuh tanda tanya?</h3>
+                    <p>Jika kita urutkan ulang hanya berdasarkan pagu yang dinilai bermasalah, siapa yang menonjol?</p>
                     <span class="s6-transition-label" aria-live="polite">
-                        {activeStepS5 >= 2 ? t[lang].s6TransitionLabel : ""}
+                        {activeStepS5 >= 2 ? "Mengurutkan ulang…" : ""}
                     </span>
                 </div>
             </div>
@@ -730,19 +715,17 @@
     <!-- ━━━ S7 ANCHOR COUNT-UP ━━━ -->
     <section class="scrolly" data-section="s7" id="s7">
         <div class="sticky-col" class:chart--dimmed={s7ChartDimmed}>
-            <div class="eyebrow">{t[lang].s7Eyebrow}</div>
+            <div class="eyebrow">Bagian 6: Pesta Seblak</div>
             <h2 class="s7-sticky-heading">
                 {#if stats}
-                    {lang === "id"
-                        ? `Rp ${fmtT(stats.labelPagu.high)} T untuk pengadaan bermasalah`
-                        : `Rp ${fmtT(stats.labelPagu.high)} T for inappropriate procurement`}
+                    Rp {fmtT(stats.labelPagu.high)} T untuk pengadaan bermasalah
                 {:else}
-                    {t[lang].s7StickyHeading}
+                    Rp 10,7 triliun untuk pengadaan bermasalah
                 {/if}
             </h2>
 
             <span class="s7-transition-label" aria-live="polite"
-                >{s7ShowTransition ? t[lang].s7TransitionLabel : ""}</span
+                >{s7ShowTransition ? "Atau, lebih seriusnya..." : ""}</span
             >
 
             <div class="s7-anchor-pair">
@@ -750,7 +733,7 @@
                     <div class="s7-anchor">
                         {#if stats && constants}
                             <span class="s7-anchor-figure is-gold"
-                                >{fmtCount(kopiCount, lang)}</span
+                                >{fmtCount(kopiCount)}</span
                             >
                         {:else}
                             <span class="s7-anchor-figure is-gold loading-pulse"
@@ -758,10 +741,10 @@
                             >
                         {/if}
                         <span class="s7-anchor-label"
-                            >{t[lang].s7KopiLabel}</span
+                            >gelas kopi jago</span
                         >
                         <span class="s7-anchor-citation"
-                            >{t[lang].s7SourcePrefix}Rp {fmtNum(
+                            >Harga satuan: Rp {fmtNum(
                                 constants?.anchors?.kopi?.price ?? 0,
                             )} — {constants?.anchors?.kopi?.sourceLabel ??
                                 ""}</span
@@ -770,7 +753,7 @@
                     <div class="s7-anchor">
                         {#if stats && constants}
                             <span class="s7-anchor-figure is-gold"
-                                >{fmtCount(seblakCount, lang)}</span
+                                >{fmtCount(seblakCount)}</span
                             >
                         {:else}
                             <span class="s7-anchor-figure is-gold loading-pulse"
@@ -778,10 +761,10 @@
                             >
                         {/if}
                         <span class="s7-anchor-label"
-                            >{t[lang].s7SeblakLabel}</span
+                            >mangkok seblak</span
                         >
                         <span class="s7-anchor-citation"
-                            >{t[lang].s7SourcePrefix}Rp {fmtNum(
+                            >Harga satuan: Rp {fmtNum(
                                 constants?.anchors?.seblak?.price ?? 0,
                             )} — {constants?.anchors?.seblak?.sourceLabel ??
                                 ""}</span
@@ -791,16 +774,16 @@
                     <div class="s7-anchor">
                         {#if stats && constants}
                             <span class="s7-anchor-figure is-red"
-                                >{fmtCount(sdCount, lang)}</span
+                                >{fmtCount(sdCount)}</span
                             >
                         {:else}
                             <span class="s7-anchor-figure is-red loading-pulse"
                                 >—</span
                             >
                         {/if}
-                        <span class="s7-anchor-label">{t[lang].s7SDLabel}</span>
+                        <span class="s7-anchor-label">sekolah dasar baru</span>
                         <span class="s7-anchor-citation"
-                            >{t[lang].s7SourcePrefix}Rp {fmtNum(
+                            >Harga satuan: Rp {fmtNum(
                                 constants?.anchors?.sd?.price ?? 0,
                             )} — {constants?.anchors?.sd?.sourceLabel ??
                                 ""}</span
@@ -809,7 +792,7 @@
                     <div class="s7-anchor">
                         {#if stats && constants}
                             <span class="s7-anchor-figure is-red"
-                                >{fmtCount(puskesmasCount, lang)}</span
+                                >{fmtCount(puskesmasCount)}</span
                             >
                         {:else}
                             <span class="s7-anchor-figure is-red loading-pulse"
@@ -817,10 +800,10 @@
                             >
                         {/if}
                         <span class="s7-anchor-label"
-                            >{t[lang].s7PuskesmasLabel}</span
+                            >puskesmas baru</span
                         >
                         <span class="s7-anchor-citation"
-                            >{t[lang].s7SourcePrefix}Rp {fmtNum(
+                            >Harga satuan: Rp {fmtNum(
                                 constants?.anchors?.puskesmas?.price ?? 0,
                             )} — {constants?.anchors?.puskesmas?.sourceLabel ??
                                 ""}</span
@@ -839,16 +822,16 @@
         <div class="steps-col">
             <div class="step" data-step="0">
                 <div class="step-card">
-                    <span class="step-num">{t[lang].stepCounter(1, 2)}</span>
-                    <h3>{t[lang].s7Step0Heading}</h3>
-                    <p>{t[lang].s7Step0Body}</p>
+                    <span class="step-num">1 / 2</span>
+                    <h3>Mari berandai...</h3>
+                    <p>Rp 10,7 triliun total anggaran yang dinilai AI bermasalah. Pasti susah bayanginnya, bisa untuk beli...</p>
                     <a
                         class="source-link"
                         href={constants?.anchors?.kopi?.source ?? "#"}
                         target="_blank"
                         rel="noopener noreferrer"
                         >{constants?.anchors?.kopi?.sourceLabel ??
-                            t[lang].s7KopiLabel}</a
+                            "gelas kopi jago"}</a
                     >
                     <a
                         class="source-link"
@@ -856,23 +839,23 @@
                         target="_blank"
                         rel="noopener noreferrer"
                         >{constants?.anchors?.seblak?.sourceLabel ??
-                            t[lang].s7SeblakLabel}</a
+                            "mangkok seblak"}</a
                     >
                 </div>
             </div>
 
             <div class="step" data-step="1">
                 <div class="step-card">
-                    <span class="step-num">{t[lang].stepCounter(2, 2)}</span>
-                    <h3>{t[lang].s7Step1Heading}</h3>
-                    <p>{t[lang].s7Step1Body}</p>
+                    <span class="step-num">2 / 2</span>
+                    <h3>Atau, bangun ini...</h3>
+                    <p>Dana yang sama bisa membangun ribuan sekolah dasar baru, atau lebih dari seribu puskesmas.</p>
                     <a
                         class="source-link"
                         href={constants?.anchors?.sd?.source ?? "#"}
                         target="_blank"
                         rel="noopener noreferrer"
                         >{constants?.anchors?.sd?.sourceLabel ??
-                            t[lang].s7SDLabel}</a
+                            "sekolah dasar baru"}</a
                     >
                     <a
                         class="source-link"
@@ -880,7 +863,7 @@
                         target="_blank"
                         rel="noopener noreferrer"
                         >{constants?.anchors?.puskesmas?.sourceLabel ??
-                            t[lang].s7PuskesmasLabel}</a
+                            "puskesmas baru"}</a
                     >
                 </div>
             </div>
@@ -903,8 +886,8 @@
                     }
                 }}
             >
-                <div class="eyebrow">{t[lang].s8Eyebrow}</div>
-                <h2 class="s8-sticky-heading">{t[lang].s8StickyHeading}</h2>
+                <div class="eyebrow">Bagian 7: Beli apa sih?</div>
+                <h2 class="s8-sticky-heading">Pengadaan apa yang paling sering muncul dan dianggap bermasalah?</h2>
 
                 <div class="s8-filter-bar">
                     <button
@@ -912,21 +895,21 @@
                         class="s8-filter-pill"
                         class:is-active={activeFilter === "all"}
                         onclick={() => setFilter("all")}
-                        >{t[lang].s8FilterAll}</button
+                        >Semua</button
                     >
                     <button
                         type="button"
                         class="s8-filter-pill"
                         class:is-active={activeFilter === "central"}
                         onclick={() => setFilter("central")}
-                        >{t[lang].s8FilterCentral}</button
+                        >Pemerintah Pusat</button
                     >
                     <button
                         type="button"
                         class="s8-filter-pill"
                         class:is-active={activeFilter === "district"}
                         onclick={() => setFilter("district")}
-                        >{t[lang].s8FilterDistrict}</button
+                        >Pemerintah Daerah</button
                     >
 
                     <div class="s8-search-wrap">
@@ -934,7 +917,7 @@
                             type="text"
                             class="s8-search-input"
                             bind:value={lembagaSearch}
-                            placeholder={t[lang].s8FilterInstitution}
+                            placeholder="Cari lembaga…"
                         />
                         {#if filteredInstitutions.length > 0}
                             <div class="s8-search-dropdown">
@@ -956,7 +939,7 @@
                             type="button"
                             class="s8-filter-reset"
                             onclick={() => setFilter("all")}
-                            >{t[lang].s8FilterReset}</button
+                            >Reset</button
                         >
                     {/if}
                     {#if filterError}
@@ -966,7 +949,7 @@
 
                 {#if isNarrow}
                     <div class="s8-mobile-fallback-note">
-                        {t[lang].s8MobileFallbackNote}
+                        Geser untuk melihat semua kata
                     </div>
                 {/if}
 
@@ -975,28 +958,25 @@
                         <div class="s9-table-header">
                             <div class="s9-title-row">
                                 <h3 class="s9-title">
-                                    {#if lang === "id"}Paket dengan kata <span
-                                            class="s9-title-word"
-                                            >"{selectedWord}"</span
-                                        >{:else}Packages containing <span
-                                            class="s9-title-word"
-                                            >"{selectedWord}"</span
-                                        >{/if}
+                                    Paket dengan kata <span
+                                        class="s9-title-word"
+                                        >"{selectedWord}"</span
+                                    >
                                 </h3>
                                 <button
                                     type="button"
                                     class="s9-close"
-                                    aria-label={t[lang].s9Close}
+                                    aria-label="Tutup"
                                     onclick={() => (selectedWord = null)}
                                     >&#x2715;</button
                                 >
                             </div>
                             <div class="s9-count">
-                                {t[lang].s9RecordCount(wordRecords.length)}
+                                {wordRecords.length} paket teratas (berdasarkan pagu)
                             </div>
                             {#if activeFilter === "lembaga"}
                                 <div class="s9-fallback-note">
-                                    {t[lang].s9FallbackNote}
+                                    Menampilkan semua lembaga (Filter lembaga hanya berlaku pada kata kunci)
                                 </div>
                             {/if}
                         </div>
@@ -1005,13 +985,13 @@
                             <table>
                                 <thead>
                                     <tr>
-                                        <th>{t[lang].s9ColLembaga}</th>
-                                        <th>{t[lang].s9ColSatker}</th>
+                                        <th>Lembaga</th>
+                                        <th>Satker</th>
                                         <th class="s9-th-pagu"
-                                            >{t[lang].s9ColPagu}</th
+                                            >Pagu</th
                                         >
-                                        <th>{t[lang].s9ColPaket}</th>
-                                        <th>{t[lang].s9ColReason}</th>
+                                        <th>Nama Paket</th>
+                                        <th>Alasan AI</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -1020,7 +1000,7 @@
                                             ><td
                                                 colspan="5"
                                                 class="s9-loading loading-pulse"
-                                                >{t[lang].s9Loading}</td
+                                                >memuat paket…</td
                                             ></tr
                                         >
                                     {:else if wordRecordsError}
@@ -1032,7 +1012,7 @@
                                     {:else if wordRecords.length === 0}
                                         <tr
                                             ><td colspan="5" class="s9-empty"
-                                                >{t[lang].s8NoResults}</td
+                                                >Tidak ada kata ditemukan.</td
                                             ></tr
                                         >
                                     {:else}
@@ -1043,7 +1023,6 @@
                                                 <td class="s9-td-pagu"
                                                     >{fmtPaguShort(
                                                         r.pagu,
-                                                        lang,
                                                     )}</td
                                                 >
                                                 <td>{r.paket}</td>
@@ -1056,7 +1035,7 @@
                         </div>
                     </div>
                 {:else if cloudWords.length === 0}
-                    <div class="s8-empty">{t[lang].s8NoResults}</div>
+                    <div class="s8-empty">Tidak ada kata ditemukan.</div>
                 {:else}
                     <div class="s8-cloud" class:is-narrow={isNarrow}>
                         {#each cloudWords as w (w.word)}
@@ -1080,9 +1059,9 @@
         <div class="steps-col">
             <div class="step" data-step="0">
                 <div class="step-card">
-                    <span class="step-num">{t[lang].stepCounter(1, 1)}</span>
-                    <h3>{t[lang].s8Step0Heading}</h3>
-                    <p>{t[lang].s8Step0Body}</p>
+                    <span class="step-num">1 / 1</span>
+                    <h3>Kata kunci pengadaan bermasalah</h3>
+                    <p>Ini adalah daftar permintaan yang paling sering muncul dalam nama paket bermasalah. Klik kata untuk melihat contoh paket pengadaan.</p>
                 </div>
             </div>
         </div>
@@ -1223,32 +1202,6 @@
         50% {
             transform: translateY(7px);
         }
-    }
-
-    /* ── Language Toggle ── */
-    .lang-toggle {
-        position: fixed;
-        top: 16px;
-        right: 16px;
-        z-index: 100;
-        min-width: 44px;
-        min-height: 44px;
-        padding: 0 14px;
-        border: 1px solid var(--border);
-        background: var(--bg-card);
-        border-radius: 9999px;
-        color: var(--gold);
-        font-family: "JetBrains Mono", monospace;
-        font-size: 11px;
-        letter-spacing: 0.1em;
-        font-weight: 700;
-        cursor: pointer;
-        transition:
-            opacity 0.15s ease,
-            color 0.2s ease;
-    }
-    .lang-toggle:hover {
-        opacity: 0.85;
     }
 
     /* ── Scrollytelling ── */

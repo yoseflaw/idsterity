@@ -2,7 +2,7 @@
   import { onMount, onDestroy } from 'svelte'
   import { scaleLinear, select, easeCubicInOut } from 'd3'
 
-  let { data = [], step = 0, lang = 'id' } = $props()
+  let { data = [], step = 0 } = $props()
 
   // S5 has 2 steps (indices 0 and 1); S6 starts at index 2
   const S6_STEP_INDEX = 2
@@ -102,7 +102,7 @@
     <rect width="100%" height="200" fill="var(--bg-alt)" rx="2"/>
     <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle"
           font-family="JetBrains Mono, monospace" font-size="11"
-          fill="var(--muted)">{lang === 'id' ? 'memuat...' : 'loading...'}</text>
+          fill="var(--muted)">memuat...</text>
   </svg>
 {:else}
   <svg bind:this={svgEl}
@@ -194,19 +194,19 @@
 <div class="legend">
   <span class="legend-item">
     <span class="swatch" style="background: var(--red)"></span>
-    {lang === 'id' ? 'Bermasalah' : 'Inappropriate'}
+    Bermasalah
   </span>
   <span class="legend-item">
     <span class="swatch" style="background: var(--amber)"></span>
-    {lang === 'id' ? 'Perlu dicermati' : 'Needs scrutiny'}
+    Perlu dicermati
   </span>
   <span class="legend-item">
     <span class="swatch" style="background: rgba(237,232,220,0.2)"></span>
-    {lang === 'id' ? 'Wajar' : 'Appropriate'}
+    Wajar
   </span>
   <span class="legend-item">
     <span class="swatch" style="background: var(--clean)"></span>
-    {lang === 'id' ? 'Tidak ditandai' : 'Unflagged'}
+    Tidak ditandai
   </span>
 </div>
 

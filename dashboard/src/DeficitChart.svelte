@@ -1,7 +1,7 @@
 <script>
   import { onMount, onDestroy } from 'svelte'
 
-  let { data = null, step = 0, lang = 'id' } = $props()
+  let { data = null, step = 0 } = $props()
 
   const STACK_WIDTH_DESKTOP = 64
   const STACK_WIDTH_MOBILE  = 44
@@ -29,9 +29,9 @@
 
   let points = $derived(
     [
-      { key: 'oct2024', period: lang === 'id' ? 'Okt 2024'  : 'Oct 2024'  },
-      { key: 'fy2025',  period: lang === 'id' ? '2025'      : 'FY 2025'   },
-      { key: 'q1_2026', period: lang === 'id' ? 'TW I 2026' : 'Q1 2026'   },
+      { key: 'oct2024', period: 'Okt 2024'  },
+      { key: 'fy2025',  period: '2025'      },
+      { key: 'q1_2026', period: 'TW I 2026' },
     ].map((p, i) => {
       const valueRaw  = data?.[p.key] ?? 0
       const valueTril = Math.abs(valueRaw) / 1e12
@@ -51,7 +51,7 @@
     <rect width="100%" height="200" fill="var(--bg-alt)" rx="2"/>
     <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle"
           font-family="JetBrains Mono, monospace" font-size="11"
-          fill="var(--muted)">{lang === 'id' ? 'memuat...' : 'loading...'}</text>
+          fill="var(--muted)">memuat...</text>
   </svg>
 {:else}
   <svg width="100%" height={svgHeight} viewBox="0 0 {svgWidth} {svgHeight}"
