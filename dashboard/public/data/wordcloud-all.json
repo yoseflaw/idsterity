@@ -1,15 +1,7 @@
 [
   {
-    "word": "sewa",
-    "count": 3780
-  },
-  {
     "word": "modal",
     "count": 2682
-  },
-  {
-    "word": "dinas",
-    "count": 2534
   },
   {
     "word": "rumah",
@@ -60,16 +52,12 @@
     "count": 934
   },
   {
-    "word": "suvenir",
-    "count": 916
-  },
-  {
     "word": "sub",
-    "count": 912
+    "count": 915
   },
   {
-    "word": "biaya",
-    "count": 911
+    "word": "suvenir",
+    "count": 915
   },
   {
     "word": "cendera",
@@ -78,5 +66,17 @@
   {
     "word": "dprd",
     "count": 870
+  },
+  {
+    "word": "gedung",
+    "count": 775
+  },
+  {
+    "word": "studio",
+    "count": 671
+  },
+  {
+    "word": "desa",
+    "count": 605
   }
 ]

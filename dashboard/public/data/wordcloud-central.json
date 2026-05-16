@@ -1,31 +1,11 @@
 [
   {
-    "word": "sewa",
-    "count": 535
-  },
-  {
-    "word": "operasional",
-    "count": 402
-  },
-  {
-    "word": "biaya",
-    "count": 388
-  },
-  {
-    "word": "dinas",
-    "count": 382
-  },
-  {
     "word": "tiket",
     "count": 299
   },
   {
     "word": "imigrasi",
     "count": 296
-  },
-  {
-    "word": "luar",
-    "count": 292
   },
   {
     "word": "kelas",
@@ -56,27 +36,47 @@
     "count": 211
   },
   {
-    "word": "eselon",
-    "count": 193
-  },
-  {
-    "word": "layan",
-    "count": 189
-  },
-  {
     "word": "bisnis",
     "count": 187
   },
   {
-    "word": "satker",
-    "count": 187
-  },
-  {
-    "word": "pimpin",
-    "count": 175
-  },
-  {
     "word": "susun",
     "count": 174
+  },
+  {
+    "word": "jakarta",
+    "count": 160
+  },
+  {
+    "word": "langgan",
+    "count": 150
+  },
+  {
+    "word": "unit",
+    "count": 150
+  },
+  {
+    "word": "rapat",
+    "count": 148
+  },
+  {
+    "word": "wilayah",
+    "count": 147
+  },
+  {
+    "word": "jenderal",
+    "count": 147
+  },
+  {
+    "word": "tubuh",
+    "count": 144
+  },
+  {
+    "word": "kerja",
+    "count": 138
+  },
+  {
+    "word": "hukum",
+    "count": 137
   }
 ]

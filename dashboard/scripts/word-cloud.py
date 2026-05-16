@@ -31,6 +31,13 @@ STOPWORDS = frozenset({
     "lain", "oleh", "akan", "dapat", "hal", "melaksanakan",
     "pelaksanaan", "pelayanan", "pengelolaan", "penyediaan",
     "kantor",
+    # v1.1 FEEDBACK item 12 — generic procurement vocabulary that
+    # doesn't describe WHAT a paket is for. Lemma forms (tokenizer
+    # lemmatizes before stop-word filter); surface variants like
+    # "layanan"/"pelayanan", "pimpinan"/"pimpin" are covered by the
+    # lemmatizer normalising to roots.
+    "sewa", "operasional", "biaya", "dinas", "luar", "eselon",
+    "satker", "pimpin", "layanan", "dukungan",
 })
 
 _lemmatizer = Lemmatizer()

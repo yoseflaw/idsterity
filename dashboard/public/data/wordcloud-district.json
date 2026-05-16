@@ -1,19 +1,11 @@
 [
   {
-    "word": "sewa",
-    "count": 3245
-  },
-  {
     "word": "modal",
     "count": 2622
   },
   {
     "word": "rumah",
     "count": 2262
-  },
-  {
-    "word": "dinas",
-    "count": 2152
   },
   {
     "word": "natura",
@@ -45,11 +37,11 @@
   },
   {
     "word": "suvenir",
-    "count": 916
+    "count": 915
   },
   {
     "word": "sub",
-    "count": 902
+    "count": 905
   },
   {
     "word": "cendera",
@@ -78,5 +70,13 @@
   {
     "word": "gedung",
     "count": 702
+  },
+  {
+    "word": "studio",
+    "count": 670
+  },
+  {
+    "word": "desa",
+    "count": 586
   }
 ]

@@ -1,0 +1,142 @@
+[
+  {
+    "lembaga": "Kementerian Pertanian",
+    "satker": "SEKRETARIAT BADAN PERAKITAN DAN MODERNISASI PERTANIAN",
+    "pagu": 5581800000,
+    "paket": "Belanja Langganan Daya dan Jasa Lainnya",
+    "inappropriateReason": "Nilai langganan internet bulanan sangat tinggi untuk dua lokasi kantor, sehingga terdapat indikasi kuat pemborosan atau kebutuhan yang tidak proporsional. Selain itu, komponen langganan TV kabel, multimedia, sosial media, dan aplikasi berbayar perlu dicermati karena tidak jelas urgensi operasionalnya dari informasi yang tersedia."
+  },
+  {
+    "lembaga": "Otorita Ibu Kota Nusantara (OIKN)",
+    "satker": "PENGELOLAAN INFRASTRUKTUR",
+    "pagu": 4900000000,
+    "paket": "Langganan Internet Kemenko, Rumah Tapak Jabatan Menteri, Plaza Seremoni",
+    "inappropriateReason": "Pengadaan langganan internet untuk rumah jabatan menteri dan plaza seremoni dengan nilai sangat besar dalam satu paket menimbulkan indikasi kuat ketidakwajaran dan potensi belanja yang tidak proporsional terhadap kebutuhan layanan konektivitas. Uraian dan spesifikasi tidak cukup rinci untuk membenarkan besaran anggaran tersebut."
+  },
+  {
+    "lembaga": "Mahkamah Agung",
+    "satker": "PENGADILAN NEGERI WAMENA 01",
+    "pagu": 3156000000,
+    "paket": "Langganan Internet",
+    "inappropriateReason": "Biaya langganan internet per bulan sangat tinggi untuk satuan kerja pengadilan tingkat pertama, sehingga terdapat indikasi kuat ketidakwajaran harga atau spesifikasi layanan yang berlebihan. Nilai pengadaan layak diteliti lebih lanjut terhadap kebutuhan riil, kapasitas bandwidth, cakupan layanan, dan pembanding harga pasar setempat."
+  },
+  {
+    "lembaga": "Mahkamah Agung",
+    "satker": "PENGADILAN AGAMA PANIAI01",
+    "pagu": 3156000000,
+    "paket": "Langganan Internet",
+    "inappropriateReason": "Biaya langganan internet sebesar Rp263 juta per bulan selama 12 bulan untuk satuan kerja pengadilan di tingkat daerah tampak sangat tidak wajar dibanding kebutuhan layanan internet perkantoran pada umumnya. Indikasi utama adalah nilai satuan bulanan yang sangat tinggi untuk spesifikasi yang sangat umum tanpa rincian kapasitas, redundansi, atau kebutuhan khusus yang dapat membenarkan biaya tersebut."
+  },
+  {
+    "lembaga": "Mahkamah Agung",
+    "satker": "PENGADILAN TATA USAHA NEGARA PANGKAL PINANG 01",
+    "pagu": 1999786000,
+    "paket": "Pengadaan Langganan Internet Pada Pengadilan Tata Usaha Negara Pangkalpinang Tahun Anggaran 2026",
+    "inappropriateReason": "Nilai anggaran langganan internet untuk durasi 12 bulan sangat tidak wajar tinggi untuk satuan kerja pengadilan tingkat daerah. Dengan spesifikasi yang sangat umum tanpa rincian kapasitas, redundansi, atau layanan khusus, terdapat indikasi kuat belanja jauh melebihi kebutuhan operasional yang lazim."
+  },
+  {
+    "lembaga": "Mahkamah Agung",
+    "satker": "PENGADILAN NEGERI PASANGKAYU 01",
+    "pagu": 1994481000,
+    "paket": "Langganan Daya dan Jasa Berupa Langganan Internet",
+    "inappropriateReason": "Terdapat ketidaksesuaian material antara judul/uraian pengadaan yang menyebut langganan internet dan spesifikasi yang justru memuat tenaga kebersihan serta satpam. Indikasi ini menunjukkan objek belanja tidak selaras dan berisiko menyebabkan penggunaan anggaran tidak tepat sasaran. Potensi pemborosan dihitung dari selisih pagu terhadap nilai uraian yang secara eksplisit tercantum."
+  },
+  {
+    "lembaga": "Kementerian Luar Negeri",
+    "satker": "KEDUTAAN BESAR RI DI LIMA",
+    "pagu": 1386000000,
+    "paket": "Belanja Langganan Air",
+    "inappropriateReason": "Nilai anggaran sangat tidak wajar dibanding rincian volume yang tercantum, yaitu 12 bulan @ 7.000 untuk langganan air kantor dan wisma. Terdapat selisih yang sangat besar antara rincian kebutuhan yang ditulis dan total anggaran, sehingga kuat mengindikasikan salah input, penganggaran berlebih, atau kebutuhan yang tidak terjelaskan."
+  },
+  {
+    "lembaga": "Komisi Pengawas Persaingan Usaha",
+    "satker": "KOMISI PENGAWAS PERSAINGAN USAHA",
+    "pagu": 1127400000,
+    "paket": "Belanja Langganan Daya dan Jasa Lainnya",
+    "inappropriateReason": "Terdapat indikasi kuat pemborosan pada komponen langganan media sosial/ChatGPT/AI senilai sangat besar untuk 12 bulan dibanding pola kebutuhan umum langganan perangkat lunak perkantoran. Nilai paket didominasi pos digital subscription dengan kewajaran harga yang patut dipertanyakan dan perlu verifikasi jumlah akun, jenis lisensi, serta urgensi operasionalnya."
+  },
+  {
+    "lembaga": "Kementerian Luar Negeri",
+    "satker": "KEDUTAAN BESAR RI DI WASHINGTON DC",
+    "pagu": 879999000,
+    "paket": "Belanja Langganan Air",
+    "inappropriateReason": "Nilai anggaran langganan air untuk 12 bulan tampak sangat tidak wajar dibanding rincian kuantitas yang tercantum, sehingga terindikasi kuat terjadi salah penetapan nilai atau penganggaran berlebih yang perlu verifikasi mendalam."
+  },
+  {
+    "lembaga": "Mahkamah Agung",
+    "satker": "PENGADILAN NEGERI JAKARTA TIMUR 01",
+    "pagu": 690840000,
+    "paket": "Langganan Listrik",
+    "inappropriateReason": "Terdapat ketidaksesuaian material antara judul/uraian pengadaan yang menyebut langganan listrik dan spesifikasi yang justru mencantumkan petugas kebersihan dalam jumlah besar. Inkonsistensi objek belanja ini merupakan indikasi kuat salah klasifikasi atau paket yang tidak wajar sehingga seluruh nilai patut dicermati sebagai potensi pemborosan."
+  },
+  {
+    "lembaga": "Badan Pengawas Pemilihan Umum",
+    "satker": "SEKRETARIAT BAWASLU KABUPATEN TOBA",
+    "pagu": 640877000,
+    "paket": "Belanja Keperluan Perkantoran Langganan Internet  Sekretariat Bawaslu Kabupaten Toba",
+    "inappropriateReason": "Nilai anggaran langganan internet selama 12 bulan untuk sekretariat tingkat kabupaten tampak sangat tidak proporsional terhadap kebutuhan wajar perkantoran. Tanpa rincian kapasitas, jumlah titik, atau layanan khusus, besaran ini merupakan indikasi kuat pemborosan dan perlu uji kewajaran harga serta kebutuhan riil."
+  },
+  {
+    "lembaga": "Kementerian Pendayagunaan Aparatur Negara Dan Reformasi Birokrasi",
+    "satker": "MENTERI NEGARA PENDAYAGUNAAN APARATUR NEGARA",
+    "pagu": 600000000,
+    "paket": "BUK Biaya Langganan Penyegar Ruangan",
+    "inappropriateReason": "Anggaran langganan penyegar ruangan selama 12 bulan sebesar Rp600 juta pada instansi pemerintah tampak sangat berlebihan untuk kebutuhan penunjang kantor. Nilai ini memunculkan indikasi kuat pemborosan karena tidak sebanding dengan sifat barang yang non-prioritas dan mudah menimbulkan persepsi penggunaan dana publik yang tidak patut."
+  },
+  {
+    "lembaga": "Kementerian Luar Negeri",
+    "satker": "KONSULAT JENDERAL RI DI FRANKFURT",
+    "pagu": 594000000,
+    "paket": "Belanja Langganan Air",
+    "inappropriateReason": "Nilai anggaran untuk langganan air 12 bulan dengan kuantitas dan tarif yang tercantum tampak jauh tidak sebanding dengan total anggaran, sehingga terdapat indikasi kuat pembebanan biaya yang tidak wajar dan perlu verifikasi rinci atas dasar perhitungannya."
+  },
+  {
+    "lembaga": "Kementerian Kesehatan",
+    "satker": "SEKRETARIAT DIREKTORAT JENDERAL SUMBER DAYA MANUSIA KESEHATAN",
+    "pagu": 540000000,
+    "paket": "Langganan Paket zoom KP",
+    "inappropriateReason": "Biaya langganan platform rapat virtual sebesar Rp45 juta per bulan untuk 12 bulan tampak sangat tinggi dibanding kebutuhan langganan umum dan berpotensi tidak efisien. Untuk layanan digital standar, nilai ini layak dicermati serius karena indikasi pemborosan kuat dari harga satuan yang tidak wajar."
+  },
+  {
+    "lembaga": "Kementerian Agraria dan Tata Ruang/BPN",
+    "satker": "Kantor Pertanahan KABUPATEN BOLAANG MONGONDOW TIMUR",
+    "pagu": 488000000,
+    "paket": "Belanja Langganan Daya dan Jasa Lainnya ; Operasional dan Pemeliharaan Kantor ; Layanan Perkantoran",
+    "inappropriateReason": "Biaya langganan internet tahunan sebesar Rp488.000.000 untuk satu kantor pertanahan kabupaten tampak sangat tinggi dan tidak proporsional untuk kebutuhan operasional perkantoran biasa. Indikasi utama adalah nilai paket tunggal yang jauh besar untuk layanan internet tanpa rincian kapasitas, redundansi, atau kebutuhan teknis khusus yang dapat membenarkan besaran tersebut."
+  },
+  {
+    "lembaga": "Kementerian Kesehatan",
+    "satker": "RSU DR KARIADI SEMARANG",
+    "pagu": 483415000,
+    "paket": "Langganan WA Bussiness Official Greentick Tahun 2026",
+    "inappropriateReason": "Langganan akun WhatsApp Business Official/greentick untuk satu paket bernilai sangat tinggi dibanding manfaat yang umumnya dapat dicapai dengan kanal komunikasi resmi yang lebih hemat. Nilai pengadaan ini layak diindikasikan tidak proporsional dan perlu justifikasi kuat atas kebutuhan, cakupan layanan, serta komponen biayanya."
+  },
+  {
+    "lembaga": "Kementerian Luar Negeri",
+    "satker": "DIREKTORAT JENDERAL INFORMASI DAN DIPLOMASI PUBLIK",
+    "pagu": 475600000,
+    "paket": "Langganan Akun Media Sosial, Zoomeet & Aplikasi",
+    "inappropriateReason": "Terdapat indikasi kuat pemborosan pada langganan aplikasi karena nilai untuk 1 akun Adobe Acrobat Pro sangat tidak wajar dibanding harga langganan perangkat lunak sejenis. Komponen akun media sosial dan Zoom masih dapat terkait fungsi kerja, namun item aplikasi tersebut layak diaudit lebih lanjut."
+  },
+  {
+    "lembaga": "Kementerian Dalam Negeri",
+    "satker": "SEKRETARIAT JENDERAL",
+    "pagu": 470516000,
+    "paket": "Layanan TV Berlangganan",
+    "inappropriateReason": "Layanan TV berlangganan pada unit sekretariat jenderal kementerian berindikasi lemah keterkaitannya dengan fungsi inti pemerintahan dan berpotensi menjadi belanja kenyamanan/nonprioritas. Dengan informasi spesifikasi yang tidak rinci, seluruh nilai paket layak dicermati sebagai potensi pemborosan."
+  },
+  {
+    "lembaga": "Kementerian Energi Dan Sumber Daya Mineral",
+    "satker": "SEKRETARIAT JENDERAL KEMENTERIAN ENERGI DAN SUMBER DAYA MINERAL",
+    "pagu": 423000000,
+    "paket": "Belanja Langganan Daya dan Jasa Lainnya TV Kabel",
+    "inappropriateReason": "Belanja langganan TV kabel selama 12 bulan pada unit sekretariat kementerian tidak tampak esensial terhadap fungsi utama pelayanan publik dan berisiko menjadi pengeluaran fasilitas non-prioritas. Dengan nilai anggaran yang besar untuk layanan hiburan/informasi berlangganan, seluruh alokasi patut dicermati sebagai potensi pemborosan."
+  },
+  {
+    "lembaga": "Kementerian Energi Dan Sumber Daya Mineral",
+    "satker": "DIREKTORAT JENDERAL MINYAK DAN GAS BUMI",
+    "pagu": 405600000,
+    "paket": "Belanja Langganan Daya dan Jasa Lainnya",
+    "inappropriateReason": "Terdapat komponen biaya perawatan akuarium yang secara indikatif tidak esensial bagi fungsi utama instansi pemerintah. Pengeluaran ini berpotensi menimbulkan kesan penggunaan anggaran yang kurang prioritas dibanding kebutuhan operasional inti. Nilai potensi pemborosan dihitung dari komponen tersebut saja berdasarkan rincian yang tersedia."
+  }
+]

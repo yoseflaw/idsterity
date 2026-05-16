@@ -1,0 +1,142 @@
+[
+  {
+    "lembaga": "Kementerian Hukum",
+    "satker": "29 KANWIL BANTEN BPHN",
+    "pagu": 1376000000,
+    "paket": "Pengadaan Belanja Jasa Konsultan untuk Kegiatan Dukungan Penyelenggaraan Tugas dan Fungsi Unit pada Kantor Wilayah Kementerian Hukum Banten BPHN (693119) Tahun Anggaran 2026",
+    "inappropriateReason": "Terdapat indikasi kuat ketidaksesuaian antara nama paket dan rincian spesifikasi. Paket dicantumkan sebagai pengadaan barang/jasa konsultan melalui pengadaan langsung, namun spesifikasi berisi komponen layanan per perkara/orang seperti banding, kasasi, peninjauan kembali, penyidikan, dan putusan pengadilan. Format dan substansinya tidak selaras dengan dukungan tugas unit Kementerian Hukum yang dinyatakan, sehingga seluruh nilai paket layak dicermati sebagai potensi pemborosan."
+  },
+  {
+    "lembaga": "Kementerian Hukum",
+    "satker": "17 KANWIL SULAWESI UTARA SETJEN",
+    "pagu": 710001000,
+    "paket": "Pengadaan Belanja Modal Peralatan dan Mesin (Videotron) untuk Kegiatan Pengadaan Peralatan Fasilitas Perkantoran pada Kantor Wilayah Kementerian Hukum Sulawesi Utara Tahun Anggaran 2026",
+    "inappropriateReason": "Pengadaan 1 unit videotron senilai sangat besar untuk fasilitas perkantoran pada kantor wilayah berindikasi tidak esensial terhadap fungsi inti layanan dan administrasi. Nilai belanja yang tinggi untuk media display promosi/informasi ini patut dicermati sebagai potensi pemborosan anggaran karena manfaatnya bagi tugas utama instansi tidak tampak sebanding dari data yang tersedia."
+  },
+  {
+    "lembaga": "Kementerian Imigrasi dan Pemasyarakatan",
+    "satker": "IM32 Kantor Wilayah Direktorat Jenderal Imigrasi Kepulauan Riau",
+    "pagu": 605981000,
+    "paket": "PENGADAAN SEWA KENDARAAN OPERASIONAL LAPANGAN DI WILAYAH KEPULAUAN RIAU (PULAU BINTAN, BATAM & KARIMUN)",
+    "inappropriateReason": "Terdapat indikasi spesifikasi kendaraan terlalu mengarah pada model/kelas tertentu dan penggunaan kendaraan operasional pejabat eselon II selama 12 bulan berpotensi berlebihan. Untuk fungsi operasional pemerintah, kebutuhan sewa seharusnya dapat dipenuhi dengan spesifikasi yang lebih generik dan ekonomis. Porsi kendaraan pejabat dalam paket ini menimbulkan risiko pemborosan anggaran yang signifikan."
+  },
+  {
+    "lembaga": "Kementerian Imigrasi dan Pemasyarakatan",
+    "satker": "IM04 KANTOR WILAYAH DIREKTORAT JENDERAL IMIGRASI RIAU",
+    "pagu": 551750000,
+    "paket": "Pengadaan Biaya Koordinasi dengan pihak-pihak terkait Dalam Kegiatan Pengumpulan Data dan Informasi  Operasi Intelijen Keimigrasian di Wilayah Barat Pada Kantor Wilayah Direktorat Jenderal Imigrasi Riau Tahun Anggaran 2026",
+    "inappropriateReason": "Pengadaan berupa 'biaya koordinasi dengan pihak-pihak terkait' untuk operasi intelijen keimigrasian bersifat sangat umum, sulit diukur outputnya, dan rentan menjadi pos belanja representatif/administratif yang tidak proporsional. Nilai satuan per kegiatan yang tinggi untuk 62 kegiatan menimbulkan indikasi kuat perlunya pengujian kewajaran dan kebutuhan riil."
+  },
+  {
+    "lembaga": "Kementerian Imigrasi dan Pemasyarakatan",
+    "satker": "IM02 KANTOR WILAYAH DIREKTORAT JENDERAL IMIGRASI SUMATERA UTARA",
+    "pagu": 475920000,
+    "paket": "Pengadaan Jasa Sewa Kendaraan untuk Kegiatan Koordinasi Keprotokoleran pada Kantor Wilayah Direktorat Jenderal Imigrasi Sumatera Utara Tahun Anggaran 2026",
+    "inappropriateReason": "Komposisi pengadaan menunjukkan dominasi sewa kendaraan premium/mewah untuk kegiatan keprotokoleran, termasuk Alphard, Fortuner, dan Hiace Premio Luxury, dengan frekuensi tinggi selama 1 tahun. Indikasi ini mengarah pada penggunaan fasilitas yang berlebihan dibanding kebutuhan operasional standar pemerintahan, sehingga berpotensi menimbulkan pemborosan anggaran."
+  },
+  {
+    "lembaga": "Kementerian Imigrasi dan Pemasyarakatan",
+    "satker": "PAS13 KANWIL DITJEN PEMASYARAKATAN JAWA TENGAH",
+    "pagu": 426195000,
+    "paket": "Pengadaan Akomodasi Penginapan Pada Kantor Wilayah Direktorat Jenderal Pemasyarakatan Jawa Tengah TA 2026",
+    "inappropriateReason": "Spesifikasi akomodasi menunjukkan standar yang berlebihan untuk perjalanan dinas, termasuk keharusan kamar suite, sarana olahraga/permainan, dan valet parking. Fitur tersebut tidak tampak esensial untuk kebutuhan penginapan dinas pemerintahan dan berindikasi penggunaan fasilitas hotel yang terlalu mewah, sehingga seluruh nilai item layak dicermati sebagai potensi pemborosan."
+  },
+  {
+    "lembaga": "Kementerian Hak Asasi Manusia",
+    "satker": "KANTOR WILAYAH SULAWESI SELATAN IDP",
+    "pagu": 335000000,
+    "paket": "Pengadaan Pembangunan Fasilitas Masyarakat Desa Untuk Pemenuhan Hak Dasar pada Kantor Wilayah Kementerian Hak Asasi Manusia Sulawesi Selatan Tahun Anggaran 2026",
+    "inappropriateReason": "Terdapat ketidaksesuaian yang kuat antara uraian pengadaan pembangunan fasilitas masyarakat desa dan spesifikasi yang justru menyebut sewa gedung/bangunan. Dalam konteks pengadaan barang oleh kantor wilayah, formulasi ini mengindikasikan belanja yang berpotensi tidak relevan atau salah sasaran terhadap tujuan pemenuhan hak dasar, sehingga seluruh nilai patut dicermati sebagai potensi pemborosan."
+  },
+  {
+    "lembaga": "Kementerian Imigrasi dan Pemasyarakatan",
+    "satker": "IM22 KANTOR WILAYAH DIREKTORAT JENDERAL IMIGRASI NUSA TENGGARA TIMUR",
+    "pagu": 307740000,
+    "paket": "Pengadaan Belanja Barang Non Operasional Lainnya dalam kegiatan Pelaksanaan Pengawasan pada Kantor Wilayah Direktorat Jenderal Imigrasi NTT Tahun Anggaran 2026",
+    "inappropriateReason": "Komponen belanja berupa biaya pengamatan/penyusupan/penjejakan per kegiatan bernilai sangat besar dan dirumuskan sangat umum, sehingga kewajaran output, dasar kebutuhan, dan akuntabilitas penggunaannya sulit diuji. Dalam data yang tersedia, porsi terbesar anggaran terkonsentrasi pada pos yang tidak terukur secara jelas, sehingga terdapat indikasi kuat pemborosan dan belanja yang perlu dicermati serius."
+  },
+  {
+    "lembaga": "Aceh",
+    "satker": "Dinas Pendidikan",
+    "pagu": 300000000,
+    "paket": "Pendidikan Politik Bagi Pemilih Pemula Cabang Dinas Pendidikan Wilayah Kabupaten Aceh Tamiang (EO)",
+    "inappropriateReason": "Pengadaan jasa event organizer untuk kegiatan pendidikan politik bagi pemilih pemula pada satuan kerja pendidikan tampak kurang selaras dengan fungsi utama urusan pendidikan. Judul kegiatan juga menunjukkan tema politik praktis yang sensitif sehingga penggunaan anggaran publik pada pos ini layak dinilai berisiko tinggi dan berpotensi tidak prioritas."
+  },
+  {
+    "lembaga": "Kementerian Hukum",
+    "satker": "21 KANWIL MALUKU SETJEN",
+    "pagu": 245123000,
+    "paket": "Pengadaan Belanja Pemeliharaan Peralatan dan Mesin Untuk Kegiatan Layanan Perkantoran Pemeliharaan Peralatan Kantor pada Kantor Wilayah Kementerian Hukum Maluku Tahun Anggaran 2026",
+    "inappropriateReason": "Terdapat komponen lift dalam paket pemeliharaan peralatan kantor. Dari judul dan rincian, item ini tampak tidak selaras dengan lingkup pemeliharaan peralatan kantor biasa dan bernilai dominan dalam paket, sehingga berindikasi kuat sebagai pengadaan yang kurang tepat pengelompokan atau tidak relevan dengan kebutuhan pemeliharaan rutin."
+  },
+  {
+    "lembaga": "Kementerian Imigrasi dan Pemasyarakatan",
+    "satker": "IM02 KANTOR WILAYAH DIREKTORAT JENDERAL IMIGRASI SUMATERA UTARA",
+    "pagu": 235650000,
+    "paket": "Pengadaan Jasa Pemeliharaan Pemeliharaan Peralatan Perkantoran pada Kantor Wilayah Direktorat Jenderal Imigrasi Sumatera Utara Tahun Anggaran 2026",
+    "inappropriateReason": "Terdapat komponen pemeliharaan/pasang ID baru pelanggan listrik senilai besar yang tidak selaras dengan pola biaya pemeliharaan peralatan perkantoran lainnya dalam item ini. Nilai komponen tersebut mendominasi anggaran dan patut dicermati sebagai potensi pemborosan atau salah pengelompokan kebutuhan."
+  },
+  {
+    "lembaga": "Kementerian Imigrasi dan Pemasyarakatan",
+    "satker": "IM19 KANTOR IMIGRASI KELAS I TPI BANJARMASIN",
+    "pagu": 230554000,
+    "paket": "Pengadaan Biaya Biaya Koordinasi dengan Pihak-Pihak Terkait dalam Rangka Pengumpulan Data dan Informasi Operasi Intelijen Keimigrasian di Wilayah Tengah Pada Kantor Imigrasi Kelas I TPI Banjarmasin - Kalimantan Selatan Tahun Anggaran 2026",
+    "inappropriateReason": "Item berupa 'biaya koordinasi' untuk pengumpulan data/informasi operasi intelijen tanpa rincian keluaran, satuan biaya, atau komponen yang terukur. Pengadaan jasa semacam ini sangat sulit diverifikasi kewajaran manfaat dan volumenya, sehingga seluruh nilainya berindikasi kuat sebagai belanja yang tidak cukup spesifik dan berisiko pemborosan."
+  },
+  {
+    "lembaga": "Kementerian Imigrasi dan Pemasyarakatan",
+    "satker": "IM04 KANTOR IMIGRASI KELAS I TPI DUMAI",
+    "pagu": 225682000,
+    "paket": "Pengadaan Belanja Barang Non Operasional Lainnya Berupa Biaya Koordinasi Dengan Pihak-Pihak Terkait Untuk Pengumpulan Data dan Informasi Operasi Intelijen Keimigrasian di Wilayah Pada Kantor Imigrasi Kelas I TPI Dumai Tahun Anggaran 2026",
+    "inappropriateReason": "Pengadaan diklasifikasikan sebagai barang, namun objek yang dibeli berupa biaya koordinasi untuk pengumpulan data/informasi operasi intelijen. Bentuk belanja ini tidak menyerupai barang yang terukur dan berisiko menjadi pengeluaran yang sulit diverifikasi manfaat, output, serta kewajarannya. Seluruh nilai paket layak dicermati sebagai potensi pemborosan."
+  },
+  {
+    "lembaga": "Kementerian Hak Asasi Manusia",
+    "satker": "DIREKTORAT JENDERAL INSTRUMEN DAN PENGUATAN KEMENTERIAN HAM",
+    "pagu": 218074000,
+    "paket": "Pengadaan Belanja Sewa Untuk Kegiatan Koordinasi Penguatan Kapasitas HAM Bagi Masyarakat Ke Wilayah pada Direktorat Jenderal Instrumen dan Penguatan HAM Tahun Anggaran 2026",
+    "inappropriateReason": "Pengadaan berupa sewa kendaraan pejabat negara selama 1 tahun dalam paket kegiatan penguatan kapasitas HAM bagi masyarakat ke wilayah tampak tidak selaras langsung dengan output layanan publik yang disebutkan. Seluruh nilai paket berpotensi merupakan belanja pendukung yang manfaat substansinya terhadap kegiatan utama tidak jelas dari data yang tersedia."
+  },
+  {
+    "lembaga": "Kementerian Imigrasi dan Pemasyarakatan",
+    "satker": "IM23 KANTOR WILAYAH DIREKTORAT JENDERAL IMIGRASI SULAWESI SELATAN",
+    "pagu": 213300000,
+    "paket": "Pengadaan Belanja Bahan Bimbingan, Pembinaan, Monitoring, Pengendalian, dan Pengawasan Satuan Kerja Imigrasi Pembinaan dan Koordinasi Bidang Layanan Keimigrasian Pada Kantor Wilayah Ditjen Imigrasi Sulawesi Selatan Tahun Anggaran 2026",
+    "inappropriateReason": "Terdapat indikasi kuat pemborosan pada komponen seminar kit 600 paket @Rp300.000 yang bernilai sangat besar dibanding komponen rapat lainnya dan tampak tidak proporsional untuk belanja bahan pembinaan/monitoring. Nilai seminar kit mendominasi anggaran paket dan berpotensi tidak efisien untuk kebutuhan operasional rutin."
+  },
+  {
+    "lembaga": "Kementerian Imigrasi dan Pemasyarakatan",
+    "satker": "PAS13 KANWIL DITJEN PEMASYARAKATAN JAWA TENGAH",
+    "pagu": 185892000,
+    "paket": "Pengadaan Sewa Kendaraan  Pejabat eselon II Pada Kantor Wilayah Direktorat Jenderal Pemasyarakatan Jawa Tengah TA 2026",
+    "inappropriateReason": "Pengadaan sewa kendaraan khusus pejabat eselon II selama 1 tahun dengan spesifikasi relatif tinggi (MPV 7 penumpang minimal 2000 cc, tahun minimal 2024, asuransi all risk) berindikasi sebagai fasilitas jabatan yang mewah dan berpotensi menimbulkan kesan penggunaan anggaran yang tidak patut. Dari judul dan spesifikasi, kebutuhan ini tidak tampak langsung terkait layanan publik inti dan layak dikategorikan sangat tidak pantas."
+  },
+  {
+    "lembaga": "Kementerian Imigrasi dan Pemasyarakatan",
+    "satker": "IM21 KANTOR IMIGRASI KELAS II NON TPI BIMA",
+    "pagu": 177444000,
+    "paket": "Pengadaan Biaya Pengamatan/Penyusupan/Penyurupan/Penelitian/penjejakan Pelaksanaan Operasia Gabungan Wilayah Tengah pada Kantor Imigrasi Kelas II Non TPI Bima TA 2026",
+    "inappropriateReason": "Objek pengadaan berupa biaya pengamatan/penyusupan/penjejakan untuk operasi gabungan diklasifikasikan sebagai pengadaan barang, padahal substansinya lebih menyerupai kegiatan operasional/intelijen yang sulit diukur output barangnya. Judul dan spesifikasi sangat umum, tanpa rincian deliverable yang terverifikasi, sehingga seluruh nilai patut dicermati sebagai potensi belanja tidak tepat klasifikasi dan berisiko tidak akuntabel."
+  },
+  {
+    "lembaga": "Kementerian Imigrasi dan Pemasyarakatan",
+    "satker": "IM13 KANTOR IMIGRASI KELAS I KHUSUS TPI SEMARANG",
+    "pagu": 165000000,
+    "paket": "Pengadaan Segway kegiatan kendaraan bermotor di wilayah pada Kantor Imigrasi Kelas I Khusus TPI Semarang Jawa Tengah Tahun Anggaran 2026",
+    "inappropriateReason": "Pengadaan Segway untuk kantor imigrasi tampak sangat tidak lazim dan berisiko tinggi tidak relevan dengan kebutuhan layanan publik inti. Jenis barang ini memberi kesan fasilitas bergaya/non-esensial dibanding sarana operasional yang umum, sehingga patut dinilai sangat tidak pantas menggunakan dana publik."
+  },
+  {
+    "lembaga": "Kementerian Hukum",
+    "satker": "17 KANWIL SULAWESI UTARA SETJEN",
+    "pagu": 150810000,
+    "paket": "Pengadaan Belanja Modal Peralatan dan Mesin (Sofa) untuk Kegiatan Pengadaan Peralatan Fasilitas Perkantoran pada Kantor Wilayah Kementerian Hukum Sulawesi Utara Tahun Anggaran 2026",
+    "inappropriateReason": "Harga satuan sofa sekitar Rp50,27 juta per set untuk fasilitas perkantoran sangat tinggi dan terindikasi spesifikasi berlebihan dibanding kebutuhan umum kantor. Nilai pengadaan furnitur ini patut dinilai tidak efisien untuk penggunaan dana publik."
+  },
+  {
+    "lembaga": "Kementerian Imigrasi dan Pemasyarakatan",
+    "satker": "IM18 KANTOR WILAYAH DIREKTORAT JENDERAL IMIGRASI KALIMANTAN TIMUR",
+    "pagu": 136000000,
+    "paket": "Pengadaan Belanja Modal Perangkat Pengolah Data dan Komunikasi pada Kegiatan Layanan Sarana Internal di Kantor Wilayah Direktorat Jenderal Imigrasi Kalimantan Timur Tahun Anggaran 2026",
+    "inappropriateReason": "Terdapat komponen sound system senilai sangat besar dibandingkan perangkat utama lain dalam paket sarana internal pengolah data dan komunikasi. Nilai ini tidak selaras dengan karakter belanja TI/internal office support yang disebutkan, sehingga kuat terindikasi pengadaan kurang relevan atau berlebihan."
+  }
+]

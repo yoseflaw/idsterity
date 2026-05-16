@@ -1,0 +1,142 @@
+[
+  {
+    "lembaga": "Kementerian Kesehatan",
+    "satker": "RUMAH SAKIT UMUM DR WAHIDIN SUDIROHUSODO MAKASSAR",
+    "pagu": 15000000000,
+    "paket": "DED Gedung CMU ( Central Medical Unit )",
+    "inappropriateReason": "Judul dan spesifikasi menunjukkan penyusunan DED, namun jenis pengadaan dicatat sebagai pekerjaan konstruksi dengan metode e-purchasing serta nilai sangat besar untuk 1 paket. Kombinasi ini tidak selaras dengan karakter jasa perencanaan/desain dan mengindikasikan potensi salah klasifikasi atau anggaran yang sangat tidak efisien sehingga layak diteliti serius."
+  },
+  {
+    "lembaga": "Kementerian Keuangan",
+    "satker": "KANWIL DITJEN PERBENDAHARAAN PROVINSI MALUKU",
+    "pagu": 2297164000,
+    "paket": "Biaya Konstruksi Fisik Pembangunan 1 Unit Townhouse",
+    "inappropriateReason": "Pembangunan 1 unit townhouse dengan dana APBN pada satuan kerja perbendaharaan menimbulkan indikasi kuat penggunaan anggaran yang tidak patut dan berpotensi tidak relevan dengan fungsi utama layanan publik. Jenis bangunan ini berkesan sebagai hunian/properti bernilai privat sehingga sangat berisiko memicu pemborosan penuh sebesar nilai pengadaan."
+  },
+  {
+    "lembaga": "Kementerian Transmigrasi",
+    "satker": "SEKRETARIAT JENDERAL KEMENTERIAN TRANSMIGRASI",
+    "pagu": 1680000000,
+    "paket": "Sewa Kendaraan Operasional Menteri [2 Unit",
+    "inappropriateReason": "Pengadaan sewa kendaraan operasional khusus menteri untuk 2 unit selama 12 bulan dengan nilai sangat besar berindikasi penggunaan fasilitas yang mewah dan berpotensi memicu kecemburuan publik. Dari judul item, kebutuhan ini tampak berisiko tinggi tidak proporsional terhadap prinsip efisiensi belanja pemerintah."
+  },
+  {
+    "lembaga": "Kementerian Koordinator Bidang Politik dan Keamanan",
+    "satker": "Kemenko Polkam",
+    "pagu": 1572480000,
+    "paket": "Sewa Kendaraan Staf Khusus 7 UNIT X 12 BLN",
+    "inappropriateReason": "Sewa 7 kendaraan selama 12 bulan khusus untuk staf khusus menimbulkan indikasi kuat penggunaan fasilitas yang berlebihan dan berpotensi memicu persepsi kemewahan yang tidak proporsional dalam penggunaan dana publik. Seluruh nilai pengadaan layak dicermati sebagai potensi pemborosan karena objek sewa bersifat penunjang jabatan, bukan kebutuhan layanan publik yang terlihat esensial dari informasi yang tersedia."
+  },
+  {
+    "lembaga": "Kementerian Hukum",
+    "satker": "29 KANWIL BANTEN BPHN",
+    "pagu": 1376000000,
+    "paket": "Pengadaan Belanja Jasa Konsultan untuk Kegiatan Dukungan Penyelenggaraan Tugas dan Fungsi Unit pada Kantor Wilayah Kementerian Hukum Banten BPHN (693119) Tahun Anggaran 2026",
+    "inappropriateReason": "Terdapat indikasi kuat ketidaksesuaian antara nama paket dan rincian spesifikasi. Paket dicantumkan sebagai pengadaan barang/jasa konsultan melalui pengadaan langsung, namun spesifikasi berisi komponen layanan per perkara/orang seperti banding, kasasi, peninjauan kembali, penyidikan, dan putusan pengadilan. Format dan substansinya tidak selaras dengan dukungan tugas unit Kementerian Hukum yang dinyatakan, sehingga seluruh nilai paket layak dicermati sebagai potensi pemborosan."
+  },
+  {
+    "lembaga": "Kementerian Imigrasi dan Pemasyarakatan",
+    "satker": "IM13 KANTOR IMIGRASI KELAS II NON TPI WONOSOBO",
+    "pagu": 1100000000,
+    "paket": "Pengadaan Mobil Unit Penerangan Darat Kegiatan Layanan Sarana Internal Kendaraan Bermotor pada Kantor Imigrasi Kelas II Non TPI Wonosobo Jawa Tengah Tahun Anggaran 2026",
+    "inappropriateReason": "Item berupa mobil unit penerangan darat senilai sangat besar untuk kantor imigrasi kelas II non-TPI menimbulkan indikasi kuat ketidaksesuaian dengan kebutuhan layanan inti. Spesifikasi dan harga per unit juga tampak tidak wajar dibanding pagu yang tersedia, sehingga seluruh nilai pengadaan layak dicermati sebagai potensi pemborosan."
+  },
+  {
+    "lembaga": "Kementerian Pertanian",
+    "satker": "SEKRETARIAT BADAN PERAKITAN DAN MODERNISASI PERTANIAN",
+    "pagu": 795000000,
+    "paket": "Sewa Kendaraan Roda 4 Untuk Tenaga Ahli Menteri Kementan (5 Unit x 12 Bulan)",
+    "inappropriateReason": "Pengadaan sewa 5 kendaraan roda 4 selama 12 bulan khusus untuk tenaga ahli menteri menunjukkan fasilitas operasional yang signifikan dan berpotensi tidak proporsional. Judul item mengindikasikan penggunaan untuk kelompok pendukung jabatan, bukan kebutuhan layanan publik yang langsung terlihat, sehingga layak dinilai tidak relevan atau berlebihan untuk dibiayai penuh dengan anggaran negara."
+  },
+  {
+    "lembaga": "Kementerian  Pekerjaan Umum",
+    "satker": "694290 / BALAI BESAR WILAYAH SUNGAI NUSA TENGGARA I",
+    "pagu": 750000000,
+    "paket": "Pengadaan Videotron; 1 Unit; 1 Dokumen; NF; S; SYC",
+    "inappropriateReason": "Pengadaan videotron bernilai besar terindikasi kurang relevan dengan fungsi utama unit pengelolaan sumber daya air. Dari judul item, manfaat langsung terhadap tugas teknis inti tidak terlihat jelas, sehingga seluruh nilai pengadaan layak dicermati sebagai potensi pemborosan."
+  },
+  {
+    "lembaga": "Kementerian Kesehatan",
+    "satker": "RSU DR KARIADI SEMARANG",
+    "pagu": 407316000,
+    "paket": "Pengadaan Paket Goodie Bag Unit Transfusi Darah Rumah Sakit Semester I Tahun 2026",
+    "inappropriateReason": "Pengadaan goodie bag untuk unit transfusi darah rumah sakit tidak menunjukkan keterkaitan langsung dengan pelayanan medis inti dan berisiko menjadi belanja penunjang yang tidak prioritas. Dengan nilai anggaran yang besar, item ini layak dikategorikan sebagai penggunaan dana yang tidak proporsional terhadap fungsi layanan kesehatan."
+  },
+  {
+    "lembaga": "Kementerian Perhubungan",
+    "satker": "KANTOR PUSAT DIREKTORAT JENDERAL PERHUBUNGAN UDARA",
+    "pagu": 400000000,
+    "paket": "Paket Meeting Luar Kota dan Akomodasi Kegiatan Penyusunan Renstra Unit Kerja Mandiri Ditjen Hubud 2025-2029",
+    "inappropriateReason": "Pengadaan paket meeting luar kota beserta akomodasi untuk penyusunan dokumen perencanaan strategis berindikasi tidak efisien karena kegiatan tersebut pada dasarnya dapat dilaksanakan di fasilitas kantor atau secara daring/hybrid. Komponen perjalanan dan penginapan meningkatkan belanja non-prioritas tanpa urgensi yang tampak dari informasi yang tersedia."
+  },
+  {
+    "lembaga": "Kementerian Lingkungan Hidup/Badan Pengendalian Lingkungan Hidup",
+    "satker": "DEPUTI BIDANG TATA LINGKUNGAN DAN SUMBER DAYA ALAM BERKELANJUTAN",
+    "pagu": 200400000,
+    "paket": "Belanja Perjalanan Dinas Paket Meeting Luar Kota Kegiatan Non Operasional Unit Pelaksana Teknis Gambut dan Mangrove",
+    "inappropriateReason": "Pengadaan paket meeting luar kota untuk kegiatan non operasional berindikasi kuat tidak esensial dan berpotensi membebani anggaran secara tidak perlu. Nilai paket yang signifikan untuk satu paket rapat patut dinilai sebagai pemborosan, terutama karena tujuan kegiatan tidak menunjukkan kebutuhan layanan inti yang mendesak."
+  },
+  {
+    "lembaga": "Kementerian Desa dan Pembangunan Daerah Tertinggal",
+    "satker": "DIREKTORAT JENDERAL PENGEMBANGAN EKONOMI DAN INVESTASI DESA DAN DAERAH TERTINGGAL",
+    "pagu": 169275000,
+    "paket": "Belanja Perjalanan Dinas Paket Meeting Luar Kota Biaya Paket Kegiatan Rapat/Pertemuan Fullday di Luar Kantor Pembentukan Unit Kebijakan Strategis (3.2.2)",
+    "inappropriateReason": "Paket rapat/pertemuan fullday di luar kantor untuk pembentukan unit kebijakan strategis berpotensi tidak efisien karena kegiatan sejenis pada prinsipnya dapat dilaksanakan di kantor/pemerintah secara lebih hemat. Penggunaan dana pinjaman luar negeri untuk paket meeting luar kota juga menimbulkan indikasi prioritas belanja yang kurang tepat."
+  },
+  {
+    "lembaga": "Kementerian Dalam Negeri",
+    "satker": "BPSDM REG BANDUNG",
+    "pagu": 167100000,
+    "paket": "Pengadaan Sewa Kendaraan Operasional Pejabat Eselon II [Jawa Barat] (1 Unit x 12 BLN) Tahun 2026",
+    "inappropriateReason": "Sewa kendaraan operasional khusus pejabat eselon II selama 12 bulan merupakan fasilitas yang berorientasi kenyamanan jabatan, bukan kebutuhan layanan publik yang langsung. Penggunaan anggaran negara untuk sewa kendaraan pejabat berpotensi memicu kesan pemborosan dan ketidakpatutan sosial, terlebih dilakukan penuh selama satu tahun untuk satu unit."
+  },
+  {
+    "lembaga": "Kementerian Imigrasi dan Pemasyarakatan",
+    "satker": "IM15 KANTOR IMIGRASI KELAS I KHUSUS TPI SURABAYA",
+    "pagu": 144000000,
+    "paket": "Pengadaan Belanja Bahan Penerbitan Dokumen Perjalanan RI di Unit Layanan Keimigrasian Pada Kantor Imigrasi Kelas I Khusus TPI Surabaya Jawa Timur Tahun Anggaran 2026",
+    "inappropriateReason": "Anggaran seluruhnya diarahkan untuk konsumsi bulanan selama 72 bulan, sementara konteks pengadaan dikaitkan dengan bahan penerbitan dokumen perjalanan. Uraian ini menunjukkan ketidaksesuaian yang kuat antara tujuan pengadaan dan objek belanja, sehingga berindikasi belanja tidak relevan dan berpotensi memboroskan seluruh nilai anggaran."
+  },
+  {
+    "lembaga": "Kementerian Keuangan",
+    "satker": "KANTOR PELAYANAN PAJAK PRATAMA SITUBONDO",
+    "pagu": 100320000,
+    "paket": "Formulir Kegiatan Pengumpulan Data Dukungan Penyelenggaraan Tugas dan Fungsi Unit KPP Pratama Situbondo Belanja Perjalanan Dinas Biasa",
+    "inappropriateReason": "Terdapat indikasi salah klasifikasi objek belanja: judul item menunjukkan belanja perjalanan dinas, namun metode dan jenis pengadaan dicatat sebagai pengadaan barang. Perjalanan dinas pada umumnya bukan objek pengadaan barang, sehingga berisiko menyalahi ketepatan akun dan tata kelola belanja. Seluruh nilai patut dicermati sebagai potensi pemborosan/ketidaktepatan penggunaan anggaran."
+  },
+  {
+    "lembaga": "Kementerian Keuangan",
+    "satker": "KANWIL DITJEN PERBENDAHARAAN PROVINSI MALUKU",
+    "pagu": 100000000,
+    "paket": "Biaya Konsultan Perencana Pembangunan 1 Unit Townhouse",
+    "inappropriateReason": "Perencanaan pembangunan townhouse pada instansi pengelola keuangan negara tampak tidak selaras dengan kebutuhan fungsi layanan publik rutin dan berpotensi mencerminkan pengadaan fasilitas hunian yang tidak esensial. Seluruh nilai pengadaan layak dicermati sebagai potensi pemborosan karena objek belanja sendiri terindikasi tidak prioritas dari judul yang tersedia."
+  },
+  {
+    "lembaga": "Kementerian Perhubungan",
+    "satker": "Balai Pengelola Transportasi Kelas II Kalimantan Tengah",
+    "pagu": 96000000,
+    "paket": "SEWA RUMAH DINAS KEPALA BALAI 1 UNIT",
+    "inappropriateReason": "Pengadaan sewa rumah dinas untuk pejabat/ kepala balai berpotensi tidak selaras dengan prinsip efisiensi belanja operasional, terutama karena manfaatnya bersifat fasilitas individu. Seluruh nilai paket patut dicermati sebagai potensi pemborosan apabila tidak didukung kebutuhan jabatan yang sangat spesifik dan dasar kebijakan yang kuat."
+  },
+  {
+    "lembaga": "Kementerian Keuangan",
+    "satker": "KANWIL DITJEN PERBENDAHARAAN PROVINSI MALUKU",
+    "pagu": 95000000,
+    "paket": "Biaya Konsultan Pengawas Pembangunan 1 Unit Townhouse",
+    "inappropriateReason": "Pengadaan jasa konsultansi pengawas untuk pembangunan 1 unit townhouse pada instansi pemerintah menimbulkan indikasi kuat ketidakrelevanan dengan penggunaan dana publik dan berpotensi merupakan fasilitas hunian yang tidak lazim diprioritaskan. Seluruh nilai paket layak dicermati sebagai potensi pemborosan karena objek pengadaannya sendiri terindikasi tidak pantas."
+  },
+  {
+    "lembaga": "Kementerian Keuangan",
+    "satker": "KANWIL DITJEN PERBENDAHARAAN PROVINSI MALUKU",
+    "pagu": 95000000,
+    "paket": "Biaya Pengelola Kegiatan Pembangunan 1  Unit Townhouse",
+    "inappropriateReason": "Pengadaan biaya pengelola pembangunan 1 unit townhouse pada instansi pengelola perbendaharaan menimbulkan indikasi kuat ketidaksesuaian dengan fungsi utama lembaga. Istilah townhouse juga memberi kesan aset hunian yang tidak lazim untuk kebutuhan kantor pemerintah, sehingga seluruh nilai pengadaan layak dicermati sebagai potensi pemborosan."
+  },
+  {
+    "lembaga": "Kementerian Hukum",
+    "satker": "06 KANWIL ACEH SETJEN",
+    "pagu": 80000000,
+    "paket": "Pengadaan Belanja Jasa Lainnya Dukungan Penyelenggaraan Tugas dan Fungsi Unit pada Kantor Wilayah Aceh Tahun Anggaran 2026",
+    "inappropriateReason": "Pengadaan advertorial online senilai penuh satu paket menunjukkan penggunaan dana publik untuk publikasi berbayar yang manfaat langsungnya terhadap tugas inti administratif tidak jelas dari data yang tersedia. Nilai anggaran relatif besar untuk satu layanan advertorial tahunan dan layak dipandang sebagai belanja non-prioritas dengan potensi pemborosan tinggi."
+  }
+]
