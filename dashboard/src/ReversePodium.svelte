@@ -1,9 +1,8 @@
 <script>
   import { abbreviateLembaga } from "./lembagaAbbreviations.js";
 
-  let { data = [], progress = 0 } = $props();
+  let { data = [] } = $props();
   // data: array of lembaga objects ranked by highPagu+absurdPagu (top-5 expected)
-  // progress: 0..1 morph driver (0 = upright gold like S5 podium; 1 = inverted red)
   let top3    = $derived(data.slice(0, 3));
   let runners = $derived(data.slice(3, 5));
 
@@ -16,42 +15,16 @@
     if (rupiah >= 1e9)  return `Rp ${(rupiah / 1e9).toFixed(1)} M`;
     return `Rp ${rupiah.toLocaleString("id-ID")}`;
   }
-  function fmtCount(n) {
-    return (n || 0).toLocaleString("id-ID");
-  }
   function flaggedPagu(d) {
     return (d?.highPagu || 0) + (d?.absurdPagu || 0);
-  }
-  function flaggedCount(d) {
-    return (d?.highCount || 0) + (d?.absurdCount || 0);
   }
 
   // Mobile-friendly base block heights (small enough to fit in 50dvh sticky-col)
   const HEIGHTS = [95, 140, 70]; // [2nd, 1st, 3rd]
   const MEDALS  = ["🥈", "🥇", "🥉"];
 
-  // Token hex values (fallbacks match idsterity-tokens.css)
-  // Warm start palette: [2nd, 1st, 3rd] render order
-  const WARM_HEX = ["#C77E5A", "#9E5A35", "#D4A574"];
-  // Red end palette: [2nd, 1st, 3rd] render order — viz-red, viz-red-dark, viz-red-light
-  const RED_HEX  = ["#C85454", "#8B2A2A", "#D4807A"];
-
-  // Color interpolation between warm (start) and red (end) per index
-  function blockColor(idx, t) {
-    return mixHex(WARM_HEX[idx], RED_HEX[idx], t);
-  }
-  function mixHex(a, b, t) {
-    const pa = a.match(/\w\w/g).map((h) => parseInt(h, 16));
-    const pb = b.match(/\w\w/g).map((h) => parseInt(h, 16));
-    const m = pa.map((v, i) => Math.round(v * (1 - t) + pb[i] * t));
-    return `rgb(${m.join(",")})`;
-  }
-
-  // Translate blocks downward as progress increases. At progress=1 each block
-  // sits a full block-height below its baseline so 1st reaches the lowest pit.
-  function translateY(idx) {
-    return Math.round(HEIGHTS[idx] * (progress ?? 0));
-  }
+  // Red palette: [2nd, 1st, 3rd] render order — viz-red, viz-red-dark, viz-red-light
+  const RED_HEX = ["#C85454", "#8B2A2A", "#D4807A"];
 </script>
 
 <div class="rp-wrap">
@@ -66,12 +39,9 @@
           class="block"
           style="
             height: {HEIGHTS[i]}px;
-            transform: translateY({translateY(i)}px);
-            background: {blockColor(i, progress ?? 0)};
+            background: {RED_HEX[i]};
           "
         >
-          <span class="count">{fmtCount(flaggedCount(d))}</span>
-          <span class="count-label">paket bermasalah</span>
           <span class="pagu">{fmtT(flaggedPagu(d))}</span>
         </div>
       </div>
@@ -104,7 +74,7 @@
     gap: 0.5rem;
     width: 100%;
     max-width: 28rem;
-    min-height: 220px; /* room for the morph downward translation */
+    min-height: 220px;
   }
   .col {
     display: flex;
@@ -139,19 +109,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    transition: background 250ms linear, transform 250ms linear;
+
     padding: 0.5rem 0.25rem;
     gap: 0.15rem;
     color: var(--bg-base);
-  }
-  .count {
-    font-family: var(--mono);
-    font-size: 1.1rem;
-    font-weight: 600;
-  }
-  .count-label {
-    font-size: 0.7rem;
-    opacity: 0.85;
   }
   .pagu {
     font-family: var(--mono);
@@ -171,15 +132,11 @@
     .col { max-width: 12rem; }
     .medal { font-size: 1.8rem; }
     .name { font-size: 1rem; }
-    .count { font-size: 1.4rem; }
-    .count-label { font-size: 0.85rem; }
     .pagu { font-size: 1rem; }
     .juara-harapan { font-size: 0.9rem; }
   }
   @media (max-width: 480px) {
     .col { max-width: 6.5rem; }
-    .count { font-size: 0.95rem; }
-    .count-label { font-size: 0.65rem; }
     .pagu { font-size: 0.75rem; }
   }
 </style>

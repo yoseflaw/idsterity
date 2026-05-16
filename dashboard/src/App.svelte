@@ -72,8 +72,6 @@
     let s7ChartDimmed = $derived(activeStepS7 > 0);
     let s8ChartDimmed = $derived(activeStepS8 > 0);
 
-    // S6 morph progress: step 0 = upright gold, step 1 = mid morph, step 2 = full inverted red.
-    let s6Progress = $derived(Math.min(1, activeStepS6 / 2));
 
     function chipSize(idx, total) {
         // Largest chip = 1.5rem, smallest = 0.85rem; index-based since lists are sorted desc
@@ -799,47 +797,17 @@
             </h2>
             <ReversePodium
                 data={lembagaFlagged.slice(0, 5)}
-                progress={s6Progress}
             />
-            <div class="step-indicator" aria-hidden="true">
-                {#each [0, 1, 2] as s}
-                    <div class="pip" class:active={activeStepS6 === s}></div>
-                {/each}
-            </div>
         </div>
 
         <div class="steps-col">
             <div class="step" data-step="0">
                 <div class="step-card">
-                    <span class="step-num">1 / 3</span>
                     <h3>Urutkan ulang berdasarkan pagu bermasalah</h3>
                     <p>
                         Sekarang kita beralih dari "siapa belanja paling besar"
                         ke "siapa yang paling banyak ditandai bermasalah". Top 5
                         berubah.
-                    </p>
-                </div>
-            </div>
-
-            <div class="step" data-step="1">
-                <div class="step-card">
-                    <span class="step-num">2 / 3</span>
-                    <h3>Podium berbalik arah</h3>
-                    <p>
-                        Bukan lagi panggung kemenangan. Blok-blok mulai jatuh ke
-                        bawah, warna emas memudar menjadi merah.
-                    </p>
-                </div>
-            </div>
-
-            <div class="step" data-step="2">
-                <div class="step-card">
-                    <span class="step-num">3 / 3</span>
-                    <h3>Lubang merah di tengah</h3>
-                    <p>
-                        Juara 1 tenggelam paling dalam — lembaga dengan jumlah
-                        pagu bermasalah terbesar. Bukan prestasi yang patut
-                        dibanggakan.
                     </p>
                 </div>
             </div>
