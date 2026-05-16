@@ -1154,12 +1154,16 @@
 
     .hero h1 {
         font-family: "Libre Baskerville", Georgia, "Times New Roman", serif;
-        font-size: clamp(2.8rem, 6vw, 5.5rem);
+        font-size: clamp(1.7rem, 6vw, 5.5rem);
         font-weight: 700;
         line-height: 1.08;
         letter-spacing: -0.02em;
         color: var(--text);
         margin-bottom: 3rem;
+        text-wrap: balance;
+        max-width: 30ch;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .hero h1 em {
@@ -1320,13 +1324,15 @@
     /* ── S1 Hook ── */
     .s1-display {
         font-family: "Libre Baskerville", Georgia, serif;
-        font-size: clamp(2.2rem, 6vw, 5.5rem);
+        font-size: clamp(1.2rem, 6vw, 5.5rem);
         font-weight: 700;
         line-height: 1.08;
         letter-spacing: -0.02em;
         color: var(--text);
         margin: 0;
         text-align: left;
+        text-wrap: balance;
+        max-width: 100%;
     }
 
     .s1-display em {
@@ -1397,6 +1403,8 @@
         color: var(--text);
         margin: 0 0 var(--space-2xl) 0;
         letter-spacing: -0.01em;
+        text-wrap: balance;
+        max-width: 22ch;
     }
     .s4-stats-grid {
         display: grid;
@@ -1503,6 +1511,18 @@
         text-align: center;
     }
 
+    /* -- S5 Institutions sticky heading -- */
+    .s5-sticky-heading {
+        font-family: "Libre Baskerville", Georgia, serif;
+        font-size: clamp(1.4rem, 3vw, 2rem);
+        font-weight: 700;
+        color: var(--text);
+        margin: 0 0 var(--space-md) 0;
+        line-height: 1.2;
+        text-wrap: balance;
+        max-width: 22ch;
+    }
+
     /* -- S7 Anchor Count-Up -- */
     .s7-sticky-heading {
         font-family: "Libre Baskerville", Georgia, serif;
@@ -1511,6 +1531,8 @@
         color: var(--text);
         margin: 0 0 var(--space-lg) 0;
         line-height: 1.2;
+        text-wrap: balance;
+        max-width: 22ch;
     }
 
     .s7-transition-label {
@@ -1582,6 +1604,8 @@
         color: var(--text);
         margin: 0 0 var(--space-md) 0;
         line-height: 1.2;
+        text-wrap: balance;
+        max-width: min(24ch, calc(100vw - 3rem));
     }
 
     .s8-filter-bar {
@@ -1808,6 +1832,8 @@
         color: var(--text);
         margin: 0;
         line-height: 1.3;
+        text-wrap: balance;
+        max-width: 22ch;
     }
 
     .s9-title-word {
