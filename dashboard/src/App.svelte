@@ -51,17 +51,25 @@
 
     function shareX() {
         const url = encodeURIComponent(window.location.href);
-        window.open(`https://twitter.com/intent/tweet?url=${url}`, '_blank', 'noopener');
+        window.open(
+            `https://twitter.com/intent/tweet?url=${url}`,
+            "_blank",
+            "noopener",
+        );
     }
     function shareLinkedIn() {
         const url = encodeURIComponent(window.location.href);
-        window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${url}`, '_blank', 'noopener');
+        window.open(
+            `https://www.linkedin.com/sharing/share-offsite/?url=${url}`,
+            "_blank",
+            "noopener",
+        );
     }
     async function copyUrl() {
         try {
             await navigator.clipboard.writeText(window.location.href);
             copied = true;
-            setTimeout(() => copied = false, 1500);
+            setTimeout(() => (copied = false), 1500);
         } catch (err) {
             // Older browsers: ignore silently.
         }
@@ -92,7 +100,6 @@
     let s6ChartDimmed = $derived(activeStepS6 > 0);
     let s7ChartDimmed = $derived(activeStepS7 > 0);
     let s8ChartDimmed = $derived(activeStepS8 > 0);
-
 
     function chipSize(idx, total) {
         // Largest chip = 1.5rem, smallest = 0.85rem; index-based since lists are sorted desc
@@ -286,14 +293,17 @@
         s7Timers.forEach(clearTimeout);
         s7Timers = [];
         const cancels = [];
-        const high = stats.labelPagu.high ?? 0;
+        const bermasalah =
+            (stats.labelPagu.high ?? 0) + (stats.labelPagu.absurd ?? 0);
         if (activeStepS7 === 0) {
             s7ShowTransition = false;
             sdCount = 0;
             puskesmasCount = 0;
             cancels.push(
                 countUp(
-                    Math.floor(high / constants.anchors.kopi.price),
+                    Math.floor(
+                        (bermasalah * 0.5) / constants.anchors.kopi.price,
+                    ),
                     1800,
                     (v) => {
                         kopiCount = v;
@@ -302,7 +312,9 @@
             );
             cancels.push(
                 countUp(
-                    Math.floor(high / constants.anchors.seblak.price),
+                    Math.floor(
+                        (bermasalah * 0.5) / constants.anchors.seblak.price,
+                    ),
                     1800,
                     (v) => {
                         seblakCount = v;
@@ -317,7 +329,9 @@
                 setTimeout(() => {
                     cancels.push(
                         countUp(
-                            Math.floor(high / constants.anchors.sd.price),
+                            Math.floor(
+                                (bermasalah * 0.5) / constants.anchors.sd.price,
+                            ),
                             1800,
                             (v) => {
                                 sdCount = v;
@@ -331,7 +345,8 @@
                     cancels.push(
                         countUp(
                             Math.floor(
-                                high / constants.anchors.puskesmas.price,
+                                (bermasalah * 0.5) /
+                                    constants.anchors.puskesmas.price,
                             ),
                             1800,
                             (v) => {
@@ -395,7 +410,7 @@
     <section class="hero">
         <div class="grain"></div>
         <div class="hero-inner">
-            <div class="eyebrow">idsterity · Pengadaan yang Mengada-ada</div>
+            <div class="eyebrow">idsterity | Pengadaan yang Mengada-ada</div>
             <h1 class="hero-headline">
                 <span class="title-main">Berhemat itu berat,</span><br />
                 <span class="title-accent">biar kamu saja.</span>
@@ -418,10 +433,6 @@
         <div class="steps-col">
             <div class="step" data-step="0">
                 <div class="step-card">
-                    <h3>
-                        Mengucap hemat memang mudah, mari kita tengok rekam
-                        jejaknya.
-                    </h3>
                     <p>
                         Sejak awal 2024, pemerintah telah mengumbar janji
                         pemotongan berbagai biaya yang tidak perlu. Melalui
@@ -699,9 +710,7 @@
             <div class="s4-stats-grid">
                 <div class="s4-stat-cell">
                     {#if stats}
-                        <div class="s4-stat-number">
-                            Rp 642T
-                        </div>
+                        <div class="s4-stat-number">Rp 642T</div>
                         <div class="s4-stat-label">Total pagu pengadaan</div>
                     {:else}
                         <div class="s4-stat-number loading-pulse">--</div>
@@ -710,9 +719,7 @@
                 </div>
                 <div class="s4-stat-cell">
                     {#if stats}
-                        <div class="s4-stat-number">
-                            3.000.000
-                        </div>
+                        <div class="s4-stat-number">3.000.000</div>
                         <div class="s4-stat-label">Paket pengadaan</div>
                     {:else}
                         <div class="s4-stat-number loading-pulse">--</div>
@@ -763,25 +770,14 @@
                         >Rp {stats ? fmtT(stats.labelPagu.med) : "--"} T</span
                     >
                 </li>
-                <li class="s4-row">
-                    <span
-                        class="s4-dot"
-                        style="background: var(--viz-neutral)"
-                    ></span>
-                    <span class="s4-row-label">Wajar</span>
-                    <span class="s4-row-count"
-                        >{stats ? fmtNum(stats.labelCounts.low) : "--"}
-                        paket</span
-                    >
-                    <span class="s4-row-pagu"
-                        >Rp {stats ? fmtT(stats.labelPagu.low) : "--"} T</span
-                    >
-                </li>
             </ul>
 
             <p class="s4-disclaimer">
-                Label dihasilkan oleh <a href="https://nemesis.assai.id/" target="_blank" rel="noopener">model AI</a> yang sangat amat mungkin salah.
-                Bukan referensi hukum.
+                Label dihasilkan oleh <a
+                    href="https://nemesis.assai.id/"
+                    target="_blank"
+                    rel="noopener">model AI</a
+                > yang sangat amat mungkin salah. Bukan referensi hukum.
             </p>
         </div>
     </section>
@@ -816,9 +812,7 @@
             <h2 class="s6-sticky-heading">
                 Tapi siapa yang paling banyak ditandai bermasalah?
             </h2>
-            <ReversePodium
-                data={lembagaFlagged.slice(0, 5)}
-            />
+            <ReversePodium data={lembagaFlagged.slice(0, 5)} />
         </div>
 
         <div class="steps-col">
@@ -841,14 +835,19 @@
             <div class="eyebrow">Bagian 6: Pesta Seblak</div>
             <h2 class="s7-sticky-heading">
                 {#if stats}
-                    Rp {fmtT(stats.labelPagu.high)} T untuk pengadaan bermasalah
+                    Rp {fmtT(
+                        (stats.labelPagu.high ?? 0) +
+                            (stats.labelPagu.absurd ?? 0),
+                    )} T untuk pengadaan bermasalah
                 {:else}
-                    Rp 10,7 triliun untuk pengadaan bermasalah
+                    Rp 14,3 triliun untuk pengadaan bermasalah
                 {/if}
             </h2>
 
             <span class="s7-transition-label" aria-live="polite"
-                >{s7ShowTransition ? "Atau, lebih seriusnya..." : ""}</span
+                >{s7ShowTransition
+                    ? "Atau, Rp 7T penghematan untuk membangun..."
+                    : ""}</span
             >
 
             <div class="s7-anchor-pair">
@@ -864,12 +863,6 @@
                             >
                         {/if}
                         <span class="s7-anchor-label">gelas kopi jago</span>
-                        <span class="s7-anchor-citation"
-                            >Harga satuan: Rp {fmtNum(
-                                constants?.anchors?.kopi?.price ?? 0,
-                            )} — {constants?.anchors?.kopi?.sourceLabel ??
-                                ""}</span
-                        >
                     </div>
                     <div class="s7-anchor">
                         {#if stats && constants}
@@ -882,12 +875,6 @@
                             >
                         {/if}
                         <span class="s7-anchor-label">mangkok seblak</span>
-                        <span class="s7-anchor-citation"
-                            >Harga satuan: Rp {fmtNum(
-                                constants?.anchors?.seblak?.price ?? 0,
-                            )} — {constants?.anchors?.seblak?.sourceLabel ??
-                                ""}</span
-                        >
                     </div>
                 {:else}
                     <div class="s7-anchor">
@@ -900,13 +887,7 @@
                                 >—</span
                             >
                         {/if}
-                        <span class="s7-anchor-label">sekolah dasar baru</span>
-                        <span class="s7-anchor-citation"
-                            >Harga satuan: Rp {fmtNum(
-                                constants?.anchors?.sd?.price ?? 0,
-                            )} — {constants?.anchors?.sd?.sourceLabel ??
-                                ""}</span
-                        >
+                        <span class="s7-anchor-label">Sekolah Dasar</span>
                     </div>
                     <div class="s7-anchor">
                         {#if stats && constants}
@@ -918,13 +899,7 @@
                                 >—</span
                             >
                         {/if}
-                        <span class="s7-anchor-label">puskesmas baru</span>
-                        <span class="s7-anchor-citation"
-                            >Harga satuan: Rp {fmtNum(
-                                constants?.anchors?.puskesmas?.price ?? 0,
-                            )} — {constants?.anchors?.puskesmas?.sourceLabel ??
-                                ""}</span
-                        >
+                        <span class="s7-anchor-label">Puskesmas</span>
                     </div>
                 {/if}
             </div>
@@ -942,8 +917,10 @@
                     <span class="step-num">1 / 2</span>
                     <h3>Mari berandai...</h3>
                     <p>
-                        Rp 10,7 triliun total anggaran yang dinilai AI
-                        bermasalah. Pasti susah bayanginnya, bisa untuk beli...
+                        Rp 14,3 triliun total anggaran yang dinilai AI
+                        bermasalah (high + absurd). Misal kita hemat 50%-nya
+                        saja, bisa untuk beliin semangkok seblak dan dua gelas
+                        kopi untuk setiap orang.
                     </p>
                     <a
                         class="source-link"
@@ -967,10 +944,11 @@
             <div class="step" data-step="1">
                 <div class="step-card">
                     <span class="step-num">2 / 2</span>
-                    <h3>Atau, bangun ini...</h3>
+                    <h3>Atau, lebih serius...</h3>
                     <p>
-                        Dana yang sama bisa membangun ribuan sekolah dasar baru,
-                        atau lebih dari seribu puskesmas.
+                        Penghematan yang sama bisa membangun ribuan SD atau
+                        ratusan puskesmas baru, yang berarti tambahan 2 SD dan 1
+                        Puskesmas per kota/kabupaten.
                     </p>
                     <a
                         class="source-link"
@@ -996,9 +974,7 @@
     <!-- ━━━ S8 WORD CLOUD ━━━ -->
     <section class="word-cloud-section" data-section="s8" id="s8">
         <div class="eyebrow">Bagian 7: Beli apa sih?</div>
-        <h2 class="s8-sticky-heading">
-            Pengadaan apa yang paling sering bermasalah?
-        </h2>
+        <h2 class="s8-sticky-heading">Kumpulan kata-kata hari ini:</h2>
 
         <div class="filter-row" role="tablist" aria-label="Filter pemerintah">
             {#each [["all", "Semua"], ["central", "Pemerintah Pusat"], ["district", "Pemerintah Daerah"]] as [val, label]}
@@ -1076,29 +1052,59 @@
 
     <!-- ━━━ BAGIAN 8: BAGIKAN ━━━ -->
     <section class="bagian-share">
-        <p class="eyebrow">BAGIAN 8: BAGIKAN</p>
+        <p class="eyebrow">Waktunya benar-benar berhemat. Mari bagikan:</p>
         <div class="share-row">
             <button class="share-pill" onclick={shareX} type="button">
                 <!-- X / X-Twitter mark -->
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                    <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.746l7.73-8.835L1.254 2.25H8.08l4.26 5.632 5.904-5.632Zm-1.161 17.52h1.833L7.084 4.126H5.117Z"/>
+                <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    aria-hidden="true"
+                >
+                    <path
+                        d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.746l7.73-8.835L1.254 2.25H8.08l4.26 5.632 5.904-5.632Zm-1.161 17.52h1.833L7.084 4.126H5.117Z"
+                    />
                 </svg>
                 X
             </button>
             <button class="share-pill" onclick={shareLinkedIn} type="button">
                 <!-- LinkedIn mark -->
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286ZM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065Zm1.782 13.019H3.555V9h3.564v11.452ZM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003Z"/>
+                <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    aria-hidden="true"
+                >
+                    <path
+                        d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286ZM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065Zm1.782 13.019H3.555V9h3.564v11.452ZM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003Z"
+                    />
                 </svg>
                 LinkedIn
             </button>
             <button class="share-pill" onclick={copyUrl} type="button">
                 <!-- Chain / link icon -->
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                    <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/>
-                    <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/>
+                <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    aria-hidden="true"
+                >
+                    <path
+                        d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"
+                    />
+                    <path
+                        d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"
+                    />
                 </svg>
-                {copied ? 'Copied!' : 'Salin URL'}
+                {copied ? "Copied!" : "Salin URL"}
             </button>
         </div>
     </section>
@@ -1116,37 +1122,39 @@
            ─────────────────────────────────────────────────────────── */
 
         /* Surfaces */
-        --bg:       var(--bg-base);
-        --bg-alt:   var(--bg-sunken);
-        --bg-card:  var(--bg-card);   /* token already defined in idsterity-tokens.css */
+        --bg: var(--bg-base);
+        --bg-alt: var(--bg-sunken);
+        --bg-card: var(
+            --bg-card
+        ); /* token already defined in idsterity-tokens.css */
 
         /* Text */
-        --text:     var(--ink-1);
-        --muted:    var(--ink-3);
+        --text: var(--ink-1);
+        --muted: var(--ink-3);
 
         /* Accent */
-        --gold:     var(--accent-soft);
+        --gold: var(--accent-soft);
 
         /* Data signals — keep as concrete values; chart components own these */
-        --red:      var(--viz-red);
-        --absurd:   var(--viz-red-dark);
-        --amber:    var(--viz-warm-light);
-        --central:  #5b8ed4;
+        --red: var(--viz-red);
+        --absurd: var(--viz-red-dark);
+        --amber: var(--viz-warm-light);
+        --central: #5b8ed4;
         --provinsi: #5ba882;
-        --kabkota:  #c4a04a;
-        --clean:    #3a6b52;
+        --kabkota: #c4a04a;
+        --clean: #3a6b52;
 
         /* Structure */
-        --border:   var(--rule-soft);
+        --border: var(--rule-soft);
 
         /* Spacing — keep legacy names in sync with token scale */
-        --space-xs:   var(--space-1);
-        --space-sm:   var(--space-2);
-        --space-md:   var(--space-4);
-        --space-lg:   var(--space-5);
-        --space-xl:   var(--space-6);
-        --space-2xl:  var(--space-7);
-        --space-3xl:  var(--space-8);
+        --space-xs: var(--space-1);
+        --space-sm: var(--space-2);
+        --space-md: var(--space-4);
+        --space-lg: var(--space-5);
+        --space-xl: var(--space-6);
+        --space-2xl: var(--space-7);
+        --space-3xl: var(--space-8);
         --space-page: var(--space-9);
     }
 
@@ -1472,7 +1480,7 @@
         line-height: var(--lh-tight);
         margin-bottom: var(--space-sm);
         letter-spacing: var(--tracking-display);
-        font-feature-settings: 'onum';
+        font-feature-settings: "onum";
     }
     .s4-stat-label {
         font-family: var(--serif);
@@ -1615,7 +1623,7 @@
         font-weight: 700;
         line-height: var(--lh-tight);
         letter-spacing: var(--tracking-display);
-        font-feature-settings: 'onum';
+        font-feature-settings: "onum";
     }
 
     .s7-anchor-figure.is-gold {
