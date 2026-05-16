@@ -7,6 +7,7 @@
     import ReversePodium from "./ReversePodium.svelte";
     import Modal from "./Modal.svelte";
     import WordPaketCards from "./WordPaketCards.svelte";
+    import { X as XIcon, Share as ShareIcon, Link as LinkIcon } from 'lucide-svelte';
 
     let stats = $state(null);
     let lembaga = $state([]);
@@ -45,6 +46,27 @@
     let isNarrow = $state(false);
     let mqNarrow;
     let wordCache = new Map();
+
+    // ── Bagian 9: Share ──
+    let copied = $state(false);
+
+    function shareX() {
+        const url = encodeURIComponent(window.location.href);
+        window.open(`https://twitter.com/intent/tweet?url=${url}`, '_blank', 'noopener');
+    }
+    function shareLinkedIn() {
+        const url = encodeURIComponent(window.location.href);
+        window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${url}`, '_blank', 'noopener');
+    }
+    async function copyUrl() {
+        try {
+            await navigator.clipboard.writeText(window.location.href);
+            copied = true;
+            setTimeout(() => copied = false, 1500);
+        } catch (err) {
+            // Older browsers: ignore silently.
+        }
+    }
 
     let currentWords = $derived(
         wordFilter === "central"
@@ -1053,6 +1075,22 @@
         {/if}
     </Modal>
 
+    <!-- ━━━ BAGIAN 8: BAGIKAN ━━━ -->
+    <section class="bagian-share">
+        <p class="eyebrow">BAGIAN 8: BAGIKAN</p>
+        <div class="share-row">
+            <button class="share-pill" onclick={shareX} type="button">
+                <XIcon size={16} strokeWidth={1.5} /> X
+            </button>
+            <button class="share-pill" onclick={shareLinkedIn} type="button">
+                <ShareIcon size={16} strokeWidth={1.5} /> LinkedIn
+            </button>
+            <button class="share-pill" onclick={copyUrl} type="button">
+                <LinkIcon size={16} strokeWidth={1.5} /> {copied ? 'Copied!' : 'Salin URL'}
+            </button>
+        </div>
+    </section>
+
     {#if fetchError}<div class="fetch-error">{fetchError}</div>{/if}
 </div>
 
@@ -1813,5 +1851,46 @@
         .chip-grid {
             grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
         }
+    }
+
+    /* ── Bagian 8: Bagikan ── */
+    .bagian-share {
+        min-height: 50vh;
+        padding: var(--page-pad-y) var(--page-pad-x);
+        background: var(--bg-base);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .share-row {
+        display: flex;
+        gap: var(--space-3);
+        margin-top: var(--space-5);
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .share-pill {
+        display: inline-flex;
+        align-items: center;
+        gap: var(--space-2);
+        font-family: var(--sans);
+        font-size: var(--size-ui);
+        font-weight: 500;
+        color: var(--ink-2);
+        padding: var(--space-2) var(--space-4);
+        border: 1px solid var(--rule);
+        border-radius: var(--radius-pill);
+        background: transparent;
+        cursor: pointer;
+        transition: all var(--t-fast) var(--ease);
+    }
+
+    .share-pill:hover {
+        background: var(--bg-sunken);
+        color: var(--ink-1);
     }
 </style>
