@@ -3,7 +3,8 @@
     "deficit": {
       "fy2024": -507800000000000,
       "fy2025": -695100000000000,
-      "q1_2026": -240100000000000
+      "q1_2026": -240100000000000,
+      "proj2026": -960400000000000
     },
     "unit": "IDR"
   },
@@ -36,6 +37,13 @@
       "label": "APBN KiTa Maret 2026 — Realisasi APBN Triwulan I 2026 (defisit Rp240,1T / 0,93% PDB), Kementerian Keuangan RI",
       "accessed": "2026-05-15",
       "provisional": true
+    },
+    {
+      "field": "apbn.deficit.proj2026",
+      "url": "https://www.kemenkeu.go.id/informasi-publik/publikasi/berita-utama/Menkeu-Sampaikan-Realisasi-APBN-Hingga-31-Maret",
+      "label": "Proyeksi defisit 2026 — ekstrapolasi Q1 2026 (Rp240,1T) × 4 = Rp960,4T",
+      "accessed": "2026-05-15",
+      "projection": true
     },
     {
       "field": "gdp.konsumsi_pemerintah.q1_2025",

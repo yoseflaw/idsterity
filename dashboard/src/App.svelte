@@ -481,7 +481,7 @@
             <div class="eyebrow">Bagian 2: APBN KITA, bukan APBN SAYA</div>
             <DeficitChart data={constants?.apbn?.deficit} step={activeStepS2} />
             <div class="step-indicator" aria-hidden="true">
-                {#each [0, 1, 2] as s}
+                {#each [0, 1, 2, 3] as s}
                     <div class="pip" class:active={activeStepS2 === s}></div>
                 {/each}
             </div>
@@ -490,7 +490,7 @@
         <div class="steps-col">
             <div class="step" data-step="0">
                 <div class="step-card">
-                    <span class="step-num">1 / 3</span>
+                    <span class="step-num">1 / 4</span>
                     <h3>2024: Rp 507,8 T</h3>
                     <p>
                         Pada tahun 2024, defisit APBN mencapai Rp 507,8 triliun
@@ -511,7 +511,7 @@
 
             <div class="step" data-step="1">
                 <div class="step-card">
-                    <span class="step-num">2 / 3</span>
+                    <span class="step-num">2 / 4</span>
                     <h3>2025: Rp 695,1 T</h3>
                     <p>
                         Realisasi APBN 2025: defisit justru melebar ke Rp 695,1
@@ -532,7 +532,7 @@
 
             <div class="step" data-step="2">
                 <div class="step-card">
-                    <span class="step-num">3 / 3</span>
+                    <span class="step-num">3 / 4</span>
                     <h3>Q1 2026: Rp 240 T</h3>
                     <p>
                         Baru tiga bulan 2026, defisit sudah mencapai Rp 240
@@ -546,6 +546,26 @@
                         target="_blank"
                         rel="noopener noreferrer"
                         >Sumber: Kementerian Keuangan RI</a
+                    >
+                </div>
+            </div>
+
+            <div class="step" data-step="3">
+                <div class="step-card">
+                    <span class="step-num">4 / 4</span>
+                    <h3>Proyeksi defisit tahunan</h3>
+                    <p>
+                        Kalau lanjut begini terus, defisit tahunan bisa mencapai
+                        Rp960T!
+                    </p>
+                    <a
+                        class="source-link"
+                        href={constants?.sources?.find(
+                            (s) => s.field === "apbn.deficit.proj2026",
+                        )?.url ?? "#"}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >Proyeksi dari ekstrapolasi Q1 2026 × 4.</a
                     >
                 </div>
             </div>

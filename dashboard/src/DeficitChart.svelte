@@ -31,9 +31,10 @@
   // Domain is [0, max(|value|)] in trillions so bar heights match Rp values.
   let points = $derived.by(() => {
     const rows = [
-      { key: 'fy2024',  period: '2024'       },
-      { key: 'fy2025',  period: '2025'      },
-      { key: 'q1_2026', period: 'Q1 2026' },
+      { key: 'fy2024',   period: '2024'           },
+      { key: 'fy2025',   period: '2025'            },
+      { key: 'q1_2026',  period: 'Q1 2026'         },
+      { key: 'proj2026', period: 'Proyeksi 2026', projection: true },
     ].map((p, i) => {
       const valueRaw  = data?.[p.key] ?? 0
       const valueTril = Math.abs(valueRaw) / 1e12
@@ -49,7 +50,7 @@
   })
 
   let baseline  = $derived(maxHeight + 40)
-  let svgWidth  = $derived(padding * 2 + 3 * (stackWidth + gap))
+  let svgWidth  = $derived(padding * 2 + 4 * (stackWidth + gap))
   let svgHeight = $derived(baseline + 40)
 </script>
 
@@ -70,9 +71,10 @@
 
     <!-- coin stacks -->
     {#each points as p, i (p.key)}
-      {@const isSaving = p.valueRaw > 0}
-      {@const edgeFill = isSaving ? 'rgba(61,139,94,0.55)'  : 'rgba(139,42,42,0.55)'}
-      {@const topFill  = isSaving ? 'rgba(61,139,94,0.9)'   : 'rgba(139,42,42,0.9)'}
+      {@const isSaving   = p.valueRaw > 0}
+      {@const isProjection = p.projection === true}
+      {@const edgeFill = isSaving ? 'rgba(61,139,94,0.55)'  : isProjection ? 'rgba(100,18,18,0.75)' : 'rgba(139,42,42,0.55)'}
+      {@const topFill  = isSaving ? 'rgba(61,139,94,0.9)'   : isProjection ? 'rgba(100,18,18,1.0)'  : 'rgba(139,42,42,0.9)'}
       <g class="coin-stack"
          opacity={step === i ? 1 : 0.4}
          style="transform-origin: {p.xCenter}px {baseline}px;
