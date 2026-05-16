@@ -5,6 +5,8 @@
     import GDPChart from "./GDPChart.svelte";
     import Podium from "./Podium.svelte";
     import ReversePodium from "./ReversePodium.svelte";
+    import Modal from "./Modal.svelte";
+    import WordPaketCards from "./WordPaketCards.svelte";
 
     let stats = $state(null);
     let lembaga = $state([]);
@@ -27,35 +29,36 @@
     let s7Timers = [];
 
     let activeStepS8 = $state(0);
-    let cloudWords = $state([]);
-    let lembagaIndex = $state({});
-    let activeFilter = $state("all");
-    let activeLembaga = $state(null);
-    let lembagaSearch = $state("");
+    let wordsAll = $state([]);
+    let wordsCentral = $state([]);
+    let wordsDistrict = $state([]);
+    let runtimeStopWords = $state([]);
+    let wordFilter = $state("all"); // 'all' | 'central' | 'district'
     let selectedWord = $state(null);
-    let wordRecords = $state([]);
+    let selectedRecords = $state([]);
     let wordRecordsLoading = $state(false);
     let wordRecordsError = $state(null);
+    let modalOpen = $state(false);
     let filterError = $state(null);
     let isNarrow = $state(false);
     let mqNarrow;
     let wordCache = new Map();
 
-    let cloudMin = $derived(
-        cloudWords.length ? Math.min(...cloudWords.map((w) => w.count)) : 0,
-    );
-    let cloudMax = $derived(
-        cloudWords.length ? Math.max(...cloudWords.map((w) => w.count)) : 0,
+    let currentWords = $derived(
+        wordFilter === "central"
+            ? wordsCentral
+            : wordFilter === "district"
+              ? wordsDistrict
+              : wordsAll,
     );
 
-    let filteredInstitutions = $derived(
-        lembagaSearch.length === 0
-            ? []
-            : Object.keys(lembagaIndex)
-                  .filter((name) =>
-                      name.toLowerCase().includes(lembagaSearch.toLowerCase()),
-                  )
-                  .slice(0, 50),
+    let visibleWords = $derived(
+        currentWords.filter(
+            (w) =>
+                !runtimeStopWords.includes(
+                    (w.word || w.text || "").toLowerCase(),
+                ),
+        ),
     );
 
     // Mobile: dim sticky chart when a text step card is scrolled over it
@@ -70,69 +73,55 @@
     // S6 morph progress: step 0 = upright gold, step 1 = mid morph, step 2 = full inverted red.
     let s6Progress = $derived(Math.min(1, activeStepS6 / 2));
 
-    function scaleFont(count, min, max) {
-        if (max === min) return 1.375;
-        const size = 0.75 + ((count - min) / (max - min)) * 1.25;
-        return Math.min(2.0, Math.max(0.75, size));
+    function chipSize(idx, total) {
+        // Largest chip = 1.5rem, smallest = 0.85rem; index-based since lists are sorted desc
+        if (total <= 1) return 1.2;
+        const t = 1 - idx / (total - 1);
+        return 0.85 + t * 0.65;
     }
 
-    async function setFilter(filter, lembagaName = null) {
-        selectedWord = null;
-        activeFilter = filter;
-        activeLembaga = lembagaName;
+    function setWordFilter(filter) {
+        wordFilter = filter;
         filterError = null;
-        try {
-            if (filter === "all") {
-                cloudWords = await safeFetch(
-                    import.meta.env.BASE_URL + "data/wordcloud-all.json",
-                );
-            } else if (filter === "central") {
-                cloudWords = await safeFetch(
-                    import.meta.env.BASE_URL + "data/wordcloud-central.json",
-                );
-            } else if (filter === "district") {
-                cloudWords = await safeFetch(
-                    import.meta.env.BASE_URL + "data/wordcloud-district.json",
-                );
-            } else if (filter === "lembaga") {
-                cloudWords = lembagaIndex[lembagaName] ?? [];
-                lembagaSearch = "";
-            }
-        } catch (err) {
-            filterError = "Gagal memuat data. Coba muat ulang halaman.";
-        }
+        if (selectedWord) selectWord(selectedWord);
     }
 
     async function selectWord(word) {
-        if (selectedWord === word) {
-            selectedWord = null;
-            return;
-        }
         selectedWord = word;
-        wordRecords = [];
+        selectedRecords = [];
         wordRecordsError = null;
-        const filterKey = activeFilter === "lembaga" ? "all" : activeFilter;
-        const cacheKey = `${word}-${filterKey}`;
+        const cacheKey = `${word}-${wordFilter}`;
         if (wordCache.has(cacheKey)) {
-            wordRecords = wordCache.get(cacheKey);
+            selectedRecords = wordCache.get(cacheKey);
+            if (typeof window !== "undefined" && window.innerWidth < 720)
+                modalOpen = true;
             return;
         }
         wordRecordsLoading = true;
-        const requestedWord = word; // capture before any await
+        const requestedWord = word;
+        const requestedFilter = wordFilter;
         try {
             const data = await safeFetch(
                 import.meta.env.BASE_URL +
-                    `data/word-${word}-${filterKey}.json`,
+                    `data/word-${word}-${wordFilter}.json`,
             );
-            if (selectedWord !== requestedWord) return; // superseded — discard
+            if (selectedWord !== requestedWord || wordFilter !== requestedFilter)
+                return;
             wordCache.set(cacheKey, data);
-            wordRecords = data;
+            selectedRecords = data;
         } catch (err) {
             if (selectedWord !== requestedWord) return;
             wordRecordsError = "Gagal memuat data paket. Coba lagi.";
+            selectedRecords = [];
         } finally {
             if (selectedWord === requestedWord) wordRecordsLoading = false;
         }
+        if (typeof window !== "undefined" && window.innerWidth < 720)
+            modalOpen = true;
+    }
+
+    function closeModal() {
+        modalOpen = false;
     }
 
     let onNarrowChange;
@@ -148,26 +137,29 @@
 
     onMount(async () => {
         try {
-            const [s, d, c, w, l, df] = await Promise.all([
-                safeFetch(import.meta.env.BASE_URL + "data/summary-stats.json"),
-                safeFetch(
-                    import.meta.env.BASE_URL + "data/lembaga-totals.json",
-                ),
-                safeFetch(import.meta.env.BASE_URL + "data/constants.json"),
-                safeFetch(import.meta.env.BASE_URL + "data/wordcloud-all.json"),
-                safeFetch(
-                    import.meta.env.BASE_URL + "data/wordcloud-lembaga.json",
-                ),
-                safeFetch(
-                    import.meta.env.BASE_URL +
-                        "data/lembaga-flagged-totals.json",
-                ),
-            ]);
+            const base = import.meta.env.BASE_URL;
+            const [s, d, c, wAll, wCentral, wDistrict, wOverrides, df] =
+                await Promise.all([
+                    safeFetch(base + "data/summary-stats.json"),
+                    safeFetch(base + "data/lembaga-totals.json"),
+                    safeFetch(base + "data/constants.json"),
+                    safeFetch(base + "data/wordcloud-all.json"),
+                    safeFetch(base + "data/wordcloud-central.json"),
+                    safeFetch(base + "data/wordcloud-district.json"),
+                    fetch(base + "data/stop-words-overrides.json")
+                        .then((r) => (r.ok ? r.json() : []))
+                        .catch(() => []),
+                    safeFetch(base + "data/lembaga-flagged-totals.json"),
+                ]);
             stats = s;
             lembaga = d;
             constants = c;
-            cloudWords = w;
-            lembagaIndex = l;
+            wordsAll = wAll;
+            wordsCentral = wCentral;
+            wordsDistrict = wDistrict;
+            runtimeStopWords = (wOverrides || []).map((w) =>
+                String(w).toLowerCase(),
+            );
             lembagaFlagged = df;
         } catch (err) {
             fetchError = "Gagal memuat data. Coba muat ulang halaman.";
@@ -211,8 +203,10 @@
                 }),
                 makeScroller("s8", (i) => {
                     activeStepS8 = i;
-                    if (i === 0 && !selectedWord && cloudWords.length > 0) {
-                        selectWord(cloudWords[0].word);
+                    if (i === 0 && !selectedWord && visibleWords.length > 0) {
+                        // Preload top word's records for inline desktop cards
+                        // (do not auto-open modal — selectWord opens modal only on narrow viewports)
+                        selectWord(visibleWords[0].word ?? visibleWords[0].text);
                     }
                 }),
             ];
@@ -926,201 +920,83 @@
     </section>
 
     <!-- ━━━ S8 WORD CLOUD ━━━ -->
-    <section class="scrolly" data-section="s8" id="s8">
-        <div class="sticky-col" class:chart--dimmed={s8ChartDimmed}>
-            <div
-                class="s8-sticky-panel"
-                onclick={(e) => {
-                    if (
-                        selectedWord &&
-                        !e.target.closest(".s9-overlay") &&
-                        !e.target.closest(".s8-cloud-word") &&
-                        !e.target.closest(".s8-filter-bar")
-                    ) {
-                        selectedWord = null;
-                    }
-                }}
-            >
-                <div class="eyebrow">Bagian 7: Beli apa sih?</div>
-                <h2 class="s8-sticky-heading">Pengadaan apa yang paling sering muncul dan dianggap bermasalah?</h2>
+    <section class="word-cloud-section" data-section="s8" id="s8">
+        <div class="eyebrow">Bagian 7: Beli apa sih?</div>
+        <h2 class="s8-sticky-heading">Pengadaan apa yang paling sering bermasalah?</h2>
 
-                <div class="s8-filter-bar">
+        <div
+            class="filter-row"
+            role="tablist"
+            aria-label="Filter pemerintah"
+        >
+            {#each [["all", "Semua"], ["central", "Pemerintah Pusat"], ["district", "Pemerintah Daerah"]] as [val, label]}
+                <button
+                    type="button"
+                    class="filter-pill"
+                    class:active={wordFilter === val}
+                    onclick={() => setWordFilter(val)}
+                    role="tab"
+                    aria-selected={wordFilter === val}
+                    >{label}</button
+                >
+            {/each}
+        </div>
+
+        {#if filterError}
+            <div class="s8-filter-error">{filterError}</div>
+        {/if}
+
+        <!-- Hidden step anchor so scrollama can still drive activeStepS8 -->
+        <div class="s8-step-anchor" data-step="0" aria-hidden="true"></div>
+
+        {#if visibleWords.length === 0}
+            <div class="s8-empty">Tidak ada kata ditemukan.</div>
+        {:else}
+            <div class="chip-grid">
+                {#each visibleWords as w, idx (w.word ?? w.text ?? idx)}
+                    {@const wordKey = w.word ?? w.text ?? ""}
                     <button
                         type="button"
-                        class="s8-filter-pill"
-                        class:is-active={activeFilter === "all"}
-                        onclick={() => setFilter("all")}
-                        >Semua</button
+                        class="chip"
+                        class:selected={selectedWord === wordKey}
+                        style="font-size: {chipSize(idx, visibleWords.length)}rem;"
+                        onclick={() => selectWord(wordKey)}
+                        aria-pressed={selectedWord === wordKey}
+                        >{wordKey}</button
                     >
-                    <button
-                        type="button"
-                        class="s8-filter-pill"
-                        class:is-active={activeFilter === "central"}
-                        onclick={() => setFilter("central")}
-                        >Pemerintah Pusat</button
-                    >
-                    <button
-                        type="button"
-                        class="s8-filter-pill"
-                        class:is-active={activeFilter === "district"}
-                        onclick={() => setFilter("district")}
-                        >Pemerintah Daerah</button
-                    >
+                {/each}
+            </div>
+        {/if}
 
-                    <div class="s8-search-wrap">
-                        <input
-                            type="text"
-                            class="s8-search-input"
-                            bind:value={lembagaSearch}
-                            placeholder="Cari lembaga…"
-                        />
-                        {#if filteredInstitutions.length > 0}
-                            <div class="s8-search-dropdown">
-                                {#each filteredInstitutions as name}
-                                    <button
-                                        type="button"
-                                        class="s8-search-item"
-                                        onclick={() =>
-                                            setFilter("lembaga", name)}
-                                        >{name}</button
-                                    >
-                                {/each}
-                            </div>
-                        {/if}
-                    </div>
-
-                    {#if activeFilter !== "all" || activeLembaga}
-                        <button
-                            type="button"
-                            class="s8-filter-reset"
-                            onclick={() => setFilter("all")}
-                            >Reset</button
-                        >
-                    {/if}
-                    {#if filterError}
-                        <div class="s8-filter-error">{filterError}</div>
-                    {/if}
-                </div>
-
-                {#if isNarrow}
-                    <div class="s8-mobile-fallback-note">
-                        Geser untuk melihat semua kata
-                    </div>
-                {/if}
-
-                {#if selectedWord}
-                    <div class="s9-overlay">
-                        <div class="s9-table-header">
-                            <div class="s9-title-row">
-                                <h3 class="s9-title">
-                                    Paket dengan kata <span
-                                        class="s9-title-word"
-                                        >"{selectedWord}"</span
-                                    >
-                                </h3>
-                                <button
-                                    type="button"
-                                    class="s9-close"
-                                    aria-label="Tutup"
-                                    onclick={() => (selectedWord = null)}
-                                    >&#x2715;</button
-                                >
-                            </div>
-                            <div class="s9-count">
-                                {wordRecords.length} paket teratas (berdasarkan pagu)
-                            </div>
-                            {#if activeFilter === "lembaga"}
-                                <div class="s9-fallback-note">
-                                    Menampilkan semua lembaga (Filter lembaga hanya berlaku pada kata kunci)
-                                </div>
-                            {/if}
-                        </div>
-
-                        <div class="s9-table-body">
-                            <table>
-                                <thead>
-                                    <tr>
-                                        <th>Lembaga</th>
-                                        <th>Satker</th>
-                                        <th class="s9-th-pagu"
-                                            >Pagu</th
-                                        >
-                                        <th>Nama Paket</th>
-                                        <th>Alasan AI</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    {#if wordRecordsLoading}
-                                        <tr
-                                            ><td
-                                                colspan="5"
-                                                class="s9-loading loading-pulse"
-                                                >memuat paket…</td
-                                            ></tr
-                                        >
-                                    {:else if wordRecordsError}
-                                        <tr
-                                            ><td colspan="5" class="s9-error"
-                                                >{wordRecordsError}</td
-                                            ></tr
-                                        >
-                                    {:else if wordRecords.length === 0}
-                                        <tr
-                                            ><td colspan="5" class="s9-empty"
-                                                >Tidak ada paket ditemukan.</td
-                                            ></tr
-                                        >
-                                    {:else}
-                                        {#each wordRecords as r}
-                                            <tr>
-                                                <td>{r.lembaga}</td>
-                                                <td>{r.satker}</td>
-                                                <td class="s9-td-pagu"
-                                                    >{fmtPaguShort(
-                                                        r.pagu
-                                                    )}</td
-                                                >
-                                                <td>{r.paket}</td>
-                                                <td>{r.inappropriateReason}</td>
-                                            </tr>
-                                        {/each}
-                                    {/if}
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                {:else if cloudWords.length === 0}
-                    <div class="s8-empty">Tidak ada kata ditemukan.</div>
+        {#if selectedWord && !modalOpen}
+            <div class="desktop-cards">
+                <h3>
+                    Paket dengan kata <em>"{selectedWord}"</em>
+                </h3>
+                {#if wordRecordsLoading}
+                    <p class="desktop-cards-status loading-pulse">memuat paket…</p>
+                {:else if wordRecordsError}
+                    <p class="desktop-cards-status error">{wordRecordsError}</p>
                 {:else}
-                    <div class="s8-cloud" class:is-narrow={isNarrow}>
-                        {#each cloudWords as w (w.word)}
-                            <button
-                                type="button"
-                                class="s8-cloud-word"
-                                class:is-selected={selectedWord === w.word}
-                                aria-pressed={selectedWord === w.word}
-                                style={isNarrow
-                                    ? ""
-                                    : `font-size: ${scaleFont(w.count, cloudMin, cloudMax)}rem`}
-                                onclick={() => selectWord(w.word)}
-                                >{w.word}</button
-                            >
-                        {/each}
-                    </div>
+                    <WordPaketCards records={selectedRecords} limit={3} />
                 {/if}
             </div>
-        </div>
-
-        <div class="steps-col">
-            <div class="step" data-step="0">
-                <div class="step-card">
-                    <span class="step-num">1 / 1</span>
-                    <h3>Kata kunci pengadaan bermasalah</h3>
-                    <p>Ini adalah daftar permintaan yang paling sering muncul dalam nama paket bermasalah. Klik kata untuk melihat contoh paket pengadaan.</p>
-                </div>
-            </div>
-        </div>
+        {/if}
     </section>
+
+    <Modal
+        open={modalOpen}
+        title={`Paket dengan kata "${selectedWord ?? ""}"`}
+        onClose={closeModal}
+    >
+        {#if wordRecordsLoading}
+            <p class="desktop-cards-status loading-pulse">memuat paket…</p>
+        {:else if wordRecordsError}
+            <p class="desktop-cards-status error">{wordRecordsError}</p>
+        {:else}
+            <WordPaketCards records={selectedRecords} limit={3} />
+        {/if}
+    </Modal>
 
     {#if fetchError}<div class="fetch-error">{fetchError}</div>{/if}
 </div>
@@ -1643,362 +1519,142 @@
         line-height: 1.5;
     }
 
-    /* -- S8 Word Cloud -- */
-    .s8-sticky-panel {
-        position: relative;
-        height: 100%;
-        overflow: hidden;
-        display: flex;
-        flex-direction: column;
-        padding: var(--space-lg);
+    /* -- S8 Word Cloud (chip-grid layout) -- */
+    .word-cloud-section {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: var(--space-3xl) var(--space-lg);
+        border-bottom: 1px solid var(--border);
+    }
+
+    .word-cloud-section .eyebrow {
+        margin-bottom: var(--space-md);
     }
 
     .s8-sticky-heading {
         font-family: "Libre Baskerville", Georgia, serif;
-        font-size: clamp(1.4rem, 3vw, 2rem);
+        font-size: clamp(1.4rem, 4vw, 2.2rem);
         font-weight: 700;
         color: var(--text);
-        margin: 0 0 var(--space-md) 0;
-        line-height: 1.2;
         text-wrap: balance;
-        max-width: min(24ch, calc(100vw - 3rem));
+        max-width: 22ch;
+        margin: 0 0 1.25rem;
+        line-height: 1.2;
     }
 
-    .s8-filter-bar {
+    .filter-row {
         display: flex;
-        gap: var(--space-sm);
-        flex-wrap: wrap;
-        align-items: center;
-        padding: var(--space-md);
-        border-bottom: 1px solid var(--border);
-        background: var(--bg-alt);
-        border-radius: 4px;
-        margin-bottom: var(--space-md);
-        position: relative;
+        gap: 0.5rem;
+        overflow-x: auto;
+        padding-bottom: 0.5rem;
+        -webkit-mask-image: linear-gradient(to right, black 88%, transparent);
+        mask-image: linear-gradient(to right, black 88%, transparent);
     }
 
-    .s8-filter-pill {
+    .filter-pill {
+        flex: 0 0 auto;
+        padding: 0.45rem 1rem;
         border: 1px solid var(--border);
-        color: var(--muted);
         background: transparent;
-        border-radius: 20px;
-        min-height: 44px;
-        padding: var(--space-sm) var(--space-md);
-        font-family: "JetBrains Mono", monospace;
-        font-size: 0.7rem;
+        color: var(--muted);
+        border-radius: 999px;
+        font-family: "JetBrains Mono", "Courier New", monospace;
+        font-size: 0.85rem;
         cursor: pointer;
+        white-space: nowrap;
         transition:
             color 0.12s ease,
             border-color 0.12s ease;
     }
 
-    .s8-filter-pill.is-active {
-        border-color: var(--gold);
+    .filter-pill:hover {
+        color: var(--text);
+    }
+
+    .filter-pill.active {
         color: var(--gold);
-    }
-
-    .s8-filter-pill:hover {
-        color: var(--text);
-    }
-
-    .s8-search-wrap {
-        position: relative;
-        flex: 1;
-        min-width: 180px;
-    }
-
-    .s8-search-input {
-        width: 100%;
-        border: 1px solid var(--border);
-        background: var(--bg-card);
-        color: var(--text);
-        border-radius: 4px;
-        padding: var(--space-sm) var(--space-md);
-        min-height: 44px;
-        font-family: "Source Serif 4", Georgia, serif;
-        font-size: 0.9rem;
-        box-sizing: border-box;
-    }
-
-    .s8-search-input::placeholder {
-        color: var(--muted);
-    }
-
-    .s8-search-dropdown {
-        position: absolute;
-        top: calc(100% + 4px);
-        left: 0;
-        right: 0;
-        max-height: 200px;
-        overflow-y: auto;
-        background: var(--bg-card);
-        border: 1px solid var(--border);
-        border-radius: 4px;
-        z-index: 5;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .s8-search-item {
-        min-height: 44px;
-        padding: var(--space-sm) var(--space-md);
-        cursor: pointer;
-        color: var(--text);
-        font-family: "Source Serif 4", Georgia, serif;
-        font-size: 0.9rem;
-        background: none;
-        border: none;
-        text-align: left;
-        width: 100%;
-        display: block;
-    }
-
-    .s8-search-item:hover {
-        background: rgba(237, 232, 220, 0.05);
-    }
-
-    .s8-filter-reset {
-        color: var(--muted);
-        font-family: "JetBrains Mono", monospace;
-        font-size: 0.7rem;
-        background: none;
-        border: none;
-        cursor: pointer;
-        min-height: 44px;
-        padding: var(--space-sm) var(--space-md);
-    }
-
-    .s8-filter-reset:hover {
-        color: var(--text);
+        border-color: var(--gold);
     }
 
     .s8-filter-error {
-        width: 100%;
         font-family: "JetBrains Mono", monospace;
         font-size: 0.7rem;
         color: var(--amber);
         padding: var(--space-sm) 0;
     }
 
-    .s8-mobile-fallback-note {
-        font-family: "JetBrains Mono", monospace;
-        font-size: 0.7rem;
-        color: var(--muted);
-        margin-bottom: var(--space-sm);
+    .s8-step-anchor {
+        height: 1px;
+        width: 100%;
     }
 
-    .s8-cloud {
-        display: flex;
-        flex-wrap: wrap;
-        gap: var(--space-sm);
-        padding: var(--space-lg);
-        align-content: flex-start;
-        overflow-y: auto;
-        flex: 1;
+    .chip-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+        gap: 0.5rem;
+        margin-top: 1.5rem;
     }
 
-    .s8-cloud.is-narrow {
-        flex-wrap: nowrap;
-        overflow-x: auto;
-        overflow-y: hidden;
-        padding: var(--space-md);
-        -webkit-overflow-scrolling: touch;
-        scroll-snap-type: x proximity;
-    }
-
-    .s8-cloud-word {
-        background: none;
-        border: none;
-        cursor: pointer;
-        padding: var(--space-sm) var(--space-md);
-        min-height: 44px;
-        font-family: "Source Serif 4", Georgia, serif;
-        letter-spacing: 0.02em;
+    .chip {
+        padding: 0.5rem 0.75rem;
+        border: 1px solid var(--border);
+        background: transparent;
         color: var(--text);
-        opacity: 0.85;
+        border-radius: 999px;
+        font-family: "JetBrains Mono", "Courier New", monospace;
+        cursor: pointer;
+        text-align: center;
+        line-height: 1.2;
+        word-break: break-word;
         transition:
             color 0.12s ease,
-            opacity 0.12s ease;
-        flex-shrink: 0;
+            background 0.12s ease,
+            border-color 0.12s ease;
     }
 
-    .s8-cloud-word:hover {
-        opacity: 1;
-        text-decoration: underline;
-        text-decoration-color: var(--border);
-    }
-
-    .s8-cloud-word.is-selected {
-        color: var(--gold);
-        font-weight: 700;
-        opacity: 1;
-        text-decoration: none;
-    }
-
-    .s8-cloud.is-narrow .s8-cloud-word {
-        font-size: 0.9rem !important;
-        padding: var(--space-xs) var(--space-sm);
-        border: 1px solid rgba(237, 232, 220, 0.2);
-        border-radius: 20px;
-        scroll-snap-align: start;
-    }
-
-    .s8-cloud.is-narrow .s8-cloud-word.is-selected {
+    .chip:hover {
         border-color: var(--gold);
     }
 
-    .s8-empty {
-        padding: var(--space-lg);
-        color: var(--muted);
-        font-family: "JetBrains Mono", monospace;
-        font-size: 0.7rem;
-        font-style: italic;
+    .chip.selected {
+        color: var(--bg);
+        background: var(--gold);
+        border-color: var(--gold);
     }
 
-    /* -- S9 Record Table Overlay -- */
-    .s9-overlay {
-        display: flex;
-        flex-direction: column;
-        flex: 1;
-        min-height: 0;
-        background: var(--bg-card);
-        border-radius: 4px;
-        overflow: hidden;
+    .desktop-cards {
+        margin-top: 2rem;
     }
 
-    .s9-table-header {
-        border-bottom: 1px solid var(--border);
-        padding: var(--space-lg);
-        background: var(--bg-card);
-        flex-shrink: 0;
-    }
-
-    .s9-title-row {
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
-        gap: var(--space-md);
-        margin-bottom: var(--space-sm);
-    }
-
-    .s9-title {
+    .desktop-cards h3 {
         font-family: "Libre Baskerville", Georgia, serif;
-        font-size: 1.4rem;
-        font-weight: 700;
+        font-size: 1.15rem;
+        margin: 0 0 0.75rem;
         color: var(--text);
-        margin: 0;
-        line-height: 1.3;
-        text-wrap: balance;
-        max-width: 22ch;
     }
 
-    .s9-title-word {
+    .desktop-cards h3 em {
         color: var(--gold);
-    }
-
-    .s9-count {
-        font-family: "JetBrains Mono", monospace;
-        font-size: 0.7rem;
-        color: var(--muted);
-    }
-
-    .s9-fallback-note {
-        font-family: "JetBrains Mono", monospace;
-        font-size: 0.7rem;
-        font-style: italic;
-        color: var(--muted);
-        margin-top: var(--space-sm);
-    }
-
-    .s9-close {
-        min-width: 44px;
-        min-height: 44px;
-        background: none;
-        border: none;
-        cursor: pointer;
-        color: var(--muted);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 1.2rem;
-        transition: color 0.12s ease;
-        flex-shrink: 0;
-    }
-
-    .s9-close:hover {
-        color: var(--text);
-    }
-
-    .s9-table-body {
-        overflow: auto;
-        flex: 1;
-        min-height: 0;
-    }
-
-    .s9-table-body table {
-        width: 100%;
-        border-collapse: collapse;
-    }
-
-    .s9-table-body thead {
-        position: sticky;
-        top: 0;
-        background: var(--bg-card);
-        z-index: 1;
-    }
-
-    .s9-table-body th {
-        font-family: "JetBrains Mono", monospace;
-        font-size: 0.7rem;
-        color: var(--muted);
-        text-transform: uppercase;
-        letter-spacing: 0.1em;
-        padding: var(--space-sm) var(--space-md);
-        text-align: left;
-        border-bottom: 1px solid var(--border);
-    }
-
-    .s9-table-body th.s9-th-pagu {
-        text-align: right;
-    }
-
-    .s9-table-body td {
-        font-family: "Source Serif 4", Georgia, serif;
-        font-size: 0.9rem;
-        color: var(--text);
-        padding: var(--space-sm) var(--space-md);
-        vertical-align: top;
-        border-bottom: 1px solid var(--border);
-        line-height: 1.5;
-    }
-
-    .s9-table-body td.s9-td-pagu {
-        font-family: "JetBrains Mono", monospace;
-        font-size: 0.7rem;
-        text-align: right;
-        white-space: nowrap;
-    }
-
-    .s9-table-body tr:hover td {
-        background: rgba(237, 232, 220, 0.03);
-    }
-
-    .s9-loading,
-    .s9-empty {
-        color: var(--muted);
-        text-align: center;
-        padding: var(--space-lg);
-        font-family: "JetBrains Mono", monospace;
-        font-size: 0.7rem;
         font-style: italic;
     }
 
-    .s9-error {
+    .desktop-cards-status {
+        font-family: "JetBrains Mono", monospace;
+        font-size: 0.8rem;
+        color: var(--muted);
+        padding: 1rem 0;
+    }
+
+    .desktop-cards-status.error {
         color: var(--amber);
-        text-align: center;
-        padding: var(--space-md);
+    }
+
+    .s8-empty {
+        padding: var(--space-lg) 0;
+        color: var(--muted);
         font-family: "JetBrains Mono", monospace;
-        font-size: 0.7rem;
+        font-size: 0.8rem;
+        font-style: italic;
     }
 
     /* ── Responsive ── */
@@ -2049,11 +1705,6 @@
             padding: var(--space-2xl) var(--space-lg);
         }
 
-        /* S9 mobile — table scrolls horizontally */
-        .s9-table-body {
-            overflow-x: auto;
-        }
-
         /* S7 mobile — show both anchor cards side by side so seblak is not
            clipped by the sticky-col overflow:hidden at 50dvh. Reduce figure
            font size so both fit comfortably. */
@@ -2066,5 +1717,15 @@
         [data-section="s7"] .s7-anchor-figure {
             font-size: clamp(1.4rem, 5vw, 2.4rem);
         }
+    }
+
+    @media (max-width: 720px) {
+        .desktop-cards { display: none; }
+        .chip-grid { grid-template-columns: repeat(2, 1fr); }
+        .word-cloud-section { padding: var(--space-2xl) var(--space-md); }
+    }
+
+    @media (min-width: 1024px) {
+        .chip-grid { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
     }
 </style>
