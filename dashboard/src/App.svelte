@@ -26,6 +26,8 @@
     let sdCount = $state(0);
     let puskesmasCount = $state(0);
     let s7ShowTransition = $state(false);
+    let s7HasEntered = $state(false);
+    let s7AnchorObserver = null;
     let s7Timers = [];
 
     let activeStepS8 = $state(0);
@@ -173,11 +175,11 @@
             const isMobile = window.matchMedia("(max-width: 800px)").matches;
             const offset = isMobile ? 0.1 : 0.5;
 
-            const makeScroller = (sectionAttr, onEnter) => {
+            const makeScroller = (sectionAttr, onEnter, offsetOverride) => {
                 const s = scrollama();
                 s.setup({
                     step: `[data-section="${sectionAttr}"] [data-step]`,
-                    offset,
+                    offset: offsetOverride ?? offset,
                     progress: false,
                 }).onStepEnter(({ index }) => onEnter(index));
                 return s;
@@ -211,6 +213,30 @@
                 }),
             ];
 
+            // Dedicated IntersectionObserver for the kopi/seblak figures.
+            // Fires the moment the anchor-pair element peeks into the viewport so
+            // count-up starts on first entry — not only when the scrollama step
+            // is halfway up (which used to lag behind on mobile).
+            const anchorPair = document.querySelector(
+                '[data-section="s7"] .s7-anchor-pair',
+            );
+            if (anchorPair && !s7HasEntered) {
+                const io = new IntersectionObserver(
+                    (entries) => {
+                        for (const e of entries) {
+                            if (e.isIntersecting) {
+                                s7HasEntered = true;
+                                io.disconnect();
+                                break;
+                            }
+                        }
+                    },
+                    { threshold: 0, rootMargin: "0px 0px 0px 0px" },
+                );
+                io.observe(anchorPair);
+                s7AnchorObserver = io;
+            }
+
             mqNarrow = window.matchMedia("(max-width: 480px)");
             isNarrow = mqNarrow.matches;
             onNarrowChange = (e) => {
@@ -226,11 +252,13 @@
         scrollers.forEach((s) => s?.destroy());
         window.removeEventListener("resize", onResize);
         s7Timers.forEach(clearTimeout);
+        s7AnchorObserver?.disconnect();
         mqNarrow?.removeEventListener("change", onNarrowChange);
     });
 
     $effect(() => {
         if (!stats || !constants?.anchors) return;
+        if (!s7HasEntered) return;
         s7Timers.forEach(clearTimeout);
         s7Timers = [];
         const cancels = [];
