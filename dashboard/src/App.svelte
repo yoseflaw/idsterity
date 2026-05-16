@@ -1220,11 +1220,12 @@
         flex-shrink: 0;
         display: flex;
         flex-direction: column;
-        transition: filter 0.3s ease;
         align-items: flex-start;
         justify-content: center;
         padding: 2rem 2.5rem;
         border-right: 1px solid var(--border);
+        z-index: 2;
+        background: var(--bg);
     }
 
     .step-indicator {
@@ -1940,6 +1941,7 @@
          correctly; overflow:hidden is safe on the sticky element itself. */
             overflow: hidden;
             z-index: 10;
+            background: var(--bg);
             padding: 1rem 1.5rem;
             justify-content: flex-start;
         }
@@ -1955,11 +1957,6 @@
         [data-section="s1"] .sticky-col {
             position: relative;
             height: auto;
-        }
-
-        /* Dim and blur the sticky chart when a text step card overlaps it */
-        .chart--dimmed {
-            filter: blur(3px) brightness(0.35);
         }
 
         /* S4 mobile — collapse stats grid to single column */
