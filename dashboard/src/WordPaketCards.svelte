@@ -2,7 +2,40 @@
   import { abbreviateLembaga } from "./lembagaAbbreviations.js";
 
   let { records = [], limit = 3 } = $props();
-  let top = $derived(records.slice(0, limit));
+
+  function isAbsurd(r) {
+    return labelOf(r) === "Absurd";
+  }
+  function isHigh(r) {
+    return labelOf(r) === "High";
+  }
+
+  function selectTop3(rows) {
+    // 1. Dedupe by paket name — keep highest-pagu per name.
+    const byName = new Map();
+    for (const r of rows) {
+      const cur = byName.get(r.paket);
+      if (!cur || (r.pagu ?? 0) > (cur.pagu ?? 0)) byName.set(r.paket, r);
+    }
+    const distinct = [...byName.values()];
+
+    // 2. Reserve a slot for highest-pagu absurd if any exist.
+    const absurdList = distinct
+      .filter(isAbsurd)
+      .sort((a, b) => (b.pagu ?? 0) - (a.pagu ?? 0));
+    const highList = distinct
+      .filter(r => isHigh(r) && !(absurdList[0] && r.paket === absurdList[0].paket))
+      .sort((a, b) => (b.pagu ?? 0) - (a.pagu ?? 0));
+
+    const picks = absurdList[0]
+      ? [absurdList[0], ...highList.slice(0, 2)]
+      : highList.slice(0, 3);
+
+    // 3. Sort the final picks by pagu desc for display order.
+    return picks.sort((a, b) => (b.pagu ?? 0) - (a.pagu ?? 0));
+  }
+
+  let top = $derived(selectTop3(records));
 
   function fmtT(rupiah) {
     if (!rupiah) return "Rp 0";
