@@ -1198,7 +1198,7 @@
         letter-spacing: var(--tracking-display);
         margin-bottom: 3rem;
         text-wrap: balance;
-        max-width: 30ch;
+        max-width: min(96vw, 1200px);
         margin-left: auto;
         margin-right: auto;
     }
@@ -1773,6 +1773,12 @@
         font-family: var(--mono);
         font-size: var(--size-mono);
         font-style: italic;
+    }
+
+    @media (max-width: 640px) {
+        .hero-headline {
+            max-width: 100%;
+        }
     }
 
     /* ── Responsive ── */
