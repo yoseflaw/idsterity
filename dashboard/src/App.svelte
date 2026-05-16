@@ -357,7 +357,7 @@
             <div class="step" data-step="0">
                 <div class="step-card">
                     <h3>Mengucap hemat itu mudah, mari kita tengok rekam jejaknya.</h3>
-                    <p>Sejak awal 2024, pemerintah telah mengumbar janji pemotongan berbagai biaya tidak yang tidak perlu. Melalui Inpres Nomor 1 Tahun 2025 tentang Efisiensi Belanja, rakyat Indonesia diberi harapan. Sayangnya, kumpulan berita berikut memberi kesan berbeda:</p>
+                    <p>Sejak awal 2024, pemerintah telah mengumbar janji pemotongan berbagai biaya yang tidak perlu. Melalui Inpres Nomor 1 Tahun 2025 tentang Efisiensi Belanja, rakyat Indonesia diberi harapan. Sayangnya, kumpulan berita berikut memberi kesan berbeda:</p>
                     <ul class="news-links">
                         <li>
                             <a
@@ -604,7 +604,7 @@
             </div>
 
             <h3 class="s4-breakdown-heading">
-                Menurut keyakinanan AI
+                Menurut keyakinan AI
             </h3>
 
             <ul class="s4-breakdown">
@@ -1012,7 +1012,7 @@
                                     {:else if wordRecords.length === 0}
                                         <tr
                                             ><td colspan="5" class="s9-empty"
-                                                >Tidak ada kata ditemukan.</td
+                                                >Tidak ada paket ditemukan.</td
                                             ></tr
                                         >
                                     {:else}
@@ -1022,7 +1022,7 @@
                                                 <td>{r.satker}</td>
                                                 <td class="s9-td-pagu"
                                                     >{fmtPaguShort(
-                                                        r.pagu,
+                                                        r.pagu
                                                     )}</td
                                                 >
                                                 <td>{r.paket}</td>
