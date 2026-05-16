@@ -154,7 +154,41 @@ OUT_DIR.mkdir(parents=True, exist_ok=True)
 (OUT_DIR / "lembaga-totals.json").write_text(json.dumps(lembaga_totals, ensure_ascii=False, indent=2))
 (OUT_DIR / "summary-stats.json").write_text(json.dumps(summary, ensure_ascii=False, indent=2))
 
-print(f"lembaga-totals.json → {len(lembaga_totals)} records")
+# Parallel ranking by flagged pagu (highPagu + absurdPagu) for the S8 reverse
+# podium — surfaces waste-heavy lembaga rather than big-budget ones.
+ranked_flagged = sorted(
+    totals.keys(),
+    key=lambda n: high_pagu.get(n, 0) + absurd_pagu.get(n, 0),
+    reverse=True,
+)[:TOP_N]
+
+lembaga_flagged_totals = [
+    {
+        "rank":         i + 1,
+        "name":         name,
+        "total":        totals[name],
+        "count":        counts[name],
+        "ownerType":    owner_types.get(name, "unknown"),
+        "flaggedCount": flagged_count.get(name, 0),
+        "flaggedPagu":  flagged_pagu.get(name, 0),
+        "highCount":    high_count.get(name, 0),
+        "medCount":     med_count.get(name, 0),
+        "absurdCount":  absurd_count.get(name, 0),
+        "highPagu":     high_pagu.get(name, 0),
+        "medPagu":      med_pagu.get(name, 0),
+        "absurdPagu":   absurd_pagu.get(name, 0),
+        "lowPagu":      low_pagu.get(name, 0),
+        "jenisCounts":  dict(jenis_counts[name]),
+        "metodeCounts": dict(metode_counts[name]),
+        "paguByMonth":  dict(pagu_by_month[name]),
+    }
+    for i, name in enumerate(ranked_flagged)
+]
+
+(OUT_DIR / "lembaga-flagged-totals.json").write_text(json.dumps(lembaga_flagged_totals, ensure_ascii=False, indent=2))
+
+print(f"lembaga-totals.json         → {len(lembaga_totals)} records")
+print(f"lembaga-flagged-totals.json → {len(lembaga_flagged_totals)} records")
 print(f"summary-stats.json  → {summary}")
 
 # ── Per-word record bucketing (SEC-09 data layer) ────────────────────────────
