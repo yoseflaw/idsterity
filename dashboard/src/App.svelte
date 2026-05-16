@@ -107,7 +107,10 @@
                 import.meta.env.BASE_URL +
                     `data/word-${word}-${wordFilter}.json`,
             );
-            if (selectedWord !== requestedWord || wordFilter !== requestedFilter)
+            if (
+                selectedWord !== requestedWord ||
+                wordFilter !== requestedFilter
+            )
                 return;
             wordCache.set(cacheKey, data);
             selectedRecords = data;
@@ -208,7 +211,9 @@
                     if (i === 0 && !selectedWord && visibleWords.length > 0) {
                         // Preload top word's records for inline desktop cards
                         // (do not auto-open modal — selectWord opens modal only on narrow viewports)
-                        selectWord(visibleWords[0].word ?? visibleWords[0].text);
+                        selectWord(
+                            visibleWords[0].word ?? visibleWords[0].text,
+                        );
                     }
                 }),
             ];
@@ -364,7 +369,6 @@
             cancelAnimationFrame(rafId);
         };
     }
-
 </script>
 
 <div class="site">
@@ -386,15 +390,26 @@
         <div class="sticky-col" class:chart--dimmed={s1ChartDimmed}>
             <div class="eyebrow">Bagian 1: Pada awalnya adalah instruksi</div>
             <h2 class="s1-display">
-                Pemerintah berjanji efisiensi,<br /><em>seperti apa kenyataannya?</em>
+                Pemerintah berjanji efisiensi,<br /><em
+                    >seperti apa kenyataannya?</em
+                >
             </h2>
         </div>
 
         <div class="steps-col">
             <div class="step" data-step="0">
                 <div class="step-card">
-                    <h3>Mengucap hemat itu mudah, mari kita tengok rekam jejaknya.</h3>
-                    <p>Sejak awal 2024, pemerintah telah mengumbar janji pemotongan berbagai biaya yang tidak perlu. Melalui Inpres Nomor 1 Tahun 2025 tentang Efisiensi Belanja, rakyat Indonesia diberi harapan. Sayangnya, kumpulan berita berikut memberi kesan berbeda:</p>
+                    <h3>
+                        Mengucap hemat memang mudah, mari kita tengok rekam
+                        jejaknya.
+                    </h3>
+                    <p>
+                        Sejak awal 2024, pemerintah telah mengumbar janji
+                        pemotongan berbagai biaya yang tidak perlu. Melalui
+                        Inpres Nomor 1 Tahun 2025 tentang Efisiensi Belanja,
+                        rakyat Indonesia diberi harapan. Sayangnya, kumpulan
+                        berita berikut memberi kesan berbeda:
+                    </p>
                     <ul class="news-links">
                         <li>
                             <a
@@ -403,7 +418,8 @@
                                 rel="noopener noreferrer"
                                 class="news-link"
                             >
-                                Yang terekam dari 95 hari kunjungan Prabowo ke luar negeri
+                                Yang terekam dari 95 hari kunjungan Prabowo ke
+                                luar negeri
                             </a>
                         </li>
                         <li>
@@ -413,7 +429,8 @@
                                 rel="noopener noreferrer"
                                 class="news-link"
                             >
-                                Mahasiswa Bali Geruduk DPRD, Tolak Pemotongan Anggaran Pendidikan
+                                Mahasiswa Bali Geruduk DPRD, Tolak Pemotongan
+                                Anggaran Pendidikan
                             </a>
                         </li>
                         <li>
@@ -423,7 +440,8 @@
                                 rel="noopener noreferrer"
                                 class="news-link"
                             >
-                                Efisiensi Anggaran Ganggu Pelayanan Publik, Pendidikan Hingga Infrastruktur Dasar
+                                Efisiensi Anggaran Ganggu Pelayanan Publik,
+                                Pendidikan Hingga Infrastruktur Dasar
                             </a>
                         </li>
                         <li>
@@ -433,7 +451,8 @@
                                 rel="noopener noreferrer"
                                 class="news-link"
                             >
-                                Saat Nyawa Rakyat Tergilas Efisiensi Anggaran Negara
+                                Saat Nyawa Rakyat Tergilas Efisiensi Anggaran
+                                Negara
                             </a>
                         </li>
                         <li>
@@ -443,11 +462,14 @@
                                 rel="noopener noreferrer"
                                 class="news-link"
                             >
-                                Penghematan Anggaran Kementerian dan Lembaga untuk Program Prioritas Prabowo
+                                Penghematan Anggaran Kementerian dan Lembaga
+                                untuk Program Prioritas Prabowo
                             </a>
                         </li>
                     </ul>
-                    <p class="s1-disclaimer">Tautan menuju kanal berita terkait.</p>
+                    <p class="s1-disclaimer">
+                        Tautan menuju kanal berita terkait.
+                    </p>
                 </div>
             </div>
         </div>
@@ -457,10 +479,7 @@
     <section class="scrolly" data-section="s2" id="s2">
         <div class="sticky-col" class:chart--dimmed={s2ChartDimmed}>
             <div class="eyebrow">Bagian 2: APBN KITA, bukan APBN SAYA</div>
-            <DeficitChart
-                data={constants?.apbn?.deficit}
-                step={activeStepS2}
-            />
+            <DeficitChart data={constants?.apbn?.deficit} step={activeStepS2} />
             <div class="step-indicator" aria-hidden="true">
                 {#each [0, 1, 2] as s}
                     <div class="pip" class:active={activeStepS2 === s}></div>
@@ -473,14 +492,19 @@
                 <div class="step-card">
                     <span class="step-num">1 / 3</span>
                     <h3>2024: Rp 507,8 T</h3>
-                    <p>Pada tahun 2024, defisit APBN mencapai Rp 507,8 triliun (2,29% dari PDB), bagaimana jadinya setelah gembar-gembor efisiensi?</p>
+                    <p>
+                        Pada tahun 2024, defisit APBN mencapai Rp 507,8 triliun
+                        (2,29% dari PDB), bagaimana jadinya setelah
+                        gembar-gembor efisiensi?
+                    </p>
                     <a
                         class="source-link"
                         href={constants?.sources?.find(
                             (s) => s.field === "apbn.deficit.oct2024",
                         )?.url ?? "#"}
                         target="_blank"
-                        rel="noopener noreferrer">Sumber: Kementerian Keuangan RI</a
+                        rel="noopener noreferrer"
+                        >Sumber: Kementerian Keuangan RI</a
                     >
                 </div>
             </div>
@@ -489,14 +513,19 @@
                 <div class="step-card">
                     <span class="step-num">2 / 3</span>
                     <h3>2025: Rp 695,1 T</h3>
-                    <p>Realisasi APBN 2025: defisit justru melebar ke Rp 695,1 triliun (2,92% dari PDB). Angan-angan penghematan mulai tertiup angin.</p>
+                    <p>
+                        Realisasi APBN 2025: defisit justru melebar ke Rp 695,1
+                        triliun (2,92% dari PDB). Angan-angan penghematan mulai
+                        tertiup angin.
+                    </p>
                     <a
                         class="source-link"
                         href={constants?.sources?.find(
                             (s) => s.field === "apbn.deficit.fy2025",
                         )?.url ?? "#"}
                         target="_blank"
-                        rel="noopener noreferrer">Sumber: Kementerian Keuangan RI</a
+                        rel="noopener noreferrer"
+                        >Sumber: Kementerian Keuangan RI</a
                     >
                 </div>
             </div>
@@ -505,14 +534,18 @@
                 <div class="step-card">
                     <span class="step-num">3 / 3</span>
                     <h3>Q1 2026: Rp 240 T</h3>
-                    <p>Baru tiga bulan 2026, defisit sudah mencapai Rp 240 triliun. Belanja apa aja sih?</p>
+                    <p>
+                        Baru tiga bulan 2026, defisit sudah mencapai Rp 240
+                        triliun. Belanja apa aja sih?
+                    </p>
                     <a
                         class="source-link"
                         href={constants?.sources?.find(
                             (s) => s.field === "apbn.deficit.q1_2026",
                         )?.url ?? "#"}
                         target="_blank"
-                        rel="noopener noreferrer">Sumber: Kementerian Keuangan RI</a
+                        rel="noopener noreferrer"
+                        >Sumber: Kementerian Keuangan RI</a
                     >
                 </div>
             </div>
@@ -539,7 +572,10 @@
                 <div class="step-card">
                     <span class="step-num">1 / 4</span>
                     <h3>Q1 2025: −1,38%</h3>
-                    <p>Awal 2025, konsumsi pemerintah memang menyusut 1,38% YoY. Ini namanya fase bulan madu.</p>
+                    <p>
+                        Awal 2025, konsumsi pemerintah memang menyusut 1,38%
+                        YoY. Ini namanya fase bulan madu.
+                    </p>
                     <a
                         class="source-link"
                         href={constants?.sources?.find(
@@ -556,7 +592,10 @@
                 <div class="step-card">
                     <span class="step-num">2 / 4</span>
                     <h3>Q2 2025: +21,05%</h3>
-                    <p>Satu kuartal kemudian, konsumsi pemerintah melonjak drastis 21,05% YoY.</p>
+                    <p>
+                        Satu kuartal kemudian, konsumsi pemerintah melonjak
+                        drastis 21,05% YoY.
+                    </p>
                     <a
                         class="source-link"
                         href={constants?.sources?.find(
@@ -573,7 +612,10 @@
                 <div class="step-card">
                     <span class="step-num">3 / 4</span>
                     <h3>Q3–Q4 2025</h3>
-                    <p>Lanjut lagi Q3 2025: +5,08%. Q4 2025: +4,41%. Secara konsistensi memang patut diapresiasi.</p>
+                    <p>
+                        Lanjut lagi Q3 2025: +5,08%. Q4 2025: +4,41%. Secara
+                        konsistensi memang patut diapresiasi.
+                    </p>
                     <a
                         class="source-link"
                         href={constants?.sources?.find(
@@ -590,7 +632,11 @@
                 <div class="step-card">
                     <span class="step-num">4 / 4</span>
                     <h3>Q1 2026: +21,81%</h3>
-                    <p>Awal 2026, konsumsi pemerintah tumbuh 21,81% YoY. Pemerintah berjanji efisiensi, perlu cek kamus sepertinya definisi kata ini sudah diganti.</p>
+                    <p>
+                        Awal 2026, konsumsi pemerintah tumbuh 21,81% YoY.
+                        Pemerintah berjanji efisiensi, perlu cek kamus
+                        sepertinya definisi kata ini sudah diganti.
+                    </p>
                     <a
                         class="source-link"
                         href={constants?.sources?.find(
@@ -617,9 +663,7 @@
                         <div class="s4-stat-number">
                             Rp {fmtT(stats.totalPagu)} T
                         </div>
-                        <div class="s4-stat-label">
-                            Total pagu pengadaan
-                        </div>
+                        <div class="s4-stat-label">Total pagu pengadaan</div>
                     {:else}
                         <div class="s4-stat-number loading-pulse">--</div>
                         <div class="s4-stat-label">memuat...</div>
@@ -630,9 +674,7 @@
                         <div class="s4-stat-number">
                             {fmtNum(stats.totalRecords)}
                         </div>
-                        <div class="s4-stat-label">
-                            Paket pengadaan
-                        </div>
+                        <div class="s4-stat-label">Paket pengadaan</div>
                     {:else}
                         <div class="s4-stat-number loading-pulse">--</div>
                         <div class="s4-stat-label">memuat...</div>
@@ -640,13 +682,12 @@
                 </div>
             </div>
 
-            <h3 class="s4-breakdown-heading">
-                Menurut keyakinan AI
-            </h3>
+            <h3 class="s4-breakdown-heading">Menurut keyakinan AI</h3>
 
             <ul class="s4-breakdown">
                 <li class="s4-row">
-                    <span class="s4-dot" style="background: var(--absurd)"></span>
+                    <span class="s4-dot" style="background: var(--absurd)"
+                    ></span>
                     <span class="s4-row-label">Absurd</span>
                     <span class="s4-row-count">
                         {#if stats}
@@ -702,7 +743,10 @@
                 </li>
             </ul>
 
-            <p class="s4-disclaimer">Label dihasilkan oleh model AI yang sangat amat mungkin salah. Bukan referensi hukum.</p>
+            <p class="s4-disclaimer">
+                Label dihasilkan oleh model AI yang sangat amat mungkin salah.
+                Bukan referensi hukum.
+            </p>
         </div>
     </section>
 
@@ -710,7 +754,9 @@
     <section class="scrolly" data-section="s5" id="s5">
         <div class="sticky-col" class:chart--dimmed={s5ChartDimmed}>
             <div class="eyebrow">Bagian 5: Sang Juara</div>
-            <h2 class="s5-sticky-heading">5 lembaga dengan anggaran terbesar</h2>
+            <h2 class="s5-sticky-heading">
+                5 lembaga dengan anggaran terbesar
+            </h2>
             <Podium data={lembaga.slice(0, 5)} />
             <div class="step-indicator" aria-hidden="true">
                 {#each [0, 1, 2] as s}
@@ -724,7 +770,10 @@
                 <div class="step-card">
                     <span class="step-num">1 / 3</span>
                     <h3>Siapa yang belanja paling besar?</h3>
-                    <p>Lima lembaga pemerintah dengan anggaran pengadaan terbesar tahun 2026.</p>
+                    <p>
+                        Lima lembaga pemerintah dengan anggaran pengadaan
+                        terbesar tahun 2026.
+                    </p>
                 </div>
             </div>
 
@@ -732,7 +781,10 @@
                 <div class="step-card">
                     <span class="step-num">2 / 3</span>
                     <h3>Komposisi label AI</h3>
-                    <p>Warna menunjukkan hasil penilaian AI. Semakin merah, semakin banyak pertanyaan.</p>
+                    <p>
+                        Warna menunjukkan hasil penilaian AI. Semakin merah,
+                        semakin banyak pertanyaan.
+                    </p>
                 </div>
             </div>
 
@@ -740,7 +792,10 @@
                 <div class="step-card">
                     <span class="step-num">3 / 3</span>
                     <h3>Siapa yang paling penuh tanda tanya?</h3>
-                    <p>Jika kita urutkan ulang hanya berdasarkan pagu yang dinilai bermasalah, siapa yang menonjol?</p>
+                    <p>
+                        Jika kita urutkan ulang hanya berdasarkan pagu yang
+                        dinilai bermasalah, siapa yang menonjol?
+                    </p>
                     <span class="s6-transition-label" aria-live="polite">
                         {activeStepS5 >= 2 ? "Mengurutkan ulang…" : ""}
                     </span>
@@ -753,8 +808,13 @@
     <section class="scrolly" data-section="s6" id="s6">
         <div class="sticky-col" class:chart--dimmed={s6ChartDimmed}>
             <div class="eyebrow">Bagian 6: Sang Juara Bermasalah</div>
-            <h2 class="s6-sticky-heading">Tapi siapa yang paling banyak ditandai bermasalah?</h2>
-            <ReversePodium data={lembagaFlagged.slice(0, 5)} progress={s6Progress} />
+            <h2 class="s6-sticky-heading">
+                Tapi siapa yang paling banyak ditandai bermasalah?
+            </h2>
+            <ReversePodium
+                data={lembagaFlagged.slice(0, 5)}
+                progress={s6Progress}
+            />
             <div class="step-indicator" aria-hidden="true">
                 {#each [0, 1, 2] as s}
                     <div class="pip" class:active={activeStepS6 === s}></div>
@@ -767,7 +827,11 @@
                 <div class="step-card">
                     <span class="step-num">1 / 3</span>
                     <h3>Urutkan ulang berdasarkan pagu bermasalah</h3>
-                    <p>Sekarang kita beralih dari "siapa belanja paling besar" ke "siapa yang paling banyak ditandai bermasalah". Top 5 berubah.</p>
+                    <p>
+                        Sekarang kita beralih dari "siapa belanja paling besar"
+                        ke "siapa yang paling banyak ditandai bermasalah". Top 5
+                        berubah.
+                    </p>
                 </div>
             </div>
 
@@ -775,7 +839,10 @@
                 <div class="step-card">
                     <span class="step-num">2 / 3</span>
                     <h3>Podium berbalik arah</h3>
-                    <p>Bukan lagi panggung kemenangan. Blok-blok mulai jatuh ke bawah, warna emas memudar menjadi merah.</p>
+                    <p>
+                        Bukan lagi panggung kemenangan. Blok-blok mulai jatuh ke
+                        bawah, warna emas memudar menjadi merah.
+                    </p>
                 </div>
             </div>
 
@@ -783,7 +850,11 @@
                 <div class="step-card">
                     <span class="step-num">3 / 3</span>
                     <h3>Lubang merah di tengah</h3>
-                    <p>Juara 1 tenggelam paling dalam — lembaga dengan jumlah pagu bermasalah terbesar. Bukan prestasi yang patut dibanggakan.</p>
+                    <p>
+                        Juara 1 tenggelam paling dalam — lembaga dengan jumlah
+                        pagu bermasalah terbesar. Bukan prestasi yang patut
+                        dibanggakan.
+                    </p>
                 </div>
             </div>
         </div>
@@ -817,9 +888,7 @@
                                 >—</span
                             >
                         {/if}
-                        <span class="s7-anchor-label"
-                            >gelas kopi jago</span
-                        >
+                        <span class="s7-anchor-label">gelas kopi jago</span>
                         <span class="s7-anchor-citation"
                             >Harga satuan: Rp {fmtNum(
                                 constants?.anchors?.kopi?.price ?? 0,
@@ -837,9 +906,7 @@
                                 >—</span
                             >
                         {/if}
-                        <span class="s7-anchor-label"
-                            >mangkok seblak</span
-                        >
+                        <span class="s7-anchor-label">mangkok seblak</span>
                         <span class="s7-anchor-citation"
                             >Harga satuan: Rp {fmtNum(
                                 constants?.anchors?.seblak?.price ?? 0,
@@ -876,9 +943,7 @@
                                 >—</span
                             >
                         {/if}
-                        <span class="s7-anchor-label"
-                            >puskesmas baru</span
-                        >
+                        <span class="s7-anchor-label">puskesmas baru</span>
                         <span class="s7-anchor-citation"
                             >Harga satuan: Rp {fmtNum(
                                 constants?.anchors?.puskesmas?.price ?? 0,
@@ -901,7 +966,10 @@
                 <div class="step-card">
                     <span class="step-num">1 / 2</span>
                     <h3>Mari berandai...</h3>
-                    <p>Rp 10,7 triliun total anggaran yang dinilai AI bermasalah. Pasti susah bayanginnya, bisa untuk beli...</p>
+                    <p>
+                        Rp 10,7 triliun total anggaran yang dinilai AI
+                        bermasalah. Pasti susah bayanginnya, bisa untuk beli...
+                    </p>
                     <a
                         class="source-link"
                         href={constants?.anchors?.kopi?.source ?? "#"}
@@ -925,7 +993,10 @@
                 <div class="step-card">
                     <span class="step-num">2 / 2</span>
                     <h3>Atau, bangun ini...</h3>
-                    <p>Dana yang sama bisa membangun ribuan sekolah dasar baru, atau lebih dari seribu puskesmas.</p>
+                    <p>
+                        Dana yang sama bisa membangun ribuan sekolah dasar baru,
+                        atau lebih dari seribu puskesmas.
+                    </p>
                     <a
                         class="source-link"
                         href={constants?.anchors?.sd?.source ?? "#"}
@@ -950,13 +1021,11 @@
     <!-- ━━━ S8 WORD CLOUD ━━━ -->
     <section class="word-cloud-section" data-section="s8" id="s8">
         <div class="eyebrow">Bagian 7: Beli apa sih?</div>
-        <h2 class="s8-sticky-heading">Pengadaan apa yang paling sering bermasalah?</h2>
+        <h2 class="s8-sticky-heading">
+            Pengadaan apa yang paling sering bermasalah?
+        </h2>
 
-        <div
-            class="filter-row"
-            role="tablist"
-            aria-label="Filter pemerintah"
-        >
+        <div class="filter-row" role="tablist" aria-label="Filter pemerintah">
             {#each [["all", "Semua"], ["central", "Pemerintah Pusat"], ["district", "Pemerintah Daerah"]] as [val, label]}
                 <button
                     type="button"
@@ -964,8 +1033,7 @@
                     class:active={wordFilter === val}
                     onclick={() => setWordFilter(val)}
                     role="tab"
-                    aria-selected={wordFilter === val}
-                    >{label}</button
+                    aria-selected={wordFilter === val}>{label}</button
                 >
             {/each}
         </div>
@@ -987,7 +1055,10 @@
                         type="button"
                         class="chip"
                         class:selected={selectedWord === wordKey}
-                        style="font-size: {chipSize(idx, visibleWords.length)}rem;"
+                        style="font-size: {chipSize(
+                            idx,
+                            visibleWords.length,
+                        )}rem;"
                         onclick={() => selectWord(wordKey)}
                         aria-pressed={selectedWord === wordKey}
                         >{wordKey}</button
@@ -1002,7 +1073,9 @@
                     Paket dengan kata <em>"{selectedWord}"</em>
                 </h3>
                 {#if wordRecordsLoading}
-                    <p class="desktop-cards-status loading-pulse">memuat paket…</p>
+                    <p class="desktop-cards-status loading-pulse">
+                        memuat paket…
+                    </p>
                 {:else if wordRecordsError}
                     <p class="desktop-cards-status error">{wordRecordsError}</p>
                 {:else}
@@ -1129,7 +1202,6 @@
         font-style: italic;
         color: var(--gold);
     }
-
 
     .loading-pulse {
         animation: pulse 1.8s ease-in-out infinite;
@@ -1748,12 +1820,20 @@
     }
 
     @media (max-width: 720px) {
-        .desktop-cards { display: none; }
-        .chip-grid { grid-template-columns: repeat(2, 1fr); }
-        .word-cloud-section { padding: var(--space-2xl) var(--space-md); }
+        .desktop-cards {
+            display: none;
+        }
+        .chip-grid {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .word-cloud-section {
+            padding: var(--space-2xl) var(--space-md);
+        }
     }
 
     @media (min-width: 1024px) {
-        .chip-grid { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
+        .chip-grid {
+            grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+        }
     }
 </style>

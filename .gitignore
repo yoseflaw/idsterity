@@ -24,3 +24,11 @@ Thumbs.db
 .idea/
 *.swp
 *.swo
+
+# Screenshots — all Playwright captures go to screenshots/
+.playwright*/
+screenshots/
+feedbacks/
+
+# Superpowers session artifacts
+.superpowers/
