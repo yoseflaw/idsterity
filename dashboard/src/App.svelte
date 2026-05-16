@@ -709,13 +709,10 @@
                     <span class="s4-dot" style="background: var(--absurd)"
                     ></span>
                     <span class="s4-row-label">Absurd</span>
-                    <span class="s4-row-count">
-                        {#if stats}
-                            {fmtCount(stats.labelCounts.absurd ?? 0)}
-                        {:else}
-                            <span class="loading-pulse">--</span>
-                        {/if}
-                    </span>
+                    <span class="s4-row-count"
+                        >{stats ? fmtNum(stats.labelCounts.absurd ?? 0) : "--"}
+                        paket</span
+                    >
                     <span class="s4-row-pagu">
                         {#if stats}
                             {fmtPaguShort(stats.labelPagu.absurd ?? 0)}
