@@ -681,7 +681,7 @@
                 <div class="s4-stat-cell">
                     {#if stats}
                         <div class="s4-stat-number">
-                            Rp {fmtT(stats.totalPagu)} T
+                            Rp 642T
                         </div>
                         <div class="s4-stat-label">Total pagu pengadaan</div>
                     {:else}
@@ -692,7 +692,7 @@
                 <div class="s4-stat-cell">
                     {#if stats}
                         <div class="s4-stat-number">
-                            {fmtNum(stats.totalRecords)}
+                            3.000.000
                         </div>
                         <div class="s4-stat-label">Paket pengadaan</div>
                     {:else}
