@@ -377,9 +377,9 @@
         <div class="grain"></div>
         <div class="hero-inner">
             <div class="eyebrow">idsterity · Pengadaan yang Mengada-ada</div>
-            <h1>
-                Berhemat itu berat,<br />
-                <em>biar kamu saja.</em>
+            <h1 class="hero-headline">
+                <span class="title-main">Berhemat itu berat,</span><br />
+                <span class="title-accent">biar kamu saja.</span>
             </h1>
             <a class="scroll-cue" href="#s1">gulir untuk membedah ↓</a>
         </div>
@@ -730,7 +730,7 @@
                 <li class="s4-row">
                     <span
                         class="s4-dot"
-                        style="background: rgba(237,232,220,0.3)"
+                        style="background: var(--viz-neutral)"
                     ></span>
                     <span class="s4-row-label">Wajar</span>
                     <span class="s4-row-count"
@@ -1105,39 +1105,45 @@
 <style>
     /* ── Variables ── */
     :global(:root) {
+        /* ── Legacy alias shims ──────────────────────────────────────
+           Map the old dark-theme variables to new light-mode tokens so
+           any component not yet migrated keeps rendering correctly.
+           Task 5 will remove these shims once chart components are done.
+           ─────────────────────────────────────────────────────────── */
+
         /* Surfaces */
-        --bg: #0e0d0c;
-        --bg-alt: #141210;
-        --bg-card: #1a1714;
+        --bg:       var(--bg-base);
+        --bg-alt:   var(--bg-sunken);
+        --bg-card:  var(--bg-card);   /* token already defined in idsterity-tokens.css */
 
         /* Text */
-        --text: #ede8dc;
-        --muted: #6a6055;
+        --text:     var(--ink-1);
+        --muted:    var(--ink-3);
 
         /* Accent */
-        --gold: #c9a84c;
+        --gold:     var(--accent-soft);
 
-        /* Data signals */
-        --red: #c44242;
-        --absurd: #7a0000;
-        --amber: #c4823a;
-        --central: #5b8ed4;
+        /* Data signals — keep as concrete values; chart components own these */
+        --red:      var(--viz-red);
+        --absurd:   var(--viz-red-dark);
+        --amber:    var(--accent-soft);
+        --central:  #5b8ed4;
         --provinsi: #5ba882;
-        --kabkota: #c4a04a;
-        --clean: #3a6b52;
+        --kabkota:  #c4a04a;
+        --clean:    #3a6b52;
 
         /* Structure */
-        --border: rgba(237, 232, 220, 0.08);
+        --border:   var(--rule-soft);
 
-        /* Spacing */
-        --space-xs: 4px;
-        --space-sm: 8px;
-        --space-md: 16px;
-        --space-lg: 24px;
-        --space-xl: 32px;
-        --space-2xl: 48px;
-        --space-3xl: 64px;
-        --space-page: 96px;
+        /* Spacing — keep legacy names in sync with token scale */
+        --space-xs:   var(--space-1);
+        --space-sm:   var(--space-2);
+        --space-md:   var(--space-4);
+        --space-lg:   var(--space-5);
+        --space-xl:   var(--space-6);
+        --space-2xl:  var(--space-7);
+        --space-3xl:  var(--space-8);
+        --space-page: var(--space-9);
     }
 
     /* ── Layout ── */
@@ -1154,7 +1160,7 @@
         justify-content: center;
         position: relative;
         overflow: hidden;
-        border-bottom: 1px solid var(--border);
+        border-bottom: 1px solid var(--rule);
     }
 
     .grain {
@@ -1175,22 +1181,21 @@
     }
 
     .eyebrow {
-        font-family: "JetBrains Mono", "Courier New", monospace;
-        font-size: 0.7rem;
-        letter-spacing: 0.2em;
+        font-family: var(--sans);
+        font-size: var(--size-meta);
+        font-weight: 500;
+        letter-spacing: var(--tracking-meta);
         text-transform: uppercase;
-        color: var(--gold);
+        color: var(--accent-soft);
         margin-bottom: 2.5rem;
-        opacity: 0.85;
     }
 
-    .hero h1 {
-        font-family: "Libre Baskerville", Georgia, "Times New Roman", serif;
+    .hero-headline {
+        font-family: var(--serif);
         font-size: clamp(1.7rem, 6vw, 5.5rem);
         font-weight: 700;
-        line-height: 1.08;
-        letter-spacing: -0.02em;
-        color: var(--text);
+        line-height: var(--lh-tight);
+        letter-spacing: var(--tracking-display);
         margin-bottom: 3rem;
         text-wrap: balance;
         max-width: 30ch;
@@ -1198,9 +1203,14 @@
         margin-right: auto;
     }
 
-    .hero h1 em {
+    .title-main {
+        color: var(--ink-1);
         font-style: italic;
-        color: var(--gold);
+    }
+
+    .title-accent {
+        color: var(--accent);
+        font-style: italic;
     }
 
     .loading-pulse {
@@ -1218,16 +1228,16 @@
 
     .scroll-cue {
         display: inline-block;
-        font-family: "JetBrains Mono", "Courier New", monospace;
-        font-size: 0.7rem;
-        letter-spacing: 0.15em;
-        color: var(--muted);
+        font-family: var(--mono);
+        font-size: var(--size-meta);
+        letter-spacing: var(--tracking-meta);
+        color: var(--ink-3);
         text-decoration: none;
         animation: bob 2.2s ease-in-out infinite;
         transition: color 0.2s;
     }
     .scroll-cue:hover {
-        color: var(--gold);
+        color: var(--accent-soft);
     }
     @keyframes bob {
         0%,
@@ -1243,7 +1253,7 @@
     .scrolly {
         display: flex;
         align-items: flex-start;
-        border-bottom: 1px solid var(--border);
+        border-bottom: 1px solid var(--rule);
         position: relative;
     }
 
@@ -1258,9 +1268,9 @@
         align-items: flex-start;
         justify-content: center;
         padding: 2rem 2.5rem;
-        border-right: 1px solid var(--border);
+        border-right: 1px solid var(--rule);
         z-index: 2;
-        background: var(--bg);
+        background: var(--bg-base);
     }
 
     .step-indicator {
@@ -1273,14 +1283,14 @@
         width: 20px;
         height: 3px;
         border-radius: 2px;
-        background: var(--border);
+        background: var(--rule);
         transition:
             background 0.4s ease,
             width 0.4s ease;
     }
 
     .pip.active {
-        background: var(--gold);
+        background: var(--accent-soft);
         width: 32px;
     }
 
@@ -1298,36 +1308,36 @@
     }
 
     .step-card {
-        background: var(--bg-card);
-        border: 1px solid var(--border);
-        border-radius: 4px;
-        padding: 2rem 1.75rem;
+        background: var(--bg-sunken);
+        border: 1px solid var(--rule);
+        border-radius: var(--radius-card);
+        padding: var(--space-6) var(--space-5);
         max-width: 380px;
     }
 
     .step-card h3 {
-        font-family: "Libre Baskerville", Georgia, serif;
-        font-size: 1.45rem;
+        font-family: var(--serif);
+        font-size: var(--size-h3);
         font-weight: 700;
-        line-height: 1.2;
-        color: var(--text);
+        line-height: var(--lh-heading);
+        color: var(--ink-1);
         margin: 0 0 var(--space-md) 0;
     }
 
     .step-num {
-        font-family: "JetBrains Mono", "Courier New", monospace;
-        font-size: 0.65rem;
-        letter-spacing: 0.15em;
-        color: var(--gold);
+        font-family: var(--mono);
+        font-size: var(--size-meta);
+        letter-spacing: var(--tracking-meta);
+        color: var(--accent-soft);
         display: block;
         margin-bottom: 0.9rem;
-        opacity: 0.8;
     }
 
     .step-card p {
-        font-size: 0.95rem;
-        line-height: 1.72;
-        color: var(--muted);
+        font-family: var(--serif);
+        font-size: var(--size-body);
+        line-height: var(--lh-body);
+        color: var(--ink-2);
     }
 
     /* inline marks — keep for Phase 2 */
@@ -1354,12 +1364,12 @@
 
     /* ── S1 Hook ── */
     .s1-display {
-        font-family: "Libre Baskerville", Georgia, serif;
+        font-family: var(--serif);
         font-size: clamp(1.2rem, 6vw, 5.5rem);
         font-weight: 700;
-        line-height: 1.08;
-        letter-spacing: -0.02em;
-        color: var(--text);
+        line-height: var(--lh-tight);
+        letter-spacing: var(--tracking-display);
+        color: var(--ink-1);
         margin: 0;
         text-align: left;
         text-wrap: balance;
@@ -1368,7 +1378,7 @@
 
     .s1-display em {
         font-style: italic;
-        color: var(--gold);
+        color: var(--accent);
     }
 
     .news-links {
@@ -1385,21 +1395,22 @@
         display: inline-block;
         min-height: 44px;
         padding: var(--space-sm) 0;
-        color: var(--text);
+        color: var(--ink-2);
         text-decoration: underline;
-        text-decoration-color: var(--border);
+        text-decoration-color: var(--rule);
         text-underline-offset: 3px;
         transition: text-decoration-color 0.15s ease;
     }
 
     .news-link:hover {
-        text-decoration-color: var(--gold);
+        text-decoration-color: var(--accent-soft);
     }
 
     .s1-disclaimer {
-        font-family: "JetBrains Mono", monospace;
-        font-size: 0.7rem;
-        color: var(--muted);
+        font-family: var(--mono);
+        font-size: var(--size-mono);
+        font-style: italic;
+        color: var(--ink-muted);
         margin-top: var(--space-lg);
     }
 
@@ -1408,18 +1419,18 @@
 
     /* -- S4 Dataset -- */
     .s4 {
-        background: var(--bg-alt);
+        background: var(--bg-sunken);
         padding: var(--space-page) var(--space-xl);
-        border-bottom: 1px solid var(--border);
+        border-bottom: 1px solid var(--rule);
     }
 
     /* -- S5+S6 Institutions -- */
     .s6-transition-label {
         display: inline-block;
         margin-top: var(--space-sm);
-        font-family: "JetBrains Mono", monospace;
-        font-size: 0.65rem;
-        color: var(--muted);
+        font-family: var(--mono);
+        font-size: var(--size-mono);
+        color: var(--ink-3);
         font-style: italic;
     }
     .s4-inner {
@@ -1427,11 +1438,11 @@
         margin: 0 auto;
     }
     .s4-heading {
-        font-family: "Libre Baskerville", Georgia, serif;
+        font-family: var(--serif);
         font-size: clamp(1.8rem, 4vw, 2.6rem);
         font-weight: 700;
-        line-height: 1.2;
-        color: var(--text);
+        line-height: var(--lh-snug);
+        color: var(--ink-1);
         margin: 0 0 var(--space-2xl) 0;
         letter-spacing: -0.01em;
         text-wrap: balance;
@@ -1445,30 +1456,32 @@
     }
     .s4-stat-cell {
         padding: var(--space-lg);
-        border: 1px solid var(--border);
-        border-radius: 3px;
-        background: rgba(255, 255, 255, 0.02);
+        border: 1px solid var(--rule);
+        border-radius: var(--radius-sm);
+        background: var(--bg-card);
     }
     .s4-stat-number {
-        font-family: "Libre Baskerville", Georgia, serif;
-        font-size: clamp(2.2rem, 5vw, 3.8rem);
+        font-family: var(--serif);
+        font-size: var(--size-stat);
         font-weight: 700;
-        color: var(--gold);
-        line-height: 1;
+        color: var(--viz-warm-dark);
+        line-height: var(--lh-tight);
         margin-bottom: var(--space-sm);
-        letter-spacing: -0.02em;
+        letter-spacing: var(--tracking-display);
+        font-feature-settings: 'onum';
     }
     .s4-stat-label {
-        font-size: 0.88rem;
-        color: var(--muted);
+        font-family: var(--serif);
+        font-size: var(--size-small);
+        color: var(--ink-3);
         font-style: italic;
-        line-height: 1.5;
+        line-height: var(--lh-body);
     }
     .s4-breakdown-heading {
-        font-family: "Libre Baskerville", Georgia, serif;
-        font-size: 1.45rem;
+        font-family: var(--serif);
+        font-size: var(--size-h3);
         font-weight: 700;
-        color: var(--text);
+        color: var(--ink-1);
         margin: 0 0 var(--space-md) 0;
     }
     .s4-breakdown {
@@ -1481,7 +1494,7 @@
         align-items: center;
         gap: var(--space-md);
         padding: var(--space-sm) 0;
-        border-bottom: 1px solid var(--border);
+        border-bottom: 1px solid var(--rule-soft);
     }
     .s4-row:last-child {
         border-bottom: none;
@@ -1495,35 +1508,37 @@
     }
     .s4-row-label {
         flex: 1;
-        color: var(--text);
-        font-size: 1rem;
+        font-family: var(--serif);
+        color: var(--ink-1);
+        font-size: var(--size-body);
     }
     .s4-row-count,
     .s4-row-pagu {
-        font-family: "JetBrains Mono", monospace;
-        font-size: 0.8rem;
-        color: var(--muted);
+        font-family: var(--mono);
+        font-size: var(--size-mono);
+        color: var(--ink-3);
     }
     .s4-disclaimer {
-        font-family: "JetBrains Mono", monospace;
-        font-size: 0.7rem;
-        color: var(--muted);
+        font-family: var(--mono);
+        font-size: var(--size-mono);
+        color: var(--ink-muted);
         font-style: italic;
         max-width: 520px;
         margin: var(--space-md) 0 0 0;
         padding-top: var(--space-md);
-        border-top: 1px solid var(--border);
-        line-height: 1.6;
+        border-top: 1px solid var(--rule-soft);
+        line-height: var(--lh-body);
     }
 
     .source-link {
         display: inline-block;
         margin-top: var(--space-md);
-        font-family: "JetBrains Mono", monospace;
-        font-size: 0.7rem;
-        color: var(--muted);
+        font-family: var(--mono);
+        font-size: var(--size-mono);
+        font-style: italic;
+        color: var(--ink-3);
         text-decoration: underline;
-        text-decoration-color: var(--border);
+        text-decoration-color: var(--rule-soft);
         text-underline-offset: 3px;
         min-height: 44px;
         padding: 8px 0;
@@ -1531,13 +1546,13 @@
     }
 
     .source-link:hover {
-        color: var(--text);
+        color: var(--ink-1);
     }
 
     .fetch-error {
-        font-family: "JetBrains Mono", monospace;
-        font-size: 11px;
-        color: var(--amber);
+        font-family: var(--mono);
+        font-size: var(--size-mono);
+        color: var(--accent-soft);
         padding: var(--space-md);
         text-align: center;
     }
@@ -1545,24 +1560,24 @@
     /* -- S5 Institutions / S6 Reverse Podium sticky heading -- */
     .s5-sticky-heading,
     .s6-sticky-heading {
-        font-family: "Libre Baskerville", Georgia, serif;
+        font-family: var(--serif);
         font-size: clamp(1.4rem, 3vw, 2rem);
         font-weight: 700;
-        color: var(--text);
+        color: var(--ink-1);
         margin: 0 0 var(--space-md) 0;
-        line-height: 1.2;
+        line-height: var(--lh-snug);
         text-wrap: balance;
         max-width: 22ch;
     }
 
     /* -- S7 Anchor Count-Up -- */
     .s7-sticky-heading {
-        font-family: "Libre Baskerville", Georgia, serif;
+        font-family: var(--serif);
         font-size: clamp(1.4rem, 3vw, 2rem);
         font-weight: 700;
-        color: var(--text);
+        color: var(--ink-1);
         margin: 0 0 var(--space-lg) 0;
-        line-height: 1.2;
+        line-height: var(--lh-snug);
         text-wrap: balance;
         max-width: 22ch;
     }
@@ -1570,10 +1585,10 @@
     .s7-transition-label {
         display: block;
         min-height: 1.2em;
-        font-family: "JetBrains Mono", monospace;
-        font-size: 0.7rem;
+        font-family: var(--mono);
+        font-size: var(--size-meta);
         font-style: italic;
-        color: var(--muted);
+        color: var(--ink-3);
         margin-bottom: var(--space-md);
     }
 
@@ -1591,32 +1606,34 @@
     }
 
     .s7-anchor-figure {
-        font-family: "Libre Baskerville", Georgia, serif;
-        font-size: clamp(2.2rem, 5vw, 3.8rem);
+        font-family: var(--serif);
+        font-size: var(--size-stat);
         font-weight: 700;
-        line-height: 1.08;
-        letter-spacing: -0.02em;
+        line-height: var(--lh-tight);
+        letter-spacing: var(--tracking-display);
+        font-feature-settings: 'onum';
     }
 
     .s7-anchor-figure.is-gold {
-        color: var(--gold);
+        color: var(--viz-warm-dark);
     }
     .s7-anchor-figure.is-red {
-        color: var(--red);
+        color: var(--viz-red);
     }
 
     .s7-anchor-label {
-        font-family: "Source Serif 4", Georgia, serif;
-        font-size: 0.9rem;
-        color: var(--muted);
-        line-height: 1.4;
+        font-family: var(--serif);
+        font-size: var(--size-body);
+        color: var(--ink-2);
+        line-height: var(--lh-body);
     }
 
     .s7-anchor-citation {
-        font-family: "JetBrains Mono", monospace;
-        font-size: 0.7rem;
-        color: var(--muted);
-        line-height: 1.5;
+        font-family: var(--mono);
+        font-size: var(--size-mono);
+        color: var(--ink-3);
+        font-style: italic;
+        line-height: var(--lh-body);
     }
 
     /* -- S8 Word Cloud (chip-grid layout) -- */
@@ -1624,7 +1641,7 @@
         max-width: 1100px;
         margin: 0 auto;
         padding: var(--space-3xl) var(--space-lg);
-        border-bottom: 1px solid var(--border);
+        border-bottom: 1px solid var(--rule);
     }
 
     .word-cloud-section .eyebrow {
@@ -1632,14 +1649,14 @@
     }
 
     .s8-sticky-heading {
-        font-family: "Libre Baskerville", Georgia, serif;
+        font-family: var(--serif);
         font-size: clamp(1.4rem, 4vw, 2.2rem);
         font-weight: 700;
-        color: var(--text);
+        color: var(--ink-1);
         text-wrap: balance;
         max-width: 22ch;
         margin: 0 0 1.25rem;
-        line-height: 1.2;
+        line-height: var(--lh-snug);
     }
 
     .filter-row {
@@ -1654,12 +1671,12 @@
     .filter-pill {
         flex: 0 0 auto;
         padding: 0.45rem 1rem;
-        border: 1px solid var(--border);
+        border: 1px solid var(--rule);
         background: transparent;
-        color: var(--muted);
-        border-radius: 999px;
-        font-family: "JetBrains Mono", "Courier New", monospace;
-        font-size: 0.85rem;
+        color: var(--ink-3);
+        border-radius: var(--radius-pill);
+        font-family: var(--sans);
+        font-size: var(--size-ui);
         cursor: pointer;
         white-space: nowrap;
         transition:
@@ -1668,18 +1685,18 @@
     }
 
     .filter-pill:hover {
-        color: var(--text);
+        color: var(--ink-1);
     }
 
     .filter-pill.active {
-        color: var(--gold);
-        border-color: var(--gold);
+        color: var(--accent-soft);
+        border-color: var(--accent-soft);
     }
 
     .s8-filter-error {
-        font-family: "JetBrains Mono", monospace;
-        font-size: 0.7rem;
-        color: var(--amber);
+        font-family: var(--mono);
+        font-size: var(--size-mono);
+        color: var(--accent-soft);
         padding: var(--space-sm) 0;
     }
 
@@ -1697,14 +1714,15 @@
 
     .chip {
         padding: 0.5rem 0.75rem;
-        border: 1px solid var(--border);
+        border: 1px solid var(--rule);
         background: transparent;
-        color: var(--text);
-        border-radius: 999px;
-        font-family: "JetBrains Mono", "Courier New", monospace;
+        color: var(--ink-2);
+        border-radius: var(--radius-pill);
+        font-family: var(--sans);
+        font-size: var(--size-ui);
         cursor: pointer;
         text-align: center;
-        line-height: 1.2;
+        line-height: var(--lh-snug);
         word-break: break-word;
         transition:
             color 0.12s ease,
@@ -1713,13 +1731,13 @@
     }
 
     .chip:hover {
-        border-color: var(--gold);
+        border-color: var(--accent-soft);
     }
 
     .chip.selected {
-        color: var(--bg);
-        background: var(--gold);
-        border-color: var(--gold);
+        color: var(--bg-base);
+        background: var(--accent-soft);
+        border-color: var(--accent-soft);
     }
 
     .desktop-cards {
@@ -1727,33 +1745,33 @@
     }
 
     .desktop-cards h3 {
-        font-family: "Libre Baskerville", Georgia, serif;
-        font-size: 1.15rem;
+        font-family: var(--serif);
+        font-size: var(--size-h3);
         margin: 0 0 0.75rem;
-        color: var(--text);
+        color: var(--ink-1);
     }
 
     .desktop-cards h3 em {
-        color: var(--gold);
+        color: var(--accent);
         font-style: italic;
     }
 
     .desktop-cards-status {
-        font-family: "JetBrains Mono", monospace;
-        font-size: 0.8rem;
-        color: var(--muted);
+        font-family: var(--mono);
+        font-size: var(--size-mono);
+        color: var(--ink-3);
         padding: 1rem 0;
     }
 
     .desktop-cards-status.error {
-        color: var(--amber);
+        color: var(--accent-soft);
     }
 
     .s8-empty {
         padding: var(--space-lg) 0;
-        color: var(--muted);
-        font-family: "JetBrains Mono", monospace;
-        font-size: 0.8rem;
+        color: var(--ink-3);
+        font-family: var(--mono);
+        font-size: var(--size-mono);
         font-style: italic;
     }
 
@@ -1774,12 +1792,12 @@
             height: 50dvh;
             min-height: unset;
             border-right: none;
-            border-bottom: 1px solid var(--border);
+            border-bottom: 1px solid var(--rule);
             /* Ensure no overflow on the sticky container or its content clips
          correctly; overflow:hidden is safe on the sticky element itself. */
             overflow: hidden;
             z-index: 10;
-            background: var(--bg);
+            background: var(--bg-base);
             padding: 1rem 1.5rem;
             justify-content: flex-start;
         }
