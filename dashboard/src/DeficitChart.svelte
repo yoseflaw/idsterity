@@ -31,7 +31,7 @@
   // Domain is [0, max(|value|)] in trillions so bar heights match Rp values.
   let points = $derived.by(() => {
     const rows = [
-      { key: 'oct2024', period: 'Okt 2024'  },
+      { key: 'fy2024',  period: '2024'       },
       { key: 'fy2025',  period: '2025'      },
       { key: 'q1_2026', period: 'Q1 2026' },
     ].map((p, i) => {

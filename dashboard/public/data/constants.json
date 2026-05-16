@@ -1,7 +1,7 @@
 {
   "apbn": {
     "deficit": {
-      "oct2024": -309200000000000,
+      "fy2024": -507800000000000,
       "fy2025": -695100000000000,
       "q1_2026": -240100000000000
     },
@@ -19,9 +19,9 @@
   },
   "sources": [
     {
-      "field": "apbn.deficit.oct2024",
-      "url": "https://www.kemenkeu.go.id/media/27541/apbn-kita-oktober-2024.pdf",
-      "label": "APBN KiTa Oktober 2024 — Kementerian Keuangan RI",
+      "field": "apbn.deficit.fy2024",
+      "url": "https://www.kemenkeu.go.id/informasi-publik/publikasi/berita-utama/Realisasi-APBN-2024",
+      "label": "Realisasi APBN 2024 — Kementerian Keuangan RI (defisit Rp507,8T / 2,29% PDB)",
       "accessed": "2026-05-15"
     },
     {

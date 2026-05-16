@@ -500,7 +500,7 @@
                     <a
                         class="source-link"
                         href={constants?.sources?.find(
-                            (s) => s.field === "apbn.deficit.oct2024",
+                            (s) => s.field === "apbn.deficit.fy2024",
                         )?.url ?? "#"}
                         target="_blank"
                         rel="noopener noreferrer"
