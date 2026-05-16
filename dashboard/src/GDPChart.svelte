@@ -37,11 +37,11 @@
 
   let points = $derived(
     [
-      { key: 'q1_2025', period: 'TW I 2025'   },
-      { key: 'q2_2025', period: 'TW II 2025'  },
-      { key: 'q3_2025', period: 'TW III 2025' },
-      { key: 'q4_2025', period: 'TW IV 2025'  },
-      { key: 'q1_2026', period: 'TW I 2026'   },
+      { key: 'q1_2025', period: 'Q1 2025'   },
+      { key: 'q2_2025', period: 'Q2 2025'  },
+      { key: 'q3_2025', period: 'Q3 2025' },
+      { key: 'q4_2025', period: 'Q4 2025'  },
+      { key: 'q1_2026', period: 'Q1 2026'   },
     ].map((p, i) => {
       const valueRaw  = data?.[p.key] ?? 0
       const valueAbs  = Math.abs(valueRaw)

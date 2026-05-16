@@ -31,7 +31,7 @@
     [
       { key: 'oct2024', period: 'Okt 2024'  },
       { key: 'fy2025',  period: '2025'      },
-      { key: 'q1_2026', period: 'TW I 2026' },
+      { key: 'q1_2026', period: 'Q1 2026' },
     ].map((p, i) => {
       const valueRaw  = data?.[p.key] ?? 0
       const valueTril = Math.abs(valueRaw) / 1e12
