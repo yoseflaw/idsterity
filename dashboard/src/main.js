@@ -1,3 +1,5 @@
+import './lib/styles/idsterity-tokens.css';
+
 import '@fontsource/libre-baskerville/400.css';
 import '@fontsource/libre-baskerville/700.css';
 import '@fontsource/libre-baskerville/400-italic.css';
