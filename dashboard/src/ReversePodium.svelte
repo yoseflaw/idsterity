@@ -49,13 +49,12 @@
   </div>
 
   {#if runners.length}
-    <p class="juara-harapan">
+    <div class="juara-harapan">
       <span class="jh-label">Juara Harapan:</span>
       {#each runners as r, i (r?.name ?? i)}
-        <span class="jh-item">{abbreviateLembaga(r?.name)} — {fmtCount(flaggedCount(r))} paket</span>
-        {#if i < runners.length - 1}<span class="jh-sep"> · </span>{/if}
+        <div class="jh-row">{abbreviateLembaga(r?.name)} — {fmtT(flaggedPagu(r))}</div>
       {/each}
-    </p>
+    </div>
   {/if}
 </div>
 
@@ -119,13 +118,17 @@
     font-size: 0.85rem;
   }
   .juara-harapan {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.35rem;
     font-family: var(--mono);
     font-size: 0.8rem;
     color: var(--ink-3);
     margin: 0.25rem 0 0;
   }
-  .jh-label { color: var(--viz-red); margin-right: 0.5rem; }
+  .jh-label { color: var(--viz-red); font-weight: 600; }
+  .jh-row { color: var(--ink-3); }
 
   @media (min-width: 768px) {
     .rp { max-width: 44rem; gap: 1rem; min-height: 320px; }
