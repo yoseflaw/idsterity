@@ -1,6 +1,6 @@
 # idsterity
 
-A bilingual scrollytelling site that exposes the absurdity of Indonesian government procurement waste for 2026 — delivered with dark irony. The joke is the contrast: public promises of extreme fiscal efficiency versus what the procurement records actually show.
+A visual scrollytelling site that exposes the absurdity of Indonesian government procurement waste (automatic labeling by AI) — delivered with dark irony. The joke is the contrast: public promises of extreme fiscal efficiency versus what the procurement records actually show.
 
 🔗 **Live:** [yosef.id/sterity](https://yosef.id/sterity/)
 
@@ -38,12 +38,7 @@ The site walks the visitor through 8 sections — from macro framing (deficit, G
 
 ## Dataset
 
-The raw dataset (`inaproc-ds/outputs/`) is **not committed** (3.2 GB). Download and extract it into the project root:
-
-```bash
-curl -L "https://contenflowstorage.blob.core.windows.net/shared/gpt-5.4-analyzed-sirup.zip?sp=r&st=2026-04-16T12:00:08Z&se=2029-04-16T20:15:08Z&spr=https&sv=2025-11-05&sr=b&sig=m%2FATynnnZq5gSdP8xWWw2ew41EMJZz09fDQRwpbWolk%3D" -o sirup.zip
-unzip sirup.zip && rm sirup.zip
-```
+The raw dataset (`inaproc-ds/outputs/`) is **not committed** (3.2 GB). Download from this repo and extract it into the project root: [Nemesis](https://github.com/assai-id/nemesis).
 
 The raw data is ~123 partitioned shards of Indonesian LPSE/SIRUP procurement packages for 2026. Pre-aggregated JSON used by the dashboard is committed under `dashboard/public/data/` and is sufficient to run the site without the full dataset.
 
@@ -114,4 +109,4 @@ idsterity/
 
 ## License
 
-Data sourced from [LPSE/SIRUP](https://sirup.lkpp.go.id/) — Indonesia's public procurement system. Open government data.
+Data sourced from [LPSE/SIRUP](https://sirup.lkpp.go.id/) — Indonesia's public procurement system.
