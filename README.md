@@ -1,25 +1,38 @@
 # idsterity
 
-A scrollytelling visualization for Indonesian government procurement data (SIRUP 2026). Built to surface patterns in public spending — waste potential, institutional rankings, and flagged procurement.
+A bilingual scrollytelling site that exposes the absurdity of Indonesian government procurement waste for 2026 — delivered with dark irony. The joke is the contrast: public promises of extreme fiscal efficiency versus what the procurement records actually show.
 
-> Visual direction and UX inspired by [The Pudding](https://pudding.cool/2023/07/songwriters/) — narrative-first, scroll-driven data stories with sticky visualizations that evolve as you read.
+🔗 **Live:** [yosef.id/sterity](https://yosef.id/sterity/)
+
+> Visual direction inspired by [The Pudding](https://pudding.cool/) — narrative-first, scroll-driven data stories with sticky visualizations that evolve as you read.
 >
-> Dataset sourced from [assai-id/nemesis](https://github.com/assai-id/nemesis).
+> Data context and link-outs powered by [nemesis.assai.id](https://nemesis.assai.id/) ([assai-id/nemesis](https://github.com/assai-id/nemesis)).
 
 ---
 
-## Dashboard
+## What it covers
 
-The current POC answers: **which institutions have the largest SIRUP budget allocation for 2026?**
+The site walks the visitor through 8 sections — from macro framing (deficit, GDP) down to specific procurement packages — and ends on a share prompt.
 
-![Bar chart ranking top 30 Indonesian government institutions by total procurement budget](dashboard/public/data/lembaga-totals.json)
+1. Hook — the headline number
+2. Defisit APBN (deficit chart)
+3. PDB Indonesia (GDP chart)
+4. Janji efisiensi vs. realita
+5. Sang "Juara" — 5 lembaga dengan anggaran terbesar
+6. Sang Juara Bermasalah — peringkat ulang berdasarkan pagu bermasalah
+7. Pesta Seblak — Rp 14.3T bermasalah, divisualkan sebagai gelas kopi / mangkok seblak / SD / Puskesmas
+8. Beli apa sih? — word cloud + paket cards
+9. Bagikan — share + link out to Nemesis & GitHub
 
-**Stack**: Vite · Svelte 5 · D3.js
+---
 
-**Features so far**:
-- Horizontal bar chart, top 30 institutions ranked by total `pagu`
-- Color-coded by government level (pusat / provinsi / kab-kota)
-- Pre-aggregated static JSON — no backend needed
+## Stack
+
+- **Vite 5** + **Svelte 5** (runes: `$state`, `$derived`, `$props`)
+- **D3 7** for chart math
+- **Scrollama** for scroll-step triggers
+- **Python 3.11** (stdlib only) for offline data aggregation
+- No backend, no runtime API — fully static after `vite build`
 
 ---
 
@@ -32,22 +45,22 @@ curl -L "https://contenflowstorage.blob.core.windows.net/shared/gpt-5.4-analyzed
 unzip sirup.zip && rm sirup.zip
 ```
 
-It contains ~123 partitioned shards of Indonesian LPSE/SIRUP procurement packages for 2026, each partition producing:
+The raw data is ~123 partitioned shards of Indonesian LPSE/SIRUP procurement packages for 2026. Pre-aggregated JSON used by the dashboard is committed under `dashboard/public/data/` and is sufficient to run the site without the full dataset.
 
-| File | Format | Contents |
-|---|---|---|
-| `year-2026.part-NNNNN.jsonl` | JSONL | Full records |
-| `year-2026.part-NNNNN.csv` | CSV | Flattened records |
-| `year-2026.part-NNNNN_priority.json` | JSON array | High-risk flagged subset |
-| `year-2026.part-NNNNN_failures.csv` | CSV | Processing failures |
+| Key field | Description |
+|---|---|
+| `lembaga` | Procuring institution |
+| `pagu` | Budget ceiling (IDR) |
+| `ownerType` | `central`, `provinsi`, or `kabkota` |
+| `jenisPengadaan` | Procurement type (goods, construction, services) |
+| `potensiPemborosan` | Waste-potential score |
+| `tags.isInappropriate` | Anomaly flag: `low`, `med`, `high`, `absurd` |
 
-The pre-aggregated data used by the dashboard (`dashboard/public/data/lembaga-totals.json`) **is** committed and sufficient to run the dashboard without the full dataset.
+See `CLAUDE.md` for the full schema.
 
 ---
 
-## Setup
-
-### Run the dashboard (no raw data needed)
+## Run locally
 
 ```bash
 cd dashboard
@@ -55,49 +68,47 @@ npm install
 npm run dev
 ```
 
-Open `http://localhost:5173`.
+Open `http://localhost:5173/sterity/` (the app is base-pathed to `/sterity/` for subdirectory deployment).
 
-### Regenerate dashboard data from raw shards
+### Build for production
 
-Requires the full dataset in `inaproc-ds/outputs/`. Needs [uv](https://docs.astral.sh/uv/).
+```bash
+cd dashboard
+npm run build
+```
+
+Output lands in `dashboard/dist/` — static HTML + JS + CSS + JSON, deployable to any static host. The included `.htaccess` handles SPA fallback for Apache subdirectory hosts.
+
+### Regenerate the aggregated data
+
+Requires the full raw dataset in `inaproc-ds/outputs/` and [uv](https://docs.astral.sh/uv/):
 
 ```bash
 uv run dashboard/scripts/prepare-data.py
 ```
 
-This re-writes `dashboard/public/data/lembaga-totals.json`.
+Re-writes the JSON files under `dashboard/public/data/`.
 
 ---
 
-## Project Structure
+## Project structure
 
 ```
 idsterity/
-├── dashboard/                  # Vite + Svelte visualization app
-│   ├── public/data/            # Pre-aggregated JSON (committed)
-│   ├── scripts/
-│   │   └── prepare-data.py     # Aggregates raw shards → JSON
-│   └── src/
-│       ├── App.svelte          # Root component, data loading
-│       └── BarChart.svelte     # D3 horizontal bar chart
-└── inaproc-ds/
-    └── outputs/                # Raw dataset (not committed, 3.2 GB)
+├── dashboard/                       # Vite + Svelte app (the site)
+│   ├── public/data/                 # Pre-aggregated JSON (committed)
+│   ├── scripts/prepare-data.py      # Raw shards → aggregated JSON
+│   ├── src/
+│   │   ├── App.svelte               # Page layout, scroll-step state
+│   │   ├── DeficitChart.svelte      # Section 2 chart
+│   │   ├── GDPChart.svelte          # Section 3 chart
+│   │   ├── Podium.svelte            # Section 5 podium (top-5)
+│   │   ├── ReversePodium.svelte     # Section 6 podium (flagged-pagu)
+│   │   ├── WordPaketCards.svelte    # Section 8 word→paket cards
+│   │   └── Modal.svelte             # Mobile word-cards modal
+│   └── vite.config.js               # base: '/sterity/'
+└── inaproc-ds/outputs/              # Raw dataset (not committed, 3.2 GB)
 ```
-
----
-
-## Key Dataset Fields
-
-| Field | Description |
-|---|---|
-| `lembaga` | Procuring institution |
-| `pagu` | Budget ceiling (IDR) |
-| `ownerType` | `central`, `provinsi`, or `kabkota` |
-| `jenisPengadaan` | Procurement type (goods, construction, services) |
-| `potensiPemborosan` | Waste-potential score |
-| `tags.isInappropriate` | Anomaly flag: `low`, `med`, `high` |
-
-See `CLAUDE.md` for the full schema.
 
 ---
 

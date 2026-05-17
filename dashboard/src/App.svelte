@@ -1038,7 +1038,15 @@
                 href="https://nemesis.assai.id/"
                 target="_blank"
                 rel="noopener noreferrer">Nemesis</a
-            >
+            >.
+        </p>
+        <p class="share-nemesis">
+            Kode idsterity tersedia di
+            <a
+                href="https://github.com/yoseflaw/idsterity"
+                target="_blank"
+                rel="noopener noreferrer">github</a
+            >.
         </p>
         <p class="eyebrow">Waktunya benar-benar berhemat, sebelum terlambat.</p>
         <div class="share-row">
