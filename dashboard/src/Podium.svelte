@@ -132,6 +132,9 @@
   .jh-row {
     color: var(--ink-3);
   }
+  @media (max-width: 767px) {
+    .juara-harapan { display: none; }
+  }
   @media (max-width: 480px) {
     .col { max-width: 6rem; }
     .value { font-size: 0.85rem; }

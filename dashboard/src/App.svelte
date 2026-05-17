@@ -435,12 +435,23 @@
                 <div class="step-card">
                     <p>
                         Sejak awal 2024, pemerintah telah mengumbar janji
-                        pemotongan berbagai biaya yang tidak perlu. Melalui
-                        Inpres Nomor 1 Tahun 2025 tentang Efisiensi Belanja,
-                        rakyat Indonesia diberi harapan. Sayangnya, kumpulan
-                        berita berikut memberi kesan berbeda:
+                        pemotongan berbagai biaya yang tidak perlu. Pada tahun
+                        2025, rakyat mendapat harapan melalui Inpres Nomor 1
+                        Tahun 2025 tentang Efisiensi Belanja. Sayangnya, realita
+                        mulai menyadarkan kita akan realita yang pahit.
                     </p>
                     <ul class="news-links">
+                        <li>
+                            <a
+                                href="https://www.tempo.co/politik/penghematan-anggaran-kementerian-dan-lembaga-untuk-program-prioritas-prabowo-1198055"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="news-link"
+                            >
+                                Penghematan Anggaran Kementerian dan Lembaga
+                                untuk Program Prioritas Prabowo
+                            </a>
+                        </li>
                         <li>
                             <a
                                 href="https://www.bbc.com/indonesia/articles/cly057k79vlo"
@@ -454,52 +465,16 @@
                         </li>
                         <li>
                             <a
-                                href="https://www.cnnindonesia.com/nasional/20250217135126-20-1199215/mahasiswa-bali-geruduk-dprd-tolak-pemotongan-anggaran-pendidikan"
+                                href="https://www.economist.com/leaders/2026/05/14/indonesia-the-biggest-muslim-majority-country-is-on-a-risky-path"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 class="news-link"
                             >
-                                Mahasiswa Bali Geruduk DPRD, Tolak Pemotongan
-                                Anggaran Pendidikan
-                            </a>
-                        </li>
-                        <li>
-                            <a
-                                href="https://www.hukumonline.com/berita/a/efisiensi-anggaran-ganggu-pelayanan-publik--pendidikan-hingga-infrastruktur-dasar-lt67b2ff43ea76d/"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                class="news-link"
-                            >
-                                Efisiensi Anggaran Ganggu Pelayanan Publik,
-                                Pendidikan Hingga Infrastruktur Dasar
-                            </a>
-                        </li>
-                        <li>
-                            <a
-                                href="https://www.kompas.com/properti/read/2026/05/10/161817121/saat-nyawa-rakyat-tergilas-efisiensi-anggaran-negara"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                class="news-link"
-                            >
-                                Saat Nyawa Rakyat Tergilas Efisiensi Anggaran
-                                Negara
-                            </a>
-                        </li>
-                        <li>
-                            <a
-                                href="https://www.tempo.co/politik/penghematan-anggaran-kementerian-dan-lembaga-untuk-program-prioritas-prabowo-1198055"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                class="news-link"
-                            >
-                                Penghematan Anggaran Kementerian dan Lembaga
-                                untuk Program Prioritas Prabowo
+                                Indonesia, the biggest Muslim-majority country,
+                                is on a risky path
                             </a>
                         </li>
                     </ul>
-                    <p class="s1-disclaimer">
-                        Tautan menuju kanal berita terkait.
-                    </p>
                 </div>
             </div>
         </div>
@@ -508,7 +483,7 @@
     <!-- ━━━ S2 APBN DEFICIT ━━━ -->
     <section class="scrolly" data-section="s2" id="s2">
         <div class="sticky-col" class:chart--dimmed={s2ChartDimmed}>
-            <div class="eyebrow">Bagian 2: APBN KITA, bukan APBN SAYA</div>
+            <div class="eyebrow">Bagian 2: APBN KITA, bukan APBN ANDA</div>
             <DeficitChart data={constants?.apbn?.deficit} step={activeStepS2} />
             <div class="step-indicator" aria-hidden="true">
                 {#each [0, 1, 2, 3] as s}
@@ -524,8 +499,8 @@
                     <h3>2024: Rp 507,8 T</h3>
                     <p>
                         Pada tahun 2024, defisit APBN mencapai Rp 507,8 triliun
-                        (2,29% dari PDB), bagaimana jadinya setelah
-                        gembar-gembor efisiensi?
+                        (2,29% dari PDB), bagaimana jadinya setelah Inpres
+                        terbit?
                     </p>
                     <a
                         class="source-link"
@@ -545,7 +520,7 @@
                     <h3>2025: Rp 695,1 T</h3>
                     <p>
                         Realisasi APBN 2025: defisit justru melebar ke Rp 695,1
-                        triliun (2,92% dari PDB). Angan-angan penghematan mulai
+                        triliun (2,92% dari PDB). Angan-angan penghematan pudar
                         tertiup angin.
                     </p>
                     <a
@@ -566,7 +541,7 @@
                     <h3>Q1 2026: Rp 240 T</h3>
                     <p>
                         Baru tiga bulan 2026, defisit sudah mencapai Rp 240
-                        triliun. Belanja apa aja sih?
+                        triliun...
                     </p>
                     <a
                         class="source-link"
@@ -586,7 +561,8 @@
                     <h3>Proyeksi defisit tahunan</h3>
                     <p>
                         Kalau lanjut begini terus, defisit tahunan bisa mencapai
-                        Rp960T!
+                        Rp960T, mengutip kata-kata seseorang: bocor, bocor,
+                        bocor!
                     </p>
                     <a
                         class="source-link"
@@ -605,7 +581,7 @@
     <!-- ━━━ S3 GDP CONSUMPTION ━━━ -->
     <section class="scrolly" data-section="s3" id="s3">
         <div class="sticky-col" class:chart--dimmed={s3ChartDimmed}>
-            <div class="eyebrow">Bagian 3: Defisit karena apa?</div>
+            <div class="eyebrow">Bagian 3: Ketika Pemborosan Dirayakan</div>
             <GDPChart
                 data={constants?.gdp?.konsumsi_pemerintah}
                 step={activeStepS3}
@@ -623,8 +599,8 @@
                     <span class="step-num">1 / 4</span>
                     <h3>Q1 2025: −1,38%</h3>
                     <p>
-                        Awal 2025, konsumsi pemerintah memang menyusut 1,38%
-                        YoY. Ini namanya fase bulan madu.
+                        Sebenarnya konsumsi pemerintah telah menyusut 1% lebih
+                        YoY pada tahun 2025.
                     </p>
                     <a
                         class="source-link"
@@ -633,7 +609,7 @@
                                 s.field === "gdp.konsumsi_pemerintah.q1_2025",
                         )?.url ?? "#"}
                         target="_blank"
-                        rel="noopener noreferrer">Sumber: BPS</a
+                        rel="noopener noreferrer">Sumber: Tempo</a
                     >
                 </div>
             </div>
@@ -641,10 +617,10 @@
             <div class="step" data-step="1">
                 <div class="step-card">
                     <span class="step-num">2 / 4</span>
-                    <h3>Q2 2025: +21,05%</h3>
+                    <h3>Q2 2025: -0.33%</h3>
                     <p>
-                        Satu kuartal kemudian, konsumsi pemerintah melonjak
-                        drastis 21,05% YoY.
+                        Satu kuartal kemudian, konsumsi pemerintah juga masih
+                        terjaga.
                     </p>
                     <a
                         class="source-link"
@@ -653,7 +629,7 @@
                                 s.field === "gdp.konsumsi_pemerintah.q2_2025",
                         )?.url ?? "#"}
                         target="_blank"
-                        rel="noopener noreferrer">Sumber: BPS</a
+                        rel="noopener noreferrer">Sumber: IDXNews</a
                     >
                 </div>
             </div>
@@ -663,8 +639,8 @@
                     <span class="step-num">3 / 4</span>
                     <h3>Q3–Q4 2025</h3>
                     <p>
-                        Lanjut lagi Q3 2025: +5,08%. Q4 2025: +4,41%. Secara
-                        konsistensi memang patut diapresiasi.
+                        Lanjut lagi Q3 2025: +5%. Q4 2025: +4%. Konsisten
+                        meningkat, makin jauh dari kata hemat.
                     </p>
                     <a
                         class="source-link"
@@ -673,7 +649,7 @@
                                 s.field === "gdp.konsumsi_pemerintah.q3_2025",
                         )?.url ?? "#"}
                         target="_blank"
-                        rel="noopener noreferrer">Sumber: BPS</a
+                        rel="noopener noreferrer">Sumber: Kemenkeu</a
                     >
                 </div>
             </div>
@@ -681,11 +657,11 @@
             <div class="step" data-step="3">
                 <div class="step-card">
                     <span class="step-num">4 / 4</span>
-                    <h3>Q1 2026: +21,81%</h3>
+                    <h3>Q1 2026: Meledak</h3>
                     <p>
-                        Awal 2026, konsumsi pemerintah tumbuh 21,81% YoY.
-                        Pemerintah berjanji efisiensi, perlu cek kamus
-                        sepertinya definisi kata ini sudah diganti.
+                        Awal 2026, konsumsi pemerintah meningkat hampir 22% di
+                        banding Q1 2025. Uniknya, kenaikan signifikan justru
+                        dirayakan sebagai kontributor pertumbuhan PDB.
                     </p>
                     <a
                         class="source-link"
@@ -704,14 +680,14 @@
     <!-- ━━━ S4 DATASET OVERVIEW ━━━ -->
     <section class="s4" data-section="s4" id="s4">
         <div class="s4-inner">
-            <div class="eyebrow">Bagian 4: Data Pengadaan</div>
-            <h2 class="s4-heading">Apa yang ada di dataset ini?</h2>
+            <div class="eyebrow">Bagian 4: Data SIRUP</div>
+            <h2 class="s4-heading">SIRUP yang ini tidak semanis biasanya</h2>
 
             <div class="s4-stats-grid">
                 <div class="s4-stat-cell">
                     {#if stats}
                         <div class="s4-stat-number">Rp 642T</div>
-                        <div class="s4-stat-label">Total pagu pengadaan</div>
+                        <div class="s4-stat-label">Total pagu</div>
                     {:else}
                         <div class="s4-stat-number loading-pulse">--</div>
                         <div class="s4-stat-label">memuat...</div>
@@ -720,7 +696,7 @@
                 <div class="s4-stat-cell">
                     {#if stats}
                         <div class="s4-stat-number">3.000.000</div>
-                        <div class="s4-stat-label">Paket pengadaan</div>
+                        <div class="s4-stat-label">Paket</div>
                     {:else}
                         <div class="s4-stat-number loading-pulse">--</div>
                         <div class="s4-stat-label">memuat...</div>
@@ -728,7 +704,9 @@
                 </div>
             </div>
 
-            <h3 class="s4-breakdown-heading">Menurut keyakinan AI</h3>
+            <h3 class="s4-breakdown-heading">
+                Label pengadaan menurut keyakinan AI:
+            </h3>
 
             <ul class="s4-breakdown">
                 <li class="s4-row">
@@ -749,7 +727,7 @@
                 </li>
                 <li class="s4-row">
                     <span class="s4-dot" style="background: var(--red)"></span>
-                    <span class="s4-row-label">Bermasalah</span>
+                    <span class="s4-row-label">High</span>
                     <span class="s4-row-count"
                         >{stats ? fmtNum(stats.labelCounts.high) : "--"}
                         paket</span
@@ -761,7 +739,7 @@
                 <li class="s4-row">
                     <span class="s4-dot" style="background: var(--amber)"
                     ></span>
-                    <span class="s4-row-label">Perlu dicermati</span>
+                    <span class="s4-row-label">Medium</span>
                     <span class="s4-row-count"
                         >{stats ? fmtNum(stats.labelCounts.med) : "--"}
                         paket</span
@@ -774,10 +752,10 @@
 
             <p class="s4-disclaimer">
                 Label dihasilkan oleh <a
-                    href="https://nemesis.assai.id/"
+                    href="https://nemesis.assai.id/algoritma"
                     target="_blank"
                     rel="noopener">model AI</a
-                > yang sangat amat mungkin salah. Bukan referensi hukum.
+                > yang sangat amat mungkin keliru. Bukan referensi hukum.
             </p>
         </div>
     </section>
@@ -785,9 +763,9 @@
     <!-- ━━━ S5+S6 INSTITUTIONS ━━━ -->
     <section class="scrolly" data-section="s5" id="s5">
         <div class="sticky-col">
-            <div class="eyebrow">Bagian 5: Sang Juara</div>
+            <div class="eyebrow">Bagian 5: Sang "Juara"</div>
             <h2 class="s5-sticky-heading">
-                5 lembaga dengan anggaran terbesar
+                5 lembaga dengan anggaran pengadaan terbesar
             </h2>
             <Podium data={lembaga.slice(0, 5)} />
         </div>
@@ -797,8 +775,10 @@
                 <div class="step-card">
                     <h3>Siapa yang belanja paling besar?</h3>
                     <p>
-                        Lima lembaga pemerintah dengan anggaran pengadaan
-                        terbesar tahun 2026.
+                        Mengacu pada pagu, Kementerian Pertahanan menempati
+                        peringkat pertama dengan total pagu mencapai Rp 50T
+                        lebih. Kementerian PU dan Kemenkes menyusul,
+                        masing-masing RP 40T dan Rp37T.
                     </p>
                 </div>
             </div>
@@ -818,11 +798,12 @@
         <div class="steps-col">
             <div class="step" data-step="0">
                 <div class="step-card">
-                    <h3>Urutkan ulang berdasarkan pagu bermasalah</h3>
+                    <h3>Ratusan hingga triliunan dianggap bermasalah</h3>
                     <p>
-                        Sekarang kita beralih dari "siapa belanja paling besar"
-                        ke "siapa yang paling banyak ditandai bermasalah". Top 5
-                        berubah.
+                        Pemkot Medan menjadi juara umum anggaran bermasalah
+                        dengan total pagu RP 3.7T, disusul Kementerian
+                        Pertahanan di peringkat kedua dengan Rp 672M dan Kab.
+                        Kutai Timur dengan Rp515M.
                     </p>
                 </div>
             </div>
@@ -846,7 +827,7 @@
 
             <span class="s7-transition-label" aria-live="polite"
                 >{s7ShowTransition
-                    ? "Atau, Rp 7T penghematan untuk membangun..."
+                    ? "50% penghematan berarti Rp 7T yang bisa dialokasikan untuk:"
                     : ""}</span
             >
 
@@ -919,8 +900,7 @@
                     <p>
                         Rp 14,3 triliun total anggaran yang dinilai AI
                         bermasalah (high + absurd). Misal kita hemat 50%-nya
-                        saja, bisa untuk beliin semangkok seblak dan dua gelas
-                        kopi untuk setiap orang.
+                        saja, warga bisa Pesta Seblak!
                     </p>
                     <a
                         class="source-link"
@@ -944,11 +924,11 @@
             <div class="step" data-step="1">
                 <div class="step-card">
                     <span class="step-num">2 / 2</span>
-                    <h3>Atau, lebih serius...</h3>
+                    <h3>Atau, lebih seriusnya...</h3>
                     <p>
                         Penghematan yang sama bisa membangun ribuan SD atau
-                        ratusan puskesmas baru, yang berarti tambahan 2 SD dan 1
-                        Puskesmas per kota/kabupaten.
+                        ratusan puskesmas baru, yang berarti tambahan 3 sekolah
+                        dan 2 fasilitas kesehatan per kota/kabupaten.
                     </p>
                     <a
                         class="source-link"
@@ -1052,7 +1032,15 @@
 
     <!-- ━━━ BAGIAN 8: BAGIKAN ━━━ -->
     <section class="bagian-share">
-        <p class="eyebrow">Waktunya benar-benar berhemat. Mari bagikan:</p>
+        <p class="share-nemesis">
+            Periksa lebih lanjut detil paket di
+            <a
+                href="https://nemesis.assai.id/"
+                target="_blank"
+                rel="noopener noreferrer">Nemesis</a
+            >
+        </p>
+        <p class="eyebrow">Waktunya benar-benar berhemat, sebelum terlambat.</p>
         <div class="share-row">
             <button class="share-pill" onclick={shareX} type="button">
                 <!-- X / X-Twitter mark -->
@@ -1883,6 +1871,17 @@
         align-items: center;
         justify-content: center;
         text-align: center;
+    }
+
+    .share-nemesis {
+        font-family: var(--serif);
+        font-size: var(--size-body);
+        color: var(--ink-2);
+        margin: 0 0 var(--space-4);
+    }
+    .share-nemesis a {
+        color: var(--accent-soft);
+        text-decoration: underline;
     }
 
     .share-row {

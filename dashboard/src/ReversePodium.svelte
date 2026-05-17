@@ -138,6 +138,9 @@
     .pagu { font-size: 1rem; }
     .juara-harapan { font-size: 0.9rem; }
   }
+  @media (max-width: 767px) {
+    .juara-harapan { display: none; }
+  }
   @media (max-width: 480px) {
     .col { max-width: 6.5rem; }
     .pagu { font-size: 0.75rem; }

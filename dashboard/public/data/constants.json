@@ -11,7 +11,7 @@
   "gdp": {
     "konsumsi_pemerintah": {
       "q1_2025": -1.38,
-      "q2_2025": 21.05,
+      "q2_2025": -0.33,
       "q3_2025": 5.49,
       "q4_2025": 4.55,
       "q1_2026": 21.81
@@ -47,20 +47,20 @@
     },
     {
       "field": "gdp.konsumsi_pemerintah.q1_2025",
-      "url": "https://www.bps.go.id/en/pressrelease/2025/05/05/2431/ekonomi-indonesia-triwulan-i-2025-tumbuh-4-87-persen--y-on-y---ekonomi-indonesia-triwulan-i-2025-terkontraksi-0-98-persen--q-to-q--.html",
-      "label": "Pertumbuhan Ekonomi Indonesia Triwulan I 2025 — BPS (konsumsi pemerintah -1,38% YoY)",
+      "url": "https://www.tempo.co/ekonomi/pertumbuhan-ekonomi-kuartal-1-2025-negara-negara-ini-melambat-1464092",
+      "label": "Pertumbuhan Ekonomi Kuartal 1 2025 Negara-negara Ini Melambat",
       "accessed": "2026-05-15"
     },
     {
       "field": "gdp.konsumsi_pemerintah.q2_2025",
-      "url": "https://www.bps.go.id/en/pressrelease/2025/08/05/2455/ekonomi-indonesia-triwulan-ii-2025-tumbuh-4-04-persen--q-to-q---5-12-persen--y-on-y---semester-i-2025-tumbuh-4-99-persen--c-to-c--.html",
-      "label": "Pertumbuhan Ekonomi Indonesia Triwulan II 2025 — BPS (konsumsi pemerintah +21,05% YoY, tertinggi)",
+      "url": "https://www.idxchannel.com/economics/konsumsi-pemerintah-terkontraksi-033-persen-di-kuartal-ii-2025-ini-penyebabnya",
+      "label": "Konsumsi Pemerintah Terkontraksi 0,33 Persen di Kuartal II-2025, Ini Penyebabnya",
       "accessed": "2026-05-15"
     },
     {
       "field": "gdp.konsumsi_pemerintah.q3_2025",
-      "url": "https://www.bps.go.id/en/pressrelease/2025/11/05/2478/ekonomi-indonesia-triwulan-iii-2025-tumbuh-5-04-persen--y-on-y-.html",
-      "label": "Pertumbuhan Ekonomi Indonesia Triwulan III 2025 — BPS (konsumsi pemerintah +5,49% YoY)",
+      "url": "https://fiskal.kemenkeu.go.id/baca/2025/11/05/4561-pertumbuhan-ekonomi-berlanjut-lapangan-kerja-terbuka-lebih-luas-di-triwulan-iii-2025",
+      "label": "Pertumbuhan Ekonomi Berlanjut, Lapangan Kerja Terbuka Lebih Luas di Triwulan III 2025",
       "accessed": "2026-05-15"
     },
     {
@@ -86,7 +86,7 @@
       "sourceLabel": "Harga Menu Kopi Jago 2025 — hargamenu.net"
     },
     "seblak": {
-      "price": 15000,
+      "price": 23000,
       "label_id": "porsi seblak",
       "label_en": "portions of seblak",
       "source": "https://food.detik.com/info-kuliner/d-7083649/harga-seblak-lebih-dari-rp-40-ribu-disebut-mahal-berapa-kisarannya",

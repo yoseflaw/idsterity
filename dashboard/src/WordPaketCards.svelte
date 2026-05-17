@@ -1,6 +1,4 @@
 <script>
-  import { abbreviateLembaga } from "./lembagaAbbreviations.js";
-
   let { records = [], limit = 3 } = $props();
 
   function isAbsurd(r) {
@@ -65,7 +63,7 @@
     {#each top as rec, i (i)}
       {@const lbl = labelOf(rec)}
       <li class="card">
-        <div class="card-lembaga">{abbreviateLembaga(rec.lembaga)}</div>
+        <div class="card-lembaga">{rec.lembaga}</div>
         <div class="card-kapan">Kapan: {rec.pemilihanDate || '—'}</div>
         <div class="card-paket">{rec.paket || rec.name || "(tanpa nama)"}</div>
         <div class="card-foot">
