@@ -437,7 +437,7 @@
                         Sejak awal 2024, pemerintah telah mengumbar janji
                         pemotongan berbagai biaya yang tidak perlu. Pada tahun
                         2025, rakyat mendapat harapan melalui Inpres Nomor 1
-                        Tahun 2025 tentang Efisiensi Belanja. Sayangnya, realita
+                        Tahun 2025 tentang Efisiensi Belanja. Sayangnya, media
                         mulai menyadarkan kita akan realita yang pahit.
                     </p>
                     <ul class="news-links">
